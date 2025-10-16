@@ -12,8 +12,15 @@ pour les tumeurs oesograstrique, billiaire et
 pancreatique.
 Ce label a été délivré par l'institut National du Cancer (INCa).
 
-**Pantogether** comprend un centre coordonnateur (Brest) et
-23 centres de compétences régionaux 
- 
 
 ![](assets/carte.jpg)
+
+
+
+## Les membres
+
+des photos des membres ... 
+
+## Le réseau
+
+plein d'infos sur le reseau 
