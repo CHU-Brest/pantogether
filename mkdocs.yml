@@ -1,0 +1,20 @@
+
+site_name: Pantogether
+site_url: https://pantogether.fr
+
+nav:
+  - Accueil: index.md
+  - Recherche:
+    - recherche/protocole.md
+    - recherche/registre.md
+    - recherche/travaux.md
+
+theme:
+  name: material
+  palette:
+    scheme: default
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
