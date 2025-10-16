@@ -13,7 +13,7 @@ pancreatique.
 Ce label a été délivré par l'institut National du Cancer (INCa).
 
 **Pantogether** comprend un centre coordonnateur (Brest) et
-23 centres de compétences régionaux ..;
+23 centres de compétences régionaux 
  
 
-![](/assets/carte.jpg)
+![](assets/carte.jpg)
