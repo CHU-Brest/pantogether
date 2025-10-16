@@ -9,6 +9,12 @@ nav:
     - recherche/registre.md
     - recherche/travaux.md
 
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+
 theme:
   name: material
   palette:
