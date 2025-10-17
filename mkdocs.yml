@@ -5,6 +5,12 @@ repo_url: https://github.com/CHU-Brest/pantogether
 edit_uri: edit/main/docs/
 nav:
   - Accueil: index.md
+  - Espace patients: 
+     - Espace patients/Informations patients.md
+     - Espace patients/Associations de patients.md
+     - Espace patients/Agenda.md
+     - Espace patients/Communication.md
+     - Espace patients/Lexique.md
   - Recherche:
     - recherche/protocole.md
     - recherche/registre.md
