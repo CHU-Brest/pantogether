@@ -8,8 +8,6 @@ title: Bienvenue
 
 !!! warning "Site en construction"
 
-  Site en cours de construction
-
 
 
 **Pantogether** est le réseau national de référence
