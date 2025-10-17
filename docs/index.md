@@ -10,10 +10,12 @@ title: Bienvenue
 
 
 
-**Pantogether** est le réseau national de référence
-pour les tumeurs oesograstrique, biliaire et
-pancreatique.
-Ce label a été délivré par l'institut National du Cancer (INCa).
+Le projet de réseau d'excellence clinique **PAN-TOGETHER** vise à structurer et coordonner les 
+efforts dans la gestion des pathologies tumorales complexes de l’appareil digestif. Ce réseau, 
+organisé selon une structure arborescente, englobe trois branches principales basées sur les 
+localisations anatomiques ciblées : œsophage/jonction œso-gastrique, foie/voies biliaires et 
+pancréas. Chaque branche sera supervisée par un centre expert référent, garantissant une 
+couverture nationale étendue et homogène. 
 
 
 ![](assets/carte.jpg)
