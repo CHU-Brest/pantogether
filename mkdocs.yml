@@ -1,6 +1,7 @@
 
 site_name: Pantogether
 site_url: https://pantogether.fr
+repo_url: https://github.com/CHU-Brest/pantogether
 
 nav:
   - Accueil: index.md
@@ -31,3 +32,4 @@ theme:
     - navigation.tabs.sticky
     - navigation.sections
     - navigation.expand
+    - content.action.edit
