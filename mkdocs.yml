@@ -8,6 +8,8 @@ nav:
     - recherche/protocole.md
     - recherche/registre.md
     - recherche/travaux.md
+  - Contact:
+    - contact/contact.md
 
 markdown_extensions:
   - admonition
