@@ -13,7 +13,7 @@ title: Bienvenue
 
 
 **Pantogether** est le réseau national de référence
-pour les tumeurs oesograstrique, billiaire et
+pour les tumeurs oesograstrique, biliaire et
 pancreatique.
 Ce label a été délivré par l'institut National du Cancer (INCa).
 
