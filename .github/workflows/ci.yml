@@ -31,4 +31,5 @@ jobs:
           restore-keys: |
             mkdocs-material-
       - run: pip install mkdocs-material 
+      - run: echo "pantogether.fr" > CNAME
       - run: mkdocs gh-deploy --force
