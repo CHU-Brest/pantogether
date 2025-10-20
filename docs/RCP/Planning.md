@@ -1,5 +1,5 @@
 ---
-title: Réunions de concertation pluridisciplinaires
+title: Planning des Réunions de Concertation Pluridisciplinaires
 
 ---
 ## Oesophage et Jonction oesogastrique
