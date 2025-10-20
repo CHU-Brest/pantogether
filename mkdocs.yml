@@ -14,13 +14,13 @@ nav:
      - patients/lexique.md
   - Recherche:
     - recherche/protocole.md
-    - recherche/RCP.md
     - recherche/essaiscliniques.md
     - recherche/registre.md
     - recherche/travaux.md
     - recherche/communications:
         - communications/presse.md
         - communications/communicationsscientifiques.md
+  - RCP:
   - Agenda:
     - agenda/evenements.md
     - agenda/formationsprofessionnelles.md
