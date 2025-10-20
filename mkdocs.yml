@@ -10,18 +10,18 @@ nav:
      - patients/associationsdepatients.md
      - patients/agenda.md
      - patients/communication.md
-     - patients/web conferences.md
+     - patients/webconferences.md
      - patients/lexique.md
   - Recherche:
     - recherche/protocole.md
     - recherche/RCP.md
-    - recherche/essais cliniques.md
+    - recherche/essaiscliniques.md
     - recherche/registre.md
     - recherche/travaux.md
     - recherche/communications.md
   - Agenda:
     - agenda/evenemnts.md
-    - agenda/formations professionnelles.md
+    - agenda/formationsprofessionnelles.md
   - Contact:
     - contact/contact.md
 
