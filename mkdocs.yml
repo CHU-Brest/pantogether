@@ -6,11 +6,11 @@ edit_uri: edit/main/docs/
 nav:
   - Accueil: index.md
   - Patients: 
-     - patients/Informations.patients.md
-     - patients/Associations.de.patients.md
-     - patients/Agenda.md
-     - patients/Communication.md
-     - patients/Lexique.md
+     - patients/informations.md
+     - patients/associationsdepatients.md
+     - patients/agenda.md
+     - patients/communication.md
+     - patients/lexique.md
   - Recherche:
     - recherche/protocole.md
     - recherche/registre.md
