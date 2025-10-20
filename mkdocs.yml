@@ -14,6 +14,8 @@ nav:
      - patients/lexique.md
   - Recherche:
     - recherche/protocole.md
+    - recherche/RCP.md
+    - recherche/essais cliniques.md
     - recherche/registre.md
     - recherche/travaux.md
   - Agenda:
