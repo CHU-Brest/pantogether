@@ -15,6 +15,9 @@ nav:
     - recherche/protocole.md
     - recherche/registre.md
     - recherche/travaux.md
+  - Agenda:
+    - agenda/evenemnts.md
+    - agenda/formations professionnelles.md
   - Contact:
     - contact/contact.md
 
