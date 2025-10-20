@@ -18,7 +18,9 @@ nav:
     - recherche/essaiscliniques.md
     - recherche/registre.md
     - recherche/travaux.md
-    - recherche/communications.md
+    - recherche/communications/presse.md
+    - recherche/communications/communicationsscientifiques.md
+    
   - Agenda:
     - agenda/evenemnts.md
     - agenda/formationsprofessionnelles.md
