@@ -9,7 +9,7 @@ nav:
      - patients/informations.md
      - patients/associationsdepatients.md
      - patients/agenda.md
-     - patients/communication.md
+     - patients/communications.md
      - patients/webconferences.md
      - patients/lexique.md
   - Recherche:
@@ -22,7 +22,7 @@ nav:
     - recherche/communications/communicationsscientifiques.md
     
   - Agenda:
-    - agenda/evenemnts.md
+    - agenda/evenements.md
     - agenda/formationsprofessionnelles.md
   - Contact:
     - contact/contact.md
