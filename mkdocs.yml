@@ -7,7 +7,7 @@ nav:
   - Accueil: index.md
   - Patients: 
      - patients/informations.md
-     - patients/associationsdepatients.md
+     - patients/associations.md
      - patients/communications.md
      - patients/webconferences.md
      - patients/lexique.md
