@@ -18,8 +18,8 @@ nav:
     - recherche/registre.md
     - recherche/travaux.md
     - recherche/communications:
-        - communications/presse.md
-        - communications/communicationsscientifiques.md
+        - recherche/communications/presse.md
+        - recherche/communications/communicationsscientifiques.md
   - RCP:
     - RCP/planning.md
   - Agenda:
