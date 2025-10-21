@@ -17,7 +17,7 @@ nav:
     - recherche/essaiscliniques.md
     - recherche/registre.md
     - recherche/travaux.md
-    - recherche/communications:
+    - Communications:
         - recherche/communications/presse.md
         - recherche/communications/communicationsscientifiques.md
   - RCP:
