@@ -23,7 +23,7 @@ nav:
   - RCP:
     - RCP/planning.md
   - Agenda:
-    - agenda/evenements.md
+      - agenda/evenements.md
     - agenda/formations.md
   - Contact:
     - contact/contact.md
