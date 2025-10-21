@@ -8,10 +8,10 @@ nav:
   - Patients: 
      - patients/informations.md
      - patients/associationsdepatients.md
-     - patients/agenda.md
      - patients/communications.md
      - patients/webconferences.md
      - patients/lexique.md
+     - patients/evenements.md
   - Recherche:
     - recherche/protocole.md
     - recherche/essaiscliniques.md
