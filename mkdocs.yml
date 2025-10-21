@@ -6,24 +6,24 @@ edit_uri: edit/main/docs/
 nav:
   - Accueil: index.md
   - Patients: 
-     - patients/informations.md
-     - patients/associations.md
-     - patients/communications.md
-     - patients/webconferences.md
-     - patients/lexique.md
-     - patients/evenements.md
+    - patients/informations.md
+    - patients/associations.md
+    - patients/communications.md
+    - patients/webconferences.md
+    - patients/lexique.md
+    - patients/evenements.md
   - Recherche:
     - recherche/protocole.md
     - recherche/essaiscliniques.md
     - recherche/registre.md
     - recherche/travaux.md
     - Communications:
-        - recherche/communications/presse.md
-        - recherche/communications/communicationsscientifiques.md
+       - recherche/communications/presse.md
+       - recherche/communications/communicationsscientifiques.md
   - RCP:
     - RCP/planning.md
   - Agenda:
-      - agenda/evenements.md
+    - agenda/evenements.md
     - agenda/formations.md
   - Contact:
     - contact/contact.md
