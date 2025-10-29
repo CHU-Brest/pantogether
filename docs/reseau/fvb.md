@@ -63,7 +63,6 @@ Site web :
    Tel : 01 48 02 68 03  Fax : 01 48 02 62 02   
        
 Site web : https://foiecancer93.fr/   
-
     <details>
     <summary>Ressources de soin</summary>
 # **Plateaux techniques**
@@ -111,4 +110,5 @@ Site web : https://foiecancer93.fr/
           Tl : 01 48 02 40 52   
 <br>
 </details>
+
 
