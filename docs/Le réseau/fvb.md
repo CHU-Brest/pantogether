@@ -4,6 +4,49 @@ title: Foie et voies biliaires
 ---
 
 <details>
+<summary>Bourgogne-Franche-Comté</summary>
+<br>
+   <details>
+<summary>CHU Besançon</summary> 
+, Besançon
+
+Pr 
+Service 
+Tel :    
+       
+Secrétariat : 
+
+Tel :   Fax : 
+Site web : 
+    <details>
+    <summary>Ressources de soin</summary>
+    * **Plateaux techniques**
+  
+
+    * **Soins de support**
+
+<br>
+        </details>
+    <details>
+    <summary>Ressources humaines</summary>
+ * **IDEC** :        
+        
+        
+        Tel :  Fax :  
+* **IPA** :         
+           
+* **ARC** :         
+        
+        
+        Tel : 
+<br>
+       </details>
+<br>
+       </details>
+    <br>
+       </details>
+    
+<details>
 <summary>Ile de France</summary>
 <br>
    <details>
@@ -14,13 +57,15 @@ Pr GANNE-CARRIE Nathalie
 Service d'Hépatologie et d'oncologie Hépatique, Batiment Larrey A
 Tel : 01 48 02 62 94   
        
-Secrétariat : MOMMELE Peggy
+Secrétariat :   
+       MOMMELE Peggy
 peggy.mommele@aphp.fr
 Tel : 01 48 02 68 03  Fax : 01 48 02 62 02
+       
 Site web : https://foiecancer93.fr/
     <details>
     <summary>Ressources de soin</summary>
-    * **Plateaux techniques**
+# **Plateaux techniques**
 * Radiothérapie externe   
 * Radio-embolisation   
 * Radiologie interventionnelle   
@@ -35,9 +80,10 @@ Site web : https://foiecancer93.fr/
 * Plateau de réanimation   
 * Unité de recherche clinique propre à votre service   
 * Centre d'Investigation Clinique multithématique   
-* Centre de Diagnostic Rapide   
+* Centre de Diagnostic Rapide
+   
+# **Soins de support**
 
-* **Soins de support**
 * Diététique et nutrition   
 * Soutien psychologique du patient   
 * Soutien psychologique des proches et des aidants   
@@ -52,15 +98,15 @@ Site web : https://foiecancer93.fr/
         </details>
     <details>
     <summary>Ressources humaines</summary>
- * **IDEC** :        
-        YALA Fatima
-        fatima.yala@aphp.fr
-        Tel : 01 48 02 58 78 Fax : 01 48 02 62 02   
-* **IPA** :         
-        CHAUVEL Laura   
-* **ARC** :         
-        DONNEGER Séverine
-        severine.donneger@aphp.fr
-        Tl : 01 48 02 40 52
+ * **IDEC** : 
+      YALA Fatima   
+      fatima.yala@aphp.fr   
+      Tel : 01 48 02 58 78 Fax : 01 48 02 62 02
+* **IPA** :            
+        CHAUVEL Laura
+* **ARC** :   
+          DONNEGER Séverine   
+          severine.donneger@aphp.fr   
+          Tl : 01 48 02 40 52   
 <br>
 </details>
