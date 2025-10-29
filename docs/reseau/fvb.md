@@ -98,17 +98,18 @@ Site web : https://foiecancer93.fr/
         </details>
     <details>
     <summary>Ressources humaines</summary>
- * **IDEC** : 
+ # **IDEC**: 
       YALA Fatima   
       fatima.yala@aphp.fr   
       Tel : 01 48 02 58 78 Fax : 01 48 02 62 02
-* **IPA** :            
+* **IPA**:            
         CHAUVEL Laura
-* **ARC** :   
+* **ARC**:   
           DONNEGER Séverine   
           severine.donneger@aphp.fr   
           Tl : 01 48 02 40 52   
 <br>
 </details>
+
 
 
