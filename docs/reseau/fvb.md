@@ -1,6 +1,6 @@
 ---
 title: Foie et voies biliaires
-
+toc_depth: 2
 ---
 
 ## Bourgogne-Franche-Comté
@@ -92,6 +92,7 @@ Site web : https://foiecancer93.fr/
           Tl : 01 48 02 40 52   
 <br>
 </details>
+
 
 
 
