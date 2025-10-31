@@ -1,6 +1,5 @@
 ---
 title: Foie et voies biliaires
-toc_depth: 2
 ---
 
 ## Bourgogne-Franche-Comté
@@ -28,8 +27,16 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 #### ARC  
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
         
-<details>
-<summary>Ile de France</summary>
+
+## Ile de France
+
+## Normandie
+
+## Bretagne
+
+
+
+
 <br>
    <details>
 <summary>Bobigny APHP CHU Avicenne_Centre expert référent</summary> 
@@ -92,6 +99,7 @@ Site web : https://foiecancer93.fr/
           Tl : 01 48 02 40 52   
 <br>
 </details>
+
 
 
 
