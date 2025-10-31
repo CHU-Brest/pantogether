@@ -9,7 +9,7 @@ title: Foie et voies biliaires
 - Service: 
 - Tel: xxx   
 - Fax: xxx
-- Site web: https://www.chu-brest.fr
+- Site web: [https://www.chu-brest.fr](https://www.chu-brest.fr)
 
 ### Ressources de soin
 
@@ -99,6 +99,7 @@ Site web : https://foiecancer93.fr/
           Tl : 01 48 02 40 52   
 <br>
 </details>
+
 
 
 
