@@ -11,20 +11,20 @@ title: Foie et voies biliaires
 - Fax: xxx
 - Site web: [https://www.chu-brest.fr](https://www.chu-brest.fr)
 
-### Ressources de soin
+#### Ressources de soin
 
 #### Plateaux techniques
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
 #### Soins de support
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
 
-### Ressources humaines
+#### Ressources humaines
 
-#### IDEC
+##### IDEC
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat          
-#### IPA  
+##### IPA  
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-#### ARC  
+##### ARC  
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
         
 
@@ -99,6 +99,7 @@ Site web : https://foiecancer93.fr/
           Tl : 01 48 02 40 52   
 <br>
 </details>
+
 
 
 
