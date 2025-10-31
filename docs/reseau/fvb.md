@@ -3,49 +3,31 @@ title: Foie et voies biliaires
 
 ---
 
-<details>
-<summary>Bourgogne-Franche-Comté</summary>
-<br>
-   <details>
-<summary>CHU Besançon</summary> 
-, Besançon
+## Bourgogne-Franche-Comté
+### CHU Besançon
 
-Pr 
-Service 
-Tel :    
-       
-Secrétariat : 
+- Pr: Dr xxx
+- Service: 
+- Tel: xxx   
+- Fax: xxx
+- Site web: https://www.chu-brest.fr
 
-Tel :   Fax : 
-Site web : 
-    <details>
-    <summary>Ressources de soin</summary>
-    * **Plateaux techniques**
-  
+### Ressources de soin
 
-    * **Soins de support**
+#### Plateaux techniques
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+#### Soins de support
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
 
-<br>
-        </details>
-    <details>
-    <summary>Ressources humaines</summary>
- * **IDEC** :        
+### Ressources humaines
+
+#### IDEC
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat          
+#### IPA  
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+#### ARC  
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
         
-        
-        Tel :  Fax :  
-* **IPA** :         
-           
-* **ARC** :         
-        
-        
-        Tel : 
-<br>
-       </details>
-<br>
-       </details>
-    <br>
-       </details>
-    
 <details>
 <summary>Ile de France</summary>
 <br>
@@ -110,6 +92,7 @@ Site web : https://foiecancer93.fr/
           Tl : 01 48 02 40 52   
 <br>
 </details>
+
 
 
 
