@@ -3,7 +3,11 @@ title: Associations de patients
 
 ---
 
-# Foie et voies biliaires
+## Oesophage et Jonction oesogastrique
+
+## Foie et voies biliaires
 * [ALBI](<http://albi-france.org/>) : Association pour la lutte contre les maladies inflammatoires du foie et des voies biliaires
 * [FFH](<https://www.hemochromatose.org/>) : France Fer Hémochromatose
 * [SOS Hépatite](<https://soshepatites.org/>) : Hépatites et maladies du foie
+
+## Pancréas
