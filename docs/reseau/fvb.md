@@ -2,6 +2,12 @@
 title: Foie et voies biliaires
 ---
 
+## Auvergne-Rhône-Alpes
+### Clermont-Ferrand
+### Grenoble
+### Lyon
+### Saint-Etienne   
+    
 ## Bourgogne-Franche-Comté
 ### CHU Besançon
 
@@ -9,7 +15,7 @@ title: Foie et voies biliaires
 - Service: 
 - Tel: xxx   
 - Fax: xxx
-- Site web: [https://www.chu-brest.fr](https://www.chu-brest.fr)
+- Site web: 
 
 #### Ressources de soin
 
@@ -27,12 +33,55 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 ##### ARC  
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
         
-
-## Ile de France
-
-## Normandie
-
+### CHU Dijon   
+   
 ## Bretagne
+### Rennes   
+   
+## Centre-Val-de-Loire
+### Tours   
+   
+## DOM-TOM   
+### Pointe-à-Pitre
+   
+## Grand-Est
+### Nancy
+### Reims   
+   
+## Hauts-de-France
+### Amiens
+### Lille   
+   
+## Ile de France
+### Bobigny
+### Créteil
+### Clichy
+### Paris Cochin
+### Paris La Pitié salpetrière
+### Paris IMM
+### Saint-Cloud
+### Villejuif   
+   
+## Normandie
+### Caen
+### Rouen   
+   
+## Nouvelle-Aquitaine
+### Bordeaux
+### LImoges
+### Poitiers   
+   
+## Occitanie
+### Montpellier
+### Toulouse   
+   
+## Pays de la Loire
+### Angers
+### Nantes   
+   
+## Provence-Alpes-Côte d'Azur
+### NIce
+### Marseille
 
 
 
@@ -99,6 +148,7 @@ Site web : https://foiecancer93.fr/
           Tl : 01 48 02 40 52   
 <br>
 </details>
+
 
 
 
