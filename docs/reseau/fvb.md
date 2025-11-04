@@ -100,7 +100,8 @@ Site web : https://foiecancer93.fr/
 * Hôpital de jour de soins de support   
 * Espace de réflexion éthique  
 <br>
-</details>
+</details>   
+
 <details>
     <summary>Ressources humaines</summary>
  
@@ -110,13 +111,13 @@ Site web : https://foiecancer93.fr/
       fatima.yala@aphp.fr   
       Tel : 01 48 02 58 78 Fax : 01 48 02 62 02
 * **IPA**:
-          
-        CHAUVEL Laura
+
+  CHAUVEL Laura
 * **ARC**:
  
-          DONNEGER Séverine   
-          severine.donneger@aphp.fr   
-          Tl : 01 48 02 40 52   
+  DONNEGER Séverine   
+  severine.donneger@aphp.fr   
+  Tl : 01 48 02 40 52   
 <br>
 </details>   
 
@@ -214,6 +215,7 @@ Site web : https://foiecancer93.fr/
           Tl : 01 48 02 40 52   
 <br>
 </details>
+
 
 
 
