@@ -100,11 +100,11 @@ Site web : https://foiecancer93.fr/
 * Hôpital de jour de soins de support   
 * Espace de réflexion éthique  
 <br>
-        </details>
-    <details>
+</details>
+<details>
     <summary>Ressources humaines</summary>
  
- # **IDEC**:
+ * **IDEC**:
  
       YALA Fatima   
       fatima.yala@aphp.fr   
@@ -214,6 +214,7 @@ Site web : https://foiecancer93.fr/
           Tl : 01 48 02 40 52   
 <br>
 </details>
+
 
 
 
