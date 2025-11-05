@@ -69,7 +69,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
    Secrétariat :      
           MOMMELE Peggy   
    peggy.mommele@aphp.fr   
-   Tel : 01 48 02 68 03  Fax : 01 48 02 62 02   
+   Tel : 01 48 02 68 03  
+   Fax : 01 48 02 62 02   
        
 Site web : <https://foiecancer93.fr/>   
 <details>
@@ -89,9 +90,10 @@ Site web : <https://foiecancer93.fr/>
 * Plateforme d’anatomopathologie   
 * Plateforme d’imagerie   
 * Plateau de réanimation   
-* Unité de recherche clinique propre à votre service   
+* Unité de recherche clinique dédiée au service   
 * Centre d'Investigation Clinique multithématique   
 * Centre de Diagnostic Rapide
+* Transplantation hépatique via convention avec l'APHP Beaujon
    
 # **Soins de support**
 
@@ -101,7 +103,8 @@ Site web : <https://foiecancer93.fr/>
 * Accompagnement social, familial et professionnel   
 * Gestion de la douleur   
 * Onco-gériatrie   
-* Unité de soins palliatifs dévolue   
+* Unité de soins palliatifs dédiée
+* Unité mobile de soins palliatifs   
 * Préservation de la fertilité   
 * Hôpital de jour de soins de support   
 * Espace de réflexion éthique  
@@ -115,7 +118,9 @@ Site web : <https://foiecancer93.fr/>
  
       YALA Fatima   
       fatima.yala@aphp.fr   
-      Tel : 01 48 02 58 78 Fax : 01 48 02 62 02
+      Tel : 01 48 02 58 78   
+      Fax : 01 48 02 62 02
+   
 * **IPA**:
 
   CHAUVEL Laura
@@ -123,14 +128,92 @@ Site web : <https://foiecancer93.fr/>
  
   DONNEGER Séverine   
   severine.donneger@aphp.fr   
-  Tl : 01 48 02 40 52   
+  Tel : 01 48 02 40 52   
 <br>
 </details>   
 
 ### Créteil
 ### Clichy
 ### Paris Cochin
-### Paris La Pitié salpetrière
+### Paris La Pitié salpetrière   
+47-83, boulevard de l'Hôpital 
+75013 Paris
+   
+   Dr. ALLAIRE Manon 
+   Service d'hépato-gastroentérologie
+  
+   Secrétariat :      
+         GAUTIER Violaine
+violaine.gautier@aphp.fr
+Tel : 01 42 16 10 34   
+Fax : 01 42 16 11 60
+       
+Site web : <https://www.institutdufoie.com/>
+<details>
+    <summary>Ressources de soin</summary>
+
+# **Plateaux techniques**   
+    
+* Radiothérapie externe;
+* Radio-embolisation;
+* Radiologie interventionnelle;
+* Médecine nucléaire;
+* Chirurgie viscérale;
+* Chirurgie digestive de recours;
+* Chirurgie hépatique et transplantation hépatique;
+* Oncogénétique;
+* Plateforme de biologie moléculaire;
+* Plateforme d'anatomopathologie;
+* Plateforme d'imagerie;
+* Plateau de réanimation;
+* Centre de diagnostic rapide
+* Unité de recherche clinique dédiée au service
+* Centre d'Investigation Clinique multithématique du CHU
+* Accès aux études de phase I
+* Endoscopie interventionnelle via convention avec Hôpital Saint Antoine
+
+   
+# **Soins de support**
+
+* Diététique et nutrition
+* Soutien psychologique du patient
+* Soutien psychologique des proches et des aidants
+* Accompagnement social, familial et professionnel
+* Rééducation et activités physiques adaptées
+* Gestion de la douleur
+* Unité mobile de soins palliatifs
+* Onco-gériatrie
+* Conseils d'hygiène de vie
+* Hôpital de jour de soins de support
+* Espace de réflexion éthique
+  
+<br>
+</details>   
+
+<details>
+    <summary>Ressources humaines</summary>
+ 
+ * **IDEC**:
+ 
+      * BOSSON Cynthia    
+      cynthia.bosson@aphp.fr   
+      * DELIGNAT Sophie       
+      coordination-onco-hepato.psl@aphp.fr   
+      Tel : 01 84 82 71 44 (10H00-16H00)   
+      Fax: 01 42 16 11 60   
+
+* **IPA**:
+
+* **ARC**:
+ 
+   BEN HIDA Jaouad      
+   Tel: 01 42 16 14 19   
+   Tel : 01 84 82 80 90   
+   Fax: 01 42 17 80 83   
+  
+<br>
+</details>   
+
 ### Paris IMM
 ### Saint-Cloud
 ### Villejuif   
@@ -151,10 +234,84 @@ Site web : <https://foiecancer93.fr/>
 ## Pays de la Loire
 ### Angers
 ### Nantes   
+1 place Alexis Ricordeau
+44093 Nantes Cedex  
+   
+   Pr TOUCHEFEU Yann      
+   Service d'hépatogastroentérologie et oncologie digestive   
+   Tel : 02 40 08 31 63   
+       
+   Secrétariat :      
+          MENARD Corinne   
+   corine.menard@chu-nantes.fr
+Tel : 02 40 08 31 52   
+Fax : 02 40 08 31 54
+   
+<details>
+    <summary>Ressources de soin</summary>
+
+# **Plateaux techniques**   
+    
+* Radiologie interventionnelle
+* Endoscopie interventionnelle bilio-pancréatique
+* Médecine nucléaire
+* Chirurgie viscérale
+* Chirurgie digestive de recours
+* Oncogénétique
+* Plateforme de biologie moléculaire
+* Plateforme d'anatomopathologie
+* Plateforme d'imagerie
+* Plateau de réanimation
+* Centre de diagnostic rapide
+* Unité de recherche clinique dédiée au service
+* Centre d'Investigation Clinique multithématique du CHU
+* Accès aux études de phase I
+* Radiothérapie réalisée à l'institut de Cancérologie de l'Ouest (ICO)
+
+   
+# **Soins de support**
+
+* Diététique et nutrition
+* Soutien psychologique du patient
+* Soutien psychologique des proches et des aidants
+* Accompagnement social, familial et professionnel
+* Rééducation et activités physiques adaptées
+* Gestion de la douleur
+* Gestion de la fatigue
+* Unité de soins palliatifs dédiée
+* Unité mobile de soins palliatifs
+* Onco-gériatrie
+* Approches non conventionnelles (hypnose, acupuncture, sophrologie,...)
+* Gestion des troubles de la sexualité
+* Préservation de la fertilité
+* Conseils d'hygiène de vie
+* Ateliers d'art-thérapie
+* Espace de réflexion éthique
+ 
+<br>
+</details>   
+
+<details>
+    <summary>Ressources humaines</summary>
+ 
+ * **IDEC**:
+ 
+* **IPA**:
+
+* **ARC**:
+ 
+  PELUCHON Claire   
+  claire.peluchon@chu-nantes.fr   
+  Tel : 02 53 48 22 43   
+  Fax : 02 40 08 49 30   
+  
+<br>
+</details>   
    
 ## Provence-Alpes-Côte d'Azur
 ### NIce
 ### Marseille
+
 
 
 
