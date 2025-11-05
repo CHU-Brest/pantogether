@@ -17,22 +17,28 @@ title: Foie et voies biliaires
 - Fax: xxx
 - Site web: 
 
-#### Ressources de soin
+<details>
+    <summary>Ressources de soin</summary>
 
 #### Plateaux techniques
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
 #### Soins de support
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+<br>
+</details>   
 
-#### Ressources humaines
+<details>
+    <summary>Ressources humaines</summary>
 
-##### IDEC
+#### IDEC
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat          
-##### IPA  
+#### IPA  
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-##### ARC  
+#### ARC  
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-        
+<br>
+</details> 
+
 ### CHU Dijon   
    
 ## Bretagne
@@ -149,72 +155,6 @@ Site web : <https://foiecancer93.fr/>
 ## Provence-Alpes-Côte d'Azur
 ### NIce
 ### Marseille
-
-
-
-
-<br>
-   <details>
-<summary>Bobigny APHP CHU Avicenne_Centre expert référent</summary> 
-125 rue de Stalingrad, 93000 Bobigny   
-   
-   Pr GANNE-CARRIE Nathalie   
-   Service d'Hépatologie et d'oncologie Hépatique, Batiment Larrey A   
-   Tel : 01 48 02 62 94   
-       
-   Secrétariat :      
-          MOMMELE Peggy   
-   peggy.mommele@aphp.fr   
-   Tel : 01 48 02 68 03  Fax : 01 48 02 62 02   
-       
-Site web : https://foiecancer93.fr/   
-    <details>
-    <summary>Ressources de soin</summary>
-# **Plateaux techniques**
-* Radiothérapie externe   
-* Radio-embolisation   
-* Radiologie interventionnelle   
-* Médecine nucléaire   
-* Endoscopie interventionnelle bilio-pancréatique   
-* Chirurgie viscérale   
-* Chirurgie digestive de recours   
-* Oncogénétique   
-* Plateforme de biologie moléculaire   
-* Plateforme d’anatomopathologie   
-* Plateforme d’imagerie   
-* Plateau de réanimation   
-* Unité de recherche clinique propre à votre service   
-* Centre d'Investigation Clinique multithématique   
-* Centre de Diagnostic Rapide
-   
-# **Soins de support**
-
-* Diététique et nutrition   
-* Soutien psychologique du patient   
-* Soutien psychologique des proches et des aidants   
-* Accompagnement social, familial et professionnel   
-* Gestion de la douleur   
-* Onco-gériatrie   
-* Unité de soins palliatifs dévolue   
-* Préservation de la fertilité   
-* Hôpital de jour de soins de support   
-* Espace de réflexion éthique  
-<br>
-        </details>
-    <details>
-    <summary>Ressources humaines</summary>
- # **IDEC**: 
-      YALA Fatima   
-      fatima.yala@aphp.fr   
-      Tel : 01 48 02 58 78 Fax : 01 48 02 62 02
-* **IPA**:            
-        CHAUVEL Laura
-* **ARC**:   
-          DONNEGER Séverine   
-          severine.donneger@aphp.fr   
-          Tl : 01 48 02 40 52   
-<br>
-</details>
 
 
 
