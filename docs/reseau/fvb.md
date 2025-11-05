@@ -2,11 +2,11 @@
 title: Foie et voies biliaires
 ---
 
-# Auvergne-Rhône-Alpes
-## Clermont-Ferrand
-## Grenoble
-## Lyon
-## Saint-Etienne   
+## Auvergne-Rhône-Alpes
+### Clermont-Ferrand
+### Grenoble
+### Lyon
+### Saint-Etienne   
     
 ## Bourgogne-Franche-Comté
 ### CHU Besançon
@@ -59,15 +59,16 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 ### Lille   
    
 ## Ile de France
-### Bobigny, APHP CHU Avicenne_Centre expert référent      
-125 rue de Stalingrad, 93000 Bobigny   
-   
-   Pr GANNE-CARRIE Nathalie   
+<details>
+<summary>Bobigny, APHP CHU Avicenne_Centre expert référent</summary>   
+       125 rue de Stalingrad, 93000 Bobigny   
+       
+   **Pr GANNE-CARRIE Nathalie**   
    Service d'Hépatologie et d'oncologie Hépatique, Batiment Larrey A   
    Tel : 01 48 02 62 94   
        
    Secrétariat :      
-          MOMMELE Peggy   
+          **MOMMELE Peggy**   
    peggy.mommele@aphp.fr   
    Tel : 01 48 02 68 03  
    Fax : 01 48 02 62 02   
@@ -114,23 +115,25 @@ Site web : <https://foiecancer93.fr/>
 <details>
     <summary>Ressources humaines</summary>
  
- * **IDEC**:
+ * **Infirmier(e) de Coordination**:
  
       YALA Fatima   
       fatima.yala@aphp.fr   
       Tel : 01 48 02 58 78   
       Fax : 01 48 02 62 02
    
-* **IPA**:
+* **Infirmier(e) en Pratiques Avancées**:
 
   CHAUVEL Laura
-* **ARC**:
+* **Attaché(e) de Recherche Clinque** :
  
   DONNEGER Séverine   
   severine.donneger@aphp.fr   
   Tel : 01 48 02 40 52   
 <br>
-</details>   
+</details>
+<br>
+</details>
 
 ### Créteil
 ### Clichy
@@ -139,14 +142,14 @@ Site web : <https://foiecancer93.fr/>
 47-83, boulevard de l'Hôpital 
 75013 Paris
    
-   Dr. ALLAIRE Manon 
+   **Dr. ALLAIRE Manon**   
    Service d'hépato-gastroentérologie
   
    Secrétariat :      
-         GAUTIER Violaine
-violaine.gautier@aphp.fr
-Tel : 01 42 16 10 34   
-Fax : 01 42 16 11 60
+         **GAUTIER Violaine**   
+         violaine.gautier@aphp.fr   
+         Tel : 01 42 16 10 34   
+         Fax : 01 42 16 11 60
        
 Site web : <https://www.institutdufoie.com/>
 <details>
@@ -193,7 +196,7 @@ Site web : <https://www.institutdufoie.com/>
 <details>
     <summary>Ressources humaines</summary>
  
- * **IDEC**:
+ * **Infirmier(e) de Coordination**:
  
       * BOSSON Cynthia    
       cynthia.bosson@aphp.fr   
@@ -202,9 +205,9 @@ Site web : <https://www.institutdufoie.com/>
       Tel : 01 84 82 71 44 (10H00-16H00)   
       Fax: 01 42 16 11 60   
 
-* **IPA**:
+* **Infirmier(e) en Patiques Avancées**:
 
-* **ARC**:
+* **Attaché(e) de Recherche Clinque**:
  
    BEN HIDA Jaouad      
    Tel: 01 42 16 14 19   
@@ -237,15 +240,15 @@ Site web : <https://www.institutdufoie.com/>
 1 place Alexis Ricordeau
 44093 Nantes Cedex  
    
-   Pr TOUCHEFEU Yann      
-   Service d'hépatogastroentérologie et oncologie digestive   
+   **Pr TOUCHEFEU Yann**      
+   Service d'hépatogastroentérologie et oncologie digestive         
    Tel : 02 40 08 31 63   
        
    Secrétariat :      
-          MENARD Corinne   
-   corine.menard@chu-nantes.fr
-Tel : 02 40 08 31 52   
-Fax : 02 40 08 31 54
+          **MENARD Corinne**   
+          corine.menard@chu-nantes.fr   
+          Tel : 02 40 08 31 52   
+          Fax : 02 40 08 31 54
    
 <details>
     <summary>Ressources de soin</summary>
@@ -294,14 +297,14 @@ Fax : 02 40 08 31 54
 <details>
     <summary>Ressources humaines</summary>
  
- * **IDEC**:
+ * **Infirmier(e) de Coordination**:
  
-* **IPA**:
+* **Infirmier(e) en Pratiques Avancées**:
 
-* **ARC**:
+* **Attaché(e) de Recherche Clinique**:
  
-  PELUCHON Claire   
-  claire.peluchon@chu-nantes.fr   
+  PELUCHON Claire      
+  claire.peluchon@chu-nantes.fr      
   Tel : 02 53 48 22 43   
   Fax : 02 40 08 49 30   
   
@@ -311,6 +314,7 @@ Fax : 02 40 08 31 54
 ## Provence-Alpes-Côte d'Azur
 ### NIce
 ### Marseille
+
 
 
 
