@@ -78,23 +78,24 @@ Site web : <https://foiecancer93.fr/>
     <summary>Ressources de soin</summary>
 
 # **Plateaux techniques**   
-    
-* Radiothérapie externe   
-* Radio-embolisation   
-* Radiologie interventionnelle   
-* Médecine nucléaire   
-* Endoscopie interventionnelle bilio-pancréatique   
-* Chirurgie viscérale   
-* Chirurgie digestive de recours   
-* Oncogénétique   
-* Plateforme de biologie moléculaire   
-* Plateforme d’anatomopathologie   
-* Plateforme d’imagerie   
-* Plateau de réanimation   
-* Unité de recherche clinique dédiée au service   
-* Centre d'Investigation Clinique multithématique   
-* Centre de Diagnostic Rapide
-* Transplantation hépatique via convention avec l'APHP Beaujon
+<ul>
+<li>Radiothérapie externe</li>   
+<li>Radio-embolisation</li>   
+<li>Radiologie interventionnelle</li>   
+<li>Médecine nucléaire</li>   
+<li>Endoscopie interventionnelle bilio-pancréatique</li>   
+<li>Chirurgie viscérale</li>
+<li>Chirurgie digestive de recours</li>   
+<li>Oncogénétique</li>   
+<li>Plateforme de biologie moléculaire</li>   
+<li>Plateforme d’anatomopathologie</li>   
+<li>Plateforme d’imagerie</li>   
+<li>Plateau de réanimation</li>   
+<li>Unité de recherche clinique dédiée au service</li>   
+<li>Centre d'Investigation Clinique multithématique</li>   
+<li>Centre de Diagnostic Rapide</li>
+<li>Transplantation hépatique via convention avec l'APHP Beaujon</li>
+</ul>
    
 # **Soins de support**
 
@@ -314,6 +315,7 @@ Site web : <https://www.institutdufoie.com/>
 ## Provence-Alpes-Côte d'Azur
 ### Nice
 ### Marseille
+
 
 
 
