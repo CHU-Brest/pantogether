@@ -2,11 +2,11 @@
 title: Foie et voies biliaires
 ---
 
-## Auvergne-Rhône-Alpes
-### Clermont-Ferrand
-### Grenoble
-### Lyon
-### Saint-Etienne   
+# Auvergne-Rhône-Alpes
+## Clermont-Ferrand
+## Grenoble
+## Lyon
+## Saint-Etienne   
     
 ## Bourgogne-Franche-Comté
 ### CHU Besançon
@@ -311,6 +311,7 @@ Fax : 02 40 08 31 54
 ## Provence-Alpes-Côte d'Azur
 ### NIce
 ### Marseille
+
 
 
 
