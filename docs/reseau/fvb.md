@@ -76,7 +76,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <details>
     <summary>Ressources de soin</summary>
 
-<Plateaux techniques>   
+<B>Plateaux techniques</B>     
 <ul>
 <li>Radiothérapie externe</li>   
 <li>Radio-embolisation</li>   
@@ -97,7 +97,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <li>Transplantation hépatique via convention avec l'APHP Beaujon</li>
 </ul>
    
-'<Soins de support>'
+<B>Soins de support</B>
 
 <ul>
 <li>Diététique et nutrition</li>      
@@ -119,28 +119,28 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
     <summary>Ressources humaines</summary>
  
     <ul>
-<li>Infirmier(e) de Coordination:</li>
- 
+<li><B>Infirmier(e) de Coordination:</B></li>
+ <br>
 YALA Fatima   
-
+<br>
 fatima.yala@aphp.fr   
-
+<br>
 Tel : 01 48 02 58 78   
-
+<br>
 Fax : 01 48 02 62 02
-   
+  <br> 
 <li>Infirmier(e) en Pratiques Avancées:</li>
-
+<br>
   CHAUVEL Laura   
-    
+    <br>
 <li>Attaché(e) de Recherche Clinque:</li>
- 
+ <br>
   DONNEGER Séverine   
-  
+  <br>
   severine.donneger@aphp.fr   
-  
+  <br>
   Tel : 01 48 02 40 52   
-  
+  <br>
 </ul>
 
 <br>
@@ -167,7 +167,7 @@ Fax : 01 48 02 62 02
 <details>
     <summary>Ressources de soin</summary>
 
-Plateaux techniques   
+<B>Plateaux techniques</B>   
 
 <ul>
 <li>Radiothérapie externe</li>      
@@ -190,7 +190,7 @@ Plateaux techniques
 </ul>
 
    
-Soins de support
+<B>Soins de support</B>
 
 <ul>
 <li>Diététique et nutrition</li>      
@@ -212,23 +212,23 @@ Soins de support
 <details>
     <summary>Ressources humaines</summary>
  
- * Infirmier(e) de Coordination:
- 
-      * BOSSON Cynthia    
-      cynthia.bosson@aphp.fr   
-      * DELIGNAT Sophie       
-      coordination-onco-hepato.psl@aphp.fr   
-      Tel : 01 84 82 71 44 (10H00-16H00)   
-      Fax: 01 42 16 11 60   
+ * <B>Infirmier(e) de Coordination :</B>
+ <br>
+      * BOSSON Cynthia   <br> 
+      cynthia.bosson@aphp.fr   <br>
+      * DELIGNAT Sophie       <br>
+      coordination-onco-hepato.psl@aphp.fr   <br>
+      Tel : 01 84 82 71 44 (10H00-16H00)   <br>
+      Fax: 01 42 16 11 60   <br>
 
-* Infirmier(e) en Patiques Avancées:
-
-* Attaché(e) de Recherche Clinque:
- 
-   BEN HIDA Jaouad      
-   Tel: 01 42 16 14 19   
-   Tel : 01 84 82 80 90   
-   Fax: 01 42 17 80 83   
+* <B>Infirmier(e) en Patiques Avancées :</B>
+<br>
+* <B>Attaché(e) de Recherche Clinque :</B>
+ <br>
+   BEN HIDA Jaouad    <br>  
+   Tel: 01 42 16 14 19   <br>
+   Tel : 01 84 82 80 90   <br>
+   Fax: 01 42 17 80 83   <br>
   
 <br>
 </details>   
@@ -260,17 +260,17 @@ Soins de support
    Service d'hépatogastroentérologie et oncologie digestive         
    Tel : 02 40 08 31 63   
        
-   **Secrétariat :**      
-          MENARD Corinne   
-          corine.menard@chu-nantes.fr   
-          Tel : 02 40 08 31 52   
+   **Secrétariat :**  <br>    
+          MENARD Corinne   <br>
+          corine.menard@chu-nantes.fr   <br>
+          Tel : 02 40 08 31 52   <br>
           Fax : 02 40 08 31 54
    
 <details>
     <summary>Ressources de soin</summary>
 
 
-Plateaux techniques   
+<B>Plateaux techniques</B>   
     
 <ul>
 <li>Radiologie interventionnelle</li>      
@@ -290,7 +290,7 @@ Plateaux techniques
 <li>Radiothérapie réalisée à l'institut de Cancérologie de l'Ouest (ICO)</li>
 
    
-Soins de support
+<B>Soins de support</B>
 
 <ul>
 <li>Diététique et nutrition</li>      
@@ -319,16 +319,16 @@ Soins de support
     <summary>Ressources humaines</summary>
 
  
-* Infirmier(e) de Coordination :
- 
-* Infirmier(e) en Pratiques Avancées :
-
-* Attaché(e) de Recherche Clinique :
- 
-  PELUCHON Claire      
-  claire.peluchon@chu-nantes.fr      
-  Tel : 02 53 48 22 43   
-  Fax : 02 40 08 49 30   
+* <B>Infirmier(e) de Coordination :</B>
+ <br>
+* <B>Infirmier(e) en Pratiques Avancées :</B>
+<br>
+* <B>Attaché(e) de Recherche Clinique :</B>
+<br> 
+  PELUCHON Claire  <br>    
+  claire.peluchon@chu-nantes.fr  <br>    
+  Tel : 02 53 48 22 43   <br>
+  Fax : 02 40 08 49 30  <br> 
   
 <br>
 </details>   
@@ -336,6 +336,7 @@ Soins de support
 ## <span style="color:blue">**Provence-Alpes-Côtes d'Azur**</span>
 ### **Nice**
 ### **Marseille**
+
 
 
 
