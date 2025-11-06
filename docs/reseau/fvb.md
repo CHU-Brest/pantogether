@@ -2,11 +2,11 @@
 title: Foie et voies biliaires
 ---
 
-## Auvergne-Rhône-Alpes
-### Clermont-Ferrand
-### Grenoble
-### Lyon
-### Saint-Etienne   
+## <span style="color:blue">**Auvergne-Rhône-Alpes**</span>
+### **Clermont-Ferrand**
+### **Grenoble**
+### **Lyon**
+### **Saint-Etienne**   
     
 ## <span style="color:blue">**Bourgogne-Franche-Comté**</span>
 ### **CHU Besançon**
@@ -39,33 +39,31 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <br>
 </details> 
 
-### CHU Dijon   
+### **CHU Dijon**   
    
-## Bretagne
-### Rennes   
+## <span style="color:blue">**Bretagne**</span>
+### **Rennes**   
    
-## Centre-Val-de-Loire
-### Tours   
+## <span style="color:blue">**Centre-Val-de-Loire**</span>
+### **Tours**   
    
-## DOM-TOM   
-### Pointe-à-Pitre
+## <span style="color:blue">**DOM-TOM**</span>   
+### **Pointe-à-Pitre**
    
-## Grand-Est
-### Nancy
-### Reims   
+## <span style="color:blue">**Grand-Est**</span>Grand-Est
+### **Nancy**
+### **Reims**   
    
-## Hauts-de-France
-### Amiens
-### Lille   
+## <span style="color:blue">**Hauts-de-France**</span>
+### **Amiens**
+### **Lille**   
    
-## Ile de France
-<details>
-<summary>Bobigny, APHP CHU Avicenne_Centre expert référent</summary>   
-       125 rue de Stalingrad, 93000 Bobigny  
-    
-       
+## <span style="color:blue">**Ile de France**</span>
+### **Bobigny, APHP CHU Avicenne_Centre expert référent**   
+125 rue de Stalingrad, 93000 Bobigny  
+         
    **Pr GANNE-CARRIE Nathalie**     
-   Service d'Hépatologie et d'oncologie Hépatique, Batiment Larrey A/     
+   Service d'Hépatologie et d'oncologie Hépatique, Batiment Larrey A        
    Tel : 01 48 02 62 94     
        
    Secrétariat :      
@@ -78,7 +76,7 @@ Site web : <https://foiecancer93.fr/>
 <details>
     <summary>Ressources de soin</summary>
 
-# **Plateaux techniques**   
+# Plateaux techniques   
 <ul>
 <li>Radiothérapie externe</li>   
 <li>Radio-embolisation</li>   
@@ -98,7 +96,7 @@ Site web : <https://foiecancer93.fr/>
 <li>Transplantation hépatique via convention avec l'APHP Beaujon</li>
 </ul>
    
-#**Soins de support**
+# Soins de support
 
 <ul>
 <li>Diététique et nutrition</li>      
@@ -120,18 +118,18 @@ Site web : <https://foiecancer93.fr/>
     <summary>Ressources humaines</summary>
  
     <ul>
- **<li>Infirmier(e) de Coordination:</li>**
+<li>Infirmier(e) de Coordination:</li>
  
 YALA Fatima   
 fatima.yala@aphp.fr   
 Tel : 01 48 02 58 78   
 Fax : 01 48 02 62 02
    
-   **<li>Infirmier(e) en Pratiques Avancées:</li>**
+<li>Infirmier(e) en Pratiques Avancées:</li>
 
   CHAUVEL Laura  
   
-<li>**Attaché(e) de Recherche Clinque:**</li>
+<li>Attaché(e) de Recherche Clinque:</li>
  
   DONNEGER Séverine   
   severine.donneger@aphp.fr   
@@ -140,13 +138,12 @@ Fax : 01 48 02 62 02
 
 <br>
 </details>
-<br>
-</details>
 
-### Créteil
-### Clichy
-### Paris Cochin
-### Paris La Pitié salpetrière   
+
+### **Créteil**
+### **Clichy**
+### **Paris Cochin**
+### **Paris La Pitié salpetrière**   
 47-83, boulevard de l'Hôpital 
 75013 Paris
    
@@ -163,7 +160,8 @@ Site web : <https://www.institutdufoie.com/>
 <details>
     <summary>Ressources de soin</summary>
 
-# **Plateaux techniques**   
+# Plateaux techniques   
+
     
 * Radiothérapie externe;
 * Radio-embolisation;
@@ -186,6 +184,7 @@ Site web : <https://www.institutdufoie.com/>
    
 # **Soins de support**
 
+
 * Diététique et nutrition
 * Soutien psychologique du patient
 * Soutien psychologique des proches et des aidants
@@ -203,8 +202,10 @@ Site web : <https://www.institutdufoie.com/>
 
 <details>
     <summary>Ressources humaines</summary>
+
  
- * **Infirmier(e) de Coordination**:
+ * Infirmier(e) de Coordination:
+
  
       * BOSSON Cynthia    
       cynthia.bosson@aphp.fr   
@@ -213,9 +214,9 @@ Site web : <https://www.institutdufoie.com/>
       Tel : 01 84 82 71 44 (10H00-16H00)   
       Fax: 01 42 16 11 60   
 
-* **Infirmier(e) en Patiques Avancées**:
+* Infirmier(e) en Patiques Avancées:
 
-* **Attaché(e) de Recherche Clinque**:
+* Attaché(e) de Recherche Clinque:
  
    BEN HIDA Jaouad      
    Tel: 01 42 16 14 19   
@@ -225,26 +226,26 @@ Site web : <https://www.institutdufoie.com/>
 <br>
 </details>   
 
-### Paris IMM
-### Saint-Cloud
-### Villejuif   
+### **Paris IMM**
+### **Saint-Cloud**
+### **Villejuif**   
    
-## Normandie
-### Caen
-### Rouen   
+## <span style="color:blue">**Normandie**</span>
+### **Caen**
+### **Rouen**   
    
-## Nouvelle-Aquitaine
-### Bordeaux
-### LImoges
-### Poitiers   
+## <span style="color:blue">**Nouvelle-Aquitaine**</span>
+### **Bordeaux**
+### **LImoges**
+### **Poitiers**   
    
-## Occitanie
-### Montpellier
-### Toulouse   
+## <span style="color:blue">**Occitanie**</span>
+### **Montpellier**
+### **Toulouse**   
    
-## Pays de la Loire
-### Angers
-### Nantes   
+## <span style="color:blue">**Pays de la Loire**</span>
+### **Angers**
+### **Nantes**   
 1 place Alexis Ricordeau
 44093 Nantes Cedex  
    
@@ -260,6 +261,7 @@ Site web : <https://www.institutdufoie.com/>
    
 <details>
     <summary>Ressources de soin</summary>
+
 
 # **Plateaux techniques**   
     
@@ -281,6 +283,7 @@ Site web : <https://www.institutdufoie.com/>
 
    
 # **Soins de support**
+
 
 * Diététique et nutrition
 * Soutien psychologique du patient
@@ -304,6 +307,7 @@ Site web : <https://www.institutdufoie.com/>
 
 <details>
     <summary>Ressources humaines</summary>
+
  
  * **Infirmier(e) de Coordination**:
  
@@ -319,9 +323,10 @@ Site web : <https://www.institutdufoie.com/>
 <br>
 </details>   
    
-## Provence-Alpes-Côte d'Azur
-### Nice
-### Marseille
+## <span style="color:blue">**Provence-Alpes-Côtes d'Azur**</span>
+### **Nice**
+### **Marseille**
+
 
 
 
