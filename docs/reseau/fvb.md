@@ -118,8 +118,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <details>
     <summary>Ressources humaines</summary>
  
-    <ul>
-<li><B>Infirmier(e) de Coordination:</B></li>
+<ul>
+<li> <B>Infirmier(e) de Coordination:</B> </li>
  <br>
 YALA Fatima   
 <br>
@@ -129,11 +129,11 @@ Tel : 01 48 02 58 78
 <br>
 Fax : 01 48 02 62 02
   <br> 
-<li>Infirmier(e) en Pratiques Avancées:</li>
+<li> <B>Infirmier(e) en Pratiques Avancées:</B> </li>
 <br>
   CHAUVEL Laura   
     <br>
-<li>Attaché(e) de Recherche Clinque:</li>
+<li> <B>Attaché(e) de Recherche Clinque:</B>B> </li>
  <br>
   DONNEGER Séverine   
   <br>
@@ -336,6 +336,7 @@ Fax : 01 48 02 62 02
 ## <span style="color:blue">**Provence-Alpes-Côtes d'Azur**</span>
 ### **Nice**
 ### **Marseille**
+
 
 
 
