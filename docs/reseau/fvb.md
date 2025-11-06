@@ -50,7 +50,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 ## <span style="color:blue">**DOM-TOM**</span>   
 ### **Pointe-à-Pitre**
    
-## <span style="color:blue">**Grand-Est**</span>Grand-Est
+## <span style="color:blue">**Grand-Est**</span>
 ### **Nancy**
 ### **Reims**   
    
@@ -120,22 +120,19 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
  
 <ul>
 <li> <B>Infirmier(e) de Coordination:</B> </li>
- <br>
 YALA Fatima   
 <br>
 fatima.yala@aphp.fr   
 <br>
 Tel : 01 48 02 58 78   
 <br>
-Fax : 01 48 02 62 02
+Fax : 01 48 02 62 02 <br>
 <br> 
 <li> <B>Infirmier(e) en Pratiques Avancées:</B> </li>
 <br>
-CHAUVEL Laura   
+CHAUVEL Laura <br>  
 <br>
-    
 <li> <B>Attaché(e) de Recherche Clinque:</B> </li>
- <br>
   DONNEGER Séverine   
   <br>
   severine.donneger@aphp.fr   
@@ -215,17 +212,17 @@ CHAUVEL Laura
 <ul>
 <li> <B>Infirmier(e) de Coordination :</B> </li>
  <br>
-      * BOSSON Cynthia   <br> 
-      cynthia.bosson@aphp.fr   
+    <ul>
+<li>BOSSON Cynthia</li>   <br> 
+      cynthia.bosson@aphp.fr <br>  
      <br>
-      * DELIGNAT Sophie       <br>
+<li>DELIGNAT Sophie</li>       <br>
       coordination-onco-hepato.psl@aphp.fr   <br>
       Tel : 01 84 82 71 44 (10H00-16H00)   <br>
-      Fax: 01 42 16 11 60 
-     <br>
+      Fax: 01 42 16 11 60 <br>
+    </ul> <br>
 
 <li> <B>Attaché(e) de Recherche Clinque :</B> </li>
- <br>
    BEN HIDA Jaouad    <br>  
    Tel: 01 42 16 14 19   <br>
    Tel : 01 84 82 80 90   <br>
@@ -319,12 +316,7 @@ CHAUVEL Laura
 <details>
     <summary>Ressources humaines</summary>
 <ul>
-<li> <B>Infirmier(e) de Coordination :</B> </li>
- <br>
-<li> </li><B>Infirmier(e) en Pratiques Avancées :</B> </li>
-<br>
-<li> </li><B>Attaché(e) de Recherche Clinique :</B> </ul>
-<br> 
+<li> <B>Attaché(e) de Recherche Clinique :</B> </li>
   PELUCHON Claire  <br>    
   claire.peluchon@chu-nantes.fr  <br>    
   Tel : 02 53 48 22 43   <br>
@@ -336,6 +328,7 @@ CHAUVEL Laura
 ## <span style="color:blue">**Provence-Alpes-Côtes d'Azur**</span>
 ### **Nice**
 ### **Marseille**
+
 
 
 
