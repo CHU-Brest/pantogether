@@ -2,10 +2,8 @@
 title: Foie et voies biliaires
 ---
 
-## <span style="color:blue">**Auvergne-Rhône-Alpes**</span>
-<ul>
-<li>### **Clermont-Ferrand**</li>      
-<ul/>
+## <span style="color:blue">**Auvergne-Rhône-Alpes**</span>  
+### **Clermont-Ferrand**   
 ### **Grenoble**
 ### **Lyon**
 ### **Saint-Etienne**   
@@ -272,44 +270,47 @@ Soins de support
     <summary>Ressources de soin</summary>
 
 
-# **Plateaux techniques**   
+Plateaux techniques   
     
-* Radiologie interventionnelle
-* Endoscopie interventionnelle bilio-pancréatique
-* Médecine nucléaire
-* Chirurgie viscérale
-* Chirurgie digestive de recours
-* Oncogénétique
-* Plateforme de biologie moléculaire
-* Plateforme d'anatomopathologie
-* Plateforme d'imagerie
-* Plateau de réanimation
-* Centre de diagnostic rapide
-* Unité de recherche clinique dédiée au service
-* Centre d'Investigation Clinique multithématique du CHU
-* Accès aux études de phase I
-* Radiothérapie réalisée à l'institut de Cancérologie de l'Ouest (ICO)
+<ul>
+<li>Radiologie interventionnelle</li>      
+<li>Endoscopie interventionnelle bilio-pancréatique</li>   
+<li>Médecine nucléaire</li>   
+<li>Chirurgie viscérale</li>   
+<li>Chirurgie digestive de recours</li>   
+<li>Oncogénétique</li>   
+<li>Plateforme de biologie moléculaire</li>
+<li>Plateforme d'anatomopathologie</li>   
+<li>Plateforme d'imagerie</li>   
+<li>Plateau de réanimation</li>   
+<li>Centre de diagnostic rapide</li>
+<li>Unité de recherche clinique dédiée au service</li>
+<li>Centre d'Investigation Clinique multithématique du CHU</li>
+<li>Accès aux études de phase I</li>
+<li>Radiothérapie réalisée à l'institut de Cancérologie de l'Ouest (ICO)</li>
 
    
-# **Soins de support**
+Soins de support
 
+<ul>
+<li>Diététique et nutrition</li>      
+<li>Soutien psychologique du patient</li>   
+<li>Soutien psychologique des proches et des aidants</li>   
+<li>Accompagnement social, familial et professionnel</li>   
+<li>Rééducation et activités physiques adaptées</li>   
+<li>Gestion de la douleur</li>   
+<li>Gestion de la fatigue</li>
+<li>Unité de soins palliatifs dédiée</li>   
+<li>Unité mobile de soins palliatifs</li>   
+<li>Onco-gériatrie</li>   
+<li>Approches non conventionnelles (hypnose, acupuncture, sophrologie,...)</li>
+<li>Gestion des troubles de la sexualité</li>
+<li>Préservation de la fertilité</li>
+<li>Conseils d'hygiène de vie</li>
+<li>Ateliers d'art-thérapie</li>
+<li>Espace de réflexion éthique</li>
+</ul>
 
-* Diététique et nutrition
-* Soutien psychologique du patient
-* Soutien psychologique des proches et des aidants
-* Accompagnement social, familial et professionnel
-* Rééducation et activités physiques adaptées
-* Gestion de la douleur
-* Gestion de la fatigue
-* Unité de soins palliatifs dédiée
-* Unité mobile de soins palliatifs
-* Onco-gériatrie
-* Approches non conventionnelles (hypnose, acupuncture, sophrologie,...)
-* Gestion des troubles de la sexualité
-* Préservation de la fertilité
-* Conseils d'hygiène de vie
-* Ateliers d'art-thérapie
-* Espace de réflexion éthique
  
 <br>
 </details>   
@@ -318,11 +319,11 @@ Soins de support
     <summary>Ressources humaines</summary>
 
  
- * **Infirmier(e) de Coordination**:
+* Infirmier(e) de Coordination :
  
-* **Infirmier(e) en Pratiques Avancées**:
+* Infirmier(e) en Pratiques Avancées :
 
-* **Attaché(e) de Recherche Clinique**:
+* Attaché(e) de Recherche Clinique :
  
   PELUCHON Claire      
   claire.peluchon@chu-nantes.fr      
@@ -335,6 +336,7 @@ Soins de support
 ## <span style="color:blue">**Provence-Alpes-Côtes d'Azur**</span>
 ### **Nice**
 ### **Marseille**
+
 
 
 
