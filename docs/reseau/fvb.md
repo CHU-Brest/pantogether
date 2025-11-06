@@ -60,10 +60,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
    
 ## <span style="color:blue">**Ile de France**</span>
 ### **APHP CHU Avicenne_Centre expert référent**   
-125 rue de Stalingrad, 93000 **Bobigny**  
          
    **Pr GANNE-CARRIE Nathalie**     
-   Service d'Hépatologie et d'oncologie Hépatique, Batiment Larrey A        
+   Service d'Hépatologie et d'oncologie Hépatique, Batiment Larrey A   
+   125 rue de Stalingrad, 93000 **Bobigny**
    Tel : 01 48 02 62 94     
        
    **Secrétariat :**      
@@ -148,11 +148,11 @@ CHAUVEL Laura <br>
 ### **Clichy**
 ### **Paris Cochin**
 ### **CHU La Pitié Salpêtrière**   
-47-83, boulevard de l'Hôpital 
-75013 **Paris**
    
    **Dr. ALLAIRE Manon**   
    Service d'hépato-gastroentérologie
+   47-83, boulevard de l'Hôpital 
+75013 **Paris**
   
    **Secrétariat :**      
          GAUTIER Violaine   
@@ -248,11 +248,11 @@ CHAUVEL Laura <br>
 ## <span style="color:blue">**Pays de la Loire**</span>
 ### **Angers**
 ### **CHU Nantes**   
-1 place Alexis Ricordeau
-44093 **Nantes** Cedex  
-   
+    
    **Pr TOUCHEFEU Yann**      
-   Service d'hépatogastroentérologie et oncologie digestive         
+   Service d'hépatogastroentérologie et oncologie digestive
+   1 place Alexis Ricordeau
+44093 **Nantes** Cedex 
    Tel : 02 40 08 31 63   
        
    **Secrétariat :**      
@@ -325,6 +325,7 @@ CHAUVEL Laura <br>
 ## <span style="color:blue">**Provence-Alpes-Côtes d'Azur**</span>
 ### **Nice**
 ### **Marseille**
+
 
 
 
