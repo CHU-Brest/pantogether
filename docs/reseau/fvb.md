@@ -9,7 +9,7 @@ title: Foie et voies biliaires
 ### Saint-Etienne   
     
 ## Bourgogne-Franche-Comté
-### CHU Besançon
+### <span style="color:blue">**CHU Besançon**</span>
 
 - Pr: Dr xxx
 - Service: 
@@ -61,11 +61,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 ## Ile de France
 <details>
 <summary>Bobigny, APHP CHU Avicenne_Centre expert référent</summary>   
-       125 rue de Stalingrad, 93000 Bobigny   
+       125 rue de Stalingrad, 93000 Bobigny/   
        
-   **Pr GANNE-CARRIE Nathalie**   
-   Service d'Hépatologie et d'oncologie Hépatique, Batiment Larrey A   
-   Tel : 01 48 02 62 94   
+   **Pr GANNE-CARRIE Nathalie**/   
+   Service d'Hépatologie et d'oncologie Hépatique, Batiment Larrey A/   
+   Tel : 01 48 02 62 94/   
        
    Secrétariat :      
           **MOMMELE Peggy**   
@@ -320,6 +320,7 @@ Site web : <https://www.institutdufoie.com/>
 ## Provence-Alpes-Côte d'Azur
 ### Nice
 ### Marseille
+
 
 
 
