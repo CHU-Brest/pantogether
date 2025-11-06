@@ -8,8 +8,8 @@ title: Foie et voies biliaires
 ### Lyon
 ### Saint-Etienne   
     
-## Bourgogne-Franche-Comté
-### <span style="color:blue">**CHU Besançon**</span>
+## <span style="color:blue">**Bourgogne-Franche-Comté**</span>
+### **CHU Besançon**
 
 - Pr: Dr xxx
 - Service: 
@@ -61,11 +61,12 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 ## Ile de France
 <details>
 <summary>Bobigny, APHP CHU Avicenne_Centre expert référent</summary>   
-       125 rue de Stalingrad, 93000 Bobigny/   
+       125 rue de Stalingrad, 93000 Bobigny  
+    
        
-   **Pr GANNE-CARRIE Nathalie**/   
-   Service d'Hépatologie et d'oncologie Hépatique, Batiment Larrey A/   
-   Tel : 01 48 02 62 94/   
+   **Pr GANNE-CARRIE Nathalie**     
+   Service d'Hépatologie et d'oncologie Hépatique, Batiment Larrey A/     
+   Tel : 01 48 02 62 94     
        
    Secrétariat :      
           **MOMMELE Peggy**   
@@ -97,7 +98,7 @@ Site web : <https://foiecancer93.fr/>
 <li>Transplantation hépatique via convention avec l'APHP Beaujon</li>
 </ul>
    
-# **Soins de support**
+#**Soins de support**
 
 <ul>
 <li>Diététique et nutrition</li>      
@@ -128,8 +129,9 @@ Fax : 01 48 02 62 02
    
    **<li>Infirmier(e) en Pratiques Avancées:</li>**
 
-  CHAUVEL Laura
-**<li>Attaché(e) de Recherche Clinque:</li>**
+  CHAUVEL Laura  
+  
+<li>**Attaché(e) de Recherche Clinque:**</li>
  
   DONNEGER Séverine   
   severine.donneger@aphp.fr   
@@ -320,6 +322,7 @@ Site web : <https://www.institutdufoie.com/>
 ## Provence-Alpes-Côte d'Azur
 ### Nice
 ### Marseille
+
 
 
 
