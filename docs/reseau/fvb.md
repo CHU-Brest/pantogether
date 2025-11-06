@@ -3,10 +3,10 @@ title: Foie et voies biliaires
 ---
 
 ## <span style="color:blue">**Auvergne-Rhône-Alpes**</span>
-### **Clermont-Ferrand**
-### **Grenoble**
-### **Lyon**
-### **Saint-Etienne**   
+### + **Clermont-Ferrand**
+### + **Grenoble**
+### + **Lyon**
+### + **Saint-Etienne**   
     
 ## <span style="color:blue">**Bourgogne-Franche-Comté**</span>
 ### **CHU Besançon**
@@ -72,7 +72,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
    Tel : 01 48 02 68 03  
    Fax : 01 48 02 62 02   
        
-Site web : <https://foiecancer93.fr/>   
+**Site web :** <https://foiecancer93.fr/>   
 <details>
     <summary>Ressources de soin</summary>
 
@@ -122,8 +122,11 @@ Soins de support
 <li>Infirmier(e) de Coordination:</li>
  
 YALA Fatima   
+
 fatima.yala@aphp.fr   
+
 Tel : 01 48 02 58 78   
+
 Fax : 01 48 02 62 02
    
 <li>Infirmier(e) en Pratiques Avancées:</li>
@@ -133,8 +136,11 @@ Fax : 01 48 02 62 02
 <li>Attaché(e) de Recherche Clinque:</li>
  
   DONNEGER Séverine   
+  
   severine.donneger@aphp.fr   
+  
   Tel : 01 48 02 40 52   
+  
 </ul>
 
 <br>
@@ -144,7 +150,7 @@ Fax : 01 48 02 62 02
 ### **Créteil**
 ### **Clichy**
 ### **Paris Cochin**
-### **CHU La Pitié salpetrière**   
+### **CHU La Pitié Salpêtrière**   
 47-83, boulevard de l'Hôpital 
 75013 **Paris**
    
@@ -157,7 +163,7 @@ Fax : 01 48 02 62 02
          Tel : 01 42 16 10 34   
          Fax : 01 42 16 11 60
        
-Site web : <https://www.institutdufoie.com/>
+**Site web :** <https://www.institutdufoie.com/>
 <details>
     <summary>Ressources de soin</summary>
 
@@ -327,6 +333,7 @@ Soins de support
 ## <span style="color:blue">**Provence-Alpes-Côtes d'Azur**</span>
 ### **Nice**
 ### **Marseille**
+
 
 
 
