@@ -93,9 +93,10 @@ Fax 01 48 02 68 02 <br>
 
 **Modalités de soumission d’un dossier** : <br>
 Dossier à soumettre par e-mail à : <br>
-Dr ALLAIRE Manon <br>
+- Dr ALLAIRE Manon <br>
 manon.allaire@aphp.fr <br>
-GAUTIER Violaine <br>
+Ou <br> 
+- GAUTIER Violaine <br>
 violaine.gautier@aphp.fr <br>
 
 ### **Paris IMM**
