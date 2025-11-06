@@ -128,12 +128,13 @@ fatima.yala@aphp.fr
 Tel : 01 48 02 58 78   
 <br>
 Fax : 01 48 02 62 02
-  <br> 
+<br> 
 <li> <B>Infirmier(e) en Pratiques Avancées:</B> </li>
 <br>
-  CHAUVEL Laura   
-    <br>
-<li> <B>Attaché(e) de Recherche Clinque:</B>B> </li>
+CHAUVEL Laura   
+<br>
+    
+<li> <B>Attaché(e) de Recherche Clinque:</B> </li>
  <br>
   DONNEGER Séverine   
   <br>
@@ -211,25 +212,25 @@ Fax : 01 48 02 62 02
 
 <details>
     <summary>Ressources humaines</summary>
- 
- * <B>Infirmier(e) de Coordination :</B>
+<ul>
+<li> <B>Infirmier(e) de Coordination :</B> </li>
  <br>
       * BOSSON Cynthia   <br> 
-      cynthia.bosson@aphp.fr   <br>
+      cynthia.bosson@aphp.fr   
+     <br>
       * DELIGNAT Sophie       <br>
       coordination-onco-hepato.psl@aphp.fr   <br>
       Tel : 01 84 82 71 44 (10H00-16H00)   <br>
-      Fax: 01 42 16 11 60   <br>
+      Fax: 01 42 16 11 60 
+     <br>
 
-* <B>Infirmier(e) en Patiques Avancées :</B>
-<br>
-* <B>Attaché(e) de Recherche Clinque :</B>
+<li> <B>Attaché(e) de Recherche Clinque :</B> </li>
  <br>
    BEN HIDA Jaouad    <br>  
    Tel: 01 42 16 14 19   <br>
    Tel : 01 84 82 80 90   <br>
    Fax: 01 42 17 80 83   <br>
-  
+</ul>  
 <br>
 </details>   
 
@@ -260,7 +261,7 @@ Fax : 01 48 02 62 02
    Service d'hépatogastroentérologie et oncologie digestive         
    Tel : 02 40 08 31 63   
        
-   **Secrétariat :**  <br>    
+   **Secrétariat :**      
           MENARD Corinne   <br>
           corine.menard@chu-nantes.fr   <br>
           Tel : 02 40 08 31 52   <br>
@@ -317,25 +318,25 @@ Fax : 01 48 02 62 02
 
 <details>
     <summary>Ressources humaines</summary>
-
- 
-* <B>Infirmier(e) de Coordination :</B>
+<ul>
+<li> <B>Infirmier(e) de Coordination :</B> </li>
  <br>
-* <B>Infirmier(e) en Pratiques Avancées :</B>
+<li> </li><B>Infirmier(e) en Pratiques Avancées :</B> </li>
 <br>
-* <B>Attaché(e) de Recherche Clinique :</B>
+<li> </li><B>Attaché(e) de Recherche Clinique :</B> </ul>
 <br> 
   PELUCHON Claire  <br>    
   claire.peluchon@chu-nantes.fr  <br>    
   Tel : 02 53 48 22 43   <br>
   Fax : 02 40 08 49 30  <br> 
-  
+</ul>  
 <br>
 </details>   
    
 ## <span style="color:blue">**Provence-Alpes-Côtes d'Azur**</span>
 ### **Nice**
 ### **Marseille**
+
 
 
 
