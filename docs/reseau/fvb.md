@@ -59,15 +59,15 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 ### **Lille**   
    
 ## <span style="color:blue">**Ile de France**</span>
-### **Bobigny, APHP CHU Avicenne_Centre expert référent**   
-125 rue de Stalingrad, 93000 Bobigny  
+### **APHP CHU Avicenne_Centre expert référent**   
+125 rue de Stalingrad, 93000 **Bobigny**  
          
    **Pr GANNE-CARRIE Nathalie**     
    Service d'Hépatologie et d'oncologie Hépatique, Batiment Larrey A        
    Tel : 01 48 02 62 94     
        
-   Secrétariat :      
-          **MOMMELE Peggy**   
+   **Secrétariat :**      
+          MOMMELE Peggy   
    peggy.mommele@aphp.fr   
    Tel : 01 48 02 68 03  
    Fax : 01 48 02 62 02   
@@ -76,7 +76,7 @@ Site web : <https://foiecancer93.fr/>
 <details>
     <summary>Ressources de soin</summary>
 
-# Plateaux techniques   
+Plateaux techniques   
 <ul>
 <li>Radiothérapie externe</li>   
 <li>Radio-embolisation</li>   
@@ -91,12 +91,13 @@ Site web : <https://foiecancer93.fr/>
 <li>Plateforme d’imagerie</li>   
 <li>Plateau de réanimation</li>   
 <li>Unité de recherche clinique dédiée au service</li>   
-<li>Centre d'Investigation Clinique multithématique</li>   
+<li>Centre d'Investigation Clinique multithématique</li>
+<li>Accès aux études de phase I</li>  
 <li>Centre de Diagnostic Rapide</li>
 <li>Transplantation hépatique via convention avec l'APHP Beaujon</li>
 </ul>
    
-# Soins de support
+Soins de support
 
 <ul>
 <li>Diététique et nutrition</li>      
@@ -127,8 +128,8 @@ Fax : 01 48 02 62 02
    
 <li>Infirmier(e) en Pratiques Avancées:</li>
 
-  CHAUVEL Laura  
-  
+  CHAUVEL Laura   
+    
 <li>Attaché(e) de Recherche Clinque:</li>
  
   DONNEGER Séverine   
@@ -143,15 +144,15 @@ Fax : 01 48 02 62 02
 ### **Créteil**
 ### **Clichy**
 ### **Paris Cochin**
-### **Paris La Pitié salpetrière**   
+### **CHU La Pitié salpetrière**   
 47-83, boulevard de l'Hôpital 
-75013 Paris
+75013 **Paris**
    
    **Dr. ALLAIRE Manon**   
    Service d'hépato-gastroentérologie
   
-   Secrétariat :      
-         **GAUTIER Violaine**   
+   **Secrétariat :**      
+         GAUTIER Violaine   
          violaine.gautier@aphp.fr   
          Tel : 01 42 16 10 34   
          Fax : 01 42 16 11 60
@@ -160,52 +161,52 @@ Site web : <https://www.institutdufoie.com/>
 <details>
     <summary>Ressources de soin</summary>
 
-# Plateaux techniques   
+Plateaux techniques   
 
-    
-* Radiothérapie externe;
-* Radio-embolisation;
-* Radiologie interventionnelle;
-* Médecine nucléaire;
-* Chirurgie viscérale;
-* Chirurgie digestive de recours;
-* Chirurgie hépatique et transplantation hépatique;
-* Oncogénétique;
-* Plateforme de biologie moléculaire;
-* Plateforme d'anatomopathologie;
-* Plateforme d'imagerie;
-* Plateau de réanimation;
-* Centre de diagnostic rapide
-* Unité de recherche clinique dédiée au service
-* Centre d'Investigation Clinique multithématique du CHU
-* Accès aux études de phase I
-* Endoscopie interventionnelle via convention avec Hôpital Saint Antoine
+<ul>
+<li>Radiothérapie externe</li>      
+<li>Radio-embolisation</li>   
+<li>Radiologie interventionnelle</li>   
+<li>Médecine nucléaire</li>   
+<li>Chirurgie viscérale</li>   
+<li>Chirurgie digestive de recours</li>   
+<li>Chirurgie hépatique et transplantation hépatique</li>
+<li>Oncogénétique</li>   
+<li>Plateforme de biologie moléculaire</li>   
+<li>Plateforme d'anatomopathologie</li>   
+<li>Plateforme d'imagerie</li>
+<li>Plateau de réanimation</li>   
+<li>Centre de diagnostic rapide</li>   
+<li>Unité de recherche clinique dédiée au service</li>   
+<li>Centre d'Investigation Clinique multithématique du CHU</li>  
+ <li>Accès aux études de phase I</li>  
+<li>Endoscopie interventionnelle via convention avec Hôpital Saint Antoine</li>  
+</ul>
 
    
-# **Soins de support**
+Soins de support
 
-
-* Diététique et nutrition
-* Soutien psychologique du patient
-* Soutien psychologique des proches et des aidants
-* Accompagnement social, familial et professionnel
-* Rééducation et activités physiques adaptées
-* Gestion de la douleur
-* Unité mobile de soins palliatifs
-* Onco-gériatrie
-* Conseils d'hygiène de vie
-* Hôpital de jour de soins de support
-* Espace de réflexion éthique
+<ul>
+<li>Diététique et nutrition</li>      
+<li>Soutien psychologique du patient</li>   
+<li>Soutien psychologique des proches et des aidants</li>   
+<li> Accompagnement social, familial et professionnel</li>   
+<li>Rééducation et activités physiques adaptées</li>   
+<li>Gestion de la douleur</li>   
+<li>Unité mobile de soins palliatifs</li>
+<li>Onco-gériatrie</li>   
+<li>Conseils d'hygiène de vie</li>   
+<li>Hôpital de jour de soins de support</li>   
+<li>Espace de réflexion éthique</li>
+</ul>
   
 <br>
 </details>   
 
 <details>
     <summary>Ressources humaines</summary>
-
  
  * Infirmier(e) de Coordination:
-
  
       * BOSSON Cynthia    
       cynthia.bosson@aphp.fr   
@@ -245,16 +246,16 @@ Site web : <https://www.institutdufoie.com/>
    
 ## <span style="color:blue">**Pays de la Loire**</span>
 ### **Angers**
-### **Nantes**   
+### **CHU Nantes**   
 1 place Alexis Ricordeau
-44093 Nantes Cedex  
+44093 **Nantes** Cedex  
    
    **Pr TOUCHEFEU Yann**      
    Service d'hépatogastroentérologie et oncologie digestive         
    Tel : 02 40 08 31 63   
        
-   Secrétariat :      
-          **MENARD Corinne**   
+   **Secrétariat :**      
+          MENARD Corinne   
           corine.menard@chu-nantes.fr   
           Tel : 02 40 08 31 52   
           Fax : 02 40 08 31 54
@@ -326,6 +327,7 @@ Site web : <https://www.institutdufoie.com/>
 ## <span style="color:blue">**Provence-Alpes-Côtes d'Azur**</span>
 ### **Nice**
 ### **Marseille**
+
 
 
 
