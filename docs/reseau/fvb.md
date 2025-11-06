@@ -99,38 +99,42 @@ Site web : <https://foiecancer93.fr/>
    
 # **Soins de support**
 
-* Diététique et nutrition   
-* Soutien psychologique du patient   
-* Soutien psychologique des proches et des aidants   
-* Accompagnement social, familial et professionnel   
-* Gestion de la douleur   
-* Onco-gériatrie   
-* Unité de soins palliatifs dédiée
-* Unité mobile de soins palliatifs   
-* Préservation de la fertilité   
-* Hôpital de jour de soins de support   
-* Espace de réflexion éthique  
+<ul>
+<li>Diététique et nutrition</li>      
+<li>Soutien psychologique du patient</li>   
+<li>Soutien psychologique des proches et des aidants</li>   
+<li>Accompagnement social, familial et professionnel</li>   
+<li>Gestion de la douleur</li>   
+<li>Onco-gériatrie</li>   
+<li>Unité de soins palliatifs dédiée</li>
+<li>Unité mobile de soins palliatifs</li>   
+<li>Préservation de la fertilité</li>   
+<li>Hôpital de jour de soins de support</li>   
+<li>Espace de réflexion éthique</li>  
+</ul>
 <br>
 </details>   
 
 <details>
     <summary>Ressources humaines</summary>
+ <ul>
+ **<li>Infirmier(e) de Coordination:</li>**
  
- * **Infirmier(e) de Coordination**:
- 
-      YALA Fatima   
-      fatima.yala@aphp.fr   
-      Tel : 01 48 02 58 78   
-      Fax : 01 48 02 62 02
+YALA Fatima   
+fatima.yala@aphp.fr   
+Tel : 01 48 02 58 78   
+Fax : 01 48 02 62 02
    
-* **Infirmier(e) en Pratiques Avancées**:
+   **<li>Infirmier(e) en Pratiques Avancées:</li>**
 
   CHAUVEL Laura
-* **Attaché(e) de Recherche Clinque** :
+**<li>Attaché(e) de Recherche Clinque:</li>**
  
   DONNEGER Séverine   
   severine.donneger@aphp.fr   
   Tel : 01 48 02 40 52   
+</ul>
+
 <br>
 </details>
 <br>
@@ -315,6 +319,7 @@ Site web : <https://www.institutdufoie.com/>
 ## Provence-Alpes-Côte d'Azur
 ### Nice
 ### Marseille
+
 
 
 
