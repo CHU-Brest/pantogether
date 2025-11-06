@@ -6,7 +6,7 @@ title: Evènements
 # Journées scientifiques
 
 * **28 Novembre 2025** à **Saint-Malo** : Journées scientifiques d'Oncologie Digestive      
-<im src="assets/journeesonco281125.jpg" width="100" >
+<im src="assets/journeesonco281125.jpg" width="100">
  
 ![](assets/journeesonco281125.jpg)
 
