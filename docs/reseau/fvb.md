@@ -117,7 +117,8 @@ Site web : <https://foiecancer93.fr/>
 
 <details>
     <summary>Ressources humaines</summary>
- <ul>
+ 
+    <ul>
  **<li>Infirmier(e) de Coordination:</li>**
  
 YALA Fatima   
@@ -319,6 +320,7 @@ Site web : <https://www.institutdufoie.com/>
 ## Provence-Alpes-Côte d'Azur
 ### Nice
 ### Marseille
+
 
 
 
