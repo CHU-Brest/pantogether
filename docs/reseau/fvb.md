@@ -3,10 +3,10 @@ title: Foie et voies biliaires
 ---
 
 ## <span style="color:blue">**Auvergne-Rhône-Alpes**</span>
-### + **Clermont-Ferrand**
-### + **Grenoble**
-### + **Lyon**
-### + **Saint-Etienne**   
+### ***Clermont-Ferrand**
+### ***Grenoble**
+### * **Lyon**
+### * **Saint-Etienne**   
     
 ## <span style="color:blue">**Bourgogne-Franche-Comté**</span>
 ### **CHU Besançon**
@@ -333,6 +333,7 @@ Soins de support
 ## <span style="color:blue">**Provence-Alpes-Côtes d'Azur**</span>
 ### **Nice**
 ### **Marseille**
+
 
 
 
