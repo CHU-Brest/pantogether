@@ -76,7 +76,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <details>
     <summary>Ressources de soin</summary>
 
-Plateaux techniques   
+<Plateaux techniques>   
 <ul>
 <li>Radiothérapie externe</li>   
 <li>Radio-embolisation</li>   
@@ -97,7 +97,7 @@ Plateaux techniques
 <li>Transplantation hépatique via convention avec l'APHP Beaujon</li>
 </ul>
    
-Soins de support
+'<Soins de support>'
 
 <ul>
 <li>Diététique et nutrition</li>      
@@ -336,6 +336,7 @@ Soins de support
 ## <span style="color:blue">**Provence-Alpes-Côtes d'Azur**</span>
 ### **Nice**
 ### **Marseille**
+
 
 
 
