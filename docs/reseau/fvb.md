@@ -211,15 +211,14 @@ CHAUVEL Laura <br>
     <summary>Ressources humaines</summary>
 <ul>
 <li> <B>Infirmier(e) de Coordination :</B> </li>
- <br>
     <ul>
-<li>BOSSON Cynthia</li>   <br> 
+  <li>BOSSON Cynthia</li>    
       cynthia.bosson@aphp.fr <br>  
      <br>
-<li>DELIGNAT Sophie</li>       <br>
-      coordination-onco-hepato.psl@aphp.fr   <br>
-      Tel : 01 84 82 71 44 (10H00-16H00)   <br>
-      Fax: 01 42 16 11 60 <br>
+  <li>DELIGNAT Sophie</li>       
+        coordination-onco-hepato.psl@aphp.fr   <br>
+        Tel : 01 84 82 71 44 (10H00-16H00)   <br>
+        Fax: 01 42 16 11 60 <br>
     </ul> <br>
 
 <li> <B>Attaché(e) de Recherche Clinque :</B> </li>
@@ -328,6 +327,7 @@ CHAUVEL Laura <br>
 ## <span style="color:blue">**Provence-Alpes-Côtes d'Azur**</span>
 ### **Nice**
 ### **Marseille**
+
 
 
 
