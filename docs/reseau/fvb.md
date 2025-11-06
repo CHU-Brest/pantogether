@@ -4,7 +4,98 @@ title: Foie et voies biliaires
 
 ## <span style="color:blue">**Auvergne-Rhône-Alpes**</span>  
 ### **Clermont-Ferrand**   
-### **Grenoble**
+### **CHU Grenoble Alpes**
+**Pr COSTENTIN Charlotte**     
+   Hôpital Michallon
+   Service d'Hépato-gastroentérologie et d'oncologie digestive  <br> 
+   Boulevard de la Chantourne 38700 **La Tronche**  <br>
+    
+   **Secrétariat :**      
+          BARDIN Françoise   
+          fbardin@chu-grenoble.fr   
+          Tel : 04 76 76 55 97
+       
+<details>
+    <summary>Ressources de soin</summary>
+<br>    
+<B>Plateaux techniques</B> <br>
+<br>
+<ul>
+<li>Radiothérapie externe</li>   
+<li>Radio-embolisation</li>   
+<li>Radiologie interventionnelle</li>   
+<li>Médecine nucléaire</li>   
+<li>Endoscopie interventionnelle bilio-pancréatique</li>   
+<li>Chirurgie viscérale</li>
+<li>Chirurgie digestive de recours</li>   
+<li>Chirurgie hépatique et transplantation hépatique </li>   
+<li>Oncogénétique</li>   
+<li>Plateforme de biologie moléculaire</li>   
+<li>Plateforme d’anatomopathologie</li>   
+<li>Plateforme d’imagerie</li>   
+<li>Plateau de réanimation</li>   
+<li>Unité de recherche clinique dédiée au service</li>   
+<li>Centre d'Investigation Clinique multithématique</li>
+<li>Accès aux études de phase I</li>  
+<li>Centre de Diagnostic Rapide</li>
+</ul>
+<br>   
+<B>Soins de support</B>    <br>    
+<br>
+<ul>
+<li>Diététique et nutrition</li>      
+<li>Soutien psychologique du patient</li>   
+<li>Soutien psychologique des proches et des aidants</li>   
+<li>Accompagnement social, familial et professionnel</li>   
+<li> Rééducation et activités physiques adaptées</li>   
+<li>Gestion de la douleur</li>   
+<li>Unité de soins palliatifs dédiée</li>
+<li>Unité mobile de soins palliatifs</li> 
+<li>Onco-gériatrie</li> 
+<li> Approches non conventionnelles (hypnose, acupuncture, sophrologie,...)</li>     
+<li>Préservation de la fertilité</li> 
+<li> Conseils d'hygiène de vie</li>    
+<li> Ateliers d'art-thérapie</li>
+<li>Espace de réflexion éthique</li>
+<li> Réflexologie plantaire</li>   
+<li> Psycho-esthéticienne</li>       
+</ul>
+<br>
+</details>   
+
+<details>
+    <summary>Ressources humaines</summary> <br>
+ 
+<ul>
+<li> <B>Infirmier(e) de Coordination:</B> </li>
+Mélody & Océane
+<br>
+
+ideoncologiehge@chu-grenoble.fr
+<br>
+Tel : 04 76 76 53 01 <br>
+<br>
+ 
+<li> <B>Infirmier(e) en Pratiques Avancées:</B> </li>
+ODRU Céline 
+<br>
+  COdru1@chu-grenoble.fr
+<br>
+Tel : 04 76 76 53 99 <br>
+<br>
+    
+<li> <B>Attaché(e) de Recherche Clinque:</B> </li>
+  BORDY Laure   
+  <br>
+  lbordy@chu-grenoble.fr
+  <br>
+  Tel : 04 76 76 61 50
+  <br>
+</ul>
+
+<br>
+</details>
+
 ### **Lyon**
 ### **Saint-Etienne**   
     
@@ -74,9 +165,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
        
 **Site web :** <https://foiecancer93.fr/>   
 <details>
-    <summary>Ressources de soin</summary>
+    <summary>Ressources de soin</summary> <br>
 
-<B>Plateaux techniques</B>     
+<B>Plateaux techniques</B> <br>    
 <ul>
 <li>Radiothérapie externe</li>   
 <li>Radio-embolisation</li>   
@@ -96,9 +187,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <li>Centre de Diagnostic Rapide</li>
 <li>Transplantation hépatique via convention avec l'APHP Beaujon</li>
 </ul>
-   
-<B>Soins de support</B>
-
+<br>   
+<B>Soins de support</B> <br>
+<br>
 <ul>
 <li>Diététique et nutrition</li>      
 <li>Soutien psychologique du patient</li>   
@@ -117,7 +208,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 <details>
     <summary>Ressources humaines</summary>
- 
+<br>
 <ul>
 <li> <B>Infirmier(e) de Coordination:</B> </li>
 YALA Fatima   
@@ -130,6 +221,7 @@ Fax : 01 48 02 62 02 <br>
 <br> 
 <li> <B>Infirmier(e) en Pratiques Avancées:</B> </li>
 CHAUVEL Laura <br>  
+ <br>
     
 <li> <B>Attaché(e) de Recherche Clinque:</B> </li>
   DONNEGER Séverine   
@@ -163,9 +255,9 @@ CHAUVEL Laura <br>
 **Site web :** <https://www.institutdufoie.com/>
 <details>
     <summary>Ressources de soin</summary>
-
-<B>Plateaux techniques</B>   
-
+<br>
+<B>Plateaux techniques</B> <br>   
+<br>
 <ul>
 <li>Radiothérapie externe</li>      
 <li>Radio-embolisation</li>   
@@ -185,9 +277,9 @@ CHAUVEL Laura <br>
  <li>Accès aux études de phase I</li>  
 <li>Endoscopie interventionnelle via convention avec Hôpital Saint Antoine</li>  
 </ul>
-
+<br>
    
-<B>Soins de support</B>
+<B>Soins de support</B> <br>
 
 <ul>
 <li>Diététique et nutrition</li>      
@@ -207,7 +299,7 @@ CHAUVEL Laura <br>
 </details>   
 
 <details>
-    <summary>Ressources humaines</summary>
+    <summary>Ressources humaines</summary> <br>
 <ul>
 <li> <B>Infirmier(e) de Coordination :</B> </li>
     <ul>
@@ -325,6 +417,7 @@ CHAUVEL Laura <br>
 ## <span style="color:blue">**Provence-Alpes-Côtes d'Azur**</span>
 ### **Nice**
 ### **Marseille**
+
 
 
 
