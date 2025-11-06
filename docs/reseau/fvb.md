@@ -6,7 +6,7 @@ title: Foie et voies biliaires
 ### **Clermont-Ferrand**   
 ### **CHU Grenoble Alpes**
 **Pr COSTENTIN Charlotte**     
-   Hôpital Michallon
+   Hôpital Michallon <br>
    Service d'Hépato-gastroentérologie et d'oncologie digestive  <br> 
    Boulevard de la Chantourne 38700 **La Tronche**  <br>
     
@@ -19,7 +19,6 @@ title: Foie et voies biliaires
     <summary>Ressources de soin</summary>
 <br>    
 <B>Plateaux techniques</B> <br>
-<br>
 <ul>
 <li>Radiothérapie externe</li>   
 <li>Radio-embolisation</li>   
@@ -40,8 +39,7 @@ title: Foie et voies biliaires
 <li>Centre de Diagnostic Rapide</li>
 </ul>
 <br>   
-<B>Soins de support</B>    <br>    
-<br>
+<B>Soins de support</B> <br> 
 <ul>
 <li>Diététique et nutrition</li>      
 <li>Soutien psychologique du patient</li>   
@@ -101,35 +99,6 @@ Tel : 04 76 76 53 99 <br>
     
 ## <span style="color:blue">**Bourgogne-Franche-Comté**</span>
 ### **CHU Besançon**
-
-- Pr: Dr xxx
-- Service: 
-- Tel: xxx   
-- Fax: xxx
-- Site web: 
-
-<details>
-    <summary>Ressources de soin</summary>
-
-#### Plateaux techniques
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-#### Soins de support
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-<br>
-</details>   
-
-<details>
-    <summary>Ressources humaines</summary>
-
-#### IDEC
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat          
-#### IPA  
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-#### ARC  
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-<br>
-</details> 
-
 ### **CHU Dijon**   
    
 ## <span style="color:blue">**Bretagne**</span>
@@ -189,7 +158,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 </ul>
 <br>   
 <B>Soins de support</B> <br>
-<br>
 <ul>
 <li>Diététique et nutrition</li>      
 <li>Soutien psychologique du patient</li>   
@@ -257,7 +225,6 @@ CHAUVEL Laura <br>
     <summary>Ressources de soin</summary>
 <br>
 <B>Plateaux techniques</B> <br>   
-<br>
 <ul>
 <li>Radiothérapie externe</li>      
 <li>Radio-embolisation</li>   
@@ -354,11 +321,9 @@ CHAUVEL Laura <br>
           Fax : 02 40 08 31 54
    
 <details>
-    <summary>Ressources de soin</summary>
+    <summary>Ressources de soin</summary> <br>
 
-
-<B>Plateaux techniques</B>   
-    
+<B>Plateaux techniques</B> <br>  
 <ul>
 <li>Radiologie interventionnelle</li>      
 <li>Endoscopie interventionnelle bilio-pancréatique</li>   
@@ -374,11 +339,9 @@ CHAUVEL Laura <br>
 <li>Unité de recherche clinique dédiée au service</li>
 <li>Centre d'Investigation Clinique multithématique du CHU</li>
 <li>Accès aux études de phase I</li>
-<li>Radiothérapie réalisée à l'institut de Cancérologie de l'Ouest (ICO)</li>
-
-   
-<B>Soins de support</B>
-
+<li>Radiothérapie réalisée à l'institut de Cancérologie de l'Ouest (ICO)</li> <br>
+  
+<B>Soins de support</B> <br>
 <ul>
 <li>Diététique et nutrition</li>      
 <li>Soutien psychologique du patient</li>   
@@ -417,6 +380,7 @@ CHAUVEL Laura <br>
 ## <span style="color:blue">**Provence-Alpes-Côtes d'Azur**</span>
 ### **Nice**
 ### **Marseille**
+
 
 
 
