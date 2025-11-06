@@ -129,9 +129,8 @@ Tel : 01 48 02 58 78
 Fax : 01 48 02 62 02 <br>
 <br> 
 <li> <B>Infirmier(e) en Pratiques Avancées:</B> </li>
-<br>
 CHAUVEL Laura <br>  
-<br>
+    
 <li> <B>Attaché(e) de Recherche Clinque:</B> </li>
   DONNEGER Séverine   
   <br>
@@ -220,7 +219,6 @@ CHAUVEL Laura <br>
         Tel : 01 84 82 71 44 (10H00-16H00)   <br>
         Fax: 01 42 16 11 60 <br>
     </ul> <br>
-
 <li> <B>Attaché(e) de Recherche Clinque :</B> </li>
    BEN HIDA Jaouad    <br>  
    Tel: 01 42 16 14 19   <br>
@@ -327,6 +325,7 @@ CHAUVEL Laura <br>
 ## <span style="color:blue">**Provence-Alpes-Côtes d'Azur**</span>
 ### **Nice**
 ### **Marseille**
+
 
 
 
