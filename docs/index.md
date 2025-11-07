@@ -53,7 +53,7 @@ Le réseau d'excellence Pan-Together vise à permettre :
 - une optimisation personnalisée de la prise en charge globale et multi-professionelle du patient, du diagnostic au traitement en passant par les soins de support
 
 
-<span style="font-size:30px">      
+<span style="font-size:25px">      
 <span style="color:orange">
 **PAN-TOGETHER : POUR l’AMELIORATION ENSEMBLE DU PRONOSTIC des cancers digestifs de sombre pronostic**
 </span>
