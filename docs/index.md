@@ -42,6 +42,7 @@ Afin de remplir cette mission, le réseau Pan-Together s’organise autour d’u
 Chaque centre référent pilote le projet à l’échelle nationale en s’appuyant sur des centres experts.
 Le réseau compte plus de 52 centres experts métropolitains et ultramarins. Ils ont été sélectionnés selon des critères d'excellence, incluant une file active importante de patients, un accès systématique aux essais cliniques innovants, et une production scientifique reconnue. Ils ont pour rôle de structurer et d’animer le réseau en établissant des conventions de collaboration régionales et/ou inter-régionales avec les centres de proximité, les médecins généralistes et les spécialistes. Ils permettent la concertation d’experts grâce à l’organisation de RCP spécialisées et veillent à ce que les essais thérapeutiques soient accessibles au plus grand nombre de patients, indépendamment de leur lieu de résidence.
 
+Pan-Together est un réseau labellisé par l'Institut National du Cancer ![](https://pantogether.fr/assets/logoinca.png)
 
 ## Les missions du réseau   
    
