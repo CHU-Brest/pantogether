@@ -3,8 +3,26 @@ title: Foie et voies biliaires
 ---
 
 ## <span style="color:blue">**Auvergne-Rhône-Alpes**</span>  
-### **Clermont-Ferrand**   
-### **CHU Grenoble Alpes**
+<style>
+ul{
+  list-style-type:square;
+  padding: 0;
+  margin: 0;
+}
+li{
+  padding-left: 16px;
+}
+li::before{
+  content: "•";
+  padding-right: 8px;
+  color: green;
+}
+</style>
+
+<ul>
+<li>### **Clermont-Ferrand**</li>   
+<li>### **CHU Grenoble Alpes**</li>
+   </ul>
 **Pr COSTENTIN Charlotte**     
    Hôpital Michallon <br>
    Service d'Hépato-gastroentérologie et d'oncologie digestive  <br> 
@@ -380,6 +398,7 @@ CHAUVEL Laura <br>
 ## <span style="color:blue">**Provence-Alpes-Côtes d'Azur**</span>
 ### **Nice**
 ### **Marseille**
+
 
 
 
