@@ -90,9 +90,9 @@ Tel : 01 40 84 56 14<br>
 <br>
 
 **Modalités de soumission d’un dossier** : <br>
-Adressage des demandes :
+Adressage des demandes :<br>
 -	à l’IDEC <br> 
-Ou 
+Ou <br>
 -	au secrétariat :  secretariat.oncologie.hepatique.bjn@aphp.fr<br>
 <br>  
 
@@ -148,18 +148,18 @@ violaine.gautier@aphp.fr <br>
 
 ### **Hôpital de Saint-Cloud, Institut Curie**
 <ul>
-<li><strong>RCP oncologie digestive médicale hebdomadaire (Institut Curie)</strong>></li> <br>
+<li><strong>RCP oncologie digestive médicale hebdomadaire (Institut Curie)</strong></li> <br>
 <strong>Horaire :</strong> Vendredi à 9h <br>
 <strong>Fréquence :</strong> Hebdomadaire <br>
 <strong>Lieu :</strong> Hôpital de Saint-Cloud <br>
-Institut Curie, 35 rue Dailly, 92210 **Saint-Cloud** <br>
+Institut Curie, 35 rue Dailly, 92210 <strong>Saint-Cloud</strong> <br>
 Et connexion à distance via Teams <br>
               <br>
 <li><strong>RCP oncologie digestive médico-chirurgicale (APR)</strong></li> <br>
 <strong>Horaire :</strong> Jeudi à 16h <br>
 <strong>Fréquence :</strong> Hebdomadaire <br>
 <strong>Lieu :</strong> Hôpital Ambroise Paré <br>
-9 avenue Charles-de-Gaulle, 92100 **Boulogne-Billancourt** <br>
+9 avenue Charles-de-Gaulle, 92100 <strong>Boulogne-Billancourt</strong> <br>
               <br>
 <li><strong>RCP moléculaire hebdomadaire (Institut Curie)</strong></li> <br>
 <strong>Horaire :</strong> Lundi à 17h <br>
@@ -189,7 +189,7 @@ emilie.delval@curie.fr <br>
    
 ## <span style="color:blue">**Nouvelle-Aquitaine**</span>
 ### **Bordeaux**
-### **LImoges**
+### **Limoges**
 ### **Poitiers**   
    
 ## <span style="color:blue">**Occitanie**</span>
