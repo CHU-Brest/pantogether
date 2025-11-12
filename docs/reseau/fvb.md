@@ -249,7 +249,6 @@ Fax : 01.40.87.44.29 <br>
 </ul>
 <br>   
 <B>Soins de support</B> <br>
-<br>
 <ul>
 <li>Diététique et nutrition</li>      
 <li>Soutien psychologique du patient</li>   
@@ -270,12 +269,12 @@ Fax : 01.40.87.44.29 <br>
 <ul>
 <li> <B>Infirmier(e) de Coordination:</B> </li>
 <ul>
-   <li>EL BARKANI Maryline</li><br>
-maryline.berard@aphp.fr<br>
+   <li>EL BARKANI Maryline</li>
+maryline.berard@aphp.fr
    <br>
-<li>LE COZANNET Faustine</li><br>
+<li>LE COZANNET Faustine</li>
 faustine.lecozannet@aphp.fr<br>
-</ul><br>
+</ul>
 Tel : 01 40 87 51 08 <br>
 <br>
 <li> <B>Infirmier(e) en Pratiques Avancées:</B> </li>
@@ -330,7 +329,6 @@ Fax : 0149282107 <br>
 </ul>
 <br>   
 <B>Soins de support</B> <br>
-<br>
 <ul>
 <li>Diététique et nutrition</li>      
 <li>Soutien psychologique du patient</li>   
@@ -385,7 +383,6 @@ manon.allaire@aphp.fr<br>
     <summary>Ressources de soin</summary>
 <br>
 <B>Plateaux techniques</B> <br> 
-<br>
 <ul>
 <li>Radiothérapie externe</li>      
 <li>Radio-embolisation</li>   
@@ -408,7 +405,6 @@ manon.allaire@aphp.fr<br>
 <br>
    
 <B>Soins de support</B> <br>
-<br>
 <ul>
 <li>Diététique et nutrition</li>      
 <li>Soutien psychologique du patient</li>   
@@ -432,12 +428,12 @@ manon.allaire@aphp.fr<br>
     <ul>
   <li>BOSSON Cynthia</li>    
       cynthia.bosson@aphp.fr <br>  
-     <br>
   <li>DELIGNAT Sophie</li>       
         coordination-onco-hepato.psl@aphp.fr   <br>
-        Tel : 01 84 82 71 44 (10H00-16H00)   <br>
-        Fax: 01 42 16 11 60 <br>
-    </ul> <br>
+       </ul>
+   Tel : 01 84 82 71 44 (10H00-16H00)   <br>
+   Fax: 01 42 16 11 60 <br>
+    <br>
 <li> <B>Attaché(e) de Recherche Clinque :</B> </li>
    BEN HIDA Jaouad    <br>  
    Tel: 01 42 16 14 19   <br>
@@ -599,6 +595,7 @@ yann.touchefeu@chu-nantes.fr <br>
 ## <span style="color:blue">**Provence-Alpes-Côtes d'Azur**</span>
 ### **Nice**
 ### **Marseille**
+
 
 
 
