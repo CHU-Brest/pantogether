@@ -208,6 +208,84 @@ CHAUVEL Laura <br>
 
 ### **Créteil**
 ### **Clichy**
+   **Dr BOUATTOUR Mohamed**     
+Oncologie Hépatique et Innovation thérapeutique <br> 
+100 Bld du Général Leclerc 92110 **CLICHY**  <br>
+   Tel : 01 40 87 56 14<br>    
+       
+   **Secrétariat :**      
+          HALIMI Faiza <br>
+secretariat.oncologie.hepatique.bjn@aphp.fr <br>
+   Tel : 01 40 87 56 14 <br>
+Fax : 01.40.87.44.29 <br>
+       
+**Site web :** <https://www.aphp.fr/beaujon/service-d-oncologie-hepatique-et-innovation-therapeutique#:~:text=L'unit%C3%A9%20fonctionnelle%20d'Oncologie,de%20cancer%20primitif%20du%20foie>   
+<details>
+    <summary>Ressources de soin</summary> <br>
+
+<B>Plateaux techniques</B> <br>    
+<ul>
+<li> Radio-embolisation</li>   
+<li>Radiologie interventionnelle</li>   
+<li>Médecine nucléaire</li>   
+<li>Endoscopie interventionnelle bilio-pancréatique</li>   
+<li>Chirurgie viscérale</li>
+<li>Chirurgie digestive de recours</li>   
+<li> Chirurgie hépatique et transplantation hépatique </li>   
+<li>Oncogénétique</li>   
+<li>Plateforme de biologie moléculaire</li>   
+<li>Plateforme d’anatomopathologie</li>   
+<li>Plateforme d’imagerie</li>   
+<li>Plateau de réanimation</li>
+<li>Unité de recherche clinique dédiée</li>
+   
+<li>Centre d'Investigation Clinique multithématique</li>
+<li>Accès aux études de phase I</li>  
+<li>Centre de Diagnostic Rapide</li>
+</ul>
+<br>   
+<B>Soins de support</B> <br>
+<br>
+<ul>
+<li>Diététique et nutrition</li>      
+<li>Soutien psychologique du patient</li>   
+<li>Soutien psychologique des proches et des aidants</li>   
+<li>Accompagnement social, familial et professionnel</li>   
+<li> Rééducation et activités physiques adaptées </li>   
+<li>Gestion de la douleur</li>   
+<li> Gestion de la fatigue</li>   
+<li>Unité mobile de soins palliatifs</li>   
+<li>Hôpital de jour de soins de support</li>   
+</ul>
+<br>
+</details>   
+
+<details>
+    <summary>Ressources humaines</summary>
+<br>
+<ul>
+<li> <B>Infirmier(e) de Coordination:</B> </li>
+EL BARKANI Maryline<br>
+maryline.berard@aphp.fr<br>
+LE COZANNET Faustine<br>
+faustine.lecozannet@aphp.fr<br>
+<br>
+
+Tel : 01 40 87 51 08 <br> 
+<li> <B>Infirmier(e) en Pratiques Avancées:</B> </li>
+DEVICTOR Julie<br>
+julie.devictor@aphp.fr<br>  
+ <br>
+    
+<li> <B>Attaché(e) de Recherche Clinque:</B> </li>
+  HEMDANE Yasmine<br>
+yasmine.hemdane@aphp.fr<br>
+  Tel : 01 40 87 55 53 <br>
+Fax : 01 71 11 46 26<br>
+</ul>
+<br>
+</details>
+
 ### **Paris Cochin**
 ### **CHU La Pitié Salpêtrière**   
    
@@ -226,7 +304,8 @@ CHAUVEL Laura <br>
 <details>
     <summary>Ressources de soin</summary>
 <br>
-<B>Plateaux techniques</B> <br>   
+<B>Plateaux techniques</B> <br> 
+   <br>
 <ul>
 <li>Radiothérapie externe</li>      
 <li>Radio-embolisation</li>   
@@ -439,6 +518,7 @@ emilie.delval@curie.fr <br>
 ## <span style="color:blue">**Provence-Alpes-Côtes d'Azur**</span>
 ### **Nice**
 ### **Marseille**
+
 
 
 
