@@ -149,7 +149,6 @@ violaine.gautier@aphp.fr <br>
 ### **Hôpital de Saint-Cloud, Institut Curie**
 <ul>
 <li><strong>RCP oncologie digestive médicale hebdomadaire (Institut Curie)</strong>></li> <br>
-<br>
 <strong>Horaire :</strong> Vendredi à 9h <br>
 <strong>Fréquence :</strong> Hebdomadaire <br>
 <strong>Lieu :</strong> Hôpital de Saint-Cloud <br>
@@ -157,14 +156,12 @@ Institut Curie, 35 rue Dailly, 92210 **Saint-Cloud** <br>
 Et connexion à distance via Teams <br>
               <br>
 <li><strong>RCP oncologie digestive médico-chirurgicale (APR)</strong></li> <br>
-<br>
 <strong>Horaire :</strong> Jeudi à 16h <br>
 <strong>Fréquence :</strong> Hebdomadaire <br>
 <strong>Lieu :</strong> Hôpital Ambroise Paré <br>
 9 avenue Charles-de-Gaulle, 92100 **Boulogne-Billancourt** <br>
               <br>
 <li><strong>RCP moléculaire hebdomadaire (Institut Curie)</strong></li> <br>
-<br>
 <strong>Horaire :</strong> Lundi à 17h <br>
 <strong>Fréquence :</strong> Hebdomadaire <br>
 <strong>Lieu :</strong> Connexion à distance via Teams <br>
