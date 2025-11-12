@@ -121,7 +121,7 @@ Tel : 04 76 76 53 99 <br>
 ### **Lille**   
    
 ## <span style="color:blue">**Ile de France**</span>
-### **APHP CHU Avicenne_Centre expert référent**   
+### **CHU Avicenne AP-HP_Centre expert référent**   
          
    **Pr GANNE-CARRIE Nathalie**     
    Service d'Hépatologie et d'oncologie Hépatique, Batiment Larrey A  <br> 
@@ -207,7 +207,7 @@ CHAUVEL Laura <br>
 
 
 ### **Créteil**
-### **Clichy**
+### **Hôpital Beaujon AP-HP**
    **Dr BOUATTOUR Mohamed**     
 Oncologie Hépatique et Innovation thérapeutique <br> 
 100 Bld du Général Leclerc 92110 **CLICHY**  <br>
@@ -265,13 +265,15 @@ Fax : 01.40.87.44.29 <br>
 <br>
 <ul>
 <li> <B>Infirmier(e) de Coordination:</B> </li>
-EL BARKANI Maryline<br>
+* EL BARKANI Maryline<br>
 maryline.berard@aphp.fr<br>
-LE COZANNET Faustine<br>
+   <br>
+* LE COZANNET Faustine<br>
 faustine.lecozannet@aphp.fr<br>
 <br>
 
-Tel : 01 40 87 51 08 <br> 
+Tel : 01 40 87 51 08 <br>
+<br>
 <li> <B>Infirmier(e) en Pratiques Avancées:</B> </li>
 DEVICTOR Julie<br>
 julie.devictor@aphp.fr<br>  
@@ -287,6 +289,78 @@ Fax : 01 71 11 46 26<br>
 </details>
 
 ### **Paris Cochin**
+### **Hôpital Saint-Antoine AP-HP**
+   **Dr BOUATTOUR Mohamed**     
+Service d’hépatologie, 8eme étage Bâtiment Caroli <br> 
+184 rue du faubourg Saint Antoine 75012 **Paris** <br>
+   Tel : 01 49 28 31 54<br>    
+       
+   **Secrétariat :**      
+LEJEUNE Claudine <br>
+claudine.lejeune@aphp.fr <br>
+Tel : 0149282463 <br>
+Fax : 0149282107 <br>
+       <br>
+  
+<details>
+    <summary>Ressources de soin</summary> <br>
+
+<B>Plateaux techniques</B> <br>
+<ul>
+<li>Radiologie interventionnelle</li>   
+<li>Endoscopie interventionnelle bilio-pancréatique</li>   
+<li>Chirurgie viscérale</li>
+<li>Chirurgie digestive de recours</li>   
+<li>Oncogénétique</li>   
+<li>Plateforme d’imagerie</li> 
+<li>Unité de recherche clinique dédiée</li>  
+<li>Centre d'Investigation Clinique multithématique</li>
+<li>Plateau de réanimation</li>
+<li>Chirurgie de transplantation hépatique via hôpital de la Pitié-Salpêtrière</li>
+<li>Radio-embolisation via convention avec l’hôpital de la Pitié-Salpêtrière</li>
+<li>Radiothérapie via convention avec l’hôpital de la Pitié-Salpêtrière et Hôpital Tenon</li>
+<li>Médecine nucléaire via convention avec l’hôpital de la Pitié-Salpêtrière et l’hôpital Tenon</li>
+<li>Plateforme de biologie moléculaire via convention avec l’hôpital de la Pitié-Salpêtrière</li>   
+<li>Plateforme d’anatomopathologie via convention avec l’hôpital de la Pitié-Salpêtrière</li>  
+</ul>
+<br>   
+<B>Soins de support</B> <br>
+<br>
+<ul>
+<li>Diététique et nutrition</li>      
+<li>Soutien psychologique du patient</li>   
+<li>Soutien psychologique des proches et des aidants</li>   
+<li>Accompagnement social, familial et professionnel</li>   
+<li> Rééducation et activités physiques adaptées </li>   
+<li>Gestion de la douleur</li>   
+<li>Unité mobile de soins palliatifs</li>   
+<li>Hôpital de jour de soins de support</li>   
+<li> Onco-gériatrie</li>   
+<li> Espace de réflexion éthique</li>   
+</ul>
+<br>
+</details>   
+
+<details>
+    <summary>Ressources humaines</summary>
+<br>
+<ul>
+<li> <B>Infirmier(e) de Coordination:</B> </li>
+DI SACCO Hélène<br>
+coordination.onco-hepato.sat@aphp.fr<br>
+Tel : 01 49 28 31 52 <br>
+Fax : 0149232474 <br>    
+<br>
+    
+<li> <B>Attaché(e) de Recherche Clinque:</B> </li>
+  CHEVANCE Azéline <br>
+azeline.chevance@aphp.fr<br>
+Tel : 01 49 28 33 98<br>
+Fax : 01 71 97 03 39<br>
+</ul>
+<br>
+</details>
+
 ### **CHU La Pitié Salpêtrière**   
    
    **Dr. ALLAIRE Manon**   
@@ -305,7 +379,7 @@ Fax : 01 71 11 46 26<br>
     <summary>Ressources de soin</summary>
 <br>
 <B>Plateaux techniques</B> <br> 
-   <br>
+<br>
 <ul>
 <li>Radiothérapie externe</li>      
 <li>Radio-embolisation</li>   
@@ -328,7 +402,7 @@ Fax : 01 71 11 46 26<br>
 <br>
    
 <B>Soins de support</B> <br>
-
+<br>
 <ul>
 <li>Diététique et nutrition</li>      
 <li>Soutien psychologique du patient</li>   
@@ -341,8 +415,7 @@ Fax : 01 71 11 46 26<br>
 <li>Conseils d'hygiène de vie</li>   
 <li>Hôpital de jour de soins de support</li>   
 <li>Espace de réflexion éthique</li>
-</ul>
-  
+</ul> 
 <br>
 </details>   
 
@@ -518,6 +591,7 @@ emilie.delval@curie.fr <br>
 ## <span style="color:blue">**Provence-Alpes-Côtes d'Azur**</span>
 ### **Nice**
 ### **Marseille**
+
 
 
 
