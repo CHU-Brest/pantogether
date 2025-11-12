@@ -83,20 +83,43 @@ Fiche type à soumettre à l’AMA avant présentation : <br>
 100 Bld du Général Leclerc 92110 **CLICHY**  <br>
 Et connexion à distance via lien Teams <br>
 <br>
-**AMA en charge de la RCP :**  <br>
+**IDEC en charge de la RCP :**  <br>
 EL BARKANI Maryline <br>
 maryline.berard@aphp.fr<br>
 Tel : 01 40 84 56 14<br>
 <br>
 
 **Modalités de soumission d’un dossier** : <br>
-Adressage des demandes à :
--	l’AMA <br> 
-u 
+Adressage des demandes :
+-	à l’IDEC <br> 
+Ou 
 -	au secrétariat :  secretariat.oncologie.hepatique.bjn@aphp.fr<br>
 <br>  
 
 ### **Paris Cochin**
+### **Hôpital Saint-Antoine AP-HP**
+**RCP des tumeurs primitives du foie et des voies biliaires** <br>
+<br>
+**Horaire :** Lundi de 15h à 16h et Mercredi de 16h à 18h <br>
+**Fréquence :** Hebdomadaire <br>
+**Lieu :** Amphithéâtre de radiologie, sous-sol<br>
+184 rue du faubourg Saint Antoine 75012 **Paris** <br>
+ <br>
+**AMA en charge de la RCP :**  <br>
+LEJEUNE Claudine <br>
+claudine.lejeune@aphp.fr <br>
+Tel : 01 49 28 24 63<br>
+Fax 01 49 28 21 07<br>
+<br>
+**IDEC en charge de la RCP :**  <br>
+DI SACCO Hélène <br>
+coordination.onco-hepato.sat@aphp.fr <br>
+Tel : 01 49 28 31 52 <br>
+Fax : 01 49 23 24 74       <br> 
+<br>
+**Modalités de soumission d’un dossier** : <br>
+Fiche RCP à soumettre dans le logiciel ORBIS®
+
 ### **CHU La Pitié Salpêtrière**
 **RCP tumeurs du foie** <br>
 <br>
