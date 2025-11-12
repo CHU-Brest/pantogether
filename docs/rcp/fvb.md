@@ -73,7 +73,29 @@ Fiche type à soumettre à l’AMA avant présentation : <br>
  <br>  
            
 ### **Créteil**
-### **Clichy**
+### **Hôpital Beaujon AP-HP**
+**RCP Oncologie hépatique** <br>
+<br>
+**Horaire :** Lundi de 14h à 18h <br>
+**Fréquence :** Hebdomadaire <br>
+**Lieu :** Hôpital Beaujon <br>
+   Salle de staff du service de radiologie <br> 
+100 Bld du Général Leclerc 92110 **CLICHY**  <br>
+Et connexion à distance via lien Teams <br>
+<br>
+**AMA en charge de la RCP :**  <br>
+EL BARKANI Maryline <br>
+maryline.berard@aphp.fr<br>
+Tel : 01 40 84 56 14<br>
+<br>
+
+**Modalités de soumission d’un dossier** : <br>
+Adressage des demandes à :
+-	l’AMA <br> 
+u 
+-	au secrétariat :  secretariat.oncologie.hepatique.bjn@aphp.fr<br>
+<br>  
+
 ### **Paris Cochin**
 ### **CHU La Pitié Salpêtrière**
 **RCP tumeurs du foie** <br>
