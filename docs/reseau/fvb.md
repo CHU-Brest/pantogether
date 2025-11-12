@@ -291,6 +291,63 @@ CHAUVEL Laura <br>
 
 ### **Paris IMM**
 ### **Saint-Cloud**
+
+   **Pr NEUZILLET Cindy**     
+Oncologie Digestive, Département d'Oncologie médicale  <br> 
+Institut Curie, 35 rue Dailly, 92210 **Saint-Cloud**  <br>
+   Tel : 01 47 11 15 15<br>    
+       
+   **Secrétariat :**      
+          DELVAL Emilie <br>
+emilie.delval@curie.fr <br>
+   Tel : 01 47 11 18 42 <br>
+       
+**Site web :** <https://curie.fr/cancer-foie#content>   
+<details>
+    <summary>Ressources de soin</summary> <br>
+
+<B>Plateaux techniques</B> <br>    
+<ul>
+<li>Radiothérapie externe</li>   
+<li>Radiologie interventionnelle</li>   
+<li>Médecine nucléaire</li>   
+<li>Endoscopie interventionnelle bilio-pancréatique</li>   
+<li>Chirurgie viscérale</li>
+<li>Chirurgie digestive de recours</li>   
+<li>Oncogénétique</li>   
+<li>Plateforme de biologie moléculaire</li>   
+<li>Plateforme d’anatomopathologie</li>   
+<li>Plateforme d’imagerie</li>   
+<li>Plateau de réanimation</li>   
+<li>Centre d'Investigation Clinique multithématique</li>
+<li>Accès aux études de phase I</li>  
+<li>Centre de Diagnostic Rapide</li>
+</ul>
+<br>   
+<B>Soins de support</B> <br>
+<ul>
+<li>Diététique et nutrition</li>      
+<li>Soutien psychologique du patient</li>   
+<li>Soutien psychologique des proches et des aidants</li>   
+<li>Accompagnement social, familial et professionnel</li>   
+<li> Rééducation et activités physiques adaptées </li>   
+<li>Gestion de la douleur</li>   
+<li> Gestion de la fatigue</li>   
+<li>Onco-gériatrie</li>   
+<li>Unité de soins palliatifs dédiée</li>
+<li>Unité mobile de soins palliatifs</li>   
+<li> Approches non conventionnelles (hypnose, acupuncture, sophrologie,...)</li>   
+<li>Préservation de la fertilité</li>   
+<li> Conseils d'hygiène de vie </li>   
+<li>Hôpital de jour de soins de support</li>   
+<li>Espace de réflexion éthique</li>  
+<li> Parcours de préhabilitation</li>  
+<li> Convention avec Hôpital Ambroise Paré, APHP, Boulogne-Billancourt </li>  
+
+</ul>
+<br>
+</details>   
+
 ### **Villejuif**   
    
 ## <span style="color:blue">**Normandie**</span>
@@ -382,6 +439,7 @@ CHAUVEL Laura <br>
 ## <span style="color:blue">**Provence-Alpes-Côtes d'Azur**</span>
 ### **Nice**
 ### **Marseille**
+
 
 
 
