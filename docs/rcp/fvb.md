@@ -144,6 +144,44 @@ Ou <br>
 - GAUTIER Violaine <br>
 violaine.gautier@aphp.fr <br>
 
+### **Hôpital de Saint-Cloud, Institut Curie**
+<ul>
+<li><strong>RCP oncologie digestive médicale hebdomadaire (Institut Curie)</strong>></li> <br>
+<br>
+<strong>Horaire :</strong> Vendredi à 9h <br>
+<strong>Fréquence :</strong> Hebdomadaire <br>
+<strong>Lieu :</strong> Hôpital de Saint-Cloud <br>
+Institut Curie, 35 rue Dailly, 92210 **Saint-Cloud** <br>
+Et connexion à distance via Teams <br>
+              <br>
+<li><strong>RCP oncologie digestive médico-chirurgicale (APR)</strong></li> <br>
+<br>
+<strong>Horaire :</strong> Jeudi à 16h <br>
+<strong>Fréquence :</strong> Hebdomadaire <br>
+<strong>Lieu :</strong> Hôpital Ambroise Paré <br>
+9 avenue Charles-de-Gaulle, 92100 **Boulogne-Billancourt** <br>
+              <br>
+<li><strong>RCP moléculaire hebdomadaire (Institut Curie)</strong></li> <br>
+<br>
+<strong>Horaire :</strong> Lundi à 17h <br>
+<strong>Fréquence :</strong> Hebdomadaire <br>
+<strong>Lieu :</strong> Connexion à distance via Teams <br>
+              <br>
+</ul>
+<strong>AMA en charge des RCP :</strong> <br>
+DELVAL Emilie<br>
+emilie.delval@curie.fr<br>
+Tel : 01 47 11 18 42<br>
+<br>
+
+**Modalités de soumission d’un dossier** : <br>
+Fiche type Pan-Together à soumettre par e-mail à : <br>
+-	Pr NEUZILLET Cindy<br>
+cindy.neuzillet@curie.fr <br>
+Ou <br>
+-	DELVAL Emilie <br>
+emilie.delval@curie.fr <br>
+
 ### **Paris IMM**
 ### **Saint-Cloud**
 ### **Villejuif**   
