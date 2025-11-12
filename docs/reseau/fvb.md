@@ -266,13 +266,13 @@ Fax : 01.40.87.44.29 <br>
 <br>
 <ul>
 <li> <B>Infirmier(e) de Coordination:</B> </li>
-* EL BARKANI Maryline<br>
+<ul>
+   <li>EL BARKANI Maryline</li><br>
 maryline.berard@aphp.fr<br>
    <br>
-* LE COZANNET Faustine<br>
+<li>LE COZANNET Faustine</li><br>
 faustine.lecozannet@aphp.fr<br>
-<br>
-
+</ul><br>
 Tel : 01 40 87 51 08 <br>
 <br>
 <li> <B>Infirmier(e) en Pratiques Avancées:</B> </li>
@@ -475,6 +475,7 @@ emilie.delval@curie.fr <br>
 <li>Centre d'Investigation Clinique multithématique</li>
 <li>Accès aux études de phase I</li>  
 <li>Centre de Diagnostic Rapide</li>
+<li> Convention avec Hôpital Ambroise Paré, APHP, Boulogne-Billancourt </li>
 </ul>
 <br>   
 <B>Soins de support</B> <br>
@@ -495,8 +496,7 @@ emilie.delval@curie.fr <br>
 <li>Hôpital de jour de soins de support</li>   
 <li>Espace de réflexion éthique</li>  
 <li> Parcours de préhabilitation</li>  
-<li> Convention avec Hôpital Ambroise Paré, APHP, Boulogne-Billancourt </li>  
-
+ 
 </ul>
 <br>
 </details>   
@@ -592,6 +592,7 @@ emilie.delval@curie.fr <br>
 ## <span style="color:blue">**Provence-Alpes-Côtes d'Azur**</span>
 ### **Nice**
 ### **Marseille**
+
 
 
 
