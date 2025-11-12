@@ -144,6 +144,8 @@ Ou <br>
 - GAUTIER Violaine <br>
 violaine.gautier@aphp.fr <br>
 
+### **Paris IMM**
+
 ### **Hôpital de Saint-Cloud, Institut Curie**
 <ul>
 <li><strong>RCP oncologie digestive médicale hebdomadaire (Institut Curie)</strong>></li> <br>
@@ -182,8 +184,6 @@ Ou <br>
 -	DELVAL Emilie <br>
 emilie.delval@curie.fr <br>
 
-### **Paris IMM**
-### **Saint-Cloud**
 ### **Villejuif**   
    
 ## <span style="color:blue">**Normandie**</span>
