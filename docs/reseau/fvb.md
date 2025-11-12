@@ -11,6 +11,7 @@ title: Foie et voies biliaires
    Hôpital Michallon <br>
    Service d'Hépato-gastroentérologie et d'oncologie digestive  <br> 
    Boulevard de la Chantourne 38700 **La Tronche**  <br>
+   ccostentin@chu-grenoble.fr <br>
     
    **Secrétariat :**      
           BARDIN Françoise   
@@ -126,6 +127,7 @@ Tel : 04 76 76 53 99 <br>
    **Pr GANNE-CARRIE Nathalie**     
    Service d'Hépatologie et d'oncologie Hépatique, Batiment Larrey A  <br> 
    125 rue de Stalingrad, 93000 **Bobigny**  <br>
+   nathalie.ganne@aphp.fr <br>
    Tel : 01 48 02 62 94 <br>    
        
    **Secrétariat :**      
@@ -212,6 +214,7 @@ CHAUVEL Laura <br>
    **Dr BOUATTOUR Mohamed**     
 Oncologie Hépatique et Innovation thérapeutique <br> 
 100 Bld du Général Leclerc 92110 **CLICHY**  <br>
+Mohamed.bouattour@aphp.fr <br>
    Tel : 01 40 87 56 14<br>    
        
    **Secrétariat :**      
@@ -294,6 +297,7 @@ Fax : 01 71 11 46 26<br>
    **Dr LEQUOY Marie**     
 Service d’hépatologie, 8eme étage Bâtiment Caroli <br> 
 184 rue du faubourg Saint Antoine 75012 **Paris** <br>
+marie.lequoy@aphp.fr <br>
    Tel : 01 49 28 31 54<br>    
        
    **Secrétariat :**      
@@ -367,7 +371,8 @@ Fax : 01 71 97 03 39<br>
    **Dr. ALLAIRE Manon**   
    Service d'hépato-gastroentérologie   <br>
    47-83, boulevard de l'Hôpital 
-75013 **Paris**
+75013 **Paris** <br>
+manon.allaire@aphp.fr<br>
   
    **Secrétariat :**      
          GAUTIER Violaine   
@@ -448,6 +453,7 @@ Fax : 01 71 97 03 39<br>
    **Pr NEUZILLET Cindy**     
 Oncologie Digestive, Département d'Oncologie médicale  <br> 
 Institut Curie, 35 rue Dailly, 92210 **Saint-Cloud**  <br>
+cindy.neuzillet@curie.fr <br>
    Tel : 01 47 11 15 15<br>    
        
    **Secrétariat :**      
@@ -524,6 +530,7 @@ emilie.delval@curie.fr <br>
    Service d'hépatogastroentérologie et oncologie digestive   <br>
    1 place Alexis Ricordeau
 44093 **Nantes** Cedex    <br>
+yann.touchefeu@chu-nantes.fr <br>
    Tel : 02 40 08 31 63   
        
    **Secrétariat :**      
@@ -592,6 +599,7 @@ emilie.delval@curie.fr <br>
 ## <span style="color:blue">**Provence-Alpes-Côtes d'Azur**</span>
 ### **Nice**
 ### **Marseille**
+
 
 
 
