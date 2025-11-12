@@ -134,7 +134,8 @@ Tel : 04 76 76 53 99 <br>
    Tel : 01 48 02 68 03  
    Fax : 01 48 02 62 02   
        
-**Site web :** <https://foiecancer93.fr/>   
+**[Site web](<https://foiecancer93.fr/>)**
+
 <details>
     <summary>Ressources de soin</summary> <br>
 
@@ -219,7 +220,7 @@ secretariat.oncologie.hepatique.bjn@aphp.fr <br>
    Tel : 01 40 87 56 14 <br>
 Fax : 01.40.87.44.29 <br>
        
-**Site web :** <https://www.aphp.fr/beaujon/service-d-oncologie-hepatique-et-innovation-therapeutique#:~:text=L'unit%C3%A9%20fonctionnelle%20d'Oncologie,de%20cancer%20primitif%20du%20foie>   
+**[Site web](<https://www.aphp.fr/beaujon/service-d-oncologie-hepatique-et-innovation-therapeutique#:~:text=L'unit%C3%A9%20fonctionnelle%20d'Oncologie,de%20cancer%20primitif%20du%20foie>)**   
 <details>
     <summary>Ressources de soin</summary> <br>
 
@@ -374,7 +375,7 @@ Fax : 01 71 97 03 39<br>
          Tel : 01 42 16 10 34   
          Fax : 01 42 16 11 60
        
-**Site web :** <https://www.institutdufoie.com/>
+**[Site web](<https://www.institutdufoie.com/>)**
 <details>
     <summary>Ressources de soin</summary>
 <br>
@@ -454,7 +455,7 @@ Institut Curie, 35 rue Dailly, 92210 **Saint-Cloud**  <br>
 emilie.delval@curie.fr <br>
    Tel : 01 47 11 18 42 <br>
        
-**Site web :** <https://curie.fr/cancer-foie#content>   
+**[Site web](<https://curie.fr/cancer-foie#content>)**   
 <details>
     <summary>Ressources de soin</summary> <br>
 
@@ -591,6 +592,7 @@ emilie.delval@curie.fr <br>
 ## <span style="color:blue">**Provence-Alpes-Côtes d'Azur**</span>
 ### **Nice**
 ### **Marseille**
+
 
 
 
