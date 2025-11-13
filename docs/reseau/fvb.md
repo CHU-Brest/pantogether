@@ -586,7 +586,7 @@ Tel : 05 57 62 34 47 <br>
    
 ## <span style="color:blue">**Pays de la Loire**</span>
 ### **Angers**
-### **CHU Nantes**   
+### **CHU Hôtel Dieu**   
     
    **Pr TOUCHEFEU Yann**      
    Service d'hépatogastroentérologie et oncologie digestive   <br>
@@ -661,6 +661,7 @@ yann.touchefeu@chu-nantes.fr <br>
 ## <span style="color:blue">**Provence-Alpes-Côtes d'Azur**</span>
 ### **Nice**
 ### **Marseille**
+
 
 
 
