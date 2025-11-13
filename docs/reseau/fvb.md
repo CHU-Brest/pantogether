@@ -85,7 +85,7 @@ ODRU Céline
 Tel : 04 76 76 53 99 <br>
 <br>
     
-<li> <B>Attaché(e) de Recherche Clinque:</B> </li>
+<li> <B>Attaché(e) de Recherche Clinique:</B> </li>
   BORDY Laure   
   <br>
   lbordy@chu-grenoble.fr
@@ -196,7 +196,7 @@ Fax : 01 48 02 62 02 <br>
 CHAUVEL Laura <br>  
  <br>
     
-<li> <B>Attaché(e) de Recherche Clinque:</B> </li>
+<li> <B>Attaché(e) de Recherche Clinique:</B> </li>
   DONNEGER Séverine   
   <br>
   severine.donneger@aphp.fr   
@@ -282,7 +282,7 @@ DEVICTOR Julie<br>
 julie.devictor@aphp.fr<br>  
  <br>
     
-<li> <B>Attaché(e) de Recherche Clinque:</B> </li>
+<li> <B>Attaché(e) de Recherche Clinique:</B> </li>
   HEMDANE Yasmine<br>
 yasmine.hemdane@aphp.fr<br>
   Tel : 01 40 87 55 53 <br>
@@ -355,7 +355,7 @@ Tel : 01 49 28 31 52 <br>
 Fax : 0149232474 <br>    
 <br>
     
-<li> <B>Attaché(e) de Recherche Clinque:</B> </li>
+<li> <B>Attaché(e) de Recherche Clinique:</B> </li>
   CHEVANCE Azéline <br>
 azeline.chevance@aphp.fr<br>
 Tel : 01 49 28 33 98<br>
@@ -364,7 +364,7 @@ Fax : 01 71 97 03 39<br>
 <br>
 </details>
 
-### **CHU La Pitié Salpêtrière**   
+### **CHU La Pitié-Salpêtrière**   
    
    **Dr. ALLAIRE Manon**   
    Service d'hépato-gastroentérologie   <br>
@@ -434,7 +434,7 @@ manon.allaire@aphp.fr<br>
    Tel : 01 84 82 71 44 (10H00-16H00)   <br>
    Fax: 01 42 16 11 60 <br>
     <br>
-<li> <B>Attaché(e) de Recherche Clinque :</B> </li>
+<li> <B>Attaché(e) de Recherche Clinique :</B> </li>
    BEN HIDA Jaouad    <br>  
    Tel: 01 42 16 14 19   <br>
    Tel : 01 84 82 80 90   <br>
@@ -519,7 +519,7 @@ jean-frederic.blanc@chu-bordeaux.fr <br>
    **Secrétariat :**      
 secretariat.oncodig@chu-bordeaux.fr <br>
        <br>
-**[Site web](<Service d'Hépato-gastro-entérologie et oncologie … - CHU de Bordeaux>)**
+**[Site web](<(https://www.chu-bordeaux.fr/Les-services/Service-d-H%C3%A9pato-gastro-ent%C3%A9rologie-et-oncologie-digestive/)>)**
 <details>
     <summary>Ressources de soin</summary> <br>
 
@@ -661,6 +661,7 @@ yann.touchefeu@chu-nantes.fr <br>
 ## <span style="color:blue">**Provence-Alpes-Côtes d'Azur**</span>
 ### **Nice**
 ### **Marseille**
+
 
 
 
