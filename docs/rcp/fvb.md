@@ -13,7 +13,7 @@ Planning des Réunions Pluridisciplinaires en Région
 **Fréquence :** Hebdomadaire <br>
 **Lieu :** Hôpital Michallon <br>
    Service d'Hépato-gastroentérologie et d'oncologie digestive <br> 
-Boulevard de la Chantourne 38700 **LA TRONCHE**  <br>
+Boulevard de la Chantourne 38700 **La Tronche**  <br>
               <br>
 **AMA en charge de la RCP :**  <br>
 WOITELLIER Béatrice <br>
@@ -56,7 +56,7 @@ Fiche pré-remplie à soumettre à l’AMA avant présentation <br>
 **Horaire :** Vendredi 14h30-17h30 <br>
 **Fréquence :** Hebdomadaire <br>
 **Lieu :** Salle de staff de radiologie interventionnelle, RDC, Batiment Larrey C, <br>
-125 rue de Stalingrad, 93000 **BOBIGNY**  <br>
+125 rue de Stalingrad, 93000 **Bobigny**  <br>
 Et connexion à distance via lien Zoom <br>
               <br>
 **AMA en charge de la RCP :**  <br>
@@ -80,7 +80,7 @@ Fiche type à soumettre à l’AMA avant présentation : <br>
 **Fréquence :** Hebdomadaire <br>
 **Lieu :** Hôpital Beaujon <br>
    Salle de staff du service de radiologie <br> 
-100 Bld du Général Leclerc 92110 **CLICHY**  <br>
+100 Bld du Général Leclerc 92110 **Clichy**  <br>
 Et connexion à distance via lien Teams <br>
 <br>
 **IDEC en charge de la RCP :**  <br>
@@ -103,7 +103,7 @@ Ou <br>
 **Horaire :** Lundi de 15h à 16h et Mercredi de 16h à 18h <br>
 **Fréquence :** Hebdomadaire <br>
 **Lieu :** Amphithéâtre de radiologie, sous-sol<br>
-184 rue du faubourg Saint Antoine 75012 **PARIS** <br>
+184 rue du faubourg Saint Antoine 75012 **Paris** <br>
  <br>
 **AMA en charge de la RCP :**  <br>
 LEJEUNE Claudine <br>
@@ -126,7 +126,7 @@ Fiche RCP à soumettre dans le logiciel ORBIS®
 **Horaire :** Mardi à 16h30 <br>
 **Fréquence :** Hebdomadaire <br>
 **Lieu :** Service de radiologie <br>
-47-83, boulevard de l'Hôpital 75013 **PARIS** <br>
+47-83, boulevard de l'Hôpital 75013 **Paris** <br>
 Et connexion à distance via lien Zoom <br>
               <br>
 **AMA en charge de la RCP :**  <br>
@@ -152,14 +152,14 @@ violaine.gautier@aphp.fr <br>
 <strong>Horaire :</strong> Vendredi à 9h <br>
 <strong>Fréquence :</strong> Hebdomadaire <br>
 <strong>Lieu :</strong> Hôpital de Saint-Cloud <br>
-Institut Curie, 35 rue Dailly, 92210 <strong>SAINT-CLOUD</strong> <br>
+Institut Curie, 35 rue Dailly, 92210 <strong>Saint-Cloud</strong> <br>
 Et connexion à distance via Teams <br>
               <br>
 <li><strong>RCP oncologie digestive médico-chirurgicale (APR)</strong></li> <br>
 <strong>Horaire :</strong> Jeudi à 16h <br>
 <strong>Fréquence :</strong> Hebdomadaire <br>
 <strong>Lieu :</strong> Hôpital Ambroise Paré <br>
-9 avenue Charles-de-Gaulle, 92100 <strong>BOULOGNE-BILLANCOURT</strong> <br>
+9 avenue Charles-de-Gaulle, 92100 <strong>Boulogne-Billancourt</strong> <br>
               <br>
 <li><strong>RCP moléculaire hebdomadaire (Institut Curie)</strong></li> <br>
 <strong>Horaire :</strong> Lundi à 17h <br>
@@ -195,7 +195,7 @@ emilie.delval@curie.fr <br>
 **Horaire :** Mardi à 17h <br>
 **Fréquence :** Hebdomadaire <br>
 **Lieu :** Salle Vasco-de-Gama, RDC, Bâtiment Magellan, <br>
-Avenue de Magellan 33604 **PESSAC**  <br>
+Avenue de Magellan 33604 **Pessac**  <br>
 Et connexion à distance possible sur demande <br>
               <br>
 **Modalités de soumission d’un dossier** : <br>
@@ -216,7 +216,7 @@ Dossier à soumettre au 3C du CHU par email : 3c-sud@chu-bordeaux.fr : <br>
 <br>
 **Horaire :** Mercredi 13h30-16h <br>
 **Fréquence :** Hebdomadaire <br>
-**Lieu :** 1 place Alexis Ricordeau, 44093 **NANTES** <br>
+**Lieu :** 1 place Alexis Ricordeau, 44093 **Nantes** <br>
 Et connexion à distance avec le CHD de la Roche-sur-Yon, l'institut de Cancérologie de l'Ouest et la clinique mutualiste de Saint Nazaire <br>
               <br>
 
