@@ -188,7 +188,20 @@ emilie.delval@curie.fr <br>
 ### **Rouen**   
    
 ## <span style="color:blue">**Nouvelle-Aquitaine**</span>
-### **Bordeaux**
+### **CHU Haut-Lévêque**
+**RCP tumeurs primitives du foie et des voies biliaires** <br>
+ Réseau de cancérologie d'Aquitaine <br>
+<br>
+**Horaire :** Mardi à 17h <br>
+**Fréquence :** Hebdomadaire <br>
+**Lieu :** Salle Vasco-de-Gama, RDC, Bâtiment Magellan, <br>
+Avenue de Magellan 33604 **Pessac**  <br>
+Et connexion à distance possible sur demande <br>
+              <br>
+**Modalités de soumission d’un dossier** : <br>
+Dossier à soumettre au 3C du CHU par email : 3c-sud@chu-bordeaux.fr : <br>
+<br>  
+
 ### **Limoges**
 ### **Poitiers**   
    
