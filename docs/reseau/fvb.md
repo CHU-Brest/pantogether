@@ -519,7 +519,7 @@ jean-frederic.blanc@chu-bordeaux.fr <br>
    **Secrétariat :**      
 secretariat.oncodig@chu-bordeaux.fr <br>
        <br>
-**[Site web](<(https://www.chu-bordeaux.fr/Les-services/Service-d-Hépato-gastro-entérologie-et-oncologie-digestive/)>)**
+**[Site web](<(https://www.chu-bordeaux.fr/Les-services/Service-d-Hepato-gastro-enterologie-et-oncologie-digestive/)>)**
 <details>
     <summary>Ressources de soin</summary> <br>
 
@@ -661,6 +661,7 @@ yann.touchefeu@chu-nantes.fr <br>
 ## <span style="color:blue">**Provence-Alpes-Côtes d'Azur**</span>
 ### **Nice**
 ### **Marseille**
+
 
 
 
