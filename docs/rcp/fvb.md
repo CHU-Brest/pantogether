@@ -232,7 +232,7 @@ Tel : 04 67 33 07 54<br>
 <br>
 
 **Modalités de soumission d’un dossier** : <br>
-Saisie de la fiche RCP en ligne dans le dossier communicant de cancérologie (DCC) du patient [Onco Occitanie](<Onco-Occitanie 6.0.0>) <br>
+Saisie de la fiche RCP en ligne dans le dossier communicant de cancérologie (DCC) du patient [Onco Occitanie](<https://portail.mediware.fr/Apps/WebObjects/Oncooc.woa/wa>) <br>
  <br>  
 
 ### **Toulouse**   
