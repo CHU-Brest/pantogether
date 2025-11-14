@@ -56,7 +56,7 @@ Et connexion à distance via la plateforme ligne [PULSY](< https://www.pulsy.fr/
 macurie@chu-reims.fr <br>
 -	GLADIEUX Elodie <br>
 egladieux@chu-reims.fr <br>
-<br>
+
 Tel : 03 26 78 76 10<br>
 <br>
 
@@ -75,7 +75,8 @@ Soumission de la fiche RCP sur la plateforme en ligne [PULSY](< https://www.puls
 <br>
 **Horaire :** Vendredi 14h30-17h30 <br>
 **Fréquence :** Hebdomadaire <br>
-**Lieu :** Salle de staff de radiologie interventionnelle, RDC, Batiment Larrey C, <br>
+**Lieu :** CHU Avicenne <br>
+Salle de staff de radiologie interventionnelle, RDC, Batiment Larrey C, <br>
 125 rue de Stalingrad, 93000 **Bobigny**  <br>
 Et connexion à distance via lien Zoom <br>
               <br>
@@ -122,7 +123,8 @@ Ou <br>
 <br>
 **Horaire :** Lundi de 15h à 16h et Mercredi de 16h à 18h <br>
 **Fréquence :** Hebdomadaire <br>
-**Lieu :** Amphithéâtre de radiologie, sous-sol<br>
+**Lieu :** Hôpital Saint-Antoine <br>
+Amphithéâtre de radiologie, sous-sol<br>
 184 rue du faubourg Saint Antoine 75012 **Paris** <br>
  <br>
 **AMA en charge de la RCP :**  <br>
@@ -145,7 +147,8 @@ Fiche RCP à soumettre dans le logiciel ORBIS®
 <br>
 **Horaire :** Mardi à 16h30 <br>
 **Fréquence :** Hebdomadaire <br>
-**Lieu :** Service de radiologie <br>
+**Lieu :** Hôpital La Pitié Salpêtrière <br>
+Service de radiologie <br>
 47-83, boulevard de l'Hôpital 75013 **Paris** <br>
 Et connexion à distance via lien Zoom <br>
               <br>
@@ -214,7 +217,8 @@ emilie.delval@curie.fr <br>
 <br>
 **Horaire :** Mardi à 17h <br>
 **Fréquence :** Hebdomadaire <br>
-**Lieu :** Salle Vasco-de-Gama, RDC, Bâtiment Magellan, <br>
+**Lieu :** Hôpital Haut-Lévêque <br>
+Salle Vasco-de-Gama, RDC, Bâtiment Magellan <br>
 Avenue de Magellan 33604 **Pessac**  <br>
 Et connexion à distance possible sur demande <br>
               <br>
@@ -233,7 +237,8 @@ Réseau Onco Occitanie <br>
    <br>
 <strong>Horaire :</strong> Mardi à 17h <br>
 <strong>Fréquence :</strong> Hebdomadaire <br>
-<strong>Lieu :</strong> Salle de réunion radiologie <br>
+<strong>Lieu :</strong> Hôpital St Eloi <br>
+   Salle de réunion radiologie <br>
 80 Av Augustin Fliche, 34090 <strong>Montpellier</strong> <br>
 Et connexion à distance via lien Teams <br>
               <br>
@@ -265,7 +270,8 @@ Saisie de la fiche RCP en ligne dans le dossier communicant de cancérologie (DC
 <br>
 **Horaire :** Mercredi 13h30-16h <br>
 **Fréquence :** Hebdomadaire <br>
-**Lieu :** 1 place Alexis Ricordeau, 44093 **Nantes** <br>
+**Lieu :** Hôtel Dieu <br>
+1 place Alexis Ricordeau, 44093 **Nantes** <br>
 Et connexion à distance avec le CHD de la Roche-sur-Yon, l'institut de Cancérologie de l'Ouest et la clinique mutualiste de Saint Nazaire <br>
               <br>
 
