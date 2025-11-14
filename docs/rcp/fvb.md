@@ -226,7 +226,26 @@ Et connexion à distance possible sur demande <br>
 Dossier à soumettre au 3C du CHU par email : 3c-sud@chu-bordeaux.fr : <br>
 <br>  
 
-### **Limoges**
+### **CHU Limoges**
+**RCP CHC et Voies biliaires RCP Digestive** <br>
+**RCP Digestive** <br>
+Réseau ONCO Nouvelle-Aquitaine<br>
+<br>
+**Horaire :** Jeudi de 15h30 à 17h <br>
+**Fréquence :** Hebdomadaire <br>
+**Lieu :** CHU Dupuytren 1 <br>
+   Salle de colloque, service d'Hépato-Gastroentérologie <br> 
+2 avenue Martin Luther King 87042 **Limoges**  <br>
+              <br>
+**AMA en charge de la RCP :**  <br>
+BLANCHETON Mylène <br>
+mylene.blancheton@chu-limoges.fr <br>
+secretariat.rcp.3c@chulimoges.fr<br>
+sucp1@chu-limoges.fr<br>
+Tel : 05 55 05 67 65 <br>
+Fax : 05 55 05 65 46 <br>
+<br>
+
 ### **Poitiers**   
    
 ## <span style="color:blue">**Occitanie**</span>
