@@ -6,7 +6,7 @@ Planning des Réunions Pluridisciplinaires en Région
 
 ## <span style="color:blue">**Auvergne-Rhône-Alpes**</span>  
 ### **Clermont-Ferrand**   
-### **CHU Grenoble Alpes**
+### **Hôpital Michallon, CHU Grenoble Alpes**
 **RCP des tumeurs primitives hépatiques** <br>
 <br>
 **Horaire :** Mardi à 16h <br>
@@ -49,7 +49,7 @@ Fiche pré-remplie à soumettre à l’AMA avant présentation <br>
 ### **Lille**   
    
 ## <span style="color:blue">**Ile de France**</span>
-### **APHP CHU Avicenne_Centre expert référent**   
+### **CHU Avicenne, AP-HP_Centre expert référent**   
  **RCP de compétence rare « Tumeurs Primitives du foie »** <br>
  Réseau OncoRIF <br>
 <br>
@@ -73,7 +73,7 @@ Fiche type à soumettre à l’AMA avant présentation : <br>
  <br>  
            
 ### **Créteil**
-### **Hôpital Beaujon AP-HP**
+### **Hôpital Beaujon, AP-HP**
 **RCP Oncologie hépatique** <br>
 <br>
 **Horaire :** Lundi de 14h à 18h <br>
@@ -97,7 +97,7 @@ Ou <br>
 <br>  
 
 ### **Paris Cochin**
-### **Hôpital Saint-Antoine AP-HP**
+### **Hôpital Saint-Antoine, AP-HP**
 **RCP des tumeurs primitives du foie et des voies biliaires** <br>
 <br>
 **Horaire :** Lundi de 15h à 16h et Mercredi de 16h à 18h <br>
@@ -120,7 +120,7 @@ Fax : 01 49 23 24 74       <br>
 **Modalités de soumission d’un dossier** : <br>
 Fiche RCP à soumettre dans le logiciel ORBIS®
 
-### **CHU La Pitié Salpêtrière**
+### **Hôpital La Pitié Salpêtrière, AP-HP**
 **RCP tumeurs du foie** <br>
 <br>
 **Horaire :** Mardi à 16h30 <br>
@@ -188,7 +188,7 @@ emilie.delval@curie.fr <br>
 ### **Rouen**   
    
 ## <span style="color:blue">**Nouvelle-Aquitaine**</span>
-### **CHU Haut-Lévêque**
+### **Hôpital Haut-Lévêque, CHU Bordeaux**
 **RCP tumeurs primitives du foie et des voies biliaires** <br>
  Réseau de cancérologie d'Aquitaine <br>
 <br>
@@ -209,8 +209,7 @@ Dossier à soumettre au 3C du CHU par email : 3c-sud@chu-bordeaux.fr : <br>
 ### **Hôpital St Eloi, CHU Montpellier**
 <ul>
 <li><strong>RCP Digestive</strong></li> <br>
- Réseau Onco Occitanie <br>
-<br>
+Réseau Onco Occitanie <br>
 <strong>Horaire :</strong> Mardi à 17h <br>
 <strong>Fréquence :</strong> Hebdomadaire <br>
 <strong>Lieu :</strong> Salle de réunion radiologie <br>
@@ -218,8 +217,7 @@ Dossier à soumettre au 3C du CHU par email : 3c-sud@chu-bordeaux.fr : <br>
 Et connexion à distance via lien Teams <br>
               <br>
 <li><strong>RCP Foie</strong></li> <br>
- Réseau Onco Occitanie <br>
-<br>
+Réseau Onco Occitanie <br>
 <strong>Horaire :</strong> Vendredi à 14h <br>
 <strong>Fréquence :</strong> Hebdomadaire <br>
 <strong>Lieu :</strong> Salle de réunion radiologie <br>
@@ -234,14 +232,14 @@ Tel : 04 67 33 07 54<br>
 <br>
 
 **Modalités de soumission d’un dossier** : <br>
-Saisie de la fiche RCP en ligne dans le dossier communicant de cancérologie (DCC) du patient [Onco Occitanie](< Onco-Occitanie 6.0.0>)  <br> <br>
+Saisie de la fiche RCP en ligne dans le dossier communicant de cancérologie (DCC) du patient [Onco Occitanie](<Onco-Occitanie 6.0.0>) <br>
  <br>  
 
 ### **Toulouse**   
    
 ## <span style="color:blue">**Pays de la Loire**</span>
 ### **Angers**
-### **CHU Hôtel Dieu**   
+### **Hôtel Dieu, CHU Nantes**   
 **RCP hépatobiliaire** <br>
 <br>
 **Horaire :** Mercredi 13h30-16h <br>
