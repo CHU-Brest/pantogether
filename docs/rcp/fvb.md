@@ -56,6 +56,7 @@ Et connexion à distance via la plateforme ligne [PULSY](< https://www.pulsy.fr/
 macurie@chu-reims.fr <br>
 -	GLADIEUX Elodie <br>
 egladieux@chu-reims.fr <br>
+<br>
 Tel : 03 26 78 76 10<br>
 <br>
 
