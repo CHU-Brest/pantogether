@@ -117,7 +117,7 @@ Tel : 04 76 76 53 99 <br>
 ### **CHU Reims**   
 **Dr HEURGUE Alexandra**     
 Service d'Hépato-gastroentérologie, bâtiment Cabrol <br> 
-Avenue du général Koenig 51100 **REIMS** <br>
+Avenue du général Koenig 51100 **Reims** <br>
 aheurgue@chu-reims.fr       
 Tel : 03 26 78 34 10 <br>   
 
@@ -180,7 +180,7 @@ Tel : 03 26 78 88 32 <br>
        </ul>
    Tel : 03 26 83 24 24 <br>
 <br>
-<li> <B>Attaché(e) de Recherche Clinique:</B> </li>
+<li> <B>Attaché(e) de Recherche Clinique :</B> </li>
 FERON Thomas <br>
 tferon@chu-reims.fr<br>
 Tel : 03 26 83 26 31 <br>
@@ -263,11 +263,11 @@ Tel : 01 48 02 58 78
 <br>
 Fax : 01 48 02 62 02 <br>
 <br> 
-<li> <B>Infirmier(e) en Pratiques Avancées:</B> </li>
+<li> <B>Infirmier(e) en Pratiques Avancées :</B> </li>
 CHAUVEL Laura <br>  
  <br>
     
-<li> <B>Attaché(e) de Recherche Clinique:</B> </li>
+<li> <B>Attaché(e) de Recherche Clinique :</B> </li>
   DONNEGER Séverine   
   <br>
   severine.donneger@aphp.fr   
@@ -284,7 +284,7 @@ CHAUVEL Laura <br>
 ### **Hôpital Beaujon, AP-HP**
    **Dr BOUATTOUR Mohamed**     
 Oncologie Hépatique et Innovation thérapeutique <br> 
-100 Bld du Général Leclerc 92110 **CLICHY**  <br>
+100 Bld du Général Leclerc 92110 **Clichy**  <br>
 Mohamed.bouattour@aphp.fr <br>
    Tel : 01 40 87 56 14<br>    
        
@@ -651,7 +651,7 @@ Tel : 05 57 62 34 47 <br>
 ### **CHU Limoges**
 **Dr DEBETTE-GRATIEN Marilyne**     
 CHU Dupuytren 1, 3ème étage <br> 
-2 avenue Martin Luther King 87042 **LIMOGES** <br>
+2 avenue Martin Luther King 87042 **Limoges** <br>
 marilyne.debette-gratien@chu-limoges.fr      
 Tel : 0555058726 <br> 
        
@@ -881,6 +881,7 @@ yann.touchefeu@chu-nantes.fr <br>
 ## <span style="color:blue">**Provence-Alpes-Côtes d'Azur**</span>
 ### **Nice**
 ### **Marseille**
+
 
 
 
