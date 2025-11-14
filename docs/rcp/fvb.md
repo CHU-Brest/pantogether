@@ -214,7 +214,7 @@ Réseau Onco Occitanie <br>
 <strong>Horaire :</strong> Mardi à 17h <br>
 <strong>Fréquence :</strong> Hebdomadaire <br>
 <strong>Lieu :</strong> Salle de réunion radiologie <br>
-80 Av Augustin Fliche, 34090 **Montpellier** <br>
+80 Av Augustin Fliche, 34090 <strong>Montpellier</strong> <br>
 Et connexion à distance via lien Teams <br>
               <br>
 <li><strong>RCP Foie</strong></li>   
@@ -223,7 +223,7 @@ Réseau Onco Occitanie <br>
 <strong>Horaire :</strong> Vendredi à 14h <br>
 <strong>Fréquence :</strong> Hebdomadaire <br>
 <strong>Lieu :</strong> Salle de réunion radiologie <br>
-80 Av Augustin Fliche, 34090 **Montpellier** <br>
+80 Av Augustin Fliche, 34090 <strong>Montpellier</strong> <br>
 Et connexion à distance via lien Teams <br>
               <br>
 </ul>
