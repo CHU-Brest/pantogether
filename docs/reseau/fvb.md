@@ -67,7 +67,7 @@ title: Foie et voies biliaires
     <summary>Ressources humaines</summary> <br>
  
 <ul>
-<li> <B>Infirmier(e) de Coordination:</B> </li>
+<li> <B>Infirmier(e) de Coordination :</B> </li>
 Mélody & Océane
 <br>
 
@@ -76,7 +76,7 @@ ideoncologiehge@chu-grenoble.fr
 Tel : 04 76 76 53 01 <br>
 <br>
  
-<li> <B>Infirmier(e) en Pratiques Avancées:</B> </li>
+<li> <B>Infirmier(e) en Pratiques Avancées :</B> </li>
 ODRU Céline 
 <br>
   COdru1@chu-grenoble.fr
@@ -84,7 +84,7 @@ ODRU Céline
 Tel : 04 76 76 53 99 <br>
 <br>
     
-<li> <B>Attaché(e) de Recherche Clinique:</B> </li>
+<li> <B>Attaché(e) de Recherche Clinique :</B> </li>
   BORDY Laure   
   <br>
   lbordy@chu-grenoble.fr
@@ -171,7 +171,7 @@ Tel : 03 26 78 88 32 <br>
 <br>
 <ul>
   
-<li> <B>Infirmier(e) de Coordination:</B> </li>
+<li> <B>Infirmier(e) de Coordination :</B> </li>
 <ul>
   <li>EVANO Laura</li>    
       levano@chu-reims.fr <br>  
@@ -254,7 +254,7 @@ Tel : 03 26 83 26 31 <br>
     <summary>Ressources humaines</summary>
 <br>
 <ul>
-<li> <B>Infirmier(e) de Coordination:</B> </li>
+<li> <B>Infirmier(e) de Coordination :</B> </li>
 YALA Fatima   
 <br>
 fatima.yala@aphp.fr   
@@ -338,7 +338,7 @@ Fax : 01.40.87.44.29 <br>
     <summary>Ressources humaines</summary>
 <br>
 <ul>
-<li> <B>Infirmier(e) de Coordination:</B> </li>
+<li> <B>Infirmier(e) de Coordination :</B> </li>
 <ul>
    <li>EL BARKANI Maryline</li>
 maryline.berard@aphp.fr
@@ -348,12 +348,12 @@ faustine.lecozannet@aphp.fr<br>
 </ul>
 Tel : 01 40 87 51 08 <br>
 <br>
-<li> <B>Infirmier(e) en Pratiques Avancées:</B> </li>
+<li> <B>Infirmier(e) en Pratiques Avancées :</B> </li>
 DEVICTOR Julie<br>
 julie.devictor@aphp.fr<br>  
  <br>
     
-<li> <B>Attaché(e) de Recherche Clinique:</B> </li>
+<li> <B>Attaché(e) de Recherche Clinique :</B> </li>
   HEMDANE Yasmine<br>
 yasmine.hemdane@aphp.fr<br>
   Tel : 01 40 87 55 53 <br>
@@ -419,14 +419,14 @@ Fax : 0149282107 <br>
     <summary>Ressources humaines</summary>
 <br>
 <ul>
-<li> <B>Infirmier(e) de Coordination:</B> </li>
+<li> <B>Infirmier(e) de Coordination :</B> </li>
 DI SACCO Hélène<br>
 coordination.onco-hepato.sat@aphp.fr<br>
 Tel : 01 49 28 31 52 <br>
 Fax : 0149232474 <br>    
 <br>
     
-<li> <B>Attaché(e) de Recherche Clinique:</B> </li>
+<li> <B>Attaché(e) de Recherche Clinique :</B> </li>
   CHEVANCE Azéline <br>
 azeline.chevance@aphp.fr<br>
 Tel : 01 49 28 33 98<br>
@@ -794,7 +794,7 @@ Fax : 04 67 33 23 10 <br>
 <br>
 <ul>
   
-<li> <B>Attaché(e) de Recherche Clinique:</B> </li>
+<li> <B>Attaché(e) de Recherche Clinique :</B> </li>
 DUVAL Julie<br>
 j-duval@chu-montpellier.fr <br>
 Fax : 04 67 33 23 10<br>
@@ -881,6 +881,7 @@ yann.touchefeu@chu-nantes.fr <br>
 ## <span style="color:blue">**Provence-Alpes-Côtes d'Azur**</span>
 ### **Nice**
 ### **Marseille**
+
 
 
 
