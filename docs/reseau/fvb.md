@@ -582,7 +582,7 @@ emilie.delval@curie.fr <br>
    
 ## <span style="color:blue">**Nouvelle-Aquitaine**</span>
 ### **Hôpital Haut-Lévêque, CHU Bordeaux**
-   **BLANC Jean-Frédéric**     
+   **Pr BLANC Jean-Frédéric**     
 Unité de Cancérologie digestive <br> 
 Avenue de Magellan 33604 **Pessac** <br>
 jean-frederic.blanc@chu-bordeaux.fr <br>    
@@ -881,6 +881,7 @@ yann.touchefeu@chu-nantes.fr <br>
 ## <span style="color:blue">**Provence-Alpes-Côtes d'Azur**</span>
 ### **Nice**
 ### **Marseille**
+
 
 
 
