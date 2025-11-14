@@ -648,7 +648,86 @@ Tel : 05 57 62 34 47 <br>
 <br>
 </details>
 
-### **LImoges**
+### **CHU Limoges**
+**Dr DEBETTE-GRATIEN Marilyne**     
+CHU Dupuytren 1, 3ème étage <br> 
+2 avenue Martin Luther King 87042 **LIMOGES** <br>
+marilyne.debette-gratien@chu-limoges.fr      
+Tel : 0555058726 <br> 
+       
+   **Secrétariat :**      
+DENOYER Nathalie <br>
+nathalie.denoyer@chu-limoges.fr <br>
+Tel : 05 55 05 87 26<br>
+Fax : 05 55 05 63 01 <br>
+       <br>
+**[Site web](< https://www.chu-limoges.fr/service-medical/hepato-gastro-enterologie-et-nutrition/>)**
+<details>
+    <summary>Ressources de soin</summary> <br>
+
+<B>Plateaux techniques</B> <br>    
+<ul>
+<li> Radiothérapie externe </li>   
+<li>Radiologie interventionnelle</li>   
+<li> Médecine nucléaire </li>   
+<li>Endoscopie interventionnelle bilio-pancréatique</li>   
+<li>Chirurgie viscérale</li>
+<li>Chirurgie digestive de recours</li>   
+<li> Chirurgie hépatique et transplantation hépatique </li>   
+<li>Oncogénétique</li>   
+<li> Plateforme de biologie moléculaire </li> 
+<li> Plateforme d'anatomopathologie </li> 
+<li>Plateforme d’imagerie</li> 
+<li> Plateau de réanimation </li> 
+<li> Centre de diagnostic rapide</li>  
+<li>Centre d'Investigation Clinique multithématique</li>
+<li> Accès aux études de phase I </li>
+<li>Attachés de Recherche Clinique hors Unité de Recherche Clinique </li>
+<li>Convention pour l’accès à des plateaux techniques avec le CHRU de Tours </li>
+</ul>
+<br>   
+<B>Soins de support</B> <br>
+<ul>
+<li>Diététique et nutrition</li>      
+<li>Soutien psychologique du patient</li>   
+<li>Soutien psychologique des proches et des aidants</li>   
+<li>Accompagnement social, familial et professionnel</li>   
+<li> Rééducation et activités physiques adaptées </li>   
+<li>Gestion de la douleur</li>   
+<li>Gestion de la fatigue</li>   
+<li> Unité de soins palliatifs dédiée</li>   
+<li>Unité mobile de soins palliatifs</li>   
+<li> Onco-gériatrie</li>   
+<li> Gestion des troubles de la sexualité</li>   
+<li> Préservation de la fertilité </li>   
+<li> Conseils d'hygiène de vie </li>
+<li> Hôpital de jour de soins de support </li>
+<li> Espace de réflexion éthique</li>   
+<li> Socio-esthéticiennes</li>   
+
+</ul>
+<br>
+</details>   
+
+<details>
+    <summary>Ressources humaines</summary>
+<br>
+<ul>
+<li> <B>Infirmier(e) de Coordination :</B> </li>
+BOURY Séverine <br>
+severine.boury@chu-limoges.fr <br>
+Tel: 05 55 08 74 54 <br>
+Fax: 05 55 05 87 08 <br>
+<br>
+  
+<li> <B>Attaché(e) de Recherche Clinique :</B> </li>
+RIGAUD Céline <br>
+celine.rigaud@chu-limoges.fr <br>
+Tel : 05 55 05 60 52 <br>
+Fax : 05 55 05 63 01<br>
+</ul>
+</details>
+
 ### **Poitiers**   
    
 ## <span style="color:blue">**Occitanie**</span>
@@ -802,6 +881,7 @@ yann.touchefeu@chu-nantes.fr <br>
 ## <span style="color:blue">**Provence-Alpes-Côtes d'Azur**</span>
 ### **Nice**
 ### **Marseille**
+
 
 
 
