@@ -266,7 +266,8 @@ Réseau Onco Occitanie <br>
    <br>
 <strong>Horaire :</strong> Vendredi à 14h <br>
 <strong>Fréquence :</strong> Hebdomadaire <br>
-<strong>Lieu :</strong> Salle de réunion radiologie <br>
+<strong>Lieu :</strong> Hôpital St Eloi <br>
+Salle de réunion radiologie <br>
 80 Av Augustin Fliche, 34090 <strong>Montpellier</strong> <br>
 Et connexion à distance via lien Teams <br>
               <br>
