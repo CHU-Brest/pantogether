@@ -42,8 +42,27 @@ Fiche pré-remplie à soumettre à l’AMA avant présentation <br>
    
 ## <span style="color:blue">**Grand-Est**</span>
 ### **Nancy**
-### **Reims**   
-   
+### **CHU Reims**   
+**RCP ONCOFOIE** : cancer du foie, des voies biliaires et tumeurs hépato-biliaires à évolution imprévisible <br>
+ <br>
+**Horaire :** Mardi de 16h à 19h <br>
+**Fréquence :** Tous les 15 jours <br>
+**Lieu :** CHU Reims <br>
+Avenue du général Koenig, 51100 **REIMS** <br>
+Et connexion à distance via la plateforme ligne [PULSY](< https://www.pulsy.fr/portail/nos-services-e-sante/e-rcp-54-62.html>) <br>
+
+**AMA en charge de la RCP :**  <br>
+-	CURIE Marie Aurore <br>
+macurie@chu-reims.fr <br>
+-	GLADIEUX Elodie <br>
+egladieux@chu-reims.fr <br>
+Tel : 03 26 78 76 10<br>
+<br>
+
+**Modalités de soumission d’un dossier** : <br>
+Soumission de la fiche RCP sur la plateforme en ligne [PULSY](< https://www.pulsy.fr/portail/nos-services-e-sante/e-rcp-54-62.html>)  <br>
+ <br>  
+
 ## <span style="color:blue">**Hauts-de-France**</span>
 ### **Amiens**
 ### **Lille**   
