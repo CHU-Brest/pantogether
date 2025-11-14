@@ -5,10 +5,9 @@ title: Foie et voies biliaires
 ## <span style="color:blue">**Auvergne-Rhône-Alpes**</span>  
 
 ### **Clermont-Ferrand**   
-### **CHU Grenoble Alpes**
+### **Hôpital Michallon, CHU Grenoble Alpes**
 
 **Pr COSTENTIN Charlotte**     
-   Hôpital Michallon <br>
    Service d'Hépato-gastroentérologie et d'oncologie digestive  <br> 
    Boulevard de la Chantourne 38700 **La Tronche**  <br>
    ccostentin@chu-grenoble.fr <br>
@@ -122,7 +121,7 @@ Tel : 04 76 76 53 99 <br>
 ### **Lille**   
    
 ## <span style="color:blue">**Ile de France**</span>
-### **CHU Avicenne AP-HP_Centre expert référent**   
+### **CHU Avicenne, AP-HP_Centre expert référent**   
          
    **Pr GANNE-CARRIE Nathalie**     
    Service d'Hépatologie et d'oncologie Hépatique, Batiment Larrey A  <br> 
@@ -210,7 +209,7 @@ CHAUVEL Laura <br>
 
 
 ### **Créteil**
-### **Hôpital Beaujon AP-HP**
+### **Hôpital Beaujon, AP-HP**
    **Dr BOUATTOUR Mohamed**     
 Oncologie Hépatique et Innovation thérapeutique <br> 
 100 Bld du Général Leclerc 92110 **CLICHY**  <br>
@@ -292,7 +291,7 @@ Fax : 01 71 11 46 26<br>
 </details>
 
 ### **Paris Cochin**
-### **Hôpital Saint-Antoine AP-HP**
+### **Hôpital Saint-Antoine, AP-HP**
    **Dr LEQUOY Marie**     
 Service d’hépatologie, 8eme étage Bâtiment Caroli <br> 
 184 rue du faubourg Saint Antoine 75012 **Paris** <br>
@@ -364,7 +363,7 @@ Fax : 01 71 97 03 39<br>
 <br>
 </details>
 
-### **CHU La Pitié-Salpêtrière**   
+### **Hôpital La Pitié-Salpêtrière, AP-HP**   
    
    **Dr. ALLAIRE Manon**   
    Service d'hépato-gastroentérologie   <br>
@@ -510,7 +509,7 @@ emilie.delval@curie.fr <br>
 ### **Rouen**   
    
 ## <span style="color:blue">**Nouvelle-Aquitaine**</span>
-### **CHU Haut-Lévêque**
+### **Hôpital Haut-Lévêque, CHU Bordeaux**
    **BLANC Jean-Frédéric**     
 Unité de Cancérologie digestive <br> 
 Avenue de Magellan 33604 **Pessac** <br>
@@ -581,12 +580,82 @@ Tel : 05 57 62 34 47 <br>
 ### **Poitiers**   
    
 ## <span style="color:blue">**Occitanie**</span>
-### **Montpellier**
+### **Hôpital St Eloi, CHU Montpellier**
+**Pr ASSENAT Eric**     
+Service Oncologie Médicale <br> 
+80 Av Augustin Fliche, 34090 **Montpellier** <br>
+e-assenat@chu-montpellier.fr <br>    
+       
+   **Secrétariat :**      
+GUILLERMAND Stéphanie <br>
+oncologie@chu-montpellier.fr <br>
+Tel : 04 67 33 01 37 <br>
+Fax : 04 67 33 23 10 <br>
+       <br>
+**[Site web](<https://www.chu-montpellier.fr/fr/a-propos-du-chu/offre-de-soins/services/oncologie-medicale-283)>)**   
+<details>
+    <summary>Ressources de soin</summary> <br>
+
+<B>Plateaux techniques</B> <br>    
+<ul>
+<li> Radiothérapie externe </li>   
+<li> Radio-embolisation </li>   
+<li>Radiologie interventionnelle</li>   
+<li> Médecine nucléaire </li>   
+<li>Endoscopie interventionnelle bilio-pancréatique</li>   
+<li>Chirurgie viscérale</li>
+<li>Chirurgie digestive de recours</li>   
+<li> Chirurgie hépatique et transplantation hépatique </li>   
+<li>Oncogénétique</li>   
+<li> Plateforme de biologie moléculaire </li> 
+<li> Plateforme d'anatomopathologie </li> 
+<li>Plateforme d’imagerie</li> 
+<li> Plateau de réanimation </li> 
+<li>Unité de recherche clinique dédiée</li>  
+<li>Centre d'Investigation Clinique multithématique</li>
+<li> Centre de diagnostic rapide </li>
+<li> Accès aux études de phase I </li>
+<li>Radiothérapie via convention avec l’Institut du Cancer de Montpellier (ICM) </li>
+<li>Médecine nucléaire via convention avec l’ICM </li>
+<li>Unité de phase précoce via convention avec l’ICM</li>      
+</ul>
+<br>   
+<B>Soins de support</B> <br>
+<ul>
+<li>Diététique et nutrition</li>      
+<li>Soutien psychologique du patient</li>   
+<li>Soutien psychologique des proches et des aidants</li>   
+<li>Accompagnement social, familial et professionnel</li>   
+<li> Rééducation et activités physiques adaptées </li>   
+<li>Gestion de la douleur</li>   
+<li> Unité de soins palliatifs dédiée</li>   
+<li>Unité mobile de soins palliatifs</li>   
+<li> Onco-gériatrie</li>   
+<li> Approches non conventionnelles </li>   
+<li> Préservation de la fertilité </li>   
+<li> Espace de réflexion éthique</li>   
+</ul>
+<br>
+</details>   
+
+<details>
+    <summary>Ressources humaines</summary>
+<br>
+<ul>
+  
+<li> <B>Attaché(e) de Recherche Clinique:</B> </li>
+DUVAL Julie<br>
+j-duval@chu-montpellier.fr <br>
+Fax : 04 67 33 23 10<br>
+</ul>
+<br>
+</details>
+
 ### **Toulouse**   
    
 ## <span style="color:blue">**Pays de la Loire**</span>
 ### **Angers**
-### **CHU Hôtel Dieu**   
+### **Hôtel Dieu, CHU Nantes**   
     
    **Pr TOUCHEFEU Yann**      
    Service d'hépatogastroentérologie et oncologie digestive   <br>
@@ -661,6 +730,7 @@ yann.touchefeu@chu-nantes.fr <br>
 ## <span style="color:blue">**Provence-Alpes-Côtes d'Azur**</span>
 ### **Nice**
 ### **Marseille**
+
 
 
 
