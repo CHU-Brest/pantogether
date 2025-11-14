@@ -208,16 +208,18 @@ Dossier à soumettre au 3C du CHU par email : 3c-sud@chu-bordeaux.fr : <br>
 ## <span style="color:blue">**Occitanie**</span>
 ### **Hôpital St Eloi, CHU Montpellier**
 <ul>
-<li><strong>RCP Digestive</strong></li> <br>
+<li><strong>RCP Digestive</strong></li>   
 Réseau Onco Occitanie <br>
+   <br>
 <strong>Horaire :</strong> Mardi à 17h <br>
 <strong>Fréquence :</strong> Hebdomadaire <br>
 <strong>Lieu :</strong> Salle de réunion radiologie <br>
 80 Av Augustin Fliche, 34090 **Montpellier** <br>
 Et connexion à distance via lien Teams <br>
               <br>
-<li><strong>RCP Foie</strong></li> <br>
+<li><strong>RCP Foie</strong></li>   
 Réseau Onco Occitanie <br>
+   <br>
 <strong>Horaire :</strong> Vendredi à 14h <br>
 <strong>Fréquence :</strong> Hebdomadaire <br>
 <strong>Lieu :</strong> Salle de réunion radiologie <br>
@@ -232,8 +234,7 @@ Tel : 04 67 33 07 54<br>
 <br>
 
 **Modalités de soumission d’un dossier** : <br>
-Saisie de la fiche RCP en ligne dans le dossier communicant de cancérologie (DCC) du patient [Onco Occitanie](<https://portail.mediware.fr/Apps/WebObjects/Oncooc.woa/wa>) <br>
- <br>  
+Saisie de la fiche RCP en ligne dans le dossier communicant de cancérologie (DCC) du patient [Onco Occitanie](<https://portail.mediware.fr/Apps/WebObjects/Oncooc.woa/wa>) <br> 
 
 ### **Toulouse**   
    
