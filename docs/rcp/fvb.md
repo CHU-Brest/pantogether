@@ -48,7 +48,7 @@ Fiche pré-remplie à soumettre à l’AMA avant présentation <br>
 **Horaire :** Mardi de 16h à 19h <br>
 **Fréquence :** Tous les 15 jours <br>
 **Lieu :** CHU Reims <br>
-Avenue du général Koenig, 51100 **REIMS** <br>
+Avenue du général Koenig, 51100 **Reims** <br>
 Et connexion à distance via la plateforme ligne [PULSY](< https://www.pulsy.fr/portail/nos-services-e-sante/e-rcp-54-62.html>) <br>
 
 **AMA en charge de la RCP :**  <br>
