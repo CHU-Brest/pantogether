@@ -114,8 +114,80 @@ Tel : 04 76 76 53 99 <br>
    
 ## <span style="color:blue">**Grand-Est**</span>
 ### **Nancy**
-### **Reims**   
-   
+### **CHU Reims**   
+**Dr HEURGUE Alexandra**     
+Service d'Hépato-gastroentérologie, bâtiment Cabrol <br> 
+Avenue du général Koenig 51100 **REIMS** <br>
+aheurgue@chu-reims.fr       
+Tel : 03 26 78 34 10 <br>   
+
+   **Secrétariat :**      
+secretariat2-gastro@chu-reims.fr <br>
+Tel : 03 26 78 88 32 <br>
+       <br>
+<details>
+    <summary>Ressources de soin</summary>
+<br>
+<B>Plateaux techniques</B> <br>    
+<br> <ul>
+<li> Radiothérapie externe </li>   
+<li>Radiologie interventionnelle</li>   
+<li> Médecine nucléaire </li>   
+<li>Endoscopie interventionnelle bilio-pancréatique</li>   
+<li>Chirurgie viscérale</li>
+<li>Chirurgie digestive de recours</li>   
+<li> Chirurgie hépatique et transplantation hépatique </li>   
+<li>Oncogénétique</li>   
+<li> Plateforme de biologie moléculaire </li> 
+<li> Plateforme d'anatomopathologie </li> 
+<li>Plateforme d’imagerie</li> 
+<li> Plateau de réanimation </li> 
+<li>Unité de recherche clinique dédiée</li>  
+<li>Radiothérapie externe : convention avec l’Institut Jean Godinot </li>
+<li>Médecine nucléaire : convention avec l’Institut Jean Godinot </li>
+</ul>
+<br>   
+<B>Soins de support</B> <br>
+<br>
+<ul>
+<li>Diététique et nutrition</li>      
+<li>Soutien psychologique du patient</li>   
+<li>Soutien psychologique des proches et des aidants</li>   
+<li>Accompagnement social, familial et professionnel</li>   
+<li> Rééducation et activités physiques adaptées </li>   
+<li>Gestion de la douleur</li>   
+<li>Gestion de la fatigue</li>   
+<li> Unité de soins palliatifs dédiée</li>   
+<li>Unité mobile de soins palliatifs</li>   
+<li> Onco-gériatrie</li>   
+<li> Troubles de la sexualité </li>   
+<li> Préservation de la fertilité </li>   
+<li> Conseils d'hygiène de vie</li>   
+</ul>
+</details>   
+
+<details>
+    <summary>Ressources humaines</summary>
+<br>
+<ul>
+  
+<li> <B>Infirmier(e) de Coordination:</B> </li>
+<ul>
+  <li>EVANO Laura</li>    
+      levano@chu-reims.fr <br>  
+  <li>MILLEY Sandrine</li>       
+        smilley@chu-reims.fr   <br>
+       </ul>
+   Tel : 03 26 83 24 24 <br>
+<br>
+<li> <B>Attaché(e) de Recherche Clinique:</B> </li>
+FERON Thomas <br>
+tferon@chu-reims.fr<br>
+Tel : 03 26 83 26 31 <br>
+</ul>
+<br>
+</details>
+
 ## <span style="color:blue">**Hauts-de-France**</span>
 ### **Amiens**
 ### **Lille**   
@@ -730,6 +802,7 @@ yann.touchefeu@chu-nantes.fr <br>
 ## <span style="color:blue">**Provence-Alpes-Côtes d'Azur**</span>
 ### **Nice**
 ### **Marseille**
+
 
 
 
