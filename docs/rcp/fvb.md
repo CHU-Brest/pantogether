@@ -223,21 +223,24 @@ emilie.delval@curie.fr <br>
 <li><strong> RCP Cancérologie et Hématologie </strong></li> <br>
 <strong>Horaire :</strong> à 10h30 <br>
 <strong>Fréquence :</strong> Hebdomadaire <br>
-<strong>Lieu :</strong> Service de Cancérologie <br>
+<strong>Lieu :</strong> Hôpital Paul Brousse <br>
+Service de Cancérologie <br>
 12-14 avenue Paul Vaillant Couturier 94804 <strong> Villejuif </strong> <br>
 Et connexion à distance par visioconférence <br>
               <br>
 <li><strong> RCP Tumeurs primitives et secondaires du foie et VH et tumeurs du pancréas </strong></li> <br>
 <strong>Horaire :</strong> à 14h <br>
 <strong>Fréquence :</strong> Hebdomadaire <br>
-<strong>Lieu :</strong> Centre Hépato-Biliaire <br>
+<strong>Lieu :</strong> Hôpital Paul Brousse <br>
+Centre Hépato-Biliaire <br>
 12-14 avenue Paul Vaillant Couturier 94804 <strong> Villejuif </strong> <br>
 Et connexion à distance par visioconférence <br>
               <br>
 <li><strong> RCP Moléculaire des tumeurs solides </strong></li> <br>
 <strong>Horaire :</strong> à 9h30 <br>
 <strong>Fréquence :</strong> Mensuelle <br>
-<strong>Lieu :</strong> Service de Cancérologie <br>
+<strong>Lieu :</strong> Hôpital Paul Brousse <br>
+Service de Cancérologie <br>
 12-14 avenue Paul Vaillant Couturier 94804 <strong> Villejuif </strong> <br>
 Et connexion à distance par visioconférence <br>
               <br>
