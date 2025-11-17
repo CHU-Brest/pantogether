@@ -608,8 +608,8 @@ Fax : 01 45 59 69 57<br>
  <li>Unité de Recherche Clinique dédiée</li>
 <li>Centre d'Investigation Clinique multithématique</li>
 <li> Accès aux études de phase I </li>
-<li>Convention pour l’accès à la radiothérapie externe avec l’Institut Gustave Roussy (Villejuif) </li>
-* : Plateaux localisés à l’hôpital Bicêtre
+<li>Convention pour l’accès à la radiothérapie externe avec l’Institut Gustave Roussy (Villejuif) </li> <br>
+* : Plateaux localisés à proximité de l’hôpital Bicêtre (Le Kremlin-Bicêtre)
 </ul>
 <br>   
 <B>Soins de support</B> <br>
@@ -956,6 +956,7 @@ yann.touchefeu@chu-nantes.fr <br>
 ## <span style="color:blue">**Provence-Alpes-Côtes d'Azur**</span>
 ### **Nice**
 ### **Marseille**
+
 
 
 
