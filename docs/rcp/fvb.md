@@ -32,7 +32,21 @@ Fiche pré-remplie à soumettre à l’AMA avant présentation <br>
 ### **CHU Dijon**   
    
 ## <span style="color:blue">**Bretagne**</span>
-### **Rennes**   
+### **Centre Eugène Marquis, CLCC Rennes**   
+**RCP des tumeurs primitives hépatiques** <br>
+<br>
+**Horaire :** Jeudi à 16h <br>
+**Fréquence :** Hebdomadaire <br>
+**Lieu :** CHU Pontchaillou <br>
+Service d'imagerie <br> 
+2 Rue Henri le Guilloux, 35000 **Rennes**  <br>
+              <br>
+**AMA en charge de la RCP :**  <br>
+secretariat.rcp@rennes.unicancer.fr <br>
+<br>
+**Modalités de soumission d’un dossier** : <br>
+Dossier à déposer sur le dossier communicant de cancérologie (DCC) du patient [Onco Bretagne](<https://auth.telesantebretagne.org/realms/gcs/protocol/openid-connect/auth?client_id=portail&redirect_uri=https%3A%2F%2Fmes-services.telesantebretagne.org%2F&state=6e550e5f-2ce0-4d1a-923d-cf8f0b7c9e59&response_mode=fragment&response_type=code&scope=openid&nonce=a7208634-10a7-4acf-891d-8b00ab7c11a3&code_challenge=V4XoHzq6Zwvg1B8JSpRO5eTya1YZlX6jqnheIjN65Ow&code_challenge_method=S256>) <br>
+Ou transmission via [Télésanté Bretagne](< https://www.telesante-bretagne.fr/>)  <br>
    
 ## <span style="color:blue">**Centre-Val-de-Loire**</span>
 ### **Tours**   
