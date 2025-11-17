@@ -574,7 +574,82 @@ emilie.delval@curie.fr <br>
 <br>
 </details>   
 
-### **Villejuif**   
+### **Hôpital Paul Brousse, AP-HP** 
+**Pr ROSMORDUC Olivier**     
+Centre Hépato-Biliaire <br> 
+12-14 avenue Paul Vaillant Couturier 94804 **Villejuif** <br>
+olivier.rosmorduc@aphp.fr<br>
+Tel : 01 45 59 67 67 <br> 
+       
+   **Secrétariat :**      
+RIBERO Erika <br>
+erika.ribero@aphp.fr <br>
+Tel : 01 45 59 65 40<br>
+Fax : 01 45 59 69 57<br>
+       <br>
+**[Site web](<https://www.centre-hepato-biliaire.org/>)**
+<details>
+    <summary>Ressources de soin</summary> <br>
+
+<B>Plateaux techniques</B> <br>    
+<ul>
+<li>Radiologie interventionnelle</li>   
+<li>Radio-embolisation*</li>   
+<li> Médecine nucléaire* </li>   
+<li>Endoscopie interventionnelle bilio-pancréatique*</li>   
+<li>Chirurgie viscérale*</li>
+<li> Chirurgie hépatique et transplantation hépatique* </li>   
+<li>Oncogénétique</li>   
+<li> Plateforme de biologie moléculaire </li> 
+<li> Plateforme d'anatomopathologie* </li> 
+<li>Plateforme d’imagerie</li> 
+<li> Plateau de réanimation </li> 
+<li> Centre de diagnostic rapide</li>
+ <li>Unité de Recherche Clinique dédiée</li>
+<li>Centre d'Investigation Clinique multithématique</li>
+<li> Accès aux études de phase I </li>
+<li>Convention pour l’accès à la radiothérapie externe avec l’Institut Gustave Roussy (Villejuif) </li>
+* : Plateaux localisés à l’hôpital Bicêtre
+</ul>
+<br>   
+<B>Soins de support</B> <br>
+<ul>
+<li>Diététique et nutrition</li>      
+<li>Soutien psychologique du patient</li>   
+<li>Soutien psychologique des proches et des aidants</li>   
+<li>Accompagnement social, familial et professionnel</li>   
+<li> Rééducation et activités physiques adaptées </li>   
+<li>Gestion de la douleur</li>   
+<li> Unité de soins palliatifs dédiée</li>   
+<li>Unité mobile de soins palliatifs</li>   
+<li> Onco-gériatrie</li>   
+<li> Approches non conventionnelles </li>   
+<li> Hôpital de jour de soins de support </li>
+</ul>
+<br>
+</details>   
+
+<details>
+    <summary>Ressources humaines</summary>
+<br>
+<ul>
+<li> <B>Infirmier(e) de Coordination :</B> </li>
+BRINDEJOINC DE TREGLODE Anne <br>
+Tel: 01 45 59 66 63 <br>
+Fax: 01 45 59 69 57<br>
+<br>
+<li> <B>Infirmier(e) en Pratiques Avancées :</B> </li>
+BOSSEVOT Rachel <br>
+Tel : 01 45 59 64 74 <br>
+Tel : 01 45 59 69 57<br>
+<br>  
+<li> <B>Attaché(e) de Recherche Clinique :</B> </li>
+VIÉ Emmanuelle <br>
+hepatosa.urcest.psl@aphp.fr<br>
+Tel : 01 45 59 66 06<br>
+</ul>
+</details>
+
    
 ## <span style="color:blue">**Normandie**</span>
 ### **Caen**
@@ -881,6 +956,7 @@ yann.touchefeu@chu-nantes.fr <br>
 ## <span style="color:blue">**Provence-Alpes-Côtes d'Azur**</span>
 ### **Nice**
 ### **Marseille**
+
 
 
 
