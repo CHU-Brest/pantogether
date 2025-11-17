@@ -728,7 +728,7 @@ Tel : 05 57 62 34 47 <br>
 CHU Dupuytren 1, 3ème étage <br> 
 2 avenue Martin Luther King 87042 **Limoges** <br>
 marilyne.debette-gratien@chu-limoges.fr      
-Tel : 0555058726 <br> 
+Tel : 05 55 05 87 26 <br> 
        
    **Secrétariat :**      
 DENOYER Nathalie <br>
@@ -956,6 +956,7 @@ yann.touchefeu@chu-nantes.fr <br>
 ## <span style="color:blue">**Provence-Alpes-Côtes d'Azur**</span>
 ### **Nice**
 ### **Marseille**
+
 
 
 
