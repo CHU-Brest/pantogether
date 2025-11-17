@@ -204,7 +204,40 @@ Ou <br>
 -	DELVAL Emilie <br>
 emilie.delval@curie.fr <br>
 
-### **Villejuif**   
+### **Hôpital Paul Brousse, AP-HP**   
+<ul>
+<li><strong> RCP Cancérologie et Hématologie </strong></li> <br>
+<strong>Horaire :</strong> à 10h30 <br>
+<strong>Fréquence :</strong> Hebdomadaire <br>
+<strong>Lieu :</strong> Service de Cancérologie <br>
+12-14 avenue Paul Vaillant Couturier 94804 <strong> Villejuif </strong> <br>
+Et connexion à distance par visioconférence <br>
+              <br>
+<li><strong> RCP Tumeurs primitives et secondaires du foie et VH et tumeurs du pancréas </strong></li> <br>
+<strong>Horaire :</strong> à 14h <br>
+<strong>Fréquence :</strong> Hebdomadaire <br>
+<strong>Lieu :</strong> Centre Hépato-Biliaire <br>
+12-14 avenue Paul Vaillant Couturier 94804 <strong> Villejuif </strong> <br>
+Et connexion à distance par visioconférence <br>
+              <br>
+<li><strong> RCP Moléculaire des tumeurs solides </strong></li> <br>
+<strong>Horaire :</strong> à 9h30 <br>
+<strong>Fréquence :</strong> Mensuelle <br>
+<strong>Lieu :</strong> Service de Cancérologie <br>
+12-14 avenue Paul Vaillant Couturier 94804 <strong> Villejuif </strong> <br>
+Et connexion à distance par visioconférence <br>
+              <br>
+</ul>
+<strong>AMA en charge des RCP :</strong> <br>
+ALBEROLA Véronique <br>
+veronique.alberola@aphp.fr<br>
+Tel : 01 45 59 35 95<br>
+Fax: 01 45 59 34 98 <br>
+<br>
+
+**Modalités de soumission d’un dossier** : <br>
+Fiche de demande à soumettre à l’AMA <br>
+
    
 ## <span style="color:blue">**Normandie**</span>
 ### **Caen**
