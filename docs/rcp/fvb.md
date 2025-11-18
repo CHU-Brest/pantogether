@@ -139,7 +139,7 @@ Ou <br>
 **Fréquence :** Hebdomadaire <br>
 **Lieu :** Hôpital Saint-Antoine <br>
 Amphithéâtre de radiologie, sous-sol<br>
-184 rue du faubourg Saint Antoine 75012 **Paris** <br>
+184 rue du faubourg Saint-Antoine 75012 **Paris** <br>
  <br>
 **AMA en charge de la RCP :**  <br>
 LEJEUNE Claudine <br>
@@ -195,7 +195,7 @@ Et connexion à distance via Teams <br>
 <li><strong>RCP oncologie digestive médico-chirurgicale (APR)</strong></li> <br>
 <strong>Horaire :</strong> Jeudi à 16h <br>
 <strong>Fréquence :</strong> Hebdomadaire <br>
-<strong>Lieu :</strong> Hôpital Ambroise Paré <br>
+<strong>Lieu :</strong> Hôpital Ambroise-Paré <br>
 9 avenue Charles-de-Gaulle, 92100 <strong>Boulogne-Billancourt</strong> <br>
               <br>
 <li><strong>RCP moléculaire hebdomadaire (Institut Curie)</strong></li> <br>
@@ -342,7 +342,7 @@ Saisie de la fiche RCP en ligne dans le dossier communicant de cancérologie (DC
 **Fréquence :** Hebdomadaire <br>
 **Lieu :** Hôtel Dieu <br>
 1 place Alexis Ricordeau, 44093 **Nantes** <br>
-Et connexion à distance avec le CHD de la Roche-sur-Yon, l'institut de Cancérologie de l'Ouest et la clinique mutualiste de Saint Nazaire <br>
+Et connexion à distance avec le CHD de la Roche-sur-Yon, l'institut de Cancérologie de l'Ouest et la clinique mutualiste de Saint-Nazaire <br>
               <br>
 
 **Modalités de soumission d’un dossier** : <br>
