@@ -221,7 +221,7 @@ emilie.delval@curie.fr <br>
 ### **Hôpital Paul Brousse, AP-HP**   
 <ul>
 <li><strong> RCP Cancérologie et Hématologie </strong></li> <br>
-<strong>Horaire :</strong> à 10h30 <br>
+<strong>Horaire :</strong> Jeudi à 10h30 <br>
 <strong>Fréquence :</strong> Hebdomadaire <br>
 <strong>Lieu :</strong> Hôpital Paul Brousse <br>
 Service de Cancérologie <br>
@@ -229,7 +229,7 @@ Service de Cancérologie <br>
 Et connexion à distance par visioconférence <br>
               <br>
 <li><strong> RCP Tumeurs primitives et secondaires du foie et VH et tumeurs du pancréas </strong></li> <br>
-<strong>Horaire :</strong> à 14h <br>
+<strong>Horaire :</strong> Mardi à 14h <br>
 <strong>Fréquence :</strong> Hebdomadaire <br>
 <strong>Lieu :</strong> Hôpital Paul Brousse <br>
 Centre Hépato-Biliaire <br>
@@ -237,7 +237,7 @@ Centre Hépato-Biliaire <br>
 Et connexion à distance par visioconférence <br>
               <br>
 <li><strong> RCP Moléculaire des tumeurs solides </strong></li> <br>
-<strong>Horaire :</strong> à 9h30 <br>
+<strong>Horaire :</strong> 1<sup>er</sup> Jeudi du mois à 9h30 <br>
 <strong>Fréquence :</strong> Mensuelle <br>
 <strong>Lieu :</strong> Hôpital Paul Brousse <br>
 Service de Cancérologie <br>
