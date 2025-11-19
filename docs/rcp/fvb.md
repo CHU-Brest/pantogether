@@ -29,7 +29,50 @@ Fiche pré-remplie à soumettre à l’AMA avant présentation <br>
     
 ## <span style="color:blue">**Bourgogne-Franche-Comté**</span>
 ### **CHU Besançon**
-### **CHU Dijon**   
+### **Hôpital François Mitterrand, CHU Dijon**   
+<ul>
+<li><strong>RCP des tumeurs hépatiques</strong></li>
+Réseau Régional de Cancérologie de Bourgogne-Franche-Comté<br>
+<br>
+<strong>Horaire :</strong> Lundi à 17h <br>
+<strong>Fréquence :</strong> Hebdomadaire <br>
+<strong>Lieu :</strong> Hôpital François Mitterrand <br>
+Service de Radiologie <br>
+14 rue Paul Gaffarel, 21000 <strong>Dijon</strong>  <br>
+              <br>
+<li><strong>RCP de cancérologie digestive</strong></li>
+Réseau Régional de Cancérologie de Bourgogne-Franche-Comté<br>
+   <br>
+<strong>Horaire :</strong> Mercredi à 16h30 <br>
+<strong>Fréquence :</strong> Hebdomadaire <br>
+<strong>Lieu :</strong> Hôpital François Mitterrand <br>
+Service d’Hépato-Gastro-Entérologie <br>
+14 rue Paul Gaffarel, 21000 <strong>Dijon</strong>  <br>
+              <br>
+<li><strong>RCP RENATEN</strong></li>
+Réseau Régional et National de Cancérologie<br>
+   <br>
+<strong>Horaire :</strong> Vendredi de 12h30 à 14h <br>
+<strong>Fréquence :</strong> Bi-mensuelle <br>
+<strong>Lieu :</strong> Hôpital François Mitterrand <br>
+Service d’Hépato-Gastro-Entérologie <br>
+14 rue Paul Gaffarel, 21000 <strong>Dijon</strong>  <br>
+                          <br>
+<li><strong>RCP Oncogénétique</strong></li>
+Réseau Régional de Cancérologie de Bourgogne-Franche-Comté<br>
+   <br>
+<strong>Horaire :</strong> Mercredi de 15h à 16h <br>
+<strong>Fréquence :</strong> Bi-mensuelle <br>
+<strong>Lieu :</strong> Connexion par visioconférence<br>
+<br>
+</ul>
+<strong>Gestion des RCP par le 3C du CHU :</strong>  <br>
+3C@chu-dijon.fr<br>
+Tel : 03 80 29 56 27<br>
+<br>
+<strong>Modalités de soumission d’un dossier :</strong> <br>
+Fiche à déposer sur le dossier communicant de cancérologie (DCC) du patient [Onco BFC](https://www.bfc-sante.fr/bureau-virtuel/accueil/authentification-7-5.html) <br>
+ 
    
 ## <span style="color:blue">**Bretagne**</span>
 ### **Centre Eugène Marquis, CLCC Rennes**   
