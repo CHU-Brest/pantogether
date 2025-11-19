@@ -28,7 +28,7 @@ couverture nationale étendue et homogène.
 
 ## Le réseau
 
-Les cancers de l’œsophage, des tumeurs hépatobiliaires et du pancréas sont associés à un pronostic défavorable à tous les stades, selon la définition européenne des cancers à mauvais pronostic.    
+Les cancers de l’œsophage, du foie, des voies biliaires et du pancréas sont associés à un pronostic défavorable à tous les stades, selon la définition européenne des cancers à mauvais pronostic.    
 Structurer la prévention et la prise en soins de ces cancers s’avère essentielle pour améliorer la qualité de la prise en charge globale des patients.   
    
 Le réseau Pan-Together vise à garantir une collaboration multidisciplinaire d’acteurs libéraux et hospitaliers, centralisée autour de l’accès à des plateformes diagnostiques et interventionnelles de pointe ainsi qu’à des approches innovantes en recherche clinique.  
