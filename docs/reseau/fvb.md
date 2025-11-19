@@ -101,7 +101,80 @@ Tel : 04 76 76 53 99 <br>
     
 ## <span style="color:blue">**Bourgogne-Franche-Comté**</span>
 ### **CHU Besançon**
-### **CHU Dijon**   
+### **Hôpital François Mitterrand, CHU Dijon**   
+**Pr MANFREDI Sylvain**     
+Hôpital François Mitterrand  <br>
+Service d'Hépato-gastroentérologie et oncologie digestive <br> 
+14 rue Paul Gaffarel, 21000 **Dijon** <br>
+sylvain.manfredi@chu-dijon.fr<br>   
+       
+   **Secrétariat :**      
+DEKKAL Assia<br>
+assia.dekkal@chu-dijon.fr <br>
+       <br>
+**[Site web](<https://www.chu-dijon.fr/service/hepato-gastro-enterologie/presentation-du-service-hepato-gastro-enterologie>)**
+<details>
+    <summary>Ressources de soin</summary> <br>
+
+<B>Plateaux techniques</B> <br>    
+<ul>
+<li> Radiothérapie externe </li>   
+<li> Radio-embolisation</li>   
+<li>Radiologie interventionnelle</li>   
+<li> Médecine nucléaire </li>   
+<li>Endoscopie interventionnelle bilio-pancréatique</li>   
+<li>Chirurgie viscérale</li>
+<li>Chirurgie digestive de recours</li>   
+<li> Chirurgie hépatique et transplantation hépatique </li>   
+<li>Oncogénétique</li>   
+<li> Plateforme de biologie moléculaire </li> 
+<li> Plateforme d'anatomopathologie </li> 
+<li>Plateforme d’imagerie</li> 
+<li> Plateau de réanimation </li> 
+<li> Centre de diagnostic rapide</li>  
+<li> Unité de recherche clinique dédiée</li>
+<li>Centre d'Investigation Clinique multithématique</li>
+<li> Accès aux études de phase I </li>
+<li>Convention pour l’accès à des plateaux techniques avec le Centre Georges François Leclerc à Dijon </li>
+</ul>
+<br>   
+<B>Soins de support</B> <br>
+ <br>
+<ul>
+<li>Diététique et nutrition</li>      
+<li>Soutien psychologique du patient</li>   
+<li>Soutien psychologique des proches et des aidants</li>   
+<li>Accompagnement social, familial et professionnel</li>   
+<li> Rééducation et activités physiques adaptées </li>   
+<li>Gestion de la douleur</li>   
+<li> Unité de soins palliatifs dédiée</li>   
+<li>Unité mobile de soins palliatifs</li>   
+<li> Onco-gériatrie</li>   
+<li> Gestion des troubles de la sexualité</li>   
+<li> Préservation de la fertilité </li>   
+<li> Hôpital de jour de soins de support </li>
+<li> Espace de réflexion éthique</li>   
+<li> Socio-esthéticiennes</li>   
+<li> Unité Transversale de Nutrition</li>   
+<li> Soins Médicaux et de Réadaptation d’oncologie</li>   
+
+</ul>
+<br>
+</details>   
+
+<details>
+    <summary>Ressources humaines</summary>
+<br>
+<ul>
+<li> <B>Infirmier(e) de Coordination :</B> </li>
+DIRAND Marlène <br>
+marlene.dirand@chu-dijon.fr <br>
+<br>  
+<li> <B>Attaché(e) de Recherche Clinique :</B> </li>
+DEKKAL Assia <br>
+assia.dekkal@chu-dijon.fr <br>
+</ul>
+</details>
    
 ## <span style="color:blue">**Bretagne**</span>
 ### **Centre Eugène Marquis, CLCC Rennes**   
@@ -1017,6 +1090,7 @@ yann.touchefeu@chu-nantes.fr <br>
 ## <span style="color:blue">**Provence-Alpes-Côtes d'Azur**</span>
 ### **Nice**
 ### **Marseille**
+
 
 
 
