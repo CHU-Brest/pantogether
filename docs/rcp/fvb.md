@@ -63,7 +63,7 @@ Réseau Régional de Cancérologie de Bourgogne-Franche-Comté<br>
    <br>
 <strong>Horaire :</strong> Mercredi de 15h à 16h <br>
 <strong>Fréquence :</strong> Bi-mensuelle <br>
-<strong>Lieu :</strong> Connexion par visioconférence<br>
+<strong>Lieu :</strong> Connexion à distance par visioconférence<br>
 <br>
 </ul>
 <strong>Gestion des RCP par le 3C du CHU :</strong>  <br>
