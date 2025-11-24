@@ -242,10 +242,7 @@ ARCs_DIP@rennes.unicancer.fr <br>
    
 ## <span style="color:blue">**Centre-Val-de-Loire**</span>
 ### **Tours**   
-   
-## <span style="color:blue">**DOM-TOM**</span>   
-### **Pointe-à-Pitre**
-   
+     
 ## <span style="color:blue">**Grand-Est**</span>
 ### **Nancy**
 ### **CHU Reims**   
@@ -321,6 +318,61 @@ Tel : 03 26 83 26 31 <br>
 </ul>
 <br>
 </details>
+
+## <span style="color:blue">**Guadeloupe**</span>   
+### **CHU Guadeloupe, Pointe-à-Pitre**
+**Dr GELU-SIMEON Moana**     
+Service d'Hépato-Gastroentérologie<br> 
+CHU Guadeloupe-Route de Chauvel-97159 **Pointe-à-Pitre** <br>
+moana.simeon@chu-guadeloupe.fr  
+Tel : +590 690 83 78 40 <br> 
+       
+   **Secrétariat :**      
+MAHOGANIE Larisse <br>
+sec.gastroenterologie@chu-guadeloupe.fr  
+Tel : +590 590 89 14 45 <br>
+
+<details>
+    <summary>Ressources de soin</summary> <br>
+<B>Plateaux techniques</B> <br>    
+<ul>
+<li> Radiothérapie externe </li>   
+<li> Médecine nucléaire </li>   
+<li>Chirurgie viscérale</li>
+<li>Chirurgie digestive de recours</li>   
+<li>Oncogénétique</li>   
+<li> Plateforme de biologie moléculaire </li> 
+<li> Plateforme d'anatomopathologie </li> 
+<li>Plateforme d’imagerie</li> 
+<li> Plateau de réanimation </li> 
+<li>Unité de recherche clinique dédiée</li>
+<li>Centre d'Investigation Clinique multithématique</li>
+<li>Convention pour l’accès à des plateaux techniques avec le centre hépato-biliaire de l’hôpital Pitié-Salpêtrière, Paris </li>
+</ul>
+<br>   
+<B>Soins de support</B> <br>
+<ul>
+<li>Diététique et nutrition</li>      
+<li>Soutien psychologique du patient</li>   
+<li>Soutien psychologique des proches et des aidants</li>   
+<li>Accompagnement social, familial et professionnel</li>   
+<li>Gestion de la douleur</li>   
+<li>Unité mobile de soins palliatifs</li>   
+<li> Onco-gériatrie</li>   
+
+</ul>
+<br>
+</details>   
+
+<details>
+    <summary>Ressources humaines</summary>
+<br>
+<ul>
+<li> <B>Attaché(e) de Recherche Clinique :</B> </li>
+CATHERINE Lucie<br>
+</ul>
+</details>
+
 
 ## <span style="color:blue">**Hauts-de-France**</span>
 ### **Amiens**
@@ -1090,6 +1142,7 @@ yann.touchefeu@chu-nantes.fr <br>
 ## <span style="color:blue">**Provence-Alpes-Côtes d'Azur**</span>
 ### **Nice**
 ### **Marseille**
+
 
 
 
