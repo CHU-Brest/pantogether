@@ -16,7 +16,7 @@ title: Foie et voies biliaires
           BARDIN Françoise   
           fbardin@chu-grenoble.fr   
           Tel : 04 76 76 55 97
-       
+**[Site web](<https://www.chu-grenoble.fr/patients-et-accompagnants/offre-de-soin/hepato-gastroenterologie-et-oncologie-digestive>)**      
 <details>
     <summary>Ressources de soin</summary>
 <br>    
@@ -187,6 +187,8 @@ Tel : 02 99 25 31 96 <br>
    **Secrétariat :**      
 secretariat.digestif@rennes.unicancer.fr <br>
        <br>
+**[Site web](<https://www.centre-eugene-marquis.fr/traitements/traitements-medicaux/>)** 
+
 <details>
     <summary>Ressources de soin</summary> <br>
 
@@ -246,7 +248,7 @@ ARCs_DIP@rennes.unicancer.fr <br>
 ## <span style="color:blue">**Grand-Est**</span>
 ### **Nancy**
 ### **CHU Reims**   
-**Dr HEURGUE Alexandra**     
+**Dr HEURGUÉ Alexandra**     
 Service d'Hépato-gastroentérologie, bâtiment Cabrol <br> 
 Avenue du général Koenig 51100 **Reims** <br>
 aheurgue@chu-reims.fr       
@@ -256,6 +258,8 @@ Tel : 03 26 78 34 10 <br>
 secretariat2-gastro@chu-reims.fr <br>
 Tel : 03 26 78 88 32 <br>
        <br>
+**[Site web](<https://www.chu-reims.fr/offre-de-soins/prises-en-charge/service/hepato-gastro-enterologie-et-cancerologie-digestive>)** 
+
 <details>
     <summary>Ressources de soin</summary>
 <br>
@@ -1143,6 +1147,7 @@ yann.touchefeu@chu-nantes.fr <br>
 ## <span style="color:blue">**Provence-Alpes-Côtes d'Azur**</span>
 ### **Nice**
 ### **Marseille**
+
 
 
 
