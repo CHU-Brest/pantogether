@@ -1087,6 +1087,7 @@ yann.touchefeu@chu-nantes.fr <br>
           corine.menard@chu-nantes.fr   <br>
           Tel : 02 40 08 31 52   <br>
           Fax : 02 40 08 31 54  <br>
+<br>
 **[Site web](<https://www.chu-nantes.fr/hepato-gastro-enterologie-et-assistance-nutritionnelle>)**   
 
 <details>
@@ -1149,6 +1150,7 @@ yann.touchefeu@chu-nantes.fr <br>
 ## <span style="color:blue">**Provence-Alpes-Côtes d'Azur**</span>
 ### **Nice**
 ### **Marseille**
+
 
 
 
