@@ -94,9 +94,6 @@ Ou transmission via [Télésanté Bretagne](< https://www.telesante-bretagne.fr/
 ## <span style="color:blue">**Centre-Val-de-Loire**</span>
 ### **Tours**   
    
-## <span style="color:blue">**DOM-TOM**</span>   
-### **Pointe-à-Pitre**
-   
 ## <span style="color:blue">**Grand-Est**</span>
 ### **Nancy**
 ### **CHU Reims**   
@@ -120,6 +117,37 @@ Tel : 03 26 78 76 10<br>
 **Modalités de soumission d’un dossier** : <br>
 Soumission de la fiche RCP sur la plateforme en ligne [PULSY](< https://www.pulsy.fr/portail/nos-services-e-sante/e-rcp-54-62.html>)  <br>
  <br>  
+
+## <span style="color:blue">**Guadeloupe**</span>   
+### **CHU Guadeloupe, Pointe-à-Pitre**
+<ul>
+<li><strong>RCP Oncologie digestive</strong></li>
+<br>
+<strong>Horaire :</strong> Mardi à 15h (heure locale) (20h en métropole en heure d’hiver, 21h en métropole en heure d’été) <br>
+<strong>Fréquence :</strong> Bi-mensuelle <br>
+<strong>Lieu :</strong> CHU Guadeloupe <br>
+Salle de RCP des 3C <br>
+Route de Chauvel 97159 <strong>Pointe-à-Pitre</strong>  <br>
+              <br>
+<li><strong>RCP nodule hépatique</strong></li> 
+RCP avec le centre hépato-biliaire de l'hôpital Paul Brousse de Villejuif et le CHU de la Martinique <br>
+   <br>
+<strong>Horaire :</strong> Mardi à 8h ou 9h (heure locale, respectivement en heure d’été et en heure d’hiver en métropole) (14h en métropole) <br>
+<strong>Fréquence :</strong> Mensuelle <br>
+<strong>Lieu :</strong> CHU Guadeloupe <br>
+Salle de RCP des 3C <br>
+Route de Chauvel 97159 <strong>Pointe-à-Pitre</strong>  <br>
+Et connexion à distance par visioconférence              <br>
+   <br>
+</ul>
+<strong>AMA en charge de la RCP :</strong>  <br>
+BEZ Céline <br>
+celine.bez@chu-guadeloupe.fr<br>
+Tel : +590 590 89 16 70 <br>
+<br>
+<strong>Modalités de soumission d’un dossier :</strong> <br>
+Fiche RCP dédiée à cenvoyer à l’AMA ou à déposer dans le dossier communicant de cancérologie (DCC) du patient <br>
+
 
 ## <span style="color:blue">**Hauts-de-France**</span>
 ### **Amiens**
