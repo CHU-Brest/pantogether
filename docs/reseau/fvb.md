@@ -15,7 +15,8 @@ title: Foie et voies biliaires
    **Secrétariat :**      
           BARDIN Françoise   
           fbardin@chu-grenoble.fr   
-          Tel : 04 76 76 55 97
+          Tel : 04 76 76 55 97  <br>
+          <br>
 **[Site web](<https://www.chu-grenoble.fr/patients-et-accompagnants/offre-de-soin/hepato-gastroenterologie-et-oncologie-digestive>)**      
 <details>
     <summary>Ressources de soin</summary>
@@ -335,7 +336,8 @@ Tel : +590 690 83 78 40 <br>
 MAHOGANIE Larisse <br>
 sec.gastroenterologie@chu-guadeloupe.fr  
 Tel : +590 590 89 14 45 <br>
-
+<br>
+**[Site web](<https://www.chu-guadeloupe.fr/portal/>)** 
 <details>
     <summary>Ressources de soin</summary> <br>
 <B>Plateaux techniques</B> <br>    
@@ -566,7 +568,7 @@ claudine.lejeune@aphp.fr <br>
 Tel : 0149282463 <br>
 Fax : 0149282107 <br>
        <br>
-  
+**[Site web](<https://saintantoine.aphp.fr/hepatologie/>)**   
 <details>
     <summary>Ressources de soin</summary> <br>
 
@@ -1147,6 +1149,7 @@ yann.touchefeu@chu-nantes.fr <br>
 ## <span style="color:blue">**Provence-Alpes-Côtes d'Azur**</span>
 ### **Nice**
 ### **Marseille**
+
 
 
 
