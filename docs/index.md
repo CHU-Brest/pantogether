@@ -10,7 +10,7 @@ title: Bienvenue
 
 <span style="color:blue">
 <trong>PAN-TOGETHER</trong>, le Réseau d’Excellence Clinique pour la prise en charge des cancers digestifs de mauvais pronostic   
-</span> <br>
+</span>
 
 **PAN**créas **T**umeurs **O**eso-**G**astriques **E**t **T**umeurs primitives **HE**pato-biliai**R**es
 
