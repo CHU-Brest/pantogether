@@ -4,11 +4,15 @@ title: Bienvenue
 ---
 
 
-# Bienvenue sur le réseau Pantogether
+# Bienvenue sur le réseau Pan-Together
 
-!!! warning "Site en construction"
+!!! warning "Site en construction"   
 
+<span style="color:blue">
+<trong>PAN-TOGETHER</trong>, le Réseau d’Excellence Clinique pour la prise en charge des cancers digestifs de mauvais pronostic   
+</span>
 
+**PAN**créas **T**umeurs **O**eso-**G**astriques **E**t **T**umeurs primitives **HE**pato-biliai**R**es
 
 Le projet de réseau d'excellence clinique **PAN-TOGETHER** vise à structurer et coordonner les 
 efforts dans la gestion des pathologies tumorales complexes de l’appareil digestif. Ce réseau, 
