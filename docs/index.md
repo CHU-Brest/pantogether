@@ -9,12 +9,10 @@ title: Bienvenue
 !!! warning "Site en construction"   
 
 <span style="color:blue">
-<trong>PAN-TOGETHER</trong>, le Réseau d’Excellence Clinique pour la prise en charge des cancers digestifs de mauvais pronostic   
-</span>  
-
-**PAN**créas **T**umeurs **O**eso-**G**astriques **E**t **T**umeurs primitives **HE**pato-biliai**R**es
+<strong>PAN-TOGETHER</strong>, le Réseau d’Excellence Clinique pour la prise en charge des cancers du <strong>PAN</strong>créas, des <strong>T</strong>umeurs <strong>O</strong>eso-<strong>G</strong>astriques <strong>E</strong>t des <strong>T</strong>umeurs primitives <strong>HE</strong>pato-biliai<strong>R</strong>es  
+</span>     
    
-   
+      
 Le projet de réseau d'excellence clinique **PAN-TOGETHER** vise à structurer et coordonner les 
 efforts dans la gestion des pathologies tumorales complexes de l’appareil digestif. Ce réseau, 
 organisé selon une structure arborescente, englobe trois branches principales basées sur les 
