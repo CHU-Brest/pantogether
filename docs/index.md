@@ -22,7 +22,7 @@ localisations anatomiques ciblées :
 - foie et voies biliaires
 - pancréas
 
-Chaque branche sera supervisée par un centre expert référent, garantissant une 
+Chaque branche est supervisée par un centre expert référent, garantissant une 
 couverture nationale étendue et homogène. 
 
 
