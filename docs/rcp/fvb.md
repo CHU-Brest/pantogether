@@ -405,7 +405,34 @@ Saisie de la fiche RCP en ligne dans le dossier communicant de cancérologie (DC
 ### **Toulouse**   
    
 ## <span style="color:blue">**Pays de la Loire**</span>
-### **Angers**
+### **CHU Angers**
+<ul>
+<li><strong>RCP des tumeurs primitives hépatiques</strong></li>
+Réseau Onco PL<br>
+<br>
+<strong>Horaire :</strong> Vendredi à 15h <br>
+<strong>Fréquence :</strong> Hebdomadaire <br>
+<strong>Lieu :</strong> CHU Angers <br>
+4 rue Larrey 49100 <strong>Angers</strong>  <br>
+              <br>
+<li><strong>RCP onco digestive</strong></li>
+Réseau Onco PL<br>
+   <br>
+<strong>Horaire :</strong> Lundii à 17h <br>
+<strong>Fréquence :</strong> Hebdomadaire <br>
+<strong>Lieu :</strong> CHU Angers <br>
+4 rue Larrey 49100 <strong>Angers</strong>  <br>
+              <br>
+</ul>
+<strong>AMA en charge des RCP :</strong>  <br>
+LAMARCHE Béatrice<br>
+béatrice.lamarche@chu-angers.fr<br>
+Tel : 02 41 35 78 32<br>
+<br>
+<strong>Modalités de soumission d’un dossier :</strong> <br>
+Saisie de la fiche RCP en ligne dans le dossier communicant de cancérologie (DCC) du patient [OncoPL](<https://portail.mediware.fr/Apps/WebObjects/OncoPL.woa/>)  <br>  
+
+
 ### **Hôtel Dieu, CHU Nantes**   
 **RCP hépatobiliaire** <br>
 <br>
