@@ -477,7 +477,9 @@ CHAUVEL Laura <br>
 Service d’Hépatologie <br> 
 1 rue Gustave Eiffel, 94000 **Créteil** <br>
 giuliana.amaddeo@aphp.fr<br>   
-
+<br> 
+**[Site web](<https://www.aphp.fr/henri-mondor/service-d-hepatologie>)**  
+<br> 
 <details>
     <summary>Ressources de soin</summary> <br>
 
@@ -1257,6 +1259,7 @@ yann.touchefeu@chu-nantes.fr <br>
 ## <span style="color:blue">**Provence-Alpes-Côtes d'Azur**</span>
 ### **Nice**
 ### **Marseille**
+
 
 
 
