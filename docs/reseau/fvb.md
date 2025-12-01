@@ -472,7 +472,48 @@ CHAUVEL Laura <br>
 </details>
 
 
-### **Créteil**
+### **CHU Henri Mondor, AP-HP**
+**Dr AMADDEO Giuliana**     
+Service d’Hépatologie <br> 
+1 rue Gustave Eiffel, 94000 **Créteil** <br>
+giuliana.amaddeo@aphp.fr<br>   
+
+<details>
+    <summary>Ressources de soin</summary> <br>
+
+<B>Plateaux techniques</B> <br>    
+<ul>
+<li> Radiothérapie externe </li>
+<li> Radio-embolisation </li>   
+<li>Radiologie interventionnelle</li>   
+<li> Médecine nucléaire </li>   
+<li>Endoscopie interventionnelle bilio-pancréatique</li>   
+<li>Chirurgie viscérale</li>
+<li>Chirurgie digestive de recours</li>
+<li> Plateforme d'anatomopathologie </li> 
+<li>Plateforme d’imagerie</li> 
+<li> Plateau de réanimation </li> 
+<li> Centre de diagnostic rapide</li>
+</ul>
+<br>   
+<B>Soins de support</B> <br>
+<ul>
+</ul>
+<br>
+</details>   
+
+<details>
+    <summary>Ressources humaines</summary>
+<br>
+<ul>
+<li> <B>Infirmier(e) de Coordination :</B> </li>
+LECOMTE Béatrice <br>
+beatrice.lecomte2@aphp.fr <br>
+Tel: 01 49 81 43 18<br>
+<br>  
+</ul>
+</details>
+
 ### **Hôpital Beaujon, AP-HP**
    **Dr BOUATTOUR Mohamed**     
 Oncologie Hépatique et Innovation thérapeutique <br> 
@@ -1075,7 +1116,7 @@ Fax : 04 67 33 23 10<br>
 ### **CHU Angers**
 **Dr OBERTI Frédéric**     
 Service d'Hépato-Gastroentérologie <br> 
-4 rue Larrey 49100 **ANGERS** <br>
+4 rue Larrey 49100 **Angers** <br>
 FrOberti@chu-angers.fr <br>
 Tel : 02 41 35 46 70 <br> 
        
@@ -1216,6 +1257,7 @@ yann.touchefeu@chu-nantes.fr <br>
 ## <span style="color:blue">**Provence-Alpes-Côtes d'Azur**</span>
 ### **Nice**
 ### **Marseille**
+
 
 
 
