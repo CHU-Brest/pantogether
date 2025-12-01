@@ -1072,7 +1072,73 @@ Fax : 04 67 33 23 10<br>
 ### **Toulouse**   
    
 ## <span style="color:blue">**Pays de la Loire**</span>
-### **Angers**
+### **CHU Angers**
+**Dr OBERTI Frédéric**     
+Service d'Hépato-Gastroentérologie <br> 
+4 rue Larrey 49100 **ANGERS** <br>
+FrOberti@chu-angers.fr <br>
+Tel : 02 41 35 46 70 <br> 
+       
+   **Secrétariat :**      
+RINGUET Elisabeth<br>
+Elringuet@chu-angers.fr<br>
+Tel : 02 41 35 66 57<br>
+Fax : 02 41 35 78 82<br>
+       <br>
+**[Site web](<https://www.chu-angers.fr/offre-de-soins/hepato-gastro-enterologie-et-oncologie-digestive-52938.kjsp>)**
+<details>
+    <summary>Ressources de soin</summary> <br>
+
+<B>Plateaux techniques</B> <br>    
+<ul>
+<li> Radiothérapie externe </li>
+<li> Radio-embolisation </li>   
+<li>Radiologie interventionnelle</li>   
+<li> Médecine nucléaire </li>   
+<li>Endoscopie interventionnelle bilio-pancréatique</li>   
+<li>Chirurgie viscérale</li>
+<li>Oncogénétique</li>   
+<li> Plateforme de biologie moléculaire </li> 
+<li> Plateforme d'anatomopathologie </li> 
+<li>Plateforme d’imagerie</li> 
+<li> Plateau de réanimation </li> 
+<li> Unité de recherche clinique dédiée</li>
+</ul>
+<br>   
+<B>Soins de support</B> <br>
+<ul>
+<li>Diététique et nutrition</li>      
+<li>Soutien psychologique du patient</li>   
+<li>Soutien psychologique des proches et des aidants</li>   
+<li> Rééducation et activités physiques adaptées </li>   
+<li>Gestion de la douleur</li>   
+<li> Unité de soins palliatifs dédiée</li>   
+<li>Unité mobile de soins palliatifs</li>   
+<li> Onco-gériatrie</li>   
+<li> Gestion des troubles de la sexualité</li>   
+<li> Préservation de la fertilité </li>   
+<li> Hôpital de jour de soins de support </li>
+
+</ul>
+<br>
+</details>   
+
+<details>
+    <summary>Ressources humaines</summary>
+<br>
+<ul>
+<li> <B>Infirmier(e) de Coordination :</B> </li>
+PELLON Stéphanie <br>
+severine.boury@chu-limoges.fr <br>
+Tel: 02 41 34 18 52 <br>
+<br>  
+<li> <B>Attaché(e) de Recherche Clinique :</B> </li>
+MORISSET Audrey <br>
+AuMorisset@chu-angers.fr <br>
+
+</ul>
+</details>
+
 ### **Hôtel Dieu, CHU Nantes**   
     
    **Pr TOUCHEFEU Yann**      
@@ -1150,6 +1216,7 @@ yann.touchefeu@chu-nantes.fr <br>
 ## <span style="color:blue">**Provence-Alpes-Côtes d'Azur**</span>
 ### **Nice**
 ### **Marseille**
+
 
 
 
