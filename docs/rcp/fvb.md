@@ -178,7 +178,18 @@ Fiche type à soumettre à l’AMA avant présentation : <br>
 -	Cholangiocarcinome et autres tumeurs primitives du foie : fiche en cours de construction <br>
  <br>  
            
-### **Créteil**
+### **CHU Henri Mondor, AP-HP**
+**RCP Tumeurs Primitives du foie HMN** <br>
+<br>
+**Fréquence :** Hebdomadaire <br>
+**Lieu :** Service de Chirurgie digestive, 4éme étage<br>
+1 rue Gustave Eiffel, 94000, **Créteil** <br>
+              <br>
+**Modalités de soumission d’un dossier** : <br>
+Soumission du dossier du patient par e-mail à l’AMA<br>   
+**AMA en charge de la RCP :**  <br>
+MUZEAU Marylène <br>
+
 ### **Hôpital Beaujon, AP-HP**
 **RCP Oncologie hépatique** <br>
 <br>
