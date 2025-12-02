@@ -4,7 +4,74 @@ title: Foie et voies biliaires
 
 ## <span style="color:blue">**Auvergne-Rhône-Alpes**</span>  
 
-### **Clermont-Ferrand**   
+### **CHU Clermont-Ferrand**   
+**Pr ABERGEL Armand**     
+Site Estaing, Service de Médecine digestive et hépatobiliaire <br> 
+1 place Lucie Aubrac 63001 **Clermont-Ferrand** <br>
+aabergel@chu-clermontferrand.fr <br>
+Tel : 04 73 75 05 23 <br> 
+
+   **Secrétariat :**      
+GARREAU Sylvie <br>
+sgarreau@chu-clermontferrand.fr <br>
+Tel : 04 73 75 05 23 <br>
+<br>
+<details>
+    <summary>Ressources de soin</summary> <br>
+
+<B>Plateaux techniques</B> <br>    
+<ul>
+<li>Radiothérapie externe </li>   
+<li>Radio-embolisation</li>   
+<li>Radiologie interventionnelle</li>   
+<li> Médecine nucléaire </li>   
+<li>Endoscopie interventionnelle bilio-pancréatique</li>   
+<li>Chirurgie viscérale</li>
+<li>Chirurgie digestive de recours</li>   
+<li> Chirurgie hépatique et transplantation hépatique </li>   
+<li>Oncogénétique</li>   
+<li> Plateforme de biologie moléculaire </li> 
+<li> Plateforme d'anatomopathologie </li> 
+<li>Plateforme d’imagerie</li> 
+<li> Plateau de réanimation </li> 
+<li> Centre de diagnostic rapide</li>  
+<li> Unité de recherche clinique dédiée</li>  
+<li>Centre d'Investigation Clinique multithématique</li>
+<li> Accès aux études de phase I </li>
+<li>Convention avec le Centre de Lutte Contre le Cancer Jean Perrin de Clermont-Ferrand pour l’accès aux plateaux de radiothérapie, radio-embolisation, médecine nucléaire et à la plateforme de séquençage génétique NGS </li>
+</ul>
+<br>   
+<B>Soins de support</B> <br>
+<ul>
+<li>Diététique et nutrition</li>      
+<li>Soutien psychologique du patient</li>   
+<li>Soutien psychologique des proches et des aidants</li>   
+<li>Accompagnement social, familial et professionnel</li>   
+<li> Rééducation et activités physiques adaptées </li>   
+<li>Gestion de la douleur</li>   
+<li> Unité de soins palliatifs dédiée</li>   
+<li>Unité mobile de soins palliatifs</li>   
+<li> Onco-gériatrie</li>   
+<li> Approches non conventionnelles (hypnose, acupuncture, sophrologie,...)</li>   
+<li> Gestion des troubles de la sexualité</li>   
+<li> Préservation de la fertilité </li>   
+<li> Hôpital de jour de soins de support </li>
+<li> Espace de réflexion éthique</li>   
+
+</ul>
+<br>
+</details>   
+
+<details>
+    <summary>Ressources humaines</summary>
+<br>
+<ul>  
+<li> <B>Attaché(e) de Recherche Clinique :</B> </li>
+smassoulier@chu-clermontferrand.fr <br>
+Tel : 04 73 75 05 93<br>
+</ul>
+</details>
+
 ### **Hôpital Michallon, CHU Grenoble Alpes**
 
 **Pr COSTENTIN Charlotte**     
@@ -1259,6 +1326,7 @@ yann.touchefeu@chu-nantes.fr <br>
 ## <span style="color:blue">**Provence-Alpes-Côtes d'Azur**</span>
 ### **Nice**
 ### **Marseille**
+
 
 
 
