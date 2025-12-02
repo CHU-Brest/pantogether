@@ -5,7 +5,25 @@ title: Foie et voies biliaires
 Planning des Réunions Pluridisciplinaires en Région
 
 ## <span style="color:blue">**Auvergne-Rhône-Alpes**</span>  
-### **Clermont-Ferrand**   
+### **CHU Clermont-Ferrand**   
+**RCP Tumeurs du foie** <br>
+<br>
+**Horaire :** Vendredi de 14h30 à 17h <br>
+**Fréquence :** Hebdomadaire <br>
+**Lieu :** Site Estaing <br>
+Service de radiologie <br> 
+1 place Lucie Aubrac 63001 **Clermont-Ferrand** <br>
+              <br>
+**AMA en charge de la RCP :**  <br>
+ROCHA Stéphanie <br>
+srocha@chu-clermontferrand.fr<br>
+Tel : 04 73 75 05 23<br>
+<br>
+
+**Modalités de soumission d’un dossier** : <br>
+Fiche type de l’AFEF à soumettre à l’AMA par e-mail avant présentation <br>
+<br>  
+
 ### **Hôpital Michallon, CHU Grenoble Alpes**
 **RCP des tumeurs primitives hépatiques** <br>
 <br>
