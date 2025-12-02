@@ -1105,7 +1105,84 @@ Fax : 05 55 05 63 01<br>
 </ul>
 </details>
 
-### **Poitiers**   
+### **CHU Poitiers** 
+**Pr TOUGERON David**     
+Service d’hépato-gastroentérologie <br> 
+1 rue de la Milétrie, 86000 **Poitiers** <br>
+david.tougeron@chu-poitiers.fr<br> 
+
+**[Site web](< https://www.chu-poitiers.fr/specialites/hepato-gastro-enterologie-assistance-nutritive/>)**   
+<br>
+   **Secrétariat :**      
+DESBOUCHAGES Patricia <br>
+Patricia.DESBOUCHAGES@chu-poitiers.fr <br>
+Tel : 05 49 44 42 93 <br>
+Fax : 05 49 44 38 35 <br>
+<br>
+<details>
+    <summary>Ressources de soin</summary> <br>
+
+<B>Plateaux techniques</B> <br>    
+<ul>
+<li>Radiothérapie externe </li>   
+<li>Radio-embolisation</li>   
+<li>Radiologie interventionnelle</li>   
+<li> Médecine nucléaire </li>   
+<li>Endoscopie interventionnelle bilio-pancréatique</li>   
+<li>Chirurgie viscérale</li>
+<li>Chirurgie digestive de recours</li>   
+<li> Chirurgie hépatique et transplantation hépatique </li>   
+<li>Oncogénétique</li>   
+<li> Plateforme de biologie moléculaire </li> 
+<li> Plateforme d'anatomopathologie </li> 
+<li>Plateforme d’imagerie</li> 
+<li> Plateau de réanimation </li> 
+<li> Centre de diagnostic rapide</li>  
+<li> Unité de recherche clinique dédiée</li>  
+<li>Centre d'Investigation Clinique multithématique</li>
+<li> Accès aux études de phase I </li>
+</ul>
+<br>   
+<B>Soins de support</B> <br>
+<ul>
+<li>Diététique et nutrition</li>      
+<li>Soutien psychologique du patient</li>   
+<li>Soutien psychologique des proches et des aidants</li>   
+<li>Accompagnement social, familial et professionnel</li>   
+<li> Rééducation et activités physiques adaptées </li>   
+<li>Gestion de la douleur</li>   
+<li>Gestion de la fatigue</li>   
+<li> Unité de soins palliatifs dédiée</li>   
+<li>Unité mobile de soins palliatifs</li>   
+<li> Onco-gériatrie</li>   
+<li> Approches non conventionnelles (hypnose, acupuncture, sophrologie,...)</li>   
+<li> Gestion des troubles de la sexualité</li>   
+<li> Préservation de la fertilité </li>   
+<li> Conseils d'hygiène de vie</li>  
+<li> Ateliers d'art-thérapie</li>   
+<li> Espace de réflexion éthique</li>   
+
+</ul>
+<br>
+</details>   
+
+<details>
+    <summary>Ressources humaines</summary>
+<br>
+<ul>  
+<li> <B>Infirmier(e) de Coordination :</B> </li>
+ide.pivot @chu-poitiers.fr<br>
+Tel : 05 49 44 49 29 <br>
+<br>
+<li> <B>Attaché(e) de Recherche Clinique :</B> </li>
+ROULEAU Laetitia <br>
+
+Laetitia.ROULEAU@chu-poitiers.fr <br>
+Tel : 05 49 44 30 44 <br>
+Tel : 05 49 44 44 45 <br>
+</ul>
+</details>
+
    
 ## <span style="color:blue">**Occitanie**</span>
 ### **Hôpital St Eloi, CHU Montpellier**
@@ -1326,6 +1403,7 @@ yann.touchefeu@chu-nantes.fr <br>
 ## <span style="color:blue">**Provence-Alpes-Côtes d'Azur**</span>
 ### **Nice**
 ### **Marseille**
+
 
 
 
