@@ -396,7 +396,27 @@ Tel : 05 55 05 67 65 <br>
 Fax : 05 55 05 65 46 <br>
 <br>
 
-### **Poitiers**   
+### **CHU Poitiers**   
+<li><strong> RCP d'oncologie digestive</strong></li> <br>
+Réseau Régional des 3C Nouvelle-Aquitaine<br>
+<strong>Horaire :</strong> Lundi <br>
+<strong>Fréquence :</strong> Hebdomadaire <br>
+<strong>Lieu :</strong> CHU Poitiers <br>
+1 rue de la Milétrie, 86000 <strong>Poitiers</strong>  <br>
+Et connexion en distanciel <br>
+                          <br>
+<li><strong>RCP CHC</strong></li> <br>
+Réseau Régional des 3C Nouvelle-Aquitaine<br>
+<strong>Horaire :</strong> Mardi <br>
+<strong>Fréquence :</strong> Hebdomadaire <br>
+<strong>Lieu :</strong> CHU Poitiers <br>
+1 rue de la Milétrie, 86000 <strong>Poitiers</strong>  <br>
+Et connexion en distanciel <br>
+<br>
+</ul>
+**Modalités de soumission d’un dossier** : <br>
+Fiche à déposer sur le dossier communicant de cancérologie (DCC) du patient [Onco Nouvelle-Aquitaine]( https://dcc-poitou-charentes.fr/rcp/) <br>
+
    
 ## <span style="color:blue">**Occitanie**</span>
 ### **Hôpital St Eloi, CHU Montpellier**
