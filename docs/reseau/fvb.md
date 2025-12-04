@@ -1511,8 +1511,8 @@ yann.touchefeu@chu-nantes.fr <br>
 Service d'Hépato gastroentérologie et d'Oncologie Digestive, Bâtiment Rastoin, étage n° 1 <br> 
 26 Boulevard Louvain, 13008 **Marseille** <br>
 xadhoute@hopital-saint-joseph.fr<br> 
-<br>    
-   **Secrétariat :**      
+
+**Secrétariat :**      
 CATHALA Nathalie <br>
 ncathala@hopital-saint-joseph.fr<br>
 Tel : 04 91 80 70 28 et 04 91 80 70 65<br>
@@ -1585,6 +1585,7 @@ ppramirezgarcia@hopital-saint-joseph.fr <br>
 Tel : 04 91 80 82 35<br>
 </ul>
 </details>
+
 
 
 
