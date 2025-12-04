@@ -169,14 +169,14 @@ Tel : 04 76 76 53 99 <br>
 Centre de Coordination en Cancérologie, Bâtiment A, 3ème étage<br> 
 103 grande rue de la Croix-Rousse, 69004 **Lyon** <br>
 philippe.merle@inserm.fr<br> 
-
-**[Site web](<https://www.chu-lyon.fr/>)**     <br> 
    
    **Secrétariat :**      
 LESNIOHSKI Eve<br>
 eve.lesniohski@chu-lyon.fr<br>
 Tel : 04 26 10 93 56<br>
 <br>
+**[Site web](<https://www.chu-lyon.fr/>)**    
+
 <details>
     <summary>Ressources de soin</summary> <br>
 <B>Plateaux techniques</B> <br>    
@@ -1215,14 +1215,14 @@ Service d’hépato-gastroentérologie <br>
 1 rue de la Milétrie, 86000 **Poitiers** <br>
 david.tougeron@chu-poitiers.fr<br> 
 
-**[Site web](<https://www.chu-poitiers.fr/specialites/hepato-gastro-enterologie-assistance-nutritive/>)**   
-<br>
    **Secrétariat :**      
 DESBOUCHAGES Patricia <br>
 Patricia.DESBOUCHAGES@chu-poitiers.fr <br>
 Tel : 05 49 44 42 93 <br>
 Fax : 05 49 44 38 35 <br>
 <br>
+**[Site web](<https://www.chu-poitiers.fr/specialites/hepato-gastro-enterologie-assistance-nutritive/>)**   
+
 <details>
     <summary>Ressources de soin</summary> <br>
 
@@ -1585,6 +1585,7 @@ ppramirezgarcia@hopital-saint-joseph.fr <br>
 Tel : 04 91 80 82 35<br>
 </ul>
 </details>
+
 
 
 
