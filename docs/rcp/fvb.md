@@ -42,7 +42,40 @@ Tel : 04 76 76 54 36<br>
 **Modalités de soumission d’un dossier** : <br>
 Fiche pré-remplie à soumettre à l’AMA avant présentation <br>
 <br>  
-### **Lyon**
+
+### **Hôpital Croix-Rousse, HCL**
+<ul>
+<li><strong> RCP CHC - et autres tumeurs primitives du foie</strong></li>   
+Réseau ONCO-AURA<br>
+<br>  
+<strong>Horaire :</strong> Mardi de 17h à 20h <br>
+<strong>Fréquence :</strong> Hebdomadaire <br>
+<strong>Lieu :</strong> Hôpital Croix-Rousse<br>
+salle de réunion de chirurgie, 4ème étage bâtiment R <br>
+103 grande rue de la Croix-Rousse, 69004 <strong>Lyon</strong>  <br>
+              <br>
+<li><strong> RCP Hépato-Gastroentérologie</strong></li>
+Réseau ONCO-AURA<br>
+<br>
+<strong>Horaire :</strong> Jeudi de 16h à 18h <br>
+<strong>Fréquence :</strong> Hebdomadaire <br>
+<strong>Lieu :</strong> Hôpital Croix-Rousse<br>
+salle de réunion de chirurgie, 4ème étage bâtiment R <br>
+103 grande rue de la Croix-Rousse, 69004 <strong>Lyon</strong>  <br>
+              <br>
+</ul>
+<strong>Gestion des RCP et soumission des dossiers :</strong>  <br>
+<ul>
+<li>Secrétaire des 3C : </li>
+QUERIN Marie<br>
+marie.querin@chu-lyon.fr <br>
+Tel : 04 72 07 29 17 <br>
+<br>
+<li>Secrétaire du Pr Merle : </li>
+LESNIOHSKI Eve<br>
+eve.lesniohski@chu-lyon.fr<br>
+Tel : 04 26 10 93 56<br>
+
 ### **Saint-Etienne**   
     
 ## <span style="color:blue">**Bourgogne-Franche-Comté**</span>
