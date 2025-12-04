@@ -552,21 +552,40 @@ giuliana.amaddeo@aphp.fr<br>
 
 <B>Plateaux techniques</B> <br>    
 <ul>
-<li> Radiothérapie externe </li>
-<li> Radio-embolisation </li>   
+<li>Radiothérapie externe </li>   
+<li>Radio-embolisation</li>   
 <li>Radiologie interventionnelle</li>   
 <li> Médecine nucléaire </li>   
 <li>Endoscopie interventionnelle bilio-pancréatique</li>   
 <li>Chirurgie viscérale</li>
-<li>Chirurgie digestive de recours</li>
+<li>Chirurgie digestive de recours</li>   
+<li> Chirurgie hépatique et transplantation hépatique </li>   
+<li>Oncogénétique</li>   
+<li> Plateforme de biologie moléculaire </li> 
 <li> Plateforme d'anatomopathologie </li> 
 <li>Plateforme d’imagerie</li> 
 <li> Plateau de réanimation </li> 
-<li> Centre de diagnostic rapide</li>
+<li> Centre de diagnostic rapide</li>  
+<li> Unité de recherche clinique dédiée</li>  
+<li>Centre d'Investigation Clinique multithématique</li>
+<li> Accès aux études de phase I </li>
 </ul>
 <br>   
 <B>Soins de support</B> <br>
 <ul>
+<li>Diététique et nutrition</li>      
+<li>Soutien psychologique du patient</li>   
+<li>Soutien psychologique des proches et des aidants</li>   
+<li>Accompagnement social, familial et professionnel</li>   
+<li> Rééducation et activités physiques adaptées </li>   
+<li>Gestion de la douleur</li>   
+<li> Unité de soins palliatifs dédiée</li>   
+<li>Unité mobile de soins palliatifs</li>   
+<li> Onco-gériatrie</li>   
+<li> Approches non conventionnelles (hypnose, acupuncture, sophrologie,...)</li>   
+<li> Conseils d'hygiène de vie</li>  
+<li> Espace de réflexion éthique</li>   
+<li> Hôpital de jour de soins de support </li>   
 </ul>
 <br>
 </details>   
@@ -576,10 +595,16 @@ giuliana.amaddeo@aphp.fr<br>
 <br>
 <ul>
 <li> <B>Infirmier(e) de Coordination :</B> </li>
-LECOMTE Béatrice <br>
-beatrice.lecomte2@aphp.fr <br>
-Tel: 01 49 81 43 18<br>
-<br>  
+<ul>
+   <li> LECOMTE Béatrice</li>
+beatrice.lecomte2@aphp.fr 
+   <br>
+<li>PITON Julie</li>
+julie.piton@aphp.fr <br>
+</ul>
+Tel : 01 49 81 43 18<br>
+Fax : 01 45 17 80 32<br>
+<br>
 </ul>
 </details>
 
@@ -1403,6 +1428,7 @@ yann.touchefeu@chu-nantes.fr <br>
 ## <span style="color:blue">**Provence-Alpes-Côtes d'Azur**</span>
 ### **Nice**
 ### **Marseille**
+
 
 
 
