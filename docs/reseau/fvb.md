@@ -170,8 +170,8 @@ Centre de Coordination en Cancérologie, Bâtiment A, 3ème étage<br>
 103 grande rue de la Croix-Rousse, 69004 **Lyon** <br>
 philippe.merle@inserm.fr<br> 
 
-**[Site web](<https://www.chu-lyon.fr/>)**      
-<br>    
+**[Site web](<https://www.chu-lyon.fr/>)**     <br> 
+   
    **Secrétariat :**      
 LESNIOHSKI Eve<br>
 eve.lesniohski@chu-lyon.fr<br>
@@ -1585,6 +1585,7 @@ ppramirezgarcia@hopital-saint-joseph.fr <br>
 Tel : 04 91 80 82 35<br>
 </ul>
 </details>
+
 
 
 
