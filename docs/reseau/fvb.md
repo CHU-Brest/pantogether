@@ -544,9 +544,9 @@ CHAUVEL Laura <br>
 Service d’Hépatologie <br> 
 1 rue Gustave Eiffel, 94000 **Créteil** <br>
 giuliana.amaddeo@aphp.fr<br>   
-<br> 
+
 **[Site web](<https://www.aphp.fr/henri-mondor/service-d-hepatologie>)**  
-<br> 
+
 <details>
     <summary>Ressources de soin</summary> <br>
 
@@ -1489,6 +1489,7 @@ Fax : 04 91 80 82 12<br>
 <details>
     <summary>Ressources humaines</summary>
 <li> <B>Infirmier(e) de Coordination :</B> </li>
+  <ul>
 LEBOUTEILLER Marina <br>
 mlebouteiller@hopital-saint-joseph.fr <br>
 <br>
@@ -1505,6 +1506,7 @@ ppramirezgarcia@hopital-saint-joseph.fr <br>
 Tel : 04 91 80 82 35<br>
 </ul>
 </details>
+
 
 
 
