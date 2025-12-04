@@ -36,7 +36,7 @@ Structurer la prévention et la prise en soins de ces cancers s’avère essenti
    
 Le réseau Pan-Together vise à garantir une collaboration multidisciplinaire d’acteurs libéraux et hospitaliers, centralisée autour de l’accès à des plateformes diagnostiques et interventionnelles de pointe ainsi qu’à des approches innovantes en recherche clinique.  
    
-Afin de remplir cette mission, le réseau Pan-Together s’organise autour d’un centre pilote – le CHU de Brest – et son coordonnateur national - le Pr Metges - et de trois centres experts, chacun référent pour un axe spécifique :   
+Afin de remplir cette mission, le réseau Pan-Together s’organise autour d’un centre pilote – le CHU de Brest – et du coordonnateur national - le Pr Metges - des trois centres experts chacun référent d'un axe spécifique :   
    
 * Axe **Œsophage et Jonction Oeso-Gastrique** : porté par le **CHU de Brest**, sous la coordination du Pr Jean-Philippe Metges et du Dr Vincent Bourbonne.
 * Axe **Foie et Voies biliaires** : assuré par le **CHU Avicenne (AP-HP)**, sous la responsabilité du Pr Nathalie Ganne-Carrié et du Pr Pierre Nahon.
