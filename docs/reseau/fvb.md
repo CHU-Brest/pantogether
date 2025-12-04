@@ -1493,7 +1493,7 @@ Fax : 04 91 80 82 12<br>
 LEBOUTEILLER Marina <br>
 mlebouteiller@hopital-saint-joseph.fr <br>
 <br>
-<li> <B>Infirmier(e) de Pratiques Avancées :</B> </li>
+<li> <B>Infirmier(e) en Pratiques Avancées :</B> </li>
 BERNE Sophie <br>
 sberne@hopital-saint-joseph.fr <br>
 Tel : 04 91 80 68 59<br>
@@ -1506,6 +1506,7 @@ ppramirezgarcia@hopital-saint-joseph.fr <br>
 Tel : 04 91 80 82 35<br>
 </ul>
 </details>
+
 
 
 
