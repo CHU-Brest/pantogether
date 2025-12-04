@@ -199,14 +199,17 @@ Fiche type à soumettre à l’AMA avant présentation : <br>
 ### **CHU Henri Mondor, AP-HP**
 **RCP Tumeurs Primitives du foie HMN** <br>
 <br>
+**Horaire :** Vendredi 14h <br>
 **Fréquence :** Hebdomadaire <br>
-**Lieu :** Service de Chirurgie digestive, 4éme étage<br>
+**Lieu :** Salle de STAFF CALIPPSO, Service de Chirurgie digestive, 4ème étage<br>
 1 rue Gustave Eiffel, 94000, **Créteil** <br>
               <br>
 **Modalités de soumission d’un dossier** : <br>
-Soumission du dossier du patient par e-mail à l’AMA<br>   
+Soumission de la fiche Certif par e-mail à l’AMA <br>   
 **AMA en charge de la RCP :**  <br>
-MUZEAU Marylène <br>
+REMILIEN Evy <br>
+Tel : 01 49 81 23 67<br>
+
 
 ### **Hôpital Beaujon, AP-HP**
 **RCP Oncologie hépatique** <br>
