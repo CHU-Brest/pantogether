@@ -10,9 +10,7 @@ title: Bienvenue
 
 <span style="color:blue">
 <strong>PAN-TOGETHER</strong>, le Réseau d’Excellence Clinique pour la prise en charge des cancers du <strong>PAN</strong>créas, des <strong>T</strong>umeurs <strong>O</strong>eso-<strong>G</strong>astriques <strong>E</strong>t des <strong>T</strong>umeurs primitives <strong>HE</strong>pato-biliai<strong>R</strong>es  <br>
-</span>     
-<br>   
-
+</span>  
 Les cancers de l’œsophage, du foie, des voies biliaires et du pancréas sont associés à un pronostic défavorable à tous les stades, selon la définition européenne des cancers à mauvais pronostic.    
 Le projet de réseau d'excellence clinique **PAN-TOGETHER** vise à structurer la prévention et la prise en soins de ces cancers, essentielle pour améliorer la qualité de la prise en charge globale des patients.
 
