@@ -164,7 +164,86 @@ Tel : 04 76 76 53 99 <br>
 <br>
 </details>
 
-### **Lyon**
+### **Hôpital de la Croix-Rousse, HCL**
+**Pr MERLE Philippe**     
+Centre de Coordination en Cancérologie, Bâtiment A, 3ème étage<br> 
+103 grande rue de la Croix-Rousse, 69004 **Lyon** <br>
+philippe.merle@inserm.fr<br> 
+
+**[Site web](<https://www.chu-lyon.fr/>)**      
+<br>    
+   **Secrétariat :**      
+LESNIOHSKI Eve<br>
+eve.lesniohski@chu-lyon.fr<br>
+Tel : 04 26 10 93 56<br>
+<br>
+<details>
+    <summary>Ressources de soin</summary> <br>
+<B>Plateaux techniques</B> <br>    
+<ul>
+<li>Radiothérapie externe </li>   
+<li>Radio-embolisation</li>   
+<li>Radiologie interventionnelle</li>   
+<li> Médecine nucléaire </li>   
+<li>Endoscopie interventionnelle bilio-pancréatique</li>   
+<li>Chirurgie viscérale</li>
+<li>Chirurgie digestive de recours</li>   
+<li> Chirurgie hépatique et transplantation hépatique </li>   
+<li>Oncogénétique</li>   
+<li> Plateforme de biologie moléculaire </li> 
+<li> Plateforme d'anatomopathologie </li> 
+<li>Plateforme d’imagerie</li> 
+<li> Plateau de réanimation </li> 
+<li> Centre de diagnostic rapide</li>  
+<li> Unité de recherche clinique dédiée</li>  
+<li>Centre d'Investigation Clinique multithématique</li>
+<li> Accès aux études de phase I </li>
+</ul>
+<br>   
+<B>Soins de support</B> <br>
+<ul>
+<li>Diététique et nutrition</li>      
+<li>Soutien psychologique du patient</li>   
+<li>Soutien psychologique des proches et des aidants</li>   
+<li>Accompagnement social, familial et professionnel</li>   
+<li> Rééducation et activités physiques adaptées </li>   
+<li>Gestion de la douleur</li>   
+<li>Gestion de la fatigue</li>   
+<li> Unité de soins palliatifs dédiée</li>   
+<li>Unité mobile de soins palliatifs</li>   
+<li> Onco-gériatrie</li>   
+<li> Approches non conventionnelles (hypnose, acupuncture, sophrologie,...)</li>   
+<li> Gestion des troubles de la sexualité</li>   
+<li> Préservation de la fertilité </li>   
+<li> Conseils d'hygiène de vie</li>  
+<li> Ateliers d'art-thérapie</li>   
+<li> Espace de réflexion éthique</li>   
+<li> Hôpital de jour de soins de support </li>   
+
+</ul>
+<br>
+</details>   
+
+<details>
+    <summary>Ressources humaines</summary>
+<br>
+<ul>  
+<li> <B>Infirmier(e) de Coordination :</B> </li>
+GUILLOREAU Paule<br>
+paule.guilloreau@chu-lyon.fr<br>
+Tel : 04 26 73 27 16<br>
+<br>
+<li> <B>Infirmier(e) en Pratiques Avancées :</B> </li>
+TAUREAU Charline<br>
+Tel : 04 72 07 13 47<br>
+<br>
+<li> <B>Attaché(e) de Recherche Clinique :</B> </li>
+GUILLOREAU Paule<br>
+paule.guilloreau@chu-lyon.fr<br>
+Tel : 04 26 73 27 16<br>
+</ul>
+</details>
+
 ### **Saint-Etienne**   
     
 ## <span style="color:blue">**Bourgogne-Franche-Comté**</span>
@@ -1063,7 +1142,7 @@ nathalie.denoyer@chu-limoges.fr <br>
 Tel : 05 55 05 87 26<br>
 Fax : 05 55 05 63 01 <br>
        <br>
-**[Site web](< https://www.chu-limoges.fr/service-medical/hepato-gastro-enterologie-et-nutrition/>)**
+**[Site web](<https://www.chu-limoges.fr/service-medical/hepato-gastro-enterologie-et-nutrition/>)**
 <details>
     <summary>Ressources de soin</summary> <br>
 
@@ -1136,7 +1215,7 @@ Service d’hépato-gastroentérologie <br>
 1 rue de la Milétrie, 86000 **Poitiers** <br>
 david.tougeron@chu-poitiers.fr<br> 
 
-**[Site web](< https://www.chu-poitiers.fr/specialites/hepato-gastro-enterologie-assistance-nutritive/>)**   
+**[Site web](<https://www.chu-poitiers.fr/specialites/hepato-gastro-enterologie-assistance-nutritive/>)**   
 <br>
    **Secrétariat :**      
 DESBOUCHAGES Patricia <br>
@@ -1506,6 +1585,7 @@ ppramirezgarcia@hopital-saint-joseph.fr <br>
 Tel : 04 91 80 82 35<br>
 </ul>
 </details>
+
 
 
 
