@@ -76,11 +76,11 @@ LESNIOHSKI Eve<br>
 eve.lesniohski@chu-lyon.fr<br>
 Tel : 04 26 10 93 56<br>
 <br>
-
 ### **Saint-Etienne**   
     
 ## <span style="color:blue">**Bourgogne-Franche-Comté**</span>
 ### **CHU Besançon**
+
 ### **Hôpital François Mitterrand, CHU Dijon**   
 <ul>
 <li><strong>RCP des tumeurs hépatiques</strong></li>
