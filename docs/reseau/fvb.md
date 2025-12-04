@@ -1204,7 +1204,7 @@ ROULEAU Laetitia <br>
 
 Laetitia.ROULEAU@chu-poitiers.fr <br>
 Tel : 05 49 44 30 44 <br>
-Tel : 05 49 44 44 45 <br>
+Fax : 05 49 44 44 45 <br>
 </ul>
 </details>
 
@@ -1427,7 +1427,85 @@ yann.touchefeu@chu-nantes.fr <br>
    
 ## <span style="color:blue">**Provence-Alpes-Côtes d'Azur**</span>
 ### **Nice**
-### **Marseille**
+### **Hôpital privé Saint-Joseph, Marseille**
+**Dr ADHOUTE Xavier**     
+Service d'Hépato gastroentérologie et d'Oncologie Digestive, Bâtiment Rastoin, étage n° 1 <br> 
+26 Boulevard Louvain, 13008 **Marseille** <br>
+xadhoute@hopital-saint-joseph.fr<br> 
+<br>    
+   **Secrétariat :**      
+CATHALA Nathalie <br>
+ncathala@hopital-saint-joseph.fr<br>
+Tel : 04 91 80 70 28 et 04 91 80 70 65<br>
+Fax : 04 91 80 82 12<br>
+<br>
+<details>
+    <summary>Ressources de soin</summary> <br>
+
+<B>Plateaux techniques</B> <br>    
+<ul>
+<li>Radiologie interventionnelle</li>   
+<li>Endoscopie interventionnelle bilio-pancréatique</li>   
+<li>Chirurgie viscérale</li>
+<li>Chirurgie digestive de recours</li>   
+<li>Oncogénétique</li>   
+<li> Plateforme de biologie moléculaire </li> 
+<li> Plateforme d'anatomopathologie </li> 
+<li>Plateforme d’imagerie</li> 
+<li> Plateau de réanimation </li> 
+<li> Centre de diagnostic rapide</li>  
+<li> Unité de recherche clinique dédiée</li>  
+<li>Radiothérapie externe via convention avec l’hôpital privé Clairval</li>   
+<li>Radio-embolisation via convention avec le CHU Timone</li>   
+<li> Chirurgie hépatique et transplantation hépatique via convention avec le CHU Timone </li>   
+</ul>
+<br>   
+<B>Soins de support</B> <br>
+<ul>
+<li>Diététique et nutrition</li>      
+<li>Soutien psychologique du patient</li>   
+<li>Soutien psychologique des proches et des aidants</li>   
+<li>Accompagnement social, familial et professionnel</li>   
+<li> Rééducation et activités physiques adaptées </li>   
+<li>Gestion de la douleur</li>   
+<li>Gestion de la fatigue</li>   
+<li> Unité de soins palliatifs dédiée</li>   
+<li>Unité mobile de soins palliatifs</li>   
+<li> Onco-gériatrie</li>   
+<li> Approches non conventionnelles (hypnose, acupuncture, sophrologie,...)</li>   
+<li> Gestion des troubles de la sexualité </li>  
+<li> Préservation de la fertilité </li>  
+<li> Conseils d'hygiène de vie</li>  
+<li> Ateliers d'art-thérapie </li>  
+<li> Espace de réflexion éthique</li>   
+<li> Hôpital de jour de soins de support </li>   
+<li> Hôpital de jour pour les patients en démarche palliative pour diverses ponctions </li>   
+<li> Soins de support à domicile</li>   
+
+</ul>
+<br>
+</details>   
+
+<details>
+    <summary>Ressources humaines</summary>
+<li> <B>Infirmier(e) de Coordination :</B> </li>
+LEBOUTEILLER Marina <br>
+mlebouteiller@hopital-saint-joseph.fr <br>
+<br>
+<li> <B>Infirmier(e) de Pratiques Avancées :</B> </li>
+BERNE Sophie <br>
+sberne@hopital-saint-joseph.fr <br>
+Tel : 04 91 80 68 59<br>
+Fax : 04 91 80 70 33 <br>
+<br>
+<li> <B>Attaché(e) de Recherche Clinique :</B> </li>
+RAMIREZ Paola <br>
+
+ppramirezgarcia@hopital-saint-joseph.fr <br>
+Tel : 04 91 80 82 35<br>
+</ul>
+</details>
+
 
 
 
