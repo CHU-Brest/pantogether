@@ -1488,8 +1488,8 @@ Fax : 04 91 80 82 12<br>
 
 <details>
     <summary>Ressources humaines</summary>
-<li> <B>Infirmier(e) de Coordination :</B> </li>
   <ul>
+<li> <B>Infirmier(e) de Coordination :</B> </li>
 LEBOUTEILLER Marina <br>
 mlebouteiller@hopital-saint-joseph.fr <br>
 <br>
@@ -1506,6 +1506,7 @@ ppramirezgarcia@hopital-saint-joseph.fr <br>
 Tel : 04 91 80 82 35<br>
 </ul>
 </details>
+
 
 
 
