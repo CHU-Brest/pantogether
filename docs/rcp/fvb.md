@@ -489,7 +489,27 @@ Tel : 04 67 33 07 54<br>
 **Modalités de soumission d’un dossier** : <br>
 Saisie de la fiche RCP en ligne dans le dossier communicant de cancérologie (DCC) du patient [Onco Occitanie](<https://portail.mediware.fr/Apps/WebObjects/Oncooc.woa/wa>) <br> 
 
-### **Toulouse**   
+### **Hôpital Rangueil, CHU Toulouse**   
+<ul>
+<li><strong>RCP CHC</strong></li>
+Responsable Pr PERON JM <br>
+<li><strong>RCP onco digestive (cholangiocarcinomes) </strong></li>
+Responsable Dr FARES N <br>
+<li><strong>RCP moléculaire</strong></li>
+Responsable Dr FARES N <br>
+<br>
+</ul>
+Réseau ONCOMIP <br>
+<strong>Horaire :</strong> Mercredi de 15h à 18h30 <br>
+<strong>AMA en charge des RCP :</strong>  <br>
+SEGUIN Sylvie
+seguin.s@chu-toulouse.fr<br>
+Tel : 05 61 34 34 14<br>
+<br>
+<strong>Modalités de soumission d’un dossier :</strong> <br>
+Saisie de la fiche RCP en ligne dans le dossier communicant de cancérologie (DCC) du patient [Onco Occitanie](<Onco-Occitanie 6.0.0>) <br>
+ <br>  
+  
    
 ## <span style="color:blue">**Pays de la Loire**</span>
 ### **CHU Angers**
