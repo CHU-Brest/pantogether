@@ -1360,7 +1360,66 @@ Fax : 04 67 33 23 10<br>
 <br>
 </details>
 
-### **Toulouse**   
+### **Hôpital Rangueil, CHU Toulouse**   
+**Pr PERON Jean-Marie**     
+1, avenue du Pr Jean Poulhès, 31400 **Toulouse** <br>
+peron.jm@chu-toulouse.fr<br> 
+Tel : 05 61 323532<br>       
+   **Secrétariat :**      
+SEGUIN Sylvie<br>
+seguin.s@chu-toulouse.fr<br>
+Tel : 05 61 32 34 14<br>
+<details>
+    <summary>Ressources de soin</summary> <br>
+<B>Plateaux techniques</B> <br>    
+<ul>
+<li>Radiothérapie externe </li>   
+<li>Radio-embolisation</li>   
+<li>Radiologie interventionnelle</li>   
+<li> Médecine nucléaire </li>   
+<li>Endoscopie interventionnelle bilio-pancréatique</li>   
+<li>Chirurgie viscérale</li>
+<li>Chirurgie digestive de recours</li>   
+<li> Chirurgie hépatique et transplantation hépatique </li>   
+<li>Oncogénétique</li>   
+<li> Plateforme de biologie moléculaire </li> 
+<li> Plateforme d'anatomopathologie </li> 
+<li>Plateforme d’imagerie</li> 
+<li> Plateau de réanimation </li> 
+<li> Centre de diagnostic rapide</li>  
+<li> Unité de recherche clinique dédiée</li>  
+<li>Centre d'Investigation Clinique multithématique</li>
+<li> Accès aux études de phase I </li>
+</ul>
+<br>   
+<B>Soins de support</B> <br>
+<ul>
+<li>Diététique et nutrition</li>      
+<li>Soutien psychologique du patient</li>   
+<li>Soutien psychologique des proches et des aidants</li>   
+<li>Accompagnement social, familial et professionnel</li>   
+<li> Rééducation et activités physiques adaptées </li>   
+<li>Gestion de la douleur</li>   
+<li>Gestion de la fatigue</li>   
+<li>Unité mobile de soins palliatifs</li>   
+<li> Onco-gériatrie</li>   
+<li> Gestion des troubles de la sexualité</li>   
+<li> Préservation de la fertilité </li>   
+<li> Conseils d'hygiène de vie</li>  
+</ul>
+<br>
+</details>   
+
+<details>
+    <summary>Ressources humaines</summary>
+<br>
+<ul>  
+<li> <B>Attaché(e) de Recherche Clinique :</B> </li>
+JURION Dehlia<br>
+jurion.d@chu-toulouse.fr<br>
+</ul>
+</details>
+<br>
    
 ## <span style="color:blue">**Pays de la Loire**</span>
 ### **CHU Angers**
@@ -1585,6 +1644,7 @@ ppramirezgarcia@hopital-saint-joseph.fr <br>
 Tel : 04 91 80 82 35<br>
 </ul>
 </details>
+
 
 
 
