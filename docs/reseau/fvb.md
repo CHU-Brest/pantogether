@@ -920,7 +920,71 @@ manon.allaire@aphp.fr<br>
 <br>
 </details>   
 
-### **Paris IMM**
+### **Institut Médico-Chirurgical Montsouris**
+**Dr MALKA David**     
+Département d'Oncologie Médicale <br> 
+42 Boulevard Jourdan, 75014 **Paris** <br>
+David.MALKA@imm.fr<br> 
+
+**[Site web](<https://imm.fr>)**      
+<br>    
+   **Secrétariat :**      
+ROUSSEAU Nadège<br>
+secretariat.oncologie@imm.fr<br>
+Tel : 01 56 61 62 41<br>
+Fax : 01 56 61 61 70<br>
+<br>
+<details>
+    <summary>Ressources de soin</summary> <br>
+<B>Plateaux techniques</B> <br>    
+<ul>
+<li>Radiologie interventionnelle</li>   
+<li>Endoscopie interventionnelle bilio-pancréatique</li>   
+<li>Chirurgie viscérale</li>
+<li>Chirurgie digestive de recours</li>   
+<li> Plateforme d'anatomopathologie </li> 
+<li>Plateforme d’imagerie</li> 
+<li> Plateau de réanimation </li> 
+<li> Chirurgie hépatique y compris coelioscopique et robot-assistée</li>   
+<li> Convention avec l’hôpital Foch à Suresne et l’hôpital Institut Curie à Paris pour l’accès à la radiothérapie externe, la médecine nucléaire, l’oncogénétique, la plateforme de biologie moléculaire et les études de phase I </li>
+</ul>
+<br>   
+<B>Soins de support</B> <br>
+<ul>
+<li>Diététique et nutrition</li>      
+<li>Soutien psychologique du patient</li>   
+<li>Soutien psychologique des proches et des aidants</li>   
+<li>Accompagnement social, familial et professionnel</li>   
+<li> Rééducation et activités physiques adaptées </li>   
+<li>Gestion de la douleur</li>   
+<li>Unité mobile de soins palliatifs</li>   
+<li> Onco-gériatrie</li>   
+<li> Approches non conventionnelles (hypnose, acupuncture, sophrologie,...)</li>   
+<li> Conseils d'hygiène de vie</li>  
+<li> Hôpital de jour de soins de support </li>   
+
+</ul>
+<br>
+</details>   
+
+<details>
+    <summary>Ressources humaines</summary>
+<br>
+<ul>  
+<li> <B>Infirmier(e) de Coordination :</B> </li>
+BREBION Marion <br>
+marion.brebion@imm.fr<br>
+Tel : 01 56 61 75 58<br>
+Fax : 01 56 61 61 70<br>
+<br>
+<li> <B>Attaché(e) de Recherche Clinique :</B> </li>
+DOUMANDJI Yasmine<br>
+Yasmine.DOUMANDJI@imm.fr <br>
+Tel : 01 56 61 63 77<br>
+Fax : 01 56 61 61 70<br>
+</ul>
+</details>
+
 ### **Hôpital de Saint-Cloud, Institut Curie**
 
    **Pr NEUZILLET Cindy**     
@@ -1644,6 +1708,7 @@ ppramirezgarcia@hopital-saint-joseph.fr <br>
 Tel : 04 91 80 82 35<br>
 </ul>
 </details>
+
 
 
 
