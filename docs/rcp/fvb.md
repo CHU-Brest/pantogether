@@ -319,7 +319,23 @@ Ou <br>
 - GAUTIER Violaine <br>
 violaine.gautier@aphp.fr <br>
 
-### **Paris IMM**
+### **Institut Médico-Chirurgical Montsouris**
+**RCP d'oncologie digestive** <br>
+<br>
+**Horaire :** Mardi de 17h à 19h30 <br>
+**Fréquence :** Hebdomadaire <br>
+**Lieu :** Institut Médico-chirurgical Montsouris <br>
+42 Boulevard Jourdan, 75014 **Paris** <br>
+              <br>
+**AMA en charge de la RCP :**  <br>
+HALIMI Lorena <br>
+lorena.halimi@imm.fr<br>
+Tel : 01 56 61 63 13 <br>
+Fax : 01 56 61 63 23 <br>
+<br>
+**Modalités de soumission d’un dossier** : <br>
+Dossier à soumettre à l’AMA en charge de la RCP<br>
+
 
 ### **Hôpital de Saint-Cloud, Institut Curie**
 <ul>
