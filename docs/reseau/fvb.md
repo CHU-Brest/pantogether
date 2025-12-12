@@ -924,15 +924,15 @@ manon.allaire@aphp.fr<br>
 **Dr MALKA David**     
 Département d'Oncologie Médicale <br> 
 42 Boulevard Jourdan, 75014 **Paris** <br>
-David.MALKA@imm.fr<br> 
+David.MALKA@imm.fr<br>   
 
-**[Site web](<https://imm.fr>)**      
-<br>    
    **Secrétariat :**      
 ROUSSEAU Nadège<br>
 secretariat.oncologie@imm.fr<br>
 Tel : 01 56 61 62 41<br>
 Fax : 01 56 61 61 70<br>
+<br>
+**[Site web](<https://imm.fr>)**  <br>
 <br>
 <details>
     <summary>Ressources de soin</summary> <br>
@@ -1122,7 +1122,74 @@ Tel : 01 45 59 66 06<br>
 
    
 ## <span style="color:blue">**Normandie**</span>
-### **Caen**
+### **CHU Caen**
+**Dr OLLIVIER-HOURMAND Isabelle**     
+Service d'hépato-gastro-entérologie et nutrition, Unité d'Hépatologie<br>
+Hôpital Côte de la Nacre<br> 
+Avenue de la Côte de la Nacre, 14033 **Caen** <br>
+ollivierhourmand-i@chu-caen.fr<br> 
+
+   **Secrétariat :**      
+hgeconsult-sec@chu-caen.fr<br>
+Tel : 02 31 06 45 43<br>
+Fax : 02 31 06 45 45<br>
+<br>
+**[Site web](< https://www.chu-caen.fr/page-services/hepato-gastro-enterologie-nutrition/#onglet1>)**    <br> 
+
+<details>
+    <summary>Ressources de soin</summary> <br>
+<B>Plateaux techniques</B> <br>    
+<ul>
+<li>Radio-embolisation</li>   
+<li>Radiologie interventionnelle</li>   
+<li> Médecine nucléaire </li>   
+<li>Endoscopie interventionnelle bilio-pancréatique</li>   
+<li>Chirurgie viscérale</li>
+<li>Chirurgie digestive de recours</li>   
+<li> Chirurgie hépatique et transplantation hépatique </li>   
+<li>Oncogénétique</li>   
+<li> Plateforme de biologie moléculaire </li> 
+<li> Plateforme d'anatomopathologie </li> 
+<li>Plateforme d’imagerie</li> 
+<li> Plateau de réanimation </li> 
+<li>Centre d'Investigation Clinique multithématique</li>
+<li> Accès aux études de phase I </li>
+<li> Convention avec le Centre François Baclesse à Caen pour l’accès à la radiothérapie externe </li>
+
+</ul>
+<br>   
+<B>Soins de support</B> <br>
+<ul>
+<li>Diététique et nutrition</li>      
+<li>Soutien psychologique du patient</li>   
+<li>Soutien psychologique des proches et des aidants</li>   
+<li>Accompagnement social, familial et professionnel</li>   
+<li> Rééducation et activités physiques adaptées </li>   
+<li>Gestion de la douleur</li>
+<li>Unité de soins palliatifs dédiée</li>      
+<li>Unité mobile de soins palliatifs</li>   
+<li> Onco-gériatrie</li>   
+<li> Préservation de la fertilité </li>   
+<li> Espace de réflexion éthique</li>   
+<li> Hôpital de jour de soins de support </li>   
+<li> Patient partenaire </li>   
+
+</ul>
+<br>
+</details>   
+
+<details>
+    <summary>Ressources humaines</summary>
+<br>
+<ul>  
+<li> <B>Attaché(e) de Recherche Clinique :</B> </li>
+ROUILLON Christophe<br>
+rouillon-c@chu-caen.fr <br>
+Tel : 02 31 06 43 88<br>
+</ul>
+</details>
+
+
 ### **Rouen**   
    
 ## <span style="color:blue">**Nouvelle-Aquitaine**</span>
@@ -1708,6 +1775,7 @@ ppramirezgarcia@hopital-saint-joseph.fr <br>
 Tel : 04 91 80 82 35<br>
 </ul>
 </details>
+
 
 
 
