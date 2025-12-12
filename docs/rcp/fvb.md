@@ -412,6 +412,35 @@ Fiche de demande à soumettre à l’AMA <br>
    
 ## <span style="color:blue">**Normandie**</span>
 ### **Caen**
+<ul>
+<li><strong> RCP Tumeurs primitives du Foie (malignes et bénignes)</strong></li> <br>
+<strong>Horaire :</strong> Lundi de 16h30 à 19h <br>
+<strong>Fréquence :</strong> Hebdomadaire <br>
+<strong>Lieu :</strong> Hôpital Côte de la Nacre <br>
+Salle de visioconférence, niveau 3 <br>
+Avenue de la Côte de la Nacre, 14033 <strong>Caen</strong>  <br>
+Connexion à distance possible, contacter : institutcancer-sec@chu-caen.fr<br>
+              <br>
+<li><strong> RCP digestive pour les tumeurs des voies biliaires</strong></li> <br>
+<strong>Horaire :</strong> Jeudi de 16h30 à 19h <br>
+<strong>Fréquence :</strong> Hebdomadaire <br>
+<strong>Lieu :</strong> Hôpital Côte de la Nacre <br>
+Salle de visioconférence, niveau 3 <br>
+Avenue de la Côte de la Nacre, 14033 <strong>Caen</strong>  <br>
+Connexion à distance possible, contacter : institutcancer-sec@chu-caen.fr<br>
+              <br>
+</ul>
+
+**AMA en charge des RCP :**  <br>
+Institut de Cancérologie, Secrétariat Pôle Recherche/Biologie 
+institutcancer-sec@chu-caen.fr<br>
+Tel : 02 31 06 53 40 - 02 31 06 54 53<br>
+Fax : 02 31 06 36 09 <br>
+<br>
+**Modalités de soumission d’un dossier** : <br>
+Fiche à déposer sur le dossier communicant de cancérologie (DCC) du patient [Norm’Uni ](https://www.norm-uni.fr/portail.pro/) <br>
+
+
 ### **Rouen**   
    
 ## <span style="color:blue">**Nouvelle-Aquitaine**</span>
