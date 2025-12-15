@@ -204,8 +204,36 @@ Fiche RCP dédiée à cenvoyer à l’AMA ou à déposer dans le dossier communi
 
 ## <span style="color:blue">**Hauts-de-France**</span>
 ### **Amiens**
-### **Lille**   
-   
+### **CHU Lille**   
+<ul>
+<li><strong> RCP Tumeurs Hépatiques primitives (CHC et Cholangiocarcinome)</strong></li>
+<br>
+<strong>Horaire : Jeudi de 16h à 19h</strong> <br>
+<strong>Fréquence :</strong> Hebdomadaire <br>
+<strong>Lieu :</strong> Salle Multi-Media, Hôpital Claude Huriez <br>
+Rue Michel Polonowski, 59000  <strong>Lille</strong>  <br>
+Et connexion à distance via Teams <br>
+              <br>
+<li><strong> RCP Cancers Digestifs hors Tumeurs Hépatiques primitives </strong></li>
+   <br>
+<strong>Horaire : Vendredi de 16h à 19h</strong> <br>
+<strong>Fréquence :</strong> Hebdomadaire <br>
+<strong>Lieu :</strong> Salle Multi-Media, Hôpital Claude Huriez <br>
+Rue Michel Polonowski, 59000  <strong>Lille</strong>  <br>
+Et connexion à distance via Teams <br>
+              <br>
+</ul>
+<strong>AMA en charge des RCP :</strong>  <br>
+BLENCOURT Magalie <br> 
+magalie.biencourt@chu-lille.fr <br>
+Tel : 03 20 44 61 45<br>
+Fax : 03 20 44 56 40<br>
+<br>
+
+**Modalités de soumission d’un dossier** : <br>
+Dossier à soumettre par mail à rcp.hepato-digestive@chu-lille.fr<br>
+<br>
+
 ## <span style="color:blue">**Ile de France**</span>
 ### **CHU Avicenne, AP-HP_Centre expert référent**   
  **RCP de compétence rare « Tumeurs Primitives du foie »** <br>
