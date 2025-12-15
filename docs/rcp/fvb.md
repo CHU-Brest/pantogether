@@ -145,8 +145,29 @@ Dossier à déposer sur le dossier communicant de cancérologie (DCC) du patient
 Ou transmission via [Télésanté Bretagne](< https://www.telesante-bretagne.fr/>)  <br>
    
 ## <span style="color:blue">**Centre-Val-de-Loire**</span>
-### **Tours**   
-   
+### **Hôpital Trousseau, CHRU Tours**   
+<ul>
+<li><strong> RCP digestive </strong></li>
+<li><strong> RCP CHC </strong></li>
+<li><strong> RCP TNE </strong></li>
+<li><strong> RCP oncogénétique </strong></li>
+<br>
+<strong>Horaire :</strong> Mardi de 14h à 18h <br>
+<strong>Fréquence :</strong> Hebdomadaire <br>
+<strong>Lieu :</strong> Hôpital Trousseau <br>
+Salle de réunion du 9ème Etage <br>
+Avenue de la République, 37170 <strong>Chambray-lès-Tours</strong> <br>
+Et connexion à distance par Teams  <br>
+   <br>
+</ul>
+<strong>AMA en charge des RCP :</strong>  <br>
+CHATEL Marjorie <br>
+rcp.trousseau@chu-tours.fr<br>
+Tel : 02 47 47 47 47 <br>
+<br>
+<strong>Modalités de soumission d’un dossier :</strong> <br>
+Fiche à déposer dans le dossier communicant de cancérologie (DCC) du patient [OncoCentre](<https://connect.esante-centre.fr/>) <br>
+
 ## <span style="color:blue">**Grand-Est**</span>
 ### **Nancy**
 ### **CHU Reims**   
