@@ -1695,7 +1695,80 @@ yann.touchefeu@chu-nantes.fr <br>
 </details>   
    
 ## <span style="color:blue">**Provence-Alpes-Côtes d'Azur**</span>
-### **Nice**
+### **Hôpital Archet 2, CHU de Nice**
+**Pr ANTY Rodolphe**     
+Unité d’hépatologie, Hôpital Archet 2<br> 
+151 route Saint Antoine de Ginestière, 06202, **Nice** <br>
+anty.r@chu-nice.fr <br> 
+Tel : 04 92 03 69 81 <br>
+
+<br>    
+**Secrétariat :**      
+CORNIGLION Emilie<br>
+corniglion.e@chu-nice.fr <br>
+Tel : 04 92 03 69 81<br>
+<br>
+<details>
+    <summary>Ressources de soin</summary> <br>
+<B>Plateaux techniques</B> <br>    
+<ul>
+<li>Radio-embolisation</li>   
+<li>Radiologie interventionnelle</li>   
+<li> Médecine nucléaire </li>   
+<li>Endoscopie interventionnelle bilio-pancréatique</li>   
+<li>Chirurgie viscérale</li>
+<li>Chirurgie digestive de recours</li>   
+<li> Chirurgie hépatique et transplantation hépatique </li>   
+<li>Oncogénétique</li>   
+<li> Plateforme de biologie moléculaire </li> 
+<li> Plateforme d'anatomopathologie </li> 
+<li>Plateforme d’imagerie</li> 
+<li> Plateau de réanimation </li> 
+<li> Unité de recherche clinique dédiée</li>  
+<li>Centre d'Investigation Clinique multithématique</li>
+<li> Accès aux études de phase I </li>
+<li>Convention avec le CLCC de Nice, Centre Antoine Lacassagne, et avec le Centre de Haute Energie de Nice, pour l’accès à la radiothérapie </li>  
+</ul>
+<br>   
+<B>Soins de support</B> <br>
+<ul>
+<li>Diététique et nutrition</li>      
+<li>Soutien psychologique du patient</li>   
+<li>Soutien psychologique des proches et des aidants</li>   
+<li>Accompagnement social, familial et professionnel</li>   
+<li> Rééducation et activités physiques adaptées </li>   
+<li>Gestion de la douleur</li>   
+<li>Gestion de la fatigue</li>   
+<li> Unité de soins palliatifs dédiée</li>   
+<li>Unité mobile de soins palliatifs</li>   
+<li> Onco-gériatrie</li>   
+<li> Approches non conventionnelles (hypnose, acupuncture, sophrologie,...)</li>   
+<li> Gestion des troubles de la sexualité</li>   
+<li> Préservation de la fertilité </li>   
+<li> Conseils d'hygiène de vie</li>  
+<li> Hôpital de jour de soins de support </li>   
+<li> Espace de réflexion éthique</li>   
+
+</ul>
+<br>
+</details>   
+
+<details>
+    <summary>Ressources humaines</summary>
+<br>
+<ul>  
+<li> <B>Infirmier(e) de Coordination :</B> </li>
+LELONG Marion<br>
+Lelong.m@chu-nice.fr<br>
+<br>
+<li> <B>Attaché(e) de Recherche Clinique :</B> </li>
+BAUD Céline<br>
+baud.c@chu-nice.fr <br>
+Tel : 04 92 03 59 43 (secrétariat URC Hépatologie et cancérologie hépato-biliaire)<br>
+</ul>
+</details>
+
+
 ### **Hôpital privé Saint-Joseph, Marseille**
 **Dr ADHOUTE Xavier**     
 Service d'Hépato gastroentérologie et d'Oncologie Digestive, Bâtiment Rastoin, étage n° 1 <br> 
@@ -1775,6 +1848,7 @@ ppramirezgarcia@hopital-saint-joseph.fr <br>
 Tel : 04 91 80 82 35<br>
 </ul>
 </details>
+
 
 
 
