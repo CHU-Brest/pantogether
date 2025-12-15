@@ -528,8 +528,64 @@ CATHERINE Lucie<br>
 
 ## <span style="color:blue">**Hauts-de-France**</span>
 ### **Amiens**
-### **Lille**   
-   
+### **CHU Lille**   
+**Pr MATHURIN Philippe**     
+Service Maladies de l'Appareil Digestif, Hôpital Claude Huriez <br> 
+Rue Michel Polonowski, 59000 **Lille** <br>
+philippe.mathurin@chru-lille.fr <br> 
+  
+**Secrétariat :**      
+DHESSE Caroline<br>
+caroline.dhesse@chu-lille.fr <br>
+Tel : 03 20 44 55 97<br>
+Fax : 03 20 44 55 64<br>
+<details>
+    <summary>Ressources de soin</summary> <br>
+<B>Plateaux techniques</B> <br>    
+<ul>
+<li>Radiothérapie externe </li>   
+<li>Radio-embolisation</li>   
+<li>Radiologie interventionnelle</li>   
+<li> Médecine nucléaire </li>   
+<li>Endoscopie interventionnelle bilio-pancréatique</li>   
+<li>Chirurgie viscérale</li>
+<li>Chirurgie digestive de recours</li>   
+<li> Chirurgie hépatique et transplantation hépatique </li>   
+<li>Oncogénétique</li>   
+<li> Plateforme de biologie moléculaire </li> 
+<li> Plateforme d'anatomopathologie </li> 
+<li>Plateforme d’imagerie</li> 
+<li> Plateau de réanimation </li> 
+<li> Unité de recherche clinique dédiée</li>  
+<li>Centre d'Investigation Clinique multithématique</li>
+<li> Accès aux études de phase I </li>
+</ul>
+<br>   
+<B>Soins de support</B> <br>
+<ul>
+<li>Diététique et nutrition</li>      
+<li>Gestion de la douleur</li>   
+<li>Gestion de la fatigue</li>   
+<li> Unité de soins palliatifs dédiée</li>   
+<li>Unité mobile de soins palliatifs</li>   
+<li> Onco-gériatrie</li>   
+<li> Préservation de la fertilité </li>   
+
+</ul>
+<br>
+</details>   
+
+<details>
+    <summary>Ressources humaines</summary>
+<br>
+<ul>  
+<li> <B>Attaché(e) de Recherche Clinique :</B> </li>
+SORET Daphnée<br>
+daphnée.soret@chu-lille<br>
+Tel : 03 20 44 55 59 <br>
+</ul>
+</details>
+
 ## <span style="color:blue">**Ile de France**</span>
 ### **CHU Avicenne, AP-HP_Centre expert référent**   
          
@@ -1848,6 +1904,7 @@ ppramirezgarcia@hopital-saint-joseph.fr <br>
 Tel : 04 91 80 82 35<br>
 </ul>
 </details>
+
 
 
 
