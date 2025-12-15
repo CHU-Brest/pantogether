@@ -600,7 +600,23 @@ Saisie de la fiche RCP en ligne dans le dossier communicant de cancérologie (DC
  <br>  
    
 ## <span style="color:blue">**Provence-Alpes-Côtes d'Azur**</span>
-### **Nice**
+### **Hôpital Archet 2, CHU de Nice**
+**RCP de cancérologie hépato-biliaire** <br>
+<br>
+**Horaire :** Jeudi de 8h à 9h30 <br>
+**Fréquence :** Hebdomadaire <br>
+**Lieu :** Bâtiment Archet 3, 1ère étage, salle 109<br> 
+Hôpital Archet 2, 151 route Saint Antoine de Ginestière, 06202 **Nice** <br>
+Et connexion en distancielle par Teams<br>
+              <br>
+**Personne en charge de la RCP :**  <br>
+Dr FERKOUNE Anissa <br>
+ferkoune.a@chu-nice.fr <br>
+<br>
+**Modalités de soumission d’un dossier** : <br>
+Fiche RCP rédigée lors de la réunion <br>
+<br>  
+
 ### **Hôpital Saint-Joseph, Marseille**
 <ul>
 <li><strong> RCP tumeurs hépato-Biliaires</strong></li>
