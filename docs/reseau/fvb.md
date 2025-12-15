@@ -390,7 +390,56 @@ ARCs_DIP@rennes.unicancer.fr <br>
 </details>
    
 ## <span style="color:blue">**Centre-Val-de-Loire**</span>
-### **Tours**   
+### **Hôpital Trousseau, CHRU Tours**   
+**Pr LECOMTE Thierry** et **Dr CHAUTARD Romain**     
+Unité d’Onco-Gastroentérologie HC, Hôpital Trousseau <br> 
+Avenue de la République, 37170 **Chambray-lès-Tours** <br>
+thierry.lecomte@univ-tours.fr <br> 
+Tel : 02 47 47 59 00 <br>
+  
+   **Secrétariat :**      
+ROUSSEAU Cyrielle <br>
+c.rousseau@chu-tours.fr <br>
+secretariat.hepato.gastrohc@chu-tours.fr <br>
+Tel : 02 47 47 75 78<br>
+Fax : 02 47 47 84 28<br>
+<br>
+<details>
+    <summary>Ressources de soin</summary> <br>
+<B>Plateaux techniques</B> <br>    
+<ul>
+<li>Radiothérapie externe </li>   
+<li>Radio-embolisation</li>   
+<li>Radiologie interventionnelle</li>   
+<li> Médecine nucléaire </li>   
+<li>Endoscopie interventionnelle bilio-pancréatique</li>   
+<li>Chirurgie viscérale</li>
+<li>Chirurgie digestive de recours</li>   
+<li> Chirurgie hépatique et transplantation hépatique </li>   
+<li>Oncogénétique</li>   
+<li> Plateforme de biologie moléculaire </li> 
+<li> Plateforme d'anatomopathologie </li> 
+<li>Plateforme d’imagerie</li> 
+<li> Plateau de réanimation </li> 
+<li> Unité de recherche clinique dédiée</li>  
+</ul>
+<br>   
+<B>Soins de support</B> <br>
+<ul>
+<li>Diététique et nutrition</li>      
+<li>Soutien psychologique du patient</li>   
+<li>Soutien psychologique des proches et des aidants</li>   
+<li>Accompagnement social, familial et professionnel</li>   
+<li>Gestion de la douleur</li>   
+<li>Unité mobile de soins palliatifs</li>   
+<li> Onco-gériatrie</li>   
+<li> Approches non conventionnelles (hypnose, acupuncture, sophrologie,...)</li>   
+<li> Gestion des troubles de la sexualité</li>   
+<li> Préservation de la fertilité </li>   
+
+</ul>
+<br>
+</details>   
      
 ## <span style="color:blue">**Grand-Est**</span>
 ### **Nancy**
@@ -589,7 +638,7 @@ Tel : 03 20 44 55 59 <br>
 ## <span style="color:blue">**Ile de France**</span>
 ### **CHU Avicenne, AP-HP_Centre expert référent**   
          
-   **Pr GANNE-CARRIE Nathalie**     
+   **Pr GANNE-CARRIE Nathalie**    
    Service d'Hépatologie et d'oncologie Hépatique, Batiment Larrey A  <br> 
    125 rue de Stalingrad, 93000 **Bobigny**  <br>
    nathalie.ganne@aphp.fr <br>
@@ -1751,7 +1800,7 @@ yann.touchefeu@chu-nantes.fr <br>
 </details>   
    
 ## <span style="color:blue">**Provence-Alpes-Côtes d'Azur**</span>
-### **Hôpital Archet 2, CHU de Nice**
+### **Hôpital Archet 2, CHU Nice**
 **Pr ANTY Rodolphe**     
 Unité d’hépatologie, Hôpital Archet 2<br> 
 151 route Saint Antoine de Ginestière, 06202, **Nice** <br>
@@ -1904,6 +1953,7 @@ ppramirezgarcia@hopital-saint-joseph.fr <br>
 Tel : 04 91 80 82 35<br>
 </ul>
 </details>
+
 
 
 
