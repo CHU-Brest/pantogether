@@ -16,7 +16,7 @@ Le projet de réseau d'excellence clinique **PAN-TOGETHER** vise à structurer l
 
 Il est organisé selon une structure arborescente, englobant trois branches principales basées sur les localisations anatomiques ciblées : 
 
-- œsophage et jonction œso-gastrique
+- œsophage, estomac et jonction œso-gastrique
 - foie et voies biliaires
 - pancréas
 
@@ -31,7 +31,7 @@ couverture nationale étendue et homogène.
    
 Le réseau s’organise autour d’un centre pilote – le CHU de Brest – et du coordonnateur national - le Pr Metges - des trois centres experts chacun référent d'un axe spécifique :   
    
-* Axe **Œsophage et Jonction Oeso-Gastrique** : porté par le **CHU de Brest**, sous la coordination du Pr Jean-Philippe Metges et du Dr Vincent Bourbonne.
+* Axe **Œsophage, Estomac et Jonction Oeso-Gastrique** : porté par le **CHU de Brest**, sous la coordination du Pr Jean-Philippe Metges et du Dr Vincent Bourbonne.
 * Axe **Foie et Voies biliaires** : assuré par le **CHU Avicenne (AP-HP)**, sous la responsabilité du Pr Nathalie Ganne-Carrié et du Pr Pierre Nahon.
 * Axe **Pancréas** : confié au **CHU Pitié-Salpêtrière (AP-HP)**, coordonné par le Pr Jean-Baptiste Bachet et le Pr Jean-Philippe Spano.
    
