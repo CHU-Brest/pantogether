@@ -12,5 +12,7 @@ Le [Programme](<https://www.oncobretagne.fr/wp-content/uploads/2025/10/programme
 
 * **19 au 22 Mars 2026** à **Paris** : Journées Francophones d’Hépato-gastroentérologie et d’Oncologie Digestive
 
-Site internet de l'évènement : [JFHOD](<https://www.jfhod.com/>)   
+Site internet de l'évènement : [JFHOD](<https://www.jfhod.com/>)    
+![](assets/JFHOD2026.png)
+
 Le [Programme](<https://www.jfhod.com/sites/www.jfhod.com/files/2025-07/JFHOD2026_Programme%20pre%CC%81liminaire.pdf>) 
