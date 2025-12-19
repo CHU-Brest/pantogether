@@ -248,6 +248,67 @@ Tel : 04 26 73 27 16<br>
     
 ## <span style="color:blue">**Bourgogne-Franche-Comté**</span>
 ### **CHU Besançon**
+**Pr Di Martino Vincent**     
+Servide d’hépatologie
+Boulevard Alexandre Fleming, 25000 **Besançon**<br> 
+vdimartino@chu-besancon.fr<br>     
+   **Secrétariat :**      
+Tel : 03 81 66 84 21<br>
+Fax : 03 81 66 84 17<br>
+<br>
+<details>
+    <summary>Ressources de soin</summary> <br>
+<B>Plateaux techniques</B> <br>    
+<ul>
+<li>Radio-embolisation</li>   
+<li>Radiologie interventionnelle</li>   
+<li> Médecine nucléaire </li>   
+<li>Endoscopie interventionnelle bilio-pancréatique</li>   
+<li>Chirurgie viscérale</li>
+<li>Chirurgie digestive de recours</li>   
+<li> Chirurgie hépatique et transplantation hépatique </li>   
+<li>Oncogénétique</li>   
+<li> Plateforme de biologie moléculaire </li> 
+<li> Plateforme d'anatomopathologie </li> 
+<li>Plateforme d’imagerie</li> 
+<li> Plateau de réanimation </li> 
+<li> Centre de diagnostic rapide</li>  
+<li> Unité de recherche clinique dédiée</li>  
+<li>Centre d'Investigation Clinique multithématique</li>
+</ul>
+<br>   
+<B>Soins de support</B> <br>
+<ul>
+<li>Diététique et nutrition</li>      
+<li>Soutien psychologique du patient</li>   
+<li>Soutien psychologique des proches et des aidants</li>   
+<li>Accompagnement social, familial et professionnel</li>   
+<li> Rééducation et activités physiques adaptées </li>   
+<li>Gestion de la douleur</li>   
+<li> Unité de soins palliatifs dédiée</li>   
+<li>Unité mobile de soins palliatifs</li>   
+<li> Onco-gériatrie</li>   
+<li> Gestion des troubles de la sexualité</li>   
+<li> Préservation de la fertilité </li>   
+<li> Conseils d'hygiène de vie</li>  
+<li> Espace de réflexion éthique</li>   
+<li> Hôpital de jour de soins de support </li>   
+
+</ul>
+<br>
+</details>   
+
+<details>
+    <summary>Ressources humaines</summary>
+<br>
+<ul>  
+<li> <B>Attaché(e) de Recherche Clinique :</B> </li>
+MUEL Emilie<br>
+emuel@chu-besancon.fr<br>
+Tel : 03 81 66 84 96<br>
+</ul>
+</details>
+
 ### **Hôpital François Mitterrand, CHU Dijon**   
 **Pr MANFREDI Sylvain**     
 Hôpital François Mitterrand  <br>
@@ -1953,6 +2014,7 @@ ppramirezgarcia@hopital-saint-joseph.fr <br>
 Tel : 04 91 80 82 35<br>
 </ul>
 </details>
+
 
 
 
