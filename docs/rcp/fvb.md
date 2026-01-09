@@ -263,6 +263,29 @@ Fiche RCP dédiée à cenvoyer à l’AMA ou à déposer dans le dossier communi
 
 ## <span style="color:blue">**Hauts-de-France**</span>
 ### **Amiens**
+<ul>
+<li><strong>RCP CHC</strong></li>
+<br>
+<strong>Horaire : Jeudi de 8h30 à 9h30</strong> <br>
+<strong>Fréquence :</strong> Hebdomadaire <br>
+<strong>Lieu :</strong> Salle de Radiologie <br>
+1 rond point du Pr C. Cabrol, 80054  <strong>Amiens</strong>  <br>
+Et connexion à distance possible <br>
+<br>
+<li><strong>RCP Cancérologie Digestive (CHC et Cholangiocarcinome)</strong></li>
+<li><strong>RCP Transplantation hépatique</strong></li>
+<li><strong>RCP Renaten</strong></li>
+</ul>
+<strong>AMA en charge des RCP :</strong>  <br>
+DOMONT Catherine <br> 
+domont.catherine@chu-amiens.fr <br>
+Tel : 03 22 08 88 49 <br>
+Fax : 03 22 08 99 39 <br>
+<br>
+<strong>Modalités de soumission d’un dossier :</strong> <br>
+Fiche de présentation CHC standardisée (personnelle au service, existante avant la création de la fiche AFEF) <br>
+<br>
+
 ### **CHU Lille**   
 <ul>
 <li><strong> RCP Tumeurs Hépatiques primitives (CHC et Cholangiocarcinome)</strong></li>
