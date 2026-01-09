@@ -177,7 +177,7 @@ Fiche à déposer dans le dossier communicant de cancérologie (DCC) du patient 
 <strong>Fréquence :</strong> Hebdomadaire <br>
 <strong>Lieu :</strong> Service de Radiologie du CHRU <br>
 8 rue du Morvan, 54500 <strong> Vandoeuvre-lès-Nancy </strong>  <br>
-Et connexion à distance via eRCP [PULSY](< https://www.pulsy.fr/portail/nos-services-e-sante/e-rcp-54-62.html>) et téléphone pour certains praticiens hors centre <br>  
+Et connexion à distance via eRCP [PULSY](<https://www.pulsy.fr/portail/nos-services-e-sante/e-rcp-54-62.html>) et téléphone pour certains praticiens hors centre <br>  
               <br>
 <li><strong> RCP Cancers de l'appareil digestif (CHU-ICL) </strong></li> 
 <br>
@@ -185,7 +185,7 @@ Et connexion à distance via eRCP [PULSY](< https://www.pulsy.fr/portail/nos-ser
 <strong>Fréquence :</strong> Hebdomadaire <br>
 <strong>Lieu :</strong> Service de Radiologie du CHRU <br>
 8 rue du Morvan, 54500 <strong> Vandoeuvre-lès-Nancy </strong>  <br>
-Et connexion à distance via eRCP [PULSY](< https://www.pulsy.fr/portail/nos-services-e-sante/e-rcp-54-62.html>) et téléphone pour certains praticiens hors centre <br>  
+Et connexion à distance via eRCP [PULSY](<https://www.pulsy.fr/portail/nos-services-e-sante/e-rcp-54-62.html>) et téléphone pour certains praticiens hors centre <br>  
 
    <br>
 <li><strong> RCP Oncologie des métastases osseuses et des localisations osseuses des hémopathies - OOSLOH (CHU NANCY-ICL) </strong></li> 
@@ -194,7 +194,7 @@ Et connexion à distance via eRCP [PULSY](< https://www.pulsy.fr/portail/nos-ser
 <strong>Fréquence :</strong> Hebdomadaire <br>
 <strong>Lieu :</strong> Service de Radiologie du CHRU <br>
 8 rue du Morvan, 54500 <strong> Vandoeuvre-lès-Nancy </strong>  <br>
-Et connexion à distance via eRCP [PULSY](< https://www.pulsy.fr/portail/nos-services-e-sante/e-rcp-54-62.html>) et par Teams  <br>  
+Et connexion à distance via eRCP [PULSY](<https://www.pulsy.fr/portail/nos-services-e-sante/e-rcp-54-62.html>) et par Teams  <br>  
 <br>
    <br>
 </ul>
@@ -205,7 +205,7 @@ L.DARENNE@chru-nancy.fr <br>
 M.MOUTHON@chru-nancy.fr<br>
 <br>
 <strong>Modalités de soumission d’un dossier :</strong> <br>
-Soumission de la fiche RCP sur la plateforme en ligne [PULSY](< https://www.pulsy.fr/portail/nos-services-e-sante/e-rcp-54-62.html>)  <br>
+Soumission de la fiche RCP sur la plateforme en ligne [PULSY](<https://www.pulsy.fr/portail/nos-services-e-sante/e-rcp-54-62.html>)  <br>
 Pour toute question relative à l'utilisation de e-RCP en cancérologie, contactez le support NEON au 03 72 61 61 30 ou par mail à e-rcp@rrcge.org  <br>
 
 ### **CHU Reims**   
@@ -215,7 +215,7 @@ Pour toute question relative à l'utilisation de e-RCP en cancérologie, contact
 **Fréquence :** Tous les 15 jours <br>
 **Lieu :** CHU Reims <br>
 Avenue du général Koenig, 51100 **Reims** <br>
-Et connexion à distance via la plateforme ligne [PULSY](< https://www.pulsy.fr/portail/nos-services-e-sante/e-rcp-54-62.html>) <br>
+Et connexion à distance via la plateforme ligne [PULSY](<https://www.pulsy.fr/portail/nos-services-e-sante/e-rcp-54-62.html>) <br>
 
 **AMA en charge de la RCP :**  <br>
 -	CURIE Marie Aurore <br>
@@ -227,7 +227,7 @@ Tel : 03 26 78 76 10<br>
 <br>
 
 **Modalités de soumission d’un dossier** : <br>
-Soumission de la fiche RCP sur la plateforme en ligne [PULSY](< https://www.pulsy.fr/portail/nos-services-e-sante/e-rcp-54-62.html>)  <br>
+Soumission de la fiche RCP sur la plateforme en ligne [PULSY](<https://www.pulsy.fr/portail/nos-services-e-sante/e-rcp-54-62.html>)  <br>
  <br>  
 
 ## <span style="color:blue">**Guadeloupe**</span>   
