@@ -501,7 +501,85 @@ Fax : 02 47 47 84 28<br>
 </details>   
      
 ## <span style="color:blue">**Grand-Est**</span>
-### **Nancy**
+### **CHRU Nancy**
+**Pr Bronowicki Jean-Pierre**, **DR HAGHNEJAD Vincent**     
+Service d'hépato-gastroentérologie, bâtiment principal Brabois adultes, 9ème étage <br> 
+8 rue du Morvan, 54500 **Vandoeuvre-lès-Nancy** <br>
+jp.bronowicki@chru-nancy.fr <br> 
+    
+   **Secrétariat :**      
+MARCHAL Karine <br>
+secretariat.hge@chru-nancy.fr <br>
+Tel : 03 83 15 33 54 <br>
+Fax : 03 83 15 36 33<br> 
+
+<br>
+<details>
+    <summary>Ressources de soin</summary> <br>
+<B>Plateaux techniques</B> <br>    
+<ul>
+<li>Radiothérapie externe </li>   
+<li>Radio-embolisation</li>   
+<li>Radiologie interventionnelle</li>   
+<li> Médecine nucléaire </li>   
+<li>Endoscopie interventionnelle bilio-pancréatique</li>   
+<li>Chirurgie viscérale</li>
+<li>Chirurgie digestive de recours</li>   
+<li>Oncogénétique</li>   
+<li> Plateforme de biologie moléculaire </li> 
+<li> Plateforme d'anatomopathologie </li> 
+<li>Plateforme d’imagerie</li> 
+<li> Plateau de réanimation </li> 
+<li> Unité de recherche clinique dédiée</li>  
+<li>Centre d'Investigation Clinique multithématique</li>
+<li> Accès aux études de phase I </li>
+<li> Primo (Plateforme Régionale Inter établissements de Médecine Oncologique), permet l’administration d’anticancéreux en ambulatoire - située physiquement dans l'Institut de Cancérologie de Lorraine</li>   
+
+</ul>
+<br>   
+<B>Soins de support</B> <br>
+<ul>
+<li>Diététique et nutrition</li>      
+<li>Soutien psychologique du patient</li>   
+<li> Rééducation et activités physiques adaptées </li>   
+<li> Unité de soins palliatifs dédiée</li>   
+<li>Unité mobile de soins palliatifs</li>   
+<li> Onco-gériatrie</li>   
+<li> Approches non conventionnelles (hypnose, acupuncture, sophrologie,...)</li>   
+<li> Préservation de la fertilité </li>   
+<li> Espace de réflexion éthique</li>   
+
+</ul>
+<br>
+</details>   
+
+<details>
+    <summary>Ressources humaines</summary>
+<br>
+<ul>  
+<li> <B>Infirmier(e) en Pratiques Avancées :</B> </li>
+JOUVERNAUX CERQUEIRA Carole <br>
+c.cerqueira@chru-nancy.fr<br>
+Tel : 03 83 15 31 75<br>
+<br>
+<li> <B>Attaché(e) de Recherche Clinique :</B> </li>
+<ul>
+<li>Foie :</li>
+OULD-HAMOU Hassiba <br>
+H.OULD-HAMOU@chru-nancy.fr <br>
+BENZERAFA Saida <br>
+S.BENZERAFA@chru-nancy.fr<br>
+Tel : 03 83 15 33 55<br>
+<br>
+<li>Voies Biliaires : </li>
+FOUQUET Guillaume (Infirmier en Recherche Clinique) <br>
+g.fouquet@chru-nancy.fr  ou g.fouquet.chru-nancy@apicrypt.fr <br>
+
+</ul>
+</ul>
+</details>
+
+
 ### **CHU Reims**   
 **Dr HEURGUÉ Alexandra**     
 Service d'Hépato-gastroentérologie, bâtiment Cabrol <br> 
@@ -2073,6 +2151,7 @@ ppramirezgarcia@hopital-saint-joseph.fr <br>
 Tel : 04 91 80 82 35<br>
 </ul>
 </details>
+
 
 
 
