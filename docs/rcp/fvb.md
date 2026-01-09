@@ -177,7 +177,7 @@ Fiche à déposer dans le dossier communicant de cancérologie (DCC) du patient 
 <strong>Fréquence :</strong> Hebdomadaire <br>
 <strong>Lieu :</strong> Service de Radiologie du CHRU <br>
 8 rue du Morvan, 54500 <strong> Vandoeuvre-lès-Nancy </strong>  <br>
-Et connexion à distance via eRCP <br>  
+Et connexion à distance via eRCP et téléphone pour certains praticiens hors centre <br>  
               <br>
 <li><strong> RCP Cancers de l'appareil digestif (CHU-ICL) </strong></li> 
 <br>
@@ -185,7 +185,7 @@ Et connexion à distance via eRCP <br>
 <strong>Fréquence :</strong> Hebdomadaire <br>
 <strong>Lieu :</strong> Service de Radiologie du CHRU <br>
 8 rue du Morvan, 54500 <strong> Vandoeuvre-lès-Nancy </strong>  <br>
-Et connexion à distance via eRCP <br>  
+Et connexion à distance via eRCP et téléphone pour certains praticiens hors centre <br>  
 
    <br>
 <li><strong> RCP Oncologie des métastases osseuses et des localisations osseuses des hémopathies - OOSLOH (CHU NANCY-ICL) </strong></li> 
@@ -194,7 +194,7 @@ Et connexion à distance via eRCP <br>
 <strong>Fréquence :</strong> Hebdomadaire <br>
 <strong>Lieu :</strong> Service de Radiologie du CHRU <br>
 8 rue du Morvan, 54500 <strong> Vandoeuvre-lès-Nancy </strong>  <br>
-Et connexion à distance via eRCP et par Teams  <br>  
+Et connexion à distance via eRCP et par Teams et téléphone pour certains praticiens hors centre <br>  
 <br>
    <br>
 </ul>
