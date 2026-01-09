@@ -262,7 +262,7 @@ Fiche RCP dédiée à cenvoyer à l’AMA ou à déposer dans le dossier communi
 
 
 ## <span style="color:blue">**Hauts-de-France**</span>
-### **Amiens**
+### **CHU Amiens-Picardie**
 <ul>
 <li><strong>RCP CHC</strong></li>
 <br>
