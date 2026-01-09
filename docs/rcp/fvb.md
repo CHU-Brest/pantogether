@@ -204,7 +204,7 @@ L.DARENNE@chru-nancy.fr <br>
 - MOUTHON Muriel<br>
 M.MOUTHON@chru-nancy.fr<br>
 <br>
-<strong>Modalités de soumission d’un dossier :</strong> <br>
+**Modalités de soumission d’un dossier :** <br>
 Soumission de la fiche RCP sur la plateforme en ligne [PULSY](<https://www.pulsy.fr/portail/nos-services-e-sante/e-rcp-54-62.html>)  <br>
 Pour toute question relative à l'utilisation de e-RCP en cancérologie, contactez le support NEON au 03 72 61 61 30 ou par mail à e-rcp@rrcge.org  <br>
 
