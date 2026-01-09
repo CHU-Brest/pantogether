@@ -169,7 +169,45 @@ Tel : 02 47 47 47 47 <br>
 Fiche à déposer dans le dossier communicant de cancérologie (DCC) du patient [OncoCentre](<https://connect.esante-centre.fr/>) <br>
 
 ## <span style="color:blue">**Grand-Est**</span>
-### **Nancy**
+### **CHRU Nancy**
+<ul>
+<li><strong> RCP Tumeurs primitives du foie (CHU - ICL) </strong></li>
+<br>
+<strong>Horaire :</strong> Jeudi<br>
+<strong>Fréquence :</strong> Hebdomadaire <br>
+<strong>Lieu :</strong> Service de Radiologie du CHRU <br>
+8 rue du Morvan, 54500 <strong> Vandoeuvre-lès-Nancy </strong>  <br>
+Et connexion à distance via eRCP [PULSY](< https://www.pulsy.fr/portail/nos-services-e-sante/e-rcp-54-62.html>) et téléphone pour certains praticiens hors centre <br>  
+              <br>
+<li><strong> RCP Cancers de l'appareil digestif (CHU-ICL) </strong></li> 
+<br>
+<strong>Horaire :</strong> Mardi <br>
+<strong>Fréquence :</strong> Hebdomadaire <br>
+<strong>Lieu :</strong> Service de Radiologie du CHRU <br>
+8 rue du Morvan, 54500 <strong> Vandoeuvre-lès-Nancy </strong>  <br>
+Et connexion à distance via eRCP [PULSY](< https://www.pulsy.fr/portail/nos-services-e-sante/e-rcp-54-62.html>) et téléphone pour certains praticiens hors centre <br>  
+
+   <br>
+<li><strong> RCP Oncologie des métastases osseuses et des localisations osseuses des hémopathies - OOSLOH (CHU NANCY-ICL) </strong></li> 
+<br>
+<strong>Horaire :</strong> Jeudi <br>
+<strong>Fréquence :</strong> Hebdomadaire <br>
+<strong>Lieu :</strong> Service de Radiologie du CHRU <br>
+8 rue du Morvan, 54500 <strong> Vandoeuvre-lès-Nancy </strong>  <br>
+Et connexion à distance via eRCP [PULSY](< https://www.pulsy.fr/portail/nos-services-e-sante/e-rcp-54-62.html>) et par Teams  <br>  
+<br>
+   <br>
+</ul>
+<strong>AMA en charge de la RCP :</strong>  <br>
+- DARENNE Laurence <br>
+L.DARENNE@chru-nancy.fr <br>
+- MOUTHON Muriel<br>
+M.MOUTHON@chru-nancy.fr<br>
+<br>
+<strong>Modalités de soumission d’un dossier :</strong> <br>
+Soumission de la fiche RCP sur la plateforme en ligne [PULSY](< https://www.pulsy.fr/portail/nos-services-e-sante/e-rcp-54-62.html>)  <br>
+Pour toute question relative à l'utilisation de e-RCP en cancérologie, contactez le support NEON au 03 72 61 61 30 ou par mail à e-rcp@rrcge.org  <br>
+
 ### **CHU Reims**   
 **RCP ONCOFOIE** : cancer du foie, des voies biliaires et tumeurs hépato-biliaires à évolution imprévisible <br>
  <br>
