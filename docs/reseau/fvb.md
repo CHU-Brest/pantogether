@@ -9,7 +9,7 @@ title: Foie et voies biliaires
 Site Estaing, Service de Médecine digestive et hépatobiliaire <br> 
 1 place Lucie Aubrac 63001 **Clermont-Ferrand** <br>
 aabergel@chu-clermontferrand.fr <br>
-Tel : 04 73 75 05 23 <br> 
+
 
    **Secrétariat :**      
 GARREAU Sylvie <br>
@@ -390,7 +390,6 @@ assia.dekkal@chu-dijon.fr <br>
 Département d'oncologie <br> 
 Avenue Bataille Flandres-Dunkerque 35042 **Rennes** <br>
 j.edeline@rennes.unicancer.fr<br>
-Tel : 02 99 25 31 96 <br> 
        
    **Secrétariat :**      
 secretariat.digestif@rennes.unicancer.fr <br>
@@ -456,7 +455,6 @@ ARCs_DIP@rennes.unicancer.fr <br>
 Unité d’Onco-Gastroentérologie HC, Hôpital Trousseau <br> 
 Avenue de la République, 37170 **Chambray-lès-Tours** <br>
 thierry.lecomte@univ-tours.fr <br> 
-Tel : 02 47 47 59 00 <br>
   
    **Secrétariat :**      
 ROUSSEAU Cyrielle <br>
@@ -508,8 +506,7 @@ Fax : 02 47 47 84 28<br>
 **Dr HEURGUÉ Alexandra**     
 Service d'Hépato-gastroentérologie, bâtiment Cabrol <br> 
 Avenue du général Koenig 51100 **Reims** <br>
-aheurgue@chu-reims.fr       
-Tel : 03 26 78 34 10 <br>   
+aheurgue@chu-reims.fr <br>   
 
    **Secrétariat :**      
 secretariat2-gastro@chu-reims.fr <br>
@@ -585,8 +582,7 @@ Tel : 03 26 83 26 31 <br>
 **Dr GELU-SIMEON Moana**     
 Service d'Hépato-Gastroentérologie<br> 
 CHU Guadeloupe-Route de Chauvel-97159 **Pointe-à-Pitre** <br>
-moana.simeon@chu-guadeloupe.fr  
-Tel : +590 690 83 78 40 <br> 
+moana.simeon@chu-guadeloupe.fr  <br>
        
    **Secrétariat :**      
 MAHOGANIE Larisse <br>
@@ -637,7 +633,80 @@ CATHERINE Lucie<br>
 
 
 ## <span style="color:blue">**Hauts-de-France**</span>
-### **Amiens**
+### **CHU Amiens-Picardie**
+**Pr NGUYEN-KHAC Eric**     
+Service d'Hépato-Gastroentérologie et Oncologue Digestive <br> 
+1 rond point du Pr C. Cabrol, 80054 **Amiens** <br>
+Nguyen-Khac.Eric@chu-amiens.fr<br> 
+<br>    
+   **Secrétariat :**      
+TARDIEU Elodie<br>
+tardieu.elodie@chu-amiens.fr <br>
+Tel : 03 22 08 88 71<br>
+Fax : 03 22 08 99 39<br>
+
+<br>
+<details>
+    <summary>Ressources de soin</summary> <br>
+<B>Plateaux techniques</B> <br>    
+<ul>
+<li>Radiothérapie externe </li>   
+<li>Radio-embolisation</li>   
+<li>Radiologie interventionnelle</li>   
+<li> Médecine nucléaire </li>   
+<li>Endoscopie interventionnelle bilio-pancréatique</li>   
+<li>Chirurgie viscérale</li>
+<li>Chirurgie digestive de recours</li>   
+<li>Oncogénétique</li>   
+<li> Plateforme de biologie moléculaire </li> 
+<li> Plateforme d'anatomopathologie </li> 
+<li>Plateforme d’imagerie</li> 
+<li> Plateau de réanimation </li> 
+<li> Centre de diagnostic rapide</li>  
+<li> Unité de recherche clinique dédiée</li>  
+<li>Centre d'Investigation Clinique multithématique</li>
+<li> Accès aux études de phase I </li>
+<li> Convention pour la transplantation hépatique avec le Centre Hépato-Biliaire, Paul Brousse, Villejuif </li>   
+
+</ul>
+<br>   
+<B>Soins de support</B> <br>
+<ul>
+<li>Diététique et nutrition</li>      
+<li>Soutien psychologique du patient</li>   
+<li>Soutien psychologique des proches et des aidants</li>   
+<li>Accompagnement social, familial et professionnel</li>   
+<li> Rééducation et activités physiques adaptées </li>   
+<li>Gestion de la douleur</li>   
+<li> Unité de soins palliatifs dédiée</li>   
+<li>Unité mobile de soins palliatifs</li>   
+<li> Onco-gériatrie</li>   
+<li> Approches non conventionnelles (hypnose, acupuncture, sophrologie,...)</li>   
+<li> Gestion des troubles de la sexualité</li>   
+<li> Conseils d'hygiène de vie</li>  
+<li> Ateliers d'art-thérapie</li>   
+<li> Espace de réflexion éthique</li>   
+<li> Hôpital de jour de soins de support </li>   
+
+</ul>
+<br>
+</details>   
+
+<details>
+    <summary>Ressources humaines</summary>
+<br>
+<ul>  
+<li> <B>Infirmier(e) de Coordination :</B> </li>
+DUBUS Séverine<br>
+Tel : 03 22 08 88 70<br>
+<br>
+<li> <B>Attaché(e) de Recherche Clinique :</B> </li>
+FAHEM Rachida <br>
+fahem.rachida@chu-amiens.fr <br>
+Tel : 03 22 08 88 67<br>
+</ul>
+</details>
+
 ### **CHU Lille**   
 **Pr MATHURIN Philippe**     
 Service Maladies de l'Appareil Digestif, Hôpital Claude Huriez <br> 
@@ -702,8 +771,7 @@ Tel : 03 20 44 55 59 <br>
    **Pr GANNE-CARRIE Nathalie**    
    Service d'Hépatologie et d'oncologie Hépatique, Batiment Larrey A  <br> 
    125 rue de Stalingrad, 93000 **Bobigny**  <br>
-   nathalie.ganne@aphp.fr <br>
-   Tel : 01 48 02 62 94 <br>    
+   nathalie.ganne@aphp.fr <br>   
        
    **Secrétariat :**      
           MOMMELE Peggy   
@@ -857,8 +925,7 @@ Fax : 01 45 17 80 32<br>
    **Dr BOUATTOUR Mohamed**     
 Oncologie Hépatique et Innovation thérapeutique <br> 
 100 Bld du Général Leclerc 92110 **Clichy**  <br>
-Mohamed.bouattour@aphp.fr <br>
-   Tel : 01 40 87 56 14<br>    
+Mohamed.bouattour@aphp.fr <br>    
        
    **Secrétariat :**      
           HALIMI Faiza <br>
@@ -939,8 +1006,7 @@ Fax : 01 71 11 46 26<br>
    **Dr LEQUOY Marie**     
 Service d’hépatologie, 8eme étage Bâtiment Caroli <br> 
 184 rue du faubourg Saint-Antoine 75012 **Paris** <br>
-marie.lequoy@aphp.fr <br>
-   Tel : 01 49 28 31 54<br>    
+marie.lequoy@aphp.fr <br>    
        
    **Secrétariat :**      
 LEJEUNE Claudine <br>
@@ -1156,8 +1222,7 @@ Fax : 01 56 61 61 70<br>
    **Pr NEUZILLET Cindy**     
 Oncologie Digestive, Département d'Oncologie médicale  <br> 
 Institut Curie, 35 rue Dailly, 92210 **Saint-Cloud**  <br>
-cindy.neuzillet@curie.fr <br>
-   Tel : 01 47 11 15 15<br>    
+cindy.neuzillet@curie.fr <br>   
        
    **Secrétariat :**      
           DELVAL Emilie <br>
@@ -1214,8 +1279,7 @@ emilie.delval@curie.fr <br>
 **Pr ROSMORDUC Olivier**     
 Centre Hépato-Biliaire <br> 
 12-14 avenue Paul Vaillant Couturier 94804 **Villejuif** <br>
-olivier.rosmorduc@aphp.fr<br>
-Tel : 01 45 59 67 67 <br> 
+olivier.rosmorduc@aphp.fr<br> 
        
    **Secrétariat :**      
 RIBERO Erika <br>
@@ -1430,8 +1494,7 @@ Tel : 05 57 62 34 47 <br>
 **Dr DEBETTE-GRATIEN Marilyne**     
 CHU Dupuytren 1, 3ème étage <br> 
 2 avenue Martin Luther King 87042 **Limoges** <br>
-marilyne.debette-gratien@chu-limoges.fr      
-Tel : 05 55 05 87 26 <br> 
+marilyne.debette-gratien@chu-limoges.fr   
        
    **Secrétariat :**      
 DENOYER Nathalie <br>
@@ -1661,7 +1724,7 @@ Fax : 04 67 33 23 10<br>
 **Pr PERON Jean-Marie**     
 1, avenue du Pr Jean Poulhès, 31400 **Toulouse** <br>
 peron.jm@chu-toulouse.fr<br> 
-Tel : 05 61 323532<br>       
+
    **Secrétariat :**      
 SEGUIN Sylvie<br>
 seguin.s@chu-toulouse.fr<br>
@@ -1724,7 +1787,6 @@ jurion.d@chu-toulouse.fr<br>
 Service d'Hépato-Gastroentérologie <br> 
 4 rue Larrey 49100 **Angers** <br>
 FrOberti@chu-angers.fr <br>
-Tel : 02 41 35 46 70 <br> 
        
    **Secrétariat :**      
 RINGUET Elisabeth<br>
@@ -1792,8 +1854,7 @@ AuMorisset@chu-angers.fr <br>
    Service d'hépatogastroentérologie et oncologie digestive   <br>
    1 place Alexis Ricordeau
 44093 **Nantes** Cedex    <br>
-yann.touchefeu@chu-nantes.fr <br>
-   Tel : 02 40 08 31 63   
+yann.touchefeu@chu-nantes.fr <br>  
        
    **Secrétariat :**      
           MENARD Corinne   <br>
@@ -1866,9 +1927,7 @@ yann.touchefeu@chu-nantes.fr <br>
 Unité d’hépatologie, Hôpital Archet 2<br> 
 151 route Saint Antoine de Ginestière, 06202, **Nice** <br>
 anty.r@chu-nice.fr <br> 
-Tel : 04 92 03 69 81 <br>
-
-<br>    
+ 
 **Secrétariat :**      
 CORNIGLION Emilie<br>
 corniglion.e@chu-nice.fr <br>
@@ -2014,6 +2073,7 @@ ppramirezgarcia@hopital-saint-joseph.fr <br>
 Tel : 04 91 80 82 35<br>
 </ul>
 </details>
+
 
 
 
