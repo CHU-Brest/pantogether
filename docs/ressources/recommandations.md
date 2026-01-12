@@ -3,7 +3,7 @@ title: Recommandations
 
 ---
 
-Ressources du Thésaurus National de Cancérologie Digestive (TNCD)   
+## <span style="color:blue">**Ressources du Thésaurus National de Cancérologie Digestive (TNCD)**</span>    
 
 - **Chapitre 1 : [Cancer de l'oesophage et de la jonction oeso-gastrique](https://www.snfge.org/tncd/cancer-loesophage-jonction-oeso-gastrique)** (version 07/07/2023)   
 
