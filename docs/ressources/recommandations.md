@@ -64,7 +64,29 @@ Neuzillet C., Joly F., Anota A., Foucaut A.M., Védie A.L., Antoun S., Barnoud D
 
 - **Chapitre 20 : [Autres thématiques (liens autres référentiels) : soins oncologiques de support, réhabilitation améliorée après chir, bio moléculaire, vaccination et cancers, évaluation MMR, indications tests moléculaires CCR, accès dérogatoires, Préservation fertilité](https://www.snfge.org/sites/www.snfge.org/files/tncd/2025-06/tncd_chap-20-autres-the%CC%81matiques_2025-06-27_0.pdf)** (version 27/06/2025)
 
-   
+
+         
+## <span style="color:blue">**Ressources de l'Association Française pour l'Etude du Foie (AFEF)**</span>   
+
+
+- **[Prise en charge du carcinome hépatocellulaire & outils pour la pratique](https://afef.asso.fr/wp-content/uploads/2025/03/Recommandations-Afef-2025-CHC.pdf)** (version Mars 2025)
+
+Coordination : Pr Eric Assenat, Pr Jean-Frédéric Blanc, Pr Charlotte Costentin   
+Chargés de Bibliographie : Dr Bleuenn Brusset, Dr Marie Decraecker, Dr Massih Ningarhari, Dr Carole Vitellius    
+Présidence: Pr Jérôme Boursier, Pr Jean-Pierre Bronowicki   
+Organisation, édition, communication : Nara Stefanelli, Bénédicte Vauban-Fradique   
+
+
+- **[Prise en charge des cholangiocarcinomes intrahépatiques et périhilaires](https://afef.asso.fr/wp-content/uploads/2023/06/AFEF_2209_4140_Recommandations_2021-7.pdf)** (version Novembre 2022)
+
+Coordination : Pr Jean-Frédéric Blanc, Pr Cindy Neuzillet   
+Présidence et relecture : Dr Marc Bourlière, Pr Christophe Bureau, Pr Nathalie Ganne-Carrié   
+Organisation, édition, communication : Nara Stefanelli, Bénédicte Vauban-Fradique   
+
+
+
+
+
 
       
 
