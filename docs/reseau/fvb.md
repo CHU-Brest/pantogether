@@ -21,24 +21,30 @@ Tel : 04 73 75 05 23 <br>
 
 <B>Plateaux techniques</B> <br>    
 <ul>
-<li>&#x2611 Radiothérapie externe </li>   
-<li>&#x274C Radio-embolisation</li>   
-<li>&#x2718 Radiologie interventionnelle</li>   
-<li>&#x2705 Médecine nucléaire </li>   
-<li>Endoscopie interventionnelle bilio-pancréatique</li>   
-<li>Chirurgie viscérale</li>
-<li>Chirurgie digestive de recours</li>   
-<li> Chirurgie hépatique et transplantation hépatique </li>   
-<li>Oncogénétique</li>   
-<li> Plateforme de biologie moléculaire </li> 
-<li> Plateforme d'anatomopathologie </li> 
-<li>Plateforme d’imagerie</li> 
-<li> Plateau de réanimation </li> 
-<li> Centre de diagnostic rapide</li>  
-<li> Unité de recherche clinique dédiée</li>  
-<li>Centre d'Investigation Clinique multithématique</li>
-<li> Accès aux études de phase I </li>
-<li>Convention avec le Centre de Lutte Contre le Cancer Jean Perrin de Clermont-Ferrand pour l’accès aux plateaux de radiothérapie, radio-embolisation, médecine nucléaire et à la plateforme de séquençage génétique NGS </li>
+<li>Diagnostic</li>  
+&#x2705 Médecine nucléaire* <br>    
+&#x2705 Endoscopie interventionnelle bilio-pancréatique   <br>
+&#x2705 Plateforme de biologie moléculaire* <br>
+&#x2705 Plateforme d'anatomopathologie <br> 
+&#x2705 Plateforme d’imagerie <br>  
+&#x2705 Oncogénétique <br>  
+&#x2705 Centre de diagnostic rapide <br>   
+<br>
+<li>Traitement</li>
+&#x2705 Radiothérapie externe* <br>   
+&#x2705 Radio-embolisation* <br>   
+&#x2705 Radiologie interventionnelle <br>  
+&#x2705 Chirurgie viscérale   <br>
+&#x2705 Chirurgie digestive de recours <br>  
+&#x2705 Chirurgie hépatique et transplantation hépatique <br>  
+&#x2705 Plateau de réanimation <br> 
+ <br>
+<li>Recherche</li>
+&#x2705 Unité de recherche clinique dédiée <br> 
+&#x2705 Centre d'Investigation Clinique multithématique <br>
+&#x2705 Accès aux études de phase I <br>
+<br>
+*Convention avec le Centre de Lutte Contre le Cancer Jean Perrin de Clermont-Ferrand pour l’accès aux plateaux de radiothérapie, radio-embolisation, médecine nucléaire et à la plateforme de séquençage génétique NGS
 </ul>
 <br>   
 <B>Soins de support</B> <br>
@@ -2151,6 +2157,7 @@ ppramirezgarcia@hopital-saint-joseph.fr <br>
 Tel : 04 91 80 82 35<br>
 </ul>
 </details>
+
 
 
 
