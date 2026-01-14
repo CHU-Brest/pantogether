@@ -24,7 +24,7 @@ Tel : 04 73 75 05 23 <br>
 <li>&#x2611 Radiothérapie externe </li>   
 <li>&#x274C Radio-embolisation</li>   
 <li>&#x2718 Radiologie interventionnelle</li>   
-<li> Médecine nucléaire </li>   
+<li>&#x2705 Médecine nucléaire </li>   
 <li>Endoscopie interventionnelle bilio-pancréatique</li>   
 <li>Chirurgie viscérale</li>
 <li>Chirurgie digestive de recours</li>   
@@ -2151,6 +2151,7 @@ ppramirezgarcia@hopital-saint-joseph.fr <br>
 Tel : 04 91 80 82 35<br>
 </ul>
 </details>
+
 
 
 
