@@ -2,3 +2,284 @@
 title: Cartes intéractives des centres
 
 ---
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Carte interactive CHU – Métropole & DOM-TOM</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<style>
+body{margin:0;font-family:Arial}
+#map{height:100vh}
+#panel{
+ position:absolute;top:10px;left:10px;z-index:1000;
+ background:white;padding:10px;border-radius:8px;
+ box-shadow:0 2px 8px rgba(0,0,0,.2);width:260px;font-size:14px
+}
+#panel h3{margin:5px 0}
+#nav button{margin:2px 0;width:100%}
+.leaflet-popup-content{max-height:300px;overflow:auto}
+</style>
+</head>
+<body>
+
+<div id="panel">
+<h3>Filtrer les centres</h3>
+
+<b>Région :</b><br>
+<select id="regionFilter" style="width:100%">
+<option value="">Toutes</option>
+</select>
+
+<br><br>
+<details>
+<summary><b>Ressources de soin</b></summary><br>
+<label><input type="checkbox" value="Médecine nucléaire" class="res"> Médecine nucléaire</label><br>
+<label><input type="checkbox" value="Endoscopie interventionnelle bilio-pancréatique" class="res"> Endoscopie interventionnelle bilio-pancréatique</label><br>
+<label><input type="checkbox" value="Plateforme de biologie moléculaire" class="res"> Plateforme de biologie moléculaire</label><br>
+<label><input type="checkbox" value="Plateforme d'anatomopathologie" class="res"> Plateforme d'anatomopathologie</label><br>
+<label><input type="checkbox" value="Plateforme d’imagerie" class="res"> Plateforme d’imagerie</label><br>
+<label><input type="checkbox" value="Oncogénétique" class="res"> Oncogénétique</label><br>
+<label><input type="checkbox" value="Centre de diagnostic rapide" class="res"> Centre de diagnostic rapide</label><br>
+<label><input type="checkbox" value="Radiothérapie externe" class="res"> Radiothérapie externe</label><br>
+<label><input type="checkbox" value="Radio-embolisation" class="res"> Radio-embolisation</label><br>
+<label><input type="checkbox" value="Radiologie interventionnelle" class="res"> Radiologie interventionnelle</label><br>
+<label><input type="checkbox" value="Chirurgie viscérale" class="res"> Chirurgie viscérale</label><br>
+<label><input type="checkbox" value="Chirurgie digestive de recours" class="res"> Chirurgie digestive de recours</label><br>
+<label><input type="checkbox" value="Chirurgie hépatique et transplantation hépatique" class="res"> Chirurgie hépatique et transplantation hépatique</label><br>
+<label><input type="checkbox" value="Plateau de réanimation" class="res"> Plateau de réanimation</label><br>
+<label><input type="checkbox" value="Unité de recherche clinique dédiée" class="res"> Unité de recherche clinique dédiée</label><br>
+<label><input type="checkbox" value="Centre d'Investigation Clinique multithématique" class="res"> Centre d'Investigation Clinique multithématique</label><br>
+<label><input type="checkbox" value="Accès aux études de phase I" class="res"> Accès aux études de phase I</label><br>
+</details>
+<br>
+<details>
+<summary><b>Soins de support</b></summary><br>
+<label><input type="checkbox" value="Gestion de la douleur" class="res"> Gestion de la douleur</label><br>
+<label><input type="checkbox" value="Diététique et nutrition" class="res"> Diététique et nutrition</label><br>
+<label><input type="checkbox" value="Soutien psychologique du patient" class="res"> Soutien psychologique du patient</label><br>
+<label><input type="checkbox" value="Accompagnement social, familial et professionnel" class="res"> Accompagnement social, familial et professionnel</label><br>
+<label><input type="checkbox" value="Rééducation et activités physiques adaptées" class="res"> Rééducation et activités physiques adaptées</label><br>
+<label><input type="checkbox" value="Préservation de la fertilité" class="res"> Préservation de la fertilité</label><br>
+<label><input type="checkbox" value="Gestion des troubles de la sexualité" class="res"> Gestion des troubles de la sexualité</label><br>
+<label><input type="checkbox" value="Conseils d’hygiène de vie" class="res"> Conseils d’hygiène de vie</label><br>
+<label><input type="checkbox" value="Soutien psychologique des proches et des aidants" class="res"> Soutien psychologique des proches et des aidants</label><br>
+<label><input type="checkbox" value="Onco-gériatrie" class="res"> Onco-gériatrie</label><br>
+<label><input type="checkbox" value="Unité mobile de soins palliatifs" class="res"> Unité mobile de soins palliatifs</label><br>
+<label><input type="checkbox" value="Unité de soins palliatifs dédiée" class="res"> Unité de soins palliatifs dédiée</label><br>
+<label><input type="checkbox" value="Hôpital de jour de soins de support" class="res"> Hôpital de jour de soins de support</label><br>
+<label><input type="checkbox" value="Espace de réflexion éthique" class="res"> Espace de réflexion éthique</label><br>
+<label><input type="checkbox" value="Approches non conventionnelles" class="res"> Approches non conventionnelles</label><br>
+<label><input type="checkbox" value="Gestion de la fatigue" class="res"> Gestion de la fatigue</label><br>
+<label><input type="checkbox" value="Ateliers d’art thérapie" class="res"> Ateliers d’art thérapie</label><br>
+<label><input type="checkbox" value="Rééducation et activités physiques adaptées" class="res"> Rééducation et activités physiques adaptées</label><br>
+
+<br>
+</details>
+<button onclick="appliquerFiltres()">Appliquer</button>
+<button onclick="resetFiltres()">Réinitialiser</button>
+
+<hr>
+<b>Navigation DOM‑TOM</b>
+<div id="nav">
+<button onclick="zoomDOM('guyane')">Guyane</button>
+<button onclick="zoomDOM('guadeloupe')">Guadeloupe</button>
+<button onclick="zoomDOM('martinique')">Martinique</button>
+<button onclick="zoomDOM('reunion')">La Réunion</button>
+<button onclick="zoomFrance()">Métropole</button>
+</div>
+</div>
+
+<div id="map"></div>
+
+<script>
+const map = L.map('map').setView([46.6,2.5],6);
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'© OpenStreetMap'}).addTo(map);
+
+const markerGroup = L.layerGroup().addTo(map);
+
+// ===== Données centres =====
+const hopitaux=[
+{
+ nom:"CHU Clermont-Ferrand",
+ ville:"Clermont-Ferrand",
+ region:"Auvergne-Rhône-Alpes",
+ lat:45.7789,
+ lng:3.0822,
+ ressources:["Endoscopie interventionnelle bilio-pancréatique","Plateforme de biologie moléculaire","Plateforme d'anatomopathologie","Plateforme d'imagerie","Oncogénétique", "Centre de diagnostic rapide", "Radiologie interventionnelle", "Chirurgie viscérale", "Chirurgie digestive de recours", "Chirurgie hépatique et transplantation hépatique", "Plateau de réanimation", "Unité de recherche clinique dédiée", "Centre d'Investigation Clinique multithématique", "Accès aux études de phase I"],
+ popupHtml:`<h3>CHU Clermont-Ferrand</h3>
+<b>Pr ABERGEL Armand</b><br>
+Site Estaing, Service de Médecine digestive et hépatobiliaire<br>
+1 place Lucie Aubrac 63001 <b>Clermont-Ferrand</b><br>
+<a href="mailto:aabergel@chu-clermontferrand.fr">aabergel@chu-clermontferrand.fr</a><br><br>
+
+<b>Secrétariat :</b><br>
+GARREAU Sylvie<br>
+<a href="mailto:sgarreau@chu-clermontferrand.fr">sgarreau@chu-clermontferrand.fr</a><br>
+Tel : 04 73 75 05 23<br><br>
+
+<details>
+<summary><b>Ressources de soin</b></summary><br>
+<B>Plateaux techniques</B> <br>    
+<ul>
+<li>Diagnostic</li>  
+&#x2718 Médecine nucléaire* <br>    
+&#x2705 Endoscopie interventionnelle bilio-pancréatique   <br>
+&#x2705 Plateforme de biologie moléculaire* <br>
+&#x2705 Plateforme d'anatomopathologie <br> 
+&#x2705 Plateforme d'imagerie <br>  
+&#x2705 Oncogénétique <br>  
+&#x2705 Centre de diagnostic rapide <br>   
+<br>
+<li>Traitement</li>
+&#x2718 Radiothérapie externe* <br>   
+&#x2718 Radio-embolisation* <br>   
+&#x2705 Radiologie interventionnelle <br>  
+&#x2705 Chirurgie viscérale   <br>
+&#x2705 Chirurgie digestive de recours <br>  
+&#x2705 Chirurgie hépatique et transplantation hépatique <br>  
+&#x2705 Plateau de réanimation <br> 
+ <br>
+<li>Recherche</li>
+&#x2705 Unité de recherche clinique dédiée <br> 
+&#x2705 Centre d'Investigation Clinique multithématique <br>
+&#x2705 Accès aux études de phase I <br>
+<br>
+*Convention avec le Centre de Lutte Contre le Cancer Jean Perrin de Clermont-Ferrand pour l’accès aux plateaux de radiothérapie, radio-embolisation, médecine nucléaire et à la plateforme de séquençage génétique NGS
+</ul>
+<br>   
+<B>Soins de support</B> <br>
+<ul>
+<li>Soins « socle » :</li>
+&#x2705 Gestion de la douleur <br>
+&#x2705 Diététique et nutrition <br>
+&#x2705 Soutien psychologique du patient <br>
+&#x2705 Accompagnement social, familial et professionnel <br>
+<br>
+<li>Soins de support complémentaires : </li>
+&#x2705 Rééducation et activités physiques adaptées <br>
+&#x2705 Préservation de la fertilité <br>
+&#x2705 Gestion des troubles de la sexualité <br>
+&#x2718 Conseils d’hygiène de vie <br>
+&#x2705 Soutien psychologique des proches et des aidants <br>
+<br>
+<li>Autres soins de support et services : </li>
+&#x2705 Onco-gériatrie <br>
+&#x2705 Unité mobile de soins palliatifs <br>
+&#x2705 Unité de soins palliatifs dédiée <br>
+&#x2705 Hôpital de jour de soins de support <br>
+&#x2705 Espace de réflexion éthique <br>
+&#x2705 Approches non conventionnelles (hypnose, acupuncture, sophrologie, …) <br>
+&#x2718 Gestion de la fatigue <br>
+&#x2718 Ateliers d’art thérapie <br>
+<br>
+</ul>
+<br>
+</details>   
+
+<details>
+<summary><b>Ressources humaines</b></summary><br>
+<ul>  
+<li> <B>Attaché(e) de Recherche Clinique :</B> </li>
+smassoulier@chu-clermontferrand.fr <br>
+Tel : 04 73 75 05 93<br>
+</ul>
+</details>
+`
+},
+{
+ nom:"Centre Guyane",
+ ville:"Cayenne",
+ region:"Guyane",
+ lat:4.9224,
+ lng:-52.3135,
+ ressources:["Chirurgie","Radiologie"],
+ popupHtml:`<h3>Guyane</h3>Centre à compléter`
+},
+{
+ nom:"Centre Guadeloupe",
+ ville:"Pointe-à-Pitre",
+ region:"Guadeloupe",
+ lat:16.265,
+ lng:-61.551,
+ ressources:["Endoscopie","SoinsSupport"],
+ popupHtml:`<h3>Guadeloupe</h3>Centre à compléter`
+},
+{
+ nom:"Centre Martinique",
+ ville:"Fort-de-France",
+ region:"Martinique",
+ lat:14.6161,
+ lng:-61.0588,
+ ressources:["Chirurgie","Recherche"],
+ popupHtml:`<h3>Martinique</h3>Centre à compléter`
+},
+{
+ nom:"Centre Réunion",
+ ville:"Saint-Denis",
+ region:"La Réunion",
+ lat:-20.8789,
+ lng:55.4481,
+ ressources:["Radiologie","SoinsSupport"],
+ popupHtml:`<h3>La Réunion</h3>Centre à compléter`
+}
+];
+
+// ===== Initialisation régions =====
+const regions = [...new Set(hopitaux.map(h=>h.region))];
+const regionSelect=document.getElementById('regionFilter');
+regions.forEach(r=>{
+ let opt=document.createElement('option');opt.value=r;opt.textContent=r;regionSelect.appendChild(opt);
+});
+
+// ===== Affichage markers =====
+function afficherHopitaux(liste){
+ markerGroup.clearLayers();
+ if(liste.length===0){alert("Aucun centre correspondant");return;}
+ liste.forEach(h=>{
+  L.marker([h.lat,h.lng]).addTo(markerGroup).bindPopup(h.popupHtml,{maxWidth:420});
+ });
+}
+
+// ===== Filtres =====
+function appliquerFiltres(){
+ const region = regionSelect.value;
+ const ressourcesChoisies=[...document.querySelectorAll('.res:checked')].map(c=>c.value);
+
+ let resultat = hopitaux.filter(h=>{
+  let okRegion = !region || h.region===region;
+  let okRes = ressourcesChoisies.length===0 || ressourcesChoisies.every(r=>h.ressources.includes(r));
+  return okRegion && okRes;
+ });
+ afficherHopitaux(resultat);
+}
+
+function resetFiltres(){
+ regionSelect.value="";
+ document.querySelectorAll('.res').forEach(c=>c.checked=false);
+ afficherHopitaux(hopitaux);
+}
+
+// ===== Zoom DOM =====
+function zoomDOM(dom){
+ const coords={
+  guyane:[4.9,-52.3,7],
+  guadeloupe:[16.25,-61.55,8],
+  martinique:[14.62,-61.05,8],
+  reunion:[-20.88,55.45,8]
+ };
+ const c=coords[dom];
+ map.setView([c[0],c[1]],c[2]);
+}
+
+function zoomFrance(){
+ map.setView([46.6,2.5],6);
+}
+
+// affichage initial
+afficherHopitaux(hopitaux);
+</script>
+</body>
+</html>
