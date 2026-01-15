@@ -13,7 +13,7 @@ nav:
     - patients/lexique.md
     - patients/evenements.md
   - Cartes intéractives :
-    - carte.md
+    - carte.html
   - Les centres experts:
     - reseau/fvb.md
   - Recherche:
