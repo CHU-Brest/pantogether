@@ -12,6 +12,8 @@ nav:
     - patients/webconferences.md
     - patients/lexique.md
     - patients/evenements.md
+  - Cartes intéractives :
+    - carte.md
   - Les centres experts:
     - reseau/fvb.md
   - Recherche:
