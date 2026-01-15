@@ -1466,23 +1466,31 @@ manon.allaire@aphp.fr<br>
 <br>
 <B>Plateaux techniques</B> <br> 
 <ul>
-<li>Radiothérapie externe</li>      
-<li>Radio-embolisation</li>   
-<li>Radiologie interventionnelle</li>   
-<li>Médecine nucléaire</li>   
-<li>Chirurgie viscérale</li>   
-<li>Chirurgie digestive de recours</li>   
-<li>Chirurgie hépatique et transplantation hépatique</li>
-<li>Oncogénétique</li>   
-<li>Plateforme de biologie moléculaire</li>   
-<li>Plateforme d'anatomopathologie</li>   
-<li>Plateforme d'imagerie</li>
-<li>Plateau de réanimation</li>   
-<li>Centre de diagnostic rapide</li>   
-<li>Unité de recherche clinique dédiée au service</li>   
-<li>Centre d'Investigation Clinique multithématique du CHU</li>  
- <li>Accès aux études de phase I</li>  
-<li>Endoscopie interventionnelle via convention avec Hôpital Saint Antoine</li>  
+<li>Diagnostic</li>  
+&#x2705 Médecine nucléaire  <br>    
+&#x2718 Endoscopie interventionnelle bilio-pancréatique*   <br>
+&#x2705 Plateforme de biologie moléculaire <br>
+&#x2705 Plateforme d'anatomopathologie <br> 
+&#x2705 Plateforme d’imagerie <br>  
+&#x2705 Oncogénétique <br>  
+&#x2705 Centre de diagnostic rapide <br>   
+<br>
+<li>Traitement</li>
+&#x2705 Radiothérapie externe <br>   
+&#x2705 Radio-embolisation <br>   
+&#x2705 Radiologie interventionnelle <br>  
+&#x2705 Chirurgie viscérale  <br>
+&#x2705 Chirurgie digestive de recours <br>  
+&#x2705 Chirurgie hépatique et transplantation hépatique <br>  
+&#x2705 Plateau de réanimation <br> 
+<br>
+<li>Recherche</li>
+&#x2705 Unité de recherche clinique dédiée <br> 
+&#x2705 Centre d'Investigation Clinique multithématique <br>
+&#x2705 Accès aux études de phase I <br>
+<br>
+*Convention pour l’endoscopie interventionnelle avec l’hôpital Saint Antoine <br> 
+<br>  
 </ul>
 <br>
    
@@ -1555,15 +1563,32 @@ Fax : 01 56 61 61 70<br>
     <summary>Ressources de soin</summary> <br>
 <B>Plateaux techniques</B> <br>    
 <ul>
-<li>Radiologie interventionnelle</li>   
-<li>Endoscopie interventionnelle bilio-pancréatique</li>   
-<li>Chirurgie viscérale</li>
-<li>Chirurgie digestive de recours</li>   
-<li> Plateforme d'anatomopathologie </li> 
-<li>Plateforme d’imagerie</li> 
-<li> Plateau de réanimation </li> 
-<li> Chirurgie hépatique y compris coelioscopique et robot-assistée</li>   
-<li> Convention avec l’hôpital Foch à Suresne et l’hôpital Institut Curie à Paris pour l’accès à la radiothérapie externe, la médecine nucléaire, l’oncogénétique, la plateforme de biologie moléculaire et les études de phase I </li>
+<li>Diagnostic</li>  
+&#x2718 Médecine nucléaire*  <br>    
+&#x2705 Endoscopie interventionnelle bilio-pancréatique  <br>
+&#x2718 Plateforme de biologie moléculaire* <br>
+&#x2705 Plateforme d'anatomopathologie <br> 
+&#x2705 Plateforme d’imagerie <br>  
+&#x2718 Oncogénétique* <br>  
+&#x2718 Centre de diagnostic rapide <br>   
+<br>
+<li>Traitement</li>
+&#x2718 Radiothérapie externe* <br>   
+&#x2718 Radio-embolisation <br>   
+&#x2705 Radiologie interventionnelle <br>  
+&#x2705 Chirurgie viscérale  <br>
+&#x2705 Chirurgie digestive de recours <br>  
+&#x2718 Chirurgie hépatique et transplantation hépatique <br>  
+&#x2705 Plateau de réanimation <br> 
+&#x2705 Chirurgie hépatique y compris coelioscopique et robot-assistée <br> 
+<br>
+<li>Recherche</li>
+&#x2718 Unité de recherche clinique dédiée <br> 
+&#x2718 Centre d'Investigation Clinique multithématique <br>
+&#x2718 Accès aux études de phase I* <br>
+<br>
+*Convention avec l’hôpital Foch à Suresne et l’hôpital Institut Curie à Paris pour l’accès à la radiothérapie externe, la médecine nucléaire, l’oncogénétique, la plateforme de biologie moléculaire et les études de phase I <br> 
+<br>
 </ul>
 <br>   
 <B>Soins de support</B> <br>
@@ -1631,21 +1656,31 @@ emilie.delval@curie.fr <br>
 
 <B>Plateaux techniques</B> <br>    
 <ul>
-<li>Radiothérapie externe</li>   
-<li>Radiologie interventionnelle</li>   
-<li>Médecine nucléaire</li>   
-<li>Endoscopie interventionnelle bilio-pancréatique</li>   
-<li>Chirurgie viscérale</li>
-<li>Chirurgie digestive de recours</li>   
-<li>Oncogénétique</li>   
-<li>Plateforme de biologie moléculaire</li>   
-<li>Plateforme d’anatomopathologie</li>   
-<li>Plateforme d’imagerie</li>   
-<li>Plateau de réanimation</li>   
-<li>Centre d'Investigation Clinique multithématique</li>
-<li>Accès aux études de phase I</li>  
-<li>Centre de Diagnostic Rapide</li>
-<li> Convention avec Hôpital Ambroise-Paré, APHP, Boulogne-Billancourt </li>
+<li>Diagnostic</li>  
+&#x2705 Médecine nucléaire  <br>    
+&#x2705 Endoscopie interventionnelle bilio-pancréatique  <br>
+&#x2705 Plateforme de biologie moléculaire <br>
+&#x2705 Plateforme d'anatomopathologie <br> 
+&#x2705 Plateforme d’imagerie <br>  
+&#x2705 Oncogénétique <br>  
+&#x2705 Centre de diagnostic rapide <br>   
+<br>
+<li>Traitement</li>
+&#x2705 Radiothérapie externe <br>   
+&#x2718 Radio-embolisation <br>   
+&#x2705 Radiologie interventionnelle <br>  
+&#x2705 Chirurgie viscérale  <br>
+&#x2705 Chirurgie digestive de recours <br>  
+&#x2718 Chirurgie hépatique et transplantation hépatique <br>  
+&#x2705 Plateau de réanimation <br> 
+<br>
+<li>Recherche</li>
+&#x2718 Unité de recherche clinique dédiée <br> 
+&#x2705 Centre d'Investigation Clinique multithématique <br>
+&#x2705 Accès aux études de phase I <br>
+<br>
+Convention avec Hôpital Ambroise-Paré, APHP, Boulogne-Billancourt <br> 
+<br>
 </ul>
 <br>   
 <B>Soins de support</B> <br>
@@ -1696,23 +1731,32 @@ Fax : 01 45 59 69 57<br>
 
 <B>Plateaux techniques</B> <br>    
 <ul>
-<li>Radiologie interventionnelle</li>   
-<li>Radio-embolisation*</li>   
-<li> Médecine nucléaire* </li>   
-<li>Endoscopie interventionnelle bilio-pancréatique*</li>   
-<li>Chirurgie viscérale*</li>
-<li> Chirurgie hépatique et transplantation hépatique* </li>   
-<li>Oncogénétique</li>   
-<li> Plateforme de biologie moléculaire </li> 
-<li> Plateforme d'anatomopathologie* </li> 
-<li>Plateforme d’imagerie</li> 
-<li> Plateau de réanimation </li> 
-<li> Centre de diagnostic rapide</li>
- <li>Unité de Recherche Clinique dédiée</li>
-<li>Centre d'Investigation Clinique multithématique</li>
-<li> Accès aux études de phase I </li>
-<li>Convention pour l’accès à la radiothérapie externe avec l’Institut Gustave Roussy (Villejuif) </li> <br>
-* : Plateaux localisés à proximité de l’hôpital Bicêtre (Le Kremlin-Bicêtre)
+<li>Diagnostic</li>  
+&#x2705 Médecine nucléaire**  <br>    
+&#x2705 Endoscopie interventionnelle bilio-pancréatique**  <br>
+&#x2705 Plateforme de biologie moléculaire <br>
+&#x2705 Plateforme d'anatomopathologie** <br> 
+&#x2705 Plateforme d’imagerie <br>  
+&#x2705 Oncogénétique <br>  
+&#x2705 Centre de diagnostic rapide <br>   
+<br>
+<li>Traitement</li>
+&#x2718 Radiothérapie externe* <br>   
+&#x2705 Radio-embolisation** <br>   
+&#x2705 Radiologie interventionnelle <br>  
+&#x2705 Chirurgie viscérale**  <br>
+&#x2718 Chirurgie digestive de recours <br>  
+&#x2705 Chirurgie hépatique et transplantation hépatique** <br>  
+&#x2705 Plateau de réanimation <br> 
+<br>
+<li>Recherche</li>
+&#x2705 Unité de recherche clinique dédiée <br> 
+&#x2705 Centre d'Investigation Clinique multithématique <br>
+&#x2705 Accès aux études de phase I <br>
+<br>
+*Convention pour l’accès à la radiothérapie externe avec l’Institut Gustave Roussy, Villejuif <br> 
+** : Plateaux localisés à proximité de l’hôpital Bicêtre (Le Kremlin-Bicêtre) <br>
+<br>
 </ul>
 <br>   
 <B>Soins de support</B> <br>
@@ -1785,22 +1829,31 @@ Fax : 02 31 06 45 45<br>
     <summary>Ressources de soin</summary> <br>
 <B>Plateaux techniques</B> <br>    
 <ul>
-<li>Radio-embolisation</li>   
-<li>Radiologie interventionnelle</li>   
-<li> Médecine nucléaire </li>   
-<li>Endoscopie interventionnelle bilio-pancréatique</li>   
-<li>Chirurgie viscérale</li>
-<li>Chirurgie digestive de recours</li>   
-<li> Chirurgie hépatique et transplantation hépatique </li>   
-<li>Oncogénétique</li>   
-<li> Plateforme de biologie moléculaire </li> 
-<li> Plateforme d'anatomopathologie </li> 
-<li>Plateforme d’imagerie</li> 
-<li> Plateau de réanimation </li> 
-<li>Centre d'Investigation Clinique multithématique</li>
-<li> Accès aux études de phase I </li>
-<li> Convention avec le Centre François Baclesse à Caen pour l’accès à la radiothérapie externe </li>
-
+<li>Diagnostic</li>  
+&#x2705 Médecine nucléaire  <br>    
+&#x2705 Endoscopie interventionnelle bilio-pancréatique  <br>
+&#x2705 Plateforme de biologie moléculaire <br>
+&#x2705 Plateforme d'anatomopathologie <br> 
+&#x2705 Plateforme d’imagerie <br>  
+&#x2705 Oncogénétique <br>  
+&#x2718 Centre de diagnostic rapide <br>   
+<br>
+<li>Traitement</li>
+&#x2718 Radiothérapie externe* <br>   
+&#x2705 Radio-embolisation <br>   
+&#x2705 Radiologie interventionnelle <br>  
+&#x2705 Chirurgie viscérale  <br>
+&#x2705 Chirurgie digestive de recours <br>  
+&#x2705 Chirurgie hépatique et transplantation hépatique <br>  
+&#x2705 Plateau de réanimation <br> 
+<br>
+<li>Recherche</li>
+&#x2718 Unité de recherche clinique dédiée <br> 
+&#x2705 Centre d'Investigation Clinique multithématique <br>
+&#x2705 Accès aux études de phase I <br>
+<br>
+*Convention avec le Centre François Baclesse à Caen pour l’accès à la radiothérapie externe <br> 
+<br>
 </ul>
 <br>   
 <B>Soins de support</B> <br>
@@ -1863,24 +1916,30 @@ secretariat.oncodig@chu-bordeaux.fr <br>
 
 <B>Plateaux techniques</B> <br>    
 <ul>
-<li>Radiothérapie externe</li>   
-<li>Radio-embolisation</li>   
-<li>Radiologie interventionnelle</li>
-<li>Médecine nucléaire </li>   
-<li>Endoscopie interventionnelle bilio-pancréatique</li>   
-<li>Chirurgie viscérale</li>
-<li>Chirurgie digestive de recours</li> 
-<li> Chirurgie hépatique et transplantation hépatique</li>     
-<li>Oncogénétique</li>   
-<li> Plateforme de biologie moléculaire </li> 
-<li> Plateforme d'anatomopathologie</li> 
-<li>Plateforme d’imagerie</li>
-<li>Plateau de réanimation</li>
-<li>Unité de recherche clinique dédiée</li>  
-<li>Centre d'Investigation Clinique multithématique</li>
-<li> Accès aux études de phase I</li>
-<li> Centre de diagnostic rapide</li>
-   </ul>
+<li>Diagnostic</li>  
+&#x2705 Médecine nucléaire  <br>    
+&#x2705 Endoscopie interventionnelle bilio-pancréatique  <br>
+&#x2705 Plateforme de biologie moléculaire <br>
+&#x2705 Plateforme d'anatomopathologie <br> 
+&#x2705 Plateforme d’imagerie <br>  
+&#x2705 Oncogénétique <br>  
+&#x2705 Centre de diagnostic rapide <br>   
+<br>
+<li>Traitement</li>
+&#x2705 Radiothérapie externe <br>   
+&#x2705 Radio-embolisation <br>   
+&#x2705 Radiologie interventionnelle <br>  
+&#x2705 Chirurgie viscérale  <br>
+&#x2705 Chirurgie digestive de recours <br>  
+&#x2705 Chirurgie hépatique et transplantation hépatique <br>  
+&#x2705 Plateau de réanimation <br> 
+<br>
+<li>Recherche</li>
+&#x2705 Unité de recherche clinique dédiée <br> 
+&#x2705 Centre d'Investigation Clinique multithématique <br>
+&#x2705 Accès aux études de phase I <br>
+<br>
+</ul>
 <br>   
 <B>Soins de support</B> <br>
 <br>
@@ -1942,23 +2001,32 @@ Fax : 05 55 05 63 01 <br>
 
 <B>Plateaux techniques</B> <br>    
 <ul>
-<li> Radiothérapie externe </li>   
-<li>Radiologie interventionnelle</li>   
-<li> Médecine nucléaire </li>   
-<li>Endoscopie interventionnelle bilio-pancréatique</li>   
-<li>Chirurgie viscérale</li>
-<li>Chirurgie digestive de recours</li>   
-<li> Chirurgie hépatique et transplantation hépatique </li>   
-<li>Oncogénétique</li>   
-<li> Plateforme de biologie moléculaire </li> 
-<li> Plateforme d'anatomopathologie </li> 
-<li>Plateforme d’imagerie</li> 
-<li> Plateau de réanimation </li> 
-<li> Centre de diagnostic rapide</li>  
-<li>Centre d'Investigation Clinique multithématique</li>
-<li> Accès aux études de phase I </li>
-<li>Attachés de Recherche Clinique hors Unité de Recherche Clinique </li>
-<li>Convention pour l’accès à des plateaux techniques avec le CHRU de Tours </li>
+<li>Diagnostic</li>  
+&#x2705 Médecine nucléaire  <br>    
+&#x2705 Endoscopie interventionnelle bilio-pancréatique  <br>
+&#x2705 Plateforme de biologie moléculaire <br>
+&#x2705 Plateforme d'anatomopathologie <br> 
+&#x2705 Plateforme d’imagerie <br>  
+&#x2705 Oncogénétique <br>  
+&#x2705 Centre de diagnostic rapide <br>   
+<br>
+<li>Traitement</li>
+&#x2705 Radiothérapie externe <br>   
+&#x2718 Radio-embolisation* <br>   
+&#x2705 Radiologie interventionnelle <br>  
+&#x2705 Chirurgie viscérale  <br>
+&#x2705 Chirurgie digestive de recours <br>  
+&#x2705 Chirurgie hépatique et transplantation hépatique <br>  
+&#x2705 Plateau de réanimation <br> 
+<br>
+<li>Recherche</li>
+&#x2718 Unité de recherche clinique dédiée** <br> 
+&#x2705 Centre d'Investigation Clinique multithématique <br>
+&#x2705 Accès aux études de phase I <br>
+<br>
+*Convention pour l’accès à des plateaux techniques avec le CHRU de Tours <br> 
+** Attachés de Recherche Clinique hors Unité de Recherche Clinique <br>
+<br>
 </ul>
 <br>   
 <B>Soins de support</B> <br>
@@ -2029,23 +2097,29 @@ Fax : 05 49 44 38 35 <br>
 
 <B>Plateaux techniques</B> <br>    
 <ul>
-<li>Radiothérapie externe </li>   
-<li>Radio-embolisation</li>   
-<li>Radiologie interventionnelle</li>   
-<li> Médecine nucléaire </li>   
-<li>Endoscopie interventionnelle bilio-pancréatique</li>   
-<li>Chirurgie viscérale</li>
-<li>Chirurgie digestive de recours</li>   
-<li> Chirurgie hépatique et transplantation hépatique </li>   
-<li>Oncogénétique</li>   
-<li> Plateforme de biologie moléculaire </li> 
-<li> Plateforme d'anatomopathologie </li> 
-<li>Plateforme d’imagerie</li> 
-<li> Plateau de réanimation </li> 
-<li> Centre de diagnostic rapide</li>  
-<li> Unité de recherche clinique dédiée</li>  
-<li>Centre d'Investigation Clinique multithématique</li>
-<li> Accès aux études de phase I </li>
+<li>Diagnostic</li>  
+&#x2705 Médecine nucléaire  <br>    
+&#x2705 Endoscopie interventionnelle bilio-pancréatique  <br>
+&#x2705 Plateforme de biologie moléculaire <br>
+&#x2705 Plateforme d'anatomopathologie <br> 
+&#x2705 Plateforme d’imagerie <br>  
+&#x2705 Oncogénétique <br>  
+&#x2705 Centre de diagnostic rapide <br>   
+<br>
+<li>Traitement</li>
+&#x2705 Radiothérapie externe <br>   
+&#x2705 Radio-embolisation <br>   
+&#x2705 Radiologie interventionnelle <br>  
+&#x2705 Chirurgie viscérale  <br>
+&#x2705 Chirurgie digestive de recours <br>  
+&#x2705 Chirurgie hépatique et transplantation hépatique <br>  
+&#x2705 Plateau de réanimation <br> 
+<br>
+<li>Recherche</li>
+&#x2705 Unité de recherche clinique dédiée <br> 
+&#x2705 Centre d'Investigation Clinique multithématique <br>
+&#x2705 Accès aux études de phase I <br>
+<br>
 </ul>
 <br>   
 <B>Soins de support</B> <br>
@@ -2114,26 +2188,31 @@ Fax : 04 67 33 23 10 <br>
 
 <B>Plateaux techniques</B> <br>    
 <ul>
-<li> Radiothérapie externe </li>   
-<li> Radio-embolisation </li>   
-<li>Radiologie interventionnelle</li>   
-<li> Médecine nucléaire </li>   
-<li>Endoscopie interventionnelle bilio-pancréatique</li>   
-<li>Chirurgie viscérale</li>
-<li>Chirurgie digestive de recours</li>   
-<li> Chirurgie hépatique et transplantation hépatique </li>   
-<li>Oncogénétique</li>   
-<li> Plateforme de biologie moléculaire </li> 
-<li> Plateforme d'anatomopathologie </li> 
-<li>Plateforme d’imagerie</li> 
-<li> Plateau de réanimation </li> 
-<li>Unité de recherche clinique dédiée</li>  
-<li>Centre d'Investigation Clinique multithématique</li>
-<li> Centre de diagnostic rapide </li>
-<li> Accès aux études de phase I </li>
-<li>Radiothérapie via convention avec l’Institut du Cancer de Montpellier (ICM) </li>
-<li>Médecine nucléaire via convention avec l’ICM </li>
-<li>Unité de phase précoce via convention avec l’ICM</li>      
+<li>Diagnostic</li>  
+&#x2718 Médecine nucléaire*  <br>    
+&#x2705 Endoscopie interventionnelle bilio-pancréatique  <br>
+&#x2705 Plateforme de biologie moléculaire <br>
+&#x2705 Plateforme d'anatomopathologie <br> 
+&#x2705 Plateforme d’imagerie <br>  
+&#x2705 Oncogénétique <br>  
+&#x2705 Centre de diagnostic rapide <br>   
+<br>
+<li>Traitement</li>
+&#x2718 Radiothérapie externe* <br>   
+&#x2705 Radio-embolisation <br>   
+&#x2705 Radiologie interventionnelle <br>  
+&#x2705 Chirurgie viscérale  <br>
+&#x2705 Chirurgie digestive de recours <br>  
+&#x2705 Chirurgie hépatique et transplantation hépatique <br>  
+&#x2705 Plateau de réanimation <br> 
+<br>
+<li>Recherche</li>
+&#x2705 Unité de recherche clinique dédiée <br> 
+&#x2705 Centre d'Investigation Clinique multithématique <br>
+&#x2718 Accès aux études de phase I* <br>
+<br>
+*Convention avec l’Institut du Cancer de Montpellier (ICM) pour l’accès la radiothérapie, la médecine nucléaire et l’unité de phase précoce <br> 
+<br>  
 </ul>
 <br>   
 <B>Soins de support</B> <br>
@@ -2191,23 +2270,29 @@ Tel : 05 61 32 34 14<br>
     <summary>Ressources de soin</summary> <br>
 <B>Plateaux techniques</B> <br>    
 <ul>
-<li>Radiothérapie externe </li>   
-<li>Radio-embolisation</li>   
-<li>Radiologie interventionnelle</li>   
-<li> Médecine nucléaire </li>   
-<li>Endoscopie interventionnelle bilio-pancréatique</li>   
-<li>Chirurgie viscérale</li>
-<li>Chirurgie digestive de recours</li>   
-<li> Chirurgie hépatique et transplantation hépatique </li>   
-<li>Oncogénétique</li>   
-<li> Plateforme de biologie moléculaire </li> 
-<li> Plateforme d'anatomopathologie </li> 
-<li>Plateforme d’imagerie</li> 
-<li> Plateau de réanimation </li> 
-<li> Centre de diagnostic rapide</li>  
-<li> Unité de recherche clinique dédiée</li>  
-<li>Centre d'Investigation Clinique multithématique</li>
-<li> Accès aux études de phase I </li>
+<li>Diagnostic</li>  
+&#x2705 Médecine nucléaire  <br>    
+&#x2705 Endoscopie interventionnelle bilio-pancréatique  <br>
+&#x2705 Plateforme de biologie moléculaire <br>
+&#x2705 Plateforme d'anatomopathologie <br> 
+&#x2705 Plateforme d’imagerie <br>  
+&#x2705 Oncogénétique <br>  
+&#x2705 Centre de diagnostic rapide <br>   
+<br>
+<li>Traitement</li>
+&#x2705 Radiothérapie externe <br>   
+&#x2705 Radio-embolisation <br>   
+&#x2705 Radiologie interventionnelle <br>  
+&#x2705 Chirurgie viscérale  <br>
+&#x2705 Chirurgie digestive de recours <br>  
+&#x2705 Chirurgie hépatique et transplantation hépatique <br>  
+&#x2705 Plateau de réanimation <br> 
+<br>
+<li>Recherche</li>
+&#x2705 Unité de recherche clinique dédiée <br> 
+&#x2705 Centre d'Investigation Clinique multithématique <br>
+&#x2705 Accès aux études de phase I <br>
+<br>
 </ul>
 <br>   
 <B>Soins de support</B> <br>
@@ -2269,18 +2354,31 @@ Fax : 02 41 35 78 82<br>
 
 <B>Plateaux techniques</B> <br>    
 <ul>
-<li> Radiothérapie externe </li>
-<li> Radio-embolisation </li>   
-<li>Radiologie interventionnelle</li>   
-<li> Médecine nucléaire </li>   
-<li>Endoscopie interventionnelle bilio-pancréatique</li>   
-<li>Chirurgie viscérale</li>
-<li>Oncogénétique</li>   
-<li> Plateforme de biologie moléculaire </li> 
-<li> Plateforme d'anatomopathologie </li> 
-<li>Plateforme d’imagerie</li> 
-<li> Plateau de réanimation </li> 
-<li> Unité de recherche clinique dédiée</li>
+<li>Diagnostic</li>  
+&#x2705 Médecine nucléaire  <br>    
+&#x2705 Endoscopie interventionnelle bilio-pancréatique  <br>
+&#x2705 Plateforme de biologie moléculaire <br>
+&#x2705 Plateforme d'anatomopathologie <br> 
+&#x2705 Plateforme d’imagerie <br>  
+&#x2705 Oncogénétique <br>  
+&#x2718 Centre de diagnostic rapide <br>   
+<br>
+<li>Traitement</li>
+&#x2705 Radiothérapie externe <br>   
+&#x2705 Radio-embolisation <br>   
+&#x2705 Radiologie interventionnelle <br>  
+&#x2705 Chirurgie viscérale  <br>
+&#x2718 Chirurgie digestive de recours <br>  
+&#x2718 Chirurgie hépatique et transplantation hépatique* <br>  
+&#x2705 Plateau de réanimation <br> 
+<br>
+<li>Recherche</li>
+&#x2705 Unité de recherche clinique dédiée <br> 
+&#x2718 Centre d'Investigation Clinique multithématique <br>
+&#x2718 Accès aux études de phase I <br>
+<br>
+*Convention avec le CHU de Rennes pour la chirurgie de transplantation hépatique <br> 
+<br>
 </ul>
 <br>   
 <B>Soins de support</B> <br>
@@ -2349,22 +2447,24 @@ yann.touchefeu@chu-nantes.fr <br>
 
 <B>Plateaux techniques</B> <br>  
 <ul>
-<li>Radiologie interventionnelle</li>      
-<li>Endoscopie interventionnelle bilio-pancréatique</li>   
-<li>Médecine nucléaire</li>   
-<li>Chirurgie viscérale</li>   
-<li>Chirurgie digestive de recours</li>   
-<li>Oncogénétique</li>   
-<li>Plateforme de biologie moléculaire</li>
-<li>Plateforme d'anatomopathologie</li>   
-<li>Plateforme d'imagerie</li>   
-<li>Plateau de réanimation</li>   
-<li>Centre de diagnostic rapide</li>
-<li>Unité de recherche clinique dédiée au service</li>
-<li>Centre d'Investigation Clinique multithématique du CHU</li>
-<li>Accès aux études de phase I</li>
-<li>Radiothérapie réalisée à l'institut de Cancérologie de l'Ouest (ICO)</li> <br>
-  
+<li>Traitement</li>
+&#x2718 Radiothérapie externe* <br>   
+&#x2718 Radio-embolisation <br>   
+&#x2705 Radiologie interventionnelle <br>  
+&#x2705 Chirurgie viscérale  <br>
+&#x2705 Chirurgie digestive de recours <br>  
+&#x2718 Chirurgie hépatique et transplantation hépatique* <br>  
+&#x2705 Plateau de réanimation <br> 
+<br>
+<li>Recherche</li>
+&#x2705 Unité de recherche clinique dédiée <br> 
+&#x2705 Centre d'Investigation Clinique multithématique <br>
+&#x2705 Accès aux études de phase I <br>
+<br>
+*Convention avec le CHU de Rennes pour la chirurgie de transplantation hépatique <br> 
+Radiothérapie réalisée à l'institut de Cancérologie de l'Ouest (ICO) <br>
+<br>
+</ul>
 <B>Soins de support</B> <br>
 <ul>
 <li>Soins « socle » :</li>
@@ -2424,22 +2524,31 @@ Tel : 04 92 03 69 81<br>
     <summary>Ressources de soin</summary> <br>
 <B>Plateaux techniques</B> <br>    
 <ul>
-<li>Radio-embolisation</li>   
-<li>Radiologie interventionnelle</li>   
-<li> Médecine nucléaire </li>   
-<li>Endoscopie interventionnelle bilio-pancréatique</li>   
-<li>Chirurgie viscérale</li>
-<li>Chirurgie digestive de recours</li>   
-<li> Chirurgie hépatique et transplantation hépatique </li>   
-<li>Oncogénétique</li>   
-<li> Plateforme de biologie moléculaire </li> 
-<li> Plateforme d'anatomopathologie </li> 
-<li>Plateforme d’imagerie</li> 
-<li> Plateau de réanimation </li> 
-<li> Unité de recherche clinique dédiée</li>  
-<li>Centre d'Investigation Clinique multithématique</li>
-<li> Accès aux études de phase I </li>
-<li>Convention avec le CLCC de Nice, Centre Antoine Lacassagne, et avec le Centre de Haute Energie de Nice, pour l’accès à la radiothérapie </li>  
+<li>Diagnostic</li>  
+&#x2705 Médecine nucléaire  <br>    
+&#x2705 Endoscopie interventionnelle bilio-pancréatique  <br>
+&#x2705 Plateforme de biologie moléculaire <br>
+&#x2705 Plateforme d'anatomopathologie <br> 
+&#x2705 Plateforme d’imagerie <br>  
+&#x2705 Oncogénétique <br>  
+&#x2718 Centre de diagnostic rapide <br>   
+<br>
+<li>Traitement</li>
+&#x2718 Radiothérapie externe* <br>   
+&#x2705 Radio-embolisation <br>   
+&#x2705 Radiologie interventionnelle <br>  
+&#x2705 Chirurgie viscérale  <br>
+&#x2705 Chirurgie digestive de recours <br>  
+&#x2705 Chirurgie hépatique et transplantation hépatique <br>  
+&#x2705 Plateau de réanimation <br> 
+<br>
+<li>Recherche</li>
+&#x2705 Unité de recherche clinique dédiée <br> 
+&#x2705 Centre d'Investigation Clinique multithématique <br>
+&#x2705 Accès aux études de phase I <br>
+<br>
+*Convention avec le CLCC de Nice, Centre Antoine Lacassagne, et avec le Centre de Haute Energie de Nice, pour l’accès à la radiothérapie<br> 
+<br>
 </ul>
 <br>   
 <B>Soins de support</B> <br>
@@ -2504,20 +2613,32 @@ Fax : 04 91 80 82 12<br>
 
 <B>Plateaux techniques</B> <br>    
 <ul>
-<li>Radiologie interventionnelle</li>   
-<li>Endoscopie interventionnelle bilio-pancréatique</li>   
-<li>Chirurgie viscérale</li>
-<li>Chirurgie digestive de recours</li>   
-<li>Oncogénétique</li>   
-<li> Plateforme de biologie moléculaire </li> 
-<li> Plateforme d'anatomopathologie </li> 
-<li>Plateforme d’imagerie</li> 
-<li> Plateau de réanimation </li> 
-<li> Centre de diagnostic rapide</li>  
-<li> Unité de recherche clinique dédiée</li>  
-<li>Radiothérapie externe via convention avec l’hôpital privé Clairval</li>   
-<li>Radio-embolisation via convention avec le CHU Timone</li>   
-<li> Chirurgie hépatique et transplantation hépatique via convention avec le CHU Timone </li>   
+<li>Diagnostic</li>  
+&#x2718 Médecine nucléaire  <br>    
+&#x2705 Endoscopie interventionnelle bilio-pancréatique  <br>
+&#x2705 Plateforme de biologie moléculaire <br>
+&#x2705 Plateforme d'anatomopathologie <br> 
+&#x2705 Plateforme d’imagerie <br>  
+&#x2705 Oncogénétique <br>  
+&#x2705 Centre de diagnostic rapide <br>   
+<br>
+<li>Traitement</li>
+&#x2718 Radiothérapie externe* <br>   
+&#x2718 Radio-embolisation* <br>   
+&#x2705 Radiologie interventionnelle <br>  
+&#x2705 Chirurgie viscérale  <br>
+&#x2705 Chirurgie digestive de recours <br>  
+&#x2718 Chirurgie hépatique et transplantation hépatique* <br>  
+&#x2705 Plateau de réanimation <br> 
+<br>
+<li>Recherche</li>
+&#x2705 Unité de recherche clinique dédiée <br> 
+&#x2718 Centre d'Investigation Clinique multithématique <br>
+&#x2718 Accès aux études de phase I <br>
+<br>
+*Radiothérapie externe via convention avec l’hôpital privé Clairval.   
+Radio-embolisation et chirurgie de transplantation hépatique via convention avec le CHU Timone <br>    
+<br>
 </ul>
 <br>   
 <B>Soins de support</B> <br>
@@ -2571,6 +2692,7 @@ ppramirezgarcia@hopital-saint-joseph.fr <br>
 Tel : 04 91 80 82 35<br>
 </ul>
 </details>
+
 
 
 
