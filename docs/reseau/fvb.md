@@ -504,7 +504,7 @@ Convention pour l’accès à certains plateaux techniques avec le CHU de Rennes
 <br>   
 <B>Soins de support</B> <br>
 <ul>
-<<li>Soins « socle » :</li>
+<li>Soins « socle » :</li>
 &#x2705 Gestion de la douleur <br>
 &#x2705 Diététique et nutrition <br>
 &#x2705 Soutien psychologique du patient <br>
@@ -2692,6 +2692,7 @@ ppramirezgarcia@hopital-saint-joseph.fr <br>
 Tel : 04 91 80 82 35<br>
 </ul>
 </details>
+
 
 
 
