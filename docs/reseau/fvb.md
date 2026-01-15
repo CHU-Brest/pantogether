@@ -591,7 +591,7 @@ Fax : 02 47 47 84 28<br>
      
 ## <span style="color:blue">**Grand-Est**</span>
 ### **CHRU Nancy**
-**Pr Bronowicki Jean-Pierre**, **DR HAGHNEJAD Vincent**     
+**Pr Bronowicki Jean-Pierre**, **Dr HAGHNEJAD Vincent**     
 Service d'hépato-gastroentérologie, bâtiment principal Brabois adultes, 9ème étage <br> 
 8 rue du Morvan, 54500 **Vandoeuvre-lès-Nancy** <br>
 jp.bronowicki@chru-nancy.fr <br> 
@@ -628,16 +628,29 @@ Fax : 03 83 15 36 33<br>
 <br>   
 <B>Soins de support</B> <br>
 <ul>
-<li>Diététique et nutrition</li>      
-<li>Soutien psychologique du patient</li>   
-<li> Rééducation et activités physiques adaptées </li>   
-<li> Unité de soins palliatifs dédiée</li>   
-<li>Unité mobile de soins palliatifs</li>   
-<li> Onco-gériatrie</li>   
-<li> Approches non conventionnelles (hypnose, acupuncture, sophrologie,...)</li>   
-<li> Préservation de la fertilité </li>   
-<li> Espace de réflexion éthique</li>   
-
+<li>Soins « socle » :</li>
+&#x2718 Gestion de la douleur <br>
+&#x2705 Diététique et nutrition <br>
+&#x2705 Soutien psychologique du patient <br>
+&#x2718 Accompagnement social, familial et professionnel <br>
+<br>
+<li>Soins de support complémentaires : </li>
+&#x2705 Rééducation et activités physiques adaptées <br>
+&#x2705 Préservation de la fertilité <br>
+&#x2718 Gestion des troubles de la sexualité <br>
+&#x2718 Conseils d’hygiène de vie <br>
+&#x2718 Soutien psychologique des proches et des aidants <br>
+<br>
+<li>Autres soins de support et services : </li>
+&#x2705 Onco-gériatrie <br>
+&#x2705 Unité mobile de soins palliatifs <br>
+&#x2705 Unité de soins palliatifs dédiée <br>
+&#x2718 Hôpital de jour de soins de support <br>
+&#x2705 Espace de réflexion éthique <br>
+&#x2705 Approches non conventionnelles (hypnose, acupuncture, sophrologie, …) <br>
+&#x2718 Gestion de la fatigue <br>
+&#x2718 Ateliers d’art thérapie <br>
+<br>
 </ul>
 <br>
 </details>   
@@ -706,19 +719,29 @@ Tel : 03 26 78 88 32 <br>
 <B>Soins de support</B> <br>
 <br>
 <ul>
-<li>Diététique et nutrition</li>      
-<li>Soutien psychologique du patient</li>   
-<li>Soutien psychologique des proches et des aidants</li>   
-<li>Accompagnement social, familial et professionnel</li>   
-<li> Rééducation et activités physiques adaptées </li>   
-<li>Gestion de la douleur</li>   
-<li>Gestion de la fatigue</li>   
-<li> Unité de soins palliatifs dédiée</li>   
-<li>Unité mobile de soins palliatifs</li>   
-<li> Onco-gériatrie</li>   
-<li> Troubles de la sexualité </li>   
-<li> Préservation de la fertilité </li>   
-<li> Conseils d'hygiène de vie</li>   
+<li>Soins « socle » :</li>
+&#x2705 Gestion de la douleur <br>
+&#x2705 Diététique et nutrition <br>
+&#x2705 Soutien psychologique du patient <br>
+&#x2705 Accompagnement social, familial et professionnel <br>
+<br>
+<li>Soins de support complémentaires : </li>
+&#x2705 Rééducation et activités physiques adaptées <br>
+&#x2705 Préservation de la fertilité <br>
+&#x2705 Gestion des troubles de la sexualité <br>
+&#x2705 Conseils d’hygiène de vie <br>
+&#x2705 Soutien psychologique des proches et des aidants <br>
+<br>
+<li>Autres soins de support et services : </li>
+&#x2705 Onco-gériatrie <br>
+&#x2705 Unité mobile de soins palliatifs <br>
+&#x2705 Unité de soins palliatifs dédiée <br>
+&#x2718 Hôpital de jour de soins de support <br>
+&#x2718 Espace de réflexion éthique <br>
+&#x2718 Approches non conventionnelles (hypnose, acupuncture, sophrologie, …) <br>
+&#x2705 Gestion de la fatigue <br>
+&#x2718 Ateliers d’art thérapie <br>
+<br> 
 </ul>
 </details>   
 
@@ -777,14 +800,29 @@ Tel : +590 590 89 14 45 <br>
 <br>   
 <B>Soins de support</B> <br>
 <ul>
-<li>Diététique et nutrition</li>      
-<li>Soutien psychologique du patient</li>   
-<li>Soutien psychologique des proches et des aidants</li>   
-<li>Accompagnement social, familial et professionnel</li>   
-<li>Gestion de la douleur</li>   
-<li>Unité mobile de soins palliatifs</li>   
-<li> Onco-gériatrie</li>   
-
+<li>Soins « socle » :</li>
+&#x2705 Gestion de la douleur <br>
+&#x2705 Diététique et nutrition <br>
+&#x2705 Soutien psychologique du patient <br>
+&#x2705 Accompagnement social, familial et professionnel <br>
+<br>
+<li>Soins de support complémentaires : </li>
+&#x2718 Rééducation et activités physiques adaptées <br>
+&#x2718 Préservation de la fertilité <br>
+&#x2718Gestion des troubles de la sexualité <br>
+&#x2718 Conseils d’hygiène de vie <br>
+&#x2705 Soutien psychologique des proches et des aidants <br>
+<br>
+<li>Autres soins de support et services : </li>
+&#x2705 Onco-gériatrie <br>
+&#x2705 Unité mobile de soins palliatifs <br>
+&#x2718 Unité de soins palliatifs dédiée <br>
+&#x2718 Hôpital de jour de soins de support <br>
+&#x2718 Espace de réflexion éthique <br>
+&#x2718 Approches non conventionnelles (hypnose, acupuncture, sophrologie, …) <br>
+&#x2718 Gestion de la fatigue <br>
+&#x2718 Ateliers d’art thérapie <br>
+<br>
 </ul>
 <br>
 </details>   
@@ -839,22 +877,29 @@ Fax : 03 22 08 99 39<br>
 <br>   
 <B>Soins de support</B> <br>
 <ul>
-<li>Diététique et nutrition</li>      
-<li>Soutien psychologique du patient</li>   
-<li>Soutien psychologique des proches et des aidants</li>   
-<li>Accompagnement social, familial et professionnel</li>   
-<li> Rééducation et activités physiques adaptées </li>   
-<li>Gestion de la douleur</li>   
-<li> Unité de soins palliatifs dédiée</li>   
-<li>Unité mobile de soins palliatifs</li>   
-<li> Onco-gériatrie</li>   
-<li> Approches non conventionnelles (hypnose, acupuncture, sophrologie,...)</li>   
-<li> Gestion des troubles de la sexualité</li>   
-<li> Conseils d'hygiène de vie</li>  
-<li> Ateliers d'art-thérapie</li>   
-<li> Espace de réflexion éthique</li>   
-<li> Hôpital de jour de soins de support </li>   
-
+<li>Soins « socle » :</li>
+&#x2705 Gestion de la douleur <br>
+&#x2705 Diététique et nutrition <br>
+&#x2705 Soutien psychologique du patient <br>
+&#x2705 Accompagnement social, familial et professionnel <br>
+<br>
+<li>Soins de support complémentaires : </li>
+&#x2705 Rééducation et activités physiques adaptées <br>
+&#x2718 Préservation de la fertilité <br>
+&#x2705 Gestion des troubles de la sexualité <br>
+&#x2705 Conseils d’hygiène de vie <br>
+&#x2705 Soutien psychologique des proches et des aidants <br>
+<br>
+<li>Autres soins de support et services : </li>
+&#x2705 Onco-gériatrie <br>
+&#x2705 Unité mobile de soins palliatifs <br>
+&#x2705 Unité de soins palliatifs dédiée <br>
+&#x2705 Hôpital de jour de soins de support <br>
+&#x2705 Espace de réflexion éthique <br>
+&#x2705 Approches non conventionnelles (hypnose, acupuncture, sophrologie, …) <br>
+&#x2718 Gestion de la fatigue <br>
+&#x2705 Ateliers d’art thérapie <br>
+<br>
 </ul>
 <br>
 </details>   
@@ -909,14 +954,29 @@ Fax : 03 20 44 55 64<br>
 <br>   
 <B>Soins de support</B> <br>
 <ul>
-<li>Diététique et nutrition</li>      
-<li>Gestion de la douleur</li>   
-<li>Gestion de la fatigue</li>   
-<li> Unité de soins palliatifs dédiée</li>   
-<li>Unité mobile de soins palliatifs</li>   
-<li> Onco-gériatrie</li>   
-<li> Préservation de la fertilité </li>   
-
+<li>Soins « socle » :</li>
+&#x2705 Gestion de la douleur <br>
+&#x2705 Diététique et nutrition <br>
+&#x2718 Soutien psychologique du patient <br>
+&#x2718 Accompagnement social, familial et professionnel <br>
+<br>
+<li>Soins de support complémentaires : </li>
+&#x2718 Rééducation et activités physiques adaptées <br>
+&#x2705 Préservation de la fertilité <br>
+&#x2718 Gestion des troubles de la sexualité <br>
+&#x2718 Conseils d’hygiène de vie <br>
+&#x2718 Soutien psychologique des proches et des aidants <br>
+<br>
+<li>Autres soins de support et services : </li>
+&#x2705 Onco-gériatrie <br>
+&#x2705 Unité mobile de soins palliatifs <br>
+&#x2705 Unité de soins palliatifs dédiée <br>
+&#x2718 Hôpital de jour de soins de support <br>
+&#x2718 Espace de réflexion éthique <br>
+&#x2718 Approches non conventionnelles (hypnose, acupuncture, sophrologie, …) <br>
+&#x2705 Gestion de la fatigue <br>
+&#x2718 Ateliers d’art thérapie <br>
+<br> 
 </ul>
 <br>
 </details>   
@@ -974,17 +1034,29 @@ Tel : 03 20 44 55 59 <br>
 <br>   
 <B>Soins de support</B> <br>
 <ul>
-<li>Diététique et nutrition</li>      
-<li>Soutien psychologique du patient</li>   
-<li>Soutien psychologique des proches et des aidants</li>   
-<li>Accompagnement social, familial et professionnel</li>   
-<li>Gestion de la douleur</li>   
-<li>Onco-gériatrie</li>   
-<li>Unité de soins palliatifs dédiée</li>
-<li>Unité mobile de soins palliatifs</li>   
-<li>Préservation de la fertilité</li>   
-<li>Hôpital de jour de soins de support</li>   
-<li>Espace de réflexion éthique</li>  
+<li>Soins « socle » :</li>
+&#x2705 Gestion de la douleur <br>
+&#x2705 Diététique et nutrition <br>
+&#x2705 Soutien psychologique du patient <br>
+&#x2705 Accompagnement social, familial et professionnel <br>
+<br>
+<li>Soins de support complémentaires : </li>
+&#x2718 Rééducation et activités physiques adaptées <br>
+&#x2705 Préservation de la fertilité <br>
+&#x2718 Gestion des troubles de la sexualité <br>
+&#x2718 Conseils d’hygiène de vie <br>
+&#x2705 Soutien psychologique des proches et des aidants <br>
+<br>
+<li>Autres soins de support et services : </li>
+&#x2705 Onco-gériatrie <br>
+&#x2705 Unité mobile de soins palliatifs <br>
+&#x2705 Unité de soins palliatifs dédiée <br>
+&#x2705 Hôpital de jour de soins de support <br>
+&#x2705 Espace de réflexion éthique <br>
+&#x2718 Approches non conventionnelles (hypnose, acupuncture, sophrologie, …) <br>
+&#x2718 Gestion de la fatigue <br>
+&#x2718 Ateliers d’art thérapie <br>
+<br>
 </ul>
 <br>
 </details>   
@@ -1053,19 +1125,29 @@ giuliana.amaddeo@aphp.fr<br>
 <br>   
 <B>Soins de support</B> <br>
 <ul>
-<li>Diététique et nutrition</li>      
-<li>Soutien psychologique du patient</li>   
-<li>Soutien psychologique des proches et des aidants</li>   
-<li>Accompagnement social, familial et professionnel</li>   
-<li> Rééducation et activités physiques adaptées </li>   
-<li>Gestion de la douleur</li>   
-<li> Unité de soins palliatifs dédiée</li>   
-<li>Unité mobile de soins palliatifs</li>   
-<li> Onco-gériatrie</li>   
-<li> Approches non conventionnelles (hypnose, acupuncture, sophrologie,...)</li>   
-<li> Conseils d'hygiène de vie</li>  
-<li> Espace de réflexion éthique</li>   
-<li> Hôpital de jour de soins de support </li>   
+<li>Soins « socle » :</li>
+&#x2705 Gestion de la douleur <br>
+&#x2705 Diététique et nutrition <br>
+&#x2705 Soutien psychologique du patient <br>
+&#x2705 Accompagnement social, familial et professionnel <br>
+<br>
+<li>Soins de support complémentaires : </li>
+&#x2705 Rééducation et activités physiques adaptées <br>
+&#x2718 Préservation de la fertilité <br>
+&#x2718 Gestion des troubles de la sexualité <br>
+&#x2705 Conseils d’hygiène de vie <br>
+&#x2705 Soutien psychologique des proches et des aidants <br>
+<br>
+<li>Autres soins de support et services : </li>
+&#x2705 Onco-gériatrie <br>
+&#x2705 Unité mobile de soins palliatifs <br>
+&#x2705 Unité de soins palliatifs dédiée <br>
+&#x2705 Hôpital de jour de soins de support <br>
+&#x2705 Espace de réflexion éthique <br>
+&#x2705 Approches non conventionnelles (hypnose, acupuncture, sophrologie, …) <br>
+&#x2718 Gestion de la fatigue <br>
+&#x2718 Ateliers d’art thérapie <br>
+<br>  
 </ul>
 <br>
 </details>   
@@ -1127,15 +1209,29 @@ Fax : 01 40 87 44 29 <br>
 <br>   
 <B>Soins de support</B> <br>
 <ul>
-<li>Diététique et nutrition</li>      
-<li>Soutien psychologique du patient</li>   
-<li>Soutien psychologique des proches et des aidants</li>   
-<li>Accompagnement social, familial et professionnel</li>   
-<li> Rééducation et activités physiques adaptées </li>   
-<li>Gestion de la douleur</li>   
-<li> Gestion de la fatigue</li>   
-<li>Unité mobile de soins palliatifs</li>   
-<li>Hôpital de jour de soins de support</li>   
+<li>Soins « socle » :</li>
+&#x2705 Gestion de la douleur <br>
+&#x2705 Diététique et nutrition <br>
+&#x2705 Soutien psychologique du patient <br>
+&#x2705 Accompagnement social, familial et professionnel <br>
+<br>
+<li>Soins de support complémentaires : </li>
+&#x2705 Rééducation et activités physiques adaptées <br>
+&#x2718 Préservation de la fertilité <br>
+&#x2718 Gestion des troubles de la sexualité <br>
+&#x2718 Conseils d’hygiène de vie <br>
+&#x2705 Soutien psychologique des proches et des aidants <br>
+<br>
+<li>Autres soins de support et services : </li>
+&#x2718 Onco-gériatrie <br>
+&#x2705 Unité mobile de soins palliatifs <br>
+&#x2718 Unité de soins palliatifs dédiée <br>
+&#x2705 Hôpital de jour de soins de support <br>
+&#x2718 Espace de réflexion éthique <br>
+&#x2718 Approches non conventionnelles (hypnose, acupuncture, sophrologie, …) <br>
+&#x2705 Gestion de la fatigue <br>
+&#x2718 Ateliers d’art thérapie <br>
+<br>
 </ul>
 <br>
 </details>   
@@ -1206,16 +1302,29 @@ Fax : 01 49 28 21 07 <br>
 <br>   
 <B>Soins de support</B> <br>
 <ul>
-<li>Diététique et nutrition</li>      
-<li>Soutien psychologique du patient</li>   
-<li>Soutien psychologique des proches et des aidants</li>   
-<li>Accompagnement social, familial et professionnel</li>   
-<li> Rééducation et activités physiques adaptées </li>   
-<li>Gestion de la douleur</li>   
-<li>Unité mobile de soins palliatifs</li>   
-<li>Hôpital de jour de soins de support</li>   
-<li> Onco-gériatrie</li>   
-<li> Espace de réflexion éthique</li>   
+<li>Soins « socle » :</li>
+&#x2705 Gestion de la douleur <br>
+&#x2705 Diététique et nutrition <br>
+&#x2705 Soutien psychologique du patient <br>
+&#x2705 Accompagnement social, familial et professionnel <br>
+<br>
+<li>Soins de support complémentaires : </li>
+&#x2705 Rééducation et activités physiques adaptées <br>
+&#x2718 Préservation de la fertilité <br>
+&#x2718 Gestion des troubles de la sexualité <br>
+&#x2718 Conseils d’hygiène de vie <br>
+&#x2705 Soutien psychologique des proches et des aidants <br>
+<br>
+<li>Autres soins de support et services : </li>
+&#x2705 Onco-gériatrie <br>
+&#x2705 Unité mobile de soins palliatifs <br>
+&#x2718 Unité de soins palliatifs dédiée <br>
+&#x2705 Hôpital de jour de soins de support <br>
+&#x2705 Espace de réflexion éthique <br>
+&#x2718 Approches non conventionnelles (hypnose, acupuncture, sophrologie, …) <br>
+&#x2718 Gestion de la fatigue <br>
+&#x2718 Ateliers d’art thérapie <br>
+<br>
 </ul>
 <br>
 </details>   
@@ -1282,17 +1391,29 @@ manon.allaire@aphp.fr<br>
    
 <B>Soins de support</B> <br>
 <ul>
-<li>Diététique et nutrition</li>      
-<li>Soutien psychologique du patient</li>   
-<li>Soutien psychologique des proches et des aidants</li>   
-<li> Accompagnement social, familial et professionnel</li>   
-<li>Rééducation et activités physiques adaptées</li>   
-<li>Gestion de la douleur</li>   
-<li>Unité mobile de soins palliatifs</li>
-<li>Onco-gériatrie</li>   
-<li>Conseils d'hygiène de vie</li>   
-<li>Hôpital de jour de soins de support</li>   
-<li>Espace de réflexion éthique</li>
+<li>Soins « socle » :</li>
+&#x2705 Gestion de la douleur <br>
+&#x2705 Diététique et nutrition <br>
+&#x2705 Soutien psychologique du patient <br>
+&#x2705 Accompagnement social, familial et professionnel <br>
+<br>
+<li>Soins de support complémentaires : </li>
+&#x2705 Rééducation et activités physiques adaptées <br>
+&#x2718 Préservation de la fertilité <br>
+&#x2718 Gestion des troubles de la sexualité <br>
+&#x2705 Conseils d’hygiène de vie <br>
+&#x2705 Soutien psychologique des proches et des aidants <br>
+<br>
+<li>Autres soins de support et services : </li>
+&#x2705 Onco-gériatrie <br>
+&#x2705 Unité mobile de soins palliatifs <br>
+&#x2718 Unité de soins palliatifs dédiée <br>
+&#x2705 Hôpital de jour de soins de support <br>
+&#x2705 Espace de réflexion éthique <br>
+&#x2718 Approches non conventionnelles (hypnose, acupuncture, sophrologie, …) <br>
+&#x2718 Gestion de la fatigue <br>
+&#x2718 Ateliers d’art thérapie <br>
+<br>
 </ul> 
 <br>
 </details>   
@@ -1350,18 +1471,29 @@ Fax : 01 56 61 61 70<br>
 <br>   
 <B>Soins de support</B> <br>
 <ul>
-<li>Diététique et nutrition</li>      
-<li>Soutien psychologique du patient</li>   
-<li>Soutien psychologique des proches et des aidants</li>   
-<li>Accompagnement social, familial et professionnel</li>   
-<li> Rééducation et activités physiques adaptées </li>   
-<li>Gestion de la douleur</li>   
-<li>Unité mobile de soins palliatifs</li>   
-<li> Onco-gériatrie</li>   
-<li> Approches non conventionnelles (hypnose, acupuncture, sophrologie,...)</li>   
-<li> Conseils d'hygiène de vie</li>  
-<li> Hôpital de jour de soins de support </li>   
-
+<li>Soins « socle » :</li>
+&#x2705 Gestion de la douleur <br>
+&#x2705 Diététique et nutrition <br>
+&#x2705 Soutien psychologique du patient <br>
+&#x2705 Accompagnement social, familial et professionnel <br>
+<br>
+<li>Soins de support complémentaires : </li>
+&#x2705 Rééducation et activités physiques adaptées <br>
+&#x2718 Préservation de la fertilité <br>
+&#x2718 Gestion des troubles de la sexualité <br>
+&#x2705 Conseils d’hygiène de vie <br>
+&#x2705 Soutien psychologique des proches et des aidants <br>
+<br>
+<li>Autres soins de support et services : </li>
+&#x2705 Onco-gériatrie <br>
+&#x2705 Unité mobile de soins palliatifs <br>
+&#x2718 Unité de soins palliatifs dédiée <br>
+&#x2705 Hôpital de jour de soins de support <br>
+&#x2718 Espace de réflexion éthique <br>
+&#x2705 Approches non conventionnelles (hypnose, acupuncture, sophrologie, …) <br>
+&#x2718 Gestion de la fatigue <br>
+&#x2718 Ateliers d’art thérapie <br>
+<br>
 </ul>
 <br>
 </details>   
@@ -1421,23 +1553,30 @@ emilie.delval@curie.fr <br>
 <br>   
 <B>Soins de support</B> <br>
 <ul>
-<li>Diététique et nutrition</li>      
-<li>Soutien psychologique du patient</li>   
-<li>Soutien psychologique des proches et des aidants</li>   
-<li>Accompagnement social, familial et professionnel</li>   
-<li> Rééducation et activités physiques adaptées </li>   
-<li>Gestion de la douleur</li>   
-<li> Gestion de la fatigue</li>   
-<li>Onco-gériatrie</li>   
-<li>Unité de soins palliatifs dédiée</li>
-<li>Unité mobile de soins palliatifs</li>   
-<li> Approches non conventionnelles (hypnose, acupuncture, sophrologie,...)</li>   
-<li>Préservation de la fertilité</li>   
-<li> Conseils d'hygiène de vie </li>   
-<li>Hôpital de jour de soins de support</li>   
-<li>Espace de réflexion éthique</li>  
-<li> Parcours de préhabilitation</li>  
- 
+<li>Soins « socle » :</li>
+&#x2705 Gestion de la douleur <br>
+&#x2705 Diététique et nutrition <br>
+&#x2705 Soutien psychologique du patient <br>
+&#x2705 Accompagnement social, familial et professionnel <br>
+<br>
+<li>Soins de support complémentaires : </li>
+&#x2705 Rééducation et activités physiques adaptées <br>
+&#x2705 Préservation de la fertilité <br>
+&#x2718 Gestion des troubles de la sexualité <br>
+&#x2705 Conseils d’hygiène de vie <br>
+&#x2705 Soutien psychologique des proches et des aidants <br>
+<br>
+<li>Autres soins de support et services : </li>
+&#x2705 Onco-gériatrie <br>
+&#x2705 Unité mobile de soins palliatifs <br>
+&#x2705 Unité de soins palliatifs dédiée <br>
+&#x2705 Hôpital de jour de soins de support <br>
+&#x2705 Espace de réflexion éthique <br>
+&#x2705 Approches non conventionnelles (hypnose, acupuncture, sophrologie, …) <br>
+&#x2705 Gestion de la fatigue <br>
+&#x2718 Ateliers d’art thérapie <br>
+&#x2705 Parcours de préhabilitation <br>
+<br>
 </ul>
 <br>
 </details>   
@@ -1481,17 +1620,29 @@ Fax : 01 45 59 69 57<br>
 <br>   
 <B>Soins de support</B> <br>
 <ul>
-<li>Diététique et nutrition</li>      
-<li>Soutien psychologique du patient</li>   
-<li>Soutien psychologique des proches et des aidants</li>   
-<li>Accompagnement social, familial et professionnel</li>   
-<li> Rééducation et activités physiques adaptées </li>   
-<li>Gestion de la douleur</li>   
-<li> Unité de soins palliatifs dédiée</li>   
-<li>Unité mobile de soins palliatifs</li>   
-<li> Onco-gériatrie</li>   
-<li> Approches non conventionnelles </li>   
-<li> Hôpital de jour de soins de support </li>
+<li>Soins « socle » :</li>
+&#x2705 Gestion de la douleur <br>
+&#x2705 Diététique et nutrition <br>
+&#x2705 Soutien psychologique du patient <br>
+&#x2705 Accompagnement social, familial et professionnel <br>
+<br>
+<li>Soins de support complémentaires : </li>
+&#x2705 Rééducation et activités physiques adaptées <br>
+&#x2718 Préservation de la fertilité <br>
+&#x2718 Gestion des troubles de la sexualité <br>
+&#x2718 Conseils d’hygiène de vie <br>
+&#x2705 Soutien psychologique des proches et des aidants <br>
+<br>
+<li>Autres soins de support et services : </li>
+&#x2705 Onco-gériatrie <br>
+&#x2705 Unité mobile de soins palliatifs <br>
+&#x2705 Unité de soins palliatifs dédiée <br>
+&#x2705 Hôpital de jour de soins de support <br>
+&#x2718 Espace de réflexion éthique <br>
+&#x2705 Approches non conventionnelles (hypnose, acupuncture, sophrologie, …) <br>
+&#x2718 Gestion de la fatigue <br>
+&#x2718 Ateliers d’art thérapie <br>
+<br>
 </ul>
 <br>
 </details>   
@@ -1557,20 +1708,30 @@ Fax : 02 31 06 45 45<br>
 <br>   
 <B>Soins de support</B> <br>
 <ul>
-<li>Diététique et nutrition</li>      
-<li>Soutien psychologique du patient</li>   
-<li>Soutien psychologique des proches et des aidants</li>   
-<li>Accompagnement social, familial et professionnel</li>   
-<li> Rééducation et activités physiques adaptées </li>   
-<li>Gestion de la douleur</li>
-<li>Unité de soins palliatifs dédiée</li>      
-<li>Unité mobile de soins palliatifs</li>   
-<li> Onco-gériatrie</li>   
-<li> Préservation de la fertilité </li>   
-<li> Espace de réflexion éthique</li>   
-<li> Hôpital de jour de soins de support </li>   
-<li> Patient partenaire </li>   
-
+<li>Soins « socle » :</li>
+&#x2705 Gestion de la douleur <br>
+&#x2705 Diététique et nutrition <br>
+&#x2705 Soutien psychologique du patient <br>
+&#x2705 Accompagnement social, familial et professionnel <br>
+<br>
+<li>Soins de support complémentaires : </li>
+&#x2705 Rééducation et activités physiques adaptées <br>
+&#x2705 Préservation de la fertilité <br>
+&#x2718 Gestion des troubles de la sexualité <br>
+&#x2718 Conseils d’hygiène de vie <br>
+&#x2705 Soutien psychologique des proches et des aidants <br>
+<br>
+<li>Autres soins de support et services : </li>
+&#x2705 Onco-gériatrie <br>
+&#x2705 Unité mobile de soins palliatifs <br>
+&#x2705 Unité de soins palliatifs dédiée <br>
+&#x2705 Hôpital de jour de soins de support <br>
+&#x2705 Espace de réflexion éthique <br>
+&#x2718 Approches non conventionnelles (hypnose, acupuncture, sophrologie, …) <br>
+&#x2718 Gestion de la fatigue <br>
+&#x2718 Ateliers d’art thérapie <br>
+&#x2705 Patient partenaire <br>
+<br>
 </ul>
 <br>
 </details>   
@@ -1627,20 +1788,29 @@ secretariat.oncodig@chu-bordeaux.fr <br>
 <B>Soins de support</B> <br>
 <br>
 <ul>
-<li>Diététique et nutrition</li>      
-<li>Soutien psychologique du patient</li>   
-<li>Soutien psychologique des proches et des aidants</li>   
-<li>Accompagnement social, familial et professionnel</li>   
-<li>Gestion de la douleur</li>
-<li>Unité de soins palliatifs dédiée </li>   
- <li>Unité mobile de soins palliatifs</li>   
-<li>Hôpital de jour de soins de support </li>   
-<li>Onco-gériatrie</li>   
-<li>Approches non conventionnelles </li>   
-<li>Gestion des troubles de la sexualité</li>   
-<li>Préservation de la fertilité</li>   
-<li>Ateliers d'art-thérapie</li>   
-<li>Espace de réflexion éthique</li>   
+<li>Soins « socle » :</li>
+&#x2705 Gestion de la douleur <br>
+&#x2705 Diététique et nutrition <br>
+&#x2705 Soutien psychologique du patient <br>
+&#x2705 Accompagnement social, familial et professionnel <br>
+<br>
+<li>Soins de support complémentaires : </li>
+&#x2718 Rééducation et activités physiques adaptées <br>
+&#x2705 Préservation de la fertilité <br>
+&#x2705 Gestion des troubles de la sexualité <br>
+&#x2718 Conseils d’hygiène de vie <br>
+&#x2705 Soutien psychologique des proches et des aidants <br>
+<br>
+<li>Autres soins de support et services : </li>
+&#x2705 Onco-gériatrie <br>
+&#x2705 Unité mobile de soins palliatifs <br>
+&#x2705 Unité de soins palliatifs dédiée <br>
+&#x2705 Hôpital de jour de soins de support <br>
+&#x2705 Espace de réflexion éthique <br>
+&#x2705 Approches non conventionnelles (hypnose, acupuncture, sophrologie, …) <br>
+&#x2718 Gestion de la fatigue <br>
+&#x2705 Ateliers d’art thérapie <br>
+<br>  
 </ul>
 <br>
 </details>   
@@ -1696,23 +1866,30 @@ Fax : 05 55 05 63 01 <br>
 <br>   
 <B>Soins de support</B> <br>
 <ul>
-<li>Diététique et nutrition</li>      
-<li>Soutien psychologique du patient</li>   
-<li>Soutien psychologique des proches et des aidants</li>   
-<li>Accompagnement social, familial et professionnel</li>   
-<li> Rééducation et activités physiques adaptées </li>   
-<li>Gestion de la douleur</li>   
-<li>Gestion de la fatigue</li>   
-<li> Unité de soins palliatifs dédiée</li>   
-<li>Unité mobile de soins palliatifs</li>   
-<li> Onco-gériatrie</li>   
-<li> Gestion des troubles de la sexualité</li>   
-<li> Préservation de la fertilité </li>   
-<li> Conseils d'hygiène de vie </li>
-<li> Hôpital de jour de soins de support </li>
-<li> Espace de réflexion éthique</li>   
-<li> Socio-esthéticiennes</li>   
-
+<li>Soins « socle » :</li>
+&#x2705 Gestion de la douleur <br>
+&#x2705 Diététique et nutrition <br>
+&#x2705 Soutien psychologique du patient <br>
+&#x2705 Accompagnement social, familial et professionnel <br>
+<br>
+<li>Soins de support complémentaires : </li>
+&#x2705 Rééducation et activités physiques adaptées <br>
+&#x2705 Préservation de la fertilité <br>
+&#x2705 Gestion des troubles de la sexualité <br>
+&#x2705 Conseils d’hygiène de vie <br>
+&#x2705 Soutien psychologique des proches et des aidants <br>
+<br>
+<li>Autres soins de support et services : </li>
+&#x2705 Onco-gériatrie <br>
+&#x2705 Unité mobile de soins palliatifs <br>
+&#x2705 Unité de soins palliatifs dédiée <br>
+&#x2705 Hôpital de jour de soins de support <br>
+&#x2705 Espace de réflexion éthique <br>
+&#x2718 Approches non conventionnelles (hypnose, acupuncture, sophrologie, …) <br>
+&#x2705 Gestion de la fatigue <br>
+&#x2718 Ateliers d’art thérapie <br>
+&#x2705 Socio-esthéticiennes <br>
+<br>
 </ul>
 <br>
 </details>   
@@ -1776,23 +1953,29 @@ Fax : 05 49 44 38 35 <br>
 <br>   
 <B>Soins de support</B> <br>
 <ul>
-<li>Diététique et nutrition</li>      
-<li>Soutien psychologique du patient</li>   
-<li>Soutien psychologique des proches et des aidants</li>   
-<li>Accompagnement social, familial et professionnel</li>   
-<li> Rééducation et activités physiques adaptées </li>   
-<li>Gestion de la douleur</li>   
-<li>Gestion de la fatigue</li>   
-<li> Unité de soins palliatifs dédiée</li>   
-<li>Unité mobile de soins palliatifs</li>   
-<li> Onco-gériatrie</li>   
-<li> Approches non conventionnelles (hypnose, acupuncture, sophrologie,...)</li>   
-<li> Gestion des troubles de la sexualité</li>   
-<li> Préservation de la fertilité </li>   
-<li> Conseils d'hygiène de vie</li>  
-<li> Ateliers d'art-thérapie</li>   
-<li> Espace de réflexion éthique</li>   
-
+<li>Soins « socle » :</li>
+&#x2705 Gestion de la douleur <br>
+&#x2705 Diététique et nutrition <br>
+&#x2705 Soutien psychologique du patient <br>
+&#x2705 Accompagnement social, familial et professionnel <br>
+<br>
+<li>Soins de support complémentaires : </li>
+&#x2705 Rééducation et activités physiques adaptées <br>
+&#x2705 Préservation de la fertilité <br>
+&#x2705 Gestion des troubles de la sexualité <br>
+&#x2705 Conseils d’hygiène de vie <br>
+&#x2705 Soutien psychologique des proches et des aidants <br>
+<br>
+<li>Autres soins de support et services : </li>
+&#x2705 Onco-gériatrie <br>
+&#x2705 Unité mobile de soins palliatifs <br>
+&#x2705 Unité de soins palliatifs dédiée <br>
+&#x2718 Hôpital de jour de soins de support <br>
+&#x2705 Espace de réflexion éthique <br>
+&#x2705 Approches non conventionnelles (hypnose, acupuncture, sophrologie, …) <br>
+&#x2705 Gestion de la fatigue <br>
+&#x2705 Ateliers d’art thérapie <br>
+<br>  
 </ul>
 <br>
 </details>   
@@ -1858,18 +2041,29 @@ Fax : 04 67 33 23 10 <br>
 <br>   
 <B>Soins de support</B> <br>
 <ul>
-<li>Diététique et nutrition</li>      
-<li>Soutien psychologique du patient</li>   
-<li>Soutien psychologique des proches et des aidants</li>   
-<li>Accompagnement social, familial et professionnel</li>   
-<li> Rééducation et activités physiques adaptées </li>   
-<li>Gestion de la douleur</li>   
-<li> Unité de soins palliatifs dédiée</li>   
-<li>Unité mobile de soins palliatifs</li>   
-<li> Onco-gériatrie</li>   
-<li> Approches non conventionnelles </li>   
-<li> Préservation de la fertilité </li>   
-<li> Espace de réflexion éthique</li>   
+<li>Soins « socle » :</li>
+&#x2705 Gestion de la douleur <br>
+&#x2705 Diététique et nutrition <br>
+&#x2705 Soutien psychologique du patient <br>
+&#x2705 Accompagnement social, familial et professionnel <br>
+<br>
+<li>Soins de support complémentaires : </li>
+&#x2705 Rééducation et activités physiques adaptées <br>
+&#x2705 Préservation de la fertilité <br>
+&#x2718 Gestion des troubles de la sexualité <br>
+&#x2718 Conseils d’hygiène de vie <br>
+&#x2705 Soutien psychologique des proches et des aidants <br>
+<br>
+<li>Autres soins de support et services : </li>
+&#x2705 Onco-gériatrie <br>
+&#x2705 Unité mobile de soins palliatifs <br>
+&#x2705 Unité de soins palliatifs dédiée <br>
+&#x2718 Hôpital de jour de soins de support <br>
+&#x2705 Espace de réflexion éthique <br>
+&#x2705 Approches non conventionnelles (hypnose, acupuncture, sophrologie, …) <br>
+&#x2718 Gestion de la fatigue <br>
+&#x2718 Ateliers d’art thérapie <br>
+<br>
 </ul>
 <br>
 </details>   
@@ -1921,18 +2115,29 @@ Tel : 05 61 32 34 14<br>
 <br>   
 <B>Soins de support</B> <br>
 <ul>
-<li>Diététique et nutrition</li>      
-<li>Soutien psychologique du patient</li>   
-<li>Soutien psychologique des proches et des aidants</li>   
-<li>Accompagnement social, familial et professionnel</li>   
-<li> Rééducation et activités physiques adaptées </li>   
-<li>Gestion de la douleur</li>   
-<li>Gestion de la fatigue</li>   
-<li>Unité mobile de soins palliatifs</li>   
-<li> Onco-gériatrie</li>   
-<li> Gestion des troubles de la sexualité</li>   
-<li> Préservation de la fertilité </li>   
-<li> Conseils d'hygiène de vie</li>  
+<li>Soins « socle » :</li>
+&#x2705 Gestion de la douleur <br>
+&#x2705 Diététique et nutrition <br>
+&#x2705 Soutien psychologique du patient <br>
+&#x2705 Accompagnement social, familial et professionnel <br>
+<br>
+<li>Soins de support complémentaires : </li>
+&#x2705 Rééducation et activités physiques adaptées <br>
+&#x2705 Préservation de la fertilité <br>
+&#x2705 Gestion des troubles de la sexualité <br>
+&#x2705 Conseils d’hygiène de vie <br>
+&#x2705 Soutien psychologique des proches et des aidants <br>
+<br>
+<li>Autres soins de support et services : </li>
+&#x2705 Onco-gériatrie <br>
+&#x2705 Unité mobile de soins palliatifs <br>
+&#x2718 Unité de soins palliatifs dédiée <br>
+&#x2718 Hôpital de jour de soins de support <br>
+&#x2718 Espace de réflexion éthique <br>
+&#x2718 Approches non conventionnelles (hypnose, acupuncture, sophrologie, …) <br>
+&#x2705 Gestion de la fatigue <br>
+&#x2718 Ateliers d’art thérapie <br>
+<br>
 </ul>
 <br>
 </details>   
@@ -1983,18 +2188,29 @@ Fax : 02 41 35 78 82<br>
 <br>   
 <B>Soins de support</B> <br>
 <ul>
-<li>Diététique et nutrition</li>      
-<li>Soutien psychologique du patient</li>   
-<li>Soutien psychologique des proches et des aidants</li>   
-<li> Rééducation et activités physiques adaptées </li>   
-<li>Gestion de la douleur</li>   
-<li> Unité de soins palliatifs dédiée</li>   
-<li>Unité mobile de soins palliatifs</li>   
-<li> Onco-gériatrie</li>   
-<li> Gestion des troubles de la sexualité</li>   
-<li> Préservation de la fertilité </li>   
-<li> Hôpital de jour de soins de support </li>
-
+<li>Soins « socle » :</li>
+&#x2705 Gestion de la douleur <br>
+&#x2705 Diététique et nutrition <br>
+&#x2705 Soutien psychologique du patient <br>
+&#x2718 Accompagnement social, familial et professionnel <br>
+<br>
+<li>Soins de support complémentaires : </li>
+&#x2705 Rééducation et activités physiques adaptées <br>
+&#x2705 Préservation de la fertilité <br>
+&#x2705 Gestion des troubles de la sexualité <br>
+&#x2718 Conseils d’hygiène de vie <br>
+&#x2705 Soutien psychologique des proches et des aidants <br>
+<br>
+<li>Autres soins de support et services : </li>
+&#x2705 Onco-gériatrie <br>
+&#x2705 Unité mobile de soins palliatifs <br>
+&#x2705 Unité de soins palliatifs dédiée <br>
+&#x2705 Hôpital de jour de soins de support <br>
+&#x2718 Espace de réflexion éthique <br>
+&#x2718 Approches non conventionnelles (hypnose, acupuncture, sophrologie, …) <br>
+&#x2718 Gestion de la fatigue <br>
+&#x2718 Ateliers d’art thérapie <br>
+<br>
 </ul>
 <br>
 </details>   
@@ -2054,22 +2270,29 @@ yann.touchefeu@chu-nantes.fr <br>
   
 <B>Soins de support</B> <br>
 <ul>
-<li>Diététique et nutrition</li>      
-<li>Soutien psychologique du patient</li>   
-<li>Soutien psychologique des proches et des aidants</li>   
-<li>Accompagnement social, familial et professionnel</li>   
-<li>Rééducation et activités physiques adaptées</li>   
-<li>Gestion de la douleur</li>   
-<li>Gestion de la fatigue</li>
-<li>Unité de soins palliatifs dédiée</li>   
-<li>Unité mobile de soins palliatifs</li>   
-<li>Onco-gériatrie</li>   
-<li>Approches non conventionnelles (hypnose, acupuncture, sophrologie,...)</li>
-<li>Gestion des troubles de la sexualité</li>
-<li>Préservation de la fertilité</li>
-<li>Conseils d'hygiène de vie</li>
-<li>Ateliers d'art-thérapie</li>
-<li>Espace de réflexion éthique</li>
+<li>Soins « socle » :</li>
+&#x2705 Gestion de la douleur <br>
+&#x2705 Diététique et nutrition <br>
+&#x2705 Soutien psychologique du patient <br>
+&#x2705 Accompagnement social, familial et professionnel <br>
+<br>
+<li>Soins de support complémentaires : </li>
+&#x2705 Rééducation et activités physiques adaptées <br>
+&#x2705 Préservation de la fertilité <br>
+&#x2705 Gestion des troubles de la sexualité <br>
+&#x2705 Conseils d’hygiène de vie <br>
+&#x2705 Soutien psychologique des proches et des aidants <br>
+<br>
+<li>Autres soins de support et services : </li>
+&#x2705 Onco-gériatrie <br>
+&#x2705 Unité mobile de soins palliatifs <br>
+&#x2705 Unité de soins palliatifs dédiée <br>
+&#x2718 Hôpital de jour de soins de support <br>
+&#x2705 Espace de réflexion éthique <br>
+&#x2705 Approches non conventionnelles (hypnose, acupuncture, sophrologie, …) <br>
+&#x2705 Gestion de la fatigue <br>
+&#x2705 Ateliers d’art thérapie <br>
+<br>
 </ul>
 
  
@@ -2124,23 +2347,29 @@ Tel : 04 92 03 69 81<br>
 <br>   
 <B>Soins de support</B> <br>
 <ul>
-<li>Diététique et nutrition</li>      
-<li>Soutien psychologique du patient</li>   
-<li>Soutien psychologique des proches et des aidants</li>   
-<li>Accompagnement social, familial et professionnel</li>   
-<li> Rééducation et activités physiques adaptées </li>   
-<li>Gestion de la douleur</li>   
-<li>Gestion de la fatigue</li>   
-<li> Unité de soins palliatifs dédiée</li>   
-<li>Unité mobile de soins palliatifs</li>   
-<li> Onco-gériatrie</li>   
-<li> Approches non conventionnelles (hypnose, acupuncture, sophrologie,...)</li>   
-<li> Gestion des troubles de la sexualité</li>   
-<li> Préservation de la fertilité </li>   
-<li> Conseils d'hygiène de vie</li>  
-<li> Hôpital de jour de soins de support </li>   
-<li> Espace de réflexion éthique</li>   
-
+<li>Soins « socle » :</li>
+&#x2705 Gestion de la douleur <br>
+&#x2705 Diététique et nutrition <br>
+&#x2705 Soutien psychologique du patient <br>
+&#x2705 Accompagnement social, familial et professionnel <br>
+<br>
+<li>Soins de support complémentaires : </li>
+&#x2705 Rééducation et activités physiques adaptées <br>
+&#x2705 Préservation de la fertilité <br>
+&#x2705 Gestion des troubles de la sexualité <br>
+&#x2705 Conseils d’hygiène de vie <br>
+&#x2705 Soutien psychologique des proches et des aidants <br>
+<br>
+<li>Autres soins de support et services : </li>
+&#x2705 Onco-gériatrie <br>
+&#x2705 Unité mobile de soins palliatifs <br>
+&#x2705 Unité de soins palliatifs dédiée <br>
+&#x2705 Hôpital de jour de soins de support <br>
+&#x2705 Espace de réflexion éthique <br>
+&#x2705 Approches non conventionnelles (hypnose, acupuncture, sophrologie, …) <br>
+&#x2705 Gestion de la fatigue <br>
+&#x2718 Ateliers d’art thérapie <br>
+<br>
 </ul>
 <br>
 </details>   
@@ -2240,6 +2469,7 @@ ppramirezgarcia@hopital-saint-joseph.fr <br>
 Tel : 04 91 80 82 35<br>
 </ul>
 </details>
+
 
 
 
