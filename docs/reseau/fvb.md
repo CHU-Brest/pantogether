@@ -1178,23 +1178,29 @@ giuliana.amaddeo@aphp.fr<br>
 
 <B>Plateaux techniques</B> <br>    
 <ul>
-<li>Radiothérapie externe </li>   
-<li>Radio-embolisation</li>   
-<li>Radiologie interventionnelle</li>   
-<li> Médecine nucléaire </li>   
-<li>Endoscopie interventionnelle bilio-pancréatique</li>   
-<li>Chirurgie viscérale</li>
-<li>Chirurgie digestive de recours</li>   
-<li> Chirurgie hépatique et transplantation hépatique </li>   
-<li>Oncogénétique</li>   
-<li> Plateforme de biologie moléculaire </li> 
-<li> Plateforme d'anatomopathologie </li> 
-<li>Plateforme d’imagerie</li> 
-<li> Plateau de réanimation </li> 
-<li> Centre de diagnostic rapide</li>  
-<li> Unité de recherche clinique dédiée</li>  
-<li>Centre d'Investigation Clinique multithématique</li>
-<li> Accès aux études de phase I </li>
+<li>Diagnostic</li>  
+&#x2705 Médecine nucléaire  <br>    
+&#x2705 Endoscopie interventionnelle bilio-pancréatique   <br>
+&#x2705 Plateforme de biologie moléculaire <br>
+&#x2705 Plateforme d'anatomopathologie <br> 
+&#x2705 Plateforme d’imagerie <br>  
+&#x2705 Oncogénétique <br>  
+&#x2705 Centre de diagnostic rapide <br>   
+<br>
+<li>Traitement</li>
+&#x2705 Radiothérapie externe  <br>   
+&#x2705 Radio-embolisation <br>   
+&#x2705 Radiologie interventionnelle <br>  
+&#x2705 Chirurgie viscérale  <br>
+&#x2705 Chirurgie digestive de recours <br>  
+&#x2705 Chirurgie hépatique et transplantation hépatique <br>  
+&#x2705 Plateau de réanimation <br> 
+<br>
+<li>Recherche</li>
+&#x2705 Unité de recherche clinique dédiée <br> 
+&#x2705 Centre d'Investigation Clinique multithématique <br>
+&#x2705 Accès aux études de phase I <br>
+<br>
 </ul>
 <br>   
 <B>Soins de support</B> <br>
@@ -1262,23 +1268,29 @@ Fax : 01 40 87 44 29 <br>
 
 <B>Plateaux techniques</B> <br>    
 <ul>
-<li> Radio-embolisation</li>   
-<li>Radiologie interventionnelle</li>   
-<li>Médecine nucléaire</li>   
-<li>Endoscopie interventionnelle bilio-pancréatique</li>   
-<li>Chirurgie viscérale</li>
-<li>Chirurgie digestive de recours</li>   
-<li> Chirurgie hépatique et transplantation hépatique </li>   
-<li>Oncogénétique</li>   
-<li>Plateforme de biologie moléculaire</li>   
-<li>Plateforme d’anatomopathologie</li>   
-<li>Plateforme d’imagerie</li>   
-<li>Plateau de réanimation</li>
-<li>Unité de recherche clinique dédiée</li>
-   
-<li>Centre d'Investigation Clinique multithématique</li>
-<li>Accès aux études de phase I</li>  
-<li>Centre de Diagnostic Rapide</li>
+<li>Diagnostic</li>  
+&#x2705 Médecine nucléaire  <br>    
+&#x2705 Endoscopie interventionnelle bilio-pancréatique   <br>
+&#x2705 Plateforme de biologie moléculaire <br>
+&#x2705 Plateforme d'anatomopathologie <br> 
+&#x2705 Plateforme d’imagerie <br>  
+&#x2705 Oncogénétique <br>  
+&#x2705 Centre de diagnostic rapide <br>   
+<br>
+<li>Traitement</li>
+&#x2718 Radiothérapie externe  <br>   
+&#x2705 Radio-embolisation <br>   
+&#x2705 Radiologie interventionnelle <br>  
+&#x2705 Chirurgie viscérale  <br>
+&#x2705 Chirurgie digestive de recours <br>  
+&#x2705 Chirurgie hépatique et transplantation hépatique <br>  
+&#x2705 Plateau de réanimation <br> 
+<br>
+<li>Recherche</li>
+&#x2705 Unité de recherche clinique dédiée <br> 
+&#x2705 Centre d'Investigation Clinique multithématique <br>
+&#x2705 Accès aux études de phase I <br>
+<br>
 </ul>
 <br>   
 <B>Soins de support</B> <br>
@@ -1357,21 +1369,32 @@ Fax : 01 49 28 21 07 <br>
 
 <B>Plateaux techniques</B> <br>
 <ul>
-<li>Radiologie interventionnelle</li>   
-<li>Endoscopie interventionnelle bilio-pancréatique</li>   
-<li>Chirurgie viscérale</li>
-<li>Chirurgie digestive de recours</li>   
-<li>Oncogénétique</li>   
-<li>Plateforme d’imagerie</li> 
-<li>Unité de recherche clinique dédiée</li>  
-<li>Centre d'Investigation Clinique multithématique</li>
-<li>Plateau de réanimation</li>
-<li>Chirurgie de transplantation hépatique via hôpital de la Pitié-Salpêtrière</li>
-<li>Radio-embolisation via convention avec l’hôpital de la Pitié-Salpêtrière</li>
-<li>Radiothérapie via convention avec l’hôpital de la Pitié-Salpêtrière et Hôpital Tenon</li>
-<li>Médecine nucléaire via convention avec l’hôpital de la Pitié-Salpêtrière et l’hôpital Tenon</li>
-<li>Plateforme de biologie moléculaire via convention avec l’hôpital de la Pitié-Salpêtrière</li>   
-<li>Plateforme d’anatomopathologie via convention avec l’hôpital de la Pitié-Salpêtrière</li>  
+<li>Diagnostic</li>  
+&#x2718 Médecine nucléaire*  <br>    
+&#x2705 Endoscopie interventionnelle bilio-pancréatique   <br>
+&#x2718 Plateforme de biologie moléculaire* <br>
+&#x2718 Plateforme d'anatomopathologie* <br> 
+&#x2705 Plateforme d’imagerie <br>  
+&#x2705 Oncogénétique <br>  
+&#x2718 Centre de diagnostic rapide <br>   
+<br>
+<li>Traitement</li>
+&#x2718 Radiothérapie externe*  <br>   
+&#x2718 Radio-embolisation* <br>   
+&#x2705 Radiologie interventionnelle <br>  
+&#x2705 Chirurgie viscérale  <br>
+&#x2705 Chirurgie digestive de recours <br>  
+&#x2718 Chirurgie hépatique et transplantation hépatique* <br>  
+&#x2705 Plateau de réanimation <br> 
+<br>
+<li>Recherche</li>
+&#x2705 Unité de recherche clinique dédiée <br> 
+&#x2705 Centre d'Investigation Clinique multithématique <br>
+&#x2718 Accès aux études de phase I <br>
+<br>
+*Convention pour la chirurgie de transplantation hépatique, la radio-embolisation, la plateforme de biologie moléculaire et plateforme d’anatomopathologie avec l’hôpital de la Pitié-Salpêtrière<br> 
+*Convention pour la radiothérapie et la médecine nucléaire avec l’hôpital de la Pitié-Salpêtrière et l’hôpital Tenon<br>
+<br>
 </ul>
 <br>   
 <B>Soins de support</B> <br>
@@ -2548,6 +2571,7 @@ ppramirezgarcia@hopital-saint-joseph.fr <br>
 Tel : 04 91 80 82 35<br>
 </ul>
 </details>
+
 
 
 
