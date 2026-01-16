@@ -1,0 +1,2013 @@
+---
+title: Cartes intéractives des centres
+
+---
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Carte interactive CHU – Métropole & DOM-TOM</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<style>
+body{margin:0;font-family:Arial}
+#map{height:100vh}
+#panel{
+ position:absolute;top:10px;left:10px;z-index:1000;
+ background:white;padding:10px;border-radius:8px;
+ box-shadow:0 2px 8px rgba(0,0,0,.2);width:260px;font-size:14px
+}
+#panel h3{margin:5px 0}
+#nav button{margin:2px 0;width:100%}
+.leaflet-popup-content{max-height:300px;overflow:auto}
+</style>
+</head>
+<body>
+
+<div id="panel">
+<h3>Filtrer les centres</h3>
+<hr>
+<b>Centres visibles</b>
+<div id="listeCentres" style="max-height:200px;overflow:auto;border:1px solid #ccc;padding:5px"></div>
+
+
+<b>Région :</b><br>
+<select id="regionFilter" style="width:100%">
+<option value="">Toutes</option>
+</select>
+
+<br><br>
+<details>
+<summary><b>Ressources de soin</b></summary><br>
+<label><input type="checkbox" value="Médecine nucléaire" class="res"> Médecine nucléaire</label><br>
+<label><input type="checkbox" value="Endoscopie interventionnelle bilio-pancréatique" class="res"> Endoscopie interventionnelle bilio-pancréatique</label><br>
+<label><input type="checkbox" value="Plateforme de biologie moléculaire" class="res"> Plateforme de biologie moléculaire</label><br>
+<label><input type="checkbox" value="Plateforme d'anatomopathologie" class="res"> Plateforme d'anatomopathologie</label><br>
+<label><input type="checkbox" value="Plateforme d’imagerie" class="res"> Plateforme d’imagerie</label><br>
+<label><input type="checkbox" value="Oncogénétique" class="res"> Oncogénétique</label><br>
+<label><input type="checkbox" value="Centre de diagnostic rapide" class="res"> Centre de diagnostic rapide</label><br>
+<label><input type="checkbox" value="Radiothérapie externe" class="res"> Radiothérapie externe</label><br>
+<label><input type="checkbox" value="Radio-embolisation" class="res"> Radio-embolisation</label><br>
+<label><input type="checkbox" value="Radiologie interventionnelle" class="res"> Radiologie interventionnelle</label><br>
+<label><input type="checkbox" value="Chirurgie viscérale" class="res"> Chirurgie viscérale</label><br>
+<label><input type="checkbox" value="Chirurgie digestive de recours" class="res"> Chirurgie digestive de recours</label><br>
+<label><input type="checkbox" value="Chirurgie hépatique et transplantation hépatique" class="res"> Chirurgie hépatique et transplantation hépatique</label><br>
+<label><input type="checkbox" value="Plateau de réanimation" class="res"> Plateau de réanimation</label><br>
+<label><input type="checkbox" value="Unité de recherche clinique dédiée" class="res"> Unité de recherche clinique dédiée</label><br>
+<label><input type="checkbox" value="Centre d'Investigation Clinique multithématique" class="res"> Centre d'Investigation Clinique multithématique</label><br>
+<label><input type="checkbox" value="Accès aux études de phase I" class="res"> Accès aux études de phase I</label><br>
+</details>
+<br>
+<details>
+<summary><b>Soins de support</b></summary><br>
+<label><input type="checkbox" value="Gestion de la douleur" class="res"> Gestion de la douleur</label><br>
+<label><input type="checkbox" value="Diététique et nutrition" class="res"> Diététique et nutrition</label><br>
+<label><input type="checkbox" value="Soutien psychologique du patient" class="res"> Soutien psychologique du patient</label><br>
+<label><input type="checkbox" value="Accompagnement social, familial et professionnel" class="res"> Accompagnement social, familial et professionnel</label><br>
+<label><input type="checkbox" value="Rééducation et activités physiques adaptées" class="res"> Rééducation et activités physiques adaptées</label><br>
+<label><input type="checkbox" value="Préservation de la fertilité" class="res"> Préservation de la fertilité</label><br>
+<label><input type="checkbox" value="Gestion des troubles de la sexualité" class="res"> Gestion des troubles de la sexualité</label><br>
+<label><input type="checkbox" value="Conseils d’hygiène de vie" class="res"> Conseils d’hygiène de vie</label><br>
+<label><input type="checkbox" value="Soutien psychologique des proches et des aidants" class="res"> Soutien psychologique des proches et des aidants</label><br>
+<label><input type="checkbox" value="Onco-gériatrie" class="res"> Onco-gériatrie</label><br>
+<label><input type="checkbox" value="Unité mobile de soins palliatifs" class="res"> Unité mobile de soins palliatifs</label><br>
+<label><input type="checkbox" value="Unité de soins palliatifs dédiée" class="res"> Unité de soins palliatifs dédiée</label><br>
+<label><input type="checkbox" value="Hôpital de jour de soins de support" class="res"> Hôpital de jour de soins de support</label><br>
+<label><input type="checkbox" value="Espace de réflexion éthique" class="res"> Espace de réflexion éthique</label><br>
+<label><input type="checkbox" value="Approches non conventionnelles" class="res"> Approches non conventionnelles</label><br>
+<label><input type="checkbox" value="Gestion de la fatigue" class="res"> Gestion de la fatigue</label><br>
+<label><input type="checkbox" value="Ateliers d’art thérapie" class="res"> Ateliers d’art thérapie</label><br>
+<label><input type="checkbox" value="Rééducation et activités physiques adaptées" class="res"> Rééducation et activités physiques adaptées</label><br>
+
+<br>
+</details>
+<button onclick="appliquerFiltres()">Appliquer</button>
+<button onclick="resetFiltres()">Réinitialiser</button>
+
+<hr>
+<b>Navigation DOM‑TOM</b>
+<div id="nav">
+<button onclick="zoomDOM('guyane')">Guyane</button>
+<button onclick="zoomDOM('guadeloupe')">Guadeloupe</button>
+<button onclick="zoomDOM('martinique')">Martinique</button>
+<button onclick="zoomDOM('reunion')">La Réunion</button>
+<button onclick="zoomFrance()">Métropole</button>
+</div>
+</div>
+
+<div id="map"></div>
+
+<script>
+const map = L.map('map').setView([46.6,2.5],6);
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'© OpenStreetMap'}).addTo(map);
+
+const markerGroup = L.layerGroup().addTo(map);
+
+// ===== Régions cliquables (GeoJSON) =====
+const urlRegions = "https://raw.githubusercontent.com/gregoiredavid/france-geojson/master/regions.geojson";
+
+fetch(urlRegions)
+.then(r=>r.json())
+.then(data=>{
+  L.geoJSON(data,{
+    style:{
+      color:"#2c3e50",
+      weight:1,
+      fillColor:"#3498db",
+      fillOpacity:0.25
+    },
+    onEachFeature:(feature,layer)=>{
+      layer.bindTooltip(feature.properties.nom,{sticky:true});
+
+      layer.on({
+        mouseover:e=>{
+          e.target.setStyle({fillOpacity:0.6});
+        },
+        mouseout:e=>{
+          e.target.setStyle({fillOpacity:0.25});
+        },
+        click:e=>{
+          const nom = feature.properties.nom;
+
+          map.fitBounds(e.target.getBounds());
+
+          regionSelect.value = nom;
+          appliquerFiltres();
+        }
+      });
+    }
+  }).addTo(map);
+});
+
+// ===== Données centres =====
+const hopitaux=[
+{
+ nom:"CHU Clermont-Ferrand",
+ ville:"Clermont-Ferrand",
+ region:"Auvergne-Rhône-Alpes",
+ lat:45.7789,
+ lng:3.0822,
+ ressources:["Endoscopie interventionnelle bilio-pancréatique","Plateforme de biologie moléculaire","Plateforme d'anatomopathologie","Plateforme d'imagerie","Oncogénétique", "Centre de diagnostic rapide", "Radiologie interventionnelle", "Chirurgie viscérale", "Chirurgie digestive de recours", "Chirurgie hépatique et transplantation hépatique", "Plateau de réanimation", "Unité de recherche clinique dédiée", "Centre d'Investigation Clinique multithématique", "Accès aux études de phase I", "Gestion de la douleur", "Diététique et nutrition", "Soutien psychologique du patient", "Accompagnement social, familial et professionnel", "Rééducation et activités physiques adaptées", "Préservation de la fertilité", "Soutien psychologique des proches et des aidants", "Onco-gériatrie", "Unité mobile de soins palliatifs", "Unité de soins palliatifs dédiée", "Hôpital de jour de soins de support", "Espace de réflexion éthique", "Approches non conventionnelles"],
+ popupHtml:`<h3>CHU Clermont-Ferrand</h3>
+<b>Pr ABERGEL Armand</b><br>
+Site Estaing, Service de Médecine digestive et hépatobiliaire<br>
+1 place Lucie Aubrac 63001 <b>Clermont-Ferrand</b><br>
+<a href="mailto:aabergel@chu-clermontferrand.fr">aabergel@chu-clermontferrand.fr</a><br><br>
+
+<b>Secrétariat :</b><br>
+GARREAU Sylvie<br>
+<a href="mailto:sgarreau@chu-clermontferrand.fr">sgarreau@chu-clermontferrand.fr</a><br>
+Tel : 04 73 75 05 23<br>
+<br>
+<details>
+<summary><b>Ressources de soin</b></summary><br>
+<B>Plateaux techniques</B> <br>    
+<ul>
+<li><b>Diagnostic :</b></li>  
+&#x2718 Médecine nucléaire* <br>    
+&#x2705 Endoscopie interventionnelle bilio-pancréatique   <br>
+&#x2705 Plateforme de biologie moléculaire* <br>
+&#x2705 Plateforme d'anatomopathologie <br> 
+&#x2705 Plateforme d'imagerie <br>  
+&#x2705 Oncogénétique <br>  
+&#x2705 Centre de diagnostic rapide <br>   
+<br>
+<li><b>Traitement</b></li>
+&#x2718 Radiothérapie externe* <br>   
+&#x2718 Radio-embolisation* <br>   
+&#x2705 Radiologie interventionnelle <br>  
+&#x2705 Chirurgie viscérale   <br>
+&#x2705 Chirurgie digestive de recours <br>  
+&#x2705 Chirurgie hépatique et transplantation hépatique <br>  
+&#x2705 Plateau de réanimation <br> 
+ <br>
+<li><b>Recherche :</b></li>
+&#x2705 Unité de recherche clinique dédiée <br> 
+&#x2705 Centre d'Investigation Clinique multithématique <br>
+&#x2705 Accès aux études de phase I <br>
+<br>
+*Convention avec le Centre de Lutte Contre le Cancer Jean Perrin de Clermont-Ferrand pour l’accès aux plateaux de radiothérapie, radio-embolisation, médecine nucléaire et à la plateforme de séquençage génétique NGS
+</ul>
+<br>   
+<B>Soins de support</B> <br>
+<ul>
+<li><b>Soins « socle » :</b></li>
+&#x2705 Gestion de la douleur <br>
+&#x2705 Diététique et nutrition <br>
+&#x2705 Soutien psychologique du patient <br>
+&#x2705 Accompagnement social, familial et professionnel <br>
+<br>
+<li><b>Soins de support complémentaires : </b></li>
+&#x2705 Rééducation et activités physiques adaptées <br>
+&#x2705 Préservation de la fertilité <br>
+&#x2705 Gestion des troubles de la sexualité <br>
+&#x2718 Conseils d’hygiène de vie <br>
+&#x2705 Soutien psychologique des proches et des aidants <br>
+<br>
+<li><b>Autres soins de support et services : </b></li>
+&#x2705 Onco-gériatrie <br>
+&#x2705 Unité mobile de soins palliatifs <br>
+&#x2705 Unité de soins palliatifs dédiée <br>
+&#x2705 Hôpital de jour de soins de support <br>
+&#x2705 Espace de réflexion éthique <br>
+&#x2705 Approches non conventionnelles (hypnose, acupuncture, sophrologie, …) <br>
+&#x2718 Gestion de la fatigue <br>
+&#x2718 Ateliers d’art thérapie <br>
+<br>
+</ul>
+<br>
+</details>   
+
+<details>
+<summary><b>Ressources humaines</b></summary><br>
+<ul>  
+<li> <B>Attaché(e) de Recherche Clinique :</B> </li>
+smassoulier@chu-clermontferrand.fr <br>
+Tel : 04 73 75 05 93<br>
+</ul>
+</details>
+`
+},
+
+{
+ nom:"Hôpital Michallon, CHU Grenoble Alpes",
+ ville:"La Tronche",
+ region:"Auvergne-Rhône-Alpes",
+ lat: 45.205,
+ lng: 5.744,
+ressources:["Médecine nucléaire", "Endoscopie interventionnelle bilio-pancréatique","Plateforme de biologie moléculaire","Plateforme d'anatomopathologie","Plateforme d'imagerie","Oncogénétique", "Centre de diagnostic rapide", "Radiothérapie externe", "Radio-embolisation", "Radiologie interventionnelle", "Chirurgie viscérale", "Chirurgie digestive de recours", "Chirurgie hépatique et transplantation hépatique", "Plateau de réanimation", "Unité de recherche clinique dédiée", "Centre d'Investigation Clinique multithématique", "Accès aux études de phase I", "Gestion de la douleur", "Diététique et nutrition", "Soutien psychologique du patient", "Accompagnement social, familial et professionnel", "Rééducation et activités physiques adaptées", "Préservation de la fertilité", "Soutien psychologique des proches et des aidants", "Onco-gériatrie", "Unité mobile de soins palliatifs", "Unité de soins palliatifs dédiée", "Espace de réflexion éthique", "Approches non conventionnelles", "Ateliers d’art thérapie"],
+popupHtml:`<h3>Hôpital Michallon, CHU Grenoble Alpes</h3>
+<b>Pr COSTENTIN Charlotte</b><br>
+Service d'Hépato-gastroentérologie et d'oncologie digestive<br>
+Boulevard de la Chantourne 38700 <b>La Tronche</b><br>
+<a href="mailto:ccostentin@chu-grenoble.fr ">ccostentin@chu-grenoble.fr</a><br>
+<br>
+<b>Secrétariat :</b><br>
+BARDIN Françoise<br>
+<a href="mailto:fbardin@chu-grenoble.fr">fbardin@chu-grenoble.fr</a><br>
+Tel : 04 76 76 55 97<br>
+<br>
+<b><a href="https://www.chu-grenoble.fr/patients-et-accompagnants/offre-de-soin/hepato-gastroenterologie-et-oncologie-digestive" target="_blank">Site web</a></b> <br>
+<br>
+<details>
+<summary><b>Ressources de soin</b></summary><br>
+<B>Plateaux techniques</B> <br>    
+<ul>
+<li><b>Diagnostic :</b></li>  
+&#x2705 Médecine nucléaire <br>    
+&#x2705 Endoscopie interventionnelle bilio-pancréatique   <br>
+&#x2705 Plateforme de biologie moléculaire <br>
+&#x2705 Plateforme d'anatomopathologie <br> 
+&#x2705 Plateforme d’imagerie <br>  
+&#x2705 Oncogénétique <br>  
+&#x2705 Centre de diagnostic rapide <br> 
+<br>
+<li><b>Traitement</b></li>
+&#x2705 Radiothérapie externe <br>   
+&#x2705 Radio-embolisation <br>   
+&#x2705 Radiologie interventionnelle <br>  
+&#x2705 Chirurgie viscérale  <br>
+&#x2705 Chirurgie digestive de recours <br>  
+&#x2705 Chirurgie hépatique et transplantation hépatique <br>  
+&#x2705 Plateau de réanimation <br>
+<br>
+<li><b>Recherche :</b></li>
+&#x2705 Unité de recherche clinique dédiée <br> 
+&#x2705 Centre d'Investigation Clinique multithématique <br>
+&#x2705 Accès aux études de phase I <br>
+<br>
+</ul>
+<br>   
+<B>Soins de support</B> <br>
+<ul>
+<li><b>Soins « socle » :</b></li>
+&#x2705 Gestion de la douleur <br>
+&#x2705 Diététique et nutrition <br>
+&#x2705 Soutien psychologique du patient <br>
+&#x2705 Accompagnement social, familial et professionnel <br>
+<br>
+<li><b>Soins de support complémentaires : </b></li>
+&#x2705 Rééducation et activités physiques adaptées <br>
+&#x2705 Préservation de la fertilité <br>
+&#x2718 Gestion des troubles de la sexualité <br>
+&#x2718 Conseils d’hygiène de vie <br>
+&#x2705 Soutien psychologique des proches et des aidants <br>
+<br>
+<li><b>Autres soins de support et services : </b></li>
+&#x2705 Onco-gériatrie <br>
+&#x2705 Unité mobile de soins palliatifs <br>
+&#x2705 Unité de soins palliatifs dédiée <br>
+&#x2718 Hôpital de jour de soins de support <br>
+&#x2705 Espace de réflexion éthique <br>
+&#x2705 Approches non conventionnelles (hypnose, acupuncture, sophrologie, …) <br>
+&#x2718 Gestion de la fatigue <br>
+&#x2705 Ateliers d’art thérapie <br>
+&#x2705 Réflexologie plantaire <br>
+&#x2705 Psycho-esthéticienne <br>
+<br>
+</ul>
+<br>
+</details>   
+
+<details>
+<summary><b>Ressources humaines</b></summary><br>
+<ul>  
+<li> <B>Infirmier(e) de Coordination :</B> </li>
+Mélody & Océane<br>
+ideoncologiehge@chu-grenoble.fr<br>
+Tel : 04 76 76 53 01 <br>
+<br>
+<li> <B>Infirmier(e) en Pratiques Avancées :</B> </li>
+ODRU Céline 
+<br>
+  COdru1@chu-grenoble.fr
+<br>
+Tel : 04 76 76 53 99 <br>
+<br>
+<li> <B>Attaché(e) de Recherche Clinique :</B> </li>
+BORDY Laure  <br>
+ lbordy@chu-grenoble.fr <br>
+  Tel : 04 76 76 61 50<br> 
+</ul>
+</details>
+`
+},
+{
+ nom:"Hôpital de la Croix-Rousse, HCL",
+ ville:"Lyon",
+ region:"Auvergne-Rhône-Alpes",
+ lat: 45.75,
+ lng: 4.85,
+ressources:["Médecine nucléaire", "Endoscopie interventionnelle bilio-pancréatique","Plateforme de biologie moléculaire","Plateforme d'anatomopathologie","Plateforme d'imagerie","Oncogénétique", "Centre de diagnostic rapide", "Radiothérapie externe", "Radio-embolisation", "Radiologie interventionnelle", "Chirurgie viscérale", "Chirurgie digestive de recours", "Chirurgie hépatique et transplantation hépatique", "Plateau de réanimation", "Unité de recherche clinique dédiée", "Centre d'Investigation Clinique multithématique", "Accès aux études de phase I", "Gestion de la douleur", "Diététique et nutrition", "Soutien psychologique du patient", "Accompagnement social, familial et professionnel", "Rééducation et activités physiques adaptées", "Préservation de la fertilité", "Gestion des troubles de la sexualité", "Conseils d’hygiène de vie", "Soutien psychologique des proches et des aidants", "Onco-gériatrie", "Unité mobile de soins palliatifs", "Unité de soins palliatifs dédiée", "Hôpital de jour de soins de support", "Espace de réflexion éthique", "Gestion de la fatigue", "Approches non conventionnelles", "Ateliers d’art thérapie"],
+popupHtml:`<h3>Hôpital de la Croix-Rousse, HCL</h3>
+<b>Pr MERLE Philippe</b><br>
+Centre de Coordination en Cancérologie, Bâtiment A, 3ème étage<br>
+103 grande rue de la Croix-Rousse, 69004 <b>Lyon</b><br>
+<a href="mailto:philippe.merle@inserm.fr">philippe.merle@inserm.fr</a><br><br>
+
+<b>Secrétariat :</b><br>
+LESNIOHSKI Eve<br>
+<a href="mailto:eve.lesniohski@chu-lyon.fr">eve.lesniohski@chu-lyon.fr</a><br>
+Tel : 04 26 10 93 56<br>
+<br>
+<b><a href="https://www.chu-lyon.fr" target="_blank">Site web</a></b> <br>
+<br>
+<details>
+<summary><b>Ressources de soin</b></summary><br>
+<B>Plateaux techniques</B> <br>    
+<ul>
+<li><b>Diagnostic :</b></li>  
+&#x2705 Médecine nucléaire <br>    
+&#x2705 Endoscopie interventionnelle bilio-pancréatique <br>
+&#x2705 Plateforme de biologie moléculaire <br>
+&#x2705 Plateforme d'anatomopathologie <br> 
+&#x2705 Plateforme d’imagerie <br>  
+&#x2705 Oncogénétique <br>  
+&#x2705 Centre de diagnostic rapide <br>  
+<br>
+<li><b>Traitement</b></li>
+&#x2705 Radiothérapie externe <br>   
+&#x2705 Radio-embolisation <br>   
+&#x2705 Radiologie interventionnelle <br>  
+&#x2705 Chirurgie viscérale <br>
+&#x2705 Chirurgie digestive de recours <br>  
+&#x2705 Chirurgie hépatique et transplantation hépatique <br>  
+&#x2705 Plateau de réanimation <br> 
+<br>
+<li><b>Recherche :</b></li>
+&#x2705 Unité de recherche clinique dédiée <br> 
+&#x2705 Centre d'Investigation Clinique multithématique <br>
+&#x2705 Accès aux études de phase I <br>
+<br>
+</ul>
+<br>   
+<B>Soins de support</B> <br>
+<ul>
+<li><b>Soins « socle » :</b></li>
+&#x2705 Gestion de la douleur <br>
+&#x2705 Diététique et nutrition <br>
+&#x2705 Soutien psychologique du patient <br>
+&#x2705 Accompagnement social, familial et professionnel <br>
+<br>
+<li><b>Soins de support complémentaires : </b></li>
+&#x2705 Rééducation et activités physiques adaptées <br>
+&#x2705 Préservation de la fertilité <br>
+&#x2705 Gestion des troubles de la sexualité <br>
+&#x2705 Conseils d’hygiène de vie <br>
+&#x2705 Soutien psychologique des proches et des aidants <br>
+<br>
+<li><b>Autres soins de support et services : </b></li>
+&#x2705 Onco-gériatrie <br>
+&#x2705 Unité mobile de soins palliatifs <br>
+&#x2705 Unité de soins palliatifs dédiée <br>
+&#x2705 Hôpital de jour de soins de support <br>
+&#x2705 Espace de réflexion éthique <br>
+&#x2705 Approches non conventionnelles (hypnose, acupuncture, sophrologie, …) <br>
+&#x2705 Gestion de la fatigue <br>
+&#x2705 Ateliers d’art thérapie <br>
+<br>
+</ul>
+<br>
+</details>   
+
+<details>
+<summary><b>Ressources humaines</b></summary><br>
+<ul>  
+<li> <B>Infirmier(e) de Coordination :</B> </li>
+GUILLOREAU Paule<br>
+paule.guilloreau@chu-lyon.fr<br>
+Tel : 04 26 73 27 16<br>
+<br>
+<li> <B>Infirmier(e) en Pratiques Avancées :</B> </li>
+TAUREAU Charline<br>
+Tel : 04 72 07 13 47<br>
+<br>
+<li> <B>Attaché(e) de Recherche Clinique :</B> </li>
+GUILLOREAU Paule<br>
+paule.guilloreau@chu-lyon.fr<br>
+Tel : 04 26 73 27 16<br>
+</ul>
+</details>
+`
+},
+{
+ nom:"CHU Besançon",
+ ville:"Besançon",
+ region:"Bourgogne-Franche-Comté",
+ lat: 47.25,
+ lng: 6.03,
+ressources:["Médecine nucléaire", "Endoscopie interventionnelle bilio-pancréatique","Plateforme de biologie moléculaire","Plateforme d'anatomopathologie","Plateforme d'imagerie","Oncogénétique", "Centre de diagnostic rapide", "Radio-embolisation", "Radiologie interventionnelle", "Chirurgie viscérale", "Chirurgie digestive de recours", "Chirurgie hépatique et transplantation hépatique", "Plateau de réanimation", "Unité de recherche clinique dédiée", "Centre d'Investigation Clinique multithématique", "Gestion de la douleur", "Diététique et nutrition", "Soutien psychologique du patient", "Accompagnement social, familial et professionnel", "Rééducation et activités physiques adaptées", "Préservation de la fertilité", "Gestion des troubles de la sexualité", "Conseils d’hygiène de vie", "Soutien psychologique des proches et des aidants", "Onco-gériatrie", "Unité mobile de soins palliatifs", "Unité de soins palliatifs dédiée", "Hôpital de jour de soins de support", "Espace de réflexion éthique"],
+popupHtml:`<h3>CHU Besançon</h3>
+<b>Pr Di Martino Vincent</b><br>
+Servide d’hépatologie Boulevard Alexandre Fleming, 25000 <b>Besançon</b><br>
+<a href="mailto:vdimartino@chu-besancon.fr">vdimartino@chu-besancon.fr</a><br><br>
+
+<b>Secrétariat :</b><br>
+Tel : 03 81 66 84 21<br>
+Fax : 03 81 66 84 17<br>
+<br>
+<details>
+<summary><b>Ressources de soin</b></summary><br>
+<B>Plateaux techniques</B> <br>    
+<ul>
+<li><b>Diagnostic :</b></li>  
+&#x2705 Médecine nucléaire <br>    
+&#x2705 Endoscopie interventionnelle bilio-pancréatique <br>
+&#x2705 Plateforme de biologie moléculaire <br>
+&#x2705 Plateforme d'anatomopathologie <br> 
+&#x2705 Plateforme d’imagerie <br>  
+&#x2705 Oncogénétique <br>  
+&#x2705 Centre de diagnostic rapide <br>  
+<br>
+<li><b>Traitement</b></li>
+&#x2718 Radiothérapie externe <br>   
+&#x2705 Radio-embolisation <br>   
+&#x2705 Radiologie interventionnelle <br>  
+&#x2705 Chirurgie viscérale <br>
+&#x2705 Chirurgie digestive de recours <br>  
+&#x2705 Chirurgie hépatique et transplantation hépatique <br>  
+&#x2705 Plateau de réanimation <br> 
+<br>
+<li><b>Recherche :</b></li>
+&#x2705 Unité de recherche clinique dédiée <br> 
+&#x2705 Centre d'Investigation Clinique multithématique <br>
+&#x2718 Accès aux études de phase I <br>
+<br>
+</ul>
+<br>   
+<B>Soins de support</B> <br>
+<ul>
+<li><b>Soins « socle » :</b></li>
+&#x2705 Gestion de la douleur <br>
+&#x2705 Diététique et nutrition <br>
+&#x2705 Soutien psychologique du patient <br>
+&#x2705 Accompagnement social, familial et professionnel <br>
+<br>
+<li><b>Soins de support complémentaires : </b></li>
+&#x2705 Rééducation et activités physiques adaptées <br>
+&#x2705 Préservation de la fertilité <br>
+&#x2705 Gestion des troubles de la sexualité <br>
+&#x2705 Conseils d’hygiène de vie <br>
+&#x2705 Soutien psychologique des proches et des aidants <br>
+<br>
+<li><b>Autres soins de support et services : </b></li>
+&#x2705 Onco-gériatrie <br>
+&#x2705 Unité mobile de soins palliatifs <br>
+&#x2705 Unité de soins palliatifs dédiée <br>
+&#x2705 Hôpital de jour de soins de support <br>
+&#x2705 Espace de réflexion éthique <br>
+&#x2718 Approches non conventionnelles (hypnose, acupuncture, sophrologie, …) <br>
+&#x2718 Gestion de la fatigue <br>
+&#x2718 Ateliers d’art thérapie <br>
+<br>
+</ul>
+<br>
+</details>   
+
+<details>
+<summary><b>Ressources humaines</b></summary><br>
+<ul>  
+<li> <B>Attaché(e) de Recherche Clinique :</B> </li>
+MUEL Emilie<br>
+emuel@chu-besancon.fr<br>
+Tel : 03 81 66 84 96<br>
+</ul>
+</details>
+`
+},
+{
+ nom:" Hôpital François Mitterrand, CHU Dijon",
+ ville:"Dijon",
+ region:"Bourgogne-Franche-Comté",
+ lat: 47.3167,
+ lng: 5.0167,
+ressources:["Médecine nucléaire", "Endoscopie interventionnelle bilio-pancréatique","Plateforme de biologie moléculaire","Plateforme d'anatomopathologie","Plateforme d'imagerie","Oncogénétique", "Centre de diagnostic rapide", "Radiothérapie externe", "Radio-embolisation", "Radiologie interventionnelle", "Chirurgie viscérale", "Chirurgie digestive de recours", "Chirurgie hépatique et transplantation hépatique", "Plateau de réanimation", "Unité de recherche clinique dédiée", "Centre d'Investigation Clinique multithématique", "Accès aux études de phase I", "Gestion de la douleur", "Diététique et nutrition", "Soutien psychologique du patient", "Accompagnement social, familial et professionnel", "Rééducation et activités physiques adaptées", "Préservation de la fertilité", "Gestion des troubles de la sexualité", "Soutien psychologique des proches et des aidants", "Onco-gériatrie", "Unité mobile de soins palliatifs", "Unité de soins palliatifs dédiée", "Hôpital de jour de soins de support", "Espace de réflexion éthique", "Socio-esthéticiennes", "Unité Transversale de Nutrition", "Soins Médicaux et de Réadaptation d’oncologie"],
+popupHtml:`<h3>Hôpital François Mitterrand, CHU Dijon</h3>
+<b>Pr MANFREDI Sylvain</b><br>
+Service d'Hépato-gastroentérologie et oncologie digestive<br>
+14 rue Paul Gaffarel, 21000 <b>Dijon</b><br>
+<a href="mailto:sylvain.manfredi@chu-dijon.fr">sylvain.manfredi@chu-dijon.fr</a><br><br>
+
+<b>Secrétariat :</b><br>
+DEKKAL Assia<br>
+<a href="mailto:assia.dekkal@chu-dijon.fr">assia.dekkal@chu-dijon.fr</a><br>
+<br>
+<b><a href="https://www.chu-dijon.fr/service/hepato-gastro-enterologie/presentation-du-service-hepato-gastro-enterologie" target="_blank">Site web</a></b> <br>
+<br>
+<details>
+<summary><b>Ressources de soin</b></summary><br>
+<B>Plateaux techniques</B> <br>    
+<ul>
+<li><b>Diagnostic :</b></li>  
+&#x2705 Médecine nucléaire <br>    
+&#x2705 Endoscopie interventionnelle bilio-pancréatique <br>
+&#x2705 Plateforme de biologie moléculaire <br>
+&#x2705 Plateforme d'anatomopathologie <br> 
+&#x2705 Plateforme d’imagerie <br>  
+&#x2705 Oncogénétique <br>  
+&#x2705 Centre de diagnostic rapide <br>  
+<br>
+<li><b>Traitement</b></li>
+&#x2705 Radiothérapie externe <br>   
+&#x2705 Radio-embolisation <br>   
+&#x2705 Radiologie interventionnelle <br>  
+&#x2705 Chirurgie viscérale <br>
+&#x2705 Chirurgie digestive de recours <br>  
+&#x2705 Chirurgie hépatique et transplantation hépatique <br>  
+&#x2705 Plateau de réanimation <br> 
+<br>
+<li><b>Recherche :</b></li>
+&#x2705 Unité de recherche clinique dédiée <br> 
+&#x2705 Centre d'Investigation Clinique multithématique <br>
+&#x2705 Accès aux études de phase I <br>
+<br>
+Convention pour l’accès à des plateaux techniques avec le Centre Georges François Leclerc à Dijon <br>
+<br>
+</ul>
+<br>   
+<B>Soins de support</B> <br>
+<ul>
+<li><b>Soins « socle » :</b></li>
+&#x2705 Gestion de la douleur <br>
+&#x2705 Diététique et nutrition <br>
+&#x2705 Soutien psychologique du patient <br>
+&#x2705 Accompagnement social, familial et professionnel <br>
+<br>
+<li><b>Soins de support complémentaires : </b></li>
+&#x2705 Rééducation et activités physiques adaptées <br>
+&#x2705 Préservation de la fertilité <br>
+&#x2705 Gestion des troubles de la sexualité <br>
+&#x2718 Conseils d’hygiène de vie <br>
+&#x2705 Soutien psychologique des proches et des aidants <br>
+<br>
+<li><b>Autres soins de support et services : </b></li>
+&#x2705 Onco-gériatrie <br>
+&#x2705 Unité mobile de soins palliatifs <br>
+&#x2705 Unité de soins palliatifs dédiée <br>
+&#x2705 Hôpital de jour de soins de support <br>
+&#x2705 Espace de réflexion éthique <br>
+&#x2718 Approches non conventionnelles (hypnose, acupuncture, sophrologie, …) <br>
+&#x2718 Gestion de la fatigue <br>
+&#x2718 Ateliers d’art thérapie <br>
+&#x2705 Socio-esthéticiennes  <br>  
+&#x2705 Unité Transversale de Nutrition <br>   
+&#x2705 Soins Médicaux et de Réadaptation d’oncologie<br>
+<br>
+</ul>
+<br>
+</details>   
+
+<details>
+<summary><b>Ressources humaines</b></summary><br>
+<ul>  
+<li> <B>Infirmier(e) de Coordination :</B> </li>
+DIRAND Marlène <br>
+marlene.dirand@chu-dijon.fr <br>
+<br>  
+<li> <B>Attaché(e) de Recherche Clinique :</B> </li>
+DEKKAL Assia <br>
+assia.dekkal@chu-dijon.fr <br>
+</ul>
+</details>
+`
+},
+{
+ nom:" Centre Eugène Marquis, CLCC Rennes",
+ ville:"Rennes",
+ region:"Bretagne",
+ lat: 48.11,
+ lng: -1.68,
+ressources:["Médecine nucléaire", "Endoscopie interventionnelle bilio-pancréatique","Plateforme de biologie moléculaire","Plateforme d'anatomopathologie","Plateforme d'imagerie","Oncogénétique", "Centre de diagnostic rapide", "Radiothérapie externe", "Radio-embolisation", "Radiologie interventionnelle", "Chirurgie viscérale", "Chirurgie digestive de recours", "Chirurgie hépatique et transplantation hépatique", "Plateau de réanimation", "Unité de recherche clinique dédiée", "Centre d'Investigation Clinique multithématique", "Accès aux études de phase I", "Gestion de la douleur", "Diététique et nutrition", "Soutien psychologique du patient", "Accompagnement social, familial et professionnel", "Rééducation et activités physiques adaptées", "Préservation de la fertilité", "Gestion des troubles de la sexualité", "Conseils d’hygiène de vie", "Soutien psychologique des proches et des aidants", "Onco-gériatrie", "Unité de soins palliatifs dédiée", "Hôpital de jour de soins de support", "Espace de réflexion éthique"],
+popupHtml:`<h3>Centre Eugène Marquis, CLCC Rennes</h3>
+<b>Dr EDELINE Julien</b><br>
+Département d'oncologie <br> 
+Avenue Bataille Flandres-Dunkerque 35042 <b>Rennes</b><br>
+<a href="mailto:j.edeline@rennes.unicancer.fr">j.edeline@rennes.unicancer.fr</a><br><br>
+
+<b>Secrétariat :</b><br>
+<a href="mailto:secretariat.digestif@rennes.unicancer.fr">secretariat.digestif@rennes.unicancer.fr</a><br>
+<br>
+<b><a href="https://www.centre-eugene-marquis.fr/traitements/traitements-medicaux" target="_blank">Site web</a></b> <br>
+<br>
+<details>
+<summary><b>Ressources de soin</b></summary><br>
+<B>Plateaux techniques</B> <br>    
+<ul>
+<li><b>Diagnostic :</b></li>  
+&#x2705 Médecine nucléaire <br>    
+&#x2705 Endoscopie interventionnelle bilio-pancréatique <br>
+&#x2705 Plateforme de biologie moléculaire <br>
+&#x2705 Plateforme d'anatomopathologie <br> 
+&#x2705 Plateforme d’imagerie <br>  
+&#x2705 Oncogénétique <br>  
+&#x2705 Centre de diagnostic rapide <br>  
+<br>
+<li><b>Traitement</b></li>
+&#x2705 Radiothérapie externe <br>   
+&#x2705 Radio-embolisation <br>   
+&#x2705 Radiologie interventionnelle <br>  
+&#x2705 Chirurgie viscérale <br>
+&#x2705 Chirurgie digestive de recours <br>  
+&#x2705 Chirurgie hépatique et transplantation hépatique <br>  
+&#x2705 Plateau de réanimation <br> 
+<br>
+<li><b>Recherche :</b></li>
+&#x2705 Unité de recherche clinique dédiée <br> 
+&#x2705 Centre d'Investigation Clinique multithématique <br>
+&#x2705 Accès aux études de phase I <br>
+<br>
+Convention pour l’accès à certains plateaux techniques avec le CHU de Rennes <br>
+<br>
+</ul>
+<br>   
+<B>Soins de support</B> <br>
+<ul>
+<li><b>Soins « socle » :</b></li>
+&#x2705 Gestion de la douleur <br>
+&#x2705 Diététique et nutrition <br>
+&#x2705 Soutien psychologique du patient <br>
+&#x2705 Accompagnement social, familial et professionnel <br>
+<br>
+<li><b>Soins de support complémentaires : </b></li>
+&#x2705 Rééducation et activités physiques adaptées <br>
+&#x2705 Préservation de la fertilité <br>
+&#x2705 Gestion des troubles de la sexualité <br>
+&#x2705 Conseils d’hygiène de vie <br>
+&#x2705 Soutien psychologique des proches et des aidants <br>
+<br>
+<li><b>Autres soins de support et services : </b></li>
+&#x2705 Onco-gériatrie <br>
+&#x2705 Unité mobile de soins palliatifs <br>
+&#x2705 Unité de soins palliatifs dédiée <br>
+&#x2705 Hôpital de jour de soins de support <br>
+&#x2705 Espace de réflexion éthique <br>
+&#x2718 Approches non conventionnelles (hypnose, acupuncture, sophrologie, …) <br>
+&#x2718 Gestion de la fatigue <br>
+&#x2718 Ateliers d’art thérapie <br>
+<br>
+</ul>
+<br>
+</details>   
+
+<details>
+<summary><b>Ressources humaines</b></summary><br>
+<ul>  
+<li> <B>Attaché(e) de Recherche Clinique :</B> </li>
+ARCs_DIP@rennes.unicancer.fr<br>
+</ul>
+</details>
+`
+},
+{
+ nom:"Hôpital Trousseau, CHRU Tours",
+ ville:"Chambray-lès-Tours",
+ region:"Centre-Val-de-Loire",
+ lat: 47.33805,
+ lng: 0.71389,
+ressources:["Médecine nucléaire", "Endoscopie interventionnelle bilio-pancréatique","Plateforme de biologie moléculaire","Plateforme d'anatomopathologie","Plateforme d'imagerie","Oncogénétique", "Radiothérapie externe", "Radio-embolisation", "Radiologie interventionnelle", "Chirurgie viscérale", "Chirurgie digestive de recours", "Chirurgie hépatique et transplantation hépatique", "Plateau de réanimation", "Unité de recherche clinique dédiée", "Gestion de la douleur", "Diététique et nutrition", "Soutien psychologique du patient", "Accompagnement social, familial et professionnel", "Préservation de la fertilité", "Gestion des troubles de la sexualité", "Soutien psychologique des proches et des aidants", "Onco-gériatrie", "Unité mobile de soins palliatifs", "Approches non conventionnelles"],
+popupHtml:`<h3>Hôpital Trousseau, CHRU Tours</h3>
+<b>Pr LECOMTE Thierry</b> & <b>Dr CHAUTARD Romain</b> <br>
+Unité d’Onco-Gastroentérologie HC, Hôpital Trousseau <br> 
+Avenue de la République, 37170 <b>Chambray-lès-Tours</b><br>
+<a href="mailto:thierry.lecomte@univ-tours.fr">thierry.lecomte@univ-tours.fr</a><br><br>
+
+<b>Secrétariat :</b><br>
+ROUSSEAU Cyrielle <br>
+<a href="mailto:c.rousseau@chu-tours.fr">c.rousseau@chu-tours.fr</a><br>
+<a href="mailto:secretariat.hepato.gastrohc@chu-tours.fr">secretariat.hepato.gastrohc@chu-tours.fr</a><br>
+Tel : 02 47 47 75 78<br>
+Fax : 02 47 47 84 28<br>
+<br>
+<details>
+<summary><b>Ressources de soin</b></summary><br>
+<B>Plateaux techniques</B> <br>    
+<ul>
+<li><b>Diagnostic :</b></li>  
+&#x2705 Médecine nucléaire <br>    
+&#x2705 Endoscopie interventionnelle bilio-pancréatique <br>
+&#x2705 Plateforme de biologie moléculaire <br>
+&#x2705 Plateforme d'anatomopathologie <br> 
+&#x2705 Plateforme d’imagerie <br>  
+&#x2705 Oncogénétique <br>  
+&#x2718 Centre de diagnostic rapide <br>  
+<br>
+<li><b>Traitement</b></li>
+&#x2705 Radiothérapie externe <br>   
+&#x2705 Radio-embolisation <br>   
+&#x2705 Radiologie interventionnelle <br>  
+&#x2705 Chirurgie viscérale <br>
+&#x2705 Chirurgie digestive de recours <br>  
+&#x2705 Chirurgie hépatique et transplantation hépatique <br>  
+&#x2705 Plateau de réanimation <br> 
+<br>
+<li><b>Recherche :</b></li>
+&#x2705 Unité de recherche clinique dédiée <br> 
+&#x2718 Centre d'Investigation Clinique multithématique <br>
+&#x2718 Accès aux études de phase I <br>
+<br>
+</ul>
+<br>   
+<B>Soins de support</B> <br>
+<ul>
+<li><b>Soins « socle » :</b></li>
+&#x2705 Gestion de la douleur <br>
+&#x2705 Diététique et nutrition <br>
+&#x2705 Soutien psychologique du patient <br>
+&#x2705 Accompagnement social, familial et professionnel <br>
+<br>
+<li><b>Soins de support complémentaires : </b></li>
+&#x2705 Rééducation et activités physiques adaptées <br>
+&#x2705 Préservation de la fertilité <br>
+&#x2705 Gestion des troubles de la sexualité <br>
+&#x2718 Conseils d’hygiène de vie <br>
+&#x2705 Soutien psychologique des proches et des aidants <br>
+<br>
+<li><b>Autres soins de support et services : </b></li>
+&#x2705 Onco-gériatrie <br>
+&#x2705 Unité mobile de soins palliatifs <br>
+&#x2718 Unité de soins palliatifs dédiée <br>
+&#x2718 Hôpital de jour de soins de support <br>
+&#x2718 Espace de réflexion éthique <br>
+&#x2705 Approches non conventionnelles (hypnose, acupuncture, sophrologie, …) <br>
+&#x2718 Gestion de la fatigue <br>
+&#x2718 Ateliers d’art thérapie <br>
+<br>
+</ul>
+<br>
+</details>   
+`
+},
+{
+ nom:"CHRU Nancy",
+ ville:"Nancy",
+ region:"Grand-Est",
+ lat: 48.68,
+ lng: 6.2,
+ressources:["Médecine nucléaire", "Endoscopie interventionnelle bilio-pancréatique","Plateforme de biologie moléculaire","Plateforme d'anatomopathologie","Plateforme d'imagerie","Oncogénétique", "Radiothérapie externe", "Radio-embolisation", "Radiologie interventionnelle", "Chirurgie viscérale", "Chirurgie digestive de recours", "Plateau de réanimation", "Unité de recherche clinique dédiée", "Centre d'Investigation Clinique multithématique", "Accès aux études de phase I", "Diététique et nutrition", "Soutien psychologique du patient", "Rééducation et activités physiques adaptées", "Préservation de la fertilité", "Onco-gériatrie", "Unité mobile de soins palliatifs", "Unité de soins palliatifs dédiée", "Espace de réflexion éthique", "Approches non conventionnelles"],
+popupHtml:`<h3>CHRU Nancy</h3>
+<b>Pr Bronowicki Jean-Pierre</b> & <b>Dr HAGHNEJAD Vincent</b> <br>
+Service d'hépato-gastroentérologie, bâtiment principal Brabois adultes, 9ème étage <br> 
+8 rue du Morvan, 54500 <b>Vandoeuvre-lès-Nancy</b><br>
+<a href="mailto:jp.bronowicki@chru-nancy.fr">jp.bronowicki@chru-nancy.fr</a><br><br>
+
+<b>Secrétariat :</b><br>
+MARCHAL Karine <br>
+<a href="mailto:secretariat.hge@chru-nancy.fr">secretariat.hge@chru-nancy.fr</a><br>
+Tel : 03 83 15 33 54<br>
+Fax : 03 83 15 36 33<br>
+<br>
+<details>
+<summary><b>Ressources de soin</b></summary><br>
+<B>Plateaux techniques</B> <br>    
+<ul>
+<li><b>Diagnostic :</b></li>  
+&#x2705 Médecine nucléaire <br>    
+&#x2705 Endoscopie interventionnelle bilio-pancréatique <br>
+&#x2705 Plateforme de biologie moléculaire <br>
+&#x2705 Plateforme d'anatomopathologie <br> 
+&#x2705 Plateforme d’imagerie <br>  
+&#x2705 Oncogénétique <br>  
+&#x2718 Centre de diagnostic rapide <br>  
+<br>
+<li><b>Traitement</b></li>
+&#x2705 Radiothérapie externe <br>   
+&#x2705 Radio-embolisation <br>   
+&#x2705 Radiologie interventionnelle <br>  
+&#x2705 Chirurgie viscérale <br>
+&#x2705 Chirurgie digestive de recours <br>  
+&#x2718 Chirurgie hépatique et transplantation hépatique <br>  
+&#x2705 Plateau de réanimation <br> 
+&#x2705 Primo (Plateforme Régionale Inter établissements de Médecine Oncologique), permet l’administration d’anticancéreux en ambulatoire - située physiquement dans l'Institut de Cancérologie de Lorraine <br>
+<br>
+<li><b>Recherche :</b></li>
+&#x2705 Unité de recherche clinique dédiée <br> 
+&#x2705 Centre d'Investigation Clinique multithématique <br>
+&#x2705 Accès aux études de phase I <br>
+<br>
+</ul>
+<br>   
+<B>Soins de support</B> <br>
+<ul>
+<li><b>Soins « socle » :</b></li>
+&#x2718 Gestion de la douleur <br>
+&#x2705 Diététique et nutrition <br>
+&#x2705 Soutien psychologique du patient <br>
+&#x2718 Accompagnement social, familial et professionnel <br>
+<br>
+<li><b>Soins de support complémentaires : </b></li>
+&#x2705 Rééducation et activités physiques adaptées <br>
+&#x2705 Préservation de la fertilité <br>
+&#x2718 Gestion des troubles de la sexualité <br>
+&#x2718 Conseils d’hygiène de vie <br>
+&#x2718 Soutien psychologique des proches et des aidants <br>
+<br>
+<li><b>Autres soins de support et services : </b></li>
+&#x2705 Onco-gériatrie <br>
+&#x2705 Unité mobile de soins palliatifs <br>
+&#x2705 Unité de soins palliatifs dédiée <br>
+&#x2718 Hôpital de jour de soins de support <br>
+&#x2705 Espace de réflexion éthique <br>
+&#x2705 Approches non conventionnelles (hypnose, acupuncture, sophrologie, …) <br>
+&#x2718 Gestion de la fatigue <br>
+&#x2718 Ateliers d’art thérapie <br>
+<br>
+</ul>
+<br>
+</details>   
+
+<details>
+<summary><b>Ressources humaines</b></summary><br>
+<ul>  
+<li> <B>Infirmier(e) en Pratiques Avancées :</B> </li>
+JOUVERNAUX CERQUEIRA Carole <br>
+c.cerqueira@chru-nancy.fr<br>
+Tel : 03 83 15 31 75<br>
+<br>
+<li> <B>Attaché(e) de Recherche Clinique :</B> </li>
+<ul>
+<li>Foie :</li>
+OULD-HAMOU Hassiba <br>
+H.OULD-HAMOU@chru-nancy.fr <br>
+BENZERAFA Saida <br>
+S.BENZERAFA@chru-nancy.fr<br>
+Tel : 03 83 15 33 55<br>
+<br>
+<li>Voies Biliaires : </li>
+FOUQUET Guillaume (Infirmier en Recherche Clinique) <br>
+g.fouquet@chru-nancy.fr  ou g.fouquet.chru-nancy@apicrypt.fr <br>
+</ul>
+</ul>
+</details>
+`
+},
+{
+ nom:"CHU Reims",
+ ville:"Reims",
+ region:"Grand-Est",
+ lat: 49.25,
+ lng: 4.03,
+ressources:["Endoscopie interventionnelle bilio-pancréatique","Plateforme de biologie moléculaire","Plateforme d'anatomopathologie","Plateforme d'imagerie","Oncogénétique", "Radiologie interventionnelle", "Chirurgie viscérale", "Chirurgie digestive de recours", "Chirurgie hépatique et transplantation hépatique", "Plateau de réanimation", "Unité de recherche clinique dédiée", "Gestion de la douleur", "Diététique et nutrition", "Soutien psychologique du patient", "Accompagnement social, familial et professionnel", "Rééducation et activités physiques adaptées", "Préservation de la fertilité", "Gestion des troubles de la sexualité", "Conseils d’hygiène de vie", "Soutien psychologique des proches et des aidants", "Onco-gériatrie", "Unité mobile de soins palliatifs", "Unité de soins palliatifs dédiée", "Gestion de la fatigue"],
+popupHtml:`<h3>CHU Reims</h3>
+<b>Dr HEURGUÉ Alexandra</b><br>
+Service d'Hépato-gastroentérologie, bâtiment Cabrol <br> 
+Avenue du général Koenig 51100 <b>Reims</b><br>
+<a href="mailto:aheurgue@chu-reims.fr">aheurgue@chu-reims.fr</a><br><br>
+
+<b>Secrétariat :</b><br>
+<a href="mailto:secretariat2-gastro@chu-reims.fr ">secretariat2-gastro@chu-reims.fr</a><br>
+Tel : 03 26 78 88 32<br>
+<br>
+<b><a href="https://www.chu-reims.fr/offre-de-soins/prises-en-charge/service/hepato-gastro-enterologie-et-cancerologie-digestive" target="_blank">Site web</a></b> <br>
+<br>
+<details>
+<summary><b>Ressources de soin</b></summary><br>
+<B>Plateaux techniques</B> <br>    
+<ul>
+<li><b>Diagnostic :</b></li>  
+&#x2718 Médecine nucléaire <br>    
+&#x2705 Endoscopie interventionnelle bilio-pancréatique <br>
+&#x2705 Plateforme de biologie moléculaire <br>
+&#x2705 Plateforme d'anatomopathologie <br> 
+&#x2705 Plateforme d’imagerie <br>  
+&#x2705 Oncogénétique <br>  
+&#x2718 Centre de diagnostic rapide <br>  
+<br>
+<li><b>Traitement</b></li>
+&#x2718 Radiothérapie externe* <br>   
+&#x2718 Radio-embolisation <br>   
+&#x2705 Radiologie interventionnelle <br>  
+&#x2705 Chirurgie viscérale <br>
+&#x2705 Chirurgie digestive de recours <br>  
+&#x2705 Chirurgie hépatique et transplantation hépatique <br>  
+&#x2705 Plateau de réanimation <br> 
+<br>
+<li><b>Recherche :</b></li>
+&#x2705 Unité de recherche clinique dédiée <br> 
+&#x2718 Centre d'Investigation Clinique multithématique <br>
+&#x2718 Accès aux études de phase I <br>
+<br>
+*Convention pour la médecine nucléaire et la radiothérapie externe avec l’Institut Jean Godinot, Reims <br>
+</ul>
+<br>   
+<B>Soins de support</B> <br>
+<ul>
+<li><b>Soins « socle » :</b></li>
+&#x2705 Gestion de la douleur <br>
+&#x2705 Diététique et nutrition <br>
+&#x2705 Soutien psychologique du patient <br>
+&#x2705 Accompagnement social, familial et professionnel <br>
+<br>
+<li><b>Soins de support complémentaires : </b></li>
+&#x2705 Rééducation et activités physiques adaptées <br>
+&#x2705 Préservation de la fertilité <br>
+&#x2705 Gestion des troubles de la sexualité <br>
+&#x2705 Conseils d’hygiène de vie <br>
+&#x2705 Soutien psychologique des proches et des aidants <br>
+<br>
+<li><b>Autres soins de support et services : </b></li>
+&#x2705 Onco-gériatrie <br>
+&#x2705 Unité mobile de soins palliatifs <br>
+&#x2705 Unité de soins palliatifs dédiée <br>
+&#x2718 Hôpital de jour de soins de support <br>
+&#x2718 Espace de réflexion éthique <br>
+&#x2718 Approches non conventionnelles (hypnose, acupuncture, sophrologie, …) <br>
+&#x2705 Gestion de la fatigue <br>
+&#x2718 Ateliers d’art thérapie <br>
+<br>
+</ul>
+<br>
+</details>   
+
+<details>
+<summary><b>Ressources humaines</b></summary><br>
+<ul>  
+<li> <B>Infirmier(e) de Coordination :</B> </li>
+<ul>
+  <li>EVANO Laura</li>    
+      levano@chu-reims.fr <br>  
+  <li>MILLEY Sandrine</li>       
+        smilley@chu-reims.fr   <br>
+       </ul>
+   Tel : 03 26 83 24 24 <br>
+<li> <B>Attaché(e) de Recherche Clinique :</B> </li>
+FERON Thomas <br>
+tferon@chu-reims.fr<br>
+Tel : 03 26 83 26 31 <br>
+</ul>
+</details>
+`
+},
+{
+ nom:"CHU Guadeloupe, Pointe-à-Pitre",
+ ville:"Pointe-à-Pitre",
+ region:"Guadeloupe",
+ lat: 16.22,
+ lng: -61.53,
+ressources:["Médecine nucléaire", "Plateforme de biologie moléculaire","Plateforme d'anatomopathologie","Plateforme d'imagerie","Oncogénétique", "Radiothérapie externe", "Chirurgie viscérale", "Chirurgie digestive de recours", "Plateau de réanimation", "Unité de recherche clinique dédiée", "Centre d'Investigation Clinique multithématique", "Gestion de la douleur", "Diététique et nutrition", "Soutien psychologique du patient", "Accompagnement social, familial et professionnel", "Soutien psychologique des proches et des aidants", "Onco-gériatrie", "Unité mobile de soins palliatifs"],
+popupHtml:`<h3>CHU Guadeloupe, Pointe-à-Pitre</h3>
+<b>Dr GELU-SIMEON Moana</b><br>
+Service d'Hépato-Gastroentérologie<br> 
+CHU Guadeloupe-Route de Chauvel, 97159 <b>Pointe-à-Pitre</b><br>
+<a href="mailto:moana.simeon@chu-guadeloupe.fr">moana.simeon@chu-guadeloupe.fr</a><br><br>
+
+<b>Secrétariat :</b><br>
+MAHOGANIE Larisse <br> 
+<a href="mailto:sec.gastroenterologie@chu-guadeloupe.fr"> sec.gastroenterologie@chu-guadeloupe.fr</a><br>
+Tel : +590 590 89 14 45 <br> 
+<br>
+<b><a href="https://www.chu-guadeloupe.fr/portal/" target="_blank">Site web</a></b> <br>
+<br>
+<details>
+<summary><b>Ressources de soin</b></summary><br>
+<B>Plateaux techniques</B> <br>    
+<ul>
+<li><b>Diagnostic :</b></li>  
+&#x2705 Médecine nucléaire <br>    
+&#x2718 Endoscopie interventionnelle bilio-pancréatique <br>
+&#x2705 Plateforme de biologie moléculaire <br>
+&#x2705 Plateforme d'anatomopathologie <br> 
+&#x2705 Plateforme d’imagerie <br>  
+&#x2705 Oncogénétique <br>  
+&#x2718 Centre de diagnostic rapide <br>  
+<br>
+<li><b>Traitement</b></li>
+&#x2705 Radiothérapie externe <br>   
+&#x2718 Radio-embolisation <br>   
+&#x2718 Radiologie interventionnelle <br>  
+&#x2705 Chirurgie viscérale <br>
+&#x2705 Chirurgie digestive de recours <br>  
+&#x2718 Chirurgie hépatique et transplantation hépatique <br>  
+&#x2705 Plateau de réanimation <br> 
+<br>
+<li><b>Recherche :</b></li>
+&#x2705 Unité de recherche clinique dédiée <br> 
+&#x2705 Centre d'Investigation Clinique multithématique <br>
+&#x2718 Accès aux études de phase I <br>
+<br>
+Convention pour l’accès à des plateaux techniques avec le centre hépato-biliaire de l’hôpital Pitié-Salpêtrière, Paris<br>
+<br>
+</ul>
+<br>   
+<B>Soins de support</B> <br>
+<ul>
+<li><b>Soins « socle » :</b></li>
+&#x2705 Gestion de la douleur <br>
+&#x2705 Diététique et nutrition <br>
+&#x2705 Soutien psychologique du patient <br>
+&#x2705 Accompagnement social, familial et professionnel <br>
+<br>
+<li><b>Soins de support complémentaires : </b></li>
+&#x2718 Rééducation et activités physiques adaptées <br>
+&#x2718 Préservation de la fertilité <br>
+&#x2718 Gestion des troubles de la sexualité <br>
+&#x2705 Conseils d’hygiène de vie <br>
+&#x2705 Soutien psychologique des proches et des aidants <br>
+<br>
+<li><b>Autres soins de support et services : </b></li>
+&#x2705 Onco-gériatrie <br>
+&#x2705 Unité mobile de soins palliatifs <br>
+&#x2718 Unité de soins palliatifs dédiée <br>
+&#x2718 Hôpital de jour de soins de support <br>
+&#x2718 Espace de réflexion éthique <br>
+&#x2718 Approches non conventionnelles (hypnose, acupuncture, sophrologie, …) <br>
+&#x2718 Gestion de la fatigue <br>
+&#x2718 Ateliers d’art thérapie <br>
+<br>
+</ul>
+<br>
+</details>   
+
+<details>
+<summary><b>Ressources humaines</b></summary><br>
+<ul>  
+<li> <B>Attaché(e) de Recherche Clinique :</B> </li>
+CATHERINE Lucie<br>
+</ul>
+</details>
+`
+},
+{
+ nom:"CHU Amiens-Picardie",
+ ville:"Amiens",
+ region:"Hauts-de-France",
+ lat: 49.90,
+ lng: 2.3,
+ressources:["Médecine nucléaire", "Endoscopie interventionnelle bilio-pancréatique","Plateforme de biologie moléculaire","Plateforme d'anatomopathologie","Plateforme d'imagerie","Oncogénétique", "Centre de diagnostic rapide", "Radiothérapie externe", "Radio-embolisation", "Radiologie interventionnelle", "Chirurgie viscérale", "Chirurgie digestive de recours", "Plateau de réanimation", "Unité de recherche clinique dédiée", "Centre d'Investigation Clinique multithématique", "Accès aux études de phase I", "Gestion de la douleur", "Diététique et nutrition", "Soutien psychologique du patient", "Accompagnement social, familial et professionnel", "Rééducation et activités physiques adaptées", "Gestion des troubles de la sexualité", "Conseils d’hygiène de vie", "Soutien psychologique des proches et des aidants", "Onco-gériatrie", "Unité mobile de soins palliatifs", "Unité de soins palliatifs dédiée", "Hôpital de jour de soins de support", "Espace de réflexion éthique", "Approches non conventionnelles", "Ateliers d’art thérapie"],
+popupHtml:`<h3>CHU Amiens-Picardie</h3>
+<b>Pr NGUYEN-KHAC Eric</b><br>
+Service d'Hépato-Gastroentérologie et Oncologue Digestive <br> 
+1 rond point du Pr C. Cabrol, 80054 <b>Amiens</b><br>
+<a href="mailto:Nguyen-Khac.Eric@chu-amiens.fr">Nguyen-Khac.Eric@chu-amiens.fr</a><br><br>
+
+<b>Secrétariat :</b><br>
+TARDIEU Elodie<br> 
+<a href="mailto:tardieu.elodie@chu-amiens.fr">tardieu.elodie@chu-amiens.fr</a><br>
+Tel : 03 22 08 88 71<br>
+Fax : 03 22 08 99 39<br> 
+<br>
+<details>
+<summary><b>Ressources de soin</b></summary><br>
+<B>Plateaux techniques</B> <br>    
+<ul>
+<li><b>Diagnostic :</b></li>  
+&#x2705 Médecine nucléaire <br>    
+&#x2705 Endoscopie interventionnelle bilio-pancréatique <br>
+&#x2705 Plateforme de biologie moléculaire <br>
+&#x2705 Plateforme d'anatomopathologie <br> 
+&#x2705 Plateforme d’imagerie <br>  
+&#x2705 Oncogénétique <br>  
+&#x2705 Centre de diagnostic rapide <br>  
+<br>
+<li><b>Traitement</b></li>
+&#x2705 Radiothérapie externe <br>   
+&#x2705 Radio-embolisation <br>   
+&#x2705 Radiologie interventionnelle <br>  
+&#x2705 Chirurgie viscérale <br>
+&#x2705 Chirurgie digestive de recours <br>  
+&#x2718 Chirurgie hépatique et transplantation hépatique* <br>  
+&#x2705 Plateau de réanimation <br> 
+<br>
+<li><b>Recherche :</b></li>
+&#x2705 Unité de recherche clinique dédiée <br> 
+&#x2705 Centre d'Investigation Clinique multithématique <br>
+&#x2705 Accès aux études de phase I <br>
+<br>
+*Convention pour la transplantation hépatique avec le Centre Hépato-Biliaire, Paul Brousse, Villejuif<br>
+</ul>
+<br>   
+<B>Soins de support</B> <br>
+<ul>
+<li><b>Soins « socle » :</b></li>
+&#x2705 Gestion de la douleur <br>
+&#x2705 Diététique et nutrition <br>
+&#x2705 Soutien psychologique du patient <br>
+&#x2705 Accompagnement social, familial et professionnel <br>
+<br>
+<li><b>Soins de support complémentaires : </b></li>
+&#x2705 Rééducation et activités physiques adaptées <br>
+&#x2718 Préservation de la fertilité <br>
+&#x2705 Gestion des troubles de la sexualité <br>
+&#x2705 Conseils d’hygiène de vie <br>
+&#x2705 Soutien psychologique des proches et des aidants <br>
+<br>
+<li><b>Autres soins de support et services : </b></li>
+&#x2705 Onco-gériatrie <br>
+&#x2705 Unité mobile de soins palliatifs <br>
+&#x2705 Unité de soins palliatifs dédiée <br>
+&#x2705 Hôpital de jour de soins de support <br>
+&#x2705 Espace de réflexion éthique <br>
+&#x2705 Approches non conventionnelles (hypnose, acupuncture, sophrologie, …) <br>
+&#x2718 Gestion de la fatigue <br>
+&#x2705 Ateliers d’art thérapie <br>
+</ul>
+<br>
+</details>   
+
+<details>
+<summary><b>Ressources humaines</b></summary><br>
+<ul>  
+<li> <B>Infirmier(e) de Coordination :</B> </li>
+DUBUS Séverine<br>
+Tel : 03 22 08 88 70<br> 
+<br>
+<li> <B>Attaché(e) de Recherche Clinique :</B> </li>
+FAHEM Rachida <br>
+fahem.rachida@chu-amiens.fr <br>
+Tel : 03 22 08 88 67<br> 
+</ul>
+</details>
+`
+},
+{
+ nom:"CHU Lille",
+ ville:"Lille",
+ region:"Hauts-de-France",
+ lat: 50.63,
+ lng: 3.066,
+ressources:["Médecine nucléaire", "Endoscopie interventionnelle bilio-pancréatique","Plateforme de biologie moléculaire","Plateforme d'anatomopathologie","Plateforme d'imagerie","Oncogénétique", "Radiothérapie externe", "Radio-embolisation", "Radiologie interventionnelle", "Chirurgie viscérale", "Chirurgie digestive de recours", "Chirurgie hépatique et transplantation hépatique", "Plateau de réanimation", "Unité de recherche clinique dédiée", "Centre d'Investigation Clinique multithématique", "Accès aux études de phase I", "Gestion de la douleur", "Diététique et nutrition", "Préservation de la fertilité", "Onco-gériatrie", "Unité mobile de soins palliatifs", "Unité de soins palliatifs dédiée", "Gestion de la fatigue"],
+popupHtml:`<h3>CHU Lille</h3>
+<b>Pr MATHURIN Philippe</b><br>
+Service Maladies de l'Appareil Digestif, Hôpital Claude Huriez <br> 
+Rue Michel Polonowski, 59000 <b>Lille</b><br>
+<a href="mailto:philippe.mathurin@chru-lille.fr">philippe.mathurin@chru-lille.fr</a><br><br>
+
+<b>Secrétariat :</b><br>
+DHESSE Caroline<br>
+<a href="mailto:caroline.dhesse@chu-lille.fr">caroline.dhesse@chu-lille.fr</a><br>
+Tel : 03 20 44 55 97<br>
+Fax : 03 20 44 55 64<br>
+<br>
+<details>
+<summary><b>Ressources de soin</b></summary><br>
+<B>Plateaux techniques</B> <br>    
+<ul>
+<li><b>Diagnostic :</b></li>  
+&#x2705 Médecine nucléaire <br>    
+&#x2705 Endoscopie interventionnelle bilio-pancréatique <br>
+&#x2705 Plateforme de biologie moléculaire <br>
+&#x2705 Plateforme d'anatomopathologie <br> 
+&#x2705 Plateforme d’imagerie <br>  
+&#x2705 Oncogénétique <br>  
+&#x2718 Centre de diagnostic rapide <br>  
+<br>
+<li><b>Traitement</b></li>
+&#x2705 Radiothérapie externe <br>   
+&#x2705 Radio-embolisation <br>   
+&#x2705 Radiologie interventionnelle <br>  
+&#x2705 Chirurgie viscérale <br>
+&#x2705 Chirurgie digestive de recours <br>  
+&#x2705 Chirurgie hépatique et transplantation hépatique <br>  
+&#x2705 Plateau de réanimation <br> 
+<br>
+<li><b>Recherche :</b></li>
+&#x2705 Unité de recherche clinique dédiée <br> 
+&#x2705 Centre d'Investigation Clinique multithématique <br>
+&#x2705 Accès aux études de phase I <br>
+<br>
+</ul>
+<br>   
+<B>Soins de support</B> <br>
+<ul>
+<li><b>Soins « socle » :</b></li>
+&#x2705 Gestion de la douleur <br>
+&#x2705 Diététique et nutrition <br>
+&#x2718 Soutien psychologique du patient <br>
+&#x2718 Accompagnement social, familial et professionnel <br>
+<br>
+<li><b>Soins de support complémentaires : </b></li>
+&#x2718 Rééducation et activités physiques adaptées <br>
+&#x2705 Préservation de la fertilité <br>
+&#x2718 Gestion des troubles de la sexualité <br>
+&#x2718 Conseils d’hygiène de vie <br>
+&#x2718 Soutien psychologique des proches et des aidants <br>
+<br>
+<li><b>Autres soins de support et services : </b></li>
+&#x2705 Onco-gériatrie <br>
+&#x2705 Unité mobile de soins palliatifs <br>
+&#x2705 Unité de soins palliatifs dédiée <br>
+&#x2718 Hôpital de jour de soins de support <br>
+&#x2718 Espace de réflexion éthique <br>
+&#x2018 Approches non conventionnelles (hypnose, acupuncture, sophrologie, …) <br>
+&#x2705 Gestion de la fatigue <br>
+&#x2718 Ateliers d’art thérapie <br>
+</ul>
+<br>
+</details>   
+
+<details>
+<summary><b>Ressources humaines</b></summary><br>
+<ul>  
+<li> <B>Attaché(e) de Recherche Clinique :</B> </li>
+SORET Daphnée<br>
+daphnée.soret@chu-lille<br>
+Tel : 03 20 44 55 59 <br>
+</ul>
+</details>
+`
+},
+{
+ nom:"CHU Avicenne, AP-HP_Centre expert référent",
+ ville:"Bobigny",
+ region:"Ile-de-France",
+ lat: 48.90,
+ lng: 2.45,
+ressources:["Médecine nucléaire", "Endoscopie interventionnelle bilio-pancréatique","Plateforme de biologie moléculaire","Plateforme d'anatomopathologie","Plateforme d'imagerie","Oncogénétique", "Centre de diagnostic rapide", "Radiothérapie externe", "Radio-embolisation", "Radiologie interventionnelle", "Chirurgie viscérale", "Chirurgie digestive de recours", "Plateau de réanimation", "Unité de recherche clinique dédiée", "Centre d'Investigation Clinique multithématique", "Accès aux études de phase I", "Gestion de la douleur", "Diététique et nutrition", "Soutien psychologique du patient", "Accompagnement social, familial et professionnel", "Préservation de la fertilité", "Soutien psychologique des proches et des aidants", "Onco-gériatrie", "Unité mobile de soins palliatifs", "Unité de soins palliatifs dédiée", "Hôpital de jour de soins de support", "Espace de réflexion éthique"],
+popupHtml:`<h3>CHU Avicenne, AP-HP_Centre expert référent</h3>
+<b>Pr GANNE-CARRIE Nathalie</b><br>
+Service d'Hépatologie et d'oncologie Hépatique, Batiment Larrey A  <br> 
+125 rue de Stalingrad, 93000 <b>Bobigny</b><br>
+<a href="mailto:nathalie.ganne@aphp.fr">nathalie.ganne@aphp.fr</a><br><br>
+
+<b>Secrétariat :</b><br>
+MOMMELE Peggy <br>
+<a href="mailto:peggy.mommele@aphp.fr">peggy.mommele@aphp.fr</a><br>
+Tel : 01 48 02 68 03  <br>
+Fax : 01 48 02 62 02 <br>
+<br>
+<b><a href="https://foiecancer93.fr/" target="_blank">Site web</a></b> <br>
+<br>
+<details>
+<summary><b>Ressources de soin</b></summary><br>
+<B>Plateaux techniques</B> <br>    
+<ul>
+<li><b>Diagnostic :</b></li>  
+&#x2705 Médecine nucléaire <br>    
+&#x2705 Endoscopie interventionnelle bilio-pancréatique <br>
+&#x2705 Plateforme de biologie moléculaire <br>
+&#x2705 Plateforme d'anatomopathologie <br> 
+&#x2705 Plateforme d’imagerie <br>  
+&#x2705 Oncogénétique <br>  
+&#x2705 Centre de diagnostic rapide <br>  
+<br>
+<li><b>Traitement</b></li>
+&#x2705 Radiothérapie externe <br>   
+&#x2705 Radio-embolisation <br>   
+&#x2705 Radiologie interventionnelle <br>  
+&#x2705 Chirurgie viscérale <br>
+&#x2705 Chirurgie digestive de recours <br>  
+&#x2718 Chirurgie hépatique et transplantation hépatique* <br>  
+&#x2705 Plateau de réanimation <br> 
+<br>
+<li><b>Recherche :</b></li>
+&#x2705 Unité de recherche clinique dédiée <br> 
+&#x2705 Centre d'Investigation Clinique multithématique <br>
+&#x2705 Accès aux études de phase I <br>
+<br>
+*Convention pour la transplantation hépatique avec l'APHP Beaujon <br> 
+<br>
+</ul>
+<br>   
+<B>Soins de support</B> <br>
+<ul>
+<li><b>Soins « socle » :</b></li>
+&#x2705 Gestion de la douleur <br>
+&#x2705 Diététique et nutrition <br>
+&#x2705 Soutien psychologique du patient <br>
+&#x2705 Accompagnement social, familial et professionnel <br>
+<br>
+<li><b>Soins de support complémentaires : </b></li>
+&#x2718 Rééducation et activités physiques adaptées <br>
+&#x2705 Préservation de la fertilité <br>
+&#x2718 Gestion des troubles de la sexualité <br>
+&#x2718 Conseils d’hygiène de vie <br>
+&#x2705 Soutien psychologique des proches et des aidants <br>
+<br>
+<li><b>Autres soins de support et services : </b></li>
+&#x2705 Onco-gériatrie <br>
+&#x2705 Unité mobile de soins palliatifs <br>
+&#x2705 Unité de soins palliatifs dédiée <br>
+&#x2705 Hôpital de jour de soins de support <br>
+&#x2705 Espace de réflexion éthique <br>
+&#x2718 Approches non conventionnelles (hypnose, acupuncture, sophrologie, …) <br>
+&#x2718 Gestion de la fatigue <br>
+&#x2718 Ateliers d’art thérapie <br>
+<br>
+</ul>
+<br>
+</details>   
+
+<details>
+<summary><b>Ressources humaines</b></summary><br>
+<ul>  
+<li> <B>Infirmier(e) de Coordination :</B> </li>
+YALA Fatima   <br>
+fatima.yala@aphp.fr   <br>
+Tel : 01 48 02 58 78   <br>
+Fax : 01 48 02 62 02 <br>
+<br>
+<li> <B>Infirmier(e) en Pratiques Avancées :</B> </li>
+CHAUVEL Laura <br>
+<br>
+<li> <B>Attaché(e) de Recherche Clinique :</B> </li>
+DONNEGER Séverine   <br>
+severine.donneger@aphp.fr   <br>
+Tel : 01 48 02 40 52   <br>
+</ul>
+</details>
+`
+},
+{
+ nom:"CHU Henri Mondor, AP-HP",
+ ville:"Créteil",
+ region:"Ile-de-France",
+ lat: 48.783,
+ lng: 2.466,
+ressources:["Médecine nucléaire", "Endoscopie interventionnelle bilio-pancréatique","Plateforme de biologie moléculaire","Plateforme d'anatomopathologie","Plateforme d'imagerie","Oncogénétique", "Centre de diagnostic rapide", "Radiothérapie externe", "Radio-embolisation", "Radiologie interventionnelle", "Chirurgie viscérale", "Chirurgie digestive de recours", "Chirurgie hépatique et transplantation hépatique", "Plateau de réanimation", "Unité de recherche clinique dédiée", "Centre d'Investigation Clinique multithématique", "Accès aux études de phase I", "Gestion de la douleur", "Diététique et nutrition", "Soutien psychologique du patient", "Accompagnement social, familial et professionnel", "Rééducation et activités physiques adaptées", "Conseils d’hygiène de vie", "Soutien psychologique des proches et des aidants", "Onco-gériatrie", "Unité mobile de soins palliatifs", "Unité de soins palliatifs dédiée", "Hôpital de jour de soins de support", "Espace de réflexion éthique", "Approches non conventionnelles"],
+popupHtml:`<h3>CHU Henri Mondor, AP-HP</h3>
+<b>Dr AMADDEO Giuliana</b><br>
+Service d’Hépatologie <br> 
+1 rue Gustave Eiffel, 94000 <b>Créteil</b>                       <br>
+<a href="mailto:giuliana.amaddeo@aphp.fr">giuliana.amaddeo@aphp.fr</a><br><br>
+
+<b><a href="https://www.aphp.fr/henri-mondor/service-d-hepatologie" target="_blank">Site web</a></b> <br>
+<br>
+<details>
+<summary><b>Ressources de soin</b></summary><br>
+<B>Plateaux techniques</B> <br>    
+<ul>
+<li><b>Diagnostic :</b></li>  
+&#x2705 Médecine nucléaire <br>    
+&#x2705 Endoscopie interventionnelle bilio-pancréatique <br>
+&#x2705 Plateforme de biologie moléculaire <br>
+&#x2705 Plateforme d'anatomopathologie <br> 
+&#x2705 Plateforme d’imagerie <br>  
+&#x2705 Oncogénétique <br>  
+&#x2705 Centre de diagnostic rapide <br>  
+<br>
+<li><b>Traitement</b></li>
+&#x2705 Radiothérapie externe <br>   
+&#x2705 Radio-embolisation <br>   
+&#x2705 Radiologie interventionnelle <br>  
+&#x2705 Chirurgie viscérale <br>
+&#x2705 Chirurgie digestive de recours <br>  
+&#x2705 Chirurgie hépatique et transplantation hépatique <br>  
+&#x2705 Plateau de réanimation <br> 
+<br>
+<li><b>Recherche :</b></li>
+&#x2705 Unité de recherche clinique dédiée <br> 
+&#x2705 Centre d'Investigation Clinique multithématique <br>
+&#x2705 Accès aux études de phase I <br>
+<br>
+</ul>
+<br>   
+<B>Soins de support</B> <br>
+<ul>
+<li><b>Soins « socle » :</b></li>
+&#x2705 Gestion de la douleur <br>
+&#x2705 Diététique et nutrition <br>
+&#x2705 Soutien psychologique du patient <br>
+&#x2705 Accompagnement social, familial et professionnel <br>
+<br>
+<li><b>Soins de support complémentaires : </b></li>
+&#x2705 Rééducation et activités physiques adaptées <br>
+&#x2718 Préservation de la fertilité <br>
+&#x2718 Gestion des troubles de la sexualité <br>
+&#x2705 Conseils d’hygiène de vie <br>
+&#x2705 Soutien psychologique des proches et des aidants <br>
+<br>
+<li><b>Autres soins de support et services : </b></li>
+&#x2705 Onco-gériatrie <br>
+&#x2705 Unité mobile de soins palliatifs <br>
+&#x2705 Unité de soins palliatifs dédiée <br>
+&#x2705 Hôpital de jour de soins de support <br>
+&#x2705 Espace de réflexion éthique <br>
+&#x2705 Approches non conventionnelles (hypnose, acupuncture, sophrologie, …) <br>
+&#x2718 Gestion de la fatigue <br>
+&#x2718 Ateliers d’art thérapie <br>
+<br>
+</ul>
+<br>
+</details>   
+
+<details>
+<summary><b>Ressources humaines</b></summary><br>
+<ul>  
+<li> <B>Infirmier(e) de Coordination :</B> </li>
+<ul>
+   <li> LECOMTE Béatrice</li>
+beatrice.lecomte2@aphp.fr 
+   <br>
+<li>PITON Julie</li>
+julie.piton@aphp.fr <br>
+</ul>
+Tel : 01 49 81 43 18<br>
+Fax : 01 45 17 80 32<br>
+</ul>
+</details>
+`
+},
+{
+ nom:"Hôpital Beaujon, AP-HP",
+ ville:"Clichy",
+ region:"Ile-de-France",
+ lat: 48.90,
+ lng: 2.3,
+ressources:["Médecine nucléaire", "Endoscopie interventionnelle bilio-pancréatique","Plateforme de biologie moléculaire","Plateforme d'anatomopathologie","Plateforme d'imagerie","Oncogénétique", "Centre de diagnostic rapide", "Radio-embolisation", "Radiologie interventionnelle", "Chirurgie viscérale", "Chirurgie digestive de recours", "Chirurgie hépatique et transplantation hépatique", "Plateau de réanimation", "Unité de recherche clinique dédiée", "Centre d'Investigation Clinique multithématique", "Accès aux études de phase I", "Gestion de la douleur", "Diététique et nutrition", "Soutien psychologique du patient", "Accompagnement social, familial et professionnel", "Rééducation et activités physiques adaptées", "Soutien psychologique des proches et des aidants", "Unité mobile de soins palliatifs", "Hôpital de jour de soins de support", "Gestion de la fatigue"],
+popupHtml:`<h3>Hôpital Beaujon, AP-HP</h3>
+<b>Dr BOUATTOUR Mohamed</b><br>
+Oncologie Hépatique et Innovation thérapeutique <br> 
+100 Bld du Général Leclerc 92110  <b>Clichy</b><br>
+<a href="mailto:Mohamed.bouattour@aphp.fr">Mohamed.bouattour@aphp.fr</a><br><br>
+
+<b>Secrétariat :</b><br>
+HALIMI Faiza<br>
+<a href="mailto:secretariat.oncologie.hepatique.bjn@aphp.fr">secretariat.oncologie.hepatique.bjn@aphp.fr</a><br>
+Tel : 01 40 87 56 14 <br>
+Fax : 01 40 87 44 29 <br>
+<br>
+<b><a href="https://www.aphp.fr/beaujon/service-d-oncologie-hepatique-et-innovation-therapeutique#:~:text=L'unit%C3%A9%20fonctionnelle%20d'Oncologie,de%20cancer%20primitif%20du%20foie" target="_blank">Site web</a></b> <br>
+<br>
+<details>
+<summary><b>Ressources de soin</b></summary><br>
+<B>Plateaux techniques</B> <br>    
+<ul>
+<li><b>Diagnostic :</b></li>  
+&#x2705 Médecine nucléaire <br>    
+&#x2705 Endoscopie interventionnelle bilio-pancréatique <br>
+&#x2705 Plateforme de biologie moléculaire <br>
+&#x2705 Plateforme d'anatomopathologie <br> 
+&#x2705 Plateforme d’imagerie <br>  
+&#x2705 Oncogénétique <br>  
+&#x2705 Centre de diagnostic rapide <br>  
+<br>
+<li><b>Traitement</b></li>
+&#x2718 Radiothérapie externe <br>   
+&#x2705 Radio-embolisation <br>   
+&#x2705 Radiologie interventionnelle <br>  
+&#x2705 Chirurgie viscérale <br>
+&#x2705 Chirurgie digestive de recours <br>  
+&#x2705 Chirurgie hépatique et transplantation hépatique <br>  
+&#x2705 Plateau de réanimation <br> 
+<br>
+<li><b>Recherche :</b></li>
+&#x2705 Unité de recherche clinique dédiée <br> 
+&#x2705 Centre d'Investigation Clinique multithématique <br>
+&#x2705 Accès aux études de phase I <br>
+<br>
+</ul>
+<br>   
+<B>Soins de support</B> <br>
+<ul>
+<li><b>Soins « socle » :</b></li>
+&#x2705 Gestion de la douleur <br>
+&#x2705 Diététique et nutrition <br>
+&#x2705 Soutien psychologique du patient <br>
+&#x2705 Accompagnement social, familial et professionnel <br>
+<br>
+<li><b>Soins de support complémentaires : </b></li>
+&#x2705 Rééducation et activités physiques adaptées <br>
+&#x2718 Préservation de la fertilité <br>
+&#x2718 Gestion des troubles de la sexualité <br>
+&#x2718 Conseils d’hygiène de vie <br>
+&#x2705 Soutien psychologique des proches et des aidants <br>
+<br>
+<li><b>Autres soins de support et services : </b></li>
+&#x2718 Onco-gériatrie <br>
+&#x2705 Unité mobile de soins palliatifs <br>
+&#x2718 Unité de soins palliatifs dédiée <br>
+&#x2705 Hôpital de jour de soins de support <br>
+&#x2718 Espace de réflexion éthique <br>
+&#x2718 Approches non conventionnelles (hypnose, acupuncture, sophrologie, …) <br>
+&#x2705 Gestion de la fatigue <br>
+&#x2718 Ateliers d’art thérapie <br>
+</ul>
+<br>
+</details>   
+
+<details>
+<summary><b>Ressources humaines</b></summary><br>
+<ul>  
+<li> <B>Infirmier(e) de Coordination :</B> </li>
+<ul>
+   <li>EL BARKANI Maryline</li>
+maryline.berard@aphp.fr
+   <br>
+<li>LE COZANNET Faustine</li>
+faustine.lecozannet@aphp.fr<br>
+</ul>
+Tel : 01 40 87 51 08 <br>
+<br>
+<li> <B>Infirmier(e) en Pratiques Avancées :</B> </li>
+DEVICTOR Julie<br>
+julie.devictor@aphp.fr<br> 
+<br>
+<li> <B>Attaché(e) de Recherche Clinique :</B> </li>
+HEMDANE Yasmine<br>
+yasmine.hemdane@aphp.fr<br>
+  Tel : 01 40 87 55 53 <br>
+Fax : 01 71 11 46 26<br>
+</ul>
+</details>
+`
+},
+{
+ nom:"Hôpital Saint-Antoine, AP-HP",
+ ville:"Paris",
+ region:"Ile-de-France",
+ lat: 48.876,
+ lng: 2.333,
+ressources:["Endoscopie interventionnelle bilio-pancréatique","Plateforme d'imagerie","Oncogénétique", "Radiologie interventionnelle", "Chirurgie viscérale", "Chirurgie digestive de recours", "Plateau de réanimation", "Unité de recherche clinique dédiée", "Centre d'Investigation Clinique multithématique", "Gestion de la douleur", "Diététique et nutrition", "Soutien psychologique du patient", "Accompagnement social, familial et professionnel", "Rééducation et activités physiques adaptées", "Soutien psychologique des proches et des aidants", "Onco-gériatrie", "Unité mobile de soins palliatifs", "Hôpital de jour de soins de support", "Espace de réflexion éthique"],
+popupHtml:`<h3>Hôpital Saint-Antoine, AP-HP</h3>
+<b>Dr LEQUOY Marie</b><br>
+Service d’hépatologie, 8eme étage Bâtiment Caroli <br> 
+184 rue du faubourg Saint-Antoine 75012 <b>Paris</b><br>
+<a href="mailto:marie.lequoy@aphp.fr">marie.lequoy@aphp.fr</a><br><br>
+
+<b>Secrétariat :</b><br>
+LEJEUNE Claudine <br>
+<a href="mailto:claudine.lejeune@aphp.fr">claudine.lejeune@aphp.fr</a><br>
+Tel : 01 49 28 24 63 <br>
+Fax : 01 49 28 21 07 <br>
+<br>
+<b><a href="https://saintantoine.aphp.fr/hepatologie/" target="_blank">Site web</a></b> <br>
+<br>
+<details>
+<summary><b>Ressources de soin</b></summary><br>
+<B>Plateaux techniques</B> <br>    
+<ul>
+<li><b>Diagnostic :</b></li>  
+&#x2718 Médecine nucléaire* <br>    
+&#x2705 Endoscopie interventionnelle bilio-pancréatique <br>
+&#x2718 Plateforme de biologie moléculaire* <br>
+&#x2718 Plateforme d'anatomopathologie* <br> 
+&#x2705 Plateforme d’imagerie <br>  
+&#x2705 Oncogénétique <br>  
+&#x2718 Centre de diagnostic rapide* <br>  
+<br>
+<li><b>Traitement</b></li>
+&#x2718 Radiothérapie externe* <br>   
+&#x2718 Radio-embolisation* <br>   
+&#x2705 Radiologie interventionnelle <br>  
+&#x2705 Chirurgie viscérale <br>
+&#x2705 Chirurgie digestive de recours <br>  
+&#x2718 Chirurgie hépatique et transplantation hépatique* <br>  
+&#x2705 Plateau de réanimation <br> 
+<br>
+<li><b>Recherche :</b></li>
+&#x2705 Unité de recherche clinique dédiée <br> 
+&#x2705 Centre d'Investigation Clinique multithématique <br>
+&#x2718 Accès aux études de phase I <br>
+<br>
+*Convention pour la chirurgie de transplantation hépatique, la radio-embolisation, la plateforme de biologie moléculaire et plateforme d’anatomopathologie avec l’hôpital de la Pitié-Salpêtrière<br> 
+*Convention pour la radiothérapie et la médecine nucléaire avec l’hôpital de la Pitié-Salpêtrière et l’hôpital Tenon<br>
+</ul>
+<br>   
+<B>Soins de support</B> <br>
+<ul>
+<li><b>Soins « socle » :</b></li>
+&#x2705 Gestion de la douleur <br>
+&#x2705 Diététique et nutrition <br>
+&#x2705 Soutien psychologique du patient <br>
+&#x2705 Accompagnement social, familial et professionnel <br>
+<br>
+<li><b>Soins de support complémentaires : </b></li>
+&#x2705 Rééducation et activités physiques adaptées <br>
+&#x2718 Préservation de la fertilité <br>
+&#x2718 Gestion des troubles de la sexualité <br>
+&#x2718 Conseils d’hygiène de vie <br>
+&#x2705 Soutien psychologique des proches et des aidants <br>
+<br>
+<li><b>Autres soins de support et services : </b></li>
+&#x2705 Onco-gériatrie <br>
+&#x2705 Unité mobile de soins palliatifs <br>
+&#x2718 Unité de soins palliatifs dédiée <br>
+&#x2705 Hôpital de jour de soins de support <br>
+&#x2705 Espace de réflexion éthique <br>
+&#x2718 Approches non conventionnelles (hypnose, acupuncture, sophrologie, …) <br>
+&#x2718 Gestion de la fatigue <br>
+&#x2718 Ateliers d’art thérapie <br>
+</ul>
+<br>
+</details>   
+
+<details>
+<summary><b>Ressources humaines</b></summary><br>
+<ul>  
+<li> <B>Infirmier(e) de Coordination :</B> </li>
+DI SACCO Hélène<br>
+coordination.onco-hepato.sat@aphp.fr<br>
+Tel : 01 49 28 31 52 <br>
+Fax : 01 49 23 24 74 <br>   
+<br>
+<li> <B>Attaché(e) de Recherche Clinique :</B> </li>
+CHEVANCE Azéline <br>
+azeline.chevance@aphp.fr<br>
+Tel : 01 49 28 33 98<br>
+Fax : 01 71 97 03 39<br>
+</ul>
+</details>
+`
+},
+{
+ nom:"Hôpital La Pitié-Salpêtrière, AP-HP",
+ ville:"Paris",
+ region:"Ile-de-France",
+ lat: 48.862,
+ lng: 2.343,
+ressources:["Médecine nucléaire", "Plateforme de biologie moléculaire","Plateforme d'anatomopathologie","Plateforme d'imagerie","Oncogénétique", "Centre de diagnostic rapide", "Radiothérapie externe", "Radio-embolisation", "Radiologie interventionnelle", "Chirurgie viscérale", "Chirurgie digestive de recours", "Chirurgie hépatique et transplantation hépatique", "Plateau de réanimation", "Unité de recherche clinique dédiée", "Centre d'Investigation Clinique multithématique", "Accès aux études de phase I", "Gestion de la douleur", "Diététique et nutrition", "Soutien psychologique du patient", "Accompagnement social, familial et professionnel", "Rééducation et activités physiques adaptées", "Conseils d’hygiène de vie", "Soutien psychologique des proches et des aidants", "Onco-gériatrie", "Unité mobile de soins palliatifs", "Hôpital de jour de soins de support", "Espace de réflexion éthique"],
+popupHtml:`<h3>Hôpital La Pitié-Salpêtrière, AP-HP</h3>
+<b>Dr. ALLAIRE Manon</b><br>
+Service d'hépato-gastroentérologie   <br>
+47-83, boulevard de l'Hôpital, 75013 <b>Paris</b><br>
+<a href="mailto:manon.allaire@aphp.fr">manon.allaire@aphp.fr</a><br><br>
+
+<b>Secrétariat :</b><br>
+GAUTIER Violaine <br>
+<a href="mailto:violaine.gautier@aphp.fr">violaine.gautier@aphp.fr</a><br>
+Tel : 01 42 16 10 34 <br>
+Fax : 01 42 16 11 60 <br>
+<br>
+<b><a href="https://www.institutdufoie.com/" target="_blank">Site web</a></b> <br>
+<br>
+<details>
+<summary><b>Ressources de soin</b></summary><br>
+<B>Plateaux techniques</B> <br>    
+<ul>
+<li><b>Diagnostic :</b></li>  
+&#x2705 Médecine nucléaire <br>    
+&#x2718 Endoscopie interventionnelle bilio-pancréatique* <br>
+&#x2705 Plateforme de biologie moléculaire <br>
+&#x2705 Plateforme d'anatomopathologie <br> 
+&#x2705 Plateforme d’imagerie <br>  
+&#x2705 Oncogénétique <br>  
+&#x2705 Centre de diagnostic rapide <br>  
+<br>
+<li><b>Traitement</b></li>
+&#x2705 Radiothérapie externe <br>   
+&#x2705 Radio-embolisation <br>   
+&#x2705 Radiologie interventionnelle <br>  
+&#x2705 Chirurgie viscérale <br>
+&#x2705 Chirurgie digestive de recours <br>  
+&#x2705 Chirurgie hépatique et transplantation hépatique <br>  
+&#x2705 Plateau de réanimation <br> 
+<br>
+<li><b>Recherche :</b></li>
+&#x2705 Unité de recherche clinique dédiée <br> 
+&#x2705 Centre d'Investigation Clinique multithématique <br>
+&#x2705 Accès aux études de phase I <br>
+<br>
+*Convention pour l’endoscopie interventionnelle avec l’hôpital Saint Antoine <br> 
+<br>  
+</ul>
+<br>   
+<B>Soins de support</B> <br>
+<ul>
+<li><b>Soins « socle » :</b></li>
+&#x2705 Gestion de la douleur <br>
+&#x2705 Diététique et nutrition <br>
+&#x2705 Soutien psychologique du patient <br>
+&#x2705 Accompagnement social, familial et professionnel <br>
+<br>
+<li><b>Soins de support complémentaires : </b></li>
+&#x2705 Rééducation et activités physiques adaptées <br>
+&#x2718 Préservation de la fertilité <br>
+&#x2718 Gestion des troubles de la sexualité <br>
+&#x2705 Conseils d’hygiène de vie <br>
+&#x2705 Soutien psychologique des proches et des aidants <br>
+<br>
+<li><b>Autres soins de support et services : </b></li>
+&#x2705 Onco-gériatrie <br>
+&#x2705 Unité mobile de soins palliatifs <br>
+&#x2718 Unité de soins palliatifs dédiée <br>
+&#x2705 Hôpital de jour de soins de support <br>
+&#x2705 Espace de réflexion éthique <br>
+&#x2718 Approches non conventionnelles (hypnose, acupuncture, sophrologie, …) <br>
+&#x2718 Gestion de la fatigue <br>
+&#x2718 Ateliers d’art thérapie <br>
+<br>
+</ul>
+<br>
+</details>   
+
+<details>
+<summary><b>Ressources humaines</b></summary><br>
+<ul>  
+<li> <B>Infirmier(e) de Coordination :</B> </li>
+<ul>
+  <li>BOSSON Cynthia</li>    
+      cynthia.bosson@aphp.fr <br>  
+  <li>DELIGNAT Sophie</li>       
+        coordination-onco-hepato.psl@aphp.fr   <br>
+       </ul>
+   Tel : 01 84 82 71 44 (10H00-16H00)   <br>
+   Fax: 01 42 16 11 60 <br>
+<br>
+<li> <B>Attaché(e) de Recherche Clinique :</B> </li>
+BEN HIDA Jaouad    <br>  
+   Tel: 01 42 16 14 19   <br>
+   Tel : 01 84 82 80 90   <br>
+   Fax: 01 42 17 80 83   <br>
+</ul>
+</details>
+`
+},
+{
+ nom:"Institut Médico-Chirurgical Montsouris",
+ ville:"Paris",
+ region:"Ile-de-France",
+ lat: 48.866,
+ lng: 2.34,
+ressources:["Endoscopie interventionnelle bilio-pancréatique", "Plateforme d'anatomopathologie","Plateforme d'imagerie", "Radiologie interventionnelle", "Chirurgie viscérale", "Chirurgie digestive de recours", "Plateau de réanimation", "Gestion de la douleur", "Diététique et nutrition", "Soutien psychologique du patient", "Accompagnement social, familial et professionnel", "Rééducation et activités physiques adaptées", "Conseils d’hygiène de vie", "Soutien psychologique des proches et des aidants", "Onco-gériatrie", "Unité mobile de soins palliatifs", "Hôpital de jour de soins de support", "Approches non conventionnelles"],
+popupHtml:`<h3>Institut Médico-Chirurgical Montsouris</h3>
+<b>Dr MALKA David</b><br>
+Département d'Oncologie Médicale <br> 
+42 Boulevard Jourdan, 75014 <b>Paris</b><br>
+<a href="mailto:David.MALKA@imm.fr">David.MALKA@imm.fr</a><br><br>
+
+<b>Secrétariat :</b><br>
+ROUSSEAU Nadège<br>
+<a href="mailto:secretariat.oncologie@imm.fr">secretariat.oncologie@imm.fr</a><br>
+Tel : 01 56 61 62 41<br>
+Fax : 01 56 61 61 70<br>
+<br>
+<b><a href="https://imm.fr" target="_blank">Site web</a></b> <br>
+<br>
+<details>
+<summary><b>Ressources de soin</b></summary><br>
+<B>Plateaux techniques</B> <br>    
+<ul>
+<li><b>Diagnostic :</b></li>  
+&#x2718 Médecine nucléaire* <br>    
+&#x2705 Endoscopie interventionnelle bilio-pancréatique <br>
+&#x2718 Plateforme de biologie moléculaire* <br>
+&#x2705 Plateforme d'anatomopathologie <br> 
+&#x2705 Plateforme d’imagerie <br>  
+&#x2718 Oncogénétique* <br>  
+&#x2718 Centre de diagnostic rapide <br>  
+<br>
+<li><b>Traitement</b></li>
+&#x2718 Radiothérapie externe* <br>   
+&#x2718 Radio-embolisation <br>   
+&#x2705 Radiologie interventionnelle <br>  
+&#x2705 Chirurgie viscérale <br>
+&#x2705 Chirurgie digestive de recours <br>  
+&#x2718 Chirurgie hépatique et transplantation hépatique <br>  
+&#x2705 Plateau de réanimation <br> 
+&#x2705 Chirurgie hépatique y compris coelioscopique et robot-assistée <br>
+<br>
+<li><b>Recherche :</b></li>
+&#x2718 Unité de recherche clinique dédiée <br> 
+&#x2718 Centre d'Investigation Clinique multithématique <br>
+&#x2718 Accès aux études de phase I* <br>
+<br>
+*Convention avec l’hôpital Foch à Suresne et l’hôpital Institut Curie à Paris pour l’accès à la radiothérapie externe, la médecine nucléaire, l’oncogénétique, la plateforme de biologie moléculaire et les études de phase I <br> 
+</ul>
+<br>   
+<B>Soins de support</B> <br>
+<ul>
+<li><b>Soins « socle » :</b></li>
+&#x2705 Gestion de la douleur <br>
+&#x2705 Diététique et nutrition <br>
+&#x2705 Soutien psychologique du patient <br>
+&#x2705 Accompagnement social, familial et professionnel <br>
+<br>
+<li><b>Soins de support complémentaires : </b></li>
+&#x2705 Rééducation et activités physiques adaptées <br>
+&#x2718 Préservation de la fertilité <br>
+&#x2718 Gestion des troubles de la sexualité <br>
+&#x2705 Conseils d’hygiène de vie <br>
+&#x2705 Soutien psychologique des proches et des aidants <br>
+<br>
+<li><b>Autres soins de support et services : </b></li>
+&#x2705 Onco-gériatrie <br>
+&#x2705 Unité mobile de soins palliatifs <br>
+&#x2718 Unité de soins palliatifs dédiée <br>
+&#x2705 Hôpital de jour de soins de support <br>
+&#x2718 Espace de réflexion éthique <br>
+&#x2705 Approches non conventionnelles (hypnose, acupuncture, sophrologie, …) <br>
+&#x2718 Gestion de la fatigue <br>
+&#x2718 Ateliers d’art thérapie <br>
+<br>
+</ul>
+<br>
+</details>   
+
+<details>
+<summary><b>Ressources humaines</b></summary><br>
+<ul>  
+<li> <B>Infirmier(e) de Coordination :</B> </li>
+BREBION Marion <br>
+marion.brebion@imm.fr<br>
+Tel : 01 56 61 75 58<br>
+Fax : 01 56 61 61 70<br>
+<br>
+<li> <B>Attaché(e) de Recherche Clinique :</B> </li>
+DOUMANDJI Yasmine<br>
+Yasmine.DOUMANDJI@imm.fr <br>
+Tel : 01 56 61 63 77<br>
+Fax : 01 56 61 61 70<br>
+</ul>
+</details>
+`
+},
+{
+ nom:"Hôpital de Saint-Cloud, Institut Curie",
+ ville:"Saint-Cloud",
+ region:"Ile-de-France",
+ lat: 48.84,
+ lng: 2.21,
+ressources:["Médecine nucléaire", "Endoscopie interventionnelle bilio-pancréatique","Plateforme de biologie moléculaire","Plateforme d'anatomopathologie","Plateforme d'imagerie","Oncogénétique", "Centre de diagnostic rapide", "Radiothérapie externe", "Radiologie interventionnelle", "Chirurgie viscérale", "Chirurgie digestive de recours", "Plateau de réanimation", "Centre d'Investigation Clinique multithématique", "Accès aux études de phase I", "Gestion de la douleur", "Diététique et nutrition", "Soutien psychologique du patient", "Accompagnement social, familial et professionnel", "Rééducation et activités physiques adaptées", "Préservation de la fertilité", "Conseils d’hygiène de vie", "Soutien psychologique des proches et des aidants", "Onco-gériatrie", "Unité mobile de soins palliatifs", "Unité de soins palliatifs dédiée", "Hôpital de jour de soins de support", "Espace de réflexion éthique", "Gestion de la fatigue", "Approches non conventionnelles"],
+popupHtml:`<h3>Hôpital de Saint-Cloud, Institut Curie</h3>
+<b>Pr NEUZILLET Cindy</b><br>
+Oncologie Digestive, Département d'Oncologie médicale  <br> 
+Institut Curie, 35 rue Dailly, 92210 <b>Saint-Cloud</b><br>
+<a href="mailto:cindy.neuzillet@curie.fr">cindy.neuzillet@curie.fr</a><br><br>
+
+<b>Secrétariat :</b><br>
+DELVAL Emilie <br>
+<a href="mailto:emilie.delval@curie.fr ">emilie.delval@curie.fr</a><br>
+Tel : 01 47 11 18 42 <br>
+<br>
+<b><a href="https://curie.fr/cancer-foie#content" target="_blank">Site web</a></b> <br>
+<br>
+<details>
+<summary><b>Ressources de soin</b></summary><br>
+<B>Plateaux techniques</B> <br>    
+<ul>
+<li><b>Diagnostic :</b></li>  
+&#x2705 Médecine nucléaire <br>    
+&#x2705 Endoscopie interventionnelle bilio-pancréatique <br>
+&#x2705 Plateforme de biologie moléculaire <br>
+&#x2705 Plateforme d'anatomopathologie <br> 
+&#x2705 Plateforme d’imagerie <br>  
+&#x2705 Oncogénétique <br>  
+&#x2705 Centre de diagnostic rapide <br>  
+<br>
+<li><b>Traitement</b></li>
+&#x2705 Radiothérapie externe <br>   
+&#x2718 Radio-embolisation <br>   
+&#x2705 Radiologie interventionnelle <br>  
+&#x2705 Chirurgie viscérale <br>
+&#x2705 Chirurgie digestive de recours <br>  
+&#x2705 Chirurgie hépatique et transplantation hépatique <br>  
+&#x2705 Plateau de réanimation <br> 
+<br>
+<li><b>Recherche :</b></li>
+&#x2718 Unité de recherche clinique dédiée <br> 
+&#x2705 Centre d'Investigation Clinique multithématique <br>
+&#x2705 Accès aux études de phase I <br>
+<br>
+Convention avec Hôpital Ambroise-Paré, APHP, Boulogne-Billancourt <br> 
+</ul>
+<br>   
+<B>Soins de support</B> <br>
+<ul>
+<li><b>Soins « socle » :</b></li>
+&#x2705 Gestion de la douleur <br>
+&#x2705 Diététique et nutrition <br>
+&#x2705 Soutien psychologique du patient <br>
+&#x2705 Accompagnement social, familial et professionnel <br>
+<br>
+<li><b>Soins de support complémentaires : </b></li>
+&#x2705 Rééducation et activités physiques adaptées <br>
+&#x2705 Préservation de la fertilité <br>
+&#x2718 Gestion des troubles de la sexualité <br>
+&#x2705 Conseils d’hygiène de vie <br>
+&#x2705 Soutien psychologique des proches et des aidants <br>
+<br>
+<li><b>Autres soins de support et services : </b></li>
+&#x2705 Onco-gériatrie <br>
+&#x2705 Unité mobile de soins palliatifs <br>
+&#x2705 Unité de soins palliatifs dédiée <br>
+&#x2705 Hôpital de jour de soins de support <br>
+&#x2705 Espace de réflexion éthique <br>
+&#x2705 Approches non conventionnelles (hypnose, acupuncture, sophrologie, …) <br>
+&#x2705 Gestion de la fatigue <br>
+&#x2718 Ateliers d’art thérapie <br>
+&#x2705 Parcours de préhabilitation <br>
+<br>
+</ul>
+<br>
+</details>   
+`
+},
+
+
+];
+
+// ===== Initialisation régions =====
+const regions = [...new Set(hopitaux.map(h=>h.region))];
+const regionSelect=document.getElementById('regionFilter');
+regions.forEach(r=>{
+ let opt=document.createElement('option');opt.value=r;opt.textContent=r;regionSelect.appendChild(opt);
+});
+
+// ===== Affichage markers =====
+function afficherHopitaux(liste){
+ markerGroup.clearLayers();
+ if(liste.length===0){alert("Aucun centre correspondant");return;}
+ liste.forEach(h=>{
+  L.marker([h.lat,h.lng]).addTo(markerGroup).bindPopup(h.popupHtml,{maxWidth:420});
+ });
+}
+
+// ===== Filtres =====
+function appliquerFiltres(){
+ const region = regionSelect.value;
+ const ressourcesChoisies=[...document.querySelectorAll('.res:checked')].map(c=>c.value);
+
+ let resultat = hopitaux.filter(h=>{
+  let okRegion = !region || h.region===region;
+  let okRes = ressourcesChoisies.length===0 || ressourcesChoisies.every(r=>h.ressources.includes(r));
+  return okRegion && okRes;
+ });
+ afficherHopitaux(resultat);
+}
+
+function resetFiltres(){
+ regionSelect.value="";
+ document.querySelectorAll('.res').forEach(c=>c.checked=false);
+ afficherHopitaux(hopitaux);
+}
+
+// ===== Zoom DOM =====
+function zoomDOM(dom){
+ const coords={
+  guyane:[4.9,-52.3,7],
+  guadeloupe:[16.25,-61.55,8],
+  martinique:[14.62,-61.05,8],
+  reunion:[-20.88,55.45,8]
+ };
+ const c=coords[dom];
+ map.setView([c[0],c[1]],c[2]);
+}
+
+function zoomFrance(){
+ map.setView([46.6,2.5],6);
+}
+
+// affichage initial
+function afficherHopitaux(liste){
+ markerGroup.clearLayers();
+ const listeDiv = document.getElementById("listeCentres");
+ listeDiv.innerHTML = "";
+
+ if(liste.length===0){
+   listeDiv.innerHTML="<i>Aucun centre correspondant</i>";
+   return;
+ }
+
+ liste.forEach(h=>{
+  const marker = L.marker([h.lat,h.lng]).addTo(markerGroup)
+    .bindPopup(h.popupHtml,{maxWidth:420});
+
+  // élément liste
+  const item = document.createElement("div");
+  item.style.cursor="pointer";
+  item.style.padding="4px";
+  item.style.borderBottom="1px solid #ddd";
+  item.innerHTML = `<b>${h.nom}</b><br><small>${h.ville}</small>`;
+
+  item.onclick = ()=>{
+    map.setView([h.lat,h.lng],8);
+    marker.openPopup();
+  };
+
+  listeDiv.appendChild(item);
+ });
+}
+
+</script>
+</body>
+</html>
