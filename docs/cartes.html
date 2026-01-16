@@ -105,7 +105,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'�
 const markerGroup = L.layerGroup().addTo(map);
 
 // ===== Régions cliquables (GeoJSON) =====
-const urlRegions = "https://france-geojson.gregoiredavid.fr/repo/regions.geojson";
+const urlRegions = "https://raw.githubusercontent.com/gregoiredavid/france-geojson/master/regions.geojson";
 
 fetch(urlRegions)
 .then(r=>r.json())
@@ -118,6 +118,8 @@ fetch(urlRegions)
       fillOpacity:0.25
     },
     onEachFeature:(feature,layer)=>{
+      layer.bindTooltip(feature.properties.nom,{sticky:true});
+
       layer.on({
         mouseover:e=>{
           e.target.setStyle({fillOpacity:0.6});
@@ -127,15 +129,16 @@ fetch(urlRegions)
         },
         click:e=>{
           const nom = feature.properties.nom;
+
           map.fitBounds(e.target.getBounds());
+
           regionSelect.value = nom;
           appliquerFiltres();
         }
       });
     }
-  }).addTo(map).bringToBack();
+  }).addTo(map);
 });
-
 
 // ===== Données centres =====
 const hopitaux=[
