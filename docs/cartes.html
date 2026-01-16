@@ -27,6 +27,10 @@ body{margin:0;font-family:Arial}
 
 <div id="panel">
 <h3>Filtrer les centres</h3>
+<hr>
+<b>Centres visibles</b>
+<div id="listeCentres" style="max-height:200px;overflow:auto;border:1px solid #ccc;padding:5px"></div>
+
 
 <b>Région :</b><br>
 <select id="regionFilter" style="width:100%">
@@ -100,6 +104,39 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'�
 
 const markerGroup = L.layerGroup().addTo(map);
 
+// ===== Régions cliquables (GeoJSON) =====
+const urlRegions = "https://france-geojson.gregoiredavid.fr/repo/regions.geojson";
+
+fetch(urlRegions)
+.then(r=>r.json())
+.then(data=>{
+  L.geoJSON(data,{
+    style:{
+      color:"#2c3e50",
+      weight:1,
+      fillColor:"#3498db",
+      fillOpacity:0.25
+    },
+    onEachFeature:(feature,layer)=>{
+      layer.on({
+        mouseover:e=>{
+          e.target.setStyle({fillOpacity:0.6});
+        },
+        mouseout:e=>{
+          e.target.setStyle({fillOpacity:0.25});
+        },
+        click:e=>{
+          const nom = feature.properties.nom;
+          map.fitBounds(e.target.getBounds());
+          regionSelect.value = nom;
+          appliquerFiltres();
+        }
+      });
+    }
+  }).addTo(map).bringToBack();
+});
+
+
 // ===== Données centres =====
 const hopitaux=[
 {
@@ -118,8 +155,8 @@ Site Estaing, Service de Médecine digestive et hépatobiliaire<br>
 <b>Secrétariat :</b><br>
 GARREAU Sylvie<br>
 <a href="mailto:sgarreau@chu-clermontferrand.fr">sgarreau@chu-clermontferrand.fr</a><br>
-Tel : 04 73 75 05 23<br><br>
-
+Tel : 04 73 75 05 23<br>
+<br>
 <details>
 <summary><b>Ressources de soin</b></summary><br>
 <B>Plateaux techniques</B> <br>    
@@ -133,7 +170,7 @@ Tel : 04 73 75 05 23<br><br>
 &#x2705 Oncogénétique <br>  
 &#x2705 Centre de diagnostic rapide <br>   
 <br>
-<li><b>Traitement :</b></li>
+<li><b>Traitement</b></li>
 &#x2718 Radiothérapie externe* <br>   
 &#x2718 Radio-embolisation* <br>   
 &#x2705 Radiologie interventionnelle <br>  
@@ -158,7 +195,7 @@ Tel : 04 73 75 05 23<br><br>
 &#x2705 Soutien psychologique du patient <br>
 &#x2705 Accompagnement social, familial et professionnel <br>
 <br>
-<li><b>Soins de support complémentaires :</b> </li>
+<li><b>Soins de support complémentaires : </b></li>
 &#x2705 Rééducation et activités physiques adaptées <br>
 &#x2705 Préservation de la fertilité <br>
 &#x2705 Gestion des troubles de la sexualité <br>
@@ -189,6 +226,111 @@ Tel : 04 73 75 05 93<br>
 </details>
 `
 },
+
+{
+ nom:"Hôpital Michallon, CHU Grenoble Alpes",
+ ville:"La Tronche",
+ region:"Auvergne-Rhône-Alpes",
+ lat: 45.205,
+ lng: 5.744,
+ressources:["Médecine nucléaire", "Endoscopie interventionnelle bilio-pancréatique","Plateforme de biologie moléculaire","Plateforme d'anatomopathologie","Plateforme d'imagerie","Oncogénétique", "Centre de diagnostic rapide", "Radiothérapie externe", "Radio-embolisation", "Radiologie interventionnelle", "Chirurgie viscérale", "Chirurgie digestive de recours", "Chirurgie hépatique et transplantation hépatique", "Plateau de réanimation", "Unité de recherche clinique dédiée", "Centre d'Investigation Clinique multithématique", "Accès aux études de phase I", "Gestion de la douleur", "Diététique et nutrition", "Soutien psychologique du patient", "Accompagnement social, familial et professionnel", "Rééducation et activités physiques adaptées", "Préservation de la fertilité", "Soutien psychologique des proches et des aidants", "Onco-gériatrie", "Unité mobile de soins palliatifs", "Unité de soins palliatifs dédiée", "Espace de réflexion éthique", "Approches non conventionnelles", "Ateliers d’art thérapie"],
+popupHtml:`<h3>Hôpital Michallon, CHU Grenoble Alpes</h3>
+<b>Pr COSTENTIN Charlotte</b><br>
+Service d'Hépato-gastroentérologie et d'oncologie digestive<br>
+Boulevard de la Chantourne 38700 <b>La Tronche</b><br>
+<a href="mailto:ccostentin@chu-grenoble.fr ">ccostentin@chu-grenoble.fr</a><br>
+<br>
+<b>Secrétariat :</b><br>
+BARDIN Françoise<br>
+<a href="mailto:fbardin@chu-grenoble.fr">fbardin@chu-grenoble.fr</a><br>
+Tel : 04 76 76 55 97<br>
+<br>
+<b><a href="https://www.chu-grenoble.fr/patients-et-accompagnants/offre-de-soin/hepato-gastroenterologie-et-oncologie-digestive" target="_blank">Site web</a></b>
+<br>
+<details>
+<summary><b>Ressources de soin</b></summary><br>
+<B>Plateaux techniques</B> <br>    
+<ul>
+<li><b>Diagnostic :</b></li>  
+&#x2705 Médecine nucléaire <br>    
+&#x2705 Endoscopie interventionnelle bilio-pancréatique   <br>
+&#x2705 Plateforme de biologie moléculaire <br>
+&#x2705 Plateforme d'anatomopathologie <br> 
+&#x2705 Plateforme d’imagerie <br>  
+&#x2705 Oncogénétique <br>  
+&#x2705 Centre de diagnostic rapide <br> 
+<br>
+<li><b>Traitement</b></li>
+&#x2705 Radiothérapie externe <br>   
+&#x2705 Radio-embolisation <br>   
+&#x2705 Radiologie interventionnelle <br>  
+&#x2705 Chirurgie viscérale  <br>
+&#x2705 Chirurgie digestive de recours <br>  
+&#x2705 Chirurgie hépatique et transplantation hépatique <br>  
+&#x2705 Plateau de réanimation <br>
+<br>
+<li><b>Recherche :</b></li>
+&#x2705 Unité de recherche clinique dédiée <br> 
+&#x2705 Centre d'Investigation Clinique multithématique <br>
+&#x2705 Accès aux études de phase I <br>
+<br>
+</ul>
+<br>   
+<B>Soins de support</B> <br>
+<ul>
+<li><b>Soins « socle » :</b></li>
+&#x2705 Gestion de la douleur <br>
+&#x2705 Diététique et nutrition <br>
+&#x2705 Soutien psychologique du patient <br>
+&#x2705 Accompagnement social, familial et professionnel <br>
+<br>
+<li><b>Soins de support complémentaires : </b></li>
+&#x2705 Rééducation et activités physiques adaptées <br>
+&#x2705 Préservation de la fertilité <br>
+&#x2718 Gestion des troubles de la sexualité <br>
+&#x2718 Conseils d’hygiène de vie <br>
+&#x2705 Soutien psychologique des proches et des aidants <br>
+<br>
+<li><b>Autres soins de support et services : </b></li>
+&#x2705 Onco-gériatrie <br>
+&#x2705 Unité mobile de soins palliatifs <br>
+&#x2705 Unité de soins palliatifs dédiée <br>
+&#x2718 Hôpital de jour de soins de support <br>
+&#x2705 Espace de réflexion éthique <br>
+&#x2705 Approches non conventionnelles (hypnose, acupuncture, sophrologie, …) <br>
+&#x2718 Gestion de la fatigue <br>
+&#x2705 Ateliers d’art thérapie <br>
+&#x2705 Réflexologie plantaire <br>
+&#x2705 Psycho-esthéticienne <br>
+<br>
+</ul>
+<br>
+</details>   
+
+<details>
+<summary><b>Ressources humaines</b></summary><br>
+<ul>  
+<li> <B>Infirmier(e) de Coordination :</B> </li>
+Mélody & Océane<br>
+ideoncologiehge@chu-grenoble.fr<br>
+Tel : 04 76 76 53 01 <br>
+<br>
+<li> <B>Infirmier(e) en Pratiques Avancées :</B> </li>
+ODRU Céline 
+<br>
+  COdru1@chu-grenoble.fr
+<br>
+Tel : 04 76 76 53 99 <br>
+<br>
+<li> <B>Attaché(e) de Recherche Clinique :</B> </li>
+BORDY Laure  <br>
+ lbordy@chu-grenoble.fr <br>
+  Tel : 04 76 76 61 50<br> 
+</ul>
+</details>
+`
+},
+
 {
  nom:"Centre Guyane",
  ville:"Cayenne",
@@ -279,7 +421,36 @@ function zoomFrance(){
 }
 
 // affichage initial
-afficherHopitaux(hopitaux);
+function afficherHopitaux(liste){
+ markerGroup.clearLayers();
+ const listeDiv = document.getElementById("listeCentres");
+ listeDiv.innerHTML = "";
+
+ if(liste.length===0){
+   listeDiv.innerHTML="<i>Aucun centre correspondant</i>";
+   return;
+ }
+
+ liste.forEach(h=>{
+  const marker = L.marker([h.lat,h.lng]).addTo(markerGroup)
+    .bindPopup(h.popupHtml,{maxWidth:420});
+
+  // élément liste
+  const item = document.createElement("div");
+  item.style.cursor="pointer";
+  item.style.padding="4px";
+  item.style.borderBottom="1px solid #ddd";
+  item.innerHTML = `<b>${h.nom}</b><br><small>${h.ville}</small>`;
+
+  item.onclick = ()=>{
+    map.setView([h.lat,h.lng],8);
+    marker.openPopup();
+  };
+
+  listeDiv.appendChild(item);
+ });
+}
+
 </script>
 </body>
 </html>
