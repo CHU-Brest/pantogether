@@ -861,7 +861,7 @@ Convention pour l’accès à des plateaux techniques avec le centre hépato-bil
 <li>Soins de support complémentaires : </li>
 &#x2718 Rééducation et activités physiques adaptées <br>
 &#x2718 Préservation de la fertilité <br>
-&#x2718Gestion des troubles de la sexualité <br>
+&#x2718 Gestion des troubles de la sexualité <br>
 &#x2718 Conseils d’hygiène de vie <br>
 &#x2705 Soutien psychologique des proches et des aidants <br>
 <br>
@@ -2692,6 +2692,7 @@ ppramirezgarcia@hopital-saint-joseph.fr <br>
 Tel : 04 91 80 82 35<br>
 </ul>
 </details>
+
 
 
 
