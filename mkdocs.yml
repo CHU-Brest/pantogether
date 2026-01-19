@@ -17,6 +17,7 @@ nav:
   - Les centres experts:
     - reseau/fvb.md
   - data/essais_cliniques.json
+  - index.html
   - Recherche:
     - recherche/essaiscliniques.html
     - recherche/registre.md
