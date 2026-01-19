@@ -155,12 +155,15 @@ const icons = {
 };
 
 function getIconCentre(h){
- if(!h.cancers) return null;
+ if(!h.cancers || h.cancers.length===0) return null;
+
  if(h.cancers.includes("oesogastrique")) return icons.oesogastrique;
  if(h.cancers.includes("foie")) return icons.foie;
  if(h.cancers.includes("pancreas")) return icons.pancreas;
- return null;
+
+ return icons.foie; // sécurité par défaut
 }
+
 
 // ===== Données centres =====
 const hopitaux=[
@@ -3046,7 +3049,7 @@ function afficherHopitaux(liste){
  }
 
  liste.forEach(h=>{
-  const marker = L.marker([h.lat,h.lng]).addTo(markerGroup)
+  const marker = L.marker([h.lat,h.lng], { icon: getIconCentre(h) }).addTo(markerGroup)
     .bindPopup(h.popupHtml,{maxWidth:420});
 
   // élément liste
