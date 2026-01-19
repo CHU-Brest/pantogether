@@ -2447,9 +2447,18 @@ yann.touchefeu@chu-nantes.fr <br>
 
 <B>Plateaux techniques</B> <br>  
 <ul>
+<li>Diagnostic</li>  
+&#x2705 Médecine nucléaire  <br>    
+&#x2705 Endoscopie interventionnelle bilio-pancréatique  <br>
+&#x2705 Plateforme de biologie moléculaire <br>
+&#x2705 Plateforme d'anatomopathologie <br> 
+&#x2705 Plateforme d’imagerie <br>  
+&#x2705 Oncogénétique <br>  
+&#x2705 Centre de diagnostic rapide <br>   
+<br>
 <li>Traitement</li>
 &#x2718 Radiothérapie externe* <br>   
-&#x2718 Radio-embolisation <br>   
+&#x2705 Radio-embolisation <br>   
 &#x2705 Radiologie interventionnelle <br>  
 &#x2705 Chirurgie viscérale  <br>
 &#x2705 Chirurgie digestive de recours <br>  
@@ -2692,6 +2701,7 @@ ppramirezgarcia@hopital-saint-joseph.fr <br>
 Tel : 04 91 80 82 35<br>
 </ul>
 </details>
+
 
 
 
