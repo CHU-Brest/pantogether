@@ -16,7 +16,6 @@ nav:
     - cartes.html
   - Les centres experts:
     - reseau/fvb.md
-  - data/essais_cliniques.json
   - Recherche:
     - recherche/essaiscliniques.html
     - recherche/registre.md
