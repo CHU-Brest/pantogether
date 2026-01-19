@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Essais cliniques en cours</title>
+<link href="https://cdn.jsdelivr.net/npm/simple-datatables@latest/dist/style.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/simple-datatables@latest"></script>
+</head>
+<body>
+
+<h2>Essais cliniques en cours</h2>
+
+<table id="table"></table>
+
+<script>
+fetch("data/essais_cliniques.json")
+.then(r => r.json())
+.then(data => {
+  if(data.length === 0) return;
+
+  const headers = Object.keys(data[0]);
+  let html = "<thead><tr>";
+  headers.forEach(h => html += `<th>${h}</th>`);
+  html += "</tr></thead><tbody>";
+
+  data.forEach(row => {
+    html += "<tr>";
+    headers.forEach(h => html += `<td>${row[h] || ""}</td>`);
+    html += "</tr>";
+  });
+
+  html += "</tbody>";
+  document.getElementById("table").innerHTML = html;
+
+  new simpleDatatables.DataTable("#table");
+});
+</script>
+
+</body>
+</html>
