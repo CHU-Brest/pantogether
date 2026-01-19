@@ -1977,62 +1977,6 @@ regions.forEach(r=>{
 // ===== Affichage markers =====
 function afficherHopitaux(liste){
  markerGroup.clearLayers();
- const div=document.getElementById("listeCentres");
- div.innerHTML="";
-
- if(liste.length===0){div.innerHTML="<i>Aucun centre</i>";return;}
-
- liste.forEach(h=>{
-  const marker=L.marker([h.lat,h.lng],{icon:getIconCentre(h)})
-    .addTo(markerGroup).bindPopup(h.popupHtml);
-
-  const item=document.createElement("div");
-  item.innerHTML=`<b>${h.nom}</b><br><small>${h.ville}</small>`;
-  item.style.cursor="pointer";
-  item.onclick=()=>{map.setView([h.lat,h.lng],8);marker.openPopup();}
-  div.appendChild(item);
- });
-}
-
-// ===== Filtres =====
-function appliquerFiltres(){
- const region = regionSelect.value;
- const ressourcesChoisies=[...document.querySelectorAll('.res:checked')].map(c=>c.value);
-
- let resultat = hopitaux.filter(h=>{
-  let okRegion = !region || h.region===region;
-  let okRes = ressourcesChoisies.length===0 || ressourcesChoisies.every(r=>h.ressources.includes(r));
-  const okCancer=cancers.length===0||(h.cancers&&cancers.some(c=>h.cancers.includes(c)));
-  return okRegion && okRes;
- });
- afficherHopitaux(resultat);
-}
-
-function resetFiltres(){
- regionSelect.value="";
- document.querySelectorAll('.res').forEach(c=>c.checked=false);
- afficherHopitaux(hopitaux);
-}
-
-// ===== Zoom DOM =====
-function zoomDOM(dom){
- const coords={
-  guyane:[4.9,-52.3,7],
-  guadeloupe:[16.25,-61.55,8],
-  martinique:[14.62,-61.05,8],
-  reunion:[-20.88,55.45,8]
- };
- const c=coords[dom];
- map.setView([c[0],c[1]],c[2]);
-}
-
-function zoomFrance(){
- map.setView([46.6,2.5],6);
-}
-
-// affichage initial
-function afficherHopitaux(liste){
- markerGroup.clearLayers();
  const listeDiv = document.getElementById("listeCentres");
  listeDiv.innerHTML = "";
 
@@ -2060,6 +2004,61 @@ function afficherHopitaux(liste){
   listeDiv.appendChild(item);
  });
 }
+
+
+// ===== Filtres =====
+function appliquerFiltres(){
+
+ const region = regionSelect.value;
+
+ const ressourcesChoisies =
+ [...document.querySelectorAll('.res:checked')].map(c=>c.value);
+
+ const cancersChoisis =
+ [...document.querySelectorAll('.cancer:checked')].map(c=>c.value);
+
+ const resultat = hopitaux.filter(h=>{
+
+  const okRegion = !region || h.region===region;
+
+  const okRes =
+   ressourcesChoisies.length===0 ||
+   (h.ressources && ressourcesChoisies.every(r=>h.ressources.includes(r)));
+
+  const okCancer =
+   cancersChoisis.length===0 ||
+   (h.cancers && cancersChoisis.some(c=>h.cancers.includes(c)));
+
+  return okRegion && okRes && okCancer;
+ });
+
+ afficherHopitaux(resultat);
+}
+function resetFiltres(){
+ regionSelect.value="";
+ document.querySelectorAll("input[type=checkbox]").forEach(c=>c.checked=false);
+ afficherHopitaux(hopitaux);
+}
+
+
+// ===== Zoom DOM =====
+function zoomDOM(dom){
+ const coords={
+  guyane:[4.9,-52.3,7],
+  guadeloupe:[16.25,-61.55,8],
+  martinique:[14.62,-61.05,8],
+  reunion:[-20.88,55.45,8]
+ };
+ const c=coords[dom];
+ map.setView([c[0],c[1]],c[2]);
+}
+
+function zoomFrance(){
+ map.setView([46.6,2.5],6);
+}
+
+// affichage initial
+afficherHopitaux(hopitaux);
 
 </script>
 </body>
