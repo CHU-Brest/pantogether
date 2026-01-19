@@ -1800,7 +1800,7 @@ Fax: 01 45 59 69 57<br>
 <li> <B>Infirmier(e) en Pratiques Avancées :</B> </li>
 BOSSEVOT Rachel <br>
 Tel : 01 45 59 64 74 <br>
-Tel : 01 45 59 69 57<br>
+Fax : 01 45 59 69 57<br>
 <br>  
 <li> <B>Attaché(e) de Recherche Clinique :</B> </li>
 VIÉ Emmanuelle <br>
@@ -2692,6 +2692,7 @@ ppramirezgarcia@hopital-saint-joseph.fr <br>
 Tel : 04 91 80 82 35<br>
 </ul>
 </details>
+
 
 
 
