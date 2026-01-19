@@ -31,7 +31,14 @@ body{margin:0;font-family:Arial}
 <b>Centres visibles</b>
 <div id="listeCentres" style="max-height:200px;overflow:auto;border:1px solid #ccc;padding:5px"></div>
 
+ <hr>
 
+<b>Types de cancers</b><br>
+<label><input type="checkbox" class="cancer" value="oesogastrique"> Oeso-gastriques</label><br>
+<label><input type="checkbox" class="cancer" value="foie"> Foie & voies biliaires</label><br>
+<label><input type="checkbox" class="cancer" value="pancreas"> Pancréas</label><br>
+
+<br>
 <b>Région :</b><br>
 <select id="regionFilter" style="width:100%">
 <option value="">Toutes</option>
@@ -140,6 +147,21 @@ fetch(urlRegions)
   }).addTo(map);
 });
 
+ // ================= ICÔNES =================
+const icons = {
+ oesogastrique: L.icon({iconUrl:"https://maps.google.com/mapfiles/ms/icons/green-dot.png",iconSize:[32,32],iconAnchor:[16,32]}),
+ foie: L.icon({iconUrl:"https://maps.google.com/mapfiles/ms/icons/blue-dot.png",iconSize:[32,32],iconAnchor:[16,32]}),
+ pancreas: L.icon({iconUrl:"https://maps.google.com/mapfiles/ms/icons/orange-dot.png",iconSize:[32,32],iconAnchor:[16,32]})
+};
+
+function getIconCentre(h){
+ if(!h.cancers) return null;
+ if(h.cancers.includes("oesogastrique")) return icons.oesogastrique;
+ if(h.cancers.includes("foie")) return icons.foie;
+ if(h.cancers.includes("pancreas")) return icons.pancreas;
+ return null;
+}
+
 // ===== Données centres =====
 const hopitaux=[
 {
@@ -148,6 +170,7 @@ const hopitaux=[
  region:"Auvergne-Rhône-Alpes",
  lat:45.7789,
  lng:3.0822,
+ cancers:["foie"],
  ressources:["Endoscopie interventionnelle bilio-pancréatique","Plateforme de biologie moléculaire","Plateforme d'anatomopathologie","Plateforme d'imagerie","Oncogénétique", "Centre de diagnostic rapide", "Radiologie interventionnelle", "Chirurgie viscérale", "Chirurgie digestive de recours", "Chirurgie hépatique et transplantation hépatique", "Plateau de réanimation", "Unité de recherche clinique dédiée", "Centre d'Investigation Clinique multithématique", "Accès aux études de phase I", "Gestion de la douleur", "Diététique et nutrition", "Soutien psychologique du patient", "Accompagnement social, familial et professionnel", "Rééducation et activités physiques adaptées", "Préservation de la fertilité", "Soutien psychologique des proches et des aidants", "Onco-gériatrie", "Unité mobile de soins palliatifs", "Unité de soins palliatifs dédiée", "Hôpital de jour de soins de support", "Espace de réflexion éthique", "Approches non conventionnelles"],
  popupHtml:`<h3>CHU Clermont-Ferrand</h3>
 <b>Pr ABERGEL Armand</b><br>
@@ -236,6 +259,7 @@ Tel : 04 73 75 05 93<br>
  region:"Auvergne-Rhône-Alpes",
  lat: 45.205,
  lng: 5.744,
+ cancers:["foie"],
 ressources:["Médecine nucléaire", "Endoscopie interventionnelle bilio-pancréatique","Plateforme de biologie moléculaire","Plateforme d'anatomopathologie","Plateforme d'imagerie","Oncogénétique", "Centre de diagnostic rapide", "Radiothérapie externe", "Radio-embolisation", "Radiologie interventionnelle", "Chirurgie viscérale", "Chirurgie digestive de recours", "Chirurgie hépatique et transplantation hépatique", "Plateau de réanimation", "Unité de recherche clinique dédiée", "Centre d'Investigation Clinique multithématique", "Accès aux études de phase I", "Gestion de la douleur", "Diététique et nutrition", "Soutien psychologique du patient", "Accompagnement social, familial et professionnel", "Rééducation et activités physiques adaptées", "Préservation de la fertilité", "Soutien psychologique des proches et des aidants", "Onco-gériatrie", "Unité mobile de soins palliatifs", "Unité de soins palliatifs dédiée", "Espace de réflexion éthique", "Approches non conventionnelles", "Ateliers d’art thérapie"],
 popupHtml:`<h3>Hôpital Michallon, CHU Grenoble Alpes</h3>
 <b>Pr COSTENTIN Charlotte</b><br>
@@ -339,6 +363,7 @@ BORDY Laure  <br>
  region:"Auvergne-Rhône-Alpes",
  lat: 45.75,
  lng: 4.85,
+ cancers:["foie"],
 ressources:["Médecine nucléaire", "Endoscopie interventionnelle bilio-pancréatique","Plateforme de biologie moléculaire","Plateforme d'anatomopathologie","Plateforme d'imagerie","Oncogénétique", "Centre de diagnostic rapide", "Radiothérapie externe", "Radio-embolisation", "Radiologie interventionnelle", "Chirurgie viscérale", "Chirurgie digestive de recours", "Chirurgie hépatique et transplantation hépatique", "Plateau de réanimation", "Unité de recherche clinique dédiée", "Centre d'Investigation Clinique multithématique", "Accès aux études de phase I", "Gestion de la douleur", "Diététique et nutrition", "Soutien psychologique du patient", "Accompagnement social, familial et professionnel", "Rééducation et activités physiques adaptées", "Préservation de la fertilité", "Gestion des troubles de la sexualité", "Conseils d’hygiène de vie", "Soutien psychologique des proches et des aidants", "Onco-gériatrie", "Unité mobile de soins palliatifs", "Unité de soins palliatifs dédiée", "Hôpital de jour de soins de support", "Espace de réflexion éthique", "Gestion de la fatigue", "Approches non conventionnelles", "Ateliers d’art thérapie"],
 popupHtml:`<h3>Hôpital de la Croix-Rousse, HCL</h3>
 <b>Pr MERLE Philippe</b><br>
@@ -437,6 +462,7 @@ Tel : 04 26 73 27 16<br>
  region:"Bourgogne-Franche-Comté",
  lat: 47.25,
  lng: 6.03,
+ cancers:["foie"],
 ressources:["Médecine nucléaire", "Endoscopie interventionnelle bilio-pancréatique","Plateforme de biologie moléculaire","Plateforme d'anatomopathologie","Plateforme d'imagerie","Oncogénétique", "Centre de diagnostic rapide", "Radio-embolisation", "Radiologie interventionnelle", "Chirurgie viscérale", "Chirurgie digestive de recours", "Chirurgie hépatique et transplantation hépatique", "Plateau de réanimation", "Unité de recherche clinique dédiée", "Centre d'Investigation Clinique multithématique", "Gestion de la douleur", "Diététique et nutrition", "Soutien psychologique du patient", "Accompagnement social, familial et professionnel", "Rééducation et activités physiques adaptées", "Préservation de la fertilité", "Gestion des troubles de la sexualité", "Conseils d’hygiène de vie", "Soutien psychologique des proches et des aidants", "Onco-gériatrie", "Unité mobile de soins palliatifs", "Unité de soins palliatifs dédiée", "Hôpital de jour de soins de support", "Espace de réflexion éthique"],
 popupHtml:`<h3>CHU Besançon</h3>
 <b>Pr Di Martino Vincent</b><br>
@@ -522,6 +548,7 @@ Tel : 03 81 66 84 96<br>
  region:"Bourgogne-Franche-Comté",
  lat: 47.3167,
  lng: 5.0167,
+ cancers:["foie"],
 ressources:["Médecine nucléaire", "Endoscopie interventionnelle bilio-pancréatique","Plateforme de biologie moléculaire","Plateforme d'anatomopathologie","Plateforme d'imagerie","Oncogénétique", "Centre de diagnostic rapide", "Radiothérapie externe", "Radio-embolisation", "Radiologie interventionnelle", "Chirurgie viscérale", "Chirurgie digestive de recours", "Chirurgie hépatique et transplantation hépatique", "Plateau de réanimation", "Unité de recherche clinique dédiée", "Centre d'Investigation Clinique multithématique", "Accès aux études de phase I", "Gestion de la douleur", "Diététique et nutrition", "Soutien psychologique du patient", "Accompagnement social, familial et professionnel", "Rééducation et activités physiques adaptées", "Préservation de la fertilité", "Gestion des troubles de la sexualité", "Soutien psychologique des proches et des aidants", "Onco-gériatrie", "Unité mobile de soins palliatifs", "Unité de soins palliatifs dédiée", "Hôpital de jour de soins de support", "Espace de réflexion éthique", "Socio-esthéticiennes", "Unité Transversale de Nutrition", "Soins Médicaux et de Réadaptation d’oncologie"],
 popupHtml:`<h3>Hôpital François Mitterrand, CHU Dijon</h3>
 <b>Pr MANFREDI Sylvain</b><br>
@@ -618,6 +645,7 @@ assia.dekkal@chu-dijon.fr <br>
  region:"Bretagne",
  lat: 48.11,
  lng: -1.68,
+ cancers:["foie"],
 ressources:["Médecine nucléaire", "Endoscopie interventionnelle bilio-pancréatique","Plateforme de biologie moléculaire","Plateforme d'anatomopathologie","Plateforme d'imagerie","Oncogénétique", "Centre de diagnostic rapide", "Radiothérapie externe", "Radio-embolisation", "Radiologie interventionnelle", "Chirurgie viscérale", "Chirurgie digestive de recours", "Chirurgie hépatique et transplantation hépatique", "Plateau de réanimation", "Unité de recherche clinique dédiée", "Centre d'Investigation Clinique multithématique", "Accès aux études de phase I", "Gestion de la douleur", "Diététique et nutrition", "Soutien psychologique du patient", "Accompagnement social, familial et professionnel", "Rééducation et activités physiques adaptées", "Préservation de la fertilité", "Gestion des troubles de la sexualité", "Conseils d’hygiène de vie", "Soutien psychologique des proches et des aidants", "Onco-gériatrie", "Unité de soins palliatifs dédiée", "Hôpital de jour de soins de support", "Espace de réflexion éthique"],
 popupHtml:`<h3>Centre Eugène Marquis, CLCC Rennes</h3>
 <b>Dr EDELINE Julien</b><br>
@@ -705,6 +733,7 @@ ARCs_DIP@rennes.unicancer.fr<br>
  region:"Centre-Val-de-Loire",
  lat: 47.33805,
  lng: 0.71389,
+ cancers:["foie"],
 ressources:["Médecine nucléaire", "Endoscopie interventionnelle bilio-pancréatique","Plateforme de biologie moléculaire","Plateforme d'anatomopathologie","Plateforme d'imagerie","Oncogénétique", "Radiothérapie externe", "Radio-embolisation", "Radiologie interventionnelle", "Chirurgie viscérale", "Chirurgie digestive de recours", "Chirurgie hépatique et transplantation hépatique", "Plateau de réanimation", "Unité de recherche clinique dédiée", "Gestion de la douleur", "Diététique et nutrition", "Soutien psychologique du patient", "Accompagnement social, familial et professionnel", "Préservation de la fertilité", "Gestion des troubles de la sexualité", "Soutien psychologique des proches et des aidants", "Onco-gériatrie", "Unité mobile de soins palliatifs", "Approches non conventionnelles"],
 popupHtml:`<h3>Hôpital Trousseau, CHRU Tours</h3>
 <b>Pr LECOMTE Thierry</b> & <b>Dr CHAUTARD Romain</b> <br>
@@ -784,6 +813,7 @@ Fax : 02 47 47 84 28<br>
  region:"Grand-Est",
  lat: 48.68,
  lng: 6.2,
+ cancers:["foie"],
 ressources:["Médecine nucléaire", "Endoscopie interventionnelle bilio-pancréatique","Plateforme de biologie moléculaire","Plateforme d'anatomopathologie","Plateforme d'imagerie","Oncogénétique", "Radiothérapie externe", "Radio-embolisation", "Radiologie interventionnelle", "Chirurgie viscérale", "Chirurgie digestive de recours", "Plateau de réanimation", "Unité de recherche clinique dédiée", "Centre d'Investigation Clinique multithématique", "Accès aux études de phase I", "Diététique et nutrition", "Soutien psychologique du patient", "Rééducation et activités physiques adaptées", "Préservation de la fertilité", "Onco-gériatrie", "Unité mobile de soins palliatifs", "Unité de soins palliatifs dédiée", "Espace de réflexion éthique", "Approches non conventionnelles"],
 popupHtml:`<h3>CHRU Nancy</h3>
 <b>Pr Bronowicki Jean-Pierre</b> & <b>Dr HAGHNEJAD Vincent</b> <br>
@@ -887,6 +917,7 @@ g.fouquet@chru-nancy.fr  ou g.fouquet.chru-nancy@apicrypt.fr <br>
  region:"Grand-Est",
  lat: 49.25,
  lng: 4.03,
+ cancers:["foie"],
 ressources:["Endoscopie interventionnelle bilio-pancréatique","Plateforme de biologie moléculaire","Plateforme d'anatomopathologie","Plateforme d'imagerie","Oncogénétique", "Radiologie interventionnelle", "Chirurgie viscérale", "Chirurgie digestive de recours", "Chirurgie hépatique et transplantation hépatique", "Plateau de réanimation", "Unité de recherche clinique dédiée", "Gestion de la douleur", "Diététique et nutrition", "Soutien psychologique du patient", "Accompagnement social, familial et professionnel", "Rééducation et activités physiques adaptées", "Préservation de la fertilité", "Gestion des troubles de la sexualité", "Conseils d’hygiène de vie", "Soutien psychologique des proches et des aidants", "Onco-gériatrie", "Unité mobile de soins palliatifs", "Unité de soins palliatifs dédiée", "Gestion de la fatigue"],
 popupHtml:`<h3>CHU Reims</h3>
 <b>Dr HEURGUÉ Alexandra</b><br>
@@ -984,6 +1015,7 @@ Tel : 03 26 83 26 31 <br>
  region:"Guadeloupe",
  lat: 16.22,
  lng: -61.53,
+ cancers:["foie"],
 ressources:["Médecine nucléaire", "Plateforme de biologie moléculaire","Plateforme d'anatomopathologie","Plateforme d'imagerie","Oncogénétique", "Radiothérapie externe", "Chirurgie viscérale", "Chirurgie digestive de recours", "Plateau de réanimation", "Unité de recherche clinique dédiée", "Centre d'Investigation Clinique multithématique", "Gestion de la douleur", "Diététique et nutrition", "Soutien psychologique du patient", "Accompagnement social, familial et professionnel", "Soutien psychologique des proches et des aidants", "Onco-gériatrie", "Unité mobile de soins palliatifs"],
 popupHtml:`<h3>CHU Guadeloupe, Pointe-à-Pitre</h3>
 <b>Dr GELU-SIMEON Moana</b><br>
@@ -1073,6 +1105,7 @@ CATHERINE Lucie<br>
  region:"Hauts-de-France",
  lat: 49.90,
  lng: 2.3,
+ cancers:["foie"],
 ressources:["Médecine nucléaire", "Endoscopie interventionnelle bilio-pancréatique","Plateforme de biologie moléculaire","Plateforme d'anatomopathologie","Plateforme d'imagerie","Oncogénétique", "Centre de diagnostic rapide", "Radiothérapie externe", "Radio-embolisation", "Radiologie interventionnelle", "Chirurgie viscérale", "Chirurgie digestive de recours", "Plateau de réanimation", "Unité de recherche clinique dédiée", "Centre d'Investigation Clinique multithématique", "Accès aux études de phase I", "Gestion de la douleur", "Diététique et nutrition", "Soutien psychologique du patient", "Accompagnement social, familial et professionnel", "Rééducation et activités physiques adaptées", "Gestion des troubles de la sexualité", "Conseils d’hygiène de vie", "Soutien psychologique des proches et des aidants", "Onco-gériatrie", "Unité mobile de soins palliatifs", "Unité de soins palliatifs dédiée", "Hôpital de jour de soins de support", "Espace de réflexion éthique", "Approches non conventionnelles", "Ateliers d’art thérapie"],
 popupHtml:`<h3>CHU Amiens-Picardie</h3>
 <b>Pr NGUYEN-KHAC Eric</b><br>
@@ -1165,6 +1198,7 @@ Tel : 03 22 08 88 67<br>
  region:"Hauts-de-France",
  lat: 50.63,
  lng: 3.066,
+ cancers:["foie"],
 ressources:["Médecine nucléaire", "Endoscopie interventionnelle bilio-pancréatique","Plateforme de biologie moléculaire","Plateforme d'anatomopathologie","Plateforme d'imagerie","Oncogénétique", "Radiothérapie externe", "Radio-embolisation", "Radiologie interventionnelle", "Chirurgie viscérale", "Chirurgie digestive de recours", "Chirurgie hépatique et transplantation hépatique", "Plateau de réanimation", "Unité de recherche clinique dédiée", "Centre d'Investigation Clinique multithématique", "Accès aux études de phase I", "Gestion de la douleur", "Diététique et nutrition", "Préservation de la fertilité", "Onco-gériatrie", "Unité mobile de soins palliatifs", "Unité de soins palliatifs dédiée", "Gestion de la fatigue"],
 popupHtml:`<h3>CHU Lille</h3>
 <b>Pr MATHURIN Philippe</b><br>
@@ -1252,6 +1286,7 @@ Tel : 03 20 44 55 59 <br>
  region:"Ile-de-France",
  lat: 48.90,
  lng: 2.45,
+ cancers:["foie"],
 ressources:["Médecine nucléaire", "Endoscopie interventionnelle bilio-pancréatique","Plateforme de biologie moléculaire","Plateforme d'anatomopathologie","Plateforme d'imagerie","Oncogénétique", "Centre de diagnostic rapide", "Radiothérapie externe", "Radio-embolisation", "Radiologie interventionnelle", "Chirurgie viscérale", "Chirurgie digestive de recours", "Plateau de réanimation", "Unité de recherche clinique dédiée", "Centre d'Investigation Clinique multithématique", "Accès aux études de phase I", "Gestion de la douleur", "Diététique et nutrition", "Soutien psychologique du patient", "Accompagnement social, familial et professionnel", "Préservation de la fertilité", "Soutien psychologique des proches et des aidants", "Onco-gériatrie", "Unité mobile de soins palliatifs", "Unité de soins palliatifs dédiée", "Hôpital de jour de soins de support", "Espace de réflexion éthique"],
 popupHtml:`<h3>CHU Avicenne, AP-HP_Centre expert référent</h3>
 <b>Pr GANNE-CARRIE Nathalie</b><br>
@@ -1353,6 +1388,7 @@ Tel : 01 48 02 40 52   <br>
  region:"Ile-de-France",
  lat: 48.783,
  lng: 2.466,
+ cancers:["foie"],
 ressources:["Médecine nucléaire", "Endoscopie interventionnelle bilio-pancréatique","Plateforme de biologie moléculaire","Plateforme d'anatomopathologie","Plateforme d'imagerie","Oncogénétique", "Centre de diagnostic rapide", "Radiothérapie externe", "Radio-embolisation", "Radiologie interventionnelle", "Chirurgie viscérale", "Chirurgie digestive de recours", "Chirurgie hépatique et transplantation hépatique", "Plateau de réanimation", "Unité de recherche clinique dédiée", "Centre d'Investigation Clinique multithématique", "Accès aux études de phase I", "Gestion de la douleur", "Diététique et nutrition", "Soutien psychologique du patient", "Accompagnement social, familial et professionnel", "Rééducation et activités physiques adaptées", "Conseils d’hygiène de vie", "Soutien psychologique des proches et des aidants", "Onco-gériatrie", "Unité mobile de soins palliatifs", "Unité de soins palliatifs dédiée", "Hôpital de jour de soins de support", "Espace de réflexion éthique", "Approches non conventionnelles"],
 popupHtml:`<h3>CHU Henri Mondor, AP-HP</h3>
 <b>Dr AMADDEO Giuliana</b><br>
@@ -1443,6 +1479,7 @@ Fax : 01 45 17 80 32<br>
  region:"Ile-de-France",
  lat: 48.90,
  lng: 2.3,
+ cancers:["foie"],
 ressources:["Médecine nucléaire", "Endoscopie interventionnelle bilio-pancréatique","Plateforme de biologie moléculaire","Plateforme d'anatomopathologie","Plateforme d'imagerie","Oncogénétique", "Centre de diagnostic rapide", "Radio-embolisation", "Radiologie interventionnelle", "Chirurgie viscérale", "Chirurgie digestive de recours", "Chirurgie hépatique et transplantation hépatique", "Plateau de réanimation", "Unité de recherche clinique dédiée", "Centre d'Investigation Clinique multithématique", "Accès aux études de phase I", "Gestion de la douleur", "Diététique et nutrition", "Soutien psychologique du patient", "Accompagnement social, familial et professionnel", "Rééducation et activités physiques adaptées", "Soutien psychologique des proches et des aidants", "Unité mobile de soins palliatifs", "Hôpital de jour de soins de support", "Gestion de la fatigue"],
 popupHtml:`<h3>Hôpital Beaujon, AP-HP</h3>
 <b>Dr BOUATTOUR Mohamed</b><br>
@@ -1547,6 +1584,7 @@ Fax : 01 71 11 46 26<br>
  region:"Ile-de-France",
  lat: 48.876,
  lng: 2.333,
+ cancers:["foie"],
 ressources:["Endoscopie interventionnelle bilio-pancréatique","Plateforme d'imagerie","Oncogénétique", "Radiologie interventionnelle", "Chirurgie viscérale", "Chirurgie digestive de recours", "Plateau de réanimation", "Unité de recherche clinique dédiée", "Centre d'Investigation Clinique multithématique", "Gestion de la douleur", "Diététique et nutrition", "Soutien psychologique du patient", "Accompagnement social, familial et professionnel", "Rééducation et activités physiques adaptées", "Soutien psychologique des proches et des aidants", "Onco-gériatrie", "Unité mobile de soins palliatifs", "Hôpital de jour de soins de support", "Espace de réflexion éthique"],
 popupHtml:`<h3>Hôpital Saint-Antoine, AP-HP</h3>
 <b>Dr LEQUOY Marie</b><br>
@@ -1645,6 +1683,7 @@ Fax : 01 71 97 03 39<br>
  region:"Ile-de-France",
  lat: 48.862,
  lng: 2.343,
+ cancers:["foie"],
 ressources:["Médecine nucléaire", "Plateforme de biologie moléculaire","Plateforme d'anatomopathologie","Plateforme d'imagerie","Oncogénétique", "Centre de diagnostic rapide", "Radiothérapie externe", "Radio-embolisation", "Radiologie interventionnelle", "Chirurgie viscérale", "Chirurgie digestive de recours", "Chirurgie hépatique et transplantation hépatique", "Plateau de réanimation", "Unité de recherche clinique dédiée", "Centre d'Investigation Clinique multithématique", "Accès aux études de phase I", "Gestion de la douleur", "Diététique et nutrition", "Soutien psychologique du patient", "Accompagnement social, familial et professionnel", "Rééducation et activités physiques adaptées", "Conseils d’hygiène de vie", "Soutien psychologique des proches et des aidants", "Onco-gériatrie", "Unité mobile de soins palliatifs", "Hôpital de jour de soins de support", "Espace de réflexion éthique"],
 popupHtml:`<h3>Hôpital La Pitié-Salpêtrière, AP-HP</h3>
 <b>Dr. ALLAIRE Manon</b><br>
@@ -1748,6 +1787,7 @@ BEN HIDA Jaouad    <br>
  region:"Ile-de-France",
  lat: 48.866,
  lng: 2.34,
+ cancers:["foie"],
 ressources:["Endoscopie interventionnelle bilio-pancréatique", "Plateforme d'anatomopathologie","Plateforme d'imagerie", "Radiologie interventionnelle", "Chirurgie viscérale", "Chirurgie digestive de recours", "Plateau de réanimation", "Gestion de la douleur", "Diététique et nutrition", "Soutien psychologique du patient", "Accompagnement social, familial et professionnel", "Rééducation et activités physiques adaptées", "Conseils d’hygiène de vie", "Soutien psychologique des proches et des aidants", "Onco-gériatrie", "Unité mobile de soins palliatifs", "Hôpital de jour de soins de support", "Approches non conventionnelles"],
 popupHtml:`<h3>Institut Médico-Chirurgical Montsouris</h3>
 <b>Dr MALKA David</b><br>
@@ -1847,6 +1887,7 @@ Fax : 01 56 61 61 70<br>
  region:"Ile-de-France",
  lat: 48.84,
  lng: 2.21,
+ cancers:["foie"],
 ressources:["Médecine nucléaire", "Endoscopie interventionnelle bilio-pancréatique","Plateforme de biologie moléculaire","Plateforme d'anatomopathologie","Plateforme d'imagerie","Oncogénétique", "Centre de diagnostic rapide", "Radiothérapie externe", "Radiologie interventionnelle", "Chirurgie viscérale", "Chirurgie digestive de recours", "Plateau de réanimation", "Centre d'Investigation Clinique multithématique", "Accès aux études de phase I", "Gestion de la douleur", "Diététique et nutrition", "Soutien psychologique du patient", "Accompagnement social, familial et professionnel", "Rééducation et activités physiques adaptées", "Préservation de la fertilité", "Conseils d’hygiène de vie", "Soutien psychologique des proches et des aidants", "Onco-gériatrie", "Unité mobile de soins palliatifs", "Unité de soins palliatifs dédiée", "Hôpital de jour de soins de support", "Espace de réflexion éthique", "Gestion de la fatigue", "Approches non conventionnelles"],
 popupHtml:`<h3>Hôpital de Saint-Cloud, Institut Curie</h3>
 <b>Pr NEUZILLET Cindy</b><br>
@@ -1936,9 +1977,20 @@ regions.forEach(r=>{
 // ===== Affichage markers =====
 function afficherHopitaux(liste){
  markerGroup.clearLayers();
- if(liste.length===0){alert("Aucun centre correspondant");return;}
+ const div=document.getElementById("listeCentres");
+ div.innerHTML="";
+
+ if(liste.length===0){div.innerHTML="<i>Aucun centre</i>";return;}
+
  liste.forEach(h=>{
-  L.marker([h.lat,h.lng]).addTo(markerGroup).bindPopup(h.popupHtml,{maxWidth:420});
+  const marker=L.marker([h.lat,h.lng],{icon:getIconCentre(h)})
+    .addTo(markerGroup).bindPopup(h.popupHtml);
+
+  const item=document.createElement("div");
+  item.innerHTML=`<b>${h.nom}</b><br><small>${h.ville}</small>`;
+  item.style.cursor="pointer";
+  item.onclick=()=>{map.setView([h.lat,h.lng],8);marker.openPopup();}
+  div.appendChild(item);
  });
 }
 
@@ -1950,6 +2002,7 @@ function appliquerFiltres(){
  let resultat = hopitaux.filter(h=>{
   let okRegion = !region || h.region===region;
   let okRes = ressourcesChoisies.length===0 || ressourcesChoisies.every(r=>h.ressources.includes(r));
+  const okCancer=cancers.length===0||(h.cancers&&cancers.some(c=>h.cancers.includes(c)));
   return okRegion && okRes;
  });
  afficherHopitaux(resultat);
