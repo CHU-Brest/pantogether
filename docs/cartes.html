@@ -35,17 +35,16 @@ body{margin:0;font-family:Arial}
   }
 }
 #togglePanel{
- display:none;
  position:fixed;
  top:10px;
  left:10px;
- z-index:2000;
- background:#3498db;
- color:white;
- border:none;
- padding:8px 12px;
- border-radius:6px;
- font-size:16px;
+ z-index:3000;
+ background:white;
+ padding:10px;
+ border-radius:8px;
+ box-shadow:0 2px 8px rgba(0,0,0,.2);
+ width:260px;
+ font-size:14px;
 }
 
 /* Version mobile */
@@ -53,10 +52,8 @@ body{margin:0;font-family:Arial}
 
  #panel{
   left:-320px;
-  width:260px;
-  height:100vh;
+  height:calc(100vh - 20px);
   overflow:auto;
-  transition:left 0.3s;
  }
 
  #panel.open{
