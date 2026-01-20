@@ -34,9 +34,9 @@ body{margin:0;font-family:Arial}
     max-width:90vw !important;
   }
 }
- #togglePanel{
+#togglePanel{
  display:none;
- position:absolute;
+ position:fixed;
  top:10px;
  left:10px;
  z-index:2000;
@@ -52,8 +52,11 @@ body{margin:0;font-family:Arial}
 @media (max-width: 768px){
 
  #panel{
-  left:-280px;
-  transition:0.3s;
+  left:-320px;
+  width:260px;
+  height:100vh;
+  overflow:auto;
+  transition:left 0.3s;
  }
 
  #panel.open{
@@ -69,9 +72,8 @@ body{margin:0;font-family:Arial}
 </style>
 </head>
 <body>
-
-<div id="panel">
 <button id="togglePanel">☰ Filtres</button>
+ 
 <h3>Filtrer les centres</h3>
 <hr>
 <b>Centres visibles</b>
@@ -3173,12 +3175,10 @@ function zoomFrance(){
 // affichage initial
 afficherHopitaux(hopitaux);
  
-const toggleBtn = document.getElementById("togglePanel");
-const panel = document.getElementById("panel");
-
-toggleBtn.onclick = ()=>{
- panel.classList.toggle("open");
+document.getElementById("togglePanel").onclick = ()=>{
+ document.getElementById("panel").classList.toggle("open");
 };
+
 </script>
 </body>
 </html>
