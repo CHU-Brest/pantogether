@@ -21,6 +21,20 @@ body{margin:0;font-family:Arial}
 #panel h3{margin:5px 0}
 #nav button{margin:2px 0;width:100%}
 .leaflet-popup-content{max-height:300px;overflow:auto}
+ .popup-uniforme .leaflet-popup-content{
+  width:400px;
+  max-width:90vw;
+  max-height:300px;
+  overflow:auto;
+}
+
+@media (max-width: 600px){
+  .popup-uniforme .leaflet-popup-content{
+    width:90vw !important;
+    max-width:90vw !important;
+  }
+}
+
 </style>
 </head>
 <body>
@@ -3050,7 +3064,11 @@ function afficherHopitaux(liste){
 
  liste.forEach(h=>{
   const marker = L.marker([h.lat,h.lng], { icon: getIconCentre(h) }).addTo(markerGroup)
-    .bindPopup(h.popupHtml,{maxWidth:420});
+    .bindPopup(h.popupHtml,{
+  maxWidth:420,
+  minWidth:300,
+  className:"popup-uniforme"
+});
 
   // élément liste
   const item = document.createElement("div");
