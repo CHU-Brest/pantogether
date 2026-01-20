@@ -34,12 +34,44 @@ body{margin:0;font-family:Arial}
     max-width:90vw !important;
   }
 }
+ #togglePanel{
+ display:none;
+ position:absolute;
+ top:10px;
+ left:10px;
+ z-index:2000;
+ background:#3498db;
+ color:white;
+ border:none;
+ padding:8px 12px;
+ border-radius:6px;
+ font-size:16px;
+}
+
+/* Version mobile */
+@media (max-width: 768px){
+
+ #panel{
+  left:-280px;
+  transition:0.3s;
+ }
+
+ #panel.open{
+  left:10px;
+ }
+
+ #togglePanel{
+  display:block;
+ }
+}
+
 
 </style>
 </head>
 <body>
 
 <div id="panel">
+<button id="togglePanel">☰ Filtres</button>
 <h3>Filtrer les centres</h3>
 <hr>
 <b>Centres visibles</b>
@@ -120,7 +152,14 @@ body{margin:0;font-family:Arial}
 <div id="map"></div>
 
 <script>
-const map = L.map('map').setView([46.6,2.5],6);
+const toggleBtn = document.getElementById("togglePanel");
+const panel = document.getElementById("panel");
+
+toggleBtn.onclick = ()=>{
+ panel.classList.toggle("open");
+};
+
+ const map = L.map('map').setView([46.6,2.5],6);
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'© OpenStreetMap'}).addTo(map);
 
 const markerGroup = L.layerGroup().addTo(map);
