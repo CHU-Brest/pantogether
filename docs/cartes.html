@@ -12,53 +12,48 @@ title: Carte interactive des centres
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <style>
 body{margin:0;font-family:Arial}
-#map{height:100vh}
-#panel{
- position:absolute;top:10px;left:10px;z-index:1000;
- background:white;padding:10px;border-radius:8px;
- box-shadow:0 2px 8px rgba(0,0,0,.2);width:260px;font-size:14px
-}
-#panel h3{margin:5px 0}
-#nav button{margin:2px 0;width:100%}
-.leaflet-popup-content{max-height:300px;overflow:auto}
- .popup-uniforme .leaflet-popup-content{
-  width:400px;
-  max-width:90vw;
-  max-height:300px;
-  overflow:auto;
+#map{
+ height:100vh;
+ width:100vw;
 }
 
-@media (max-width: 600px){
-  .popup-uniforme .leaflet-popup-content{
-    width:90vw !important;
-    max-width:90vw !important;
-  }
+#panel{
+ position:fixed;
+ top:0;
+ left:0;
+ width:260px;
+ height:100vh;
+ background:white;
+ padding:10px;
+ overflow:auto;
+ z-index:2000;
+ box-shadow:2px 0 8px rgba(0,0,0,.2);
+ transition:left 0.3s;
 }
+
 #togglePanel{
- pdisplay:none;
  position:fixed;
  top:10px;
  left:10px;
- z-index:2000;
+ z-index:3000;
  background:#3498db;
  color:white;
  border:none;
  padding:8px 12px;
  border-radius:6px;
  font-size:16px;
+ display:none;
 }
 
-/* Version mobile */
-@media (max-width: 768px){
+/* ===== Mobile ===== */
+@media(max-width:768px){
 
  #panel{
-  left:-320px;
-  height:calc(100vh - 20px);
-  overflow:auto;
+  left:-270px;
  }
 
  #panel.open{
-  left:10px;
+  left:0;
  }
 
  #togglePanel{
@@ -66,12 +61,11 @@ body{margin:0;font-family:Arial}
  }
 }
 
-
 </style>
 </head>
 <body>
 <button id="togglePanel">☰ Filtres</button>
- 
+<div id="panel">
 <h3>Filtrer les centres</h3>
 <hr>
 <b>Centres visibles</b>
