@@ -1061,10 +1061,11 @@ Tel : 03 20 44 55 59 <br>
 ## <span style="color:blue">**Ile de France**</span>
 ### **CHU Avicenne, AP-HP_Centre expert référent**   
          
-   **Pr GANNE-CARRIE Nathalie**    
+   **Pr GANNE-CARRIE Nathalie** & **Pr NAHON Pierre**   
    Service d'Hépatologie et d'oncologie Hépatique, Batiment Larrey A  <br> 
    125 rue de Stalingrad, 93000 **Bobigny**  <br>
-   nathalie.ganne@aphp.fr <br>   
+   nathalie.ganne@aphp.fr <br> 
+   pierre.nahon@aphp.fr <br>
        
    **Secrétariat :**      
           MOMMELE Peggy   
@@ -2701,6 +2702,7 @@ ppramirezgarcia@hopital-saint-joseph.fr <br>
 Tel : 04 91 80 82 35<br>
 </ul>
 </details>
+
 
 
 
