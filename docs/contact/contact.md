@@ -1,6 +1,5 @@
 # Contact 
 <ul>
-
 <li><b>Oesophage, Jonction Oeso-gastrique, Estomac :<b></li> <br>
 <b>Pr METGES Jean-Philippe<b> & <b>Dr BOURBONNE Vincent<b> <br>
 CHU Brest - Hôpital de La Cavale Blanche <br>
@@ -30,6 +29,5 @@ Institut de Cancérologie et d’Imagerie - Pôle 7 - 1er étage <br>
 CHU Brest - Hôpital de La Cavale Blanche <br>
 Boulevard Tanguy Prigent - 29200 BREST <br>
 kristell.oizel@chu-brest.fr <br>
-Tel : 02 98 22 39 80 <br>
-  
+Tel : 02 98 22 39 80 <br> 
 </ul>
