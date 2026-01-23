@@ -15,6 +15,7 @@ nav:
   - Carte interactive :
     - cartes.html
   - Les centres experts:
+    - reseau/oes.md
     - reseau/fvb.md
   - Recherche:
     - recherche/essaiscliniques.html
