@@ -66,8 +66,9 @@ secretariat.og@chu-bordeaux.fr <br>
 &#x2705 Approches non conventionnelles (hypnose, acupuncture, sophrologie, …) <br>
 &#x2718 Gestion de la fatigue <br>
 &#x2718 Ateliers d’art thérapie <br>
+&#x2718 Soins esthétiques et corporels <br>
 <br>
-</ul><br>
+</ul>
 </details>   
 
 <details>
