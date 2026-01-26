@@ -87,7 +87,7 @@ Service d'hépato-gastro-entérologie <br>
 david.tougeron@chu-poitiers.fr<br>  
 
 **Secrétariat :**  <br>    
-DESBOUCHAGES Patricia
+DESBOUCHAGES Patricia <br>
 Patricia.DESBOUCHAGES@chu-poitiers.fr <br>
 Tel : 05 49 44 42 93 <br>
 Fax : 05 49 44 38 35 <br>
