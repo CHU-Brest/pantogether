@@ -2,7 +2,7 @@
 title: Oesophage, Jonction Oesogastrique, Estomac
 ---
 ## <span style="color:blue">**Bourgogne-Franche-Comté**</span>  
-**CHU Dijon** <br>
+**Centre Georges-François Leclerc Dijon** <br>
 **Pr GHIRINGHELLI François**     <br>
 1 rue du professeur Marion, 21000 **Dijon** <br>
 fghiringhelli@cgfl.fr <br>
