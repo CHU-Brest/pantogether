@@ -7,7 +7,7 @@ Planning des Réunions Pluridisciplinaires en Région
 ## <span style="color:blue">**Bourgogne-Franche-Comté**</span>
 ### **CHU Besançon**
 ### **Hôpital François Mitterrand, CHU Dijon**   
-### **Centre Georges-François Leclerc, Dijon**   
+### **Centre Georges-François Leclerc, CLCC Dijon**   
 **RCP d’oncologie digestive de recours** <br>
 <br>
 **Horaire :** Jeudi à 16h <br>
