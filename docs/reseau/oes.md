@@ -82,7 +82,7 @@ Tel : 03 80 73 75 00 <br>
 
 ## <span style="color:blue">**Ile-de-France**</span>  
 **Hôpital Saint-Antoine, APHP** <br>
-**Pr THIERRY André**  <br>
+**Pr ANDRE Thierry**  <br>
 Service d’Oncologie Médicale  <br>
 184 rue du Faubourg Saint-Antoine, 75571 **Paris** <br>
 thierry.andre@aphp.fr  <br>
