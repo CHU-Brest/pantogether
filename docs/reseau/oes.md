@@ -79,7 +79,7 @@ secretariat.og@chu-bordeaux.fr <br>
 AURILLAC Valérie  <br>
 </ul>
 </details>
-
+   
 **CHU Poitiers** <br>
 **Pr TOUGERON David**     <br>
 Service d'hépato-gastro-entérologie <br>
@@ -99,7 +99,7 @@ Fax : 05 49 44 38 35 <br>
 <ul>
 <li><b>Diagnostic :</b></li>  
 &#x2705 Médecine nucléaire <br>    
-&#x2705 Endoscopie interventionnelle bilio-pancréatique   <br>
+&#x2705 Endoscopie interventionnelle <br>
 &#x2705 Plateforme de biologie moléculaire <br>
 &#x2705 Plateforme d'anatomopathologie <br> 
 &#x2705 Plateforme d'imagerie <br>  
