@@ -90,9 +90,7 @@ Tel : 01 49 28 29 54 <br>
 <br>
 & **Dr VORON Thibault**   <br>
 Service de chirurgie digestive <br>
-184 rue du Faubourg Saint-Antoine, 75571 **Paris** <br>
-thibault.voron@aphp.fr <br>
-<br>    
+thibault.voron@aphp.fr <br>    
 **Secrétariat :**      
 HATCHI Mélissa <br>
 melissa.hatchi@aphp.fr <br>
