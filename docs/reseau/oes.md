@@ -84,13 +84,13 @@ AURILLAC Valérie  <br>
 **Pr TOUGERON David**     <br>
 Service d'hépato-gastro-entérologie <br>
 1 rue de la Milétrie, 86000 **Poitiers** <br>
-david.tougeron@chu-poitiers.fr<br> 
-<br>    
-**Secrétariat :**      
+david.tougeron@chu-poitiers.fr<br>  
+
+**Secrétariat :**  <br>    
 DESBOUCHAGES Patricia
 Patricia.DESBOUCHAGES@chu-poitiers.fr <br>
-Tel : 05 49 44 42 93
-Fax : 05 49 44 38 35
+Tel : 05 49 44 42 93 <br>
+Fax : 05 49 44 38 35 <br>
 <br>
 **[Site web](<https://www.chu-poitiers.fr/specialites/hepato-gastro-enterologie-assistance-nutritive/>)**
 <details>
