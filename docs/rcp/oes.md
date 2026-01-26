@@ -14,5 +14,5 @@ Planning des Réunions Pluridisciplinaires en Région
 Avenue de Magellan, 33604 **Pessac**  <br>
 <br>
 **Modalités de soumission d’un dossier** : <br>
-Dossier à soumettre au secrétariat 3C du CHU par email : 3c-sud@chu-bordeaux.fr : <br>
+Dossier à soumettre au secrétariat 3C du CHU par email : 3c-sud@chu-bordeaux.fr <br>
 <br>  
