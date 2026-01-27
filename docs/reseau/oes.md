@@ -272,9 +272,8 @@ Fax : 01 49 28 34 98
 **Pr APARICIO Thomas**     <br>
 Service de Gastroentérologie et Oncologie Digestive <br>
 1 Avenue Claude Vellefaux, 75010 **Paris** <br>
-thomas.aparicio@aphp.fr<br>   
-Tel : 01 42 49 40 41 <br>    
-<br>    
+thomas.aparicio@aphp.fr <br>   
+Tel : 01 42 49 40 41 <br>     
    **Secrétariat :**  <br>
 KHELIFA Chayma   <br>
 chayma.khelifa@aphp.fr <br>
