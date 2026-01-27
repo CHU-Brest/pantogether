@@ -25,6 +25,23 @@ mgarcia@cgfl.fr<br>
 Tel : 03 80 73 75 00 <br>  
 <br>  
 
+## <span style="color:blue">**Grand-Est**</span>
+### **CHU Reims**
+**RCP RESCOD** <br>
+Réseau NEON <br>
+<br>
+**Horaire :** Mardi à 16h <br>
+**Fréquence :** Tous les deux mois <br>
+**Lieu :** CHU Reims, bâtiment CABROL 4ème étage <br>
+Avenue Général Koenig, 51092 **Reims**  <br>
+Et connexion en distancielle sur la plateforme ligne [PULSY](<https://www.pulsy.fr/portail/nos-services-e-sante/e-rcp-54-62.html>) <br>
+<br>
+**Modalités de soumission d’un dossier** : <br>
+Soumission de la fiche RCP sur la plateforme en ligne [PULSY](<https://www.pulsy.fr/portail/nos-services-e-sante/e-rcp-54-62.html>) ou fichier word par mail à l’AMA <br>
+<br>
+**AMA en charge de la RCP** : <br>
+RCP@chu-reims.fr <br>
+
 ## <span style="color:blue">**Ile de France**</span>
 ### **CHU Saint-Antoine**  
 <ul>
