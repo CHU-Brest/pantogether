@@ -347,10 +347,9 @@ Fax : 05 49 44 44 45 <br>
 ## <span style="color:blue">**Provence-Alpes-Côte d'Azur**</span>  
 **Institut Paoli Calmettes, Marseille** <br>
 **Dr DE LA FOUCHARDIERE Christelle**     
-Département d'oncologie médicale - secrétariat OM1
+Département d'oncologie médicale - secrétariat OM1 <br>
 232 Boulevard Sainte Marguerite, 13009 **Marseille** <br>
-delafouchardierec@ipc.unicancer.fr<br> 
-<br>    
+delafouchardierec@ipc.unicancer.fr<br>    
    **Secrétariat :**      
 oncogastro@ipc.unicancer.fr <br>
 Tel : 04 91 22 33 33 <br>
