@@ -77,6 +77,24 @@ Tel : 01 49 28 21 15<br>
 <strong>Modalités de soumission d’un dossier :</strong> <br>
 Dossier à soumettre à l’AMA <br>
 
+### **Hôpital Européen Georges Pompidou, AP-HP** 
+<ul>
+<li><strong>RCP Chimiothérapie </strong></li>   
+<br>  
+<strong>Horaire :</strong> Mercredi à 13h <br>
+<strong>Fréquence :</strong> Hebdomadaire <br>
+<strong>Lieu :</strong> Service d'Hépato-gastro-entérologie et oncologie digestive <br>
+20 rue Leblanc, 75015 <strong>Paris</strong>  <br>
+<br>
+<li><strong> RCP Médico-Chirurgicale </strong></li>  
+<br>  
+<strong>Horaire :</strong> Jeudi à 16h30 <br>
+<strong>Fréquence :</strong> Hebdomadaire <br>
+<strong>Lieu :</strong> Service d'Hépato-gastro-entérologie et oncologie digestive <br>
+20 rue Leblanc, 75015 <strong>Paris</strong>  <br>
+</ul>
+
+
 ### **Hôpital Saint-Louis APHP** 
 **RCP Oncologie Digestive** <br>
 <br>
