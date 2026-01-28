@@ -77,6 +77,22 @@ Tel : 01 49 28 21 15<br>
 <strong>Modalités de soumission d’un dossier :</strong> <br>
 Dossier à soumettre à l’AMA <br>
 
+### **Hôpital Saint-Louis APHP** 
+**RCP Oncologie Digestive** <br>
+<br>
+**Horaire :** Mardi de 17h à 20h <br>
+**Fréquence :** Hebdomadaire <br>
+**Lieu :** Service de chirurgie viscérale <br>
+1 Avenue Claude Vellefaux, 75010 **Paris**  <br>
+Connexion à distance possible <br>
+<br>
+**Modalités de soumission d’un dossier** : <br>
+Liste de noms soumise au coordonnateur de la RCP (Dr Nelson Lourenço) <br>
+Fiche RCP à soumettre dans le logiciel ORBIS® <br>
+<br>
+**AMA en charge de la RCP** : <br>
+Absence d'AMA dédiée. Transmission des comptes-rendus par le secrétariat du service présenteur. <br>
+
 
 ## <span style="color:blue">**Nouvelle-Aquitaine**</span>
 ### **Hôpital Haut-Lévêque, CHU Bordeaux**
