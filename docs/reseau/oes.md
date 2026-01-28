@@ -272,7 +272,7 @@ Fax : 01 49 28 34 98
 **Pr ZAANAN Aziz**     
 Service d'Hépato-gastro-entérologie et oncologie digestive <br>
 20 rue Leblanc, 75015 **Paris** <br>
-aziz.zaanan@aphp.fr  <br>    
+aziz.zaanan@aphp.fr <br>
 Tel : 01 56 09 50 06 <br>    
    **Secrétariat :**  <br>
 BAHZAD Assia <br>
