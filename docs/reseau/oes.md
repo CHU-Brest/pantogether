@@ -80,6 +80,98 @@ Tel : 03 80 73 75 00 <br>
 </ul>
 </details>
 
+## <span style="color:blue">**Bretagne**</span>  
+**CHP Saint-Grégoire** <br>
+**Dr PERRET Clément**     
+Institut de Cancérologie et Radiothérapie Bretilien  <br>
+Avenue Saint Vincent, 35760 **Saint-Grégoire** <br>
+clperret@vivalto-sante.com  <br>  
+   **Secrétariat :**  <br>
+secperret@icrb.fr <br>
+Tel : 02 90 09 44 67 <br>
+Fax : 02 99 23 33 84 <br>
+<br>
+**[Site web](<https://www.icrb.fr/>)**  
+<br>   
+<details>
+    <summary>Ressources de soin</summary> <br>
+<B>Plateaux techniques</B> <br>    
+<ul>
+<li><b>Diagnostic :</b></li>  
+&#x2705 Médecine nucléaire <br>    
+&#x2705 Endoscopie interventionnelle <br>
+&#x2718 Plateforme de biologie moléculaire* <br>
+&#x2718 Plateforme d'anatomopathologie* <br> 
+&#x2705 Plateforme d'imagerie <br>  
+&#x2718 Oncogénétique* <br>  
+&#x2718 Centre de diagnostic rapide <br>   
+<br>
+<li><b>Traitement</b></li>
+&#x2705 Radiothérapie externe <br>   
+&#x2718 Radio-embolisation <br>   
+&#x2718 Radiologie interventionnelle <br>  
+&#x2705 Chirurgie viscérale   <br>
+&#x2718 Chirurgie digestive de recours <br>  
+&#x2718 Chirurgie thoracique <br>  
+&#x2718 Plateau de réanimation <br> 
+ <br>
+<li><b>Recherche :</b></li>
+&#x2705 Unité de recherche clinique dédiée <br> 
+&#x2718 Centre d'Investigation Clinique multithématique <br>
+&#x2718 Accès aux études de phase I <br>
+<br>   
+* Partenaires externes : Ouest Pathologie pour l’anatomopathologie et la biologie moléculaire, CHU de Rennes pour l’oncogénétique <br>   
+Convention avec le CHU de Rennes pour l’endoscopie bronchique interventionnelle
+<br>   
+</ul>
+<br>   
+<B>Soins de support</B> <br>
+<ul>
+<li><b>Soins « socle » :</b></li>
+&#x2705 Gestion de la douleur <br>
+&#x2705 Diététique et nutrition <br>
+&#x2705 Soutien psychologique du patient <br>
+&#x2705 Accompagnement social, familial et professionnel <br>
+<br>
+<li><b>Soins de support complémentaires : </b></li>
+&#x2705 Rééducation et activités physiques adaptées <br>
+&#x2718 Préservation de la fertilité <br>
+&#x2718 Gestion des troubles de la sexualité <br>
+&#x2718 Conseils d’hygiène de vie <br>
+&#x2705 Soutien psychologique des proches et des aidants <br>
+<br>
+<li><b>Autres soins de support et services : </b></li>
+&#x2718 Parcours de réadaptation respiratoire <br>
+&#x2705 Onco-gériatrie <br>
+&#x2718 Unité mobile de soins palliatifs <br>
+&#x2705 Unité de soins palliatifs dédiée <br>
+&#x2718 Hôpital de jour de soins de support <br>
+&#x2718 Espace de réflexion éthique <br>
+&#x2718 Approches non conventionnelles (hypnose, acupuncture, sophrologie, …) <br>
+&#x2718 Gestion de la fatigue <br>
+&#x2718 Ateliers d’art thérapie <br>
+&#x2705 Soins esthétiques et corporels <br>
+&#x2705 Support cognitif post traitement (Oncogite) <br>
+<br>
+</ul>
+</details>   
+
+<details>
+    <summary>Ressources humaines</summary>
+<br>
+<ul>  
+<li> <B>Infirmier(e) en Pratiques Avancées :</B> </li>
+BLANCHARD Elsa <br>
+elsa.blanchard@icrb.fr <br>
+FERNANDES Karine <br>
+ karine.fernandes@icrb.fr <br>
+<li> <B>Attaché(e) de Recherche Clinique :</B> </li>
+LAMURE Géraldine <br>
+g.lamure@vivalto-sante.com <br>
+</ul>
+</details>
+
+
 ## <span style="color:blue">**Grand-Est**</span>  
 **CHU Reims** <br>
 **Pr BOUCHÉ Olivier**<br>
