@@ -24,6 +24,24 @@ GARCIA Manon <br>
 mgarcia@cgfl.fr<br>
 Tel : 03 80 73 75 00 <br>  
 <br>  
+## <span style="color:blue">**Bretagne**</span>
+### **CHP Saint-Grégoire**   
+**RCP Digestive Libérale** <br>
+Réseau Onco 5 <br>
+<br>
+**Horaire :** Lundi à 19h <br>
+**Fréquence :** Hebdomadaire <br>
+**Lieu :** Institut de Cancérologie et Radiothérapie Bretilien <br>
+Salle de réunion administrative <br> 
+Avenue Saint Vincent, 35760 **Saint-Grégoire**  <br>
+<br>
+**Modalités de soumission d’un dossier** : <br>
+Dossier à déposer sur le dossier communicant de cancérologie (DCC) du patient [Onco Bretagne](<https://auth.telesantebretagne.org/realms/gcs/protocol/openid-connect/auth?client_id=portail&redirect_uri=https%3A%2F%2Fmes-services.telesantebretagne.org%2F&state=6e550e5f-2ce0-4d1a-923d-cf8f0b7c9e59&response_mode=fragment&response_type=code&scope=openid&nonce=a7208634-10a7-4acf-891d-8b00ab7c11a3&code_challenge=V4XoHzq6Zwvg1B8JSpRO5eTya1YZlX6jqnheIjN65Ow&code_challenge_method=S256>) <br>
+<br>
+**AMA en charge de la RCP** : <br>
+Responsable Onco 5 : Dr VEILHAN L-A.<br>
+Tel : 02 99 25 44 05 <br>
+
 
 ## <span style="color:blue">**Grand-Est**</span>
 ### **CHU Reims**
