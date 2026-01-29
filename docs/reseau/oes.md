@@ -19,7 +19,7 @@ Tel : 03 80 73 75 00 <br>
 <ul>
 <li><b>Diagnostic :</b></li>  
 &#x2705 Médecine nucléaire <br>    
-&#x2705 Endoscopie interventionnelle <br>
+&#x2705 Endoscopie interventionnelle* <br>
 &#x2705 Plateforme de biologie moléculaire <br>
 &#x2705 Plateforme d'anatomopathologie <br> 
 &#x2705 Plateforme d'imagerie <br>  
