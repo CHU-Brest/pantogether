@@ -130,7 +130,7 @@ Fiche RCP à soumettre dans le logiciel ORBIS® <br>
 Absence d'AMA dédiée. Transmission des comptes-rendus par le secrétariat du service présenteur. <br>
 
 ## <span style="color:blue">**Normandie**</span>
-### **Centre François Baclesse Caen**
+### **Centre François Baclesse, Caen**
 <ul>
 <li><strong> RCP d'oncologie digestive </strong></li>   
 <br>  
