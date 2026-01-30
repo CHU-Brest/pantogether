@@ -534,9 +534,8 @@ Fax : 01 42 49 91 68 <br>
 **Dr GALAIS Marie-Pierre**     
 Service d’Oncologie Digestive 
 3, Avenue du Générale Harris, 14000 **Caen** <br>
-MP.GALAIS@baclesse.unicancer.fr  <br>    
-Tel : 02 31 45 50 16 <br>
-<br>    
+MP.GALAIS@baclesse.unicancer.fr <br>
+Tel : 02 31 45 50 16 <br> 
    **Secrétariat :**  <br>
 TINTINE Sarah   <br>
 secretariat.digestif@baclesse.unicancer.fr <br>
