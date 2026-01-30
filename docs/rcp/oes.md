@@ -129,6 +129,35 @@ Fiche RCP à soumettre dans le logiciel ORBIS® <br>
 **AMA en charge de la RCP** : <br>
 Absence d'AMA dédiée. Transmission des comptes-rendus par le secrétariat du service présenteur. <br>
 
+## <span style="color:blue">**Normandie**</span>
+### **Centre François Baclesse Caen**
+<ul>
+<li><strong> RCP d'oncologie digestive </strong></li>   
+<br>  
+<strong>Horaire :</strong> Mardi de 14h30 à 18h <br>
+<strong>Fréquence :</strong> Hebdomadaire <br>
+<strong>Lieu :</strong> Centre François Baclesse <br>
+3, Avenue du Générale Harris, 14000 <strong>Caen</strong>  <br>
+<br>
+<li><strong> RCP Biologie moléculaire : RCP multi-organes </strong></li>   
+<br>  
+<strong>Horaire :</strong> Mardi de 17h à 19h <br>
+<strong>Fréquence :</strong> Bi-mensuel <br>
+<strong>Lieu :</strong> Centre François Baclesse <br>
+3, Avenue du Générale Harris, 14000 <strong>Caen</strong>  <br>
+<br>
+</ul>
+<strong>AMA en charge de la RCP :</strong>  <br>
+THERY Julie <br>
+j.thery@baclesse.unicancer.fr <br>
+secretariat.digestif@baclesse.unicancer.fr <br>
+Tel : 02 31 45 50 16<br>
+Fax : 02 31 45 50 83 <br>
+<br>
+<strong>Modalités de soumission d’un dossier :</strong> <br>
+Enregistrement préalable par le secrétariat <br>
+Fiche régionale sur site [Norm’Uni ](https://www.norm-uni.fr/portail.pro/) (DCC) <br>
+
 
 ## <span style="color:blue">**Nouvelle-Aquitaine**</span>
 ### **Hôpital Haut-Lévêque, CHU Bordeaux**
