@@ -6,6 +6,27 @@ Planning des Réunions Pluridisciplinaires en Région
 
 ## <span style="color:blue">**Bourgogne-Franche-Comté**</span>
 ### **CHU Besançon**
+**RCP d’oncologie digestive** <br>
+Réseau IRFC <br>
+<br>
+**Horaire :** Mardi et Jeudi soir <br>
+**Fréquence :** Hebdomadaire <br>
+**Lieu :** Le mardi : CHU Besançon <br>
+3 Bd Fleming, 25020 **Besançon** <br>
+Le jeudi : Hôpital Nord Franche-Comté
+100 Rte de Moval, 90400 **Trévenans** <br>
+Et connexion en distancielle par le logiciel du réseau BFC<br>
+<br>
+**Modalités de soumission d’un dossier** : <br>
+Dossier à soumettre sur le DCC du patient [Onco BFC](https://www.oncobfc.com/dossier-communicant-de-cancerologie-dcc) <br>
+<br>
+**AMA en charge de la RCP** : <br>
+QUERRY Carène, réseau IRFC <br>
+Pôle cancérologie Niveau 0 <br>  
+3 bd Fleming, 25030 Besançon <br>  
+Tel : 03 81 53 92 38 <br>  
+<br>  
+
 ### **Hôpital François Mitterrand, CHU Dijon**   
 ### **Centre Georges-François Leclerc, CLCC Dijon**   
 **RCP d’oncologie digestive de recours** <br>
