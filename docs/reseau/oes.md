@@ -2,7 +2,7 @@
 title: Oesophage, Jonction Oesogastrique, Estomac
 ---
 ## <span style="color:blue">**Bourgogne-Franche-Comté**</span>  
-**CHU Besançon** <br>
+### **CHU Besançon** <br>
 **Pr BORG Christophe**     
 Service d'oncologie médicale <br>
 3 Bd Fleming, 25020 **Besançon** <br>
@@ -80,7 +80,7 @@ Tel : 03 81 47 99 99 <br>
 </ul>
 </details>
 
-**Centre Georges-François Leclerc, CLCC Dijon** <br>
+### **Centre Georges-François Leclerc, CLCC Dijon** <br>
 **Pr GHIRINGHELLI François**     <br>
 1 rue du professeur Marion, 21000 **Dijon** <br>
 fghiringhelli@cgfl.fr <br>
@@ -159,7 +159,7 @@ Tel : 03 80 73 75 00 <br>
 </details>
 
 ## <span style="color:blue">**Bretagne**</span>  
-**CHP Saint-Grégoire** <br>
+### **CHP Saint-Grégoire** <br>
 **Dr PERRET Clément**     
 Institut de Cancérologie et Radiothérapie Bretilien  <br>
 Avenue Saint Vincent, 35760 **Saint-Grégoire** <br>
@@ -251,7 +251,7 @@ g.lamure@vivalto-sante.com <br>
 
 
 ## <span style="color:blue">**Grand-Est**</span>  
-**CHU Reims** <br>
+### **CHU Reims** <br>
 **Pr BOUCHÉ Olivier**<br>
 Avenue Général Koenig, 51092 **Reims** <br>
 obouche@chu-reims.fr <br> 
@@ -337,7 +337,7 @@ Tel : 03 26 78 7814 <br>
 </details>
 
 ## <span style="color:blue">**Ile-de-France**</span>  
-**Hôpital Saint-Antoine, APHP** <br>
+### **Hôpital Saint-Antoine, APHP** <br>
 **Pr ANDRE Thierry**  <br>
 Service d’Oncologie Médicale  <br>
 184 rue du Faubourg Saint-Antoine, 75571 **Paris** <br>
@@ -438,7 +438,7 @@ Fax : 01 49 28 34 98
 </details>
 <br>
 
-**Hôpital européen Georges-Pompidou, APHP** <br>
+### **Hôpital européen Georges-Pompidou, APHP** <br>
 **Pr ZAANAN Aziz**     
 Service d'Hépato-gastro-entérologie et oncologie digestive <br>
 20 rue Leblanc, 75015 **Paris** <br>
@@ -519,7 +519,7 @@ bertille.moreau@aphp.fr <br>
 </details>
 
 
-**Hôpital Saint-Louis, APHP** <br>
+### **Hôpital Saint-Louis, APHP** <br>
 **Pr APARICIO Thomas**     <br>
 Service de Gastroentérologie et Oncologie Digestive <br>
 1 Avenue Claude Vellefaux, 75010 **Paris** <br>
@@ -608,7 +608,7 @@ Fax : 01 42 49 91 68 <br>
 </details>
 
 ## <span style="color:blue">**Normandie**</span>  
-**Centre François Baclesse, Caen** <br>
+### **Centre François Baclesse, Caen** <br>
 **Dr GALAIS Marie-Pierre**     
 Service d’Oncologie Digestive 
 3, Avenue du Générale Harris, 14000 **Caen** <br>
@@ -697,7 +697,7 @@ Tel : 02 31 4 5 50 00 <br>
 
 
 ## <span style="color:blue">**Nouvelle-Aquitaine**</span>  
-**Hôpital Haut-Lévêque, CHU Bordeaux** <br>
+### **Hôpital Haut-Lévêque, CHU Bordeaux** <br>
 **Pr GRONNIER Caroline**     <br>
 Unité de chirurgie oesogastrique <br>
 Centre Médico-Chirurgical Magellan  <br>
@@ -774,7 +774,7 @@ AURILLAC Valérie  <br>
 </ul>
 </details>
    
-**CHU Poitiers** <br>
+### **CHU Poitiers** <br>
 **Pr TOUGERON David**     <br>
 Service d'hépato-gastro-entérologie <br>
 1 rue de la Milétrie, 86000 **Poitiers** <br>
@@ -858,7 +858,7 @@ Fax : 05 49 44 44 45 <br>
 </details>
 
 ## <span style="color:blue">**Provence-Alpes-Côte d'Azur**</span>  
-**Institut Paoli Calmettes, Marseille** <br>
+### **Institut Paoli Calmettes, Marseille** <br>
 **Dr DE LA FOUCHARDIERE Christelle**     
 Département d'oncologie médicale - secrétariat OM1 <br>
 232 Boulevard Sainte Marguerite, 13009 **Marseille** <br>
