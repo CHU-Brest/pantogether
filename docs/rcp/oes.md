@@ -3,6 +3,22 @@ title: Œsophage, Jonction Oesogastrique, Estomac
 
 ---
 Planning des Réunions Pluridisciplinaires en Région
+## <span style="color:blue">**Auvergne-Rhône-Alpes**</span>
+### **CRLCC Léon Bérard, Lyon**
+**RCP d’oncologie digestive (CLB)** <br>
+<br>
+**Horaire :** Lundi à 17h <br>
+**Fréquence :** Hebdomadaire <br>
+**Lieu :** Centre Léon Bérard <br>
+28 rue Laennec, 69008 **Lyon** <br>
+Et connexion en distancielle par Teams<br>
+<br>
+**Modalités de soumission d’un dossier** : <br>
+Dossier à soumettre sur le DCC SARA <br>
+<br>
+**AMA en charge de la RCP** : <br>
+REY Stéphanie <br>
+Tel : 04 69 85 64 91 <br>  
 
 ## <span style="color:blue">**Bourgogne-Franche-Comté**</span>
 ### **CHU Besançon**
