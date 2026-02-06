@@ -15,6 +15,8 @@ patricia.kervel@lyon.unicancer.fr <br>
 Tel : 04 69 85 60 20 <br>
 Fax : 04 78 78 27 09 <br>
 <br>
+**[Site web](<https://www.centreleonberard.fr/>)**  
+<br>
 <details>
     <summary>Ressources de soin</summary> <br>
 <B>Plateaux techniques</B> <br>    
@@ -99,13 +101,13 @@ Tel : 04 78 78 51 11  <br>
 Service d'oncologie médicale <br>
 3 Bd Fleming, 25020 **Besançon** <br>
 xtoph.borg@gmail.com <br>    
-
-**[Site web](< https://www.irfc.fr/>)**      
-  
+    
    **Secrétariat :**  <br>
 PARENT Nadège  <br>
 nparent@chu-besancon.fr <br>
 Tel : 03 81 47 99 99 <br>
+<br>
+**[Site web](<https://www.irfc.fr/>)**  
 <br>
 <details>
     <summary>Ressources de soin</summary> <br>
