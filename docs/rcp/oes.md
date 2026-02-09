@@ -78,11 +78,10 @@ Dossier à soumettre sur le DCC du patient [Onco BFC](https://www.oncobfc.com/do
 <br>
 **AMA en charge de la RCP** : <br>
 QUERRY Carène, réseau IRFC <br>
-Pôle cancérologie Niveau 0 <br>  
-3 bd Fleming, 25030 Besançon <br>  
-Tel : 03 81 53 92 38 <br>  
+Pôle cancérologie Niveau 0 <br>
+3 bd Fleming, 25030 Besançon <br>
+Tel : 03 81 53 92 38 <br>
 <br>  
-
 ### **Hôpital François Mitterrand, CHU Dijon**   
 ### **Centre Georges-François Leclerc, CLCC Dijon**   
 **RCP d’oncologie digestive de recours** <br>
