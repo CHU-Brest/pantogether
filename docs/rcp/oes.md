@@ -4,6 +4,46 @@ title: Œsophage, Jonction Oesogastrique, Estomac
 ---
 Planning des Réunions Pluridisciplinaires en Région
 ## <span style="color:blue">**Auvergne-Rhône-Alpes**</span>
+### **CHU Clermont-Ferrand**   
+<ul>
+<li><strong>RCP d’oncologie digestive et chirurgie digestive conventionnelle et de recours </strong></li>   
+Réseau ONCAURA<br> 
+<br>  
+<strong>Horaire :</strong> Lundi de 13h30 à 17h00 <br>
+<strong>Fréquence :</strong> Hebdomadaire <br>
+<strong>Lieu :</strong> CHU Clermont-Ferrand<br>
+Service de chirurgie digestive CHU Estaing <br>
+1, Place Lucie Aubrac 63000 <strong>Clermont-Ferrand</strong>  <br>
+Possibilité de visio sur demande au secrétariat <br>
+<br>
+<li><strong> RCP des pathologies hépatiques </strong></li>   
+Réseau ONCAURA<br> 
+<br>  
+<strong>Horaire :</strong> Vendredi de 14h30 à 17h00 <br>
+<strong>Fréquence :</strong> Hebdomadaire <br>
+<strong>Lieu :</strong> CHU Clermont-Ferrand<br>
+Service de chirurgie digestive CHU Estaing <br>
+1, Place Lucie Aubrac 63000 <strong>Clermont-Ferrand</strong>  <br>
+Possibilité de visio sur demande au secrétariat <br>
+<br>
+<li><strong> RCP des pathologies hépatiques </strong></li>   
+Réseau ONCAURA<br> 
+<br>  
+<strong>Horaire :</strong> Jeudi de 17h00 à 19h00 <br>
+<strong>Fréquence :</strong> Bi-mensuel : 1er et 3ème jeudi du mois <br>
+<strong>Lieu :</strong> CHU Clermont-Ferrand<br>
+Service de chirurgie digestive CHU Estaing <br>
+1, Place Lucie Aubrac 63000 <strong>Clermont-Ferrand</strong>  <br>
+Possibilité de visio sur demande au secrétariat <br>
+</ul>
+<strong>AMA en charge de la RCP :</strong>  <br>
+CHAMPION Sylvie <br>
+schampion@chu-clermontferrand.fr <br>
+Tel : 04 73 75 04 94 <br>
+<br>
+<strong>Modalités de soumission d’un dossier :</strong> <br>
+Fiche pré-établie à rendre au plus tard le matin des RCP <br>
+
 ### **CRLCC Léon Bérard, Lyon**
 **RCP d’oncologie digestive (CLB)** <br>
 <br>
