@@ -7,8 +7,7 @@ title: Oesophage, Jonction Oesogastrique, Estomac
 Service de Chirurgie Digestive et Hépatobiliaire  <br>
 CHU Estaing, 1 Place Lucie Aubrac, 63000 **Clermont-Ferrand** <br>
 jgagniere@chu-clermontferrand.fr <br>    
-Tel : 04 73 75 20 41 <br>    
-<br>    
+Tel : 04 73 75 20 41 <br>  
    **Secrétariat :**  <br>
 PISSIS Sabrina   <br>
 Tel : 04 73 75 04 94 <br>
