@@ -88,7 +88,7 @@ Dossier à compléter sur [SISRA](https://www.sante-ara.fr/services/monsisra/) <
 Et connexion en distancielle par Teams<br>
 <br>
 **Modalités de soumission d’un dossier** : <br>
-Dossier à soumettre sur le DCC SARA <br>
+Dossier à soumettre sur le DCC [SARA](https://www.sante-ara.fr/inscription-des-ps-aura/) <br>
 <br>
 **AMA en charge de la RCP** : <br>
 REY Stéphanie <br>
