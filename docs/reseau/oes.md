@@ -1127,6 +1127,92 @@ Fax : 05 49 44 44 45 <br>
 </ul>
 </details>
 
+## <span style="color:blue">**Occitanie**</span>  
+### **IUCT Rangueil-Larrey et Oncopôle, CHU Toulouse** <br>
+**Pr GUIMBAUD Rosine**     
+Service d'Oncologie Médicale Digestive, Pôle digestif <br>
+Hôpital RANGUEIL  <br>
+1 av. Jean Poulhès, 31400 **Toulouse** <br>
+guimbaud.r@chu-toulouse.fr <br> 
+<br>    
+   **Secrétariat :**  <br>
+oncomedrg.sec@chu-toulouse.fr <br>
+Tel : 05 61 32 21 42 <br>
+Fax : 05 61 32 21 93 <br>
+<br>
+**[Site web](<https://www.centreleonberard.fr/>)**
+<br>
+<details>
+    <summary>Ressources de soin</summary> <br>
+<B>Plateaux techniques</B> <br>    
+<ul>
+<li><b>Diagnostic :</b></li>  
+&#x2705 Médecine nucléaire <br>    
+&#x2705 Endoscopie interventionnelle <br>
+&#x2705 Plateforme de biologie moléculaire <br>
+&#x2705 Plateforme d'anatomopathologie <br> 
+&#x2705 Plateforme d'imagerie <br>  
+&#x2705 Oncogénétique <br>  
+&#x2705 Centre de diagnostic rapide <br>   
+<br>
+<li><b>Traitement</b></li>
+&#x2705 Radiothérapie externe <br>   
+&#x2705 Radio-embolisation <br>   
+&#x2705 Radiologie interventionnelle <br>  
+&#x2705 Chirurgie viscérale   <br>
+&#x2705 Chirurgie digestive de recours <br>  
+&#x2705 Chirurgie thoracique <br>  
+&#x2705 Plateau de réanimation <br> 
+ <br>
+<li><b>Recherche :</b></li>
+&#x2705 Unité de recherche clinique dédiée <br> 
+&#x2705 Centre d'Investigation Clinique multithématique <br>
+&#x2705 Accès aux études de phase I <br>
+</ul>
+<br>   
+<B>Soins de support</B> <br>
+<ul>
+<li><b>Soins « socle » :</b></li>
+&#x2705 Gestion de la douleur <br>
+&#x2705 Diététique et nutrition <br>
+&#x2705 Soutien psychologique du patient <br>
+&#x2705 Accompagnement social, familial et professionnel <br>
+<br>
+<li><b>Soins de support complémentaires : </b></li>
+&#x2705 Rééducation et activités physiques adaptées <br>
+&#x2705 Préservation de la fertilité <br>
+&#x2705 Gestion des troubles de la sexualité <br>
+&#x2718 Conseils d’hygiène de vie <br>
+&#x2718 Soutien psychologique des proches et des aidants <br>
+<br>
+<li><b>Autres soins de support et services : </b></li>
+&#x2705 Parcours de réadaptation respiratoire <br>
+&#x2705 Onco-gériatrie <br>
+&#x2705 Unité mobile de soins palliatifs <br>
+&#x2705 Unité de soins palliatifs dédiée <br>
+&#x2705 Hôpital de jour de soins de support <br>
+&#x2705 Espace de réflexion éthique <br>
+&#x2705 Approches non conventionnelles (hypnose, acupuncture, sophrologie, …) <br>
+&#x2718 Gestion de la fatigue <br>
+&#x2718 Ateliers d’art thérapie <br>
+&#x2705 Soins esthétiques et corporels <br>
+</ul>
+</details>   
+<details>
+    <summary>Ressources humaines</summary>
+<ul>  
+<li> <B>Infirmier(e) de Coordination :</B> </li>
+oncomedrg.coord@chu-toulouse.fr <br>
+Tel : 05 61 32 21 55 <br>
+Tel : 05 61 32 27 97 <br>
+<br>
+<li> <B>Attaché(e) de Recherche Clinique :</B> </li>
+gregoire.c@chu-toulouse.fr  <br>
+panouille.q@chu-toulouse.fr <br>
+Tel : 05 61 32 20 42<br>
+</ul>
+</details>
+
 ## <span style="color:blue">**Provence-Alpes-Côte d'Azur**</span>  
 ### **Institut Paoli Calmettes, Marseille** <br>
 **Dr DE LA FOUCHARDIERE Christelle**     
