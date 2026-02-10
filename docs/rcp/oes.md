@@ -44,6 +44,40 @@ Tel : 04 73 75 04 94 <br>
 <strong>Modalités de soumission d’un dossier :</strong> <br>
 Fiche pré-établie à rendre au plus tard le matin des RCP <br>
 
+### **Centre Jean Mermoz, Lyon**
+<ul>
+<li><strong>RCP d’oncologie digestive</strong></li>   
+<br>  
+<strong>Horaire :</strong> Jeudi à 12h30 <br>
+<strong>Fréquence :</strong> Hebdomadaire <br>
+<strong>Lieu :</strong> HP Jean Mermoz<br>
+Salle de RCP <br>
+55 avenue Mermoz, 69008 <b>Lyon</b  <br>
+<br>
+<li><strong>RCP maladies pancréatiques rares</strong></li>   
+<br>  
+<strong>Horaire :</strong> Lundi 19h30 <br>
+<strong>Fréquence :</strong> Mensuelle <br>
+<strong>Lieu :</strong> HP Jean Mermoz<br>
+Salle de RCP <br>
+55 avenue Mermoz, 69008 <b>Lyon</b  <br>
+<br>
+<li><strong>RCP Tumeurs superficielles</strong></li>   
+<br>  
+<strong>Horaire :</strong> Mercredi à 12h <br>
+<strong>Fréquence :</strong> Mensuelle, 2ème mercredi du mois <br>
+<strong>Lieu :</strong> HP Jean Mermoz<br>
+Salle de RCP <br>
+55 avenue Mermoz, 69008 <b>Lyon</b  <br>
+</ul>
+<strong>AMA en charge de la RCP :</strong>  <br>
+POURRIOT Camille <br>
+camille.pourriot@ramsaysante.fr <br>
+Tel : 04 37 53 87 33<br>
+<br>
+<strong>Modalités de soumission d’un dossier :</strong> <br>
+Dossier à compléter sur [SISRA](https://www.sante-ara.fr/services/monsisra/) <br>
+
 ### **CRLCC Léon Bérard, Lyon**
 **RCP d’oncologie digestive (CLB)** <br>
 <br>
