@@ -52,7 +52,7 @@ Fiche pré-établie à rendre au plus tard le matin des RCP <br>
 <strong>Fréquence :</strong> Hebdomadaire <br>
 <strong>Lieu :</strong> HP Jean Mermoz<br>
 Salle de RCP <br>
-55 avenue Mermoz, 69008 <b>Lyon</b  <br>
+55 avenue Mermoz, 69008 <b>Lyon</b> <br>
 <br>
 <li><strong>RCP maladies pancréatiques rares</strong></li>   
 <br>  
@@ -60,7 +60,7 @@ Salle de RCP <br>
 <strong>Fréquence :</strong> Mensuelle <br>
 <strong>Lieu :</strong> HP Jean Mermoz<br>
 Salle de RCP <br>
-55 avenue Mermoz, 69008 <b>Lyon</b  <br>
+55 avenue Mermoz, 69008 <b>Lyon</b> <br>
 <br>
 <li><strong>RCP Tumeurs superficielles</strong></li>   
 <br>  
