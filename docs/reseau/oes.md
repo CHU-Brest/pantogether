@@ -114,7 +114,7 @@ Fax : 04 78 74 07 92 <br>
 <br>
 <li><b>Traitement</b></li>
 &#x2705 Radiothérapie externe <br>   
-&#x2705 Radio-embolisation <br>   
+&#x2718 Radio-embolisation <br>   
 &#x2705 Radiologie interventionnelle <br>  
 &#x2705 Chirurgie viscérale   <br>
 &#x2705 Chirurgie digestive de recours <br>  
@@ -126,7 +126,7 @@ Fax : 04 78 74 07 92 <br>
 &#x2718 Centre d'Investigation Clinique multithématique <br>
 &#x2718 Accès aux études de phase I <br>
 <br>   
-* Convention avec le CH Saint Luc-Saint Joseph Lyon pour la réanimation polyvalente <br>   
+* Convention avec le CH Saint Luc-Saint Joseph Lyon pour la réanimation polyvalente  
 </ul>
 <br>   
 <B>Soins de support</B> <br>
