@@ -86,6 +86,99 @@ bgillet@chu-clermontferrand.fr <br>
 </ul>
 </details>
 
+###**Centre Jean Mermoz, Lyon** <br>
+**Dr ARTRU Pascal**     
+Service d’oncologie Digestive  <br>
+55 avenue Mermoz, 69008 **Lyon** <br>
+dr.artru@wanadoo.fr <br>    
+
+<br>    
+   **Secrétariat :**  <br>
+PONCELAS Marie-Laure <br>
+ml.poncelas@gelmad.fr <br>
+Tel : 04 37 53 87 26 <br>
+Fax : 04 78 74 07 92 <br>
+<br>
+<details>
+    <summary>Ressources de soin</summary> <br>
+<B>Plateaux techniques</B> <br>    
+<ul>
+<li><b>Diagnostic :</b></li>  
+&#x2705 Médecine nucléaire <br>    
+&#x2705 Endoscopie interventionnelle <br>
+&#x2705 Plateforme de biologie moléculaire <br>
+&#x2705 Plateforme d'anatomopathologie <br> 
+&#x2705 Plateforme d'imagerie <br>  
+&#x2705 Oncogénétique <br>  
+&#x2705 Centre de diagnostic rapide <br>   
+<br>
+<li><b>Traitement</b></li>
+&#x2705 Radiothérapie externe <br>   
+&#x2705 Radio-embolisation <br>   
+&#x2705 Radiologie interventionnelle <br>  
+&#x2705 Chirurgie viscérale   <br>
+&#x2705 Chirurgie digestive de recours <br>  
+&#x2718 Chirurgie thoracique <br>  
+&#x2705 Plateau de réanimation* <br> 
+ <br>
+<li><b>Recherche :</b></li>
+&#x2705 Unité de recherche clinique dédiée <br> 
+&#x2718 Centre d'Investigation Clinique multithématique <br>
+&#x2718 Accès aux études de phase I <br>
+<br>   
+* Convention avec le CH Saint Luc-Saint Joseph Lyon pour la réanimation polyvalente <br>   
+</ul>
+<br>   
+<B>Soins de support</B> <br>
+<ul>
+<li><b>Soins « socle » :</b></li>
+&#x2705 Gestion de la douleur <br>
+&#x2705 Diététique et nutrition <br>
+&#x2705 Soutien psychologique du patient <br>
+&#x2705 Accompagnement social, familial et professionnel <br>
+<br>
+<li><b>Soins de support complémentaires : </b></li>
+&#x2705 Rééducation et activités physiques adaptées <br>
+&#x2718 Préservation de la fertilité <br>
+&#x2718 Gestion des troubles de la sexualité <br>
+&#x2718 Conseils d’hygiène de vie <br>
+&#x2705 Soutien psychologique des proches et des aidants <br>
+<br>
+<li><b>Autres soins de support et services : </b></li>
+&#x2705 Parcours de réadaptation respiratoire <br>
+&#x2705 Onco-gériatrie <br>
+&#x2705 Unité mobile de soins palliatifs <br>
+&#x2718 Unité de soins palliatifs dédiée <br>
+&#x2705 Hôpital de jour de soins de support <br>
+&#x2705 Espace de réflexion éthique <br>
+&#x2705 Approches non conventionnelles (hypnose, acupuncture, sophrologie, …) <br>
+&#x2718 Gestion de la fatigue <br>
+&#x2705 Ateliers d’art thérapie <br>
+&#x2705 Soins esthétiques et corporels <br>
+</ul>
+</details>   
+
+<details>
+    <summary>Ressources humaines</summary>
+<br>
+<ul>  
+<li> <B>Infirmier(e) de Coordination :</B> </li>
+REVOY Floriane <br>
+floriane.revoy@ramsaysante.fr <br>
+Tel : 04 37 53 87 77<br>
+<br>
+<li> <B>Infirmier(e) en Pratiques Avancées :</B> </li>
+ROY Camille <br>
+camille.roy@ramsaysante.fr  <br>
+<br>
+<li> <B>Attaché(e) de Recherche Clinique :</B> </li>
+LE GULUDEC Gaelle <br>
+gaelle.leguludec@ramsaysante.fr <br>
+Tel : 04 37 53 87 64<br>
+Fax : 04 37 53 87 73 <br>
+</ul>
+</details>
+
 ### **CRLCC Léon Bérard, Lyon** <br>
 **Dr COUTZAC Clélia**     
 Département de cancérologie médicale <br>
