@@ -1133,14 +1133,14 @@ Fax : 05 49 44 44 45 <br>
 Service d'Oncologie Médicale Digestive, Pôle digestif <br>
 Hôpital RANGUEIL  <br>
 1 av. Jean Poulhès, 31400 **Toulouse** <br>
-guimbaud.r@chu-toulouse.fr <br> 
-<br>    
+guimbaud.r@chu-toulouse.fr
+<br>
    **Secrétariat :**  <br>
 oncomedrg.sec@chu-toulouse.fr <br>
 Tel : 05 61 32 21 42 <br>
 Fax : 05 61 32 21 93 <br>
 <br>
-**[Site web](<https://www.centreleonberard.fr/>)**
+**[Site web](<(https://www.chu-toulouse.fr/-oncologie-medicale-)>)**
 <br>
 <details>
     <summary>Ressources de soin</summary> <br>
