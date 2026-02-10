@@ -295,3 +295,54 @@ Et connexion en distancielle<br>
 GAULTIER Karine <br>
 Tel : 05 49 44 46 08 <br>  
 <br>  
+## <span style="color:blue">**Occitanie**</span>
+### **IUCT Rangueil-Larrey et Oncôpole, CHU Toulouse**   
+<ul>
+<li><strong> RCP Digestif (dont recours oeso-gastrique - ano-rectal - péritoine)</strong></li>   
+Réseau d’Onco-Occitanie <br>  
+<br>  
+<strong>Fréquence :</strong> Hebdomadaire <br>
+<strong>Lieu :</strong> Hôpital RANGUEIL <br>
+Salle de Radiologie, Bâtiment H1, Rez de Chaussée <br>
+1 av. Jean Poulhès, 31400 <strong>Toulouse</strong>  <br>
+<br>
+<li><strong> RCP Digestif (dont recours foie - voies biliaires - pancréas)</strong></li>   
+Réseau d’Onco-Occitanie <br>  
+<br>  
+<strong>Fréquence :</strong> Hebdomadaire <br>
+<strong>Lieu :</strong> Hôpital RANGUEIL <br>
+Salle de Radiologie, Bâtiment H1, Rez de Chaussée <br>
+1 av. Jean Poulhès, 31400 <strong>Toulouse</strong>  <br>
+<br>
+<li><strong> RCP TUMEURS ENDOCRINES (RENATEN)</strong></li>   
+Réseau d’Onco-Occitanie <br>  
+<br>  
+<strong>Fréquence :</strong> Hebdomadaire <br>
+<strong>Lieu :</strong> Hôpital RANGUEIL <br>
+Salle de Radiologie, Bâtiment H1, Rez de Chaussée <br>
+1 av. Jean Poulhès, 31400 <strong>Toulouse</strong>  <br>
+<br>
+<li><strong> RCP RECOURS DIGESTIF : BIOLOGIE MOLECULAIRE ET ESSAIS CLINIQUES </strong></li>   
+Réseau d’Onco-Occitanie <br>  
+<br>  
+<strong>Fréquence :</strong> Bi-mensuelle <br>
+<strong>Lieu :</strong> Hôpital RANGUEIL <br>
+Salle de Radiologie, Bâtiment H1, Rez de Chaussée <br>
+1 av. Jean Poulhès, 31400 <strong>Toulouse</strong>  <br>
+<br>
+<li><strong> RCP CARCINOME HEPATO-CELLULAIRE </strong></li>   
+Réseau d’Onco-Occitanie <br>  
+<br>  
+<strong>Fréquence :</strong> Hebdomadaire <br>
+<strong>Lieu :</strong> Hôpital RANGUEIL <br>
+Salle de Radiologie, Bâtiment H1, Rez de Chaussée <br>
+1 av. Jean Poulhès, 31400 <strong>Toulouse</strong>  <br>
+</ul>
+<strong>AMA en charge de la RCP :</strong>  <br>
+Secrétariat oncologie médicale digestive <br>
+oncomedrg.sec@chu-toulouse.fr <br>
+Tel : 05 61 32 21 42 <br>
+Fax : 05 61 32 21 93 <br>
+<br>
+<strong>Modalités de soumission d’un dossier :</strong> <br>
+Dossier à soumettre sur le DCC [Onco-occitanie](https://onco-occitanie.fr/le-parcours-de-soin/le-dossier-communicant-de-cancerologie-dcc/)  <br>
