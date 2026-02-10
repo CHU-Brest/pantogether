@@ -90,8 +90,7 @@ bgillet@chu-clermontferrand.fr <br>
 **Dr ARTRU Pascal**     
 Service d’oncologie Digestive  <br>
 55 avenue Mermoz, 69008 **Lyon** <br>
-dr.artru@wanadoo.fr <br>    
-
+dr.artru@wanadoo.fr <br>
 <br>    
    **Secrétariat :**  <br>
 PONCELAS Marie-Laure <br>
