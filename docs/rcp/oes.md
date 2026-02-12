@@ -359,7 +359,7 @@ Et connexion à distance sur la plateforme [ROFIM](https://www.rofim.fr/) <br>
 <br>
 **AMA en charge de la RCP** : <br>
 BONFILS Manon <br>
-manon.bonfils@nice.unicancer.fr <br>
+manon.bonfils@nice.unicancer.fr
 Tel : 04 92 03 13 52<br>
 Fax : 04 92 03 10 46 <br> 
 <br>  
