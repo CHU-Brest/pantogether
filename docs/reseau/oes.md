@@ -1244,15 +1244,18 @@ Fax : 04 92 03 10 46 <br>
 &#x2705 Radiothérapie externe <br>   
 &#x2718 Radio-embolisation <br>   
 &#x2718 Radiologie interventionnelle* <br>  
-&#x2718 Chirurgie viscérale   <br>
-&#x2718 Chirurgie digestive de recours <br>  
-&#x2718 Chirurgie thoracique <br>  
+&#x2718 Chirurgie viscérale*   <br>
+&#x2718 Chirurgie digestive de recours* <br>  
+&#x2718 Chirurgie thoracique* <br>  
 &#x2718 Plateau de réanimation <br> 
  <br>
 <li><b>Recherche :</b></li>
 &#x2705 Unité de recherche clinique dédiée <br> 
 &#x2718 Centre d'Investigation Clinique multithématique <br>
 &#x2705 Accès aux études de phase I <br>
+<br>
+*Convention avec le CHU de Nice pour la radiologie interventionnelle et la Chirurgie
+<br>
 </ul>
 <br>   
 <B>Soins de support</B> <br>
