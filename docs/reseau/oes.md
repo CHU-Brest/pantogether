@@ -1133,7 +1133,7 @@ Fax : 05 49 44 44 45 <br>
 Service d'Oncologie Médicale Digestive, Pôle digestif <br>
 Hôpital RANGUEIL  <br>
 1 av. Jean Poulhès, 31400 **Toulouse** <br>
-guimbaud.r@chu-toulouse.fr
+guimbaud.r@chu-toulouse.fr <br>
 <br>
    **Secrétariat :**  <br>
 oncomedrg.sec@chu-toulouse.fr <br>
@@ -1219,7 +1219,8 @@ Tel : 05 61 32 20 42<br>
 33 av de Valombrose, 06100 **Nice** <br>
 Ludovic.EVESQUE@nice.unicancer.fr  <br>
 <br>
-**[Site web](<https://www.centreantoinelacassagne.org/>)** <br>
+**[Site web](<https://www.centreantoinelacassagne.org/>)** 
+<br>
    **Secrétariat :**  <br>
 BONFILS Manon   <br>
 manon.bonfils@nice.unicancer.fr <br>
