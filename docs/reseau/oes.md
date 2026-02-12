@@ -1140,7 +1140,7 @@ oncomedrg.sec@chu-toulouse.fr <br>
 Tel : 05 61 32 21 42 <br>
 Fax : 05 61 32 21 93 <br>
 <br>
-**[Site web](<(https://www.chu-toulouse.fr/-oncologie-medicale-)>)**
+**[Site web](<https://www.chu-toulouse.fr/-oncologie-medicale->)**
 <br>
 <details>
     <summary>Ressources de soin</summary> <br>
@@ -1217,9 +1217,9 @@ Tel : 05 61 32 20 42<br>
 ### **Centre Lacassagne, Nice** <br>
 **Dr EVESQUE Ludovic**     
 33 av de Valombrose, 06100 **Nice** <br>
-Ludovic.EVESQUE@nice.unicancer.fr  <br>    
-
-<br>    
+Ludovic.EVESQUE@nice.unicancer.fr  <br>
+<br>
+**[Site web](<https://www.centreantoinelacassagne.org/>)** <br>
    **Secrétariat :**  <br>
 BONFILS Manon   <br>
 manon.bonfils@nice.unicancer.fr <br>
