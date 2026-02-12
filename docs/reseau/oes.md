@@ -1238,11 +1238,11 @@ Fax : 04 92 03 10 46 <br>
 &#x2705 Plateforme d'anatomopathologie <br> 
 &#x2705 Plateforme d'imagerie <br>  
 &#x2705 Oncogénétique <br>  
-&#x2718 Centre de diagnostic rapide <br>   
+&#x2705 Centre de diagnostic rapide <br>   
 <br>
 <li><b>Traitement</b></li>
 &#x2705 Radiothérapie externe <br>   
-&#x2705 Radio-embolisation <br>   
+&#x2718 Radio-embolisation <br>   
 &#x2718 Radiologie interventionnelle* <br>  
 &#x2718 Chirurgie viscérale   <br>
 &#x2718 Chirurgie digestive de recours <br>  
