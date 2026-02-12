@@ -346,3 +346,20 @@ Fax : 05 61 32 21 93 <br>
 <br>
 <strong>Modalités de soumission d’un dossier :</strong> <br>
 Dossier à soumettre sur le DCC [Onco-occitanie](https://onco-occitanie.fr/le-parcours-de-soin/le-dossier-communicant-de-cancerologie-dcc/)  <br>
+
+## <span style="color:blue">**Provence-Alpes-Côte d'Azur**</span>
+### **Centre Antoine Lacassagne, Nice**
+**RCP Digestive** <br>
+<br>
+**Horaire :** Mercredi de 8h à 10h30 <br>
+**Fréquence :** Hebdomadaire <br>
+**Lieu :** Centre Antoine Lacassagne <br>
+33 av de Valombrose, 06100 **Nice**  <br>
+Et connexion à distance sur la plateforme [ROFIM](https://www.rofim.fr/) <br>
+<br>
+**AMA en charge de la RCP** : <br>
+BONFILS Manon <br>
+manon.bonfils@nice.unicancer.fr <br>  
+Tel : 04 92 03 13 52<br> 
+Fax : 04 92 03 10 46 <br>  
+<br>  
