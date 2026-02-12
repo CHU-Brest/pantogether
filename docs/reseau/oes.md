@@ -1214,7 +1214,7 @@ Tel : 05 61 32 20 42<br>
 </details>
 
 ## <span style="color:blue">**Provence-Alpes-Côte d'Azur**</span>  
-### **Centre Lacassagne, Nice** <br>
+### **Centre Antoine Lacassagne, Nice** <br>
 **Dr EVESQUE Ludovic**     
 33 av de Valombrose, 06100 **Nice** <br>
 Ludovic.EVESQUE@nice.unicancer.fr  <br>
