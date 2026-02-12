@@ -591,7 +591,8 @@ Fax : 05 55 05 65 46 <br>
 
 ### **CHU Poitiers**   
 <li><strong> RCP d'oncologie digestive</strong></li> <br>
-Réseau Régional des 3C Nouvelle-Aquitaine<br>
+Réseau Régional des 3C Nouvelle-Aquitaine
+<br>
 <strong>Horaire :</strong> Lundi <br>
 <strong>Fréquence :</strong> Hebdomadaire <br>
 <strong>Lieu :</strong> CHU Poitiers <br>
@@ -599,7 +600,8 @@ Réseau Régional des 3C Nouvelle-Aquitaine<br>
 Et connexion en distanciel <br>
                           <br>
 <li><strong>RCP CHC</strong></li> <br>
-Réseau Régional des 3C Nouvelle-Aquitaine<br>
+Réseau Régional des 3C Nouvelle-Aquitaine
+<br>
 <strong>Horaire :</strong> Mardi <br>
 <strong>Fréquence :</strong> Hebdomadaire <br>
 <strong>Lieu :</strong> CHU Poitiers <br>
