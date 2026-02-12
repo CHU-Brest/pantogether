@@ -1214,6 +1214,86 @@ Tel : 05 61 32 20 42<br>
 </details>
 
 ## <span style="color:blue">**Provence-Alpes-Côte d'Azur**</span>  
+### **Centre Lacassagne, Nice** <br>
+**Dr EVESQUE Ludovic**     
+33 av de Valombrose, 06100 **Nice** <br>
+Ludovic.EVESQUE@nice.unicancer.fr  <br>    
+
+<br>    
+   **Secrétariat :**  <br>
+BONFILS Manon   <br>
+manon.bonfils@nice.unicancer.fr <br>
+Tel : 04 92 03 13 52<br>
+Fax : 04 92 03 10 46 <br>
+<br>
+<details>
+    <summary>Ressources de soin</summary> <br>
+<B>Plateaux techniques</B> <br>    
+<ul>
+<li><b>Diagnostic :</b></li>  
+&#x2705 Médecine nucléaire <br>    
+&#x2705 Endoscopie interventionnelle <br>
+&#x2705 Plateforme de biologie moléculaire <br>
+&#x2705 Plateforme d'anatomopathologie <br> 
+&#x2705 Plateforme d'imagerie <br>  
+&#x2705 Oncogénétique <br>  
+&#x2718 Centre de diagnostic rapide <br>   
+<br>
+<li><b>Traitement</b></li>
+&#x2705 Radiothérapie externe <br>   
+&#x2705 Radio-embolisation <br>   
+&#x2718 Radiologie interventionnelle* <br>  
+&#x2718 Chirurgie viscérale   <br>
+&#x2718 Chirurgie digestive de recours <br>  
+&#x2718 Chirurgie thoracique <br>  
+&#x2718 Plateau de réanimation <br> 
+ <br>
+<li><b>Recherche :</b></li>
+&#x2705 Unité de recherche clinique dédiée <br> 
+&#x2718 Centre d'Investigation Clinique multithématique <br>
+&#x2705 Accès aux études de phase I <br>
+</ul>
+<br>   
+<B>Soins de support</B> <br>
+<ul>
+<li><b>Soins « socle » :</b></li>
+&#x2705 Gestion de la douleur <br>
+&#x2705 Diététique et nutrition <br>
+&#x2705 Soutien psychologique du patient <br>
+&#x2705 Accompagnement social, familial et professionnel <br>
+<br>
+<li><b>Soins de support complémentaires : </b></li>
+&#x2705 Rééducation et activités physiques adaptées <br>
+&#x2718 Préservation de la fertilité <br>
+&#x2718 Gestion des troubles de la sexualité <br>
+&#x2705 Conseils d’hygiène de vie <br>
+&#x2705 Soutien psychologique des proches et des aidants <br>
+<br>
+<li><b>Autres soins de support et services : </b></li>
+&#x2718 Parcours de réadaptation respiratoire <br>
+&#x2705 Onco-gériatrie <br>
+&#x2705 Unité mobile de soins palliatifs <br>
+&#x2705 Unité de soins palliatifs dédiée <br>
+&#x2705 Hôpital de jour de soins de support <br>
+&#x2705 Espace de réflexion éthique <br>
+&#x2705 Approches non conventionnelles (hypnose, acupuncture, sophrologie, …) <br>
+&#x2705 Gestion de la fatigue <br>
+&#x2705 Ateliers d’art thérapie <br>
+&#x2705 Soins esthétiques et corporels <br>
+</ul>
+</details>   
+
+<details>
+    <summary>Ressources humaines</summary>
+<br>
+<ul>  
+<li> <B>Attaché(e) de Recherche Clinique :</B> </li>
+DUPONT Axelle <br>
+axelle.dupont@nice.unicancer.fr <br>
+Tel : 04 92 03 12 90 <br>
+</ul>
+</details>
+
 ### **Institut Paoli Calmettes, Marseille** <br>
 **Dr DE LA FOUCHARDIERE Christelle**     
 Département d'oncologie médicale - secrétariat OM1 <br>
