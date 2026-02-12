@@ -1273,7 +1273,7 @@ Fax : 04 92 03 10 46 <br>
 &#x2718 Parcours de réadaptation respiratoire <br>
 &#x2705 Onco-gériatrie <br>
 &#x2705 Unité mobile de soins palliatifs <br>
-&#x2705 Unité de soins palliatifs dédiée <br>
+&#x2718 Unité de soins palliatifs dédiée <br>
 &#x2705 Hôpital de jour de soins de support <br>
 &#x2705 Espace de réflexion éthique <br>
 &#x2705 Approches non conventionnelles (hypnose, acupuncture, sophrologie, …) <br>
