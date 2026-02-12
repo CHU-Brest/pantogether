@@ -1219,13 +1219,13 @@ Tel : 05 61 32 20 42<br>
 33 av de Valombrose, 06100 **Nice** <br>
 Ludovic.EVESQUE@nice.unicancer.fr  <br>
 <br>
-**[Site web](<https://www.centreantoinelacassagne.org/>)** 
-<br>
    **Secrétariat :**  <br>
 BONFILS Manon   <br>
 manon.bonfils@nice.unicancer.fr <br>
 Tel : 04 92 03 13 52<br>
 Fax : 04 92 03 10 46 <br>
+<br>
+**[Site web](<https://www.centreantoinelacassagne.org/>)** 
 <br>
 <details>
     <summary>Ressources de soin</summary> <br>
