@@ -205,6 +205,36 @@ Tel : 01 49 28 21 15<br>
 <strong>Modalités de soumission d’un dossier :</strong> <br>
 Dossier à soumettre à l’AMA <br>
 
+### **Institut Strauss, Strasbourg**
+<li><strong>RCP Digestive </strong></li>   
+<br>  
+<strong>Horaire :</strong> Mardi à 17h00 <br>
+<strong>Fréquence :</strong> Hebdomadaire <br>
+<strong>Lieu :</strong> Institut Strauss<br>
+Oncologie Médicale - Secrétariat RCP  <br>
+17, rue Albert Calmette, 67033 <strong>Strasbourg</strong>  <br>
+Et connexion à distance sur Teams <br>
+<br>
+<li><strong> RCP Digestive métastatique </strong></li>   
+<br>  
+<strong>Horaire :</strong> Jeudi à 11h30<br>
+<strong>Fréquence :</strong> Hebdomadaire <br>
+<strong>Lieu :</strong> Institut Strauss<br>
+Oncologie Médicale - Secrétariat RCP  <br>
+17, rue Albert Calmette, 67033 <strong>Strasbourg</strong>  <br>
+Et connexion à distance sur Teams <br>
+<br>
+</ul>
+<strong>AMA en charge de la RCP :</strong>  <br>
+HIFF Aurélia <br>
+secretariat-RCP@institut-strauss.fr <br>
+Tel : 03 68 76 74 37<br>
+<br>
+<strong>Modalités de soumission d’un dossier :</strong> <br>
+Soumission de la fiche RCP sur la plateforme en ligne [PULSY](<https://www.pulsy.fr/portail/nos-services-e-sante/e-rcp-54-62.html>)
+<br>
+
+
 ### **Hôpital Européen Georges Pompidou, AP-HP** 
 <ul>
 <li><strong>RCP Chimiothérapie </strong></li>   
