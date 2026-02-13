@@ -610,8 +610,8 @@ Tel : 03 26 78 7814 <br>
 **Dr BEN ABDELGHANI Meher**     
 Oncologie Médicale - Secrétariat RCP  <br>
 17, rue Albert Calmette, 67033 **Strasbourg** <br>
-m.ben-abdelghani@icans.eu  <br>    
-<br>    
+m.ben-abdelghani@icans.eu 
+<br>
    **Secrétariat :**  <br>
 HIFF Aurélia <br>
 secretariat-RCP@institut-strauss.fr <br>
