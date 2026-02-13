@@ -618,6 +618,8 @@ secretariat-RCP@institut-strauss.fr <br>
 Tel : 03 68 76 74 37 <br>
 Fax : 03 68 76 72 57 <br>
 <br>
+**[Site web](<(https://www.institut-strauss.fr/>)** 
+<br>
 <details>
     <summary>Ressources de soin</summary> <br>
 <B>Plateaux techniques</B> <br>    
