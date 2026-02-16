@@ -350,6 +350,89 @@ Tel : 03 81 47 99 99 <br>
 </ul>
 </details>
 
+### **CHU Dijon** <br>
+**Pr LEPAGE Côme**     
+Service d’hépato gastroentérologie et oncologie digestive  <br>
+2 BD Maréchal de Lattre de Tassigny 21000 **Dijon** <br>
+come.lepage@u-bourgogne.fr  <br>    
+
+<br>    
+   **Secrétariat :**  <br>
+secretariat.hge@chu-dijon.fr  <br>
+Tel : 03 80 29 37 50 <br>
+Fax : 03 80 29 37 22 <br>
+<br>
+**[Site Web](<https://www.chu-dijon.fr/service/hepato-gastro-enterologie/presentation-du-service-hepato-gastro-enterologie>)**
+<br>
+<details>
+    <summary>Ressources de soin</summary> <br>
+<B>Plateaux techniques</B> <br>    
+<ul>
+<li><b>Diagnostic :</b></li>  
+&#x2705 Médecine nucléaire <br>    
+&#x2705 Endoscopie interventionnelle <br>
+&#x2705 Plateforme de biologie moléculaire <br>
+&#x2705 Plateforme d'anatomopathologie <br> 
+&#x2705 Plateforme d'imagerie <br>  
+&#x2705 Oncogénétique <br>  
+&#x2705 Centre de diagnostic rapide <br>   
+<br>
+<li><b>Traitement</b></li>
+&#x2705 Radiothérapie externe <br>   
+&#x2705 Radio-embolisation <br>   
+&#x2705 Radiologie interventionnelle <br>  
+&#x2705 Chirurgie viscérale   <br>
+&#x2705 Chirurgie digestive de recours <br>  
+&#x2705 Chirurgie thoracique <br>  
+&#x2705 Plateau de réanimation <br> 
+ <br>
+<li><b>Recherche :</b></li>
+&#x2705 Unité de recherche clinique dédiée <br> 
+&#x2705 Centre d'Investigation Clinique multithématique <br>
+&#x2705 Accès aux études de phase I <br>
+<br>   
+Convention avec le Centre Georges François Leclerc de Dijon
+<br>   
+</ul>
+<br>   
+<B>Soins de support</B> <br>
+<ul>
+<li><b>Soins « socle » :</b></li>
+&#x2705 Gestion de la douleur <br>
+&#x2705 Diététique et nutrition <br>
+&#x2705 Soutien psychologique du patient <br>
+&#x2705 Accompagnement social, familial et professionnel <br>
+<br>
+<li><b>Soins de support complémentaires : </b></li>
+&#x2705 Rééducation et activités physiques adaptées <br>
+&#x2705 Préservation de la fertilité <br>
+&#x2705 Gestion des troubles de la sexualité <br>
+&#x2705 Conseils d’hygiène de vie <br>
+&#x2705 Soutien psychologique des proches et des aidants <br>
+<br>
+<li><b>Autres soins de support et services : </b></li>
+&#x2718 Parcours de réadaptation respiratoire <br>
+&#x2705 Onco-gériatrie <br>
+&#x2705 Unité mobile de soins palliatifs <br>
+&#x2705 Unité de soins palliatifs dédiée <br>
+&#x2705 Hôpital de jour de soins de support <br>
+&#x2705 Espace de réflexion éthique <br>
+&#x2718 Approches non conventionnelles (hypnose, acupuncture, sophrologie, …) <br>
+&#x2718 Gestion de la fatigue <br>
+&#x2718 Ateliers d’art thérapie <br>
+&#x2705 Soins esthétiques et corporels <br>
+<br>
+</ul>
+</details>   
+
+<details>
+    <summary>Ressources humaines</summary>
+<br>
+<ul>  
+</ul>
+</details>
+
+
 ### **Centre Georges-François Leclerc, CLCC Dijon** <br>
 **Pr GHIRINGHELLI François**     <br>
 1 rue du professeur Marion, 21000 **Dijon** <br>
