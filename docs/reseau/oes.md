@@ -354,8 +354,7 @@ Tel : 03 81 47 99 99 <br>
 **Pr LEPAGE Côme**     
 Service d’hépato gastroentérologie et oncologie digestive  <br>
 2 BD Maréchal de Lattre de Tassigny 21000 **Dijon** <br>
-come.lepage@u-bourgogne.fr  <br>    
-
+come.lepage@u-bourgogne.fr  <br>
 <br>    
    **Secrétariat :**  <br>
 secretariat.hge@chu-dijon.fr  <br>
