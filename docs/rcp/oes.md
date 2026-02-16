@@ -115,8 +115,45 @@ QUERRY Carène, réseau IRFC <br>
 Pôle cancérologie Niveau 0 <br>
 3 bd Fleming, 25030 Besançon <br>
 Tel : 03 81 53 92 38 <br>
-<br>  
+<br> 
+
 ### **Hôpital François Mitterrand, CHU Dijon**   
+<ul>
+<li><strong> RCP digestive Régionale Bourgogne </strong></li>   
+<br>  
+<strong>Horaire :</strong> Mercredi à 16h30 <br>
+<strong>Fréquence :</strong> Hebdomadaire <br>
+<strong>Lieu :</strong> CHU Dijon<br>
+Service d'hepato gastroenterologie et oncologie digestive <br>
+2 BD Maréchal de Lattre de Tassigny, 21000  <strong>Dijon</strong>  <br>
+Possibilité de visio via le logiciel Covotem sur demande au secrétariat des 3C<br>
+<br>
+<li><strong> RCP tumeurs du foie, Régionale Bourgogne </strong></li>   
+<br>  
+<strong>Horaire :</strong> Lundi à 17h <br>
+<strong>Fréquence :</strong> Hebdomadaire <br>
+<strong>Lieu :</strong> CHU Dijon<br>
+Service d'hepato gastroenterologie et oncologie digestive <br>
+2 BD Maréchal de Lattre de Tassigny, 21000  <strong>Dijon</strong>  <br>
+Possibilité de visio via le logiciel Covotem sur demande au secrétariat des 3C<br>
+<br>
+<li><strong RCP RENATEN & Tumeurs Rares Bourgogne Franche Comté </strong></li>   
+<br>  
+<strong>Horaire :</strong> Vendredi à 12h45 <br>
+<strong>Fréquence :</strong> Hebdomadaire <br>
+<strong>Lieu :</strong> CHU Dijon<br>
+Service d'hepato gastroenterologie et oncologie digestive <br>
+2 BD Maréchal de Lattre de Tassigny, 21000  <strong>Dijon</strong>  <br>
+Possibilité de visio via le logiciel Covotem sur demande au secrétariat des 3C<br>
+</ul>
+<strong>AMA en charge de la RCP :</strong>  <br>
+Secrétariat des 3C <br>
+3C@chu-dijon.fr <br>
+Tel : 03 80 29 56 27 <br>
+<br>
+<strong>Modalités de soumission d’un dossier :</strong> <br>
+Dossier à soumettre sur le DCC du patient [Onco BFC](https://www.oncobfc.com/dossier-communicant-de-cancerologie-dcc) <br>
+
 ### **Centre Georges-François Leclerc, CLCC Dijon**   
 **RCP d’oncologie digestive de recours** <br>
 <br>
