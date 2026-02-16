@@ -137,7 +137,7 @@ Service d'hepato gastroenterologie et oncologie digestive <br>
 2 BD Maréchal de Lattre de Tassigny, 21000  <strong>Dijon</strong>  <br>
 Possibilité de visio via le logiciel Covotem sur demande au secrétariat des 3C<br>
 <br>
-<li><strong RCP RENATEN & Tumeurs Rares Bourgogne Franche Comté </strong></li>   
+<li><strong>RCP RENATEN & Tumeurs Rares Bourgogne-Franche-Comté</strong></li>   
 <br>  
 <strong>Horaire :</strong> Vendredi à 12h45 <br>
 <strong>Fréquence :</strong> Hebdomadaire <br>
