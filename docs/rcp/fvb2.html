@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Planning des réunions</title>
+
+<style>
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    margin: 40px;
+    background: #f4f6f9;
+    color: #1f2937;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+.counter {
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #555;
+}
+
+.filters {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+input, select {
+    padding: 8px 10px;
+    font-size: 14px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background: #e5eaf1;
+    cursor: pointer;
+    user-select: none;
+}
+
+th.active {
+    background: #d0d8e5;
+}
+
+tr {
+    border-bottom: 1px solid #eef2f7;
+}
+
+tr:hover {
+    background: #f9fafb;
+}
+
+.badge {
+    display: inline-block;
+    padding: 4px 8px;
+    font-size: 12px;
+    background: #e0e7ff;
+    color: #3730a3;
+    border-radius: 12px;
+}
+
+.day-separator td {
+    background: #f1f5f9;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+button {
+    padding: 6px 10px;
+    font-size: 12px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+
+.visio-btn {
+    background: #e5e7eb;
+}
+
+.calendar-btn {
+    background: #2563eb;
+    color: white;
+}
+</style>
+</head>
+
+<body>
+
+<h1>Planning des réunions</h1>
+<div class="counter" id="counter"></div>
+
+<div class="filters">
+    <input type="text" id="searchInput" placeholder="Rechercher...">
+    <select id="regionFilter">
+        <option value="">Toutes les régions</option>
+        <option value="Bretagne">Bretagne</option>
+        <option value="Normandie">Normandie</option>
+    </select>
+</div>
+
+<table id="meetingTable">
+<thead>
+<tr>
+    <th id="sortRegion">Région ⬍</th>
+    <th>Hôpital</th>
+    <th>Réunion</th>
+    <th id="sortDate">Jour ⬍</th>
+    <th>Horaire</th>
+    <th>Lieu</th>
+    <th>Visio</th>
+    <th>Soumission Dossier</th>
+</tr>
+</thead>
+<tbody>
+
+<tr>
+<td><span class="badge">Bretagne</span></td>
+<td>CHU Rennes</td>
+<td>RCP Oncologie</td>
+<td>Jeudi</td>
+<td>14h00–16h00</td>
+<td>Salle 3</td>
+<td>
+    <button class="visio-btn" onclick="alert('Lien Zoom : https://zoom.us/xxxxx')">Visio</button>
+    <button class="calendar-btn" onclick="addToCalendar(this)">Ajouter</button>
+</td>
+<td>
+    <button onclick="togglesoumissiondossier(this)">Voir</button>
+    <div class="soumission-dossier">Infos</div>
+</td>
+</tr>
+
+<tr>
+<td><span class="badge">Bretagne</span></td>
+<td>CHU Rennes</td>
+<td>Staff Cardiologie</td>
+<td>Jeudi</td>
+<td>09h00–10h30</td>
+<td>Salle 2</td>
+<td>
+    <button class="visio-btn" onclick="alert('Teams : https://teams.microsoft.com/xxxxx')">Visio</button>
+    <button class="calendar-btn" onclick="addToCalendar(this)">Ajouter</button>
+</td>
+</tr>
+
+<tr>
+<td><span class="badge">Normandie</span></td>
+<td>Hôpital de Caen</td>
+<td>Réunion Chirurgie</td>
+<td>Dimanche</td>
+<td>17h00</td>
+<td>Salle B</td>
+<td>
+    <button class="visio-btn" onclick="alert('Webex : https://webex.com/xxxxx')">Visio</button>
+    <button class="calendar-btn" onclick="addToCalendar(this)">Ajouter</button>
+</td>
+</tr>
+
+</tbody>
+</table>
+
+<script>
+
+let regionAsc = true;
+let dayAsc = true;
+
+const tbody = document.querySelector("#meetingTable tbody");
+
+// Ordre naturel des jours
+const daysOrder = [
+    "Lundi",
+    "Mardi",
+    "Mercredi",
+    "Jeudi",
+    "Vendredi",
+    "Samedi",
+    "Dimanche"
+];
+
+function getRows() {
+    return Array.from(tbody.querySelectorAll("tr"))
+        .filter(row => !row.classList.contains("day-separator"));
+}
+
+function clearSeparators() {
+    document.querySelectorAll(".day-separator").forEach(el => el.remove());
+}
+
+function updateCounter() {
+    const visible = getRows().filter(row => row.style.display !== "none");
+    document.getElementById("counter").innerText =
+        visible.length + " réunion(s) affichée(s)";
+}
+
+function filterTable() {
+    const search = document.getElementById("searchInput").value.toLowerCase();
+    const region = document.getElementById("regionFilter").value;
+
+    getRows().forEach(row => {
+        const text = row.innerText.toLowerCase();
+        const rowRegion = row.cells[0].innerText;
+
+        const matchSearch = text.includes(search);
+        const matchRegion = !region || rowRegion.includes(region);
+
+        row.style.display = (matchSearch && matchRegion) ? "" : "none";
+    });
+
+    updateCounter();
+}
+
+function sortByRegion() {
+    clearSeparators();
+
+    const rows = getRows();
+
+    rows.sort((a, b) => {
+        const A = a.cells[0].innerText;
+        const B = b.cells[0].innerText;
+        return regionAsc ? A.localeCompare(B) : B.localeCompare(A);
+    });
+
+    rows.forEach(row => tbody.appendChild(row));
+    regionAsc = !regionAsc;
+}
+
+function sortByDay() {
+    clearSeparators();
+
+    const rows = getRows();
+
+    rows.sort((a, b) => {
+        const dayA = a.cells[3].innerText.trim();
+        const dayB = b.cells[3].innerText.trim();
+
+        const indexA = daysOrder.indexOf(dayA);
+        const indexB = daysOrder.indexOf(dayB);
+
+        return dayAsc ? indexA - indexB : indexB - indexA;
+    });
+
+    dayAsc = !dayAsc;
+
+    tbody.innerHTML = "";
+
+    let currentDay = "";
+
+    rows.forEach(row => {
+
+        const day = row.cells[3].innerText;
+
+        if (day !== currentDay) {
+
+            const sep = document.createElement("tr");
+            sep.className = "day-separator";
+
+            const cell = document.createElement("td");
+            cell.colSpan = 8; // nombre de colonnes
+            cell.textContent = day;
+
+            sep.appendChild(cell);
+            tbody.appendChild(sep);
+
+            currentDay = day;
+        }
+
+        tbody.appendChild(row);
+    });
+}
+
+document.getElementById("searchInput").addEventListener("input", filterTable);
+document.getElementById("regionFilter").addEventListener("change", filterTable);
+document.getElementById("sortRegion").addEventListener("click", sortByRegion);
+document.getElementById("sortDate").addEventListener("click", sortByDay);
+
+sortByDay();
+updateCounter();
+
+</script>
+
+
+</body>
+</html>
+
