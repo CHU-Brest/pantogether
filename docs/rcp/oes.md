@@ -208,8 +208,8 @@ Soumission de la fiche RCP sur la plateforme en ligne [PULSY](<https://www.pulsy
 RCP@chu-reims.fr <br>
 
 ### **Institut Strauss, Strasbourg**
-<li><strong>RCP Digestive </strong></li>   
-<br>  
+<li><strong>RCP Digestive </strong></li>
+<br>
 <strong>Horaire :</strong> Mardi à 17h00 <br>
 <strong>Fréquence :</strong> Hebdomadaire <br>
 <strong>Lieu :</strong> Institut Strauss<br>
@@ -217,8 +217,8 @@ Oncologie Médicale - Secrétariat RCP  <br>
 17, rue Albert Calmette, 67033 <strong>Strasbourg</strong>  <br>
 Et connexion à distance sur Teams <br>
 <br>
-<li><strong> RCP Digestive métastatique </strong></li>   
-<br>  
+<li><strong> RCP Digestive métastatique </strong></li>
+<br>
 <strong>Horaire :</strong> Jeudi à 11h30<br>
 <strong>Fréquence :</strong> Hebdomadaire <br>
 <strong>Lieu :</strong> Institut Strauss<br>
@@ -248,7 +248,8 @@ Salle de staff chirurgie digestive <br>
 184 rue du Faubourg Saint-Antoine, 75571 <strong>Paris</strong>  <br>
 <br>
 <li><strong> RCP tumeur neuro-endocrine </strong></li>   
-Réseau RENATEN <br>  
+Réseau RENATEN <br>
+<br>
 <strong>Horaire :</strong> Jeudi à 17h <br>
 <strong>Fréquence :</strong> Mensuel (1er jeudi du mois) <br>
 <strong>Lieu :</strong> Hôpital Saint-Antoine<br>
