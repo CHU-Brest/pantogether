@@ -116,9 +116,19 @@ button {
     <input type="text" id="searchInput" placeholder="Rechercher...">
     <select id="regionFilter">
         <option value="">Toutes les régions</option>
+        <option value="Auvergne-Rhône-Alpes">Auvergne-Rhône-Alpes</option>
+        <option value="Bourgogne-Franche-Comté">Bourgogne-Franche-Comté</option>
         <option value="Bretagne">Bretagne</option>
-        <option value="Normandie">Bourgogne-Franche-Comté</option>
+        <option value="Centre-Val-de-Loire">Centre-Val-de-Loire</option>
+        <option value="Guadeloupe">Guadeloupe</option>
+        <option value="Grand-Est">Grand-Est</option>
+        <option value="Hauts-de-France">Hauts-de-France</option>
+        <option value="Ile-de-France">Ile-de-France</option>
         <option value="Normandie">Normandie</option>
+        <option value="Nouvelle-Aquitaine">Nouvelle-Aquitaine</option>
+        <option value="Occitanie">Occitanie</option>
+        <option value="Pays de la Loire">Pays de la Loire</option>
+        <option value="Provence-Alpes-Côte-d'Azur">Provence-Alpes-Côte-d'Azur</option>
     </select>
 </div>
 
@@ -130,6 +140,7 @@ button {
     <th>Réunion</th>
     <th id="sortDate">Jour ⬍</th>
     <th>Horaire</th>
+    <th>Fréquence</th>
     <th>Lieu</th>
     <th>Visio</th>
     <th>Soumission Dossier</th>
@@ -139,18 +150,23 @@ button {
 
 <tr>
 <td><span class="badge">Bretagne</span></td>
-<td>CHU Rennes</td>
-<td>RCP Oncologie</td>
-<td>Jeudi</td>
-<td>14h00–16h00</td>
-<td>Salle 3</td>
-<td>
-    <button class="visio-btn" onclick="alert('Lien Zoom : https://zoom.us/xxxxx')">Visio</button>
-    <button class="calendar-btn" onclick="addToCalendar(this)">Ajouter</button>
-</td>
+<td>CHU Clermont-Ferrand</td>
+<td>RCP Tumeurs du foie</td>
+<td>Vendredi</td>
+<td>14h30–17h00</td>
+<td>Hebdomadaire</td>
+<td>Site Estaing, Service de radiologie, 1 place Lucie Aubrac 63001 Clermont-Ferrand</td>
+<td></td>
 <td>
     <button onclick="togglesoumissiondossier(this)">Voir</button>
-    <div class="soumission-dossier">Infos</div>
+    <div class="soumission-dossier">Fiche type de l’AFEF à soumettre à l’AMA par e-mail avant présentation
+    <strong>AMA en charge de la RCP :</strong> <br>
+ROCHA Stéphanie <br>
+srocha@chu-clermontferrand.fr<br>
+Tel : 04 73 75 05 23<br>
+<br>
+
+    </div>
 </td>
 </tr>
 
