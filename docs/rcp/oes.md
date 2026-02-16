@@ -2,7 +2,7 @@
 title: Œsophage, Jonction Oesogastrique, Estomac
 
 ---
-Planning des Réunions Pluridisciplinaires en Région
+Planning des Réunions de Concertation Pluridisciplinaires en Région
 ## <span style="color:blue">**Auvergne-Rhône-Alpes**</span>
 ### **CHU Clermont-Ferrand**   
 <ul>
