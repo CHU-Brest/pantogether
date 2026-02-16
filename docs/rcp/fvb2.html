@@ -172,6 +172,7 @@ button {
     </details>
 </td>
 </tr>
+    
 <tr>
 <td><span class="badge">Auvergne-Rhône-Alpes</span></td>
     <td>CHU Grenoble-Alpes</td>
@@ -198,7 +199,7 @@ button {
 
 <tr>
 <td><span class="badge">Auvergne-Rhône-Alpes</span></td>
-    <td>Hôpital Croix-Rousse, HCL</td>
+<td>Hôpital Croix-Rousse, HCL</td>
 <td>RCP CHC - et autres tumeurs primitives du foie</td>
 <td>ONCO-AURA</td>
 <td>Mardi</td>
@@ -219,9 +220,9 @@ button {
             <a href="mailto:marie.querin@chu-lyon.fr">marie.querin@chu-lyon.fr</a><br>
             Tel : 04 72 07 29 17 <br>
             <li>Secrétaire du Pr Merle : </li>
-LESNIOHSKI Eve<br>
-<a href="mailto:eve.lesniohski@chu-lyon.fr">eve.lesniohski@chu-lyon.fr</a><br> 
-Tel : 04 26 10 93 56<br>
+            LESNIOHSKI Eve<br>
+            <a href="mailto:eve.lesniohski@chu-lyon.fr">eve.lesniohski@chu-lyon.fr</a><br> 
+            Tel : 04 26 10 93 56<br>
         </ul>
     </details>
 </td>    
@@ -229,7 +230,7 @@ Tel : 04 26 10 93 56<br>
 
 <tr>
 <td><span class="badge">Auvergne-Rhône-Alpes</span></td>
-    <td>Hôpital Croix-Rousse, HCL</td>
+<td>Hôpital Croix-Rousse, HCL</td>
 <td>RCP Hépato-Gastroentérologie</td>
 <td>ONCO-AURA</td>
 <td>Jeudi</td>
@@ -250,9 +251,9 @@ Tel : 04 26 10 93 56<br>
             <a href="mailto:marie.querin@chu-lyon.fr">marie.querin@chu-lyon.fr</a><br>
             Tel : 04 72 07 29 17 <br>
             <li>Secrétaire du Pr Merle : </li>
-LESNIOHSKI Eve<br>
-<a href="mailto:eve.lesniohski@chu-lyon.fr">eve.lesniohski@chu-lyon.fr</a><br> 
-Tel : 04 26 10 93 56<br>
+            LESNIOHSKI Eve<br>
+            <a href="mailto:eve.lesniohski@chu-lyon.fr">eve.lesniohski@chu-lyon.fr</a><br> 
+            Tel : 04 26 10 93 56<br>
         </ul>
     </details>
 </td>    
@@ -261,8 +262,8 @@ Tel : 04 26 10 93 56<br>
 <tr>
 <td><span class="badge">Bretagne</span></td>
 <td>CHU Rennes</td>
-<td></td>
 <td>Staff Cardiologie</td>
+<td></td>
 <td>Jeudi</td>
 <td>09h00–10h30</td>
 <td>Salle 2</td>
@@ -360,8 +361,8 @@ function sortByDay() {
     const rows = getRows();
 
     rows.sort((a, b) => {
-        const dayA = a.cells[3].innerText.trim();
-        const dayB = b.cells[3].innerText.trim();
+        const dayA = a.cells[4].innerText.trim();
+        const dayB = b.cells[4].innerText.trim();
 
         const indexA = daysOrder.indexOf(dayA);
         const indexB = daysOrder.indexOf(dayB);
@@ -377,7 +378,7 @@ function sortByDay() {
 
     rows.forEach(row => {
 
-        const day = row.cells[3].innerText;
+        const day = row.cells[4].innerText;
 
         if (day !== currentDay) {
 
