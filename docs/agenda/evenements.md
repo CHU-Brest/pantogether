@@ -14,4 +14,9 @@ Le [Programme](<https://www.oncobretagne.fr/wp-content/uploads/2025/10/programme
 
 Site internet de l'évènement : [JFHOD](<https://www.jfhod.com/>)    
 
-Le [Programme](<https://www.jfhod.com/sites/www.jfhod.com/files/2025-07/JFHOD2026_Programme%20pre%CC%81liminaire.pdf>) 
+Le [Programme](<https://www.jfhod.com/sites/www.jfhod.com/files/2025-07/JFHOD2026_Programme%20pre%CC%81liminaire.pdf>)   
+
+   
+* **22 Mai 2026** à **Rennes** : Journées scientifiques Hépato-bilio-pancréatique     
+
+Le [pré-Programme](<https://www.oncobretagne.fr/wp-content/uploads/2026/01/pre-programme-hepato2026.pdf>) 
