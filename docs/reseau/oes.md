@@ -1299,6 +1299,92 @@ Fax : 05 49 44 44 45 <br>
 </details>
 
 ## <span style="color:blue">**Occitanie**</span>  
+### **ICM, Montpellier**
+**Dr SAMALIN Emmanuelle**     
+208 rue des apothicaires, 34298 **Montpellier** <br>
+Emmanuelle.Samalin@icm.unicancer.fr  <br>    
+Tel : 04 67 61 25 92 <br>
+<br>    
+   **Secrétariat :**  <br>
+LASSALLE Nathalie  <br>
+Sec.Oncomed3@icm.unicancer.fr <br>
+Tel : 04 67 61 31 36 <br>
+Fax : 04 67 61 30 62 <br>
+<br>
+<details>
+    <summary>Ressources de soin</summary> <br>
+<B>Plateaux techniques</B> <br>    
+<ul>
+<li><b>Diagnostic :</b></li>  
+&#x2705 Médecine nucléaire <br>    
+&#x2705 Endoscopie interventionnelle <br>
+&#x2718 Plateforme de biologie moléculaire* <br>
+&#x2705 Plateforme d'anatomopathologie <br> 
+&#x2705 Plateforme d'imagerie <br>  
+&#x2705 Oncogénétique <br>  
+&#x2718 Centre de diagnostic rapide <br>   
+<br>
+<li><b>Traitement</b></li>
+&#x2705 Radiothérapie externe <br>   
+&#x2718 Radio-embolisation <br>   
+&#x2718 Radiologie interventionnelle* <br>  
+&#x2705 Chirurgie viscérale   <br>
+&#x2705 Chirurgie digestive de recours <br>  
+&#x2718 Chirurgie thoracique <br>  
+&#x2718 Plateau de réanimation* <br> 
+&#x2705 Soins continus et soins critiques
+ <br>
+<li><b>Recherche :</b></li>
+&#x2705 Unité de recherche clinique dédiée <br> 
+&#x2718 Centre d'Investigation Clinique multithématique <br>
+&#x2705 Accès aux études de phase I <br>
+<br>   
+* Convention avec le CHU de Montpellier pour la réanimation, la radiologie interventionnelle et la biologie moléculaire
+<br>   
+</ul>
+<br>   
+<B>Soins de support</B> <br>
+<ul>
+<li><b>Soins « socle » :</b></li>
+&#x2705 Gestion de la douleur <br>
+&#x2705 Diététique et nutrition <br>
+&#x2705 Soutien psychologique du patient <br>
+&#x2705 Accompagnement social, familial et professionnel <br>
+<br>
+<li><b>Soins de support complémentaires : </b></li>
+&#x2705 Rééducation et activités physiques adaptées <br>
+&#x2718 Préservation de la fertilité <br>
+&#x2705 Gestion des troubles de la sexualité <br>
+&#x2705 Conseils d’hygiène de vie <br>
+&#x2705 Soutien psychologique des proches et des aidants <br>
+<br>
+<li><b>Autres soins de support et services : </b></li>
+&#x2718 Parcours de réadaptation respiratoire <br>
+&#x2705 Onco-gériatrie <br>
+&#x2705 Unité mobile de soins palliatifs <br>
+&#x2705 Unité de soins palliatifs dédiée <br>
+&#x2705 Hôpital de jour de soins de support <br>
+&#x2705 Espace de réflexion éthique <br>
+&#x2718 Approches non conventionnelles (hypnose, acupuncture, sophrologie, …) <br>
+&#x2705 Gestion de la fatigue <br>
+&#x2705 Ateliers d’art thérapie <br>
+&#x2705 Soins esthétiques et corporels <br>
+<br>
+</ul>
+</details>   
+
+<details>
+    <summary>Ressources humaines</summary>
+<br>
+<ul>  
+<li> <B>Attaché(e) de Recherche Clinique :</B> </li>
+GESTIN BOYER Christine<br>
+Christine.Gestin-Boyer@icm.unicancer.fr <br>
+Tel : 04 67 61 25 15 ou 04 67 61 25 08 <br>
+</ul>
+</details>
+
+
 ### **IUCT Rangueil-Larrey et Oncopôle, CHU Toulouse** <br>
 **Pr GUIMBAUD Rosine**     
 Service d'Oncologie Médicale Digestive, Pôle digestif <br>
