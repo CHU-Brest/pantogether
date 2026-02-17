@@ -12,11 +12,8 @@ nav:
     - patients/webconferences.md
     - patients/lexique.md
     - patients/evenements.md
-  - Carte interactive :
+  - Carte interactive des centres experts :
     - cartes.html
-  - Les centres experts:
-    - reseau/oes.md
-    - reseau/fvb.md
   - Recherche:
     - recherche/essaiscliniques.html
     - recherche/registre.md
