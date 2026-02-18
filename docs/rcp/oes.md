@@ -363,7 +363,26 @@ Et connexion en distancielle<br>
 GAULTIER Karine <br>
 Tel : 05 49 44 46 08 <br>  
 <br>  
+
 ## <span style="color:blue">**Occitanie**</span>
+### **ICM, Montpellier**
+**RCP Digestive** <br>
+Réseau Onco-Occitanie<br>
+<br>
+**Horaire :** Jeudi à 15h <br>
+**Fréquence :** Hebdomadaire <br>
+**Lieu :** ICM Montpellier <br>
+Salle du citronnier <br>
+208 rue des apothicaires, 34298 **Montpellier** <br>
+Et connexion en distancielle par Teams<br>
+<br>
+**AMA en charge de la RCP** : <br>
+Magali.Goguey-Muethon@icm.unicancer.fr <br>
+Tel : 04 67 61 30 90 <br>  
+<br>  
+**Modalités de soumission d’un dossier** : <br>
+Fiche pré-remplie à soumettre à l’AMA <br>
+<br>
 ### **IUCT Rangueil-Larrey et Oncôpole, CHU Toulouse**   
 <ul>
 <li><strong> RCP Digestif (dont recours oeso-gastrique - ano-rectal - péritoine)</strong></li>   
