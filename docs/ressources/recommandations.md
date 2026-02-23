@@ -65,6 +65,11 @@ Neuzillet C., Joly F., Anota A., Foucaut A.M., Védie A.L., Antoun S., Barnoud D
 - **Chapitre 20 : [Autres thématiques (liens autres référentiels) : soins oncologiques de support, réhabilitation améliorée après chir, bio moléculaire, vaccination et cancers, évaluation MMR, indications tests moléculaires CCR, accès dérogatoires, Préservation fertilité](https://www.snfge.org/sites/www.snfge.org/files/tncd/2025-06/tncd_chap-20-autres-the%CC%81matiques_2025-06-27_0.pdf)** (version 27/06/2025)
 
 
+- **Chapitre 26 : [Bilan pré-thérapeutique et surveillance des immunothérapies en oncologie digestive](https://www.snfge.org/sites/www.snfge.org/files/tncd/2026-02/tncd_chap-26_bilan%20et%20surveillance%20des%20immunothe%CC%81rapies_2025-11-24.pdf)** (version 24/11/2025)
+    
+Jary M, Coutzac C, Bonnet D, Abeillon J, Assaad S, Avrillon V, Baudet M, Belliere J, Franck Carbonnel F, Carlier C, Colle R, Collongues N, Didier K, Dreno B, Korakis I, Lambotte O, Laparra A, Meunier L, Rabeau A, Rivet V,Tresorier R, Aparicio T, Bouché O.  « Bilan pré-thérapeutique et surveillance des immunothérapies en oncologie digestive ». Thésaurus National de Cancérologie Digestive, novembre 2025, en ligne [http://www.tncd.org].
+
+
          
 ## <span style="color:blue">**Ressources de l'Association Française pour l'Etude du Foie (AFEF)**</span>   
 
