@@ -434,6 +434,44 @@ Fax : 05 61 32 21 93 <br>
 <strong>Modalités de soumission d’un dossier :</strong> <br>
 Dossier à soumettre sur le DCC [Onco-occitanie](https://onco-occitanie.fr/le-parcours-de-soin/le-dossier-communicant-de-cancerologie-dcc/)  <br>
 
+## <span style="color:blue">**Pays de la Loire**</span>
+### **ICO Angers**
+<ul>
+<li><strong>RCP digestif</strong></li>   
+Réseau ONCOPL<br> 
+<br>  
+<strong>Horaire :</strong> Mardi à 17h30 <br>
+<strong>Fréquence :</strong> Hebdomadaire <br>
+<strong>Lieu :</strong> ICO Angers<br>
+Salle 2 <br>
+15 Rue Boquel, 49055 <strong>Angers</strong>  <br>
+<br>
+<li><strong> RCP péritoine </strong></li>   
+Réseau ONCOPL<br> 
+<br>  
+<strong>Horaire :</strong> Vendredi à 12h <br>
+<strong>Fréquence :</strong> Hebdomadaire <br>
+<strong>Lieu :</strong> ICO Angers<br>
+Salle 2 <br>
+15 Rue Boquel, 49055 <strong>Angers</strong>  <br>
+Et connexion en visioconférence <br>
+<br>
+<li><strong> RCP moléculaire </strong></li>   
+Réseau ONCOPL<br> 
+<br>  
+<strong>Horaire :</strong> Vendredi à 8h30 <br>
+<strong>Fréquence :</strong> Bi-mensuel <br>
+<strong>Lieu :</strong> En visioconférence<br>
+</ul>
+<strong>AMA en charge de la RCP :</strong>  <br>
+BOISDRON Amélie <br>
+amelie.boisdron@ico.unicancer.fr <br>
+Tel : 02 41 35 29 09 <br>
+<br>
+<strong>Modalités de soumission d’un dossier :</strong> <br>
+Dossier à compléter sur le DCC [ONCOPL](https://portail.mediware.fr/Apps/WebObjects/OncoPL.woa) <br>
+
+
 ## <span style="color:blue">**Provence-Alpes-Côte d'Azur**</span>
 ### **Centre Antoine Lacassagne, Nice**
 **RCP Digestive** <br>
