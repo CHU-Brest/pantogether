@@ -1470,6 +1470,93 @@ Tel : 05 61 32 20 42<br>
 </ul>
 </details>
 
+## <span style="color:blue">**Pays de la Loire**</span>  
+### **Institut de Cancérologie de l'Ouest, Angers** <br>
+**Dr SIMMET Victor**     
+15 Rue Boquel, 49055 **Angers** <br>
+Victor.Simmet@ico.unicancer.fr  <br>    
+
+<br>    
+   **Secrétariat :**  <br>
+BOISDRON Amélie   <br>
+secr.dr.simmet.angers@ico.unicancer.fr <br>
+Tel : 02 41 35 29 09 <br>
+Fax : 02 41 35 29 60 <br>
+<br>
+<details>
+    <summary>Ressources de soin</summary> <br>
+<B>Plateaux techniques</B> <br>    
+<ul>
+<li><b>Diagnostic :</b></li>  
+&#x2705 Médecine nucléaire <br>    
+&#x2718 Endoscopie interventionnelle <br>
+&#x2705 Plateforme de biologie moléculaire <br>
+&#x2705 Plateforme d'anatomopathologie <br> 
+&#x2705 Plateforme d'imagerie <br>  
+&#x2705 Oncogénétique <br>  
+&#x2718 Centre de diagnostic rapide <br>   
+<br>
+<li><b>Traitement</b></li>
+&#x2705 Radiothérapie externe <br>   
+&#x2718 Radio-embolisation <br>   
+&#x2718 Radiologie interventionnelle* <br>  
+&#x2705 Chirurgie viscérale   <br>
+&#x2705 Chirurgie digestive de recours <br>  
+&#x2718 Chirurgie thoracique <br>  
+&#x2718 Plateau de réanimation <br> 
+ <br>
+<li><b>Recherche :</b></li>
+&#x2705 Unité de recherche clinique dédiée <br> 
+&#x2718 Centre d'Investigation Clinique multithématique <br>
+&#x2705 Accès aux études de phase I <br>
+&#x2705 Unité de soins continue <br>
+<br>   
+* Convention avec le CHU d’Angers pour la radiologie interventionnelle
+<br>   
+</ul>
+<br>   
+<B>Soins de support</B> <br>
+<ul>
+<li><b>Soins « socle » :</b></li>
+&#x2705 Gestion de la douleur <br>
+&#x2705 Diététique et nutrition <br>
+&#x2705 Soutien psychologique du patient <br>
+&#x2705 Accompagnement social, familial et professionnel <br>
+<br>
+<li><b>Soins de support complémentaires : </b></li>
+&#x2705 Rééducation et activités physiques adaptées <br>
+&#x2705 Préservation de la fertilité <br>
+&#x2705 Gestion des troubles de la sexualité <br>
+&#x2705 Conseils d’hygiène de vie <br>
+&#x2705 Soutien psychologique des proches et des aidants <br>
+<br>
+<li><b>Autres soins de support et services : </b></li>
+&#x2705 Parcours de réadaptation respiratoire <br>
+&#x2705 Onco-gériatrie <br>
+&#x2705 Unité mobile de soins palliatifs <br>
+&#x2705 Unité de soins palliatifs dédiée <br>
+&#x2705 Hôpital de jour de soins de support <br>
+&#x2705 Espace de réflexion éthique <br>
+&#x2705 Approches non conventionnelles (hypnose, acupuncture, sophrologie, …) <br>
+&#x2718 Gestion de la fatigue <br>
+&#x2705 Ateliers d’art thérapie <br>
+&#x2705 Soins esthétiques et corporels <br>
+<br>
+</ul>
+</details>   
+
+<details>
+    <summary>Ressources humaines</summary>
+<br>
+<ul>  
+<li> <B>Attaché(e) de Recherche Clinique :</B> </li>
+RIGAUD Kevin<br>
+kevin.rigaud@ico.unicancer.fr <br>
+MOREIRA Christine <br>
+christine.moreira@ico.unicancer.fr <br>
+</ul>
+</details>
+
 ## <span style="color:blue">**Provence-Alpes-Côte d'Azur**</span>  
 ### **Centre Antoine Lacassagne, Nice** <br>
 **Dr EVESQUE Ludovic**     
