@@ -79,7 +79,7 @@ Tel : 04 37 53 87 33<br>
 Dossier à compléter sur [SISRA](https://www.sante-ara.fr/services/monsisra/) <br>
 
 ### **Centre Hospitalier Lyon sud**
-**RCP Cancérologie Digestive et de Recours ** <br>
+**RCP Cancérologie Digestive et de Recours** <br>
 Réseau Onco AuRA <br>
 <br>
 **Horaire :** Mercredi de 17h à 19h30 <br>
