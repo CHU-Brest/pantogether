@@ -78,6 +78,28 @@ Tel : 04 37 53 87 33<br>
 <strong>Modalités de soumission d’un dossier :</strong> <br>
 Dossier à compléter sur [SISRA](https://www.sante-ara.fr/services/monsisra/) <br>
 
+### **Centre Hospitalier Lyon sud**
+**RCP Cancérologie Digestive et de Recours ** <br>
+Réseau Onco AuRA <br>
+<br>
+**Horaire :** Mercredi de 17h à 19h30 <br>
+**Fréquence :** Hebdomadaire <br>
+**Lieu :** Radiologie du Centre Hospitalier Lyon Sud (Bât 3B -1 salle de cours ) <br>
+165 Chemin du Grand Revoyet, 69310 **Pierre Bénite** <br>
+Et connexion en distancielle par Teams<br>
+<br>
+**Modalités de soumission d’un dossier** : <br>
+- Soit création d’une fiche RCP cancer sur Easily avec une IPP provisoire (si aucune venue aux HCL) effectuée par le secrétariat du 3C du site concerné ou du service de spécialité concerné <br>
+<br>
+- Soit création d’un fiche RCP disponible sur le DPI du [DSRC Onco AuRA](https://www.sante-ra.fr/RCP/GestionRCP/choixPathoChronique.aspx?refUrl=http%3a%2f%2fwww.sante-ra.fr%2frcp%2fAccueil.aspx)
+<br>
+**AMA en charge de la RCP** : <br>
+RINGOT Audrey <br>
+audrey.ringot@chu-lyon.fr <br>  
+audrey.ringot@univ-lyon1.fr <br>  
+<br>  
+
+
 ### **CRLCC Léon Bérard, Lyon**
 **RCP d’oncologie digestive (CLB)** <br>
 <br>
