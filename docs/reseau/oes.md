@@ -154,7 +154,7 @@ Fax : 04 78 86 33 43 <br>
 &#x2705 Hôpital de jour de soins de support <br>
 &#x2705 Espace de réflexion éthique <br>
 &#x2705 Approches non conventionnelles (hypnose, acupuncture, sophrologie, …) <br>
-&#x2705 Gestion de la fatigue <br>
+&#x2718 Gestion de la fatigue <br>
 &#x2705 Ateliers d’art thérapie <br>
 &#x2705 Soins esthétiques et corporels <br>
 <br>
