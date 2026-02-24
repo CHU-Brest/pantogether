@@ -95,10 +95,9 @@ Et connexion en distancielle par Teams<br>
 <br>
 **AMA en charge de la RCP** : <br>
 RINGOT Audrey <br>
-audrey.ringot@chu-lyon.fr <br>  
-audrey.ringot@univ-lyon1.fr <br>  
+audrey.ringot@chu-lyon.fr <br>
+audrey.ringot@univ-lyon1.fr <br>
 <br>  
-
 
 ### **CRLCC Léon Bérard, Lyon**
 **RCP d’oncologie digestive (CLB)** <br>
