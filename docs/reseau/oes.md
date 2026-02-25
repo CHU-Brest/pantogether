@@ -1892,11 +1892,6 @@ Fax : 02 62 75 24 55 <br>
     <summary>Ressources humaines</summary>
 <br>
 <ul>  
-<li> <B>Infirmier(e) de Coordination :</B> </li>
-LAFORTUNE Isabelle <br>
-Isabelle.lafortune@chu-lyon.fr <br>
-Tel : 04 78 86 48 11 <br>
-<br>
 <li> <B>Infirmier(e) en Pratiques Avancées :</B> </li>
 PEYRONNET Sophie<br>
 sophie.peyronnet@chu-lyon.fr <br>
@@ -1904,9 +1899,9 @@ Tel : 04 78 86 14 02 <br>
 Fax : 04 78 86 33 43 <br>
 <br>
 <li> <B>Attaché(e) de Recherche Clinique :</B> </li>
-POTTIER Adeline<br>
-adeline.pottier@chu-lyon.fr <br>
-Tel : 04 78 86 45 34 <br>
-Fax : 04 78 86 33 43 <br>
+MENAND Audrey <br>
+ESTHER Asmina
+ipa.onco.hemato.sud@chu-reunion.fr <br>
+Tel : 02 62 71 76 48<br>
 </ul>
 </details>
