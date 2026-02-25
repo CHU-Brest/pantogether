@@ -509,3 +509,21 @@ manon.bonfils@nice.unicancer.fr
 Tel : 04 92 03 13 52<br>
 Fax : 04 92 03 10 46 <br> 
 <br>  
+
+## <span style="color:blue">**La Réunion**</span>
+### **CHU Sud Réunion, Saint-Pierre**
+**RCP Onco-Digestive** <br>
+<br>
+**Horaire :** Mercredi à 13h30 (heure locale) <br>
+(métropole : 10h30 heure d’hiver, 11h30 heure d’été) <br>
+**Fréquence :** Hebdomadaire <br>
+**Lieu :** Salle Rouanet <br>
+Avenue François Mitterrand, 97448 **Saint-Pierre** <br>
+Et connexion en distancielle par Teams (lien de connexion adressé par le secrétariat de la RCP)<br>
+<br>
+**AMA en charge de la RCP** : <br>
+rcp.3csud@chu-reunion.fr <br>
+Tel : 02 62 35 91 04<br>  
+<br>  
+**Modalités de soumission d’un dossier** : <br>
+Fiche envoyée ou à récupérer auprès du secrétariat de la RCP: rcp.3csud@chu-reunion.fr <br>
