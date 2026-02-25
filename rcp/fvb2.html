@@ -1,0 +1,502 @@
+---
+title: Foie et voies biliaires
+
+---
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Planning des réunions</title>
+
+<style>
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    margin: 40px;
+    background: #f4f6f9;
+    color: #1f2937;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+.counter {
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #555;
+}
+
+.filters {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+input, select {
+    padding: 8px 10px;
+    font-size: 14px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background: #e5eaf1;
+    cursor: pointer;
+    user-select: none;
+}
+
+th.active {
+    background: #d0d8e5;
+}
+
+tr {
+    border-bottom: 1px solid #eef2f7;
+}
+
+tr:hover {
+    background: #f9fafb;
+}
+
+.badge {
+    display: inline-block;
+    padding: 4px 8px;
+    font-size: 12px;
+    background: #e0e7ff;
+    color: #3730a3;
+    border-radius: 12px;
+}
+
+.day-separator td {
+    background: #f1f5f9;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+button {
+    padding: 6px 10px;
+    font-size: 12px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+
+.visio-btn {
+    background: #e5e7eb;
+}
+
+.calendar-btn {
+    background: #2563eb;
+    color: white;
+}
+</style>
+</head>
+
+<body>
+
+<h1>Planning des réunions</h1>
+<div class="counter" id="counter"></div>
+
+<div class="filters">
+    <input type="text" id="searchInput" placeholder="Rechercher...">
+    <select id="regionFilter">
+        <option value="">Toutes les régions</option>
+        <option value="Auvergne-Rhône-Alpes">Auvergne-Rhône-Alpes</option>
+        <option value="Bourgogne-Franche-Comté">Bourgogne-Franche-Comté</option>
+        <option value="Bretagne">Bretagne</option>
+        <option value="Centre-Val-de-Loire">Centre-Val-de-Loire</option>
+        <option value="Guadeloupe">Guadeloupe</option>
+        <option value="Grand-Est">Grand-Est</option>
+        <option value="Hauts-de-France">Hauts-de-France</option>
+        <option value="Ile-de-France">Ile-de-France</option>
+        <option value="Normandie">Normandie</option>
+        <option value="Nouvelle-Aquitaine">Nouvelle-Aquitaine</option>
+        <option value="Occitanie">Occitanie</option>
+        <option value="Pays de la Loire">Pays de la Loire</option>
+        <option value="Provence-Alpes-Côte-d'Azur">Provence-Alpes-Côte-d'Azur</option>
+    </select>
+</div>
+
+<table id="meetingTable">
+<thead>
+<tr>
+    <th id="sortRegion">Région ⬍</th>
+    <th>Centre</th>
+    <th>Réunion</th>
+    <th>Réseau</th>
+    <th id="sortDate">Jour ⬍</th>
+    <th>Horaire</th>
+    <th>Fréquence</th>
+    <th>Lieu</th>
+    <th>Visioconférence</th>
+    <th>Soumission Dossier</th>
+</tr>
+</thead>
+<tbody>
+
+<tr>
+<td><span class="badge">Auvergne-Rhône-Alpes</span></td>
+<td>CHU Clermont-Ferrand</td>
+<td>RCP Tumeurs du foie</td>
+<td></td>
+<td>Vendredi</td>
+<td>14h30–17h00</td>
+<td>Hebdomadaire</td>
+<td>Site Estaing, Service de radiologie</td>
+<td></td>
+<td>
+    <details>
+        <summary><strong>Modalités de soumission d'un dossier</strong></summary>
+        Fiche type de l’AFEF à soumettre à l’AMA par e-mail avant présentation <br>
+         </details>
+    <details>
+        <summary><strong>AMA en charge de la RCP</strong></summary>
+        ROCHA Stéphanie <br>
+        <a href="mailto:srocha@chu-clermontferrand.fr">srocha@chu-clermontferrand.fr</a><br>
+        Tel : 04 73 75 05 23<br>
+    </details>
+</td>
+</tr>
+    
+<tr>
+<td><span class="badge">Auvergne-Rhône-Alpes</span></td>
+    <td>CHU Grenoble-Alpes</td>
+<td>RCP des tumeurs primitives hépatiques</td>
+<td></td>
+<td>Mardi</td>
+<td>16h00</td>
+<td>Hebdomadaire</td>
+<td>Hôpital Michallon, Service d'Hépato-gastroentérologie et d'oncologie digestive </td>
+<td></td>
+<td>
+    <details>
+        <summary><strong>Modalités de soumission d'un dossier</strong></summary>
+        Fiche pré-remplie à soumettre à l’AMA avant présentation <br>
+         </details>
+    <details>
+        <summary><strong>AMA en charge de la RCP</strong></summary>
+        WOITELLIER Béatrice <br>
+        <a href="mailto:Cancerologie3C@chu-grenoble.fr">Cancerologie3C@chu-grenoble.fr</a><br>
+        Tel : 04 76 76 54 36<br>
+    </details>
+</td>    
+</tr>
+
+<tr>
+<td><span class="badge">Auvergne-Rhône-Alpes</span></td>
+<td>Hôpital Croix-Rousse, HCL</td>
+<td>RCP CHC - et autres tumeurs primitives du foie</td>
+<td>ONCO-AURA</td>
+<td>Mardi</td>
+<td>17h00 à 20h00</td>
+<td>Hebdomadaire</td>
+<td>Salle de réunion de chirurgie, 4ème étage bâtiment R</td>
+<td></td>
+<td>
+    <details>
+        <summary><strong>Modalités de soumission d'un dossier</strong></summary>
+        Contacter le secrétariat des 3C ou du Pr Merle <br>
+         </details>
+    <details>
+        <summary><strong>Gestions des RCP</strong></summary>
+        <ul>
+            <li>Secrétaire des 3C : </li>
+            QUERIN Marie<br>
+            <a href="mailto:marie.querin@chu-lyon.fr">marie.querin@chu-lyon.fr</a><br>
+            Tel : 04 72 07 29 17 <br>
+            <li>Secrétaire du Pr Merle : </li>
+            LESNIOHSKI Eve<br>
+            <a href="mailto:eve.lesniohski@chu-lyon.fr">eve.lesniohski@chu-lyon.fr</a><br> 
+            Tel : 04 26 10 93 56<br>
+        </ul>
+    </details>
+</td>    
+</tr>
+
+<tr>
+<td><span class="badge">Auvergne-Rhône-Alpes</span></td>
+<td>Hôpital Croix-Rousse, HCL</td>
+<td>RCP Hépato-Gastroentérologie</td>
+<td>ONCO-AURA</td>
+<td>Jeudi</td>
+<td>16h00 à 18h00</td>
+<td>Hebdomadaire</td>
+<td>Salle de réunion de chirurgie, 4ème étage bâtiment R </td>
+<td></td>
+<td>
+    <details>
+        <summary><strong>Modalités de soumission d'un dossier</strong></summary>
+        Contacter le secrétariat des 3C ou du Pr Merle <br>
+         </details>
+    <details>
+        <summary><strong>Gestions des RCP</strong></summary>
+        <ul>
+            <li>Secrétaire des 3C : </li>
+            QUERIN Marie<br>
+            <a href="mailto:marie.querin@chu-lyon.fr">marie.querin@chu-lyon.fr</a><br>
+            Tel : 04 72 07 29 17 <br>
+            <li>Secrétaire du Pr Merle : </li>
+            LESNIOHSKI Eve<br>
+            <a href="mailto:eve.lesniohski@chu-lyon.fr">eve.lesniohski@chu-lyon.fr</a><br> 
+            Tel : 04 26 10 93 56<br>
+        </ul>
+    </details>
+</td>    
+</tr>
+<tr>
+<td><span class="badge">Bourgogne-Franche-Comté</span></td>
+<td>Hôpital François Mitterrand, CHU Dijon</td>
+<td>RCP des tumeurs hépatiques</td>
+<td>Réseau Régional de Cancérologie de Bourgogne-Franche-Comté</td>
+<td>Lundi</td>
+<td>17h00</td>
+<td>Hebdomadaire</td>
+<td>Service de Radiologie</td>
+<td></td>
+<td>
+    <details>
+        <summary><strong>Modalités de soumission d'un dossier</strong></summary>
+        Fiche à déposer sur le dossier communicant de cancérologie (DCC) du patient <a href="https://www.bfc-sante.fr/bureau-virtuel/accueil/authentification-7-5.html">Onco BFC</a> <br>
+         </details>
+    <details>
+        <summary><strong>Gestion de la RCP par le 3C du CHU </strong></summary>
+        <a href="mailto:3C@chu-dijon.fr">3C@chu-dijon.fr</a><br>
+        Tel : 03 80 29 56 27<br>
+    </details>
+</td>
+</tr>
+<tr>
+<td><span class="badge">Bourgogne-Franche-Comté</span></td>
+<td>Hôpital François Mitterrand, CHU Dijon</td>
+<td>RCP de cancérologie digestive</td>
+<td>Réseau Régional de Cancérologie de Bourgogne-Franche-Comté</td>
+<td>Mercredi</td>
+<td>16h30</td>
+<td>Hebdomadaire</td>
+<td>Service de Radiologie </td>
+<td></td>
+<td>
+    <details>
+        <summary><strong>Modalités de soumission d'un dossier</strong></summary>
+        Fiche à déposer sur le dossier communicant de cancérologie (DCC) du patient <a href="https://www.bfc-sante.fr/bureau-virtuel/accueil/authentification-7-5.html">Onco BFC</a> <br>
+         </details>
+    <details>
+        <summary><strong>Gestion de la RCP par le 3C du CHU </strong></summary>
+        <a href="mailto:3C@chu-dijon.fr">3C@chu-dijon.fr</a><br>
+        Tel : 03 80 29 56 27<br>
+    </details>
+</td>
+</tr>
+
+<tr>
+<td><span class="badge">Bourgogne-Franche-Comté</span></td>
+<td>Hôpital François Mitterrand, CHU Dijon</td>
+<td>RCP RENATEN</td>
+<td>Réseau Régional et National de Cancérologie</td>
+<td>Vendredi</td>
+<td>12h30-14h</td>
+<td>Bi-mensuelle</td>
+<td> Service de Radiologie </td>
+<td></td>
+<td>
+    <details>
+        <summary><strong>Modalités de soumission d'un dossier</strong></summary>
+        Fiche à déposer sur le dossier communicant de cancérologie (DCC) du patient <a href="https://www.bfc-sante.fr/bureau-virtuel/accueil/authentification-7-5.html">Onco BFC</a> <br>
+         </details>
+    <details>
+        <summary><strong>Gestion de la RCP par le 3C du CHU </strong></summary>
+        <a href="mailto:3C@chu-dijon.fr">3C@chu-dijon.fr</a><br>
+        Tel : 03 80 29 56 27<br>
+    </details>
+</td>
+</tr> 
+
+<tr>
+<td><span class="badge">Bourgogne-Franche-Comté</span></td>
+<td>Hôpital François Mitterrand, CHU Dijon</td>
+<td>RCP Oncogénétique</td>
+<td>Réseau Régional et National de Cancérologie</td>
+<td>Mercredi</td>
+<td>15h00-16h00</td>
+<td>Bi-mensuelle</td>
+<td></td>
+<td>Visioconférence</td>
+<td>
+    <details>
+        <summary><strong>Modalités de soumission d'un dossier</strong></summary>
+        Fiche à déposer sur le dossier communicant de cancérologie (DCC) du patient <a href="https://www.bfc-sante.fr/bureau-virtuel/accueil/authentification-7-5.html">Onco BFC</a> <br>
+         </details>
+    <details>
+        <summary><strong>Gestion de la RCP par le 3C du CHU </strong></summary>
+        <a href="mailto:3C@chu-dijon.fr">3C@chu-dijon.fr</a><br>
+        Tel : 03 80 29 56 27<br>
+    </details>
+</td>
+</tr> 
+    
+<tr>
+<td><span class="badge">Bretagne</span></td>
+<td>CHU Pontchaillou, Rennes</td>
+<td>RCP des tumeurs primitives hépatiques</td>
+<td></td>
+<td>Jeudi</td>
+<td>16h00</td>
+<td>Hebdomadaire</td>
+<td>Service d'imagerie </td>
+<td></td>
+<td>
+    <details>
+        <summary><strong>Modalités de soumission d'un dossier</strong></summary>
+        Dossier à déposer sur le dossier communicant de cancérologie (DCC) du patient <a href="https://auth.telesantebretagne.org/realms/gcs/protocol/openid-connect/auth?client_id=portail&redirect_uri=https%3A%2F%2Fmes-services.telesantebretagne.org%2F&state=6e550e5f-2ce0-4d1a-923d-cf8f0b7c9e59&response_mode=fragment&response_type=code&scope=openid&nonce=a7208634-10a7-4acf-891d-8b00ab7c11a3&code_challenge=V4XoHzq6Zwvg1B8JSpRO5eTya1YZlX6jqnheIjN65Ow&code_challenge_method=S256">Onco Bretagne</a> <br>
+Ou transmission via [Télésanté Bretagne](<https://www.telesante-bretagne.fr/>)  <br>
+
+         </details>
+    <details>
+        <summary><strong>AMA en charge de la RCP</strong></summary>
+        <a href="mailto:secretariat.rcp@rennes.unicancer.fr">secretariat.rcp@rennes.unicancer.fr</a><br>
+    </details>
+</td>
+</tr> 
+
+
+</tbody>
+</table>
+
+<script>
+
+let regionAsc = true;
+let dayAsc = true;
+
+const tbody = document.querySelector("#meetingTable tbody");
+
+// Ordre naturel des jours
+const daysOrder = [
+    "Lundi",
+    "Mardi",
+    "Mercredi",
+    "Jeudi",
+    "Vendredi",
+    "Samedi",
+    "Dimanche"
+];
+
+function getRows() {
+    return Array.from(tbody.querySelectorAll("tr"))
+        .filter(row => !row.classList.contains("day-separator"));
+}
+
+function clearSeparators() {
+    document.querySelectorAll(".day-separator").forEach(el => el.remove());
+}
+
+function updateCounter() {
+    const visible = getRows().filter(row => row.style.display !== "none");
+    document.getElementById("counter").innerText =
+        visible.length + " réunion(s) affichée(s)";
+}
+
+function filterTable() {
+    const search = document.getElementById("searchInput").value.toLowerCase();
+    const region = document.getElementById("regionFilter").value;
+
+    getRows().forEach(row => {
+        const text = row.innerText.toLowerCase();
+        const rowRegion = row.cells[0].innerText;
+
+        const matchSearch = text.includes(search);
+        const matchRegion = !region || rowRegion.includes(region);
+
+        row.style.display = (matchSearch && matchRegion) ? "" : "none";
+    });
+
+    updateCounter();
+}
+
+function sortByRegion() {
+    clearSeparators();
+
+    const rows = getRows();
+
+    rows.sort((a, b) => {
+        const A = a.cells[0].innerText;
+        const B = b.cells[0].innerText;
+        return regionAsc ? A.localeCompare(B) : B.localeCompare(A);
+    });
+
+    rows.forEach(row => tbody.appendChild(row));
+    regionAsc = !regionAsc;
+}
+
+function sortByDay() {
+    clearSeparators();
+
+    const rows = getRows();
+
+    rows.sort((a, b) => {
+        const dayA = a.cells[4].innerText.trim();
+        const dayB = b.cells[4].innerText.trim();
+
+        const indexA = daysOrder.indexOf(dayA);
+        const indexB = daysOrder.indexOf(dayB);
+
+        return dayAsc ? indexA - indexB : indexB - indexA;
+    });
+
+    dayAsc = !dayAsc;
+
+    tbody.innerHTML = "";
+
+    let currentDay = "";
+
+    rows.forEach(row => {
+
+        const day = row.cells[4].innerText;
+
+        if (day !== currentDay) {
+
+            const sep = document.createElement("tr");
+            sep.className = "day-separator";
+
+            const cell = document.createElement("td");
+            cell.colSpan = 10; // nombre de colonnes
+            cell.textContent = day;
+
+            sep.appendChild(cell);
+            tbody.appendChild(sep);
+
+            currentDay = day;
+        }
+
+        tbody.appendChild(row);
+    });
+}
+
+document.getElementById("searchInput").addEventListener("input", filterTable);
+document.getElementById("regionFilter").addEventListener("change", filterTable);
+document.getElementById("sortRegion").addEventListener("click", sortByRegion);
+document.getElementById("sortDate").addEventListener("click", sortByDay);
+
+sortByDay();
+updateCounter();
+
+</script>
+
+
+</body>
+</html>
+
