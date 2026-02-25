@@ -1893,15 +1893,13 @@ Fax : 02 62 75 24 55 <br>
 <br>
 <ul>  
 <li> <B>Infirmier(e) en Pratiques Avancées :</B> </li>
-PEYRONNET Sophie<br>
-sophie.peyronnet@chu-lyon.fr <br>
-Tel : 04 78 86 14 02 <br>
-Fax : 04 78 86 33 43 <br>
-<br>
-<li> <B>Attaché(e) de Recherche Clinique :</B> </li>
 MENAND Audrey <br>
-ESTHER Asmina
+ESTHER Asmina <br>
 ipa.onco.hemato.sud@chu-reunion.fr <br>
 Tel : 02 62 71 76 48<br>
+<br>
+<li> <B>Attaché(e) de Recherche Clinique :</B> </li>
+MIKOLASEK Sara <br>
+Tel : 02 62 35 96 90 <br>
 </ul>
 </details>
