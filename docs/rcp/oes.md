@@ -509,6 +509,38 @@ manon.bonfils@nice.unicancer.fr
 Tel : 04 92 03 13 52<br>
 Fax : 04 92 03 10 46 <br> 
 <br>  
+### **Institut Paoli Calmettes, Marseille**
+<ul>
+<li><strong>RCP n°081 RCP DIGESTIF IPC A1</strong></li>   
+<br>  
+<strong>Horaire :</strong> Mardi de 16h30 à 18h30 <br>
+<strong>Fréquence :</strong> Hebdomadaire <br>
+<strong>Lieu :</strong> Institut Paoli Calmettes <br>
+Salle de réunion IPC1 <br>
+232 Boulevard Sainte Marguerite, 13009 <strong>Marseille</strong>  <br>
+<br>
+<li><strong> RCP n°254 Hépato-Bilio-Pancréatique IPC </strong></li>   
+<br>  
+<strong>Horaire :</strong> Lundi de 8h à 9h <br>
+<strong>Fréquence :</strong> Hebdomadaire <br>
+<strong>Lieu :</strong> Institut Paoli Calmettes <br>
+Salle de réunion IPC1 <br>
+232 Boulevard Sainte Marguerite, 13009 <strong>Marseille</strong>  <br>
+<br>
+<li><strong> RCP n°372 Recours Chrirurgical Digestif IPC </strong></li>   
+<br>  
+<strong>Horaire :</strong> <br>
+<strong>Fréquence :</strong> <br>
+<strong>Lieu :</strong> Institut Paoli Calmettes <br>
+232 Boulevard Sainte Marguerite, 13009 <strong>Marseille</strong>  <br>
+</ul>
+<strong>AMA en charge de la RCP :</strong>  <br>
+BADDOUJ / MOURAD MALIKA <br>
+secretariat.rcp@ipc.unicancer.fr <br>
+Tel : 04 91 22 33 17 <br>
+<br>
+<strong>Modalités de soumission d’un dossier :</strong> <br>
+Fiche RCP DIG <br>   
 
 ## <span style="color:blue">**La Réunion**</span>
 ### **CHU Sud Réunion, Saint-Pierre**
@@ -527,3 +559,4 @@ Tel : 02 62 35 91 04<br>
 <br>  
 **Modalités de soumission d’un dossier** : <br>
 Fiche envoyée ou à récupérer auprès du secrétariat de la RCP: rcp.3csud@chu-reunion.fr <br>
+
