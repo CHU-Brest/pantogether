@@ -151,12 +151,13 @@ body{margin:0;font-family:Arial}
 <button onclick="resetFiltres()">Réinitialiser</button>
 
 <hr>
-<b>Navigation DOM‑TOM</b>
+<b>Navigation DROM</b>
 <div id="nav">
 <button onclick="zoomDOM('guyane')">Guyane</button>
 <button onclick="zoomDOM('guadeloupe')">Guadeloupe</button>
 <button onclick="zoomDOM('martinique')">Martinique</button>
 <button onclick="zoomDOM('reunion')">La Réunion</button>
+<button onclick="zoomDOM('mayotte')">Mayotte</button>
 <button onclick="zoomFrance()">Métropole</button>
 </div>
 </div>
@@ -5402,6 +5403,7 @@ function zoomDOM(dom){
   guadeloupe:[16.25,-61.55,8],
   martinique:[14.62,-61.05,8],
   reunion:[-20.88,55.45,8]
+  mayotte:[-12.8,45.21,8]
  };
  const c=coords[dom];
  map.setView([c[0],c[1]],c[2]);
