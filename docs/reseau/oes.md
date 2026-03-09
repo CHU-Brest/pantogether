@@ -1833,7 +1833,7 @@ Convention avec le CHU de Nantes
 ## <span style="color:blue">**Provence-Alpes-Côte d'Azur**</span>  
 ### **Institut Sainte Catherine, Avignon** <br>
 **Dr MINEUR Laurent**     
-Unité de Cancérologie Digestive
+Unité de Cancérologie Digestive <br>
 Chemin de baigne pieds, 84000 **Avignon** <br>
 l.mineur@isc84.org  <br>
 <br>    
