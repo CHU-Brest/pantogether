@@ -172,6 +172,32 @@ mgarcia@cgfl.fr<br>
 Tel : 03 80 73 75 00 <br>
 <br>
 ## <span style="color:blue">**Bretagne**</span>
+### **Centre Eugène Marquis**
+<ul>
+<li><strong>RCP d’oncologie digestive</strong></li>   
+ONCO 5 Centre de Coordination en Cancérologie du territoire 5 <br>  
+<br>  
+<strong>Horaire :</strong> Mardi à 14h30 <br>
+<strong>Fréquence :</strong> Hebdomadaire <br>
+<strong>Lieu :</strong> CHU Rennes<br>
+Et connexion à distance par visioconférence  <br>
+<br>
+<li><strong>RCP RENATEN</strong></li>
+ONCO 5 Centre de Coordination en Cancérologie du territoire 5 <br>  
+<br>  
+<strong>Horaire :</strong> Mardi à 14h <br>
+<strong>Fréquence :</strong> Hebdomadaire <br>
+<strong>Lieu :</strong> CHU Rennes<br>
+Et connexion à distance par visioconférence  <br>
+</ul>
+<strong>AMA en charge de la RCP :</strong>  <br>
+BUSIN Emilie <br>
+Centre de Coordination en Cancérologie du territoire 5 <br>
+Tel : 02 99 25 31 41 <br>
+<br>
+<strong>Modalités de soumission d’un dossier :</strong> <br>
+Dossier à compléter sur [DCC Bretagne](https://auth.telesantebretagne.org/realms/gcs/protocol/openid-connect/auth?client_id=portail&redirect_uri=https%3A%2F%2Fmes-services.telesantebretagne.org%2F&state=393f5133-3a9e-429b-8c7e-63dadc25647c&response_mode=fragment&response_type=code&scope=openid&nonce=5bece8cd-6219-42c2-8be4-9bb0875f1a1d&code_challenge=pyq2CE1hE2OqXKTX7Xh5-nyJTMnta49SOC59khgCL-o&code_challenge_method=S256) <br>
+
 ### **CHP Saint-Grégoire**   
 **RCP Digestive Libérale** <br>
 Réseau Onco 5 <br>
