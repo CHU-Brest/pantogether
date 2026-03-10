@@ -172,6 +172,68 @@ mgarcia@cgfl.fr<br>
 Tel : 03 80 73 75 00 <br>
 <br>
 ## <span style="color:blue">**Bretagne**</span>
+### **CHU Brest**
+<ul>
+<li><strong>RCP Oncologie digestive, œsophage, gastrique</strong></li>   
+Réseau OncoBretagne/pôle régional de cancérologie Bretagne <br>  
+<br>  
+<strong>Horaire :</strong> Lundi à 17h <br>
+<strong>Fréquence :</strong> Hebdomadaire <br>
+<strong>Lieu :</strong> Multisites, connexion à distance par visioconférence  <br>
+<br>
+<li><strong>RCP Moléculaire</strong></li>
+Pôle régional de cancérologie Bretagne <br>  
+<br>  
+<strong>Horaire :</strong> Mercredi <br>
+<strong>Fréquence :</strong> Hebdomadaire <br>
+<strong>Lieu :</strong> Multisites, connexion à distance par visioconférence  <br>
+<br>
+<li><strong>RCP ARPEGO</strong></li>
+Pôle régional de cancérologie Bretagne <br>  
+<br>  
+<strong>Horaire :</strong> Mercredi à 8h00 <br>
+<strong>Fréquence :</strong> Hebdomadaire <br>
+<strong>Lieu :</strong> Multisites, connexion à distance par visioconférence  <br>
+<br>
+<li><strong>RCP Tumeurs superficielles</strong></li>
+OncoBretagne et Pôle régional de cancérologie Bretagne <br>  
+<br>  
+<strong>Horaire :</strong> Mardi <br>
+<strong>Fréquence :</strong> Bi-mensuelle <br>
+<strong>Lieu :</strong> CHU Brest <br>
+Service de gastro-entérologie  <br>
+Boulevard Tanguy Prigent , 29200 <strong>Brest</strong> <br>
+<br>
+</ul>
+<strong>AMA en charge de la RCP :</strong>  <br>
+<ul>
+<li><strong>RCP Oncologie digestive, œsophage, gastrique</strong></li> 
+ALIAS Sylvie <br>
+sylvie.alias@appuisante.fr  <br>
+<br>
+<li><strong>RCP Moléculaire</strong></li>
+GUEN Laurence <br>
+poleregionalcancerologie@chu-brest.fr <br>
+Tel : 02 29 02 01 18  <br>
+Fax : 02 29 02 01 67 <br>
+<br>
+<li><strong>RCP ARPEGO</strong></li>
+Pôle Régional de Cancérologie <br>
+- GOESIN Isabelle <br>
+isabelle.goesin@chu-rennes.fr <br>
+Tel : 02 99 28 99 87  <br>
+Fax : 02 99 28 99 68 <br>
+- GUEN Laurence <br>
+poleregionalcancerologie@chu-brest.fr <br>
+Tel : 02 29 02 01 18 <br>
+Fax : 02 29 02 01 67 <br>
+<br>
+<li><strong>RCP Tumeurs superficielles</strong></li>
+<br>
+</ul>
+<strong>Modalités de soumission d’un dossier :</strong> <br>
+Dossier à compléter sur [DCC Bretagne](https://auth.telesantebretagne.org/realms/gcs/protocol/openid-connect/auth?client_id=portail&redirect_uri=https%3A%2F%2Fmes-services.telesantebretagne.org%2F&state=393f5133-3a9e-429b-8c7e-63dadc25647c&response_mode=fragment&response_type=code&scope=openid&nonce=5bece8cd-6219-42c2-8be4-9bb0875f1a1d&code_challenge=pyq2CE1hE2OqXKTX7Xh5-nyJTMnta49SOC59khgCL-o&code_challenge_method=S256) <br>
+
 ### **Centre Eugène Marquis**
 <ul>
 <li><strong>RCP d’oncologie digestive</strong></li>   
