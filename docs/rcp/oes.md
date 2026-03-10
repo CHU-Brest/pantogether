@@ -16,25 +16,6 @@ Service de chirurgie digestive CHU Estaing <br>
 1, Place Lucie Aubrac 63000 <strong>Clermont-Ferrand</strong>  <br>
 Possibilité de visio sur demande au secrétariat <br>
 <br>
-<li><strong> RCP des pathologies hépatiques </strong></li>   
-Réseau ONCAURA<br> 
-<br>  
-<strong>Horaire :</strong> Vendredi de 14h30 à 17h00 <br>
-<strong>Fréquence :</strong> Hebdomadaire <br>
-<strong>Lieu :</strong> CHU Clermont-Ferrand<br>
-Service de chirurgie digestive CHU Estaing <br>
-1, Place Lucie Aubrac 63000 <strong>Clermont-Ferrand</strong>  <br>
-Possibilité de visio sur demande au secrétariat <br>
-<br>
-<li><strong> RCP des pathologies hépatiques </strong></li>   
-Réseau ONCAURA<br> 
-<br>  
-<strong>Horaire :</strong> Jeudi de 17h00 à 19h00 <br>
-<strong>Fréquence :</strong> Bi-mensuel : 1er et 3ème jeudi du mois <br>
-<strong>Lieu :</strong> CHU Clermont-Ferrand<br>
-Service de chirurgie digestive CHU Estaing <br>
-1, Place Lucie Aubrac 63000 <strong>Clermont-Ferrand</strong>  <br>
-Possibilité de visio sur demande au secrétariat <br>
 </ul>
 <strong>AMA en charge de la RCP :</strong>  <br>
 CHAMPION Sylvie <br>
@@ -50,14 +31,6 @@ Fiche pré-établie à rendre au plus tard le matin des RCP <br>
 <br>  
 <strong>Horaire :</strong> Jeudi à 12h30 <br>
 <strong>Fréquence :</strong> Hebdomadaire <br>
-<strong>Lieu :</strong> HP Jean Mermoz<br>
-Salle de RCP <br>
-55 avenue Mermoz, 69008 <b>Lyon</b> <br>
-<br>
-<li><strong>RCP maladies pancréatiques rares</strong></li>   
-<br>  
-<strong>Horaire :</strong> Lundi 19h30 <br>
-<strong>Fréquence :</strong> Mensuelle <br>
 <strong>Lieu :</strong> HP Jean Mermoz<br>
 Salle de RCP <br>
 55 avenue Mermoz, 69008 <b>Lyon</b> <br>
@@ -149,15 +122,6 @@ Service d'hepato gastroenterologie et oncologie digestive <br>
 2 BD Maréchal de Lattre de Tassigny, 21000  <strong>Dijon</strong>  <br>
 Possibilité de visio via le logiciel Covotem sur demande au secrétariat des 3C<br>
 <br>
-<li><strong> RCP tumeurs du foie, Régionale Bourgogne </strong></li>   
-<br>  
-<strong>Horaire :</strong> Lundi à 17h <br>
-<strong>Fréquence :</strong> Hebdomadaire <br>
-<strong>Lieu :</strong> CHU Dijon<br>
-Service d'hepato gastroenterologie et oncologie digestive <br>
-2 BD Maréchal de Lattre de Tassigny, 21000  <strong>Dijon</strong>  <br>
-Possibilité de visio via le logiciel Covotem sur demande au secrétariat des 3C<br>
-<br>
 <li><strong>RCP RENATEN & Tumeurs Rares Bourgogne-Franche-Comté</strong></li>   
 <br>  
 <strong>Horaire :</strong> Vendredi à 12h45 <br>
@@ -209,7 +173,6 @@ Dossier à déposer sur le dossier communicant de cancérologie (DCC) du patient
 **AMA en charge de la RCP** : <br>
 Responsable Onco 5 : Dr VEILHAN L-A.<br>
 Tel : 02 99 25 44 05 <br>
-
 
 ## <span style="color:blue">**Grand-Est**</span>
 ### **CHU Reims**
@@ -277,7 +240,7 @@ Réseau RENATEN <br>
 Salle de staff oncologie médicale <br>
 184 rue du Faubourg Saint-Antoine, 75571 <strong>Paris</strong>  <br>
 <br>
-<li><strong> RCP tumeur Tumeur digestive MSI national </strong></li>   
+<li><strong> RCP Tumeur digestive MSI national </strong></li>   
 <br>
 <strong>Horaire :</strong> Lundi de 14h à 16h <br>
 <strong>Fréquence :</strong> Bi-mensuel <br>
@@ -369,7 +332,8 @@ Avenue de Magellan, 33604 **Pessac**  <br>
 <br>
 **Modalités de soumission d’un dossier** : <br>
 Dossier à soumettre au secrétariat 3C du CHU par email : 3c-sud@chu-bordeaux.fr <br>
-<br>  
+<br>
+
 ### **CHU Poitiers**   
 **RCP Digestive** <br>
 Réseau Onco Nouvelle-Aquitaine <br>
@@ -434,14 +398,6 @@ Salle de Radiologie, Bâtiment H1, Rez de Chaussée <br>
 Réseau d’Onco-Occitanie <br>  
 <br>  
 <strong>Fréquence :</strong> Bi-mensuelle <br>
-<strong>Lieu :</strong> Hôpital RANGUEIL <br>
-Salle de Radiologie, Bâtiment H1, Rez de Chaussée <br>
-1 av. Jean Poulhès, 31400 <strong>Toulouse</strong>  <br>
-<br>
-<li><strong> RCP CARCINOME HEPATO-CELLULAIRE </strong></li>   
-Réseau d’Onco-Occitanie <br>  
-<br>  
-<strong>Fréquence :</strong> Hebdomadaire <br>
 <strong>Lieu :</strong> Hôpital RANGUEIL <br>
 Salle de Radiologie, Bâtiment H1, Rez de Chaussée <br>
 1 av. Jean Poulhès, 31400 <strong>Toulouse</strong>  <br>
@@ -513,14 +469,6 @@ RENATEN <br>
 232 Bd de Sainte-Marguerite, 13009 <strong>Marseille</strong>  <br>
 Et connexion par visioconférence <br>
 <br>
-<li><strong> RCP de recours foie et voies biliaires </strong></li>   
-Réseau Onco-Occitanie <br>  
-<br> 
-<strong>Horaire :</strong> Vendredi de 14h à 16h30 <br>
-<strong>Fréquence :</strong> Hebdomadaire <br>
-<strong>Lieu :</strong> CHU Montpellier <br>
-191 Av. du Doyen Gaston Giraud, 34295 <strong>Montpellier</strong>  <br>
-Et connexion par visioconférence<br>
 </ul>
 <strong>AMA en charge de la RCP :</strong>  <br>
 <ul>
@@ -528,7 +476,7 @@ Et connexion par visioconférence<br>
 LAVERNHE Mélanie <br>
 m.lavernhe@isc84.org <br>
 Tel : 04 90 27 68 48 <br>
-<li><strong>RCP Tumeur Neuroendocrine & RCP de recours foie et voies biliaires</strong></li>      
+<li><strong>RCP Tumeur Neuroendocrine</strong></li>      
 MARION Christelle
 </ul>
 <strong>Modalités de soumission d’un dossier :</strong> <br>
@@ -536,7 +484,6 @@ Dossier à soumettre sur le DCC [Onco-PACA](https://heimdall.sante-paca.fr/auth/
 <br>
 Dossier à soumettre sur le DCC [RENATEN](https://ipcnet-projets.ipc.unicancer.fr/metiers/tne/rcp-regionale/Pages/portailTNE.aspx)  <br>
 <br>
-Dossier à soumettre sur le DCC [Onco-occitanie](https://onco-occitanie.fr/le-parcours-de-soin/le-dossier-communicant-de-cancerologie-dcc/)  <br>
 
 ### **Centre Antoine Lacassagne, Nice**
 **RCP Digestive** <br>
@@ -558,14 +505,6 @@ Fax : 04 92 03 10 46 <br>
 <li><strong>RCP n°081 RCP DIGESTIF IPC A1</strong></li>   
 <br>  
 <strong>Horaire :</strong> Mardi de 16h30 à 18h30 <br>
-<strong>Fréquence :</strong> Hebdomadaire <br>
-<strong>Lieu :</strong> Institut Paoli Calmettes <br>
-Salle de réunion IPC1 <br>
-232 Boulevard Sainte Marguerite, 13009 <strong>Marseille</strong>  <br>
-<br>
-<li><strong> RCP n°254 Hépato-Bilio-Pancréatique IPC </strong></li>   
-<br>  
-<strong>Horaire :</strong> Lundi de 8h à 9h <br>
 <strong>Fréquence :</strong> Hebdomadaire <br>
 <strong>Lieu :</strong> Institut Paoli Calmettes <br>
 Salle de réunion IPC1 <br>
