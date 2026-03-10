@@ -5,8 +5,7 @@ title: Œsophage, Jonction Oesogastrique, Estomac
 Planning des Réunions de Concertation Pluridisciplinaires en Région
 ## <span style="color:blue">**Auvergne-Rhône-Alpes**</span>
 ### **CHU Clermont-Ferrand**   
-<ul>
-<li><strong>RCP d’oncologie digestive et chirurgie digestive conventionnelle et de recours </strong></li>   
+<strong>RCP d’oncologie digestive et chirurgie digestive conventionnelle et de recours </strong>  
 Réseau ONCAURA<br> 
 <br>  
 <strong>Horaire :</strong> Lundi de 13h30 à 17h00 <br>
@@ -16,7 +15,6 @@ Service de chirurgie digestive CHU Estaing <br>
 1, Place Lucie Aubrac 63000 <strong>Clermont-Ferrand</strong>  <br>
 Possibilité de visio sur demande au secrétariat <br>
 <br>
-</ul>
 <strong>AMA en charge de la RCP :</strong>  <br>
 CHAMPION Sylvie <br>
 schampion@chu-clermontferrand.fr <br>
@@ -100,8 +98,8 @@ Et connexion en distancielle <br>
 <br>
 **AMA en charge de la RCP** : <br>
 AYALA Sandrine <br>
-Tel : 04 77 82 25 55 <br>  
-<br>  
+Tel : 04 77 82 25 55 <br>
+<br>
 **Modalités de soumission d’un dossier** : <br>
 Fiche à soumettre à l’AMA <br>
 
@@ -171,8 +169,8 @@ Dossier à soumettre sur le DCC du patient <br>
 **AMA en charge de la RCP** : <br>
 GARCIA Manon <br>
 mgarcia@cgfl.fr<br>
-Tel : 03 80 73 75 00 <br>  
-<br>  
+Tel : 03 80 73 75 00 <br>
+<br>
 ## <span style="color:blue">**Bretagne**</span>
 ### **CHP Saint-Grégoire**   
 **RCP Digestive Libérale** <br>
@@ -363,8 +361,8 @@ Et connexion en distancielle<br>
 <br>
 **AMA en charge de la RCP** : <br>
 GAULTIER Karine <br>
-Tel : 05 49 44 46 08 <br>  
-<br>  
+Tel : 05 49 44 46 08 <br>
+<br>
 
 ## <span style="color:blue">**Occitanie**</span>
 ### **ICM, Montpellier**
@@ -380,8 +378,8 @@ Et connexion en distancielle par Teams<br>
 <br>
 **AMA en charge de la RCP** : <br>
 Magali.Goguey-Muethon@icm.unicancer.fr <br>
-Tel : 04 67 61 30 90 <br>  
-<br>  
+Tel : 04 67 61 30 90 <br>
+<br>
 **Modalités de soumission d’un dossier** : <br>
 Fiche pré-remplie à soumettre à l’AMA <br>
 <br>
@@ -555,8 +553,8 @@ Et connexion en distancielle par Teams (lien de connexion adressé par le secré
 <br>
 **AMA en charge de la RCP** : <br>
 rcp.3csud@chu-reunion.fr <br>
-Tel : 02 62 35 91 04<br>  
-<br>  
+Tel : 02 62 35 91 04<br>
+<br>
 **Modalités de soumission d’un dossier** : <br>
 Fiche envoyée ou à récupérer auprès du secrétariat de la RCP: rcp.3csud@chu-reunion.fr <br>
 
