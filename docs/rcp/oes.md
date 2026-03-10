@@ -88,6 +88,23 @@ Dossier à soumettre sur le DCC [SARA](https://www.sante-ara.fr/inscription-des-
 REY Stéphanie <br>
 Tel : 04 69 85 64 91 <br>  
 
+### **CHU Saint-Etienne**
+**RCP Oncologie Digestive** <br>
+Réseau ONCOLOIRE <br>
+<br>
+**Horaire :** Lundi de 18h à 20h <br>
+**Fréquence :** Hebdomadaire <br>
+**Lieu :** CHU de Saint-Etienne <br>
+Avenue Albert Raimond, 42270 **Saint-Etienne** <br>
+Et connexion en distancielle <br>
+<br>
+**AMA en charge de la RCP** : <br>
+AYALA Sandrine <br>
+Tel : 04 77 82 25 55 <br>  
+<br>  
+**Modalités de soumission d’un dossier** : <br>
+Fiche à soumettre à l’AMA <br>
+
 ## <span style="color:blue">**Bourgogne-Franche-Comté**</span>
 ### **CHU Besançon**
 **RCP d’oncologie digestive** <br>
