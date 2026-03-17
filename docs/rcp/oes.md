@@ -172,7 +172,50 @@ mgarcia@cgfl.fr<br>
 Tel : 03 80 73 75 00 <br>
 <br>
 ## <span style="color:blue">**Bretagne**</span>
-### **CHU Brest**
+### **Centre Eugène Marquis**
+<ul>
+<li><strong>RCP d’oncologie digestive</strong></li>   
+ONCO 5 Centre de Coordination en Cancérologie du territoire 5 <br>  
+<br>  
+<strong>Horaire :</strong> Mardi à 14h30 <br>
+<strong>Fréquence :</strong> Hebdomadaire <br>
+<strong>Lieu :</strong> CHU Rennes<br>
+Et connexion à distance par visioconférence  <br>
+<br>
+<li><strong>RCP RENATEN</strong></li>
+ONCO 5 Centre de Coordination en Cancérologie du territoire 5 <br>  
+<br>  
+<strong>Horaire :</strong> Mardi à 14h <br>
+<strong>Fréquence :</strong> Hebdomadaire <br>
+<strong>Lieu :</strong> CHU Rennes<br>
+Et connexion à distance par visioconférence  <br>
+</ul>
+<strong>AMA en charge de la RCP :</strong>  <br>
+BUSIN Emilie <br>
+Centre de Coordination en Cancérologie du territoire 5 <br>
+Tel : 02 99 25 31 41 <br>
+<br>
+<strong>Modalités de soumission d’un dossier :</strong> <br>
+Dossier à compléter sur [DCC Bretagne](https://auth.telesantebretagne.org/realms/gcs/protocol/openid-connect/auth?client_id=portail&redirect_uri=https%3A%2F%2Fmes-services.telesantebretagne.org%2F&state=393f5133-3a9e-429b-8c7e-63dadc25647c&response_mode=fragment&response_type=code&scope=openid&nonce=5bece8cd-6219-42c2-8be4-9bb0875f1a1d&code_challenge=pyq2CE1hE2OqXKTX7Xh5-nyJTMnta49SOC59khgCL-o&code_challenge_method=S256) <br>
+
+### **CHP Saint-Grégoire**   
+**RCP Digestive Libérale** <br>
+Réseau Onco 5 <br>
+<br>
+**Horaire :** Lundi à 19h <br>
+**Fréquence :** Hebdomadaire <br>
+**Lieu :** Institut de Cancérologie et Radiothérapie Bretilien <br>
+Salle de réunion administrative <br> 
+Avenue Saint Vincent, 35760 **Saint-Grégoire**  <br>
+<br>
+**Modalités de soumission d’un dossier** : <br>
+Dossier à déposer sur le dossier communicant de cancérologie (DCC) du patient [Onco Bretagne](<https://auth.telesantebretagne.org/realms/gcs/protocol/openid-connect/auth?client_id=portail&redirect_uri=https%3A%2F%2Fmes-services.telesantebretagne.org%2F&state=6e550e5f-2ce0-4d1a-923d-cf8f0b7c9e59&response_mode=fragment&response_type=code&scope=openid&nonce=a7208634-10a7-4acf-891d-8b00ab7c11a3&code_challenge=V4XoHzq6Zwvg1B8JSpRO5eTya1YZlX6jqnheIjN65Ow&code_challenge_method=S256>) <br>
+<br>
+**AMA en charge de la RCP** : <br>
+Responsable Onco 5 : Dr VEILHAN L-A.<br>
+Tel : 02 99 25 44 05 <br>
+<br>
+### **CHU La Cavale Blanche, Brest**
 <ul>
 <li><strong>RCP Oncologie digestive, œsophage, gastrique</strong></li>   
 Réseau OncoBretagne/pôle régional de cancérologie Bretagne <br>  
@@ -233,49 +276,6 @@ Fax : 02 29 02 01 67 <br>
 </ul>
 <strong>Modalités de soumission d’un dossier :</strong> <br>
 Dossier à compléter sur [DCC Bretagne](https://auth.telesantebretagne.org/realms/gcs/protocol/openid-connect/auth?client_id=portail&redirect_uri=https%3A%2F%2Fmes-services.telesantebretagne.org%2F&state=393f5133-3a9e-429b-8c7e-63dadc25647c&response_mode=fragment&response_type=code&scope=openid&nonce=5bece8cd-6219-42c2-8be4-9bb0875f1a1d&code_challenge=pyq2CE1hE2OqXKTX7Xh5-nyJTMnta49SOC59khgCL-o&code_challenge_method=S256) <br>
-
-### **Centre Eugène Marquis**
-<ul>
-<li><strong>RCP d’oncologie digestive</strong></li>   
-ONCO 5 Centre de Coordination en Cancérologie du territoire 5 <br>  
-<br>  
-<strong>Horaire :</strong> Mardi à 14h30 <br>
-<strong>Fréquence :</strong> Hebdomadaire <br>
-<strong>Lieu :</strong> CHU Rennes<br>
-Et connexion à distance par visioconférence  <br>
-<br>
-<li><strong>RCP RENATEN</strong></li>
-ONCO 5 Centre de Coordination en Cancérologie du territoire 5 <br>  
-<br>  
-<strong>Horaire :</strong> Mardi à 14h <br>
-<strong>Fréquence :</strong> Hebdomadaire <br>
-<strong>Lieu :</strong> CHU Rennes<br>
-Et connexion à distance par visioconférence  <br>
-</ul>
-<strong>AMA en charge de la RCP :</strong>  <br>
-BUSIN Emilie <br>
-Centre de Coordination en Cancérologie du territoire 5 <br>
-Tel : 02 99 25 31 41 <br>
-<br>
-<strong>Modalités de soumission d’un dossier :</strong> <br>
-Dossier à compléter sur [DCC Bretagne](https://auth.telesantebretagne.org/realms/gcs/protocol/openid-connect/auth?client_id=portail&redirect_uri=https%3A%2F%2Fmes-services.telesantebretagne.org%2F&state=393f5133-3a9e-429b-8c7e-63dadc25647c&response_mode=fragment&response_type=code&scope=openid&nonce=5bece8cd-6219-42c2-8be4-9bb0875f1a1d&code_challenge=pyq2CE1hE2OqXKTX7Xh5-nyJTMnta49SOC59khgCL-o&code_challenge_method=S256) <br>
-
-### **CHP Saint-Grégoire**   
-**RCP Digestive Libérale** <br>
-Réseau Onco 5 <br>
-<br>
-**Horaire :** Lundi à 19h <br>
-**Fréquence :** Hebdomadaire <br>
-**Lieu :** Institut de Cancérologie et Radiothérapie Bretilien <br>
-Salle de réunion administrative <br> 
-Avenue Saint Vincent, 35760 **Saint-Grégoire**  <br>
-<br>
-**Modalités de soumission d’un dossier** : <br>
-Dossier à déposer sur le dossier communicant de cancérologie (DCC) du patient [Onco Bretagne](<https://auth.telesantebretagne.org/realms/gcs/protocol/openid-connect/auth?client_id=portail&redirect_uri=https%3A%2F%2Fmes-services.telesantebretagne.org%2F&state=6e550e5f-2ce0-4d1a-923d-cf8f0b7c9e59&response_mode=fragment&response_type=code&scope=openid&nonce=a7208634-10a7-4acf-891d-8b00ab7c11a3&code_challenge=V4XoHzq6Zwvg1B8JSpRO5eTya1YZlX6jqnheIjN65Ow&code_challenge_method=S256>) <br>
-<br>
-**AMA en charge de la RCP** : <br>
-Responsable Onco 5 : Dr VEILHAN L-A.<br>
-Tel : 02 99 25 44 05 <br>
 <br>
 ### **CHU Pontchaillou, Rennes**   
 **RCP Digestive** <br>
@@ -289,6 +289,7 @@ Et connexion à distance par visioconférence  <br>
 <br>
 **Modalités de soumission d’un dossier** : <br>
 Dossier à déposer sur le dossier communicant de cancérologie (DCC) du patient [Onco Bretagne](<https://auth.telesantebretagne.org/realms/gcs/protocol/openid-connect/auth?client_id=portail&redirect_uri=https%3A%2F%2Fmes-services.telesantebretagne.org%2F&state=6e550e5f-2ce0-4d1a-923d-cf8f0b7c9e59&response_mode=fragment&response_type=code&scope=openid&nonce=a7208634-10a7-4acf-891d-8b00ab7c11a3&code_challenge=V4XoHzq6Zwvg1B8JSpRO5eTya1YZlX6jqnheIjN65Ow&code_challenge_method=S256>) <br>
+<br>
 **AMA en charge de la RCP** : <br>
 BUSIN Emilie <br>
 Centre de Coordination en Cancérologie du territoire 5 <br>
