@@ -276,6 +276,26 @@ Dossier à déposer sur le dossier communicant de cancérologie (DCC) du patient
 **AMA en charge de la RCP** : <br>
 Responsable Onco 5 : Dr VEILHAN L-A.<br>
 Tel : 02 99 25 44 05 <br>
+<br>
+### **CHU Pontchaillou, Rennes**   
+**RCP Digestive** <br>
+Réseau OncoBretagne <br>
+<br>
+**Horaire :** Mardi à 14h30 <br>
+**Fréquence :** Hebdomadaire <br>
+**Lieu :** Salle de radiologie <br>
+2 rue Henri Le Guilloux, 35000 **Rennes**  <br>
+Et connexion à distance par visioconférence  <br>
+<br>
+**Modalités de soumission d’un dossier** : <br>
+Dossier à déposer sur le dossier communicant de cancérologie (DCC) du patient [Onco Bretagne](<https://auth.telesantebretagne.org/realms/gcs/protocol/openid-connect/auth?client_id=portail&redirect_uri=https%3A%2F%2Fmes-services.telesantebretagne.org%2F&state=6e550e5f-2ce0-4d1a-923d-cf8f0b7c9e59&response_mode=fragment&response_type=code&scope=openid&nonce=a7208634-10a7-4acf-891d-8b00ab7c11a3&code_challenge=V4XoHzq6Zwvg1B8JSpRO5eTya1YZlX6jqnheIjN65Ow&code_challenge_method=S256>) <br>
+**AMA en charge de la RCP** : <br>
+BUSIN Emilie <br>
+Centre de Coordination en Cancérologie du territoire 5 <br>
+Tel : 02 99 25 31 41 <br>
+ingenieur.qualite@onco5.fr <br>
+[Site web](<https://onco5.com/>)<br>
+<br>
 
 ## <span style="color:blue">**Grand-Est**</span>
 ### **CHU Reims**
