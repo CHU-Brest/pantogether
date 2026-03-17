@@ -694,108 +694,6 @@ Tel : 03 80 73 75 00 <br>
 </details>
 
 ## <span style="color:blue">**Bretagne**</span>  
-### **CHU Brest**
-**Pr METGES Jean-Philippe** & **Dr BOURBONNE Vincent**     
-Institut de Cancérologie et d’Imagerie - Pôle 7 <br>
-Département de chirurgie carcino-digestive (Pr Thereaux) <br>
-Service d'hépato-gastro-entérologie et d'endoscopie (Pr Lucille Quénéhervé) <br>
-Boulevard Tanguy Prigent , 29200 **Brest** <br>
-jean-philippe.metges@chu-brest.fr  <br>
-BOURBONV@tcd.ie <br>
-<br>    
-   **Secrétariat :**  <br>
-BERNARD Edith <br>
-edith.bernard@chu-brest.fr <br>
-Tel : <br>
-Fax : <br>
-GUEN Laurence (pôle régional de cancérologie) <br>
-poleregionalcancerologie@chu-brest.fr <br>
-Tel : 02 29 02 01 18  <br>
-Fax : 02 29 02 01 67 <br>
-
-[Site web](<https://www.chu-brest-direction-commune.fr/>)
-<br>
-<details>
-    <summary>Ressources de soin</summary> <br>
-<B>Plateaux techniques</B> <br>    
-<ul>
-<li><b>Diagnostic :</b></li>  
-&#x2705 Médecine nucléaire <br>    
-&#x2705 Endoscopie interventionnelle <br>
-&#x2705 Plateforme de biologie moléculaire <br>
-&#x2705 Plateforme d'anatomopathologie <br> 
-&#x2705 Plateforme d'imagerie <br>  
-&#x2705 Oncogénétique <br>  
-&#x2705 Centre de diagnostic rapide <br>   
-<br>
-<li><b>Traitement</b></li>
-&#x2705 Radiothérapie externe <br>   
-&#x2705 Radio-embolisation <br>   
-&#x2705 Radiologie interventionnelle <br>  
-&#x2705 Chirurgie viscérale   <br>
-&#x2705 Chirurgie digestive de recours <br>  
-&#x2705 Chirurgie thoracique <br>  
-&#x2705 Plateau de réanimation <br> 
- <br>
-<li><b>Recherche :</b></li>
-&#x2705 Unité de recherche clinique dédiée <br> 
-&#x2705 Centre d'Investigation Clinique multithématique <br>
-&#x2705 Accès aux études de phase I <br>
-<br>
-</ul>
-<br>   
-<B>Soins de support</B> <br>
-<ul>
-<li><b>Soins « socle » :</b></li>
-&#x2705 Gestion de la douleur <br>
-&#x2705 Diététique et nutrition <br>
-&#x2705 Soutien psychologique du patient <br>
-&#x2705 Accompagnement social, familial et professionnel <br>
-<br>
-<li><b>Soins de support complémentaires : </b></li>
-&#x2705 Rééducation et activités physiques adaptées <br>
-&#x2705 Préservation de la fertilité <br>
-&#x2705 Gestion des troubles de la sexualité <br>
-&#x2705 Conseils d’hygiène de vie <br>
-&#x2705 Soutien psychologique des proches et des aidants <br>
-<br>
-<li><b>Autres soins de support et services : </b></li>
-&#x2705 Parcours de réadaptation respiratoire <br>
-&#x2705 Onco-gériatrie <br>
-&#x2705 Unité mobile de soins palliatifs <br>
-&#x2705 Unité de soins palliatifs dédiée <br>
-&#x2705 Hôpital de jour de soins de support <br>
-&#x2705 Espace de réflexion éthique <br>
-&#x2705 Approches non conventionnelles (hypnose, acupuncture, sophrologie, …) <br>
-&#x2705 Gestion de la fatigue <br>
-&#x2705 Ateliers d’art thérapie <br>
-&#x2705 Soins esthétiques et corporels <br>
-<br>
-</ul>
-</details>   
-
-<details>
-    <summary>Ressources humaines</summary>
-<br>
-<ul>  
-<li> <B>Infirmier(e) en Pratiques Avancées :</B> </li>
-FERRE Claire-Emmanuelle <br>
-claire.ferre@chu-brest.fr <br>
-<br>
-<li> <B>Attaché(e) de Recherche Clinique :</B> </li>
-GUEGAN Marie <br>
-marie.guegan@chu-brest.fr <br>
-Tel : 02 98 22 37 77 <br>
-LANGLOIS Fanny <br>
-fanny.langlois@chu-brest.fr 
-Tel : 02 21 74 38 68 <br>
-MAHEO Brieux <br>
-Brieux.maheohu-brest.fr <br>
-HENAF Yoan <br>
-Yoan.henaffhu-brest.fr <br>
-</ul>
-</details>
-
 ### **Centre Eugène Marquis** <br>
 **Dr LE SOURD Samuel**     
 Service d’oncologie digestive <br>
@@ -975,6 +873,196 @@ FERNANDES Karine <br>
 <li> <B>Attaché(e) de Recherche Clinique :</B> </li>
 LAMURE Géraldine <br>
 g.lamure@vivalto-sante.com <br>
+</ul>
+</details>
+### **CHU La cavale Blanche, Brest**
+**Pr METGES Jean-Philippe** & **Dr BOURBONNE Vincent**     
+Institut de Cancérologie et d’Imagerie - Pôle 7 <br>
+Département de chirurgie carcino-digestive (Pr Thereaux) <br>
+Service d'hépato-gastro-entérologie et d'endoscopie (Pr Lucille Quénéhervé) <br>
+Boulevard Tanguy Prigent , 29200 **Brest** <br>
+jean-philippe.metges@chu-brest.fr  <br>
+BOURBONV@tcd.ie <br>
+<br>    
+   **Secrétariat :**  <br>
+BERNARD Edith <br>
+edith.bernard@chu-brest.fr <br>
+Tel : <br>
+Fax : <br>
+GUEN Laurence (pôle régional de cancérologie) <br>
+poleregionalcancerologie@chu-brest.fr <br>
+Tel : 02 29 02 01 18  <br>
+Fax : 02 29 02 01 67 <br>
+
+[Site web](<https://www.chu-brest-direction-commune.fr/>)
+<br>
+<details>
+    <summary>Ressources de soin</summary> <br>
+<B>Plateaux techniques</B> <br>    
+<ul>
+<li><b>Diagnostic :</b></li>  
+&#x2705 Médecine nucléaire <br>    
+&#x2705 Endoscopie interventionnelle <br>
+&#x2705 Plateforme de biologie moléculaire <br>
+&#x2705 Plateforme d'anatomopathologie <br> 
+&#x2705 Plateforme d'imagerie <br>  
+&#x2705 Oncogénétique <br>  
+&#x2705 Centre de diagnostic rapide <br>   
+<br>
+<li><b>Traitement</b></li>
+&#x2705 Radiothérapie externe <br>   
+&#x2705 Radio-embolisation <br>   
+&#x2705 Radiologie interventionnelle <br>  
+&#x2705 Chirurgie viscérale   <br>
+&#x2705 Chirurgie digestive de recours <br>  
+&#x2705 Chirurgie thoracique <br>  
+&#x2705 Plateau de réanimation <br> 
+ <br>
+<li><b>Recherche :</b></li>
+&#x2705 Unité de recherche clinique dédiée <br> 
+&#x2705 Centre d'Investigation Clinique multithématique <br>
+&#x2705 Accès aux études de phase I <br>
+<br>
+</ul>
+<br>   
+<B>Soins de support</B> <br>
+<ul>
+<li><b>Soins « socle » :</b></li>
+&#x2705 Gestion de la douleur <br>
+&#x2705 Diététique et nutrition <br>
+&#x2705 Soutien psychologique du patient <br>
+&#x2705 Accompagnement social, familial et professionnel <br>
+<br>
+<li><b>Soins de support complémentaires : </b></li>
+&#x2705 Rééducation et activités physiques adaptées <br>
+&#x2705 Préservation de la fertilité <br>
+&#x2705 Gestion des troubles de la sexualité <br>
+&#x2705 Conseils d’hygiène de vie <br>
+&#x2705 Soutien psychologique des proches et des aidants <br>
+<br>
+<li><b>Autres soins de support et services : </b></li>
+&#x2705 Parcours de réadaptation respiratoire <br>
+&#x2705 Onco-gériatrie <br>
+&#x2705 Unité mobile de soins palliatifs <br>
+&#x2705 Unité de soins palliatifs dédiée <br>
+&#x2705 Hôpital de jour de soins de support <br>
+&#x2705 Espace de réflexion éthique <br>
+&#x2705 Approches non conventionnelles (hypnose, acupuncture, sophrologie, …) <br>
+&#x2705 Gestion de la fatigue <br>
+&#x2705 Ateliers d’art thérapie <br>
+&#x2705 Soins esthétiques et corporels <br>
+<br>
+</ul>
+</details>   
+
+<details>
+    <summary>Ressources humaines</summary>
+<br>
+<ul>  
+<li> <B>Infirmier(e) en Pratiques Avancées :</B> </li>
+FERRE Claire-Emmanuelle <br>
+claire.ferre@chu-brest.fr <br>
+<br>
+<li> <B>Attaché(e) de Recherche Clinique :</B> </li>
+GUEGAN Marie <br>
+marie.guegan@chu-brest.fr <br>
+Tel : 02 98 22 37 77 <br>
+LANGLOIS Fanny <br>
+fanny.langlois@chu-brest.fr 
+Tel : 02 21 74 38 68 <br>
+MAHEO Brieux <br>
+Brieux.maheohu-brest.fr <br>
+HENAF Yoan <br>
+Yoan.henaffhu-brest.fr <br>
+</ul>
+</details>
+
+### **CHU Pontchaillou, Rennes** <br>
+**Dr LIEVRE Astrid**     
+Service des maladies de l'appareil digestif <br>
+2 rue Henri Le Guilloux, 35000 **Rennes** <br>
+Astrid.LIEVRE@chu-rennes.fr  <br>
+<br>    
+   **Secrétariat :**  <br>
+ROUAUX Charlotte et CORBEL Valérie <br>
+secretariatONCODIG@chu-rennes.fr <br>
+Tel : 02 99 28 41 89 <br>
+Fax : 02 99 28 41 89 <br>
+<br>
+<details>
+    <summary>Ressources de soin</summary> <br>
+<B>Plateaux techniques</B> <br>    
+<ul>
+<li><b>Diagnostic :</b></li>  
+&#x2705 Médecine nucléaire <br>    
+&#x2705 Endoscopie interventionnelle <br>
+&#x2705 Plateforme de biologie moléculaire <br>
+&#x2705 Plateforme d'anatomopathologie <br> 
+&#x2705 Plateforme d'imagerie <br>  
+&#x2705 Oncogénétique <br>  
+&#x2718 Centre de diagnostic rapide <br>   
+<br>
+<li><b>Traitement</b></li>
+&#x2705 Radiothérapie externe* <br>   
+&#x2705 Radio-embolisation* <br>   
+&#x2705 Radiologie interventionnelle <br>  
+&#x2705 Chirurgie viscérale   <br>
+&#x2705 Chirurgie digestive de recours <br>  
+&#x2705 Chirurgie thoracique <br>  
+&#x2705 Plateau de réanimation <br> 
+ <br>
+<li><b>Recherche :</b></li>
+&#x2718 Unité de recherche clinique dédiée <br> 
+&#x2705 Centre d'Investigation Clinique multithématique <br>
+&#x2718 Accès aux études de phase I <br>
+<br>
+Convention avec le Centre Eugène Marquis pour la radiothérapie et la radio-embolisation <br>
+</ul>
+<br>   
+<B>Soins de support</B> <br>
+<ul>
+<li><b>Soins « socle » :</b></li>
+&#x2705 Gestion de la douleur <br>
+&#x2705 Diététique et nutrition <br>
+&#x2705 Soutien psychologique du patient <br>
+&#x2705 Accompagnement social, familial et professionnel <br>
+<br>
+<li><b>Soins de support complémentaires : </b></li>
+&#x2705 Rééducation et activités physiques adaptées <br>
+&#x2705 Préservation de la fertilité <br>
+&#x2705 Gestion des troubles de la sexualité <br>
+&#x2718 Conseils d’hygiène de vie <br>
+&#x2705 Soutien psychologique des proches et des aidants <br>
+<br>
+<li><b>Autres soins de support et services : </b></li>
+&#x2718 Parcours de réadaptation respiratoire <br>
+&#x2705 Onco-gériatrie <br>
+&#x2705 Unité mobile de soins palliatifs <br>
+&#x2705 Unité de soins palliatifs dédiée <br>
+&#x2705 Hôpital de jour de soins de support <br>
+&#x2718 Espace de réflexion éthique <br>
+&#x2718 Approches non conventionnelles (hypnose, acupuncture, sophrologie, …) <br>
+&#x2718 Gestion de la fatigue <br>
+&#x2718 Ateliers d’art thérapie <br>
+&#x2718 Soins esthétiques et corporels <br>
+<br>
+</ul>
+</details>   
+<br>
+<details>
+    <summary>Ressources humaines</summary>
+<br>
+<ul>  
+<li> <B>Infirmier(e) de Coordination :</B> </li>
+CHEVALIER Morgane <br>
+morgane.chevalier-lefaire@chu-rennes.fr <br>
+Tel : 02 99 28 91 87 <br>
+<br>
+<li> <B>Attaché(e) de Recherche Clinique :</B> </li>
+Techniciens d’Etudes Cliniques de l'unité d'investigation clinique <br>
+TEC_4@chu-rennes.fr <br>
+Tel : 02 99 28 98 89 <br>
+Fax : 02 99 28 39 93 <br>
 </ul>
 </details>
 
