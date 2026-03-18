@@ -33,7 +33,7 @@ Le réseau s’organise autour d’un centre pilote – le CHU de Brest – et d
    
 * Axe **Œsophage, Estomac et Jonction Oeso-Gastrique** : porté par le **CHU de Brest**, sous la coordination du Pr Jean-Philippe Metges et du Dr Vincent Bourbonne.
 * Axe **Foie et Voies biliaires** : assuré par le **CHU Avicenne (AP-HP)**, sous la responsabilité du Pr Nathalie Ganne-Carrié et du Pr Pierre Nahon.
-* Axe **Pancréas** : confié au **CHU Pitié-Salpêtrière (AP-HP)**, coordonné par le Pr Jean-Baptiste Bachet et le Pr Jean-Philippe Spano.
+* Axe **Pancréas** : confié au **CHU Pitié-Salpêtrière (AP-HP)**, coordonné par le Pr Jean-Baptiste Bachet.
    
 Chaque centre référent pilote le projet à l’échelle nationale en s’appuyant sur des centres experts.
 Le réseau compte plus de **52 centres experts** métropolitains et ultramarins. Ils ont été sélectionnés selon des critères d'excellence, incluant une file active importante de patients, un accès systématique aux essais cliniques innovants, et une production scientifique reconnue.   
