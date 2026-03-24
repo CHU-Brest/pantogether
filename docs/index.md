@@ -60,7 +60,7 @@ Les objectifs du réseau d'excellence Pan-Together sont de permettre :
 
   <div style="position: relative;">
 
-  <img src="assets/banniere.png" style="width:100%;">
+  <img src="assets/banniere2.png" style="width:100%;">
 
   <div style="position: absolute; top: 20px; right: 20px;">
     
