@@ -23,10 +23,6 @@ Il est organisé selon une structure arborescente, englobant trois branches prin
 Chaque branche est supervisée par un centre expert référent, garantissant une 
 couverture nationale étendue et homogène. 
 
-
-![](assets/carte.jpg)
-
-
 ## Le réseau
    
 Le réseau s’organise autour d’un centre pilote – le CHU de Brest – et du coordonnateur national - le Pr Metges - des trois centres experts chacun référent d'un axe spécifique :   
