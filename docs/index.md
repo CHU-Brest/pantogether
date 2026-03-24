@@ -58,15 +58,6 @@ Les objectifs du réseau d'excellence Pan-Together sont de permettre :
 <br>
 <br>
 
-  <div class="banner">
-  <img src="assets/banniere2.png" alt="Bannière">
-
-  <div class="banner-logo">
-    <a href="https://fem-net.fr/" target="_blank">
-      <img src="assets/FEM-NET.png" alt="FEM NET">
-    </a>
-  </div>
-</div>
 <style>
 .banner {
   position: relative;
@@ -108,3 +99,13 @@ Les objectifs du réseau d'excellence Pan-Together sont de permettre :
   }
 }
 </style>
+
+<div class="banner">
+  <img src="assets/banniere2.png" alt="Bannière">
+
+  <div class="banner-logo">
+    <a href="https://fem-net.fr/" target="_blank">
+      <img src="assets/FEM-NET.png" alt="FEM NET">
+    </a>
+  </div>
+</div>
