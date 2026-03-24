@@ -4,7 +4,7 @@ title: Bienvenue
 ---
 
 
-# Bienvenue sur le réseau Pan-Together
+# Bienvenue sur le réseau PAN-TOGETHER
 
 !!! warning "Site en construction"   
 
