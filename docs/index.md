@@ -87,7 +87,7 @@ Les objectifs du réseau d'excellence Pan-Together sont de permettre :
   transition: transform 0.3s ease;
 }
 /* effet au survol */
-.banner-logo img:hover {
+.logos img:hover {
   transform: scale(1.1);
 }
    
