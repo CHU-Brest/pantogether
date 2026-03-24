@@ -58,54 +58,48 @@ Les objectifs du réseau d'excellence Pan-Together sont de permettre :
 <br>
 <br>
 
-<style>
-.banner {
-  position: relative;
-  width: 100%;
-  height: 250px; /* desktop */
-  overflow: hidden;
-}
+<div style="position: relative; width:100%;">
 
-.banner img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
+  <img src="assets/banniere2.png" style="width:100%; display:block;">
 
-.banner-logo {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-}
-
-.banner-logo img {
-  width: 100px;
-  transition: transform 0.3s ease;
-}
-
-/* effet au survol */
-.banner-logo img:hover {
-  transform: scale(1.1);
-}
-
-/* 📱 mobile */
-@media (max-width: 768px) {
-  .banner {
-    height: 150px;
-  }
-
-  .banner-logo img {
-    width: 50px;
-  }
-}
-</style>
-
-<div class="banner">
-  <img src="assets/banniere2.png" alt="Bannière">
-
-  <div class="banner-logo">
+  <div class="logos">
+    
     <a href="https://fem-net.fr/" target="_blank">
       <img src="assets/FEM-NET.png" alt="FEM NET">
     </a>
+
+    <a href="https://pantogether.fr" target="_blank">
+      <img src="assets/pantogether.png" alt="Pantogether">
+    </a>
+
   </div>
+
 </div>
+
+<style>
+.logos {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px; /* espace entre logos */
+}
+
+.logos img {
+  width: 100px;
+}
+
+/* 📱 Version mobile */
+@media (max-width: 768px) {
+  .logos img {
+    width: 60px;
+  }
+
+  .logos {
+    top: 10px;
+    right: 10px;
+    gap: 5px;
+  }
+}
+</style>
