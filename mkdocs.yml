@@ -55,3 +55,6 @@ theme:
     - navigation.sections
     - navigation.expand
     - content.action.edit
+
+  extra_css:
+  - stylesheets/extra.css
