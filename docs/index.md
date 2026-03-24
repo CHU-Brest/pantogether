@@ -95,7 +95,7 @@ Les objectifs du réseau d'excellence Pan-Together sont de permettre :
   }
 
   .banner-logo img {
-    width: 70px;
+    width: 50px;
   }
 }
 </style>
