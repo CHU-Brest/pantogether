@@ -67,6 +67,7 @@ Les objectifs du réseau d'excellence Pan-Together sont de permettre :
     </a>
   </div>
 </div>
+<style>
 .banner {
   position: relative;
   width: 100%;
@@ -82,8 +83,8 @@ Les objectifs du réseau d'excellence Pan-Together sont de permettre :
 
 .banner-logo {
   position: absolute;
-  top: 15px;
-  right: 15px;
+  top: 20px;
+  right: 20px;
 }
 
 .banner-logo img {
@@ -106,3 +107,4 @@ Les objectifs du réseau d'excellence Pan-Together sont de permettre :
     width: 70px;
   }
 }
+</style>
