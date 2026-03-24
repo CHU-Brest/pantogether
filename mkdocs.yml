@@ -47,7 +47,6 @@ theme:
   name: material
   logo: assets/pantogether.png
   favicon: assets/pantogether.png
-``
   palette:
     scheme: default
   features:
