@@ -47,10 +47,6 @@ theme:
   name: material
   logo: assets/pantogether.png
   favicon: assets/pantogether.png
-
-extra_css:
- - stylesheets/extra.css
-
   palette:
     scheme: default
   features:
@@ -60,3 +56,5 @@ extra_css:
     - navigation.expand
     - content.action.edit
 
+extra_css:
+  - stylesheets/extra.css
