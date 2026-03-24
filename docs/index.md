@@ -60,17 +60,6 @@ Les objectifs du réseau d'excellence Pan-Together sont de permettre :
 <br>
 <img src="assets/logoinca.png" width="10%">  Pan-Together est un réseau labellisé par l'Institut National du Cancer 
 <br>
-<header>
-  <img src="assets/banniere.png" alt="Bannière du site" style="width:100%;">
-</header>
-
-<div style="text-align:center; margin-top: 20px;">
-  
-  <a href="https://fem-net.fr/" target="_blank">
-    <img src="assets/FEM-NET.png" alt="FEM-NET" width="50">
-  </a>
-
-  </div>
 
   <div style="position: relative;">
 
@@ -78,7 +67,7 @@ Les objectifs du réseau d'excellence Pan-Together sont de permettre :
 
   <div style="position: absolute; top: 20px; right: 20px;">
     
-    <a href="https://fem-net.fr/" target="_blank">
+   <a href="https://fem-net.fr/" target="_blank">
       <img src="assets/FEM-NET.png" width="40">
     </a>
 
