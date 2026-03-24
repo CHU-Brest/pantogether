@@ -59,3 +59,7 @@ Les objectifs du réseau d'excellence Pan-Together sont de permettre :
 <br>
 <br>
 <img src="assets/logoinca.png" width="10%">  Pan-Together est un réseau labellisé par l'Institut National du Cancer 
+
+<header>
+  <img src="assets/banniere.png" alt="Bannière du site" style="width:100%;">
+</header>
