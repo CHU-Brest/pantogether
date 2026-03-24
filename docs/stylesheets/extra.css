@@ -1,0 +1,5 @@
+/* Augmenter la taille du logo dans la barre de navigation */
+.md-header__button.md-logo img {
+    width: 150px;   /* Taille du logo */
+    height: auto;   /* Conserve les proportions */
+}
