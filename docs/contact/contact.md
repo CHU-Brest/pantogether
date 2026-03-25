@@ -50,10 +50,10 @@ body {
 
 /* Positions (AJUSTÉES POUR TON IMAGE) */
 .estomac {
-  top: 40px;
-  left: 150px;
-  width: 120px;
-  height: 150px;
+  top: 30px;
+  left: 140px;
+  width: 100px;
+  height: 100px;
 }
 
 .foie {
