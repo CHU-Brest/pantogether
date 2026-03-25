@@ -11,17 +11,17 @@ title: Associations de patients
 <br>
 ## Foie et voies biliaires
 
-<a href="https://albi-france.org/" target="_blank">
+<a href="https://albi-france.org" target="_blank">
   <img src="/assets/albi.png" alt="albi" width="300" class="image-hover">
 </a>
 <br>
 
-<a href="https://www.hemochromatose.org/" target="_blank">
+<a href="https://www.hemochromatose.org" target="_blank">
   <img src="/assets/ffh.png" alt="ffh" width="300" class="image-hover">
 </a>
 <br>
 
-<a href="https://soshepatites.org/" target="_blank">
+<a href="https://soshepatites.org" target="_blank">
   <img src="/assets/soshepatites.png" alt="soshepatites" width="300" class="image-hover">
 </a>
 <br>
