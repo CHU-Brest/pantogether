@@ -7,6 +7,8 @@ title: Informations
 ## Les cancers de l'oesophage et de la jonction oesogastrique
 
 ## Les cancers du foie et des voies biliaires
+Rendez-vous sur le site de l'association de <b><a href="https://parislivercancergroup.com" target="_blank">Paris Liver Cancer Group</a></b> pour des vidéos explicatives sur les cancers du foie et leurs traitments <br>
+<br>
 
 <a href="https://parislivercancergroup.com/pour-les-patients/#video-gallery-fabf4d9-5" target="_blank">
   <img src="/assets/PLCGCHC.png" alt="CHC" width="300" class="image-hover">
