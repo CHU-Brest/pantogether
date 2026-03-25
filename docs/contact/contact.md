@@ -85,7 +85,7 @@ Tel : 02 98 22 39 80 <br>
 <div class="container">
   
   <div class="image-container">
-    <img src="/assets/logo.png" alt="Logo">
+    <img src="assets/logo.png" alt="Logo">
 
     <div class="zone estomac" onclick="showInfo('estomac')"></div>
     <div class="zone foie" onclick="showInfo('foie')"></div>
