@@ -10,7 +10,7 @@ title: Informations
 
    <div class="videos">
     
-  <a href="https://parislivercancergroup.com/pour-les-patients/#video-gallery-fabf4d9-5" target="_blank">
+     <a href="https://parislivercancergroup.com/pour-les-patients/#video-gallery-fabf4d9-5" target="_blank">
       <img src="assets/PLCG CHC.png" alt="CHC">
     </a>
 
