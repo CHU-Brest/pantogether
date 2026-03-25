@@ -8,12 +8,8 @@ title: Informations
 
 ## Les cancers du foie et des voies biliaires
 
-   <div class="videos">
-    
-     <a href="https://parislivercancergroup.com/pour-les-patients/#video-gallery-fabf4d9-5" target="_blank">
-      <img src="assets/PLCG CHC.png" alt="CHC">
+   <a href="https://parislivercancergroup.com/pour-les-patients/#video-gallery-fabf4d9-5" target="_blank">
+      <img src="assets/PLCGCHC.png" alt="CHC">
     </a>
-
-  </div>
-  
+    
 ## Les cancers du pancréas
