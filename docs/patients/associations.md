@@ -20,17 +20,17 @@ title: Associations de patients
 </style>
 <br>
 ## Foie et voies biliaires
-* ALBI : Association pour la lutte contre les maladies inflammatoires du foie et des voies biliaires
+* ALBI : Association pour la lutte contre les maladies inflammatoires du foie et des voies biliaires <br>
   <a href="[https://albi-france.org/" target="_blank">
   <img src="/assets/albi.png" alt="albi" width="300" class="image-hover">
 </a>
 <br>
-* France Fer Hémochromatose
+* France Fer Hémochromatose <br>
 <a href="[https://www.hemochromatose.org/" target="_blank">
   <img src="/assets/ffh.png" alt="ffh" width="300" class="image-hover">
 </a>
 <br>
-* SOS Hépatites : Hépatites et maladies du foie
+* SOS Hépatites : Hépatites et maladies du foie <br>
 <a href="[https://soshepatites.org/" target="_blank">
   <img src="/assets/soshepatites.png" alt="soshepatites" width="300" class="image-hover">
 </a>
