@@ -87,7 +87,7 @@ body {
 <div class="container">
 
   <div class="image-container">
-    <img src="assets/pantogether.png" alt="Logo">
+    <img src="/assets/pantogether.png" alt="Logo">
 
     <div class="zone estomac" onclick="showInfo('estomac', this)"></div>
     <div class="zone foie" onclick="showInfo('foie', this)"></div>
