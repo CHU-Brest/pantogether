@@ -4,8 +4,8 @@ title: Associations de patients
 ---
 
 ## Cancers digestifs
-* [Fondation ARCAD](<https://www.fondationarcad.org/>) : Fondation d'Aide et Recherche en CAncérologie Digestive
-* <a href="[https://www.fondationarcad.org/" target="_blank">
+* Fondation d'Aide et Recherche en CAncérologie Digestive
+<a href="[https://www.fondationarcad.org/" target="_blank">
   <img src="/assets/arcad.jpg" alt="arcad" width="300" class="image-hover">
 </a>
 
