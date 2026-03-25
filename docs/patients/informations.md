@@ -11,5 +11,8 @@ title: Informations
 <a href="https://parislivercancergroup.com/pour-les-patients/#video-gallery-fabf4d9-5" target="_blank">
   <img src="/assets/PLCGCHC.png" alt="CHC" width="300">
 </a>
+<a href="https://parislivercancergroup.com/pour-les-patients/#video-gallery-fabf4d9-6" target="_blank">
+  <img src="/assets/PLCGCCA.png" alt="CCA" width="300">
+</a>
   
 ## Les cancers du pancréas 
