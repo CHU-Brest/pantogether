@@ -2,7 +2,7 @@
 title: Informations
 
 ---
-Généralités
+## Généralités
 <br>
 Les cancers de l'oesophage et de la jonction oesogastrique
 <br>
