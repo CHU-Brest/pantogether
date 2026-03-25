@@ -32,3 +32,85 @@ Boulevard Tanguy Prigent - 29200 BREST <br>
 kristell.oizel@chu-brest.fr <br>
 Tel : 02 98 22 39 80 <br> 
 </ul>
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Logo interactif</title>
+  <style>
+    .container {
+      display: flex;
+      gap: 40px;
+      align-items: center;
+    }
+
+    .image-container {
+      position: relative;
+      width: 400px;
+    }
+
+    .image-container img {
+      width: 100%;
+    }
+
+    .zone {
+      position: absolute;
+      cursor: pointer;
+    }
+
+    /* Exemple positions (à ajuster !) */
+    .estomac {
+      top: 60px;
+      left: 120px;
+      width: 100px;
+      height: 120px;
+    }
+
+    .foie {
+      top: 120px;
+      left: 90px;
+      width: 140px;
+      height: 80px;
+    }
+
+    .info {
+      width: 300px;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  
+  <div class="image-container">
+    <img src="logo.png" alt="Logo">
+
+    <div class="zone estomac" onclick="showInfo('estomac')"></div>
+    <div class="zone foie" onclick="showInfo('foie')"></div>
+
+  </div>
+
+  <div class="info" id="infoBox">
+    Clique sur un organe 👈
+  </div>
+
+</div>
+
+<script>
+function showInfo(organe) {
+  const infoBox = document.getElementById("infoBox");
+
+  if (organe === "estomac") {
+    infoBox.innerHTML = "<h3>Estomac</h3><p>L'estomac digère les aliments.</p>";
+  }
+
+  if (organe === "foie") {
+    infoBox.innerHTML = "<h3>Foie</h3><p>Le foie filtre les toxines et produit la bile.</p>";
+  }
+}
+</script>
+
+</body>
+</html>
