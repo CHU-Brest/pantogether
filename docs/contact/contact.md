@@ -1,94 +1,97 @@
 # Contact 
-<ul>
-<li><strong>Oesophage, Jonction Oeso-gastrique, Estomac :</strong></li> <br>
-<strong>Pr METGES Jean-Philippe</strong> & <strong>Dr BOURBONNE Vincent</strong> <br>
-CHU Brest - Hôpital de La Cavale Blanche <br>
-Institut de Cancérologie et d’Imagerie - Pôle 7 - 1er étage <br>
-Boulevard Tanguy Prigent, 29200 Brest <br>
-jean-philippe.metges@chu-brest.fr <br>
-BOURBONV@tcd.ie <br>
-<br>
-<li><strong>Foie et Voies Biliaires :</strong></li> <br>
-<strong>Pr GANNE-CARRIE Nathalie</strong> & <strong>Pr NAHON Pierre</strong> <br>
-Hôpital Avicenne, AP-HP <br>
-Service d'Hépatologie et d'oncologie Hépatique, Batiment Larrey A <br>
-125 rue de Stalingrad, 93000 Bobigny <br>
-nathalie.ganne@aphp.fr <br>
-pierre.nahon@aphp.fr <br>
-Tel secrétariat : 01 48 02 68 03 <br>
-<br>
-<li><strong>Pancréas :</strong></li> <br>
-<strong>Pr BACHET Jean-Baptiste</strong> <br> 
-Hôpital Pitié-Salpêtrière, AP-HP <br>
-Service d'hépato-gastro-entérologie <br>
-47-83 boulevard de l'Hôpital, 75013 Paris <br>
-jean-baptiste.bachet@aphp.fr <br>
-<br>
-<li><strong>Coordinatrice administrative du réseau</strong></li> <br>
-<strong>OIZEL Kristell</strong> <br>
-Institut de Cancérologie et d’Imagerie - Pôle 7 - 1er étage <br>
-CHU Brest - Hôpital de La Cavale Blanche <br>
-Boulevard Tanguy Prigent - 29200 BREST <br>
-kristell.oizel@chu-brest.fr <br>
-Tel : 02 98 22 39 80 <br> 
-</ul>
-
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <title>Logo interactif</title>
-  <style>
-    .container {
-      display: flex;
-      gap: 40px;
-      align-items: center;
-    }
+<meta charset="UTF-8">
+<title>Logo interactif</title>
 
-    .image-container {
-      position: relative;
-      width: 400px;
-    }
+<style>
+body {
+  font-family: Arial, sans-serif;
+}
 
-    .image-container img {
-      width: 100%;
-    }
+.container {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  padding: 20px;
+}
 
-    .zone {
-      position: absolute;
-      cursor: pointer;
-    }
+.image-container {
+  position: relative;
+  width: 420px;
+}
 
-    /* Exemple positions (à ajuster !) */
-    .estomac {
-      top: 60px;
-      left: 120px;
-      width: 100px;
-      height: 120px;
-    }
+/* Image */
+.image-container img {
+  width: 100%;
+  display: block;
+}
 
-    .foie {
-      top: 120px;
-      left: 90px;
-      width: 140px;
-      height: 80px;
-    }
+/* Zones interactives */
+.zone {
+  position: absolute;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
 
-    .info {
-      width: 300px;
-      font-size: 16px;
-    }
-  </style>
+/* Hover (survol) */
+.zone:hover {
+  background-color: rgba(0, 150, 255, 0.25);
+  transform: scale(1.05);
+}
+
+/* Actif (organe sélectionné) */
+.zone.active {
+  border: 3px solid #00aaff;
+  background-color: rgba(0, 150, 255, 0.2);
+}
+
+/* Positions (AJUSTÉES POUR TON IMAGE) */
+.estomac {
+  top: 40px;
+  left: 150px;
+  width: 120px;
+  height: 150px;
+}
+
+.foie {
+  top: 120px;
+  left: 110px;
+  width: 170px;
+  height: 90px;
+}
+
+.pancreas {
+  top: 180px;
+  left: 140px;
+  width: 140px;
+  height: 70px;
+}
+
+/* Zone texte */
+.info {
+  width: 320px;
+  min-height: 200px;
+  padding: 15px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  background: #fafafa;
+}
+</style>
 </head>
+
 <body>
 
 <div class="container">
-  
+
   <div class="image-container">
     <img src="assets/pantogether.png" alt="Logo">
 
-    <div class="zone estomac" onclick="showInfo('estomac')"></div>
-    <div class="zone foie" onclick="showInfo('foie')"></div>
+    <div class="zone estomac" onclick="showInfo('estomac', this)"></div>
+    <div class="zone foie" onclick="showInfo('foie', this)"></div>
+    <div class="zone pancreas" onclick="showInfo('pancreas', this)"></div>
 
   </div>
 
@@ -99,16 +102,35 @@ Tel : 02 98 22 39 80 <br>
 </div>
 
 <script>
-function showInfo(organe) {
+function showInfo(organe, element) {
   const infoBox = document.getElementById("infoBox");
 
-  if (organe === "estomac") {
-    infoBox.innerHTML = "<h3>Estomac</h3><p>L'estomac digère les aliments.</p>";
-  }
+  // reset tous les contours
+  document.querySelectorAll('.zone').forEach(z => z.classList.remove('active'));
 
-  if (organe === "foie") {
-    infoBox.innerHTML = "<h3>Foie</h3><p>Le foie filtre les toxines et produit la bile.</p>";
-  }
+  // active celui cliqué
+  element.classList.add('active');
+
+  // contenu dynamique
+  const data = {
+    estomac: {
+      title: "Estomac",
+      text: "Oesophage, Jonction Oeso-gastrique, Estomac"
+    },
+    foie: {
+      title: "Foie",
+      text: "Foie et Voies Biliaires"
+    },
+    pancreas: {
+      title: "Pancréas",
+      text: "Pancréas"
+    }
+  };
+
+  infoBox.innerHTML = `
+    <h3>${data[organe].title}</h3>
+    <p>${data[organe].text}</p>
+  `;
 }
 </script>
 
