@@ -18,10 +18,11 @@ pierre.nahon@aphp.fr <br>
 Tel secrétariat : 01 48 02 68 03 <br>
 <br>
 <li><strong>Pancréas :</strong></li> <br>
-<strong>Pr BACHET Jean-Baptiste</strong> & <strong>Pr SPANO Jean-Philippe</strong> <br> 
+<strong>Pr BACHET Jean-Baptiste</strong> <br> 
 Hôpital Pitié-Salpêtrière, AP-HP <br>
 Service d'hépato-gastro-entérologie <br>
 47-83 boulevard de l'Hôpital, 75013 Paris <br>
+jean-baptiste.bachet@aphp.fr <br>
 <br>
 <li><strong>Coordinatrice administrative du réseau</strong></li> <br>
 <strong>OIZEL Kristell</strong> <br>
