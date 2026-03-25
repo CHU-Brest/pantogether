@@ -8,16 +8,6 @@ title: Associations de patients
 <a href="[https://www.fondationarcad.org/" target="_blank">
   <img src="/assets/arcad.jpg" alt="arcad" width="300" class="image-hover">
 </a>
-
-<style>
-.image-hover {
-  transition: transform 0.3s ease;
-}
-
-.image-hover:hover {
-  transform: scale(1.05);
-}
-</style>
 <br>
 ## Foie et voies biliaires
 * ALBI : Association pour la lutte contre les maladies inflammatoires du foie et des voies biliaires <br>
