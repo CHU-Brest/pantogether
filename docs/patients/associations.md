@@ -10,7 +10,7 @@ title: Associations de patients
 </a>
 <br>
 
-## <span style="color:red">**Foie et voies biliaires**</span>
+## <span style="color:black">**Foie et voies biliaires**</span>
 
 <a href="https://albi-france.org" target="_blank">
   <img src="/assets/albi.png" alt="albi" width="300" class="image-hover">
@@ -36,4 +36,4 @@ title: Associations de patients
 }
 </style>
 
-## <span style="color:orange">**Pancréas**</span>
+## <span style="color:black">**Pancréas**</span>
