@@ -35,14 +35,14 @@ body {
 
   .image-container {
     width: 100%;
-    max-width: 400px;
+    max-width: 350px;
   }
 }
 
 /* IMAGE */
 .image-container {
   position: relative;
-  width: 320px;
+  width: 300px;
 }
 
 .image-container img {
@@ -95,7 +95,7 @@ body {
 
 /* FICHE INFO */
 .info {
-  width: 650px;
+  width: 700px;
   max-width: 100%;
   min-height: 300px;
   padding: 25px;
