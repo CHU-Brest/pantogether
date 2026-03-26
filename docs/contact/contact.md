@@ -64,7 +64,7 @@ body {
 }
 
 .pancreas {
-  top: 160px;
+  top: 170px;
   left: 120px;
   width: 120px;
   height: 50px;
@@ -96,7 +96,7 @@ body {
   </div>
 
   <div class="info" id="infoBox">
-    Clique sur un organe 👈
+    Cliquez sur un organe 👈
   </div>
 
 </div>
@@ -115,7 +115,14 @@ function showInfo(organe, element) {
   const data = {
     estomac: {
       title: "Estomac",
-      text: "Oesophage, Jonction Oeso-gastrique, Estomac"
+      text: "Oesophage, Jonction Oeso-gastrique, Estomac <br>
+        <strong>Pr METGES Jean-Philippe</strong> & <strong>Dr BOURBONNE Vincent</strong> <br>
+        CHU Brest - Hôpital de La Cavale Blanche <br>
+        Institut de Cancérologie et d’Imagerie - Pôle 7 - 1er étage <br>
+        Boulevard Tanguy Prigent, 29200 Brest <br>
+        jean-philippe.metges@chu-brest.fr <br>
+        BOURBONV@tcd.ie <br>
+"
     },
     foie: {
       title: "Foie",
