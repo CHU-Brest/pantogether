@@ -8,7 +8,15 @@ title: Evènements
 <a href="https://www.oncobretagne.fr/wp-content/uploads/2026/01/pre-programme-hepato2026.pdf" target="_blank">
   <img src="/assets/onco220526.png" alt="oncobretagne" width="200" class="image-hover">
 </a>
+<style>
+.image-hover {
+  transition: transform 0.3s ease;
+}
 
+.image-hover:hover {
+  transform: scale(1.05);
+}
+</style>
 ## Evènements passés :
 
 * **28 Novembre 2025** à **Saint-Malo** : Journées scientifiques d'Oncologie Digestive      
