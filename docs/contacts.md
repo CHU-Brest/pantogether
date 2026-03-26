@@ -209,12 +209,12 @@ const data = {
         <div class="header">
           <img src="/assets/chubrest.png" class="logo">
           <h2 style="color:#0077aa;">
-            Oesophage, Jonction Oeso-gastrique, Estomac
+            Axe Oesophage, Jonction Oeso-gastrique, Estomac
           </h2>
         </div>
 
         <div class="section" style="border-left-color:#0077aa;">
-          <h3>👨‍⚕️ Référents</h3>
+          <h3>👨‍⚕️ Médecins coordonnateurs</h3>
           <p>
             <strong>Pr METGES Jean-Philippe</strong><br>
             <strong>Dr BOURBONNE Vincent</strong>
@@ -255,12 +255,12 @@ const data = {
         <div class="header">
           <img src="/assets/chuavicenne.png" class="logo">
           <h2 style="color:#d62828;">
-            Foie et voies biliaires
+            Axe Foie et voies biliaires
           </h2>
         </div>
 
         <div class="section" style="border-left-color:#d62828;">
-          <h3>👨‍⚕️ Référents</h3>
+          <h3>👨‍⚕️ Médecins coordonnateurs </h3>
           <p>
             <strong>Pr GANNE-CARRIE Nathalie</strong><br>
             <strong>Pr NAHON Pierre</strong>
@@ -301,12 +301,12 @@ const data = {
         <div class="header">
           <img src="/assets/chupitie.png" class="logo">
           <h2 style="color:#f77f00;">
-            Pancréas
+            Axe Pancréas
           </h2>
         </div>
 
         <div class="section" style="border-left-color:#f77f00;">
-          <h3>👨‍⚕️ Référent</h3>
+          <h3>👨‍⚕️ Médecin coordonnateur </h3>
           <p>
             <strong>Pr BACHET Jean-Baptiste</strong><br>
           </p>
@@ -367,7 +367,7 @@ const data = {
         <p>
           <a href="mailto:kristell.oizel@chu-brest.fr">
             📩 kristell.oizel@chu-brest.fr <br>
-            Tel : 02 98 22 39 80
+            &#128222 : 02 98 22 39 80
           </a>
         </p>
       </div>
