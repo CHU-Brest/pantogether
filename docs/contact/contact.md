@@ -87,8 +87,8 @@ body {
 }
 
 .pancreas {
-  top: 120px;
-  left: 80px;
+  top: 125px;
+  left: 85px;
   width: 110px;
   height: 50px;
 }
@@ -113,7 +113,7 @@ body {
 }
 
 .logo {
-  width: 70px;
+  width: 90px;
 }
 
 /* TITRE */
