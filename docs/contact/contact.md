@@ -113,15 +113,34 @@ function showInfo(organe, element) {
 
   // contenu dynamique
   const data = {
-    estomac: {
-      title: "Oesophage, Jonction Oeso-gastrique, Estomac",
-      text: "<strong>Pr METGES Jean-Philippe</strong> & <strong>Dr BOURBONNE Vincent</strong> <br>
-        CHU Brest - Hôpital de La Cavale Blanche <br>
-        Institut de Cancérologie et d’Imagerie - Pôle 7 - 1er étage <br>
-        Boulevard Tanguy Prigent, 29200 Brest <br>
-        jean-philippe.metges@chu-brest.fr <br>
-        BOURBONV@tcd.ie <br>
-"
+  estomac: {
+    title: "Oesophage, Jonction Oeso-gastrique, Estomac",
+    text: `
+      <div class="card">
+        <h3>👨‍⚕️ Référents</h3>
+        <p><strong>Pr METGES Jean-Philippe</strong><br>
+        <strong>Dr BOURBONNE Vincent</strong></p>
+
+        <h3>🏥 Établissement</h3>
+        <p>
+          CHU Brest - Hôpital de La Cavale Blanche<br>
+          Institut de Cancérologie et d’Imagerie<br>
+          Pôle 7 - 1er étage<br>
+          Boulevard Tanguy Prigent<br>
+          29200 Brest
+        </p>
+
+        <h3>📧 Contact</h3>
+        <p>
+          <a href="mailto:jean-philippe.metges@chu-brest.fr">
+            jean-philippe.metges@chu-brest.fr
+          </a><br>
+          <a href="mailto:BOURBONV@tcd.ie">
+            BOURBONV@tcd.ie
+          </a>
+        </p>
+      </div>
+    `
     },
     foie: {
       title: "Foie",
