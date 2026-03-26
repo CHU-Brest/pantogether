@@ -347,13 +347,12 @@ const data = {
       </div>
 
       <div class="section" style="border-left-color:#6c757d;">
-         <div class="section" style="border-left-color:#f77f00;">
           <h3>👨‍⚕️ Référent</h3>
           <p>
             <strong>Mme Oizel Kristell</strong><br>
           </p>
         </div>
-<div class="section" style="border-left-color:#0077aa;">
+<div class="section" style="border-left-color:#6c757d;">
           <h3>🏥 Établissement</h3>
           <p>
             CHU Brest - Hôpital de La Cavale Blanche<br>
