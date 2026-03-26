@@ -1,4 +1,3 @@
-# Contact 
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -75,21 +74,21 @@ body {
 /* POSITIONS (TES VALEURS CONSERVÉES) */
 .estomac {
   top: 30px;
-  left: 140px;
+  left: 110px;
   width: 100px;
   height: 100px;
 }
 
 .foie {
-  top: 120px;
-  left: 90px;
+  top: 90px;
+  left: 80px;
   width: 150px;
   height: 70px;
 }
 
 .pancreas {
-  top: 170px;
-  left: 120px;
+  top: 130px;
+  left: 100px;
   width: 120px;
   height: 50px;
 }
@@ -210,7 +209,7 @@ const data = {
         </div>
 
         <div class="section" style="border-left-color:#0077aa;">
-          <h3>📧 Contact</h3>
+          <h3>📧 Contacts</h3>
           <p>
             <a href="mailto:jean-philippe.metges@chu-brest.fr">
               📩 jean-philippe.metges@chu-brest.fr
