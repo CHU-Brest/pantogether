@@ -152,6 +152,27 @@ body {
 .section a:hover {
   text-decoration: underline;
 }
+  
+.left-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.admin-link {
+  margin-top: 15px;
+  font-size: 16px;
+  color: #0077aa;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.2s;
+}
+
+.admin-link:hover {
+  text-decoration: underline;
+  transform: scale(1.05);
+}
+  
 </style>
 </head>
 
@@ -159,6 +180,7 @@ body {
 
 <div class="container">
 
+ <div class="left-block">
   <div class="image-container">
     <img src="/assets/pantogether.png" alt="Logo">
 
@@ -166,6 +188,12 @@ body {
     <div class="zone foie" onclick="showInfo('foie', this)"></div>
     <div class="zone pancreas" onclick="showInfo('pancreas', this)"></div>
   </div>
+
+  <!-- 👇 NOUVEAU LIEN -->
+  <div class="admin-link" onclick="showInfo('admin', this)">
+    📋 Coordination administrative
+  </div>
+</div>
 
   <div class="info" id="infoBox">
     Cliquez sur un organe 👈
@@ -310,20 +338,55 @@ const data = {
       </div>
     `
   }
+    
+  admin: {
+  text: `
+    <div class="card">
+
+      <div class="header">
+        <img src="chubrest.png" class="logo">
+        <h2 style="color:#6c757d;">
+          Coordination administrative
+        </h2>
+      </div>
+
+      <div class="section" style="border-left-color:#6c757d;">
+        <h3>📋 Service</h3>
+        <p>
+          Coordination du réseau PAN-TOGETHER <br>
+        </p>
+      </div>
+
+      <div class="section" style="border-left-color:#6c757d;">
+        <h3>📧 Contact</h3>
+        <p>
+          <a href="mailto:kristell.oizel@chu-brest.fr">
+            📩 kristell.oizel@chu-brest.fr
+            Tel : 02 98 22 39 80
+          </a>
+        </p>
+      </div>
+
+    </div>
+  `
+}
 };
 
 function showInfo(organe, element) {
   const infoBox = document.getElementById("infoBox");
 
   // reset zones
-  document.querySelectorAll('.zone').forEach(z => z.classList.remove('active'));
-  element.classList.add('active');
+  document.querySelectorAll('.zone, .admin-link')
+  .forEach(el => el.classList.remove('active'));
+
+element.classList.add('active');
 
   // couleurs
   const colors = {
     estomac: "#0077aa",
     foie: "#d62828",
     pancreas: "#f77f00"
+    admin: "#6c757d"
   };
 
   const color = colors[organe];
