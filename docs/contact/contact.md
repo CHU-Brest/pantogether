@@ -6,49 +6,73 @@
 <title>Logo interactif</title>
 
 <style>
+/* RESET */
 body {
+  margin: 0;
   font-family: Arial, sans-serif;
+  background: #f5f7fa;
 }
 
+/* LAYOUT */
 .container {
   display: flex;
-  gap: 40px;
-  align-items: center;
-  padding: 20px;
+  gap: 30px;
+  padding: 30px;
+  align-items: flex-start;
+  justify-content: center;
 }
 
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+  }
+
+  .info {
+    width: 100%;
+  }
+
+  .image-container {
+    width: 100%;
+    max-width: 400px;
+  }
+}
+
+/* IMAGE */
 .image-container {
   position: relative;
   width: 420px;
 }
 
-/* Image */
 .image-container img {
   width: 100%;
   display: block;
+  border-radius: 12px;
 }
 
-/* Zones interactives */
+/* ZONES INTERACTIVES */
 .zone {
   position: absolute;
   border-radius: 50%;
-  transition: all 0.3s ease;
   cursor: pointer;
+  transition: all 0.25s ease;
 }
 
-/* Hover (survol) */
+/* HOVER */
 .zone:hover {
-  background-color: rgba(0, 150, 255, 0.25);
-  transform: scale(1.05);
+  transform: scale(1.08);
+  background-color: rgba(0, 150, 255, 0.15);
 }
 
-/* Actif (organe sélectionné) */
+/* ACTIF */
 .zone.active {
-  border: 3px solid #00aaff;
+  border: 3px solid #333;
   background-color: rgba(0, 150, 255, 0.2);
 }
 
-/* Positions (AJUSTÉES POUR TON IMAGE) */
+/* POSITIONS (TES VALEURS CONSERVÉES) */
 .estomac {
   top: 30px;
   left: 140px;
@@ -70,14 +94,64 @@ body {
   height: 50px;
 }
 
-/* Zone texte */
+/* FICHE INFO */
 .info {
-  width: 320px;
-  min-height: 200px;
-  padding: 15px;
-  border: 2px solid #ddd;
-  border-radius: 10px;
-  background: #fafafa;
+  width: 520px;
+  min-height: 280px;
+  padding: 20px;
+  border-radius: 14px;
+  background: #ffffff;
+  box-shadow: 0 6px 25px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
+
+/* HEADER AVEC LOGO */
+.header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.logo {
+  width: 50px;
+}
+
+/* TITRE */
+.card h2 {
+  margin: 0;
+  font-size: 20px;
+}
+
+/* SECTIONS */
+.section {
+  margin-bottom: 15px;
+  padding: 12px;
+  border-left: 4px solid #ccc;
+  background: #f9fbfc;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.section h3 {
+  margin: 0 0 5px;
+  font-size: 15px;
+}
+
+.section p {
+  margin: 0;
+  line-height: 1.5;
+}
+
+/* LIENS */
+.section a {
+  color: #0077aa;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.section a:hover {
+  text-decoration: underline;
 }
 </style>
 </head>
@@ -92,7 +166,6 @@ body {
     <div class="zone estomac" onclick="showInfo('estomac', this)"></div>
     <div class="zone foie" onclick="showInfo('foie', this)"></div>
     <div class="zone pancreas" onclick="showInfo('pancreas', this)"></div>
-
   </div>
 
   <div class="info" id="infoBox">
@@ -100,6 +173,9 @@ body {
   </div>
 
 </div>
+
+</body>
+</html>
 
 <script>
 function showInfo(organe, element) {
