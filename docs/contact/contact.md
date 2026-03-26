@@ -178,12 +178,70 @@ body {
 </html>
 
 <script>
+const data = {
+  estomac: {
+    text: `
+      <div class="card">
+
+        <div class="header">
+          <img src="chubrest.png" class="logo">
+          <h2 style="color:#0077aa;">
+            Oesophage, Jonction Oeso-gastrique, Estomac
+          </h2>
+        </div>
+
+        <div class="section" style="border-left-color:#0077aa;">
+          <h3>👨‍⚕️ Référents</h3>
+          <p>
+            <strong>Pr METGES Jean-Philippe</strong><br>
+            <strong>Dr BOURBONNE Vincent</strong>
+          </p>
+        </div>
+
+        <div class="section" style="border-left-color:#0077aa;">
+          <h3>🏥 Établissement</h3>
+          <p>
+            CHU Brest - Hôpital de La Cavale Blanche<br>
+            Institut de Cancérologie et d’Imagerie<br>
+            Pôle 7 - 1er étage<br>
+            Boulevard Tanguy Prigent<br>
+            29200 Brest
+          </p>
+        </div>
+
+        <div class="section" style="border-left-color:#0077aa;">
+          <h3>📧 Contact</h3>
+          <p>
+            <a href="mailto:jean-philippe.metges@chu-brest.fr">
+              📩 jean-philippe.metges@chu-brest.fr
+            </a><br>
+            <a href="mailto:BOURBONV@tcd.ie">
+              📩 BOURBONV@tcd.ie
+            </a>
+          </p>
+        </div>
+
+      </div>
+    `
+  },
+
+  foie: {
+    text: `<h3 style="color:#d62828;">Foie</h3><p>Foie et voies biliaires</p>`
+  },
+
+  pancreas: {
+    text: `<h3 style="color:#f77f00;">Pancréas</h3><p>Informations pancréas</p>`
+  }
+};
+
 function showInfo(organe, element) {
   const infoBox = document.getElementById("infoBox");
 
+  // reset zones
   document.querySelectorAll('.zone').forEach(z => z.classList.remove('active'));
   element.classList.add('active');
 
+  // couleurs
   const colors = {
     estomac: "#0077aa",
     foie: "#d62828",
@@ -192,74 +250,10 @@ function showInfo(organe, element) {
 
   const color = colors[organe];
 
+  // affichage contenu
   infoBox.innerHTML = data[organe].text;
 
-  // applique la couleur dynamique
+  // bordure dynamique
   infoBox.style.borderTop = `6px solid ${color}`;
 }
-  // contenu dynamique
-  const data = {
-  estomac: {
-  text: `
-    <div class="card">
-
-      <div class="header">
-        <img src="chubrest.png" class="logo">
-        <h2 style="color:#0077aa;">
-          Oesophage, Jonction Oeso-gastrique, Estomac
-        </h2>
-      </div>
-
-      <div class="section" style="border-left-color:#0077aa;">
-        <h3>👨‍⚕️ Référents</h3>
-        <p>
-          <strong>Pr METGES Jean-Philippe</strong><br>
-          <strong>Dr BOURBONNE Vincent</strong>
-        </p>
-      </div>
-
-      <div class="section" style="border-left-color:#0077aa;">
-        <h3>🏥 Établissement</h3>
-        <p>
-          CHU Brest - Hôpital de La Cavale Blanche<br>
-          Institut de Cancérologie et d’Imagerie<br>
-          Pôle 7 - 1er étage<br>
-          Boulevard Tanguy Prigent<br>
-          29200 Brest
-        </p>
-      </div>
-
-      <div class="section" style="border-left-color:#0077aa;">
-        <h3>📧 Contact</h3>
-        <p>
-          <a href="mailto:jean-philippe.metges@chu-brest.fr">
-            📩 jean-philippe.metges@chu-brest.fr
-          </a><br>
-          <a href="mailto:BOURBONV@tcd.ie">
-            📩 BOURBONV@tcd.ie
-          </a>
-        </p>
-      </div>
-
-    </div>
-  `
-},
-    foie: {
-      title: "Foie",
-      text: "Foie et Voies Biliaires"
-    },
-    pancreas: {
-      title: "Pancréas",
-      text: "Pancréas"
-    }
-  };
-
-  infoBox.innerHTML = `
-    <h3>${data[organe].title}</h3>
-    <p>${data[organe].text}</p>
-  `;
-}
 </script>
-
-</body>
-</html>
