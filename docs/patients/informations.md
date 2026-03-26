@@ -2,9 +2,9 @@
 title: Informations
 
 ---
-## <span style="color:blue">**Les cancers de l'oesophage et de la jonction oesogastrique**</span>
+## <span style="color:black">**Les cancers de l'oesophage et de la jonction oesogastrique**</span>
 
-## <span style="color:red">**Les cancers du foie et des voies biliaires**</span> 
+## <span style="color:black">**Les cancers du foie et des voies biliaires**</span> 
 Rendez-vous sur le site de l'association de <b><a href="https://parislivercancergroup.com" target="_blank">Paris Liver Cancer Group</a></b> pour des vidéos explicatives sur les cancers du foie et leurs traitments <br>
 <br>
 
@@ -25,4 +25,4 @@ Rendez-vous sur le site de l'association de <b><a href="https://parislivercancer
 }
 </style>
 
-## <span style="color:orange">**Les cancers du pancréas**</span> 
+## <span style="color:black">**Les cancers du pancréas**</span> 
