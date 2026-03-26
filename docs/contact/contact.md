@@ -58,16 +58,16 @@ body {
 
 .foie {
   top: 120px;
-  left: 110px;
-  width: 170px;
-  height: 90px;
+  left: 90px;
+  width: 150px;
+  height: 70px;
 }
 
 .pancreas {
-  top: 180px;
-  left: 140px;
-  width: 140px;
-  height: 70px;
+  top: 160px;
+  left: 120px;
+  width: 120px;
+  height: 50px;
 }
 
 /* Zone texte */
