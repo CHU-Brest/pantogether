@@ -80,15 +80,15 @@ body {
 }
 
 .foie {
-  top: 90px;
-  left: 60px;
+  top: 95px;
+  left: 70px;
   width: 140px;
   height: 60px;
 }
 
 .pancreas {
-  top: 125px;
-  left: 85px;
+  top: 135px;
+  left: 100px;
   width: 110px;
   height: 50px;
 }
@@ -347,17 +347,27 @@ const data = {
       </div>
 
       <div class="section" style="border-left-color:#6c757d;">
-        <h3>📋 Service</h3>
-        <p>
-          Coordination du réseau PAN-TOGETHER <br>
-        </p>
-      </div>
-
+         <div class="section" style="border-left-color:#f77f00;">
+          <h3>👨‍⚕️ Référent</h3>
+          <p>
+            <strong>Mme Oizel Kristell</strong><br>
+          </p>
+        </div>
+<div class="section" style="border-left-color:#0077aa;">
+          <h3>🏥 Établissement</h3>
+          <p>
+            CHU Brest - Hôpital de La Cavale Blanche<br>
+            Institut de Cancérologie et d’Imagerie<br>
+            Pôle 7 - 1er étage<br>
+            Boulevard Tanguy Prigent<br>
+            29200 Brest
+          </p>
+        </div>
       <div class="section" style="border-left-color:#6c757d;">
         <h3>📧 Contact</h3>
         <p>
           <a href="mailto:kristell.oizel@chu-brest.fr">
-            📩 kristell.oizel@chu-brest.fr
+            📩 kristell.oizel@chu-brest.fr <br>
             Tel : 02 98 22 39 80
           </a>
         </p>
