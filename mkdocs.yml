@@ -27,8 +27,7 @@ nav:
   - Agenda:
     - agenda/evenements.md
     - agenda/formations.md
-  - Contacts:
-    - contacts.md
+  - Contacts: contacts.md
 
 markdown_extensions:
   - admonition
