@@ -73,23 +73,23 @@ body {
 
 /* POSITIONS (TES VALEURS CONSERVÉES) */
 .estomac {
-  top: 30px;
-  left: 110px;
+  top: 25px;
+  left: 90px;
   width: 100px;
-  height: 100px;
+  height: 90px;
 }
 
 .foie {
   top: 90px;
-  left: 80px;
-  width: 150px;
-  height: 70px;
+  left: 60px;
+  width: 140px;
+  height: 60px;
 }
 
 .pancreas {
-  top: 130px;
-  left: 100px;
-  width: 120px;
+  top: 120px;
+  left: 80px;
+  width: 110px;
   height: 50px;
 }
 
@@ -113,7 +113,7 @@ body {
 }
 
 .logo {
-  width: 50px;
+  width: 70px;
 }
 
 /* TITRE */
