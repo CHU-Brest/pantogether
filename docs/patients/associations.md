@@ -3,13 +3,14 @@ title: Associations de patients
 
 ---
 
-## Cancers digestifs
+## <span style="color:black">**Cancers digestifs**</span>  
 
 <a href="https://www.fondationarcad.org" target="_blank">
   <img src="/assets/arcad.jpg" alt="arcad" width="300" class="image-hover">
 </a>
 <br>
-## Foie et voies biliaires
+
+## <span style="color:red">**Foie et voies biliaires**</span>
 
 <a href="https://albi-france.org" target="_blank">
   <img src="/assets/albi.png" alt="albi" width="300" class="image-hover">
@@ -35,4 +36,4 @@ title: Associations de patients
 }
 </style>
 
-## Pancréas
+## <span style="color:orange">**Pancréas**</span>
