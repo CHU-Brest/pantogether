@@ -225,11 +225,90 @@ const data = {
   },
 
   foie: {
-    text: `<h3 style="color:#d62828;">Foie</h3><p>Foie et voies biliaires</p>`
+    text: `
+      <div class="card">
+
+        <div class="header">
+          <img src="/assets/chuavicenne.png" class="logo">
+          <h2 style="color:#d62828;">
+            Foie et voies biliaires
+          </h2>
+        </div>
+
+        <div class="section" style="border-left-color:#d62828;">
+          <h3>👨‍⚕️ Référents</h3>
+          <p>
+            <strong>Pr GANNE-CARRIE Nathalie</strong><br>
+            <strong>Pr NAHON Pierre</strong>
+          </p>
+        </div>
+
+        <div class="section" style="border-left-color:#d62828;">
+          <h3>🏥 Établissement</h3>
+          <p>
+            Hôpital Avicenne, AP-HP <br>
+            Service d'Hépatologie et d'oncologie Hépatique <br>
+            Bâtiment Larrey A <br>
+            125 rue de Stalingrad <br>
+            93000 Bobigny 
+          </p>
+        </div>
+
+        <div class="section" style="border-left-color:#d62828;">
+          <h3>📧 Contacts</h3>
+          <p>
+            <a href="mailto:nathalie.ganne@aphp.fr">
+              📩 nathalie.ganne@aphp.fr 
+            </a><br>
+            <a href="mailto:pierre.nahon@aphp.fr">
+              📩 pierre.nahon@aphp.fr
+            </a>
+          </p>
+        </div>
+
+      </div>
+    `
   },
 
   pancreas: {
-    text: `<h3 style="color:#f77f00;">Pancréas</h3><p>Informations pancréas</p>`
+    text: `
+      <div class="card">
+
+        <div class="header">
+          <img src="/assets/chupitie.png" class="logo">
+          <h2 style="color:#f77f00;">
+            Pancréas
+          </h2>
+        </div>
+
+        <div class="section" style="border-left-color:#f77f00;">
+          <h3>👨‍⚕️ Référent</h3>
+          <p>
+            <strong>Pr BACHET Jean-Baptiste</strong><br>
+          </p>
+        </div>
+
+        <div class="section" style="border-left-color:#f77f00;">
+          <h3>🏥 Établissement</h3>
+          <p>
+            Hôpital Pitié-Salpêtrière, AP-HP <br>
+            Service d'hépato-gastro-entérologie <br>
+            47-83 boulevard de l'Hôpital <br>
+            75013 Paris  
+          </p>
+        </div>
+
+        <div class="section" style="border-left-color:#f77f00;">
+          <h3>📧 Contact</h3>
+          <p>
+            <a href="mailto:jean-baptiste.bachet@aphp.fr">
+              📩 jean-baptiste.bachet@aphp.fr 
+            </a><br>
+          </p>
+        </div>
+
+      </div>
+    `
   }
 };
 
