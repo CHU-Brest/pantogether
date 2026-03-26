@@ -30,7 +30,7 @@ body {
   }
 
   .info {
-    width: 100%;
+    flex: 1;
   }
 
   .image-container {
@@ -42,7 +42,7 @@ body {
 /* IMAGE */
 .image-container {
   position: relative;
-  width: 420px;
+  width: 320px;
 }
 
 .image-container img {
@@ -95,9 +95,10 @@ body {
 
 /* FICHE INFO */
 .info {
-  width: 520px;
-  min-height: 280px;
-  padding: 20px;
+  width: 650px;
+  max-width: 100%;
+  min-height: 300px;
+  padding: 25px;
   border-radius: 14px;
   background: #ffffff;
   box-shadow: 0 6px 25px rgba(0,0,0,0.08);
