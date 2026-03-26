@@ -81,14 +81,14 @@ body {
 
 .foie {
   top: 90px;
-  left: 75px;
+  left: 65px;
   width: 140px;
   height: 60px;
 }
 
 .pancreas {
   top: 130px;
-  left: 110px;
+  left: 90px;
   width: 110px;
   height: 50px;
 }
