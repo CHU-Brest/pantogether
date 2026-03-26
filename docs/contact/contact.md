@@ -153,12 +153,6 @@ body {
   text-decoration: underline;
 }
   
-.left-block {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .admin-link {
   margin-top: 15px;
   font-size: 16px;
@@ -179,8 +173,6 @@ body {
 <body>
 
 <div class="container">
-
- <div class="left-block">
   <div class="image-container">
     <img src="/assets/pantogether.png" alt="Logo">
 
@@ -189,10 +181,10 @@ body {
     <div class="zone pancreas" onclick="showInfo('pancreas', this)"></div>
   </div>
 
-  <!-- 👇 NOUVEAU LIEN -->
-  <div class="admin-link" onclick="showInfo('admin', this)">
-    📋 Coordination administrative
-  </div>
+  <!-- ✅ AJOUT SIMPLE -->
+<div class="admin-link" onclick="showInfo('admin', this)">
+  📋 Coordination administrative
+</div>
 </div>
 
   <div class="info" id="infoBox">
@@ -366,7 +358,6 @@ const data = {
           </a>
         </p>
       </div>
-
     </div>
   `
 }
@@ -375,26 +366,22 @@ const data = {
 function showInfo(organe, element) {
   const infoBox = document.getElementById("infoBox");
 
-  // reset zones
-  document.querySelectorAll('.zone, .admin-link')
-  .forEach(el => el.classList.remove('active'));
+  // reset zones uniquement
+  document.querySelectorAll('.zone').forEach(z => z.classList.remove('active'));
 
-element.classList.add('active');
+  // active seulement si c'est une zone
+  if (element.classList.contains('zone')) {
+    element.classList.add('active');
+  }
 
-  // couleurs
   const colors = {
     estomac: "#0077aa",
     foie: "#d62828",
-    pancreas: "#f77f00"
+    pancreas: "#f77f00",
     admin: "#6c757d"
   };
 
-  const color = colors[organe];
-
-  // affichage contenu
   infoBox.innerHTML = data[organe].text;
-
-  // bordure dynamique
-  infoBox.style.borderTop = `6px solid ${color}`;
+  infoBox.style.borderTop = `6px solid ${colors[organe]}`;
 }
 </script>
