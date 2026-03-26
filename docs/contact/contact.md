@@ -340,7 +340,7 @@ const data = {
     <div class="card">
 
       <div class="header">
-        <img src="chubrest.png" class="logo">
+        <img src="/assets/chubrest.png" class="logo">
         <h2 style="color:#6c757d;">
           Coordination administrative
         </h2>
