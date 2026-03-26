@@ -105,22 +105,44 @@ body {
 function showInfo(organe, element) {
   const infoBox = document.getElementById("infoBox");
 
-  // reset tous les contours
   document.querySelectorAll('.zone').forEach(z => z.classList.remove('active'));
-
-  // active celui cliqué
   element.classList.add('active');
 
+  const colors = {
+    estomac: "#0077aa",
+    foie: "#d62828",
+    pancreas: "#f77f00"
+  };
+
+  const color = colors[organe];
+
+  infoBox.innerHTML = data[organe].text;
+
+  // applique la couleur dynamique
+  infoBox.style.borderTop = `6px solid ${color}`;
+}
   // contenu dynamique
   const data = {
   estomac: {
-    title: "Oesophage, Jonction Oeso-gastrique, Estomac",
-    text: `
-      <div class="card">
-        <h3>👨‍⚕️ Référents</h3>
-        <p><strong>Pr METGES Jean-Philippe</strong><br>
-        <strong>Dr BOURBONNE Vincent</strong></p>
+  text: `
+    <div class="card">
 
+      <div class="header">
+        <img src="chubrest.png" class="logo">
+        <h2 style="color:#0077aa;">
+          Oesophage, Jonction Oeso-gastrique, Estomac
+        </h2>
+      </div>
+
+      <div class="section" style="border-left-color:#0077aa;">
+        <h3>👨‍⚕️ Référents</h3>
+        <p>
+          <strong>Pr METGES Jean-Philippe</strong><br>
+          <strong>Dr BOURBONNE Vincent</strong>
+        </p>
+      </div>
+
+      <div class="section" style="border-left-color:#0077aa;">
         <h3>🏥 Établissement</h3>
         <p>
           CHU Brest - Hôpital de La Cavale Blanche<br>
@@ -129,19 +151,23 @@ function showInfo(organe, element) {
           Boulevard Tanguy Prigent<br>
           29200 Brest
         </p>
+      </div>
 
+      <div class="section" style="border-left-color:#0077aa;">
         <h3>📧 Contact</h3>
         <p>
           <a href="mailto:jean-philippe.metges@chu-brest.fr">
-            jean-philippe.metges@chu-brest.fr
+            📩 jean-philippe.metges@chu-brest.fr
           </a><br>
           <a href="mailto:BOURBONV@tcd.ie">
-            BOURBONV@tcd.ie
+            📩 BOURBONV@tcd.ie
           </a>
         </p>
       </div>
-    `
-    },
+
+    </div>
+  `
+},
     foie: {
       title: "Foie",
       text: "Foie et Voies Biliaires"
