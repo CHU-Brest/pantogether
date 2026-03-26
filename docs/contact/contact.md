@@ -173,20 +173,23 @@ body {
 <body>
 
 <div class="container">
-  <div class="image-container">
-    <img src="/assets/pantogether.png" alt="Logo">
 
-    <div class="zone estomac" onclick="showInfo('estomac', this)"></div>
-    <div class="zone foie" onclick="showInfo('foie', this)"></div>
-    <div class="zone pancreas" onclick="showInfo('pancreas', this)"></div>
+  <!-- BLOC GAUCHE -->
+  <div>
+    <div class="image-container">
+      <img src="/assets/pantogether.png" alt="Logo">
+
+      <div class="zone estomac" onclick="showInfo('estomac', this)"></div>
+      <div class="zone foie" onclick="showInfo('foie', this)"></div>
+      <div class="zone pancreas" onclick="showInfo('pancreas', this)"></div>
+    </div>
+
+    <div class="admin-link" onclick="showInfo('admin', this)">
+      📋 Coordination administrative
+    </div>
   </div>
 
-  <!-- ✅ AJOUT SIMPLE -->
-<div class="admin-link" onclick="showInfo('admin', this)">
-  📋 Coordination administrative
-</div>
-</div>
-
+  <!-- BLOC DROIT (LA CARD) -->
   <div class="info" id="infoBox">
     Cliquez sur un organe 👈
   </div>
@@ -329,7 +332,7 @@ const data = {
 
       </div>
     `
-  }
+  },
     
   admin: {
   text: `
