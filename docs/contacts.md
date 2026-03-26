@@ -80,15 +80,15 @@ body {
 }
 
 .foie {
-  top: 80px;
-  left: 70px;
+  top: 90px;
+  left: 75px;
   width: 140px;
   height: 60px;
 }
 
 .pancreas {
-  top: 120px;
-  left: 100px;
+  top: 130px;
+  left: 110px;
   width: 110px;
   height: 50px;
 }
