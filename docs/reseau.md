@@ -11,4 +11,4 @@ Chaque centre référent pilote le projet à l’échelle nationale en s’appuy
 Le réseau compte plus de **52 centres experts** métropolitains et ultramarins. Ils ont été sélectionnés selon des critères d'excellence, incluant une file active importante de patients, un accès systématique aux essais cliniques innovants, et une production scientifique reconnue.   
 Ils ont pour rôle de structurer et d’animer le réseau en établissant des conventions de collaboration régionales et/ou inter-régionales avec les centres de proximité, les médecins généralistes et spécialistes, garantissant l'accès à des **plateformes diagnostiques et interventionnelles de pointe**. Ils permettent la concertation d’experts grâce à l’organisation de **RCP spécialisées** et veillent à ce que les **essais thérapeutiques** soient accessibles au plus grand nombre de patients, indépendamment de leur lieu de résidence.
 
-[⬅ Retour](README.md)
+[⬅ Retour](index.md)
