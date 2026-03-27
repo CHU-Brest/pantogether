@@ -2,7 +2,7 @@
 title: Informations
 
 ---
-Rendez-vous sur le site de la fondation <b><a href="https://www.fondationarcad.org/les-cancers-digestifs/tous-les-guides-a-r-ca-d/#Tlchargement" target="_blank"></a>ARCAD </b> pour retrouver tous les guides à destination des patients sur les cancers digestifs <br>
+Rendez-vous sur le site de la fondation <b><a href="https://www.fondationarcad.org/les-cancers-digestifs/tous-les-guides-a-r-ca-d/#Tlchargement" target="_blank">ARCAD</a></b> pour retrouver tous les guides à destination des patients sur les cancers digestifs <br>
 & <br>
 Rendez-vous sur le site de l'association de <b><a href="https://parislivercancergroup.com" target="_blank">Paris Liver Cancer Group</a></b> pour des vidéos explicatives sur les cancers du foie et leurs traitments <br>
 <br>
