@@ -24,7 +24,7 @@ Chaque branche est supervisée par un centre expert référent, garantissant une
 couverture nationale étendue et homogène. 
 
 <a href="/docs/reseau.md">
-  <img src="/assets/reseau.png" width="300" class="image-hover">
+  <img src="/assets/reseau2.png" width="300" class="image-hover">
 </a>
 
 ## Les missions du réseau   
