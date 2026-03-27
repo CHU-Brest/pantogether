@@ -23,7 +23,7 @@ Il est organisé selon une structure arborescente, englobant trois branches prin
 Chaque branche est supervisée par un centre expert référent, garantissant une 
 couverture nationale étendue et homogène. 
 
-[![Le réseau](/assets/structure.png)](reseau.md)
+[![Le réseau](/assets/reseau.png)](reseau.md)
 
 ## Les missions du réseau   
    
