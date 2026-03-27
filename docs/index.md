@@ -30,6 +30,8 @@ couverture nationale étendue et homogène.
   <img src="./assets/missions.png" width="300" class="image-hover">
 </a>
 
+[TEST RESEAU](docs/reseau.md)
+
 <span style="font-size:25px">      
 <span style="color:orange">
 **PAN-TOGETHER : POUR l’AMELIORATION ENSEMBLE DU PRONOSTIC des cancers digestifs de sombre pronostic**
