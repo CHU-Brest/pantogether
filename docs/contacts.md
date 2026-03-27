@@ -270,7 +270,7 @@ const data = {
         <div class="section" style="border-left-color:#d62828;">
           <h3>🏥 Établissement</h3>
           <p>
-            Hôpital Avicenne, AP-HP <br>
+            CHU Avicenne, AP-HP <br>
             Service d'Hépatologie et d'oncologie Hépatique <br>
             Bâtiment Larrey A <br>
             125 rue de Stalingrad <br>
