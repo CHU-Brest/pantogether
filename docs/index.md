@@ -23,19 +23,12 @@ Il est organisé selon une structure arborescente, englobant trois branches prin
 Chaque branche est supervisée par un centre expert référent, garantissant une 
 couverture nationale étendue et homogène. 
 
-<a href="./docs/reseau.md">
+<a href="/pantogether/docs/reseau.md">
   <img src="/assets/reseau2.png" width="300" class="image-hover">
 </a>
-
-## Les missions du réseau   
-   
-Les objectifs du réseau d'excellence Pan-Together sont de permettre :    
-
-- une **harmonisation de l’offre de soins** sur le territoire national, conformément aux réglementations en vigueur
-- une **accélération de la prise en charge du patient**, en permettant un accès rapide aux centres ressources  
-- une possibilité d’**accès aux essais thérapeutiques innovants** pour tous les patients sur l’ensemble du territoire 
-- une **optimisation personnalisée de la prise en charge** globale et multi-professionelle du patient, du diagnostic au traitement en passant par les soins de support
-
+<a href="./docs/missions.md">
+  <img src="/assets/missions.png" width="300" class="image-hover">
+</a>
 
 <span style="font-size:25px">      
 <span style="color:orange">
