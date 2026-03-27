@@ -24,13 +24,12 @@ Chaque branche est supervisée par un centre expert référent, garantissant une
 couverture nationale étendue et homogène. 
 
 <a href="reseau.md">
-  <img src="assets/reseau2.png" width="300" class="image-hover">
+  <img src="assets/reseau2.png" width="300">
 </a>
 <a href="missions.md">
-  <img src="assets/missions.png" width="300" class="image-hover">
+  <img src="assets/missions.png" width="300">
 </a>
 
-[TEST RESEAU](reseau.md)
 
 <span style="font-size:25px">      
 <span style="color:orange">
