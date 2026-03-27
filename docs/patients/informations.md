@@ -21,6 +21,7 @@ Rendez-vous sur le site de l'association de <b><a href="https://parislivercancer
 <a href="https://publuu.com/flip-book/1022968/2351172" target="_blank">
   <img src="/assets/guidefoie.png" alt="guidefoie" width="300" class="image-hover">
 </a>
+  <br>
 <a href="https://parislivercancergroup.com/pour-les-patients/#video-gallery-fabf4d9-5" target="_blank">
   <img src="/assets/PLCGCHC.png" alt="CHC" width="300" class="image-hover">
 </a>
