@@ -315,7 +315,7 @@ const data = {
         <div class="section" style="border-left-color:#f77f00;">
           <h3>🏥 Établissement</h3>
           <p>
-            Hôpital Pitié-Salpêtrière, AP-HP <br>
+            CHU Pitié-Salpêtrière, AP-HP <br>
             Service d'hépato-gastro-entérologie <br>
             47-83 boulevard de l'Hôpital <br>
             75013 Paris  
