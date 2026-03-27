@@ -23,11 +23,11 @@ Il est organisé selon une structure arborescente, englobant trois branches prin
 Chaque branche est supervisée par un centre expert référent, garantissant une 
 couverture nationale étendue et homogène. 
 
-<a href="reseau.md">
+<a href="/reseau.md">
   <img src="/assets/reseau2.png" width="300" class="image-hover">
 </a>
-<a href="missions.md">
-  <img src="/assets/missions.png" width="300" class="image-hover">
+<a href="./missions.md">
+  <img src="./assets/missions.png" width="300" class="image-hover">
 </a>
 
 <span style="font-size:25px">      
