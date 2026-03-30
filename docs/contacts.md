@@ -192,7 +192,7 @@ body {
 
   <!-- BLOC DROIT (LA CARD) -->
   <div class="info" id="infoBox">
-    Cliquez sur un organe 👈
+    Cliquez sur le logo interactif 👈
   </div>
 
 </div>
@@ -347,7 +347,7 @@ const data = {
       </div>
 
       <div class="section" style="border-left-color:#6c757d;">
-          <h3>👨‍⚕️ Référent</h3>
+          <h3>👩‍💼Référente </h3>
           <p>
             <strong>Mme Oizel Kristell</strong><br>
           </p>
