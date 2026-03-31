@@ -1482,25 +1482,7 @@ function sortByDay() {
 
         return dayAsc ? indexA - indexB : indexB - indexA;
     });
-function sortByName() {
-    clearSeparators();
-
-    const rows = getRows();
-
-    rows.sort((a, b) => {
-        const A = a.cells[1].innerText.toLowerCase().trim();
-        const B = b.cells[1].innerText.toLowerCase().trim();
-
-       return nameAsc 
-    ? A.localeCompare(B, 'fr', { sensitivity: 'base' }) 
-    : B.localeCompare(A, 'fr', { sensitivity: 'base' });
-    });
-
-    rows.forEach(row => tbody.appendChild(row));
-
-    nameAsc = !nameAsc;
-}
-    dayAsc = !dayAsc;
+     dayAsc = !dayAsc;
 
     tbody.innerHTML = "";
 
@@ -1528,6 +1510,25 @@ function sortByName() {
         tbody.appendChild(row);
     });
 }
+function sortByName() {
+    clearSeparators();
+
+    const rows = getRows();
+
+    rows.sort((a, b) => {
+        const A = a.cells[1].innerText.toLowerCase().trim();
+        const B = b.cells[1].innerText.toLowerCase().trim();
+
+       return nameAsc 
+    ? A.localeCompare(B, 'fr', { sensitivity: 'base' }) 
+    : B.localeCompare(A, 'fr', { sensitivity: 'base' });
+    });
+
+    rows.forEach(row => tbody.appendChild(row));
+
+    nameAsc = !nameAsc;
+}
+   
 
 document.getElementById("searchInput").addEventListener("input", filterTable);
 document.getElementById("regionFilter").addEventListener("change", filterTable);
