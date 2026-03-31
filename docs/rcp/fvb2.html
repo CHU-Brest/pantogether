@@ -136,7 +136,7 @@ button {
 <thead>
 <tr>
     <th id="sortRegion">Région ⬍</th>
-    <th>Centre</th>
+    <th> id="sortByName">Centre ⬍</th>
     <th>Réunion</th>
     <th>Réseau</th>
     <th id="sortDate">Jour ⬍</th>
@@ -1406,6 +1406,7 @@ Tel : 04 91 80 70 42<br>
 
 let regionAsc = true;
 let dayAsc = true;
+let nameAsc = true;
 
 const tbody = document.querySelector("#meetingTable tbody");
 
@@ -1481,7 +1482,24 @@ function sortByDay() {
 
         return dayAsc ? indexA - indexB : indexB - indexA;
     });
+function sortByName() {
+    clearSeparators();
 
+    const rows = getRows();
+
+    rows.sort((a, b) => {
+        const A = a.cells[1].innerText.toLowerCase().trim();
+        const B = b.cells[1].innerText.toLowerCase().trim();
+
+       return nameAsc 
+    ? A.localeCompare(B, 'fr', { sensitivity: 'base' }) 
+    : B.localeCompare(A, 'fr', { sensitivity: 'base' });
+    });
+
+    rows.forEach(row => tbody.appendChild(row));
+
+    nameAsc = !nameAsc;
+}
     dayAsc = !dayAsc;
 
     tbody.innerHTML = "";
