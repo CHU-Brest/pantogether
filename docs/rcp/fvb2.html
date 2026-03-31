@@ -116,6 +116,19 @@ button {
     color: white;
 }
 </style>
+<style>
+#tableFilters {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+#tableFilters input, #tableFilters select, #tableFilters button {
+    padding: 5px 8px;
+    font-size: 14px;
+}
+</style>
 </head>
 
 <body>
@@ -123,7 +136,7 @@ button {
 <h1>Planning des réunions de concertation pluridisciplinaire en région</h1>
 <div class="counter" id="counter"></div>
 
-<div class="filters">
+<div class="tableFilters">
     <input type="text" id="searchInput" placeholder="Rechercher...">
     <select id="regionFilter">
         <option value="">Toutes les régions</option>
@@ -1450,6 +1463,42 @@ Tel : 04 91 80 70 42<br>
 
 <div id="counter"></div>
 
+<!-- ==================== Filtres en haut du tableau ==================== -->
+<div id="tableFilters" style="display:flex; gap:10px; align-items:center; margin-bottom:15px;">
+    <input type="text" id="searchInput" placeholder="Rechercher...">
+    <select id="regionFilter">
+        <option value="">Toutes les régions</option>
+    </select>
+    <select id="centerFilter">
+        <option value="">Tous les centres</option>
+    </select>
+    <button id="resetFilters">Réinitialiser</button>
+</div>
+
+<!-- ==================== Tableau ==================== -->
+<table id="meetingTable">
+<thead>
+<tr>
+    <th id="sortRegion">Région ⬍</th>
+    <th id="sortByName">Centre ⬍</th>
+    <th>Réunion</th>
+    <th>Réseau</th>
+    <th id="sortDate">Jour ⬍</th>
+    <th>Horaire</th>
+    <th>Fréquence</th>
+    <th>Lieu</th>
+    <th>Visioconférence</th>
+    <th>Soumission Dossier</th>
+</tr>
+</thead>
+<tbody>
+<!-- lignes du tableau -->
+</tbody>
+</table>
+
+<div id="counter"></div>
+
+<!-- ==================== Script complet ==================== -->
 <script>
 let regionAsc = true;
 let dayAsc = true;
@@ -1597,7 +1646,7 @@ function makeCentersClickable() {
         cell.style.color = "#007bff";
         cell.style.textDecoration = "underline";
 
-        // Supprime les anciens listeners
+        // Supprime anciens listeners
         cell.replaceWith(cell.cloneNode(true));
         const newCell = row.cells[1];
 
@@ -1607,6 +1656,15 @@ function makeCentersClickable() {
         });
     });
 }
+
+// ==================== Réinitialiser les filtres ====================
+document.getElementById("resetFilters").addEventListener("click", () => {
+    searchInput.value = "";
+    regionFilter.value = "";
+    centerFilter.value = "";
+    filterTable();
+    updateCenterFilter();
+});
 
 // ==================== Event listeners ====================
 searchInput.addEventListener("input", filterTable);
