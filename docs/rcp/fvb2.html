@@ -1417,12 +1417,47 @@ Tel : 04 91 80 70 42<br>
 </tbody>
 </table>
 
+<!-- HTML -->
+<input type="text" id="searchInput" placeholder="Rechercher...">
+<select id="regionFilter">
+    <option value="">Toutes les régions</option>
+</select>
+<select id="centerFilter">
+    <option value="">Tous les centres</option>
+</select>
+<button id="resetFilters">Réinitialiser</button>
+
+<table id="meetingTable">
+<thead>
+<tr>
+    <th id="sortRegion">Région ⬍</th>
+    <th id="sortByName">Centre ⬍</th>
+    <th>Réunion</th>
+    <th>Réseau</th>
+    <th id="sortDate">Jour ⬍</th>
+    <th>Horaire</th>
+    <th>Fréquence</th>
+    <th>Lieu</th>
+    <th>Visioconférence</th>
+    <th>Soumission Dossier</th>
+</tr>
+</thead>
+<tbody>
+<!-- lignes du tableau -->
+</tbody>
+</table>
+
+<div id="counter"></div>
+
 <script>
 let regionAsc = true;
 let dayAsc = true;
 let nameAsc = true;
 
 const tbody = document.querySelector("#meetingTable tbody");
+const searchInput = document.getElementById("searchInput");
+const regionFilter = document.getElementById("regionFilter");
+const centerFilter = document.getElementById("centerFilter");
 
 // Ordre naturel des jours
 const daysOrder = ["Lundi","Mardi","Mercredi","Jeudi","Vendredi","Samedi","Dimanche"];
@@ -1445,9 +1480,9 @@ function updateCounter() {
 
 // ==================== Filtrage ====================
 function filterTable() {
-    const search = document.getElementById("searchInput").value.toLowerCase();
-    const region = document.getElementById("regionFilter").value;
-    const center = document.getElementById("centerFilter").value;
+    const search = searchInput.value.toLowerCase();
+    const region = regionFilter.value;
+    const center = centerFilter.value;
 
     getRows().forEach(row => {
         const text = row.innerText.toLowerCase();
@@ -1462,21 +1497,18 @@ function filterTable() {
     });
 
     updateCounter();
+    makeCentersClickable(); // garde les cellules cliquables
 }
 
 // ==================== Filtre Centre dynamique ====================
 function updateCenterFilter() {
-    const region = document.getElementById("regionFilter").value;
-    const select = document.getElementById("centerFilter");
-
-    select.innerHTML = '<option value="">Tous les centres</option>';
-
+    const region = regionFilter.value;
+    centerFilter.innerHTML = '<option value="">Tous les centres</option>';
     const centers = new Set();
 
     getRows().forEach(row => {
         const rowRegion = row.cells[0].innerText;
         const rowCenter = row.cells[1].innerText;
-
         if (!region || rowRegion === region) {
             centers.add(rowCenter);
         }
@@ -1486,27 +1518,22 @@ function updateCenterFilter() {
         const option = document.createElement("option");
         option.value = center;
         option.textContent = center;
-        select.appendChild(option);
+        centerFilter.appendChild(option);
     });
 }
 
 // ==================== Tri ====================
 function sortByRegion() {
     clearSeparators();
-
     const rows = getRows();
-
     rows.sort((a,b) => {
         const A = a.cells[0].innerText;
         const B = b.cells[0].innerText;
         return regionAsc ? A.localeCompare(B) : B.localeCompare(A);
     });
-
     rows.forEach(row => tbody.appendChild(row));
-
     regionAsc = !regionAsc;
 
-    // Icônes
     document.getElementById("sortRegion").innerText = "Région " + (regionAsc ? "▲" : "▼");
     document.getElementById("sortByName").innerText = "Centre ⬍";
     document.getElementById("sortDate").innerText = "Jour ⬍";
@@ -1514,9 +1541,7 @@ function sortByRegion() {
 
 function sortByDay() {
     clearSeparators();
-
     const rows = getRows();
-
     rows.sort((a,b) => {
         const dayA = a.cells[4].innerText.trim();
         const dayB = b.cells[4].innerText.trim();
@@ -1524,15 +1549,11 @@ function sortByDay() {
         const indexB = daysOrder.indexOf(dayB);
         return dayAsc ? indexA - indexB : indexB - indexA;
     });
-
     dayAsc = !dayAsc;
-
     tbody.innerHTML = "";
-
     let currentDay = "";
     rows.forEach(row => {
         const day = row.cells[4].innerText;
-
         if (day !== currentDay) {
             const sep = document.createElement("tr");
             sep.className = "day-separator";
@@ -1543,11 +1564,9 @@ function sortByDay() {
             tbody.appendChild(sep);
             currentDay = day;
         }
-
         tbody.appendChild(row);
     });
 
-    // Icônes
     document.getElementById("sortDate").innerText = "Jour " + (dayAsc ? "▲" : "▼");
     document.getElementById("sortRegion").innerText = "Région ⬍";
     document.getElementById("sortByName").innerText = "Centre ⬍";
@@ -1555,20 +1574,15 @@ function sortByDay() {
 
 function sortByName() {
     clearSeparators();
-
     const rows = getRows();
-
     rows.sort((a,b) => {
         const A = a.cells[1].innerText.toLowerCase().trim();
         const B = b.cells[1].innerText.toLowerCase().trim();
         return nameAsc ? A.localeCompare(B,'fr',{sensitivity:'base'}) : B.localeCompare(A,'fr',{sensitivity:'base'});
     });
-
     rows.forEach(row => tbody.appendChild(row));
-
     nameAsc = !nameAsc;
 
-    // Icônes
     document.getElementById("sortByName").innerText = "Centre " + (nameAsc ? "▲" : "▼");
     document.getElementById("sortRegion").innerText = "Région ⬍";
     document.getElementById("sortDate").innerText = "Jour ⬍";
@@ -1576,25 +1590,39 @@ function sortByName() {
 
 // ==================== Clic sur cellule Centre ====================
 function makeCentersClickable() {
-    document.querySelectorAll("#meetingTable td:nth-child(2)").forEach(cell => {
+    getRows().forEach(row => {
+        const cell = row.cells[1];
         cell.style.cursor = "pointer";
         cell.style.color = "#007bff";
         cell.style.textDecoration = "underline";
 
-        cell.addEventListener("click", () => {
-            document.getElementById("centerFilter").value = cell.innerText;
+        // Supprime les anciens listeners
+        cell.replaceWith(cell.cloneNode(true));
+        const newCell = row.cells[1];
+
+        newCell.addEventListener("click", () => {
+            centerFilter.value = newCell.innerText;
             filterTable();
         });
     });
 }
 
-// ==================== Event listeners ====================
-document.getElementById("searchInput").addEventListener("input", filterTable);
-document.getElementById("regionFilter").addEventListener("change", () => {
+// ==================== Réinitialiser les filtres ====================
+document.getElementById("resetFilters").addEventListener("click", () => {
+    searchInput.value = "";
+    regionFilter.value = "";
+    centerFilter.value = "";
     filterTable();
     updateCenterFilter();
 });
-document.getElementById("centerFilter").addEventListener("change", filterTable);
+
+// ==================== Event listeners ====================
+searchInput.addEventListener("input", filterTable);
+regionFilter.addEventListener("change", () => {
+    filterTable();
+    updateCenterFilter();
+});
+centerFilter.addEventListener("change", filterTable);
 
 document.getElementById("sortRegion").addEventListener("click", sortByRegion);
 document.getElementById("sortDate").addEventListener("click", sortByDay);
@@ -1605,7 +1633,6 @@ updateCenterFilter();
 makeCentersClickable();
 sortByDay();
 updateCounter();
-
 </script>
 
 </body>
