@@ -141,7 +141,11 @@ button {
         <option value="Pays de la Loire">Pays de la Loire</option>
         <option value="Provence-Alpes-Côte-d'Azur">Provence-Alpes-Côte-d'Azur</option>
     </select>
+   <select id="centerFilter">
+        <option value="">Tous les centres</option>
+</select>
 </div>
+    
 
 <table id="meetingTable">
 <thead>
@@ -1450,18 +1454,37 @@ function updateCounter() {
 function filterTable() {
     const search = document.getElementById("searchInput").value.toLowerCase();
     const region = document.getElementById("regionFilter").value;
+    const center = document.getElementById("centerFilter") ? document.getElementById("centerFilter").value : "";
 
     getRows().forEach(row => {
         const text = row.innerText.toLowerCase();
         const rowRegion = row.cells[0].innerText;
+        const rowCenter = row.cells[1].innerText;
 
         const matchSearch = text.includes(search);
         const matchRegion = !region || rowRegion.includes(region);
+        const matchCenter = !center || rowCenter === center;
 
-        row.style.display = (matchSearch && matchRegion) ? "" : "none";
+        row.style.display = (matchSearch && matchRegion && matchCenter) ? "" : "none";
+        
     });
 
     updateCounter();
+
+const centers = new Set();
+
+getRows().forEach(row => {
+    centers.add(row.cells[1].innerText);
+});
+
+const select = document.getElementById("centerFilter");
+
+centers.forEach(center => {
+    const option = document.createElement("option");
+    option.value = center;
+    option.textContent = center;
+    select.appendChild(option);
+});
 }
 
 function sortByRegion() {
