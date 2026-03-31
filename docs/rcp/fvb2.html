@@ -144,6 +144,7 @@ button {
    <select id="centerFilter">
         <option value="">Tous les centres</option>
 </select>
+    <button id="resetFilters">Réinitialiser</button>
 </div>
     
 
@@ -1606,15 +1607,6 @@ function makeCentersClickable() {
         });
     });
 }
-
-// ==================== Réinitialiser les filtres ====================
-document.getElementById("resetFilters").addEventListener("click", () => {
-    searchInput.value = "";
-    regionFilter.value = "";
-    centerFilter.value = "";
-    filterTable();
-    updateCenterFilter();
-});
 
 // ==================== Event listeners ====================
 searchInput.addEventListener("input", filterTable);
