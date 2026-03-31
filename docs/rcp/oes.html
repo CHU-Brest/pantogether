@@ -116,6 +116,19 @@ button {
     color: white;
 }
 </style>
+<style>
+#tableFilters {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+#tableFilters input, #tableFilters select, #tableFilters button {
+    padding: 5px 8px;
+    font-size: 14px;
+}
+</style>
 </head>
 
 <body>
@@ -123,7 +136,7 @@ button {
 <h1>Planning des réunions de concertation pluridisciplinaire en région</h1>
 <div class="counter" id="counter"></div>
 
-<div class="filters">
+<div class="tableFilters">
     <input type="text" id="searchInput" placeholder="Rechercher...">
     <select id="regionFilter">
         <option value="">Toutes les régions</option>
@@ -135,14 +148,18 @@ button {
         <option value="Guadeloupe">Guadeloupe</option>
         <option value="Hauts-de-France">Hauts-de-France</option>
         <option value="Ile-de-France">Ile-de-France</option>
-        <option value="Ile de la Réunion">Ile de la Réunion</option>
         <option value="Normandie">Normandie</option>
         <option value="Nouvelle-Aquitaine">Nouvelle-Aquitaine</option>
         <option value="Occitanie">Occitanie</option>
         <option value="Pays de la Loire">Pays de la Loire</option>
         <option value="Provence-Alpes-Côte-d'Azur">Provence-Alpes-Côte-d'Azur</option>
     </select>
+   <select id="centerFilter">
+        <option value="">Tous les centres</option>
+</select>
+    <button id="resetFilters">Réinitialiser</button>
 </div>
+    
 
 <table id="meetingTable">
 <thead>
@@ -160,6 +177,7 @@ button {
 </tr>
 </thead>
 <tbody>
+
 <tr>
 <td><span class="badge">Auvergne-Rhône-Alpes</span></td>
 <td>CHU Clermont-Ferrand</td>
