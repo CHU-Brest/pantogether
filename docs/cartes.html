@@ -89,11 +89,20 @@ body{margin:0;font-family:Arial}
 <b>Types de cancers</b><br>
 <label style="color: #0077aa;">
   <input type="checkbox" class="cancer" value="oesogastrique">
-  Oeso-gastriques
+  Oesophage, Jonction Oeso-gastrique, Estomac
 </label>
  <br>
-<label><input type="checkbox" class="cancer" value="foie"> Foie & voies biliaires</label><br>
-<label><input type="checkbox" class="cancer" value="pancreas"> Pancréas</label><br>
+ <label style="color: #d62828;">
+  <input type="checkbox" class="cancer" value="foie">
+  Foie & voies biliaires
+</label>
+<br>
+ <br>
+ <label style="color: #f77f00;">
+  <input type="checkbox" class="cancer" value="pancreas">
+  Pancréas
+</label>
+<br>
 
 <br>
 <b>Région :</b><br>
@@ -212,9 +221,24 @@ fetch(urlRegions)
 
  // ================= ICÔNES =================
 const icons = {
- oesogastrique: L.icon({iconUrl:"https://maps.google.com/mapfiles/ms/icons/green-dot.png",iconSize:[32,32],iconAnchor:[16,32]}),
- foie: L.icon({iconUrl:"https://maps.google.com/mapfiles/ms/icons/blue-dot.png",iconSize:[32,32],iconAnchor:[16,32]}),
- pancreas: L.icon({iconUrl:"https://maps.google.com/mapfiles/ms/icons/orange-dot.png",iconSize:[32,32],iconAnchor:[16,32]})
+  oesogastrique: L.divIcon({
+    className: "custom-dot",
+    html: '<div style="width:16px; height:16px; background-color:#0077aa; border-radius:50%; border: 2px solid #fff;"></div>',
+    iconSize: [16,16],
+    iconAnchor: [8,8]
+  }),
+  foie: L.divIcon({
+    className: "custom-dot",
+    html: '<div style="width:16px; height:16px; background-color:#d62828; border-radius:50%; border: 2px solid #fff;"></div>',
+    iconSize: [16,16],
+    iconAnchor: [8,8]
+  }),
+  pancreas: L.divIcon({
+    className: "custom-dot",
+    html: '<div style="width:16px; height:16px; background-color:#f77f00; border-radius:50%; border: 2px solid #fff;"></div>',
+    iconSize: [16,16],
+    iconAnchor: [8,8]
+  })
 };
 
 function getIconCentre(h){
