@@ -46,6 +46,8 @@ Les objectifs du réseau d'excellence Pan-Together sont de permettre :
 - une **accélération de la prise en charge du patient**, en permettant un accès rapide aux centres ressources  
 - une possibilité d’**accès aux essais thérapeutiques innovants** pour tous les patients sur l’ensemble du territoire 
 - une **optimisation personnalisée de la prise en charge** globale et multi-professionelle du patient, du diagnostic au traitement en passant par les soins de support
+- une **diffusion de l'information** validée et accessible au grand public
+- une **mise à jour continue des connaissances et compétences** des professionnels
 
 
 
