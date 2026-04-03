@@ -4,7 +4,7 @@ title: Informations
 ---
 ## Bienvenue dans l’onglet Informations
 
-Cet espace rassemble des liens vers une sélection de guides et vidéos spécialement destinés aux patients et à leurs proches. L’objectif est de vous fournir des informations claires et fiables sur les cancers digestifs, leur diagnostic, les différentes options thérapeutiques, le suivi médical et les aides disponibles.
+Cet espace rassemble des liens vers une sélection de guides et vidéos spécialement destinés aux patients et à leurs proches. L’objectif est de vous apporter des informations claires et fiables sur les cancers digestifs : leur diagnostic, les différentes options thérapeutiques, le suivi médical et les aides disponibles.
 
 Vous pouvez retrouver ces documents et bien d'autres :   
    
