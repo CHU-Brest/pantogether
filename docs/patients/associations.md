@@ -11,7 +11,6 @@ Vous trouverez ci-dessous la liste des associations partenaires du réseau PAN-T
 <a href="https://www.fondationarcad.org" target="_blank">
   <img src="/assets/arcad.jpg" alt="arcad" width="300" class="image-hover">
 </a>
-<br>
 
 ## <span style="color:black">**Foie et voies biliaires**</span>
 
