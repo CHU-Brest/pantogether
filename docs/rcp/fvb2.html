@@ -26,20 +26,62 @@ h1 {
     color: #555;
 }
 
-.filters {
+/* Filtres région / centre / recherche */
+.tableFilters {
     display: flex;
     gap: 15px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     flex-wrap: wrap;
+    align-items: center;
 }
 
-input, select {
+.tableFilters input, .tableFilters select, .tableFilters button {
     padding: 8px 10px;
     font-size: 14px;
     border: 1px solid #d1d5db;
     border-radius: 6px;
 }
 
+button {
+    padding: 6px 10px;
+    font-size: 12px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+
+#resetFilters {
+    background: #2563eb;
+    color: white;
+}
+
+/* Box filtrage Réunions */
+.meeting-type-filters {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+}
+
+.filter-box {
+    padding: 6px 12px;
+    background: #e5e7eb;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 13px;
+    transition: 0.2s;
+}
+
+.filter-box:hover {
+    background: #d1d5db;
+}
+
+.filter-box.active {
+    background: #2563eb;
+    color: white;
+}
+
+/* Tableau */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -87,14 +129,6 @@ tr:hover {
     font-size: 14px;
 }
 
-button {
-    padding: 6px 10px;
-    font-size: 12px;
-    border-radius: 6px;
-    border: none;
-    cursor: pointer;
-}
-
 .visio-btn {
     background: #e5e7eb;
 }
@@ -102,20 +136,6 @@ button {
 .calendar-btn {
     background: #2563eb;
     color: white;
-}
-</style>
-
-<style>
-#tableFilters {
-    display: flex;
-    gap: 10px;
-    align-items: center;
-    margin-bottom: 15px;
-}
-
-#tableFilters input, #tableFilters select, #tableFilters button {
-    padding: 5px 8px;
-    font-size: 14px;
 }
 </style>
 </head>
@@ -150,7 +170,25 @@ button {
 </select>
     <button id="resetFilters">Réinitialiser</button>
 </div>
-    
+
+    <!-- Box filtres Réunions -->
+<div class="meeting-type-filters">
+    <span class="filter-box" data-type="oncologie digestive">Oncologie Digestive</span>
+    <span class="filter-box" data-type="Tumeurs hepato-biliaires">Tumeurs hépato-biliaires</span>
+    <span class="filter-box" data-type="Tumeurs hépatiques">Tumeurs hépatiques</span>
+    <span class="filter-box" data-type="CHC">CHC</span>
+    <span class="filter-box" data-type="Cholangiocarcinome">Cholangiocarcinome</span>
+    <span class="filter-box" data-type="Hépato-gastroentérologie">Hépato-gastroentérologie</span>
+    <span class="filter-box" data-type="Digestive">Digestive</span>
+    <span class="filter-box" data-type="foie">Foie</span>
+    <span class="filter-box" data-type="voies biliaires">Voies Biliaires</span>
+    <span class="filter-box" data-type="Tumeurs primitives">Tumeurs primitives</span>
+    <span class="filter-box" data-type="Tumeurs secondaires">Tumeurs secondaires</span>
+    <span class="filter-box" data-type="Neuro-endocrines">Neuro-endocrines</span>
+    <span class="filter-box" data-type="moléculaire">Moléculaire</span>
+    <span class="filter-box" data-type="Oncogénétique">Oncogénétique</span>
+    <span class="filter-box" data-type="Transplantation hépatique">Transplantation Hépatique</span>
+    <span class="filter-box" data-type="Radio-embolisation">Radio-embolisation</span>
 
 <table id="meetingTable">
 <thead>
@@ -172,7 +210,7 @@ button {
 <tr>
 <td><span class="badge">Auvergne-Rhône-Alpes</span></td>
 <td>CHU Clermont-Ferrand</td>
-<td>RCP Tumeurs du foie</td>
+<td>RCP Tumeurs hépatiques</td>
 <td></td>
 <td>Vendredi</td>
 <td>14h30–17h00</td>
@@ -303,7 +341,7 @@ button {
 <tr>
 <td><span class="badge">Bourgogne-Franche-Comté</span></td>
 <td>Hôpital François Mitterrand, CHU Dijon</td>
-<td>RCP de cancérologie digestive</td>
+<td>RCP d'oncologie digestive</td>
 <td>Réseau Régional de Cancérologie de Bourgogne-Franche-Comté</td>
 <td>Mercredi</td>
 <td>16h30</td>
@@ -326,7 +364,7 @@ button {
 <tr>
 <td><span class="badge">Bourgogne-Franche-Comté</span></td>
 <td>Hôpital François Mitterrand, CHU Dijon</td>
-<td>RCP RENATEN</td>
+<td>RCP Tumeurs Neuro-endocrines RENATEN</td>
 <td>Réseau Régional et National de Cancérologie</td>
 <td>Vendredi</td>
 <td>12h30-14h</td>
@@ -396,7 +434,7 @@ Ou transmission via <a href="https://www.telesante-bretagne.fr/">Télésanté Br
     <tr>
 <td><span class="badge">Centre-Val-de-Loire</span></td>
 <td>Hôpital Trousseau, CHRU Tours</td>
-<td>RCP Digestive ; RCP CHC ; RCP TNE ; RCP Oncogénétique</td>
+<td>RCP Digestive ; RCP CHC ; RCP Tumeurs Neuro-endocrines ; RCP Oncogénétique</td>
 <td> </td>
 <td>Mardi</td>
 <td>14h-18h</td>
@@ -447,7 +485,7 @@ Tel : 02 47 47 47 47 <br>
 <tr>
 <td><span class="badge">Grand-Est</span></td>
 <td>CHRU Nancy</td>
-<td> RCP Cancers de l'appareil digestif (CHU-ICL) </td>
+<td> RCP Oncologie Digestive (CHU-ICL) </td>
 <td> </td>
 <td>Mardi</td>
 <td></td>
@@ -597,7 +635,7 @@ Fax : 03 22 08 99 39 <br>
 <tr>
 <td><span class="badge">Hauts-de-France</span></td>
 <td>CHU Amiens</td>
-<td> RCP Cancérologie Digestive (CHC et Cholangiocarcinome) ; RCP Transplantation hépatique ; RCP Renaten </td>
+<td> RCP Oncologie Digestive (CHC et Cholangiocarcinome) ; RCP Transplantation hépatique ; RCP Tumeurs neuro-endocrines Renaten </td>
 <td> </td>
 <td> </td>
 <td></td>
@@ -645,7 +683,7 @@ Fax : 03 20 44 56 40<br>
 <tr>
 <td><span class="badge">Hauts-de-France</span></td>
 <td>CHU Lille</td>
-<td> RCP Cancers Digestifs hors Tumeurs Hépatiques primitives </td>
+<td> RCP Oncologie Digestive hors Tumeurs Hépatiques primitives </td>
 <td> </td>
 <td>Vendredi</td>
 <td>16h-19h</td>
@@ -716,7 +754,7 @@ Tel : 01 49 81 23 67<br>
 <tr>
 <td><span class="badge">Ile-de-France</span></td>
 <td> Hôpital Beaujon AP-HP </td>
-<td> RCP Oncologie hépatique </td>
+<td> RCP Tumeurs hépatiques </td>
 <td> </td>
 <td>Lundi</td>
 <td>14h-18h</td>
@@ -808,7 +846,7 @@ Fax : 01 49 23 24 74  <br>
 <tr>
 <td><span class="badge">Ile-de-France</span></td>
 <td>CHU La Pitié Salpêtrière, AP-HP </td>
-<td>RCP tumeurs du foie</td>
+<td>RCP tumeurs hépatiques</td>
 <td> </td>
 <td>Mardi</td>
 <td>16h30</td>
@@ -1090,7 +1128,7 @@ Dossier à soumettre au 3C du CHU par email : <a href="mailto:3c-sud@chu-bordeau
 <tr>
 <td><span class="badge">Nouvelle-Aquitaine</span></td>
 <td> CHU Limoges </td>
-<td> RCP CHC et Voies biliaires RCP Digestive ; RCP Digestive </td>
+<td> RCP CHC et Voies biliaires; RCP Digestive </td>
 <td> Réseau ONCO Nouvelle-Aquitaine </td>
 <td>Jeudi</td>
 <td>15h30-17h </td>
@@ -1191,7 +1229,7 @@ Tel : 04 67 33 07 54<br>
 <tr>
 <td><span class="badge">Occitanie</span></td>
 <td> Hôpital Rangueil, CHU Toulouse </td>
-<td> RCP CHC (responsable Pr Peron) ; RCP onco digestive (cholangiocarcinomes) (Dr Fares) ; RCP moléculaire (Dr Fares)</td>
+<td> RCP CHC (responsable Pr Peron) ; RCP oncologie digestive (cholangiocarcinomes) (Dr Fares) ; RCP moléculaire (Dr Fares)</td>
 <td> Réseau ONCOMIP </td>
 <td>Mercredi</td>
 <td>15h-18h30</td>
@@ -1237,7 +1275,7 @@ Tel : 02 41 35 78 32<br>
 <tr>
 <td><span class="badge">Pays de la Loire</span></td>
 <td>CHU Angers</td>
-<td> RCP onco digestive </td>
+<td> RCP oncologie digestive </td>
 <td> Réseau Onco-PL</td>
 <td>Lundi</td>
 <td>17h</td>
@@ -1277,7 +1315,7 @@ Saisie de la fiche RCP en ligne dans le dossier communicant de cancérologie (DC
 <tr>
 <td><span class="badge">Provence-Alpes-Côtes d'Azur</span></td>
 <td>CHU de Nice</td>
-<td>RCP de cancérologie hépato-biliaire</td>
+<td>RCP tumeurs hépato-biliaires</td>
 <td> </td>
 <td>Jeudi</td>
 <td>8-9h30</td>
@@ -1324,7 +1362,7 @@ Tel : 04 91 80 70 42<br>
 <tr>
 <td><span class="badge">Provence-Alpes-Côtes d'Azur</span></td>
 <td>Hôpital Saint-Joseph, Marseille</td>
-<td>RCP Cancers Digestifs</td>
+<td>RCP Oncologie Digestive</td>
 <td>Réseau ONCOPACA et 3C</td>
 <td> </td>
 <td></td>
@@ -1421,9 +1459,8 @@ Tel : 04 91 80 70 42<br>
 
 </tbody>
 </table>
-
-
 <!-- ==================== Script complet ==================== -->
+<!-- ==================== Script complet avec filtres Réunions ==================== -->
 <script>
 let regionAsc = true;
 let dayAsc = true;
@@ -1433,6 +1470,8 @@ const tbody = document.querySelector("#meetingTable tbody");
 const searchInput = document.getElementById("searchInput");
 const regionFilter = document.getElementById("regionFilter");
 const centerFilter = document.getElementById("centerFilter");
+const counter = document.getElementById("counter");
+let activeTypes = [];
 
 // Ordre naturel des jours
 const daysOrder = ["Lundi","Mardi","Mercredi","Jeudi","Vendredi","Samedi","Dimanche"];
@@ -1449,30 +1488,38 @@ function clearSeparators() {
 
 function updateCounter() {
     const visible = getRows().filter(row => row.style.display !== "none");
-    document.getElementById("counter").innerText =
-        visible.length + " réunion(s) affichée(s)";
+    counter.innerText = visible.length + " réunion(s) affichée(s)";
 }
 
-// ==================== Filtrage ====================
+// ==================== Filtrage global ====================
 function filterTable() {
     const search = searchInput.value.toLowerCase();
     const region = regionFilter.value;
     const center = centerFilter.value;
 
+    let visibleCount = 0;
+
     getRows().forEach(row => {
-        const text = row.innerText.toLowerCase();
         const rowRegion = row.cells[0].innerText;
         const rowCenter = row.cells[1].innerText;
+        const meetingText = row.cells[2].innerText.toLowerCase();
+        const text = row.innerText.toLowerCase();
 
-        const matchSearch = text.includes(search);
+        const matchSearch = !search || text.includes(search);
         const matchRegion = !region || rowRegion === region;
         const matchCenter = !center || rowCenter === center;
+        const matchType = activeTypes.length === 0 || activeTypes.some(type => meetingText.includes(type));
 
-        row.style.display = (matchSearch && matchRegion && matchCenter) ? "" : "none";
+        if (matchSearch && matchRegion && matchCenter && matchType) {
+            row.style.display = "";
+            visibleCount++;
+        } else {
+            row.style.display = "none";
+        }
     });
 
     updateCounter();
-    makeCentersClickable(); // garde les cellules cliquables
+    makeCentersClickable(); // garder les cellules Centre cliquables
 }
 
 // ==================== Filtre Centre dynamique ====================
@@ -1587,11 +1634,28 @@ document.getElementById("resetFilters").addEventListener("click", () => {
     searchInput.value = "";
     regionFilter.value = "";
     centerFilter.value = "";
+    activeTypes = [];
+    document.querySelectorAll('.filter-box').forEach(b => b.classList.remove('active'));
     filterTable();
     updateCenterFilter();
 });
 
-// ==================== Event listeners ====================
+// ==================== Box Réunions ====================
+document.querySelectorAll('.filter-box').forEach(box => {
+    box.addEventListener('click', () => {
+        const type = box.dataset.type.toLowerCase();
+        box.classList.toggle('active');
+
+        if (activeTypes.includes(type)) {
+            activeTypes = activeTypes.filter(t => t !== type);
+        } else {
+            activeTypes.push(type);
+        }
+        filterTable();
+    });
+});
+
+// ==================== Event listeners filtres existants ====================
 searchInput.addEventListener("input", filterTable);
 regionFilter.addEventListener("change", () => {
     filterTable();
@@ -1607,9 +1671,8 @@ document.getElementById("sortByName").addEventListener("click", sortByName);
 updateCenterFilter();
 makeCentersClickable();
 sortByDay();
-updateCounter();
+filterTable(); // initialise le compteur
 </script>
-
 </body>
 </html>
 
