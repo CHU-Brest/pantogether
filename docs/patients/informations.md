@@ -6,7 +6,7 @@ Cet espace rassemble des liens vers une sélection de guides et vidéos spécial
 
 Vous pouvez retrouver ces documents et bien d'autres : 
 - Sur le site de la fondation <b><a href="https://www.fondationarcad.org/les-cancers-digestifs/tous-les-guides-a-r-ca-d/#Tlchargement" target="_blank">ARCAD</a></b>  : tous les guides complets sur les cancers digestifs, accessibles et détaillés, adaptés aux patients et à leurs proches <br>
-<br>
+  
 - Sur le site de l'association de <b><a href="https://parislivercancergroup.com" target="_blank">Paris Liver Cancer Group</a></b> : toutes les vidéos explicatives sur les cancers du foie et leurs traitments <br>
 <br>
 ## <span style="color:black">**Les cancers de l'oesophage et de la jonction oesogastrique**</span>
