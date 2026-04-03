@@ -51,7 +51,7 @@ Les objectifs du réseau d'excellence Pan-Together sont de permettre :
 
 <span style="font-size:25px">      
 <span style="color:orange">
-**PAN-TOGETHER : POUR l’AMELIORATION ENSEMBLE DU PRONOSTIC des cancers digestifs de sombre pronostic**
+**PAN-TOGETHER : POUR l’AMELIORATION ENSEMBLE DU PRONOSTIC des cancers digestifs de mauvais pronostic**
 </span>
 </span>
 <br>
