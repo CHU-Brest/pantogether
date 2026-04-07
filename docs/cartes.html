@@ -5695,31 +5695,8 @@ function afficherHopitaux(liste) {
     listeDiv.innerHTML = "<i>Aucun centre correspondant</i>";
     return;
   }
-
-  // Regroupement automatique des points proches
-  const groups = groupByProximity(liste);
-
-  groups.forEach(group => {
-    group.forEach((h, index) => {
-      // Calcul de la position
-      let position;
-      if (group.length === 1) {
-        position = [h.lat, h.lng];
-      } else {
-        const avgLat = group.reduce((sum, p) => sum + p.lat, 0) / group.length;
-        const avgLng = group.reduce((sum, p) => sum + p.lng, 0) / group.length;
-        position = spreadPoints(avgLat, avgLng, group.length, index);
-      }
-
-      // Création du marqueur pour chaque type de cancer
-      h.cancers.forEach(type => {
-        const marker = L.marker(position, { icon: getIconCentre(h) })
-          .addTo(markerGroup)
-          .bindPopup(h.popupHtml, {
-            maxWidth: 420,
-            minWidth: 300,
-            className: "popup-uniforme"
-          });
+liste.forEach(h=>{ const marker = L.marker([h.lat,h.lng], { icon: getIconCentre(h) }).addTo(markerGroup) .bindPopup(h.popupHtml,{ maxWidth:420, minWidth:300, className:"popup-uniforme" });
+  
 
         // Éléments de la liste
         const item = document.createElement("div");
