@@ -210,10 +210,23 @@ fetch(urlRegions)
 });
 
  // ================= ICÔNES =================
-const icons = { oesogastrique: L.icon({iconUrl:"https://maps.google.com/mapfiles/ms/icons/green-dot.png",iconSize:[32,32],iconAnchor:[16,32]}), 
-               foie: L.icon({iconUrl:"https://maps.google.com/mapfiles/ms/icons/blue-dot.png",iconSize:[32,32],iconAnchor:[16,32]}), 
-               pancreas: L.icon({iconUrl:"https://maps.google.com/mapfiles/ms/icons/orange-dot.png",iconSize:[32,32],iconAnchor:[16,32]}) 
-              };
+ const icons = {
+  oesogastrique: L.icon({
+    iconUrl: "https://maps.google.com/mapfiles/ms/icons/green-dot.png",
+    iconSize: [40, 40],
+    iconAnchor: [20, 40]
+  }),
+  foie: L.icon({
+    iconUrl: "https://maps.google.com/mapfiles/ms/icons/blue-dot.png",
+    iconSize: [30, 30],
+    iconAnchor: [15, 30]
+  }),
+  pancreas: L.icon({
+    iconUrl: "https://maps.google.com/mapfiles/ms/icons/orange-dot.png",
+    iconSize: [25, 25],
+    iconAnchor: [12, 25]
+  })
+};
  
 function getIconCentre(h){
  if(!h.cancers || h.cancers.length===0) return null;
