@@ -5708,49 +5708,44 @@ Service d'hépato-gastro-entérologie <br>
 },
 ];
 
-
-// ===== Initialisation régions =====
-const regions = [...new Set(hopitaux.map(h => h.region))];
-const regionSelect = document.getElementById('regionFilter');
-
-regions.forEach(r => {
-  const opt = document.createElement('option');
-  opt.value = r;
-  opt.textContent = r;
-  regionSelect.appendChild(opt);
-});
-
-// ===== Affichage markers =====
-function afficherHopitaux(liste) {
-  markerGroup.clearLayers();
-  const listeDiv = document.getElementById("listeCentres");
-  listeDiv.innerHTML = "";
-
-  if (liste.length === 0) {
-    listeDiv.innerHTML = "<i>Aucun centre correspondant</i>";
-    return;
-  }
-liste.forEach(h=>{ const marker = L.marker([h.lat,h.lng], { icon: getIconCentre(h) }).addTo(markerGroup) .bindPopup(h.popupHtml,{ maxWidth:420, minWidth:300, className:"popup-uniforme" });
+// ===== Initialisation régions ===== 
+ const regions = [...new Set(hopitaux.map(h=>h.region))]; 
+ const regionSelect=document.getElementById('regionFilter'); 
+ regions.forEach(r=>{ 
+  let 
+   opt=document.createElement('option');opt.value=r;opt.textContent=r;regionSelect.appendChild(opt);
+ }); 
+ // ===== Affichage markers ===== 
+ function afficherHopitaux(liste){ 
+  markerGroup.clearLayers(); 
+ const listeDiv = document.getElementById("listeCentres"); 
+  listeDiv.innerHTML = ""; 
   
+  if(liste.length===0){ 
+   listeDiv.innerHTML="<i>Aucun centre correspondant</i>"; 
+   return; 
+  } 
+  liste.forEach(h=>{
+   const marker = L.marker([h.lat,h.lng], { icon: getIconCentre(h)
+  }).addTo(markerGroup)
+    .bindPopup(h.popupHtml,{
+     maxWidth:420, minWidth:300, className:"popup-uniforme" 
+    }); 
+   // élément liste 
+   const item = document.createElement("div"); 
+   item.style.cursor="pointer"; 
+   item.style.padding="4px"; 
+   item.style.borderBottom="1px solid #ddd"; 
+   item.innerHTML = <b>${h.nom}</b><br><small>${h.ville}</small>; 
+   
+   item.onclick = ()=>{ 
+    map.setView([h.lat,h.lng],8); 
+    marker.openPopup(); 
+   }; 
+   listeDiv.appendChild(item); 
+  }); 
+ }
 
-        // Éléments de la liste
-        const item = document.createElement("div");
-        item.style.cursor = "pointer";
-        item.style.padding = "4px";
-        item.style.borderBottom = "1px solid #ddd";
-        item.innerHTML = `<b>${h.nom}</b><br><small>${h.ville}</small>`;
-
-        // On ouvre le popup et centre sur la position réelle du marqueur
-        item.onclick = () => {
-          map.setView(position, 8);
-          marker.openPopup();
-        };
-
-        listeDiv.appendChild(item);
-      });
-    });
-  });
-}
 
 // ===== Filtres =====
 function appliquerFiltres() {
