@@ -5736,7 +5736,7 @@ Service d'hépato-gastro-entérologie <br>
    item.style.cursor="pointer"; 
    item.style.padding="4px"; 
    item.style.borderBottom="1px solid #ddd"; 
-   item.innerHTML = <b>${h.nom}</b><br><small>${h.ville}</small>; 
+   item.innerHTML = `<b>${h.nom}</b><br><small>${h.ville}</small>`;
    
    item.onclick = ()=>{ 
     map.setView([h.lat,h.lng],8); 
