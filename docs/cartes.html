@@ -5673,21 +5673,26 @@ Service d'hépato-gastro-entérologie <br>
 },
 ];
 
+
 // ===== Initialisation régions =====
-const regions = [...new Set(hopitaux.map(h=>h.region))];
-const regionSelect=document.getElementById('regionFilter');
-regions.forEach(r=>{
- let opt=document.createElement('option');opt.value=r;opt.textContent=r;regionSelect.appendChild(opt);
+const regions = [...new Set(hopitaux.map(h => h.region))];
+const regionSelect = document.getElementById('regionFilter');
+
+regions.forEach(r => {
+  const opt = document.createElement('option');
+  opt.value = r;
+  opt.textContent = r;
+  regionSelect.appendChild(opt);
 });
 
 // ===== Affichage markers =====
-function afficherHopitaux(liste){
+function afficherHopitaux(liste) {
   markerGroup.clearLayers();
   const listeDiv = document.getElementById("listeCentres");
   listeDiv.innerHTML = "";
 
-  if(liste.length===0){
-    listeDiv.innerHTML="<i>Aucun centre correspondant</i>";
+  if (liste.length === 0) {
+    listeDiv.innerHTML = "<i>Aucun centre correspondant</i>";
     return;
   }
 
@@ -5695,106 +5700,92 @@ function afficherHopitaux(liste){
   const groups = groupByProximity(liste);
 
   groups.forEach(group => {
-
     group.forEach((h, index) => {
-
+      // Calcul de la position
       let position;
-
       if (group.length === 1) {
-        position = [h.lat, h.lng]; // pas de doublon
+        position = [h.lat, h.lng];
       } else {
-        // centre du groupe = moyenne des coordonnées
         const avgLat = group.reduce((sum, p) => sum + p.lat, 0) / group.length;
         const avgLng = group.reduce((sum, p) => sum + p.lng, 0) / group.length;
-
         position = spreadPoints(avgLat, avgLng, group.length, index);
       }
 
-      // plusieurs cancers → plusieurs icônes
+      // Création du marqueur pour chaque type de cancer
       h.cancers.forEach(type => {
         const marker = L.marker(position, { icon: getIconCentre(h) })
           .addTo(markerGroup)
-          .bindPopup(h.popupHtml,{
-            maxWidth:420,
-            minWidth:300,
-            className:"popup-uniforme"
+          .bindPopup(h.popupHtml, {
+            maxWidth: 420,
+            minWidth: 300,
+            className: "popup-uniforme"
           });
 
-  // élément liste
-  const item = document.createElement("div");
-  item.style.cursor="pointer";
-  item.style.padding="4px";
-  item.style.borderBottom="1px solid #ddd";
-  item.innerHTML = `<b>${h.nom}</b><br><small>${h.ville}</small>`;
+        // Éléments de la liste
+        const item = document.createElement("div");
+        item.style.cursor = "pointer";
+        item.style.padding = "4px";
+        item.style.borderBottom = "1px solid #ddd";
+        item.innerHTML = `<b>${h.nom}</b><br><small>${h.ville}</small>`;
 
-  item.onclick = ()=>{
-    map.setView([h.lat,h.lng],8);
-    marker.openPopup();
-  };
+        // On ouvre le popup et centre sur la position réelle du marqueur
+        item.onclick = () => {
+          map.setView(position, 8);
+          marker.openPopup();
+        };
 
-  listeDiv.appendChild(item);
- });
+        listeDiv.appendChild(item);
+      });
+    });
+  });
 }
-
 
 // ===== Filtres =====
-function appliquerFiltres(){
+function appliquerFiltres() {
+  const region = regionSelect.value;
+  const ressourcesChoisies = [...document.querySelectorAll('.res:checked')].map(c => c.value);
+  const cancersChoisis = [...document.querySelectorAll('.cancer:checked')].map(c => c.value);
 
- const region = regionSelect.value;
+  const resultat = hopitaux.filter(h => {
+    const okRegion = !region || h.region === region;
+    const okRes = ressourcesChoisies.length === 0 || (h.ressources && ressourcesChoisies.every(r => h.ressources.includes(r)));
+    const okCancer = cancersChoisis.length === 0 || (h.cancers && cancersChoisis.some(c => h.cancers.includes(c)));
 
- const ressourcesChoisies =
- [...document.querySelectorAll('.res:checked')].map(c=>c.value);
+    return okRegion && okRes && okCancer;
+  });
 
- const cancersChoisis =
- [...document.querySelectorAll('.cancer:checked')].map(c=>c.value);
-
- const resultat = hopitaux.filter(h=>{
-
-  const okRegion = !region || h.region===region;
-
-  const okRes =
-   ressourcesChoisies.length===0 ||
-   (h.ressources && ressourcesChoisies.every(r=>h.ressources.includes(r)));
-
-  const okCancer =
-   cancersChoisis.length===0 ||
-   (h.cancers && cancersChoisis.some(c=>h.cancers.includes(c)));
-
-  return okRegion && okRes && okCancer;
- });
-
- afficherHopitaux(resultat);
-}
-function resetFiltres(){
- regionSelect.value="";
- document.querySelectorAll("input[type=checkbox]").forEach(c=>c.checked=false);
- afficherHopitaux(hopitaux);
+  afficherHopitaux(resultat);
 }
 
+function resetFiltres() {
+  regionSelect.value = "";
+  document.querySelectorAll("input[type=checkbox]").forEach(c => c.checked = false);
+  afficherHopitaux(hopitaux);
+}
 
 // ===== Zoom DOM =====
-function zoomDOM(dom){
- const coords={
-  guyane:[4.9,-52.3,7],
-  guadeloupe:[16.25,-61.55,8],
-  martinique:[14.62,-61.05,8],
-  reunion:[-20.88,55.45,8]
- };
- const c=coords[dom];
- map.setView([c[0],c[1]],c[2]);
+function zoomDOM(dom) {
+  const coords = {
+    guyane: [4.9, -52.3, 7],
+    guadeloupe: [16.25, -61.55, 8],
+    martinique: [14.62, -61.05, 8],
+    reunion: [-20.88, 55.45, 8]
+  };
+  const c = coords[dom];
+  map.setView([c[0], c[1]], c[2]);
 }
 
-function zoomFrance(){
- map.setView([46.6,2.5],6);
+function zoomFrance() {
+  map.setView([46.6, 2.5], 6);
 }
 
-// affichage initial
+// Affichage initial
 afficherHopitaux(hopitaux);
- 
-document.getElementById("togglePanel").onclick = ()=>{
- document.getElementById("panel").classList.toggle("open");
-};
 
+// Toggle panel mobile
+document.getElementById("togglePanel").onclick = () => {
+  document.getElementById("panel").classList.toggle("open");
+};
 </script>
 </body>
 </html>
