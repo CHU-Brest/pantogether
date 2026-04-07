@@ -214,6 +214,79 @@ const icons = { oesogastrique: L.icon({iconUrl:"https://maps.google.com/mapfiles
                foie: L.icon({iconUrl:"https://maps.google.com/mapfiles/ms/icons/blue-dot.png",iconSize:[32,32],iconAnchor:[16,32]}), 
                pancreas: L.icon({iconUrl:"https://maps.google.com/mapfiles/ms/icons/orange-dot.png",iconSize:[32,32],iconAnchor:[16,32]}) 
               };
+function groupByProximity(data, threshold = 0.01) {
+  const groups = [];
+
+  data.forEach(point => {
+    let added = false;
+
+    for (let group of groups) {
+      const ref = group[0];
+
+      const isClose =
+        Math.abs(point.lat - ref.lat) < threshold &&
+        Math.abs(point.lng - ref.lng) < threshold;
+
+      if (isClose) {
+        group.push(point);
+        added = true;
+        break;
+      }
+    }
+
+    if (!added) {
+      groups.push([point]);
+    }
+  });
+
+  return groups;
+}
+function spreadPoints(lat, lng, count, index) {
+  const radius = 0.002; // distance d’écartement
+  const angle = (index / count) * (2 * Math.PI);
+
+  return [
+    lat + radius * Math.cos(angle),
+    lng + radius * Math.sin(angle)
+  ];
+}
+const groups = groupByProximity(hopitaux);
+
+groups.forEach(group => {
+
+  group.forEach((h, index) => {
+
+    let position;
+
+    if (group.length === 1) {
+      position = [h.lat, h.lng];
+    } else {
+      // centre du groupe (moyenne des coords = plus propre)
+      const avgLat = group.reduce((sum, p) => sum + p.lat, 0) / group.length;
+      const avgLng = group.reduce((sum, p) => sum + p.lng, 0) / group.length;
+
+      position = spreadPoints(avgLat, avgLng, group.length, index);
+    }
+
+    // plusieurs cancers → plusieurs icônes
+    h.cancers.forEach(type => {
+      L.marker(position, { icon: icons[type] })
+        .addTo(map)
+        .bindPopup(`<b>${h.nom}</b><br>${h.ville}`);
+    });
+
+  });
+
+});
+const radius = 0.0005 * Math.pow(2, 10 - map.getZoom()); 
+
+ L.marker(position, { icon })
+  .addTo(map)
+  .setOpacity(0)
+  .bindPopup(...)
+  .on('add', function() {
+    this.setOpacity(1);
+  });
  
 function getIconCentre(h){
  if(!h.cancers || h.cancers.length===0) return null;
