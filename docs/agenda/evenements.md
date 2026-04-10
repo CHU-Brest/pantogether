@@ -8,6 +8,11 @@ title: Evènements
 <a href="https://www.oncobretagne.fr/wp-content/uploads/2026/01/pre-programme-hepato2026.pdf" target="_blank">
   <img src="/assets/onco220526.png" alt="oncobretagne" width="200" class="image-hover">
 </a>
+* **17 Juin 2026** à **Nantes** : 15ème Journée Annuelle du GIRCI Grand Ouest <br>
+La Recherche clinique à l'ère de la transition écologique <br>    
+<a href="https://my.weezevent.com/journee-du-girci" target="_blank">
+  <img src="/assets/GIRCIGO170626.png" alt="GIRCIGO" width="200" class="image-hover">
+</a>
 <style>
 .image-hover {
   transition: transform 0.3s ease;
