@@ -8,6 +8,7 @@ title: Journées et congrès scientifiques
 <a href="https://www.oncobretagne.fr/wp-content/uploads/2026/01/pre-programme-hepato2026.pdf" target="_blank">
   <img src="/assets/onco220526.png" alt="oncobretagne" width="200" class="image-hover">
 </a>
+
 * **17 Juin 2026** à **Nantes** : 15ème Journée Annuelle du GIRCI Grand Ouest <br>
 La Recherche clinique à l'ère de la transition écologique <br>    
 <a href="https://my.weezevent.com/journee-du-girci" target="_blank">
@@ -28,10 +29,9 @@ La Recherche clinique à l'ère de la transition écologique <br>
 
 Le [Programme](<https://www.oncobretagne.fr/wp-content/uploads/2025/10/programme_dig2025.pdf>) complet   
    
-
+   
 * **19 au 22 Mars 2026** à **Paris** : Journées Francophones d’Hépato-gastroentérologie et d’Oncologie Digestive
-
-Site internet de l'évènement :     
+ 
 <a href="https://www.jfhod.com/" target="_blank">
   <img src="/assets/JFHOD2026.png" alt="JFHOD" width="200" class="image-hover">
 </a>   
