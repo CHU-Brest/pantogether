@@ -34,7 +34,7 @@ Le [Programme](<https://www.oncobretagne.fr/wp-content/uploads/2025/10/programme
 Site internet de l'évènement : [JFHOD](<https://www.jfhod.com/>)    
 <a href="https://www.jfhod.com/" target="_blank">
   <img src="/assets/JFHOD2026.png" alt="JFHOD" width="200" class="image-hover">
-</a>
+</a>   
 Le [Programme](<https://www.jfhod.com/sites/www.jfhod.com/files/2025-07/JFHOD2026_Programme%20pre%CC%81liminaire.pdf>)   
 
    
