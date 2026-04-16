@@ -2,7 +2,7 @@
 title: Webinaires
 
 ---
-## Pancréas
+# Pancréas
    
 * Webinaires bi-mensuels du réseau [FRAP](https://www.frap-network.org/) sur le cancer du pancréas.  
    
