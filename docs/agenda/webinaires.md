@@ -16,12 +16,12 @@ title: Webinaires
 https://u-paris.zoom.us/meeting/register/w1AP6DafRcOCaDA0ThO6zQ   
 
 <br>          
-📅 Date: Mercredi 13 Mai 2026    <br>  
+📅 Date: Mercredi 13 Mai 2026<br>
 ⏰ Heure: 13h00 (CET)   <br>
-👤 Intervenant: Prof. Mathieu Gautier (PhD) - CRCLille, Lille, France    <br>
-🎤 Thème: TBD (impact du Cadmium dans la cancérogenèse pancréatique)   <br>   
+👤 Intervenant: Prof. Mathieu Gautier (PhD) - CRCLille, Lille, France <br>
+🎤 Thème: TBD (impact du Cadmium dans la cancérogenèse pancréatique)<br>
 💻 Format : conférence en anglais, connexion à distance via Zoom<br>
-   <br>
-🔗 S'inscrire pour recevoir le lien de connexion Zoom:   <br>
-https://u-paris.zoom.us/meeting/register/O11F8yzFSXulOT-fF67iAg   <br>
+<br>
+🔗 S'inscrire pour recevoir le lien de connexion Zoom:<br>
+https://u-paris.zoom.us/meeting/register/O11F8yzFSXulOT-fF67iAg <br>
 <br>
