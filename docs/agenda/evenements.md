@@ -3,7 +3,7 @@ title: Journées et congrès scientifiques
 
 ---
 
-## A venir   
+## Evènements à venir   
 * **22 Mai 2026** à **Rennes** : Journées scientifiques Hépato-bilio-pancréatique     
 <a href="https://www.oncobretagne.fr/wp-content/uploads/2026/01/pre-programme-hepato2026.pdf" target="_blank">
   <img src="/assets/onco220526.png" alt="oncobretagne" width="200" class="image-hover">
