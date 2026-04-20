@@ -344,6 +344,34 @@ Tel : 03 68 76 74 37<br>
 Soumission de la fiche RCP sur la plateforme en ligne [PULSY](<https://www.pulsy.fr/portail/nos-services-e-sante/e-rcp-54-62.html>)
 <br>
 
+  ## <span style="color:blue">**Hauts-de-France**</span>
+### **CHU Lille** 
+<ul>
+<li><strong> RCP des tumeurs digestives </strong></li>   
+Réseau Onco Hauts-de-France <br>  
+<strong>Horaire :</strong> Vendredi à 16h <br>
+<strong>Fréquence :</strong> Hebdomadaire <br>
+<strong>Lieu :</strong> Hôpital Huriez <br>
+Salle Charles Proye <br>
+Rue Michel Polonowski, 59037 <strong>Lille</strong>  <br>
+<br>
+<li><strong> RCP des tumeurs digestives superficielles </strong></li>   
+Réseau Onco Hauts-de-France <br>  
+<strong>Horaire :</strong> Vendredi à 15h30 <br>
+<strong>Fréquence :</strong> Mensuelle <br>
+<strong>Lieu :</strong> Hôpital Huriez <br>
+Salle Charles Proye <br>
+Rue Michel Polonowski, 59037 <strong>Lille</strong>  <br>
+<br>
+</ul>
+<strong>AMA en charge de la RCP :</strong>  <br>
+BIENCOURT Magalie <br>
+RCP.hepato-digestive@chu-lille.fr <br>
+Tel : 03 20 44 59 62<br>
+<br>
+<strong>Modalités de soumission d’un dossier :</strong> <br>
+Dossier à soumettre sur le DCC : https://dcc.onco-hdf.fr/oncohdf/ui/GwtDCR.jsp
+ 
 ## <span style="color:blue">**Ile de France**</span>
 ### **CHU Saint-Antoine**  
 <ul>
