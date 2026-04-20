@@ -1243,11 +1243,10 @@ a.bertolaso@institut-strauss.fr <br>
 </details>
 
 ## <span style="color:blue">**Hauts-de-France**</span> ##
-###**CHRU Lille**
+###**CHU Lille**
 **Pr Piessen**     
-Service de chirurgie Générale et Digestive, 3ème étage EST
-Hôpital Huriez 
-Service d'hépato-gastro-entérologie et d'endoscopie (Pr Lucille Quénéhervé)
+Service de chirurgie Générale et Digestive, 3ème étage EST <br>
+Hôpital Huriez <br>
 Rue Michel Polonowski, 59037 **Lille** <br>
 Guillaume.PIESSEN@chu-lille.fr  <br>
 <br>    
@@ -1332,7 +1331,7 @@ Justine.Lerooy@chu-lille.fr <br>
 Tel : 03 20 44 44 11<br>
 </ul>
 </details>
-
+<br>
 ## <span style="color:blue">**Ile-de-France**</span> ##
 ### **Hôpital Saint-Antoine, APHP** <br>
 **Pr ANDRE Thierry**  <br>
