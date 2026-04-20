@@ -371,7 +371,41 @@ Tel : 03 20 44 59 62<br>
 <br>
 <strong>Modalités de soumission d’un dossier :</strong> <br>
 Dossier à soumettre sur le DCC : https://dcc.onco-hdf.fr/oncohdf/ui/GwtDCR.jsp
- 
+
+## <span style="color:blue">**Guadeloupe**</span>   
+### **CHU Guadeloupe, Pointe-à-Pitre**
+<ul>
+<li><strong> RCP Oncologie digestive du CHU </strong></li>   
+<br>  
+<strong>Horaire :</strong> Mardi à 15h (heure locale) (21h heure d’été, 20h heure d’hiver en métropole)  <br>
+<strong>Fréquence :</strong> Bi-mensuelle <br>
+<strong>Lieu :</strong> CHU de la Guadeloupe <br>
+Locaux des 3C<br>
+<br>
+<li><strong> RCP Oncologie digestive du CH de la Basse Terre </strong></li>   
+<br>  
+<strong>Horaire :</strong> Mardi à 15h (heure locale) (21h heure d’été, 20h heure d’hiver en métropole)<br>
+<strong>Fréquence :</strong> Bi-mensuelle <br>
+<strong>Lieu :</strong> CHU de la Guadeloupe <br>
+Locaux des 3C<br>
+<br>
+<li><strong> RCP Nodule foie avec APHP Paul Brousse </strong></li>   
+<br>  
+<strong>Horaire :</strong> Mardi à 14h (heure de Paris)<br>
+<strong>Fréquence :</strong> Mensuelle <br>
+<strong>Lieu :</strong> CHU de la Guadeloupe <br>
+Locaux des 3C<br>
+<br>
+
+</ul>
+<strong>AMA en charge de la RCP :</strong>  <br>
+VEBER Céline <br>
+celine.bez@chu-guadeloupe.fr <br>
+<br>
+<strong>Modalités de soumission d’un dossier :</strong> <br>
+Dossier à soumettre via IdéoRCP <br>
+
+
 ## <span style="color:blue">**Ile de France**</span>
 ### **CHU Saint-Antoine**  
 <ul>
