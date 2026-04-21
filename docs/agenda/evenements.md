@@ -7,12 +7,12 @@ title: Journées et congrès scientifiques
 * **22 Mai 2026** à **Rennes** : Journées scientifiques Hépato-bilio-pancréatique
 <br>   
 <a href="https://www.oncobretagne.fr/wp-content/uploads/2026/01/pre-programme-hepato2026.pdf" target="_blank">
-  <img src="/assets/onco220526.png" alt="oncobretagne" width="200" class="image-hover">
+  <img src="/assets/onco220526.png" alt="oncobretagne" width="180" class="image-hover">
 </a>
 * **12 Juin 2026** à **Dijon** : Journées de Printemps de Cancérologie Digestive de la FFCD     
 <br>
 <a href="https://www.ffcd.fr/index.php/formation/journees/614-journee-de-printemps-2026" target="_blank">
-  <img src="/assets/FFCDprintemps2026.png" alt="FFCDprintemps2026" width="200" class="image-hover">
+  <img src="/assets/FFCDprintemps2026.png" alt="FFCDprintemps2026" width="300" class="image-hover">
 </a>
 * **17 Juin 2026** à **Nantes** : 15ème Journée Annuelle du GIRCI Grand Ouest <br>
 <br>
