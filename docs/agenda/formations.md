@@ -6,7 +6,7 @@ title: Formations professionnelles
 * **05 Juin 2026** à **Marseille** et en distanciel : 18ème Symposium d'endoscopie en Oncologie Digestive de la SFED <br>
 <br>
 <a href="https://www.sfed.org/actualites/18e-symposium-dendoscopie-en-oncologie-digestive/" target="_blank">
-  <img src="/assets/SFEDformation050626.png" alt="SFED26" width="200" class="image-hover">
+  <img src="/assets/SFEDformation050626.png" alt="SFEDformation050626" width="200" class="image-hover">
 </a>
 <br>
 * **19-20 Juin 2026** à **Nantes** : 10th ESDO Masterclass <br>
