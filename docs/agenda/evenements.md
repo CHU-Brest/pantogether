@@ -29,6 +29,12 @@ New approaches in digestive oncology : From bench to bedside <br>
   <img src="/assets/ESDO190626.png" alt="ESDO26" width="200" class="image-hover">
 </a>
 <br>
+* **19-20 Juin 2026** à **Vittel** : 9ème séminaire interrégional de cancérologie digestive <br>
+<br>
+<a href="https://www.onco-grandest.fr/evenements/9eme-seminaire-interregional-de-cancerologie-digestive/" target="_blank">
+  <img src="/assets/oncobfc26.png" alt="oncobfc26" width="200" class="image-hover">
+</a>
+<br>
 * **7-9 Octobre 2026** à **Strasbourg** : 99ème Journées Scientifiques de l'AFEF <br> 
 <br>
 <a href="https://www.congres-afef.com/" target="_blank">
