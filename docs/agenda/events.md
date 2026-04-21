@@ -104,15 +104,18 @@ async function loadEvents() {
   rows.forEach(row => {
     if (!row.trim()) return;
 
-    const [date, ville, titre, desc, image, lien, statut] = row.split(';');
-    console.log(row.split(';'));
+    const [date, ville, titre, desc, image, lien, statut] = row.split('\t').map(e => e.trim());
+    console.log(row.split('\t'));
 
-    const id = "event-" + date;
-
+    const [j, m, a] = date.split('/');
+const id = "event-" + a + "-" + m + "-" + j;
+    
     const day = document.createElement('div');
     day.className = 'day';
     day.dataset.date = date;
-    day.innerHTML = date.split('-')[2] + "<br><span>" + ville + "</span>";
+    const [jour, mois, annee] = date.split('/');
+
+day.innerHTML = jour + "<br><span>" + ville + "</span>";
     calendar.appendChild(day);
 
     const card = document.createElement('div');
