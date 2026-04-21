@@ -19,7 +19,10 @@ New approaches in digestive oncology : From bench to bedside <br>
 <a href="https://www.asconnect-evenement.fr/congres/10th-esdo-masterclass-nantes-2026/" target="_blank">
   <img src="/assets/ESDO190626.png" alt="ESDO26" width="200" class="image-hover">
 </a>
-
+* **7-9 Octobre 2026** à **Strasbourg** : 99ème Journées Scientifiques de l'AFEF <br> 
+<a href="https://www.congres-afef.com/" target="_blank">
+  <img src="/assets/AFEF2026.png" alt="AFEF26" width="200" class="image-hover">
+</a>
 <style>
 .image-hover {
   transition: transform 0.3s ease;
