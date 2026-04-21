@@ -26,7 +26,8 @@ https://u-paris.zoom.us/meeting/register/w1AP6DafRcOCaDA0ThO6zQ
 🔗 S'inscrire pour recevoir le lien de connexion Zoom:<br>
 https://u-paris.zoom.us/meeting/register/O11F8yzFSXulOT-fF67iAg <br>
 <br>
-* **Reporté, Date à venir**
+
+* **Webinaire de la Fondation ARCAD : Reporté, Date à venir**
 <br> 
 <a href="https://www.fondationarcad.org/webconference/le-projet-yoda-mieux-comprendre-les-cancers-du-pancreas-chez-les-jeunes/" target="_blank">
   <img src="/assets/ARCADYODA26.png" alt="ARCADYODA" width="350" class="image-hover">
