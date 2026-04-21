@@ -62,8 +62,6 @@ New approaches in digestive oncology : From bench to bedside <br>
 * **19 au 22 Mars 2026** à **Paris** : Journées Francophones d’Hépato-gastroentérologie et d’Oncologie Digestive
  
 <a href="https://www.jfhod.com/" target="_blank">
-  <img src="/assets/JFHOD2026.png" alt="JFHOD" width="200" class="image-hover">
+  <img src="/assets/JFHOD2026.png" alt="JFHOD" width="150" class="image-hover">
 </a>   
-Le [Programme](<https://www.jfhod.com/sites/www.jfhod.com/files/2025-07/JFHOD2026_Programme%20pre%CC%81liminaire.pdf>)   
-
    
