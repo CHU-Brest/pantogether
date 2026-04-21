@@ -29,7 +29,7 @@ New approaches in digestive oncology : From bench to bedside <br>
   <img src="/assets/ESDO190626.png" alt="ESDO26" width="200" class="image-hover">
 </a>
 <br>
-* **19-20 Juin 2026** à **Vittel** : 9ème séminaire interrégional de cancérologie digestive <br>
+* **19-20 Juin 2026** à **Vittel** : 9ème séminaire interrégional de cancérologie digestive - DSRC Grand Est et Bourgogne-Franche-Comté <br>
 <br>
 <a href="https://www.onco-grandest.fr/evenements/9eme-seminaire-interregional-de-cancerologie-digestive/" target="_blank">
   <img src="/assets/oncobfc26.png" alt="oncobfc26" width="200" class="image-hover">
