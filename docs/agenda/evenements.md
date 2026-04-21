@@ -12,13 +12,13 @@ title: Journées et congrès scientifiques
 * **12 Juin 2026** à **Dijon** : Journées de Printemps de Cancérologie Digestive de la FFCD     
 <br>
 <a href="https://www.ffcd.fr/index.php/formation/journees/614-journee-de-printemps-2026" target="_blank">
-  <img src="/assets/FFCDprintemps2026.png" alt="FFCDprintemps2026" width="300" class="image-hover">
+  <img src="/assets/FFCDprintemps2026.png" alt="FFCDprintemps2026" width="350" class="image-hover">
 </a>
 * **17 Juin 2026** à **Nantes** : 15ème Journée Annuelle du GIRCI Grand Ouest <br>
 <br>
 La Recherche clinique à l'ère de la transition écologique <br>    
 <a href="https://my.weezevent.com/journee-du-girci" target="_blank">
-  <img src="/assets/GIRCIGO170626.png" alt="GIRCIGO" width="200" class="image-hover">
+  <img src="/assets/GIRCIGO170626.png" alt="GIRCIGO" width="300" class="image-hover">
 </a>
 * **19-20 Juin 2026** à **Nantes** : 10th ESDO Masterclass <br>
 New approaches in digestive oncology : From bench to bedside <br>
