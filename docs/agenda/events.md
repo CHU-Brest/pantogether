@@ -1,3 +1,11 @@
+<h2>Agenda</h2>
+
+<div class="calendar">
+  <div class="calendar-grid"></div>
+</div>
+
+<div class="timeline-modern"></div>
+
 <script>
 async function loadEvents() {
   const response = await fetch('/data/events.csv');
