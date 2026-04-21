@@ -91,7 +91,7 @@
 </style>
 <script>
 async function loadEvents() {
-  const response = await fetch('https://github.com/CHU-Brest/pantogether/tree/main/docs/data');
+  const response = await fetch('https://github.com/CHU-Brest/pantogether/tree/main/docs/data/events.csv');
   const text = await response.text();
 
   const rows = text.split('\n').slice(1);
