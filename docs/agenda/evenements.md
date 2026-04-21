@@ -47,9 +47,11 @@ New approaches in digestive oncology : From bench to bedside <br>
 ## Evènements passés :
 
 * **28 Novembre 2025** à **Saint-Malo** : Journées scientifiques d'Oncologie Digestive      
-
-Le [Programme](<https://www.oncobretagne.fr/wp-content/uploads/2025/10/programme_dig2025.pdf>) complet   
-   
+<br> 
+<a href="https://www.oncobretagne.fr/wp-content/uploads/2025/10/programme_dig2025.pdf" target="_blank">
+  <img src="/assets/oncobretagne2025.png" alt="oncobretagne25" width="150" class="image-hover">
+</a>
+<br>   
    
 * **19 au 22 Mars 2026** à **Paris** : Journées Francophones d’Hépato-gastroentérologie et d’Oncologie Digestive
  
