@@ -94,30 +94,35 @@ async function loadEvents() {
   const response = await fetch('https://raw.githubusercontent.com/chu-brest/pantogether/main/docs/data/events.csv');
   const text = await response.text();
 
-  const rows = text.split('\n').slice(1);
-
-  console.log(rows); // DEBUG
+  const rows = text.split('\n').filter(r => r.trim());
 
   const calendar = document.querySelector('.calendar-grid');
   const timeline = document.querySelector('.timeline-modern');
 
-  rows.forEach(row => {
-    if (!row.trim()) return;
+  rows.forEach((row, index) => {
 
-    const [date, ville, titre, desc, image, lien, statut] = row.split('\t').map(e => e.trim());
-    console.log(row.split('\t'));
+    const cols = row.split(';').map(e => e.trim());
 
-    const [j, m, a] = date.split('/');
-const id = "event-" + a + "-" + m + "-" + j;
-    
+    const [date, ville, titre, desc, image, lien, statut] = cols;
+
+    if (!date || !ville) return;
+
+    // 👉 ID SAFE (on enlève les caractères spéciaux)
+    const id = "event-" + index;
+
+    // CALENDRIER
     const day = document.createElement('div');
     day.className = 'day';
-    day.dataset.date = date;
-    const [jour, mois, annee] = date.split('/');
+    day.dataset.target = id;
 
-day.innerHTML = jour + "<br><span>" + ville + "</span>";
+    day.innerHTML = `
+      <strong>${date}</strong><br>
+      <span>${ville}</span>
+    `;
+
     calendar.appendChild(day);
 
+    // TIMELINE
     const card = document.createElement('div');
     card.className = 'card';
     card.id = id;
@@ -132,6 +137,27 @@ day.innerHTML = jour + "<br><span>" + ville + "</span>";
     `;
 
     timeline.appendChild(card);
+  });
+
+  initInteractions();
+}
+
+function initInteractions() {
+  document.querySelectorAll('.day').forEach(day => {
+    day.addEventListener('click', () => {
+
+      const target = document.getElementById(day.dataset.target);
+
+      if (!target) return;
+
+      target.scrollIntoView({ behavior: 'smooth', block: 'center' });
+
+      document.querySelectorAll('.card').forEach(c => c.classList.remove('highlight'));
+      target.classList.add('highlight');
+
+      document.querySelectorAll('.day').forEach(d => d.classList.remove('active'));
+      day.classList.add('active');
+    });
   });
 }
 
