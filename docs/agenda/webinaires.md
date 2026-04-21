@@ -26,14 +26,19 @@ https://u-paris.zoom.us/meeting/register/w1AP6DafRcOCaDA0ThO6zQ
 🔗 S'inscrire pour recevoir le lien de connexion Zoom:<br>
 https://u-paris.zoom.us/meeting/register/O11F8yzFSXulOT-fF67iAg <br>
 <br>
-* **Webinaire de la SFED : Commission prévention et dépistage des cancers : Pancréas**
+<br> 
+**Webinaire de la SFED : Commission prévention et dépistage des cancers : Pancréas** <br> 
+📅 29 Avril 2026 à 19h30
 <br> 
 <a href="https://www.sfed.org/actualites/commission-prevention-et-depistage-des-cancers/" target="_blank">
   <img src="/assets/SFEDpancreas290426.png" alt="SFED290426" width="200" class="image-hover">
 </a>
 <br>
-* **Webinaire de la Fondation ARCAD : Reporté, Date à venir**
+<br> 
+**Webinaire de la Fondation ARCAD** <br> 
+📅 Reporté, Date à venir
 <br> 
 <a href="https://www.fondationarcad.org/webconference/le-projet-yoda-mieux-comprendre-les-cancers-du-pancreas-chez-les-jeunes/" target="_blank">
   <img src="/assets/ARCADYODA26.png" alt="ARCADYODA" width="350" class="image-hover">
 </a>
+<br> 
