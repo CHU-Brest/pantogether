@@ -104,7 +104,8 @@ async function loadEvents() {
   rows.forEach(row => {
     if (!row.trim()) return;
 
-    const [date, ville, titre, desc, image, lien, statut] = row.split(',');
+    const [date, ville, titre, desc, image, lien, statut] = row.split(';');
+    console.log(row.split(';'));
 
     const id = "event-" + date;
 
