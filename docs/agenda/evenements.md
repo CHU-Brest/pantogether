@@ -14,6 +14,12 @@ La Recherche clinique à l'ère de la transition écologique <br>
 <a href="https://my.weezevent.com/journee-du-girci" target="_blank">
   <img src="/assets/GIRCIGO170626.png" alt="GIRCIGO" width="200" class="image-hover">
 </a>
+* **19-20 Juin 2026** à **Nantes** : 10th ESDO Masterclass <br>
+New approaches in digestive oncology : From bench to bedside <br>
+<a href="https://www.asconnect-evenement.fr/congres/10th-esdo-masterclass-nantes-2026/" target="_blank">
+  <img src="/assets/ESDO190626.png" alt="ESDO26" width="200" class="image-hover">
+</a>
+
 <style>
 .image-hover {
   transition: transform 0.3s ease;
