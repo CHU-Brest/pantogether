@@ -98,12 +98,17 @@
   color: #333;
   letter-spacing: 1px;
 }
-  .month-nav {
+ .month-nav {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: white;
+  padding: 10px;
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
   justify-content: center;
-  margin-bottom: 30px;
+  border-bottom: 1px solid #eee;
 }
 
 .month-btn {
@@ -119,6 +124,11 @@
   background: #007BFF;
   color: white;
 }
+
+.month-btn.active {
+  background: #007BFF;
+  color: white;
+} 
 }
 </style>
 
@@ -232,22 +242,55 @@ function reveal() {
   });
 }
 // NAVIGATION PAR MOIS
+// NAVIGATION PAR MOIS
 const nav = document.getElementById('month-nav');
+const monthElements = [];
 
 Object.keys(months).forEach(month => {
 
   const id = month.replace(/\s/g, '-');
 
+  // bouton
   const btn = document.createElement('div');
   btn.className = 'month-btn';
   btn.innerText = month;
+  btn.dataset.target = id;
 
   btn.addEventListener('click', () => {
-    const target = document.getElementById(id);
-    if (target) {
-      target.scrollIntoView({ behavior: 'smooth' });
+    document.getElementById(id).scrollIntoView({
+      behavior: 'smooth',
+      block: 'start'
+    });
+  });
+
+  nav.appendChild(btn);
+
+  // stocker les sections
+  const section = document.getElementById(id);
+  if (section) {
+    monthElements.push({ id, element: section, btn });
+  }
+});
+
+
+// 🔥 SURBRILLANCE AU SCROLL
+window.addEventListener('scroll', () => {
+
+  let current = null;
+
+  monthElements.forEach(m => {
+    const rect = m.element.getBoundingClientRect();
+
+    if (rect.top <= 120) {
+      current = m;
     }
   });
+
+  if (current) {
+    document.querySelectorAll('.month-btn').forEach(b => b.classList.remove('active'));
+    current.btn.classList.add('active');
+  }
+});
 
   nav.appendChild(btn);
 });
