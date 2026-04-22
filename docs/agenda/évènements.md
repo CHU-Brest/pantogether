@@ -111,24 +111,74 @@
   border-bottom: 1px solid #eee;
 }
 
+<style>
+/* NAV CONTAINER */
+.month-nav {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: white;
+  padding: 15px 10px;
+  border-bottom: 1px solid #eee;
+}
+
+/* GRID CALENDAR */
+.month-grid {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* MONTH BUTTON */
 .month-btn {
-  padding: 8px 14px;
-  border-radius: 20px;
-  background: #f1f1f1;
+  padding: 10px 16px;
+  border-radius: 25px;
+  background: #f5f5f5;
   cursor: pointer;
-  transition: 0.3s;
+  transition: all 0.3s ease;
   font-size: 0.9em;
+  position: relative;
+  overflow: hidden;
 }
 
-.month-btn:hover {
+/* HOVER ANIMATION */
+.month-btn::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 100%;
+  left: 0;
+  top: 0;
   background: #007BFF;
-  color: white;
+  transition: 0.3s;
+  z-index: 0;
 }
 
+.month-btn:hover::after {
+  width: 100%;
+}
+
+.month-btn span {
+  position: relative;
+  z-index: 1;
+}
+
+/* ACTIVE */
 .month-btn.active {
   background: #007BFF;
   color: white;
-} 
+  transform: scale(1.05);
+}
+
+/* MONTH TITLE */
+.timeline-month {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.3em;
+  margin: 50px 0 20px;
+  color: #222;
+}
   }
 </style>
 
@@ -240,7 +290,7 @@ function reveal() {
     if (top < trigger) item.classList.add('show');
   });
 }
-// NAVIGATION PAR MOIS
+
 // NAVIGATION PAR MOIS
 const nav = document.getElementById('month-nav');
 const monthElements = [];
@@ -271,8 +321,43 @@ Object.keys(months).forEach(month => {
   }
 });
 
+<script>
+// NAV CONTAINER
+const nav = document.getElementById('month-nav');
 
-// 🔥 SURBRILLANCE AU SCROLL
+// créer grille
+const grid = document.createElement('div');
+grid.className = 'month-grid';
+nav.appendChild(grid);
+
+const monthElements = [];
+
+// créer boutons
+Object.keys(months).forEach(month => {
+
+  const id = month.replace(/\s/g, '-');
+
+  const btn = document.createElement('div');
+  btn.className = 'month-btn';
+  btn.innerHTML = `<span>${month}</span>`;
+
+  btn.addEventListener('click', () => {
+    document.getElementById(id).scrollIntoView({
+      behavior: 'smooth',
+      block: 'start'
+    });
+  });
+
+  grid.appendChild(btn);
+
+  const section = document.getElementById(id);
+  if (section) {
+    monthElements.push({ element: section, btn });
+  }
+});
+
+
+// 🔥 SURBRILLANCE INTELLIGENTE
 window.addEventListener('scroll', () => {
 
   let current = null;
@@ -280,7 +365,7 @@ window.addEventListener('scroll', () => {
   monthElements.forEach(m => {
     const rect = m.element.getBoundingClientRect();
 
-    if (rect.top <= 120) {
+    if (rect.top <= 150) {
       current = m;
     }
   });
@@ -290,7 +375,5 @@ window.addEventListener('scroll', () => {
     current.btn.classList.add('active');
   }
 });
-
-window.addEventListener('scroll', reveal);
-window.addEventListener('load', reveal);
 </script>
+
