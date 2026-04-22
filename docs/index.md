@@ -20,6 +20,12 @@ title: Bienvenue
   </div>
 </div>
 
+<style>
+.logo {
+  width: 90px;
+}
+</style>
+
 ---
 
 ## À propos du réseau
@@ -39,7 +45,7 @@ sur l’ensemble du territoire.
 <div class="card">
 <h3>🏛️ Pilotage national</h3>
 <ul>
-<li>CHU de Brest (centre pilote)</li>
+<li> <img src="/assets/chubrest.png" class="logo"> CHU de Brest (centre pilote)</li>
 <li>Pr Jean-Philippe Metges (CHU Brest)</li>
 <li>Pr Nathalie Ganne-Carrié (CHU Avicenne)</li>
 </ul>
