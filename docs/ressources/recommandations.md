@@ -1,8 +1,4 @@
 <!DOCTYPE html>
-<html lang="fr">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Recommandations TNCD & AFEF</title>
 
   <style>
@@ -81,12 +77,6 @@
       margin-top: 5px;
     }
 
-    footer {
-      text-align: center;
-      padding: 30px;
-      font-size: 12px;
-      color: #6b7280;
-    }
   </style>
 </head>
 
