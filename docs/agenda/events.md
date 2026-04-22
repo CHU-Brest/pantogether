@@ -105,7 +105,7 @@
 <script>
 const events = [
   {
-    date : "2026-05-22"
+    date : "2026-05-22",
     displayDate: "22 Mai 2026",
     ville: "Rennes",
     titre: "Journées scientifiques Hépato-Bilio-Pancréatique",
@@ -113,6 +113,7 @@ const events = [
     lien: "https://www.oncobretagne.fr/wp-content/uploads/2026/01/pre-programme-hepato2026.pdf"
   },
   {
+    date : "2026-06-12",
     displayDate: "12 Juin 2026",
     ville: "Dijon",
     titre: "Journées de Printemps de Cancérologie Digestive",
@@ -120,6 +121,7 @@ const events = [
     lien: "https://www.ffcd.fr/index.php/formation/journees/614-journee-de-printemps-2026"
   },
   {
+    date : "2026-06-17",
     displayDate: "17 Juin 2026",
     ville: "Nantes",
     titre: "15ème Journée Annuelle du GIRCI Grand Ouest",
@@ -127,6 +129,7 @@ const events = [
     lien: "https://my.weezevent.com/journee-du-girci"
   },
   {
+    date : "2026-06-19",
     displayDate: "19-20 Juin 2026",
     ville: "Vittel",
     titre: "9ème séminaire interrégional de cancérologie digestive",
@@ -134,6 +137,7 @@ const events = [
     lien: "https://www.onco-grandest.fr/evenements/9eme-seminaire-interregional-de-cancerologie-digestive/"
   },
   {
+    date : "2026-10-07",
     displayDate: "07-09 Octobre 2026",
     ville: "Strasbourg",
     titre: "99ème Journées Scientifiques de l'AFEF",
