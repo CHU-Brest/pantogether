@@ -129,7 +129,6 @@
   background: #007BFF;
   color: white;
 } 
-}
 </style>
 
 <script>
