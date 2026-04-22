@@ -137,7 +137,6 @@
     <a href="https://afef.asso.fr/wp-content/uploads/2025/03/Recommandations-Afef-2025-CHC.pdf" target="_blank">
       Accéder au document
     </a>
-    <div class="tag">CHC</div>
   </div>
 
   <div class="card">
@@ -146,7 +145,6 @@
     <a href="https://afef.asso.fr/wp-content/uploads/2023/06/AFEF_2209_4140_Recommandations_2021-7.pdf" target="_blank">
       Accéder au document
     </a>
-    <div class="tag">Biliaire</div>
   </div>
 
 </div>
