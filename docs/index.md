@@ -242,12 +242,11 @@ PAN-TOGETHER : améliorer ensemble le pronostic des cancers digestifs de mauvais
 .banner {
   position: relative;
   width: 100%;
-  aspect-ratio: 16 / 5;
+  aspect-ratio: 16 / 4.2; /* 🔽 plus bas que 16/5 */
   overflow: hidden;
   border-radius: 10px;
 }
 
-/* image principale */
 .banner-img {
   width: 100%;
   height: 100%;
@@ -255,38 +254,38 @@ PAN-TOGETHER : améliorer ensemble le pronostic des cancers digestifs de mauvais
   display: block;
 }
 
-/* zone logos */
+/* Logos */
 .banner-logos {
   position: absolute;
   top: 12px;
   right: 12px;
   display: flex;
-  gap: 12px;
+  gap: 14px;
   align-items: center;
   z-index: 2;
 }
 
-/* lien cliquable propre */
+/* lien SANS fond ni shadow */
 .logo-link {
   display: inline-block;
-  background: rgba(255, 255, 255, 0.85);
-  padding: 6px 8px;
-  border-radius: 8px;
-  transition: transform 0.2s ease, background 0.2s ease;
+  padding: 0;
+  background: transparent;
+  border-radius: 0;
+  box-shadow: none;
 }
 
-/* images logos */
+/* logos plus grands */
 .logo-link img {
-  height: 45px;
-  width: auto;          /* IMPORTANT : empêche la déformation */
-  object-fit: contain;  /* sécurité supplémentaire */
+  height: 70px;   /* 🔼 agrandi */
+  width: auto;
+  object-fit: contain;
   display: block;
+  transition: transform 0.2s ease;
 }
 
-/* hover */
-.logo-link:hover {
+/* hover léger uniquement */
+.logo-link img:hover {
   transform: scale(1.05);
-  background: rgba(255, 255, 255, 1);
 }
 
 /* mobile */
@@ -294,11 +293,11 @@ PAN-TOGETHER : améliorer ensemble le pronostic des cancers digestifs de mauvais
   .banner-logos {
     top: 8px;
     right: 8px;
-    gap: 8px;
+    gap: 10px;
   }
 
   .logo-link img {
-    height: 32px;
+    height: 48px;
   }
 }
 </style>
