@@ -1,114 +1,152 @@
-<h2>Évènements à venir</h2>
-<div class="calendar">
-  <div class="calendar-grid"></div>
-</div>
-<div class="timeline-modern" id="future-events"></div>
+<h2>Agenda</h2>
 
-<h2>Évènements passés</h2>
-<div class="timeline-modern past" id="past-events"></div>
+<div class="timeline" id="timeline"></div>
 
 <style>
-.past .card {
-  opacity: 0.6;
+.timeline {
+  position: relative;
+  max-width: 900px;
+  margin: 50px auto;
 }
 
-.past .card:hover {
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 4px;
+  background: #ddd;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.timeline-item {
+  position: relative;
+  width: 50%;
+  padding: 20px 40px;
+  opacity: 0;
+  transform: translateY(40px);
+  transition: 0.6s;
+}
+
+.timeline-item.show {
   opacity: 1;
+  transform: translateY(0);
+}
+
+.timeline-item.left { left: 0; }
+.timeline-item.right { left: 50%; }
+
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  top: 30px;
+  width: 16px;
+  height: 16px;
+  background: #007BFF;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.timeline-item.left::before { right: -8px; }
+.timeline-item.right::before { left: -8px; }
+
+.content {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+  transition: 0.3s;
+}
+
+.content:hover {
+  transform: translateY(-5px);
+}
+
+.content img {
+  margin-top: 10px;
+  max-width: 100%;
+  border-radius: 6px;
+}
+
+.date {
+  font-size: 0.9em;
+  color: #007BFF;
+  font-weight: bold;
+}
+
+/* MOBILE */
+@media screen and (max-width: 768px) {
+  .timeline::after { left: 20px; }
+
+  .timeline-item {
+    width: 100%;
+    padding-left: 60px;
+    padding-right: 20px;
+  }
+
+  .timeline-item.right { left: 0; }
+
+  .timeline-item.left::before,
+  .timeline-item.right::before {
+    left: 12px;
+  }
 }
 </style>
+
 <script>
 const events = [
   {
-    date: "2026-05-22",
     displayDate: "22 Mai 2026",
     ville: "Rennes",
     titre: "Journées scientifiques Hépato-Bilio-Pancréatique",
-    description: "",
     image: "/assets/onco220526.png",
-    lien: "https://www.oncobretagne.fr/...",
+    lien: "https://www.oncobretagne.fr/wp-content/uploads/2026/01/pre-programme-hepato2026.pdf"
   },
   {
-    date: "2025-11-28",
-    displayDate: "28 Novembre 2025",
-    ville: "Saint-Malo",
-    titre: "Journées scientifiques d'Oncologie Digestive",
-    description: "",
-    image: "/assets/oncobretagne2025.png",
-    lien: "https://www.oncobretagne.fr/...",
+    displayDate: "12 Juin 2026",
+    ville: "Dijon",
+    titre: "Journées de Printemps de Cancérologie Digestive",
+    image: "/assets/FFCDprintemps2026.png",
+    lien: "https://www.ffcd.fr/index.php/formation/journees/614-journee-de-printemps-2026"
   }
 ];
-</script>
 
-<script>
-function renderEvents() {
-  const calendar = document.querySelector('.calendar-grid');
-  const futureContainer = document.getElementById('future-events');
-  const pastContainer = document.getElementById('past-events');
+// GENERATION TIMELINE
+const timeline = document.getElementById('timeline');
 
-  const today = new Date();
+events.forEach((event, index) => {
+  const side = index % 2 === 0 ? 'left' : 'right';
 
-  // 🔥 TRI AUTOMATIQUE
-  events.sort((a, b) => new Date(a.date) - new Date(b.date));
+  const item = document.createElement('div');
+  item.className = 'timeline-item ' + side;
 
-  events.forEach((event, index) => {
-
-    const eventDate = new Date(event.date);
-    const isPast = eventDate < today;
-
-    const id = "event-" + index;
-
-    // 📅 CALENDRIER (uniquement futur)
-    if (!isPast) {
-      const day = document.createElement('div');
-      day.className = 'day';
-      day.dataset.target = id;
-
-      const dayNumber = event.displayDate.split(' ')[0];
-
-      day.innerHTML = `${dayNumber}<br><span>${event.ville}</span>`;
-      calendar.appendChild(day);
-    }
-
-    // 📜 CARD
-    const card = document.createElement('div');
-    card.className = 'card';
-    card.id = id;
-
-    card.innerHTML = `
-      <div class="card-date">${event.displayDate} · ${event.ville}</div>
+  item.innerHTML = `
+    <div class="content">
+      <span class="date">${event.displayDate} · ${event.ville}</span>
       <h3>${event.titre}</h3>
-      ${event.description ? `<p>${event.description}</p>` : ''}
       <a href="${event.lien}" target="_blank">
         <img src="${event.image}">
       </a>
-    `;
+    </div>
+  `;
 
-    // 🔀 FUTUR / PASSÉ
-    if (isPast) {
-      pastContainer.appendChild(card);
-    } else {
-      futureContainer.appendChild(card);
+  timeline.appendChild(item);
+});
+
+// ANIMATION SCROLL (corrigée)
+function reveal() {
+  const items = document.querySelectorAll('.timeline-item');
+  const trigger = window.innerHeight * 0.85;
+
+  items.forEach(item => {
+    const top = item.getBoundingClientRect().top;
+    if (top < trigger) {
+      item.classList.add('show');
     }
   });
-
-  initInteractions();
 }
 
-function initInteractions() {
-  document.querySelectorAll('.day').forEach(day => {
-    day.addEventListener('click', () => {
-      const target = document.getElementById(day.dataset.target);
-
-      target.scrollIntoView({ behavior: 'smooth', block: 'center' });
-
-      document.querySelectorAll('.card').forEach(c => c.classList.remove('highlight'));
-      target.classList.add('highlight');
-
-      document.querySelectorAll('.day').forEach(d => d.classList.remove('active'));
-      day.classList.add('active');
-    });
-  });
-}
-
-renderEvents();
+window.addEventListener('scroll', reveal);
+window.addEventListener('load', reveal);
 </script>
