@@ -45,7 +45,7 @@ sur l’ensemble du territoire.
 <div class="card">
 <h3>🏛️ Pilotage national</h3>
 <ul>
-<li> <img src="/assets/chubrest.png" class="logo"> CHU de Brest (centre pilote)</li>
+<img src="/assets/chubrest.png" class="logo"> Centre pilote
 <li>Pr Jean-Philippe Metges (CHU Brest)</li>
 <li>Pr Nathalie Ganne-Carrié (CHU Avicenne)</li>
 </ul>
@@ -54,7 +54,7 @@ sur l’ensemble du territoire.
 <div class="card">
 <h3> Axe Œsophage – Estomac – Jonction œso-gastrique haut</h3>
 <ul>
-<li>CHU de Brest </li>
+<img src="/assets/chubrest.png" class="logo">
 <li>Pr Jean-Philippe Metges </li>
 <li>Dr Vincent Bourbonne </li>
 </ul>
@@ -64,7 +64,7 @@ sur l’ensemble du territoire.
 <div class="card">
 <h3> Axe Foie et Voies Biliaires</h3>
 <ul>
-<li>CHU Avicenne </li>
+<img src="/assets/chuavicenne.png" class="logo">
 <li>Pr Nathalie Ganne-Carrié </li>
 <li>Pr Pierre Nahon </li>
 </ul>
@@ -74,7 +74,7 @@ sur l’ensemble du territoire.
 <div class="card">
 <h3> Axe Pancréas</h3>
 <ul>
-<li>CHU Pitié-Salpêtrière </li>
+<img src="/assets/chupitie.png" class="logo">
 <li>Pr Jean-Baptiste Bachet </li>
 </ul>
 
