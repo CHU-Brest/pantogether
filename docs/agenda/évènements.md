@@ -103,7 +103,8 @@
 </style>
 
 <script>
-const events = [
+document.addEventListener("DOMContentLoaded", function () {
+  const events = [
   {
     date : "2026-05-22",
     displayDate: "22 Mai 2026",
@@ -161,7 +162,12 @@ events.forEach(e=>{
 const timeline=document.getElementById('timeline');
 const nav=document.getElementById('month-nav');
 
-// NAV GRID
+if (!timeline || !nav) {
+  console.error("timeline ou nav introuvable");
+  return;
+}
+
+// NAV
 const grid=document.createElement('div');
 grid.className='month-grid';
 nav.appendChild(grid);
@@ -169,12 +175,10 @@ nav.appendChild(grid);
 let index=0;
 const monthElements=[];
 
-// BUILD
 Object.keys(months).forEach(month=>{
 
   const id=month.replace(/\s/g,'-');
 
-  // NAV BTN
   const btn=document.createElement('div');
   btn.className='month-btn';
   btn.innerText=month;
@@ -185,7 +189,6 @@ Object.keys(months).forEach(month=>{
 
   grid.appendChild(btn);
 
-  // MONTH TITLE
   const monthBlock=document.createElement('div');
   monthBlock.className='timeline-month';
   monthBlock.id=id;
@@ -195,7 +198,6 @@ Object.keys(months).forEach(month=>{
 
   monthElements.push({element:monthBlock,btn});
 
-  // EVENTS
   months[month].forEach(e=>{
     const side=index%2===0?'left':'right';
 
@@ -215,20 +217,6 @@ Object.keys(months).forEach(month=>{
   });
 });
 
-// SCROLL ACTIVE
-window.addEventListener('scroll',()=>{
-  let current=null;
-
-  monthElements.forEach(m=>{
-    if(m.element.getBoundingClientRect().top<=120){
-      current=m;
-    }
-  });
-
-  if(current){
-    document.querySelectorAll('.month-btn').forEach(b=>b.classList.remove('active'));
-    current.btn.classList.add('active');
-  }
 });
 </script>
 
