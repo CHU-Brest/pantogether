@@ -99,14 +99,14 @@ const events = [
   {
     displayDate: "22 Mai 2026",
     ville: "Rennes",
-    titre: "Journées scientifiques Hépato-Bilio-Pancréatique_OncoBretagne",
+    titre: "Journées scientifiques Hépato-Bilio-Pancréatique",
     image: "/assets/onco220526.png",
     lien: "https://www.oncobretagne.fr/wp-content/uploads/2026/01/pre-programme-hepato2026.pdf"
   },
   {
     displayDate: "12 Juin 2026",
     ville: "Dijon",
-    titre: "Journées de Printemps de Cancérologie Digestive_FFCD",
+    titre: "Journées de Printemps de Cancérologie Digestive",
     image: "/assets/FFCDprintemps2026.png",
     lien: "https://www.ffcd.fr/index.php/formation/journees/614-journee-de-printemps-2026"
   },
@@ -120,7 +120,7 @@ const events = [
   {
     displayDate: "19-20 Juin 2026",
     ville: "Vittel",
-    titre: "9ème séminaire interrégional de cancérologie digestive_NEON & OncoBFC",
+    titre: "9ème séminaire interrégional de cancérologie digestive",
     image: "/assets/oncobfc26.png",
     lien: "https://www.onco-grandest.fr/evenements/9eme-seminaire-interregional-de-cancerologie-digestive/"
   },
