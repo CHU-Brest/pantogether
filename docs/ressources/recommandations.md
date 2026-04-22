@@ -3,10 +3,10 @@
 <main class="container">
 <style>
   .container {
-  max-width: 1100px;
-  margin: auto;
-  padding: 30px 20px;
-}
+      max-width: 1000px;
+      margin: auto;
+      padding: 30px 20px;
+    }
 
 .grid {
   display: grid;
@@ -16,41 +16,36 @@
 }
 
 .card {
-  background: white;
-  border-radius: 14px;
-  padding: 18px 20px;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.06);
-  transition: 0.2s ease-in-out;
-}
+      background: white;
+      border-radius: 12px;
+      padding: 18px 20px;
+      margin: 15px 0;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
 
-.card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 6px 18px rgba(0,0,0,0.10);
-}
+  .version {
+      font-size: 13px;
+      color: #6b7280;
+    }
 
-.card h3 {
-  margin-top: 0;
-  color: #1d4ed8;
-  font-size: 16px;
-}
+   a {
+      color: #2563eb;
+      text-decoration: none;
+    }
 
-.card a {
-  display: block;
-  margin-top: 8px;
-  font-weight: 500;
-  color: #2563eb;
-  text-decoration: none;
-}
+   a:hover {
+      text-decoration: underline;
+    }
 
-.card a:hover {
-  text-decoration: underline;
-}
-
-.card p {
-  margin: 4px 0 0;
-  font-size: 12px;
-  color: #6b7280;
-}
+   .tag {
+      display: inline-block;
+      background: #e0f2fe;
+      color: #0369a1;
+      padding: 3px 8px;
+      border-radius: 999px;
+      font-size: 12px;
+      margin-top: 5px;
+    }
 </style>
 
   <!-- TNCD -->
