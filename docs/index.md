@@ -143,8 +143,11 @@ PAN-TOGETHER : améliorer ensemble le pronostic des cancers digestifs de mauvais
 
   <img src="assets/banniere.png" class="banner-img" alt="Bannière PAN-TOGETHER">
 
+  <div class="banner-overlay-text">
+    PAN-TOGETHER
+  </div>
+
   <div class="banner-logos">
-    
     <a href="https://pantogether.fr" target="_blank" class="logo-link">
       <img src="assets/pantogether.png" alt="PAN-TOGETHER logo">
     </a>
@@ -152,8 +155,9 @@ PAN-TOGETHER : améliorer ensemble le pronostic des cancers digestifs de mauvais
     <a href="https://fem-net.fr/" target="_blank" class="logo-link">
       <img src="assets/FEM-NET.png" alt="FEM-NET logo">
     </a>
-
   </div>
+
+</div>
 
 </div>
 
@@ -242,7 +246,7 @@ PAN-TOGETHER : améliorer ensemble le pronostic des cancers digestifs de mauvais
 .banner {
   position: relative;
   width: 100%;
-  aspect-ratio: 16 / 4.2; /* 🔽 plus bas que 16/5 */
+  aspect-ratio: 16 / 4.8; /* un peu plus haut pour éviter les coupures */
   overflow: hidden;
   border-radius: 10px;
 }
@@ -254,6 +258,20 @@ PAN-TOGETHER : améliorer ensemble le pronostic des cancers digestifs de mauvais
   display: block;
 }
 
+  .banner-overlay-text {
+  position: absolute;
+  left: 20px;
+  bottom: 18px;
+
+  color: white;
+  font-size: 1.6rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+
+  text-shadow: 0 2px 8px rgba(0,0,0,0.6);
+
+  z-index: 2;
+}
 /* Logos */
 .banner-logos {
   position: absolute;
