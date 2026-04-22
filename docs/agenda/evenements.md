@@ -1,4 +1,3 @@
-<h2>Agenda</h2>
 <div class="month-nav" id="month-nav"></div>
 <div class="timeline" id="timeline"></div>
 
