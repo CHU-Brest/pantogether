@@ -129,6 +129,7 @@
   background: #007BFF;
   color: white;
 } 
+  }
 </style>
 
 <script>
@@ -198,7 +199,6 @@ for (const month in months) {
 
   // TITRE DU MOIS
   const monthBlock = document.createElement('div');
-  monthBlock.className = 'timeline-month';
   const id = month.replace(/\s/g, '-');
 
 monthBlock.className = 'timeline-month';
@@ -291,8 +291,6 @@ window.addEventListener('scroll', () => {
   }
 });
 
-  nav.appendChild(btn);
-});
 window.addEventListener('scroll', reveal);
 window.addEventListener('load', reveal);
 </script>
