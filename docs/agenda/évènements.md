@@ -56,6 +56,12 @@
   box-shadow: 0 5px 20px rgba(0,0,0,0.08);
 }
 
+.content img {
+  margin-top: 10px;
+  max-width: 100%;
+  border-radius: 6px;
+}
+
 .timeline-month {
   text-align: center;
   font-weight: bold;
@@ -75,6 +81,7 @@
   display: flex;
   gap: 10px;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .month-btn {
@@ -82,6 +89,12 @@
   border-radius: 20px;
   background: #eee;
   cursor: pointer;
+  transition: 0.3s;
+}
+
+.month-btn:hover {
+  background: #007BFF;
+  color: white;
 }
 
 .month-btn.active {
@@ -104,9 +117,10 @@
 
 <script>
 document.addEventListener("DOMContentLoaded", function () {
-  const events = [
+
+const events = [
   {
-    date : "2026-05-22",
+    date: "2026-05-22",
     displayDate: "22 Mai 2026",
     ville: "Rennes",
     titre: "Journées scientifiques Hépato-Bilio-Pancréatique",
@@ -114,7 +128,7 @@ document.addEventListener("DOMContentLoaded", function () {
     lien: "https://www.oncobretagne.fr/wp-content/uploads/2026/01/pre-programme-hepato2026.pdf"
   },
   {
-    date : "2026-06-12",
+    date: "2026-06-12",
     displayDate: "12 Juin 2026",
     ville: "Dijon",
     titre: "Journées de Printemps de Cancérologie Digestive",
@@ -122,7 +136,7 @@ document.addEventListener("DOMContentLoaded", function () {
     lien: "https://www.ffcd.fr/index.php/formation/journees/614-journee-de-printemps-2026"
   },
   {
-    date : "2026-06-17",
+    date: "2026-06-17",
     displayDate: "17 Juin 2026",
     ville: "Nantes",
     titre: "15ème Journée Annuelle du GIRCI Grand Ouest",
@@ -130,7 +144,7 @@ document.addEventListener("DOMContentLoaded", function () {
     lien: "https://my.weezevent.com/journee-du-girci"
   },
   {
-    date : "2026-06-19",
+    date: "2026-06-19",
     displayDate: "19-20 Juin 2026",
     ville: "Vittel",
     titre: "9ème séminaire interrégional de cancérologie digestive",
@@ -138,7 +152,7 @@ document.addEventListener("DOMContentLoaded", function () {
     lien: "https://www.onco-grandest.fr/evenements/9eme-seminaire-interregional-de-cancerologie-digestive/"
   },
   {
-    date : "2026-10-07",
+    date: "2026-10-07",
     displayDate: "07-09 Octobre 2026",
     ville: "Strasbourg",
     titre: "99ème Journées Scientifiques de l'AFEF",
@@ -162,12 +176,6 @@ events.forEach(e=>{
 const timeline=document.getElementById('timeline');
 const nav=document.getElementById('month-nav');
 
-if (!timeline || !nav) {
-  console.error("timeline ou nav introuvable");
-  return;
-}
-
-// NAV
 const grid=document.createElement('div');
 grid.className='month-grid';
 nav.appendChild(grid);
@@ -179,16 +187,20 @@ Object.keys(months).forEach(month=>{
 
   const id=month.replace(/\s/g,'-');
 
+  // bouton navigation
   const btn=document.createElement('div');
   btn.className='month-btn';
   btn.innerText=month;
 
   btn.onclick=()=>{
-    document.getElementById(id).scrollIntoView({behavior:'smooth'});
+    const el = document.getElementById(id);
+    const y = el.getBoundingClientRect().top + window.scrollY - 80;
+    window.scrollTo({top:y, behavior:'smooth'});
   };
 
   grid.appendChild(btn);
 
+  // titre mois
   const monthBlock=document.createElement('div');
   monthBlock.className='timeline-month';
   monthBlock.id=id;
@@ -198,6 +210,7 @@ Object.keys(months).forEach(month=>{
 
   monthElements.push({element:monthBlock,btn});
 
+  // events
   months[month].forEach(e=>{
     const side=index%2===0?'left':'right';
 
@@ -208,7 +221,9 @@ Object.keys(months).forEach(month=>{
       <div class="content">
         <span>${e.displayDate} · ${e.ville}</span>
         <h3>${e.titre}</h3>
-        <img src="${e.image}">
+        <a href="${e.lien}" target="_blank">
+          <img src="${e.image}">
+        </a>
       </div>
     `;
 
@@ -217,6 +232,34 @@ Object.keys(months).forEach(month=>{
   });
 });
 
+// animation apparition
+function reveal() {
+  document.querySelectorAll('.timeline-item').forEach(item => {
+    const top = item.getBoundingClientRect().top;
+    if (top < window.innerHeight * 0.85) {
+      item.classList.add('show');
+    }
+  });
+}
+
+window.addEventListener('scroll', reveal);
+reveal();
+
+// surlignage mois actif
+window.addEventListener('scroll',()=>{
+  let current=null;
+
+  monthElements.forEach(m=>{
+    if(m.element.getBoundingClientRect().top <= 120){
+      current=m;
+    }
+  });
+
+  if(current){
+    document.querySelectorAll('.month-btn').forEach(b=>b.classList.remove('active'));
+    current.btn.classList.add('active');
+  }
+});
+
 });
 </script>
-
