@@ -99,16 +99,37 @@ const events = [
   {
     displayDate: "22 Mai 2026",
     ville: "Rennes",
-    titre: "Journées scientifiques Hépato-Bilio-Pancréatique",
+    titre: "Journées scientifiques Hépato-Bilio-Pancréatique_OncoBretagne",
     image: "/assets/onco220526.png",
     lien: "https://www.oncobretagne.fr/wp-content/uploads/2026/01/pre-programme-hepato2026.pdf"
   },
   {
     displayDate: "12 Juin 2026",
     ville: "Dijon",
-    titre: "Journées de Printemps de Cancérologie Digestive",
+    titre: "Journées de Printemps de Cancérologie Digestive_FFCD",
     image: "/assets/FFCDprintemps2026.png",
     lien: "https://www.ffcd.fr/index.php/formation/journees/614-journee-de-printemps-2026"
+  }
+  {
+    displayDate: "17 Juin 2026",
+    ville: "Nantes",
+    titre: "15ème Journée Annuelle du GIRCI Grand Ouest",
+    image: "/assets/GIRCIGO170626.png",
+    lien: "https://my.weezevent.com/journee-du-girci"
+  }
+  {
+    displayDate: "19-20 Juin 2026",
+    ville: "Vittel",
+    titre: "9ème séminaire interrégional de cancérologie digestive_NEON & OncoBFC",
+    image: "/assets/oncobfc26.png",
+    lien: "https://www.onco-grandest.fr/evenements/9eme-seminaire-interregional-de-cancerologie-digestive/"
+  }
+  {
+    displayDate: "07-09 Octobre 2026",
+    ville: "Strasbourg",
+    titre: "99ème Journées Scientifiques de l'AFEF",
+    image: "/assets/AFEF2026.png",
+    lien: "https://www.congres-afef.com/"
   }
 ];
 
