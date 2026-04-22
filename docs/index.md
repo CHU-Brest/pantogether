@@ -1,16 +1,27 @@
 ---
 title: Bienvenue
+---
+
+<!-- HERO -->
+<div class="hero">
+  <div class="hero-content">
+    <h1>PAN-TOGETHER</h1>
+    <p class="subtitle">
+      Réseau d’Excellence Clinique dédié aux cancers digestifs de mauvais pronostic
+    </p>
+
+    <div class="hero-badge">
+      Site en construction
+    </div>
+  </div>
+</div>
 
 ---
 
-
-# Bienvenue sur le réseau PAN-TOGETHER
-
-!!! warning "Site en construction"   
 ## À propos du réseau
 
 <div class="highlight-box">
-Le réseau d'excellence clinique <strong>PAN-TOGETHER</strong> structure la prise en charge des cancers du pancréas, de l’œsophage,
+<strong>PAN-TOGETHER</strong> structure la prise en charge des cancers du pancréas, de l’œsophage,
 de l’estomac, du foie et des voies biliaires afin d’améliorer la qualité et l’équité des soins
 sur l’ensemble du territoire.
 </div>
@@ -25,35 +36,27 @@ sur l’ensemble du territoire.
 <h3>🏛️ Pilotage national</h3>
 <ul>
 <li>CHU de Brest (centre pilote)</li>
-<li>Pr Jean-Philippe Metges (CHU Brest)</li>
-<li>Pr Nathalie Ganne-Carrié (CHU Avicenne)</li>
+<li>Pr Jean-Philippe Metges (coordonnateur)</li>
+<li>Pr Nathalie Ganne-Carrié (co-coordination)</li>
 </ul>
 </div>
 
 <div class="card">
-<h3> Axe Œsophage – Estomac – Jonction œso-gastrique haut</h3>
-<ul>
-<li>CHU de Brest </li>
-<li>Pr Jean-Philippe Metges </li>
-<li>Dr Vincent Bourbonne </li>
-</ul>
+<h3>🫁 Axe digestif haut</h3>
+<p>Œsophage – Estomac – Jonction œso-gastrique</p>
+<p><strong>CHU de Brest</strong></p>
 </div>
 
 <div class="card">
-<h3> Axe Foie et Voies Biliaires</h3>
-<ul>
-<li>CHU Avicenne </li>
-<li>Pr Nathalie Ganne-Carrié </li>
-<li>Pr Pierre Nahon </li>
-</ul>
+<h3>🫀 Axe hépatobiliaire</h3>
+<p>Foie et voies biliaires</p>
+<p><strong>CHU Avicenne (AP-HP)</strong></p>
 </div>
 
 <div class="card">
-<h3> Axe Pancréas</h3>
-<ul>
-<li>CHU Pitié-Salpêtrière </li>
-<li>Pr Jean-Baptiste Bachet </li>
-</ul>
+<h3>🧠 Axe pancréatique</h3>
+<p>Prise en charge du cancer du pancréas</p>
+<p><strong>CHU Pitié-Salpêtrière (AP-HP)</strong></p>
 </div>
 
 </div>
@@ -84,7 +87,7 @@ Ils assurent :
 </div>
 
 <div class="card">
-<h3>⚡ Accélération du parcours patient</h3>
+<h3>⚡ Accélération des parcours</h3>
 <p>Réduction des délais de diagnostic et de traitement</p>
 </div>
 
@@ -98,15 +101,6 @@ Ils assurent :
 <p>Prise en charge personnalisée du patient</p>
 </div>
 
-<div class="card">
-  <h3>📢 Diffusion de l’information</h3>
-  <p>Compréhension des pathologies et du parcours de soins</p>
-</div>
-
-<div class="card">
-  <h3>🎓 Formation continue</h3>
-  <p>Mise à jour continue des connaissances et des compétences des professionnels de santé </p>
-</div>
 </div>
 
 ---
@@ -117,59 +111,55 @@ Ils assurent :
 PAN-TOGETHER : améliorer ensemble le pronostic des cancers digestifs de mauvais pronostic
 </div>
 
-<br>
+---
 
-<div style="position: relative; width:100%;">
-
-  <img src="assets/banniere.png" style="width:100%; display:block;">
+<!-- BANNER -->
+<div class="banner">
+  <img src="assets/banniere.png" />
 
   <div class="logos">
-    
     <a href="https://pantogether.fr" target="_blank">
-      <img src="assets/pantogether.png" alt="Pantogether">
+      <img src="assets/pantogether.png" />
     </a>
-    
+
     <a href="https://fem-net.fr/" target="_blank">
-      <img src="assets/FEM-NET.png" alt="FEM NET">
+      <img src="assets/FEM-NET.png" />
     </a>
-
   </div>
-
 </div>
 
 <style>
-.logos {
-  position: absolute;
-  top: 15px;
-  right: 15px;
-  display: flex;
-  align-items: center;
-  gap: 10px; /* espace entre logos */
+
+/* HERO */
+.hero {
+  background: linear-gradient(135deg, #0f2d3f, #1f6f8b);
+  color: white;
+  padding: 70px 20px;
+  text-align: center;
+  border-radius: 12px;
+  margin-bottom: 30px;
 }
 
-.logos img {
-  width: 100px;
-  transition: transform 0.3s ease;
+.hero h1 {
+  font-size: 2.8rem;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
 }
-/* effet au survol */
-.logos img:hover {
-  transform: scale(1.1);
-}
-   
-/* 📱 Version mobile */
-@media (max-width: 768px) {
-  .logos img {
-    width: 60px;
-  }
 
-  .logos {
-    top: 10px;
-    right: 10px;
-    gap: 5px;
-  }
+.subtitle {
+  font-size: 1.2rem;
+  opacity: 0.9;
 }
-</style>
-<style>
+
+.hero-badge {
+  display: inline-block;
+  margin-top: 15px;
+  background: rgba(255,255,255,0.15);
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+}
+
 /* BOX INTRO */
 .highlight-box {
   background: #f4f8fb;
@@ -214,4 +204,45 @@ PAN-TOGETHER : améliorer ensemble le pronostic des cancers digestifs de mauvais
   color: #c77700;
   margin: 40px 0;
 }
+
+/* BANNER */
+.banner {
+  position: relative;
+  margin-top: 30px;
+}
+
+.banner img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* LOGOS */
+.logos {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  display: flex;
+  gap: 12px;
+}
+
+.logos img {
+  width: 90px;
+  transition: transform 0.2s ease;
+}
+
+.logos img:hover {
+  transform: scale(1.08);
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .logos img {
+    width: 60px;
+  }
+}
+
 </style>
