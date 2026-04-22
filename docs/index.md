@@ -140,17 +140,21 @@ PAN-TOGETHER : améliorer ensemble le pronostic des cancers digestifs de mauvais
 
 <!-- BANNER -->
 <div class="banner">
-  <img src="assets/banniere.png" />
 
-  <div class="logos">
-    <a href="https://pantogether.fr" target="_blank">
-      <img src="assets/pantogether.png" />
+  <img src="assets/banniere.png" class="banner-img" alt="Bannière PAN-TOGETHER">
+
+  <div class="banner-logos">
+    
+    <a href="https://pantogether.fr" target="_blank" class="logo-link">
+      <img src="assets/pantogether.png" alt="PAN-TOGETHER logo">
     </a>
 
-    <a href="https://fem-net.fr/" target="_blank">
-      <img src="assets/FEM-NET.png" />
+    <a href="https://fem-net.fr/" target="_blank" class="logo-link">
+      <img src="assets/FEM-NET.png" alt="FEM-NET logo">
     </a>
+
   </div>
+
 </div>
 
 <style>
@@ -237,41 +241,64 @@ PAN-TOGETHER : améliorer ensemble le pronostic des cancers digestifs de mauvais
 /* BANNER */
 .banner {
   position: relative;
-  margin-top: 30px;
-}
-
-.banner img {
   width: 100%;
+  aspect-ratio: 16 / 5;
+  overflow: hidden;
   border-radius: 10px;
 }
 
-/* LOGOS */
-.logos {
+/* image principale */
+.banner-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* zone logos */
+.banner-logos {
   position: absolute;
-  top: 15px;
-  right: 15px;
+  top: 12px;
+  right: 12px;
   display: flex;
   gap: 12px;
+  align-items: center;
+  z-index: 2;
 }
 
-.logos img {
-  width: 90px;
-  transition: transform 0.2s ease;
+/* lien cliquable propre */
+.logo-link {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.85);
+  padding: 6px 8px;
+  border-radius: 8px;
+  transition: transform 0.2s ease, background 0.2s ease;
 }
 
-.logos img:hover {
-  transform: scale(1.08);
+/* images logos */
+.logo-link img {
+  height: 45px;
+  width: auto;          /* IMPORTANT : empêche la déformation */
+  object-fit: contain;  /* sécurité supplémentaire */
+  display: block;
 }
 
-/* MOBILE */
+/* hover */
+.logo-link:hover {
+  transform: scale(1.05);
+  background: rgba(255, 255, 255, 1);
+}
+
+/* mobile */
 @media (max-width: 768px) {
-  .hero h1 {
-    font-size: 2rem;
+  .banner-logos {
+    top: 8px;
+    right: 8px;
+    gap: 8px;
   }
 
-  .logos img {
-    width: 60px;
+  .logo-link img {
+    height: 32px;
   }
 }
-
 </style>
