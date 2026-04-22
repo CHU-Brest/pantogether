@@ -105,6 +105,7 @@
 <script>
 const events = [
   {
+    date : "2026-05-22"
     displayDate: "22 Mai 2026",
     ville: "Rennes",
     titre: "Journées scientifiques Hépato-Bilio-Pancréatique",
