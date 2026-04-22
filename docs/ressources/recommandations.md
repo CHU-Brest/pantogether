@@ -1,13 +1,62 @@
 <!DOCTYPE html>
   <title>Recommandations TNCD & AFEF</title>
+<main class="container">
+<style>
+  .container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 30px 20px;
+}
 
-  <body>
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
 
-<div class="container">
+.card {
+  background: white;
+  border-radius: 14px;
+  padding: 18px 20px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+  transition: 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.10);
+}
+
+.card h3 {
+  margin-top: 0;
+  color: #1d4ed8;
+  font-size: 16px;
+}
+
+.card a {
+  display: block;
+  margin-top: 8px;
+  font-weight: 500;
+  color: #2563eb;
+  text-decoration: none;
+}
+
+.card a:hover {
+  text-decoration: underline;
+}
+
+.card p {
+  margin: 4px 0 0;
+  font-size: 12px;
+  color: #6b7280;
+}
+</style>
 
   <!-- TNCD -->
   <h2>🔷 Thésaurus National de Cancérologie Digestive (TNCD)</h2>
-
+<div class="grid">
+  
   <h3> 🔸Œso-gastrique</h3>
 
   <div class="card">
@@ -113,8 +162,7 @@
 
 </div>
 
-</body>
-</html>
+</main>
 
 
 
