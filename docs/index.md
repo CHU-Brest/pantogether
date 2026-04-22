@@ -7,7 +7,7 @@ title: Bienvenue
   <div class="hero-content">
     <h1>PAN-TOGETHER</h1>
     <span style="color:#0f2d3f">
-<strong>PAN-TOGETHER</strong>, le Réseau d’Excellence Clinique pour la prise en charge des cancers du <strong>PAN</strong>créas, des <strong>T</strong>umeurs <strong>O</strong>eso-<strong>G</strong>astriques <strong>E</strong>t des <strong>T</strong>umeurs primitives <strong>HE</strong>pato-biliai<strong>R</strong>es  <br>
+<strong>PAN</strong>créas, <strong>T</strong>umeurs <strong>O</strong>eso-<strong>G</strong>astriques <strong>E</strong>t <strong>T</strong>umeurs primitives <strong>HE</strong>pato-biliai<strong>R</strong>es  <br>
 </span>
 
     <p class="subtitle">
