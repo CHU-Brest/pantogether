@@ -7,56 +7,116 @@ title: Bienvenue
 # Bienvenue sur le réseau PAN-TOGETHER
 
 !!! warning "Site en construction"   
+## À propos du réseau
 
-<span style="color:blue">
-<strong>PAN-TOGETHER</strong>, le Réseau d’Excellence Clinique pour la prise en charge des cancers du <strong>PAN</strong>créas, des <strong>T</strong>umeurs <strong>O</strong>eso-<strong>G</strong>astriques <strong>E</strong>t des <strong>T</strong>umeurs primitives <strong>HE</strong>pato-biliai<strong>R</strong>es  <br>
-</span>  
-Les cancers de l’œsophage, du foie, des voies biliaires et du pancréas sont associés à un pronostic défavorable à tous les stades, selon la définition européenne des cancers de mauvais pronostic.    
-Le projet de réseau d'excellence clinique **PAN-TOGETHER** vise à structurer la prévention et la prise en soins de ces cancers, essentielle pour améliorer la qualité de la prise en charge globale des patients.
+<div class="highlight-box">
+Le réseau d'excellence clinique <strong>PAN-TOGETHER</strong> structure la prise en charge des cancers du pancréas, de l’œsophage,
+de l’estomac, du foie et des voies biliaires afin d’améliorer la qualité et l’équité des soins
+sur l’ensemble du territoire.
+</div>
 
-Il est organisé selon une structure arborescente, englobant trois branches principales basées sur les localisations anatomiques ciblées : 
+---
 
-- œsophage, estomac et jonction œso-gastrique
-- foie et voies biliaires
-- pancréas
+## Organisation
 
-Chaque branche est supervisée par un centre expert référent, garantissant une 
-couverture nationale étendue et homogène. 
+<div class="grid">
 
+<div class="card">
+<h3>🏛️ Pilotage national</h3>
+<ul>
+<li>CHU de Brest (centre pilote)</li>
+<li>Pr Jean-Philippe Metges (CHU Brest)</li>
+<li>Pr Nathalie Ganne-Carrié (CHU Avicenne)</li>
+</ul>
+</div>
 
-## Le réseau
-<img src="/assets/structure.png" alt="reseau" width="800">   
+<div class="card">
+<h3> Axe Œsophage – Estomac – Jonction œso-gastrique haut</h3>
+<ul>
+<li>CHU de Brest </li>
+<li>Pr Jean-Philippe Metges </li>
+<li>Dr Vincent Bourbonne </li>
+</ul>
+</div>
 
-Le réseau s’organise autour d’un centre pilote – le CHU de Brest –, du coordonnateur national – le Pr Metges (CHU Brest) – et du co-coordinateur - le Pr Ganne-Carrié (CHU Avicenne). Il s’appuie sur trois centres experts, chacun référent d’un axe spécifique :   
-   
-* Axe **Œsophage, Estomac et Jonction Oeso-Gastrique** : porté par le **CHU de Brest**, sous la coordination du Pr Jean-Philippe Metges et du Dr Vincent Bourbonne.
-* Axe **Foie et Voies biliaires** : assuré par le **CHU Avicenne (AP-HP)**, sous la responsabilité du Pr Nathalie Ganne-Carrié et du Pr Pierre Nahon.
-* Axe **Pancréas** : confié au **CHU Pitié-Salpêtrière (AP-HP)**, coordonné par le Pr Jean-Baptiste Bachet.
-   
-Chaque centre référent pilote le projet à l’échelle nationale en s’appuyant sur des centres experts.
-Le réseau compte plus de <b><a href="../cartes.html">52 centres experts</a></b> métropolitains et ultramarins. Ils ont été sélectionnés selon des critères d'excellence, incluant une file active importante de patients, un accès systématique aux essais cliniques innovants, et une production scientifique reconnue.   
-Ils ont pour rôle de structurer et d’animer le réseau en établissant des conventions de collaboration régionales et/ou inter-régionales avec les centres de proximité, les médecins généralistes et spécialistes, garantissant l'accès à des **plateformes diagnostiques et interventionnelles de pointe**. Ils permettent la concertation d’experts grâce à l’organisation de **RCP spécialisées** et veillent à ce que les **essais thérapeutiques** soient accessibles au plus grand nombre de patients, indépendamment de leur lieu de résidence.
+<div class="card">
+<h3> Axe Foie et Voies Biliaires</h3>
+<ul>
+<li>CHU Avicenne </li>
+<li>Pr Nathalie Ganne-Carrié </li>
+<li>Pr Pierre Nahon </li>
+</ul>
+</div>
 
+<div class="card">
+<h3> Axe Pancréas</h3>
+<ul>
+<li>CHU Pitié-Salpêtrière </li>
+<li>Pr Jean-Baptiste Bachet </li>
+</ul>
+</div>
 
-## Les missions du réseau   
-   
-Les objectifs du réseau d'excellence Pan-Together sont de permettre :    
+</div>
 
-- une **harmonisation de l’offre de soins** sur le territoire national, conformément aux réglementations en vigueur
-- une **accélération de la prise en charge du patient**, en permettant un accès rapide aux centres ressources  
-- une possibilité d’**accès aux essais thérapeutiques innovants** pour tous les patients sur l’ensemble du territoire 
-- une **optimisation personnalisée de la prise en charge** globale et multi-professionelle du patient, du diagnostic au traitement en passant par les soins de support
-- une **diffusion de l'information** validée et accessible au grand public
-- une **mise à jour continue des connaissances et compétences** des professionnels
+---
 
+## Centres experts
 
+Le réseau regroupe **plus de 52 centres experts** en France et Outre-mer.
 
-<span style="font-size:25px">      
-<span style="color:orange">
-**PAN-TOGETHER : POUR l’AMELIORATION ENSEMBLE DU PRONOSTIC des cancers digestifs de mauvais pronostic**
-</span>
-</span>
-<br>
+Ils assurent :
+- accès aux essais cliniques innovants
+- concertation pluridisciplinaire (RCP spécialisées)
+- coordination ville–hôpital
+- accès aux plateaux techniques de référence
+
+👉 <a href="../cartes.html"><strong>Voir la cartographie des centres</strong></a>
+
+---
+
+## Missions
+
+<div class="grid">
+
+<div class="card">
+<h3>⚖️ Harmonisation des soins</h3>
+<p>Standardisation des pratiques sur le territoire national</p>
+</div>
+
+<div class="card">
+<h3>⚡ Accélération du parcours patient</h3>
+<p>Réduction des délais de diagnostic et de traitement</p>
+</div>
+
+<div class="card">
+<h3>🧪 Innovation thérapeutique</h3>
+<p>Accès élargi aux essais cliniques</p>
+</div>
+
+<div class="card">
+<h3>🤝 Coordination multidisciplinaire</h3>
+<p>Prise en charge personnalisée du patient</p>
+</div>
+
+<div class="card">
+  <h3>📢 Diffusion de l’information</h3>
+  <p>Compréhension des pathologies et du parcours de soins</p>
+</div>
+
+<div class="card">
+  <h3>🎓 Formation continue</h3>
+  <p>Mise à jour continue des connaissances et des compétences des professionnels de santé </p>
+</div>
+</div>
+
+---
+
+## Vision
+
+<div class="slogan">
+PAN-TOGETHER : améliorer ensemble le pronostic des cancers digestifs de mauvais pronostic
+</div>
+
 <br>
 
 <div style="position: relative; width:100%;">
@@ -107,5 +167,51 @@ Les objectifs du réseau d'excellence Pan-Together sont de permettre :
     right: 10px;
     gap: 5px;
   }
+}
+</style>
+<style>
+/* BOX INTRO */
+.highlight-box {
+  background: #f4f8fb;
+  border-left: 5px solid #1f6f8b;
+  padding: 18px;
+  border-radius: 8px;
+  margin: 20px 0;
+  font-size: 1.05rem;
+}
+
+/* GRID */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 16px;
+  margin: 20px 0;
+}
+
+/* CARDS */
+.card {
+  background: white;
+  border-radius: 10px;
+  padding: 18px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+}
+
+.card h3 {
+  margin-top: 0;
+  color: #1f6f8b;
+}
+
+/* SLOGAN */
+.slogan {
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #c77700;
+  margin: 40px 0;
 }
 </style>
