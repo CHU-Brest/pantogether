@@ -8,33 +8,12 @@
       padding: 30px 20px;
     }
 
-.grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 20px;
-  margin-top: 20px;
-}
-
 .card {
       background: white;
       border-radius: 12px;
       padding: 18px 20px;
       margin: 15px 0;
       box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-    }
-
-  .version {
-      font-size: 13px;
-      color: #6b7280;
-    }
-
-   a {
-      color: #2563eb;
-      text-decoration: none;
-    }
-
-   a:hover {
-      text-decoration: underline;
     }
 
    .tag {
