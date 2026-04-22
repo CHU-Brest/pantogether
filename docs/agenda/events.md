@@ -1,142 +1,94 @@
-<h2>Agenda</h2>
-
+<h2>Évènements à venir</h2>
 <div class="calendar">
   <div class="calendar-grid"></div>
 </div>
+<div class="timeline-modern" id="future-events"></div>
 
-<div class="timeline-modern"></div>
+<h2>Évènements passés</h2>
+<div class="timeline-modern past" id="past-events"></div>
 
 <style>
-.calendar {
-  margin-bottom: 40px;
+.past .card {
+  opacity: 0.6;
 }
 
-.calendar-grid {
-  display: flex;
-  gap: 10px;
-  flex-wrap: wrap;
-}
-
-.day {
-  background: #f1f1f1;
-  padding: 10px;
-  border-radius: 8px;
-  cursor: pointer;
-  text-align: center;
-  min-width: 70px;
-  transition: 0.3s;
-}
-
-.day:hover {
-  background: #007BFF;
-  color: white;
-}
-
-.day span {
-  font-size: 0.8em;
-  display: block;
-}
-
-.day.active {
-  background: #007BFF;
-  color: white;
-}
-
-
-/* TIMELINE */
-.timeline-modern {
-  display: grid;
-  gap: 30px;
-}
-
-.card {
-  background: white;
-  padding: 20px;
-  border-radius: 12px;
-  box-shadow: 0 5px 20px rgba(0,0,0,0.08);
-  transition: 0.3s;
-}
-
-.card.highlight {
-  border: 2px solid #007BFF;
-}
-
-.card:hover {
-  transform: translateY(-5px);
-}
-
-.card img {
-  margin-top: 10px;
-  max-width: 100%;
-  border-radius: 8px;
-  transition: 0.3s;
-}
-
-.card img:hover {
-  transform: scale(1.05);
-}
-
-
-/* ANIMATION */
-.reveal {
-  opacity: 0;
-  transform: translateY(40px);
-  transition: 0.6s;
-}
-
-.reveal.active {
+.past .card:hover {
   opacity: 1;
-  transform: translateY(0);
 }
 </style>
 <script>
-async function loadEvents() {
-  const response = await fetch('https://raw.githubusercontent.com/chu-brest/pantogether/main/docs/data/events.txt');
-  const text = await response.text();
+const events = [
+  {
+    date: "2026-05-22",
+    displayDate: "22 Mai 2026",
+    ville: "Rennes",
+    titre: "Journées scientifiques Hépato-Bilio-Pancréatique",
+    description: "",
+    image: "/assets/onco220526.png",
+    lien: "https://www.oncobretagne.fr/...",
+  },
+  {
+    date: "2025-11-28",
+    displayDate: "28 Novembre 2025",
+    ville: "Saint-Malo",
+    titre: "Journées scientifiques d'Oncologie Digestive",
+    description: "",
+    image: "/assets/oncobretagne2025.png",
+    lien: "https://www.oncobretagne.fr/...",
+  }
+];
+</script>
 
-  const rows = text.split('\n').filter(r => r.trim());
-
+<script>
+function renderEvents() {
   const calendar = document.querySelector('.calendar-grid');
-  const timeline = document.querySelector('.timeline-modern');
+  const futureContainer = document.getElementById('future-events');
+  const pastContainer = document.getElementById('past-events');
 
-  rows.forEach((row, index) => {
+  const today = new Date();
 
-    const cols = row.split(';').map(e => e.trim());
+  // 🔥 TRI AUTOMATIQUE
+  events.sort((a, b) => new Date(a.date) - new Date(b.date));
 
-    const [date, ville, titre, desc, image, lien, statut] = cols;
+  events.forEach((event, index) => {
 
-    if (!date || !ville) return;
+    const eventDate = new Date(event.date);
+    const isPast = eventDate < today;
 
-    // 👉 ID SAFE (on enlève les caractères spéciaux)
     const id = "event-" + index;
 
-    // CALENDRIER
-    const day = document.createElement('div');
-    day.className = 'day';
-    day.dataset.target = id;
+    // 📅 CALENDRIER (uniquement futur)
+    if (!isPast) {
+      const day = document.createElement('div');
+      day.className = 'day';
+      day.dataset.target = id;
 
-    day.innerHTML = `
-      <strong>${date}</strong><br>
-      <span>${ville}</span>
-    `;
+      const dayNumber = event.displayDate.split(' ')[0];
 
-    calendar.appendChild(day);
+      day.innerHTML = `${dayNumber}<br><span>${event.ville}</span>`;
+      calendar.appendChild(day);
+    }
 
-    // TIMELINE
+    // 📜 CARD
     const card = document.createElement('div');
     card.className = 'card';
     card.id = id;
 
     card.innerHTML = `
-      <div class="card-date">${date} · ${ville}</div>
-      <h3>${titre}</h3>
-      ${desc ? `<p>${desc}</p>` : ''}
-      <a href="${lien}" target="_blank">
-        <img src="${image}">
+      <div class="card-date">${event.displayDate} · ${event.ville}</div>
+      <h3>${event.titre}</h3>
+      ${event.description ? `<p>${event.description}</p>` : ''}
+      <a href="${event.lien}" target="_blank">
+        <img src="${event.image}">
       </a>
     `;
 
-    timeline.appendChild(card);
+    // 🔀 FUTUR / PASSÉ
+    if (isPast) {
+      pastContainer.appendChild(card);
+    } else {
+      futureContainer.appendChild(card);
+    }
   });
 
   initInteractions();
@@ -145,10 +97,7 @@ async function loadEvents() {
 function initInteractions() {
   document.querySelectorAll('.day').forEach(day => {
     day.addEventListener('click', () => {
-
       const target = document.getElementById(day.dataset.target);
-
-      if (!target) return;
 
       target.scrollIntoView({ behavior: 'smooth', block: 'center' });
 
@@ -161,5 +110,5 @@ function initInteractions() {
   });
 }
 
-loadEvents();
+renderEvents();
 </script>
