@@ -1,5 +1,5 @@
 <h2>Agenda</h2>
-
+<div class="month-nav" id="month-nav"></div>
 <div class="timeline" id="timeline"></div>
 
 <style>
@@ -99,6 +99,27 @@
   color: #333;
   letter-spacing: 1px;
 }
+  .month-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.month-btn {
+  padding: 8px 14px;
+  border-radius: 20px;
+  background: #f1f1f1;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 0.9em;
+}
+
+.month-btn:hover {
+  background: #007BFF;
+  color: white;
+}
 }
 </style>
 
@@ -170,7 +191,11 @@ for (const month in months) {
   // TITRE DU MOIS
   const monthBlock = document.createElement('div');
   monthBlock.className = 'timeline-month';
-  monthBlock.innerHTML = month.toUpperCase();
+  const id = month.replace(/\s/g, '-');
+
+monthBlock.className = 'timeline-month';
+monthBlock.id = id;
+monthBlock.innerHTML = month;
 
   timeline.appendChild(monthBlock);
 
@@ -207,7 +232,26 @@ function reveal() {
     if (top < trigger) item.classList.add('show');
   });
 }
+// NAVIGATION PAR MOIS
+const nav = document.getElementById('month-nav');
 
+Object.keys(months).forEach(month => {
+
+  const id = month.replace(/\s/g, '-');
+
+  const btn = document.createElement('div');
+  btn.className = 'month-btn';
+  btn.innerText = month;
+
+  btn.addEventListener('click', () => {
+    const target = document.getElementById(id);
+    if (target) {
+      target.scrollIntoView({ behavior: 'smooth' });
+    }
+  });
+
+  nav.appendChild(btn);
+});
 window.addEventListener('scroll', reveal);
 window.addEventListener('load', reveal);
 </script>
