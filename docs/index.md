@@ -36,27 +36,38 @@ sur l’ensemble du territoire.
 <h3>🏛️ Pilotage national</h3>
 <ul>
 <li>CHU de Brest (centre pilote)</li>
-<li>Pr Jean-Philippe Metges (coordonnateur)</li>
-<li>Pr Nathalie Ganne-Carrié (co-coordination)</li>
+<li>Pr Jean-Philippe Metges (CHU Brest)</li>
+<li>Pr Nathalie Ganne-Carrié (CHU Avicenne)</li>
 </ul>
 </div>
 
 <div class="card">
-<h3>🫁 Axe digestif haut</h3>
-<p>Œsophage – Estomac – Jonction œso-gastrique</p>
-<p><strong>CHU de Brest</strong></p>
+<h3> Axe Œsophage – Estomac – Jonction œso-gastrique haut</h3>
+<ul>
+<li>CHU de Brest </li>
+<li>Pr Jean-Philippe Metges </li>
+<li>Dr Vincent Bourbonne </li>
+</ul>
+
 </div>
 
 <div class="card">
-<h3>🫀 Axe hépatobiliaire</h3>
-<p>Foie et voies biliaires</p>
-<p><strong>CHU Avicenne (AP-HP)</strong></p>
+<h3> Axe Foie et Voies Biliaires</h3>
+<ul>
+<li>CHU Avicenne </li>
+<li>Pr Nathalie Ganne-Carrié </li>
+<li>Pr Pierre Nahon </li>
+</ul>
+
 </div>
 
 <div class="card">
-<h3>🧠 Axe pancréatique</h3>
-<p>Prise en charge du cancer du pancréas</p>
-<p><strong>CHU Pitié-Salpêtrière (AP-HP)</strong></p>
+<h3> Axe Pancréas</h3>
+<ul>
+<li>CHU Pitié-Salpêtrière </li>
+<li>Pr Jean-Baptiste Bachet </li>
+</ul>
+
 </div>
 
 </div>
@@ -101,6 +112,16 @@ Ils assurent :
 <p>Prise en charge personnalisée du patient</p>
 </div>
 
+<div class="card">
+  <h3>📢 Diffusion de l’information</h3>
+  <p>Compréhension des pathologies et du parcours de soins</p>
+</div>
+
+<div class="card">
+  <h3>🎓 Formation continue</h3>
+  <p>Mise à jour des connaissances et des compétences des professionnels de santé </p>
+</div>
+
 </div>
 
 ---
@@ -132,7 +153,7 @@ PAN-TOGETHER : améliorer ensemble le pronostic des cancers digestifs de mauvais
 
 /* HERO */
 .hero {
-  background: linear-gradient(135deg, #0f2d3f, #1f6f8b);
+  background: linear-gradient(135deg, #b85c12, #f2a23a);
   color: white;
   padding: 70px 20px;
   text-align: center;
@@ -154,10 +175,11 @@ PAN-TOGETHER : améliorer ensemble le pronostic des cancers digestifs de mauvais
 .hero-badge {
   display: inline-block;
   margin-top: 15px;
-  background: rgba(255,255,255,0.15);
+  background: rgba(255,255,255,0.18);
   padding: 6px 12px;
   border-radius: 20px;
   font-size: 0.9rem;
+  border: 1px solid rgba(255,255,255,0.25);
 }
 
 /* BOX INTRO */
