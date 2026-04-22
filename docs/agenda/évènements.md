@@ -44,7 +44,6 @@
   height: 16px;
   background: #007BFF;
   border-radius: 50%;
-  z-index: 1;
 }
 
 .timeline-item.left::before { right: -8px; }
@@ -55,23 +54,39 @@
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 5px 20px rgba(0,0,0,0.08);
-  transition: 0.3s;
 }
 
-.content:hover {
-  transform: translateY(-5px);
-}
-
-.content img {
-  margin-top: 10px;
-  max-width: 100%;
-  border-radius: 6px;
-}
-
-.date {
-  font-size: 0.9em;
-  color: #007BFF;
+.timeline-month {
+  text-align: center;
   font-weight: bold;
+  margin: 40px 0 20px;
+}
+
+/* NAV */
+.month-nav {
+  position: sticky;
+  top: 0;
+  background: white;
+  padding: 10px;
+  z-index: 100;
+}
+
+.month-grid {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.month-btn {
+  padding: 8px 14px;
+  border-radius: 20px;
+  background: #eee;
+  cursor: pointer;
+}
+
+.month-btn.active {
+  background: #007BFF;
+  color: white;
 }
 
 /* MOBILE */
@@ -81,105 +96,10 @@
   .timeline-item {
     width: 100%;
     padding-left: 60px;
-    padding-right: 20px;
   }
 
   .timeline-item.right { left: 0; }
-
-  .timeline-item.left::before,
-  .timeline-item.right::before {
-    left: 12px;
-  }
-  .timeline-month {
-  text-align: center;
-  font-weight: bold;
-  font-size: 1.2em;
-  margin: 40px 0 20px;
-  color: #333;
-  letter-spacing: 1px;
 }
- .month-nav {
-  position: sticky;
-  top: 0;
-  z-index: 100;
-  background: white;
-  padding: 10px;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  justify-content: center;
-  border-bottom: 1px solid #eee;
-}
-
-<style>
-/* NAV CONTAINER */
-.month-nav {
-  position: sticky;
-  top: 0;
-  z-index: 100;
-  background: white;
-  padding: 15px 10px;
-  border-bottom: 1px solid #eee;
-}
-
-/* GRID CALENDAR */
-.month-grid {
-  display: flex;
-  gap: 8px;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-/* MONTH BUTTON */
-.month-btn {
-  padding: 10px 16px;
-  border-radius: 25px;
-  background: #f5f5f5;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  font-size: 0.9em;
-  position: relative;
-  overflow: hidden;
-}
-
-/* HOVER ANIMATION */
-.month-btn::after {
-  content: '';
-  position: absolute;
-  width: 0;
-  height: 100%;
-  left: 0;
-  top: 0;
-  background: #007BFF;
-  transition: 0.3s;
-  z-index: 0;
-}
-
-.month-btn:hover::after {
-  width: 100%;
-}
-
-.month-btn span {
-  position: relative;
-  z-index: 1;
-}
-
-/* ACTIVE */
-.month-btn.active {
-  background: #007BFF;
-  color: white;
-  transform: scale(1.05);
-}
-
-/* MONTH TITLE */
-.timeline-month {
-  text-align: center;
-  font-weight: bold;
-  font-size: 1.3em;
-  margin: 50px 0 20px;
-  color: #222;
-}
-  }
 </style>
 
 <script>
@@ -226,152 +146,87 @@ const events = [
   }
 ];
 
-// 🔥 TRI PAR DATE
-events.sort((a, b) => new Date(a.date) - new Date(b.date));
+// TRI
+events.sort((a,b)=> new Date(a.date)-new Date(b.date));
 
-// 🔥 GROUPEMENT PAR MOIS
+// GROUP
 const months = {};
-
-events.forEach(event => {
-  const d = new Date(event.date);
-  const key = d.toLocaleString('fr-FR', { month: 'long', year: 'numeric' });
-
-  if (!months[key]) months[key] = [];
-  months[key].push(event);
+events.forEach(e=>{
+  const d=new Date(e.date);
+  const key=d.toLocaleString('fr-FR',{month:'long',year:'numeric'});
+  if(!months[key]) months[key]=[];
+  months[key].push(e);
 });
 
-const timeline = document.getElementById('timeline');
+const timeline=document.getElementById('timeline');
+const nav=document.getElementById('month-nav');
 
-let index = 0;
+// NAV GRID
+const grid=document.createElement('div');
+grid.className='month-grid';
+nav.appendChild(grid);
 
-// 🔥 AFFICHAGE
-for (const month in months) {
+let index=0;
+const monthElements=[];
 
-  // TITRE DU MOIS
-  const monthBlock = document.createElement('div');
-  const id = month.replace(/\s/g, '-');
+// BUILD
+Object.keys(months).forEach(month=>{
 
-monthBlock.className = 'timeline-month';
-monthBlock.id = id;
-monthBlock.innerHTML = month;
+  const id=month.replace(/\s/g,'-');
+
+  // NAV BTN
+  const btn=document.createElement('div');
+  btn.className='month-btn';
+  btn.innerText=month;
+
+  btn.onclick=()=>{
+    document.getElementById(id).scrollIntoView({behavior:'smooth'});
+  };
+
+  grid.appendChild(btn);
+
+  // MONTH TITLE
+  const monthBlock=document.createElement('div');
+  monthBlock.className='timeline-month';
+  monthBlock.id=id;
+  monthBlock.innerText=month;
 
   timeline.appendChild(monthBlock);
 
-  // EVENTS DU MOIS
-  months[month].forEach(event => {
+  monthElements.push({element:monthBlock,btn});
 
-    const side = index % 2 === 0 ? 'left' : 'right';
+  // EVENTS
+  months[month].forEach(e=>{
+    const side=index%2===0?'left':'right';
 
-    const item = document.createElement('div');
-    item.className = 'timeline-item ' + side;
+    const item=document.createElement('div');
+    item.className='timeline-item '+side;
 
-    item.innerHTML = `
+    item.innerHTML=`
       <div class="content">
-        <span class="date">${event.displayDate} · ${event.ville}</span>
-        <h3>${event.titre}</h3>
-        <a href="${event.lien}" target="_blank">
-          <img src="${event.image}">
-        </a>
+        <span>${e.displayDate} · ${e.ville}</span>
+        <h3>${e.titre}</h3>
+        <img src="${e.image}">
       </div>
     `;
 
     timeline.appendChild(item);
     index++;
   });
-}
-
-// ANIMATION
-function reveal() {
-  const items = document.querySelectorAll('.timeline-item');
-  const trigger = window.innerHeight * 0.85;
-
-  items.forEach(item => {
-    const top = item.getBoundingClientRect().top;
-    if (top < trigger) item.classList.add('show');
-  });
-}
-
-// NAVIGATION PAR MOIS
-const nav = document.getElementById('month-nav');
-const monthElements = [];
-
-Object.keys(months).forEach(month => {
-
-  const id = month.replace(/\s/g, '-');
-
-  // bouton
-  const btn = document.createElement('div');
-  btn.className = 'month-btn';
-  btn.innerText = month;
-  btn.dataset.target = id;
-
-  btn.addEventListener('click', () => {
-    document.getElementById(id).scrollIntoView({
-      behavior: 'smooth',
-      block: 'start'
-    });
-  });
-
-  nav.appendChild(btn);
-
-  // stocker les sections
-  const section = document.getElementById(id);
-  if (section) {
-    monthElements.push({ id, element: section, btn });
-  }
 });
 
-<script>
-// NAV CONTAINER
-const nav = document.getElementById('month-nav');
+// SCROLL ACTIVE
+window.addEventListener('scroll',()=>{
+  let current=null;
 
-// créer grille
-const grid = document.createElement('div');
-grid.className = 'month-grid';
-nav.appendChild(grid);
-
-const monthElements = [];
-
-// créer boutons
-Object.keys(months).forEach(month => {
-
-  const id = month.replace(/\s/g, '-');
-
-  const btn = document.createElement('div');
-  btn.className = 'month-btn';
-  btn.innerHTML = `<span>${month}</span>`;
-
-  btn.addEventListener('click', () => {
-    document.getElementById(id).scrollIntoView({
-      behavior: 'smooth',
-      block: 'start'
-    });
-  });
-
-  grid.appendChild(btn);
-
-  const section = document.getElementById(id);
-  if (section) {
-    monthElements.push({ element: section, btn });
-  }
-});
-
-
-// 🔥 SURBRILLANCE INTELLIGENTE
-window.addEventListener('scroll', () => {
-
-  let current = null;
-
-  monthElements.forEach(m => {
-    const rect = m.element.getBoundingClientRect();
-
-    if (rect.top <= 150) {
-      current = m;
+  monthElements.forEach(m=>{
+    if(m.element.getBoundingClientRect().top<=120){
+      current=m;
     }
   });
 
-  if (current) {
-    document.querySelectorAll('.month-btn').forEach(b => b.classList.remove('active'));
+  if(current){
+    document.querySelectorAll('.month-btn').forEach(b=>b.classList.remove('active'));
     current.btn.classList.add('active');
   }
 });
