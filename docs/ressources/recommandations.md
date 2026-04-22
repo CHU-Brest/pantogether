@@ -7,6 +7,17 @@
       margin: auto;
       padding: 30px 20px;
     }
+ h2 {
+      border-left: 5px solid #2563eb;
+      padding-left: 10px;
+      margin-top: 40px;
+      color: #111827;
+    }
+
+   h3 {
+      margin-top: 25px;
+      color: #1d4ed8;
+    }
 
 .card {
       background: white;
