@@ -36,11 +36,16 @@
       font-size: 12px;
       margin-top: 5px;
     }
+    .stack {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
 </style>
 
   <!-- TNCD -->
   <h2>🔷 Thésaurus National de Cancérologie Digestive (TNCD)</h2>
-  
+  <div class="stack">
   <h3> 🔸Œso-gastrique</h3>
 
   <div class="card">
