@@ -91,6 +91,14 @@
   .timeline-item.right::before {
     left: 12px;
   }
+  .timeline-month {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2em;
+  margin: 40px 0 20px;
+  color: #333;
+  letter-spacing: 1px;
+}
 }
 </style>
 
@@ -133,38 +141,65 @@ const events = [
   }
 ];
 
-// GENERATION TIMELINE
-const timeline = document.getElementById('timeline');
+// 🔥 TRI PAR DATE
+events.sort((a, b) => new Date(a.date) - new Date(b.date));
 
-events.forEach((event, index) => {
-  const side = index % 2 === 0 ? 'left' : 'right';
+// 🔥 GROUPEMENT PAR MOIS
+const months = {};
 
-  const item = document.createElement('div');
-  item.className = 'timeline-item ' + side;
+events.forEach(event => {
+  const d = new Date(event.date);
+  const key = d.toLocaleString('fr-FR', { month: 'long', year: 'numeric' });
 
-  item.innerHTML = `
-    <div class="content">
-      <span class="date">${event.displayDate} · ${event.ville}</span>
-      <h3>${event.titre}</h3>
-      <a href="${event.lien}" target="_blank">
-        <img src="${event.image}">
-      </a>
-    </div>
-  `;
-
-  timeline.appendChild(item);
+  if (!months[key]) months[key] = [];
+  months[key].push(event);
 });
 
-// ANIMATION SCROLL (corrigée)
+const timeline = document.getElementById('timeline');
+
+let index = 0;
+
+// 🔥 AFFICHAGE
+for (const month in months) {
+
+  // TITRE DU MOIS
+  const monthBlock = document.createElement('div');
+  monthBlock.className = 'timeline-month';
+  monthBlock.innerHTML = month.toUpperCase();
+
+  timeline.appendChild(monthBlock);
+
+  // EVENTS DU MOIS
+  months[month].forEach(event => {
+
+    const side = index % 2 === 0 ? 'left' : 'right';
+
+    const item = document.createElement('div');
+    item.className = 'timeline-item ' + side;
+
+    item.innerHTML = `
+      <div class="content">
+        <span class="date">${event.displayDate} · ${event.ville}</span>
+        <h3>${event.titre}</h3>
+        <a href="${event.lien}" target="_blank">
+          <img src="${event.image}">
+        </a>
+      </div>
+    `;
+
+    timeline.appendChild(item);
+    index++;
+  });
+}
+
+// ANIMATION
 function reveal() {
   const items = document.querySelectorAll('.timeline-item');
   const trigger = window.innerHeight * 0.85;
 
   items.forEach(item => {
     const top = item.getBoundingClientRect().top;
-    if (top < trigger) {
-      item.classList.add('show');
-    }
+    if (top < trigger) item.classList.add('show');
   });
 }
 
