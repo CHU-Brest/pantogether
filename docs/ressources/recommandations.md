@@ -40,7 +40,6 @@
 
   <!-- TNCD -->
   <h2>🔷 Thésaurus National de Cancérologie Digestive (TNCD)</h2>
-<div class="grid">
   
   <h3> 🔸Œso-gastrique</h3>
 
