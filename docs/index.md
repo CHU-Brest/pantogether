@@ -52,7 +52,7 @@ sur l’ensemble du territoire.
 </div>
 
 <div class="card">
-<h3> Axe Œsophage – Estomac – Jonction œso-gastrique haut</h3>
+<h3> Axe Œsophage – Estomac – Jonction œso-gastrique </h3>
 <ul>
 <img src="/assets/chubrest.png" class="logo">
 <li>Pr Jean-Philippe Metges </li>
