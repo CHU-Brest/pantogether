@@ -47,7 +47,7 @@ sur l’ensemble du territoire.
 <ul>
 <img src="/assets/chubrest.png" class="logo">
   <li>Pr Jean-Philippe Metges (CHU Brest)</li>
-  <li>Pr Nathalie Ganne-Carrié (CHU Avicenne)</li>
+  <li>Pr Nathalie Ganne-Carrié (CHU Avicenne) </li>
 </ul>
 </div>
 </div>
