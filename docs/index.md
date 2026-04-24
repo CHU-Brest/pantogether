@@ -44,8 +44,9 @@ sur l’ensemble du territoire.
 <div class="center-card">
 <div class="card highlight">
 <h3>🏛️ Pilotage national</h3>
-<ul>
-<img src="/assets/chubrest.png" class="logo">
+
+<img src="/assets/chubrest.png" class="logo center-logo">
+ <ul class="clean-list">
   <li>Pr Jean-Philippe Metges (CHU Brest)</li>
   <li>Pr Nathalie Ganne-Carrié (CHU Avicenne) </li>
 </ul>
@@ -56,8 +57,9 @@ sur l’ensemble du territoire.
 <div class="three-cards">
 <div class="card">
 <h3> Axe Œsophage – Estomac – Jonction œso-gastrique </h3>
-<ul>
-<img src="/assets/chubrest.png" class="logo">
+
+<img src="/assets/chubrest.png" class="logo center-logo">
+<ul class="clean-list">
 <li>Pr Jean-Philippe Metges </li>
 <li>Dr Vincent Bourbonne </li>
 </ul>
@@ -65,8 +67,9 @@ sur l’ensemble du territoire.
 
 <div class="card">
 <h3> Axe Foie et Voies Biliaires</h3>
-<ul>
-<img src="/assets/chuavicenne.png" class="logo">
+
+<img src="/assets/chuavicenne.png" class="logo center-logo">
+ <ul class="clean-list">
 <li>Pr Nathalie Ganne-Carrié </li>
 <li>Pr Pierre Nahon </li>
 </ul>
@@ -74,8 +77,9 @@ sur l’ensemble du territoire.
 
 <div class="card">
 <h3> Axe Pancréas</h3>
-<ul>
-<img src="/assets/chupitie.png" class="logo">
+
+<img src="/assets/chupitie.png" class="logo center-logo">
+ <ul class="clean-list">
 <li>Pr Jean-Baptiste Bachet </li>
 </ul>
 </div>
@@ -265,6 +269,19 @@ PAN-TOGETHER : améliorer ensemble le pronostic des cancers digestifs de mauvais
   .three-cards {
     grid-template-columns: 1fr;
   }
+}
+.center-logo {
+  display: block;
+  margin: 10px auto 15px;
+}
+
+.clean-list {
+  padding-left: 18px;
+  margin: 0;
+}
+
+.clean-list li {
+  margin-bottom: 6px;
 }
 /* SLOGAN */
 .slogan {
