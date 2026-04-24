@@ -32,19 +32,19 @@ L’objectif est de fournir des **informations claires et fiables** sur :
 ---
 
 ## Cancers du foie et des voies biliaires
-| | |
-|---|---|
-| [![Guide Foie](/assets/guidefoie.png)](https://publuu.com/flip-book/1022968/2351172) | |
-
-<br>
-
-| | |
-|---|---|
-| [![Vidéo CHC](/assets/PLCGCHC.png)](https://parislivercancergroup.com/pour-les-patients/#video-gallery-fabf4d9-5) | [![Vidéo CCA](/assets/PLCGCCA.png)](https://parislivercancergroup.com/pour-les-patients/#video-gallery-fabf4d9-6) |
-
----
----
+<p> <a href="https://publuu.com/flip-book/1022968/2351172" target="_blank"> <img src="/assets/guidefoie.png" alt="guidefoie" width="200" class="image-hover"> </a> 
+  <br> 
+  <a href="https://parislivercancergroup.com/pour-les-patients/#video-gallery-fabf4d9-5" target="_blank"> <img src="/assets/PLCGCHC.png" alt="CHC" width="400" class="image-hover"> </a> 
+  <a href="https://parislivercancergroup.com/pour-les-patients/#video-gallery-fabf4d9-6" target="_blank"> <img src="/assets/PLCGCCA.png" alt="CCA" width="400" class="image-hover"> </a> 
+</p>
 
 ## Cancers du pancréas
 
-[![Guide Pancréas](/assets/guidepancreas.png)](https://publuu.com/flip-book/1022968/2311878)
+<a href="https://publuu.com/flip-book/1022968/2311878" target="_blank"> <img src="/assets/guidepancreas.png" alt="guidepancreas" width="200" class="image-hover"> </a>
+
+<style> .image-hover {
+  transition: transform 0.3s ease; 
+} .image-hover:hover {
+  transform: scale(1.05); 
+} 
+</style>
