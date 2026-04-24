@@ -26,10 +26,9 @@ L’objectif est de fournir des **informations claires et fiables** sur :
 
 ## Cancers de l'œsophage et de la jonction œsogastrique
 
-[![Guide Estomac](/assets/guideestomac.png)](https://publuu.com/flip-book/1022968/2311877)
-
-[![Guide Œsophage](/assets/guideoes.png)](https://publuu.com/flip-book/1022968/2332220)
-
+<p> <a href="https://publuu.com/flip-book/1022968/2311877" target="_blank"> <img src="/assets/guideestomac.png" alt="guideestomac" width="200" class="image-hover"> </a> 
+  <a href="https://publuu.com/flip-book/1022968/2332220" target="_blank"> <img src="/assets/guideoes.png" alt="guideoes" width="200" class="image-hover"> 
+  </a> </p>
 ---
 
 ## Cancers du foie et des voies biliaires
