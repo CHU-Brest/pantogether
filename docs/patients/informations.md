@@ -32,13 +32,17 @@ L’objectif est de fournir des **informations claires et fiables** sur :
 ---
 
 ## Cancers du foie et des voies biliaires
+| | |
+|---|---|
+| [![Guide Foie](/assets/guidefoie.png)](https://publuu.com/flip-book/1022968/2351172) | |
 
-[![Guide Foie](/assets/guidefoie.png)](https://publuu.com/flip-book/1022968/2351172)
+<br>
 
-[![Vidéo CHC](/assets/PLCGCHC.png)](https://parislivercancergroup.com/pour-les-patients/#video-gallery-fabf4d9-5)
+| | |
+|---|---|
+| [![Vidéo CHC](/assets/PLCGCHC.png)](https://parislivercancergroup.com/pour-les-patients/#video-gallery-fabf4d9-5) | [![Vidéo CCA](/assets/PLCGCCA.png)](https://parislivercancergroup.com/pour-les-patients/#video-gallery-fabf4d9-6) |
 
-[![Vidéo CCA](/assets/PLCGCCA.png)](https://parislivercancergroup.com/pour-les-patients/#video-gallery-fabf4d9-6)
-
+---
 ---
 
 ## Cancers du pancréas
