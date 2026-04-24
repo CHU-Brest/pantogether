@@ -81,6 +81,7 @@ sur l’ensemble du territoire.
 <img src="/assets/chupitie.png" class="logo center-logo">
  <ul class="clean-list">
 <li>Pr Jean-Baptiste Bachet </li>
+<li></li>
 </ul>
 </div>
 </div>
