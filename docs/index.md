@@ -57,34 +57,31 @@ sur l’ensemble du territoire.
 <div class="three-cards">
 <div class="card">
 <h3> Axe Œsophage – Estomac – Jonction œso-gastrique </h3>
-<div class="card-content">
+
 <img src="/assets/chubrest.png" class="logo center-logo">
 <ul class="clean-list">
 <li>Pr Jean-Philippe Metges </li>
 <li>Dr Vincent Bourbonne </li>
 </ul>
 </div>
-</div>
   
 <div class="card">
 <h3> Axe Foie et Voies Biliaires</h3>
-<div class="card-content">
+
 <img src="/assets/chuavicenne.png" class="logo center-logo">
  <ul class="clean-list">
 <li>Pr Nathalie Ganne-Carrié </li>
 <li>Pr Pierre Nahon </li>
 </ul>
 </div>
-</div>
 
 <div class="card">
 <h3> Axe Pancréas</h3>
-<div class="card-content">
+  
 <img src="/assets/chupitie.png" class="logo center-logo">
  <ul class="clean-list">
 <li>Pr Jean-Baptiste Bachet </li>
 </ul>
-</div>
 </div>
 </div>
 
@@ -233,16 +230,7 @@ PAN-TOGETHER : améliorer ensemble le pronostic des cancers digestifs de mauvais
   border-radius: 10px;
   padding: 18px;
   box-shadow: 0 6px 18px rgba(0,0,0,0.08);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;   /* centre verticalement */
-  align-items: center;       /* centre horizontalement */
-  text-align: center;
   transition: transform 0.2s ease;
-}
-/* zone contenu (logo + liste) */
-.card-content {
-  margin-top: auto;
 }
   
 .card:hover {
@@ -251,7 +239,6 @@ PAN-TOGETHER : améliorer ensemble le pronostic des cancers digestifs de mauvais
 
 .card h3 {
   margin-top: 0;
-  min-height: 60px;
   color: #1f6f8b;
 }
 /* CENTRER LA CARD PRINCIPALE */
