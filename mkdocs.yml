@@ -6,7 +6,7 @@ edit_uri: edit/main/docs/
 nav:
   - Accueil: index.md
   - Patients: 
-    - patients/informations.md
+    - patients/informations.html
     - patients/associations.md
     - patients/communications.md
     - patients/webconferences.md
