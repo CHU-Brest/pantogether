@@ -276,12 +276,13 @@ PAN-TOGETHER : améliorer ensemble le pronostic des cancers digestifs de mauvais
 }
 
 .clean-list {
-  padding-left: 18px;
-  margin: 0;
+  margin: 10px 0 0;
+  padding-left: 20px;
 }
 
 .clean-list li {
-  margin-bottom: 6px;
+  margin: 0;
+  line-height: 1.4;
 }
 /* SLOGAN */
 .slogan {
