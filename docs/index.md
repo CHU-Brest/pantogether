@@ -40,8 +40,6 @@ sur l’ensemble du territoire.
 
 ## Organisation
 
-<div class="grid">
-
 <!-- CARD CENTRALE -->
 <div class="center-card">
 <div class="card highlight">
@@ -63,7 +61,6 @@ sur l’ensemble du territoire.
 <li>Pr Jean-Philippe Metges </li>
 <li>Dr Vincent Bourbonne </li>
 </ul>
-
 </div>
 
 <div class="card">
@@ -73,7 +70,6 @@ sur l’ensemble du territoire.
 <li>Pr Nathalie Ganne-Carrié </li>
 <li>Pr Pierre Nahon </li>
 </ul>
-
 </div>
 
 <div class="card">
@@ -82,9 +78,8 @@ sur l’ensemble du territoire.
 <img src="/assets/chupitie.png" class="logo">
 <li>Pr Jean-Baptiste Bachet </li>
 </ul>
+</div>
 
-</div>
-</div>
 </div>
 
 ---
