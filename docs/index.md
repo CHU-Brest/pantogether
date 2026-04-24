@@ -42,7 +42,9 @@ sur l’ensemble du territoire.
 
 <div class="grid">
 
-<div class="card">
+<!-- CARD CENTRALE -->
+<div class="center-card">
+<div class="card highlight">
 <h3>🏛️ Pilotage national</h3>
 <ul>
 <img src="/assets/chubrest.png" class="logo">
@@ -50,7 +52,10 @@ sur l’ensemble du territoire.
 <li>Pr Nathalie Ganne-Carrié (CHU Avicenne)</li>
 </ul>
 </div>
+</div>
 
+<!-- 3 CARDS EN DESSOUS -->
+<div class="three-cards">
 <div class="card">
 <h3> Axe Œsophage – Estomac – Jonction œso-gastrique </h3>
 <ul>
@@ -79,7 +84,7 @@ sur l’ensemble du territoire.
 </ul>
 
 </div>
-
+</div>
 </div>
 
 ---
@@ -238,7 +243,34 @@ PAN-TOGETHER : améliorer ensemble le pronostic des cancers digestifs de mauvais
   margin-top: 0;
   color: #1f6f8b;
 }
+/* CENTRER LA CARD PRINCIPALE */
+.center-card {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0;
+}
 
+/* CARD PLUS VISIBLE */
+.highlight {
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  border: 2px solid #2563eb;
+}
+
+/* ALIGNEMENT DES 3 CARDS */
+.three-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+/* RESPONSIVE (TRÈS IMPORTANT) */
+@media (max-width: 800px) {
+  .three-cards {
+    grid-template-columns: 1fr;
+  }
+}
 /* SLOGAN */
 .slogan {
   text-align: center;
