@@ -77,7 +77,7 @@ sur l’ensemble du territoire.
 
 <div class="card">
 <h3> Axe Pancréas</h3>
-  
+<br>  
 <img src="/assets/chupitie.png" class="logo center-logo">
  <ul class="clean-list">
 <li>Pr Jean-Baptiste Bachet </li>
