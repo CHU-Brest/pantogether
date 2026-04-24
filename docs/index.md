@@ -46,8 +46,8 @@ sur l’ensemble du territoire.
 <h3>🏛️ Pilotage national</h3>
 <ul>
 <img src="/assets/chubrest.png" class="logo">
-<li>Pr Jean-Philippe Metges (CHU Brest)</li>
-<li>Pr Nathalie Ganne-Carrié (CHU Avicenne)</li>
+  <li>Pr Jean-Philippe Metges (CHU Brest)</li>
+  <li>Pr Nathalie Ganne-Carrié (CHU Avicenne)</li>
 </ul>
 </div>
 </div>
