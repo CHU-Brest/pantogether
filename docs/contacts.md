@@ -367,7 +367,7 @@ const data = {
         <p>
           <a href="mailto:kristell.oizel@chu-brest.fr">
             📩 kristell.oizel@chu-brest.fr <br>
-            &#128222 02 98 22 39 80
+            &#128222 02 21 74 34 51
           </a>
         </p>
       </div>
