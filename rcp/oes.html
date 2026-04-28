@@ -1,0 +1,1553 @@
+---
+title: Oesophage, Estomac & Jonction Oesogastrique
+---
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Planning des Réunions de Concertation Pluridisciplinaire</title>
+
+<style>
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    margin: 40px;
+    background: #f4f6f9;
+    color: #1f2937;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+.counter {
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #555;
+}
+
+/* Filtres région / centre / recherche */
+.tableFilters {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.tableFilters input, .tableFilters select, .tableFilters button {
+    padding: 8px 10px;
+    font-size: 14px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+}
+
+button {
+    padding: 6px 10px;
+    font-size: 12px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+
+#resetFilters {
+    background: #2563eb;
+    color: white;
+}
+
+/* Box filtrage Réunions */
+.meeting-type-filters {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+}
+
+.filter-box {
+    padding: 6px 12px;
+    background: #e5e7eb;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 13px;
+    transition: 0.2s;
+}
+
+.filter-box:hover {
+    background: #d1d5db;
+}
+
+.filter-box.active {
+    background: #2563eb;
+    color: white;
+}
+
+/* Tableau */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background: #e5eaf1;
+    cursor: pointer;
+    user-select: none;
+}
+
+th.active {
+    background: #d0d8e5;
+}
+
+tr {
+    border-bottom: 1px solid #eef2f7;
+}
+
+tr:hover {
+    background: #f9fafb;
+}
+
+.badge {
+    display: inline-block;
+    padding: 4px 8px;
+    font-size: 12px;
+    background: #e0e7ff;
+    color: #3730a3;
+    border-radius: 12px;
+}
+
+.day-separator td {
+    background: #f1f5f9;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.visio-btn {
+    background: #e5e7eb;
+}
+
+.calendar-btn {
+    background: #2563eb;
+    color: white;
+}
+</style>
+</head>
+
+<body>
+<h1 style="color: SteelBlue;">Oesophage, Estomac & Jonction Oesogastrique</h1> 
+<a href="../rcp/RCP/">⬅ Retour</a>
+
+<h1>Planning des réunions de concertation pluridisciplinaire en région</h1>
+<div class="counter" id="counter"></div>
+
+<!-- Filtres texte / région / centre -->
+<div class="tableFilters">
+    <input type="text" id="searchInput" placeholder="Rechercher...">
+    <select id="regionFilter">
+        <option value="">Toutes les régions</option>
+        <option value="Auvergne-Rhône-Alpes">Auvergne-Rhône-Alpes</option>
+        <option value="Bourgogne-Franche-Comté">Bourgogne-Franche-Comté</option>
+        <option value="Bretagne">Bretagne</option>
+        <option value="Centre-Val-de-Loire">Centre-Val-de-Loire</option>
+        <option value="Grand-Est">Grand-Est</option>
+        <option value="Guadeloupe">Guadeloupe</option>
+        <option value="Hauts-de-France">Hauts-de-France</option>
+        <option value="Ile-de-France">Ile-de-France</option>
+        <option value="La Réunion">La Réunion</option>
+        <option value="Normandie">Normandie</option>
+        <option value="Nouvelle-Aquitaine">Nouvelle-Aquitaine</option>
+        <option value="Occitanie">Occitanie</option>
+        <option value="Pays de la Loire">Pays de la Loire</option>
+        <option value="Provence-Alpes-Côte-d'Azur">Provence-Alpes-Côte-d'Azur</option>
+    </select>
+    <select id="centerFilter">
+        <option value="">Tous les centres</option>
+    </select>
+    <button id="resetFilters">Réinitialiser</button>
+</div>
+
+<!-- Box filtres Réunions -->
+<div class="meeting-type-filters">
+    <span class="filter-box" data-type="digestif">Digestif</span>
+    <span class="filter-box" data-type="oncologie digestive">Oncologie Digestive</span>
+    <span class="filter-box" data-type="tumeurs superficielles">Tumeurs superficielles</span>
+    <span class="filter-box" data-type="Tumeurs rares">Tumeurs rares</span>
+    <span class="filter-box" data-type="Neuro-endocrines">Neuro-endocrines</span>
+    <span class="filter-box" data-type="multi-organes">Multi-organes</span>
+    <span class="filter-box" data-type="Péritoine">Péritoïne</span>
+    <span class="filter-box" data-type="moléculaire">Moléculaire</span>
+    <span class="filter-box" data-type="MSI">MSI</span>
+    <span class="filter-box" data-type="chirurgie">Chirurgie</span>
+    <span class="filter-box" data-type="chimiothérapie">Chimiothérapie</span>
+    <span class="filter-box" data-type="Recours">Recours</span>
+    
+</div>
+
+<!-- Tableau -->
+<table id="meetingTable">
+<thead>
+<tr>
+    <th id="sortRegion">Région ⬍</th>
+    <th id="sortByName">Centre ⬍</th>
+    <th>Réunion</th>
+    <th>Réseau</th>
+    <th id="sortDate">Jour ⬍</th>
+    <th>Horaire</th>
+    <th>Fréquence</th>
+    <th>Lieu</th>
+    <th>Visioconférence</th>
+    <th>Soumission Dossier</th>
+</tr>
+</thead>
+<tbody>
+<!-- Les lignes de réunions seront ici -->
+
+<tr>
+<td><span class="badge">Auvergne-Rhône-Alpes</span></td>
+<td>CHU Clermont-Ferrand</td>
+<td>RCP d’oncologie digestive et chirurgie digestive conventionnelle et de recours</td>
+<td>Réseau ONCAURA</td>
+<td>Lundi</td>
+<td>13h30-17h</td>
+<td>Hebdomadaire</td>
+<td>Service de chirurgie digestive CHU Estaing</td>
+<td>Visioconférence possible sur demande au secrétariat</td>
+<td>
+    <details>
+        <summary><strong>Modalités de soumission d'un dossier</strong></summary>
+Fiche pré-établie à rendre au plus tard le matin des RCP <br>
+       </details>
+<details>
+        <summary><strong>AMA en charge de la RCP</strong></summary>
+CHAMPION Sylvie <br>
+<a href="mailto:schampion@chu-clermontferrand.fr">schampion@chu-clermontferrand.fr</a>  <br>
+Tel : 04 73 75 04 94 <br>
+    </details>
+</td>    
+</tr>
+<tr>
+<td><span class="badge">Auvergne-Rhône-Alpes</span></td>
+<td>Centre Hospitalier Lyon sud</td>
+<td>RCP Oncologie Digestive et de Recours</td>
+<td>Réseau ONCAURA</td>
+<td>Mercredi</td>
+<td>17-19h30</td>
+<td>Hebdomadaire</td>
+<td>Radiologie du Centre Hospitalier Lyon Sud (Bât 3B -1 salle de cours )</td>
+<td>Visioconférence via Teams</td>
+<td>
+    <details>
+        <summary><strong>Modalités de soumission d'un dossier</strong></summary>
+- Création d’une fiche RCP cancer sur Easily avec une IPP provisoire (si aucune venue aux HCL) effectuée par le secrétariat du 3C du site concerné ou du service de spécialité concerné <br>
+Ou<br>
+- Création d’un fiche RCP disponible sur le DPI <a href="https://www.sante-ra.fr/RCP/GestionRCP/choixPathoChronique.aspx?refUrl=http%3a%2f%2fwww.sante-ra.fr%2frcp%2fAccueil.aspx">Onco AURA</a <br>
+       </details>
+<details>
+        <summary><strong>AMA en charge de la RCP</strong></summary>
+RINGOT Audrey <br>
+<a href="mailto:audrey.ringot@chu-lyon.fr">audrey.ringot@chu-lyon.fr</a>  <br>
+<a href="mailto:audrey.ringot@univ-lyon1.fr">audrey.ringot@univ-lyon1.fr</a>  <br>
+    </details>
+</td>    
+</tr>
+<tr>
+<td><span class="badge">Auvergne-Rhône-Alpes</span></td>
+<td>Centre Jean Mermoz, Lyon</td>
+<td>RCP d’oncologie digestive</td>
+<td></td>
+<td>Jeudi</td>
+<td>12h30</td>
+<td>Hebdomadaire</td>
+<td>Salle de RCP</td>
+<td></td>
+<td>
+    <details>
+        <summary><strong>Modalités de soumission d'un dossier</strong></summary>
+Dossier à compléter sur <a href="https://www.sante-ara.fr/services/monsisra/">SISRA</a <br>
+       </details>
+<details>
+        <summary><strong>AMA en charge de la RCP</strong></summary>
+POURRIOT Camille <br>
+<a href="mailto:camille.pourriot@ramsaysante.fr">camille.pourriot@ramsaysante.fr</a>  <br>
+Tel : 04 37 53 87 33 <br>
+    </details>
+</td>    
+</tr>
+
+<tr>
+<td><span class="badge">Auvergne-Rhône-Alpes</span></td>
+<td>Centre Jean Mermoz, Lyon</td>
+<td>RCP Tumeurs superficielles</td>
+<td></td>
+<td>Mercredi</td>
+<td>12h</td>
+<td>Mensuelle, 2ème mercredi du mois</td>
+<td>Salle de RCP</td>
+<td></td>
+<td>
+    <details>
+        <summary><strong>Modalités de soumission d'un dossier</strong></summary>
+Dossier à compléter sur <a href="https://www.sante-ara.fr/services/monsisra/">SISRA</a <br>
+       </details>
+<details>
+        <summary><strong>AMA en charge de la RCP</strong></summary>
+POURRIOT Camille <br>
+<a href="mailto:camille.pourriot@ramsaysante.fr">camille.pourriot@ramsaysante.fr</a>  <br>
+Tel : 04 37 53 87 33 <br>
+    </details>
+</td>    
+</tr>
+<tr>
+<td><span class="badge">Auvergne-Rhône-Alpes</span></td>
+<td>CRLCC Léon Bérard, Lyon</td>
+<td>RCP d’oncologie digestive (CLB)</td>
+<td></td>
+<td>Lundi</td>
+<td>17h</td>
+<td>Hebdomadaire</td>
+<td>Centre Léon Bérard</td>
+<td>Visioconférence via Teams</td>
+<td>
+    <details>
+        <summary><strong>Modalités de soumission d'un dossier</strong></summary>
+Dossier à soumettre sur le DCC <a href="https://www.sante-ara.fr/inscription-des-ps-aura-2/">SARA</a <br>
+       </details>
+<details>
+        <summary><strong>AMA en charge de la RCP</strong></summary>
+REY Stéphanie <br>
+Tel : 04 69 85 64 91 <br>  
+    </details>
+</td>    
+</tr>
+<tr>
+<td><span class="badge">Auvergne-Rhône-Alpes</span></td>
+<td>CHU Saint-Etienne</td>
+<td>RCP Oncologie Digestive</td>
+<td>Réseau ONCOLOIRE</td>
+<td>Lundi</td>
+<td>18h-20h</td>
+<td>Hebdomadaire</td>
+<td>CHU de Saint-Etienne</td>
+<td>Visioconférence</td>
+<td>
+    <details>
+        <summary><strong>Modalités de soumission d'un dossier</strong></summary>
+Fiche à soumettre à l’AMA <br>
+       </details>
+<details>
+        <summary><strong>AMA en charge de la RCP</strong></summary>
+AYALA Sandrine <br>
+Tel : 04 77 82 25 55 <br>  
+    </details>
+</td>    
+</tr>
+<tr>
+<td><span class="badge">Bourgogne-Franche-Comté</span></td>
+<td>CHU Besançon</td>
+<td>RCP d’oncologie digestive</td>
+<td> </td>
+<td>Mardi</td>
+<td></td>
+<td>Hebdomadaire</td>
+<td>CHU Besançon</td>
+<td>Visioconférence par le logiciel du réseau BFC /td>
+<td>
+    <details>
+        <summary><strong>Modalités de soumission d'un dossier</strong></summary>
+Dossier à soumettre sur le DCC du patient <a href="https://www.oncobfc.com/dossier-communicant-de-cancerologie-dcc">Onco BFC</a <br>
+       </details>
+<details>
+        <summary><strong>AMA en charge de la RCP</strong></summary>
+QUERRY Carène, IRFC <br>
+Tel : 03 81 53 92 38 <br>  
+    </details>
+</td>    
+</tr>
+<tr>
+<td><span class="badge">Bourgogne-Franche-Comté</span></td>
+<td>CHU Besançon</td>
+<td>RCP d’oncologie digestive</td>
+<td> </td>
+<td>Jeudi</td>
+<td></td>
+<td>Hebdomadaire</td>
+<td>Hôpital Nord Franche-Comté</td>
+<td>Visioconférence par le logiciel du réseau BFC /td>
+<td>
+    <details>
+        <summary><strong>Modalités de soumission d'un dossier</strong></summary>
+Dossier à soumettre sur le DCC du patient <a href="https://www.oncobfc.com/dossier-communicant-de-cancerologie-dcc">Onco BFC</a <br>
+       </details>
+<details>
+        <summary><strong>AMA en charge de la RCP</strong></summary>
+QUERRY Carène, IRFC <br>
+Tel : 03 81 53 92 38 <br>  
+    </details>
+</td>    
+</tr>
+<tr>
+<td><span class="badge">Bourgogne-Franche-Comté</span></td>
+<td>Hôpital François Mitterrand, CHU Dijon</td>
+<td>RCP digestif Région Bourgogne</td>
+<td> </td>
+<td>Mercredi</td>
+<td>16h30</td>
+<td>Hebdomadaire</td>
+<td>Service d'hepato gastroenterologie et oncologie digestive</td>
+<td>Visioconférence par le logiciel Covotem sur demande au secrétariat des 3C </td>
+<td>
+    <details>
+        <summary><strong>Modalités de soumission d'un dossier</strong></summary>
+Dossier à soumettre sur le DCC du patient <a href="https://www.oncobfc.com/dossier-communicant-de-cancerologie-dcc">Onco BFC</a <br>
+       </details>
+<details>
+        <summary><strong>AMA en charge de la RCP</strong></summary>
+Secrétariat des 3C <br>
+<a href="mailto:3C@chu-dijon.fr">3C@chu-dijon.fr</a>  <br>
+Tel : 03 80 29 56 27 <br>
+    </details>
+</td>    
+</tr>
+
+<tr>
+<td><span class="badge">Bourgogne-Franche-Comté</span></td>
+<td>Hôpital François Mitterrand, CHU Dijon</td>
+<td>RCP Tumeurs Neuro-endocrines RENATEN & Tumeurs Rares Bourgogne Franche Comté</td>
+<td> </td>
+<td>Mercredi</td>
+<td>16h30</td>
+<td>Hebdomadaire</td>
+<td>Service d'hepato gastroenterologie et oncologie digestive</td>
+<td>Visioconférence par le logiciel Covotem sur demande au secrétariat des 3C </td>
+<td>
+    <details>
+        <summary><strong>Modalités de soumission d'un dossier</strong></summary>
+Dossier à soumettre sur le DCC du patient <a href="https://www.oncobfc.com/dossier-communicant-de-cancerologie-dcc">Onco BFC</a <br>
+       </details>
+<details>
+        <summary><strong>AMA en charge de la RCP</strong></summary>
+Secrétariat des 3C <br>
+<a href="mailto:3C@chu-dijon.fr">3C@chu-dijon.fr</a>  <br>
+Tel : 03 80 29 56 27 <br>
+    </details>
+</td>    
+</tr>
+<tr>
+<td><span class="badge">Bourgogne-Franche-Comté</span></td>
+<td>Centre Georges-François Leclerc, Dijon</td>
+<td>RCP d’oncologie digestive de recours</td>
+<td> </td>
+<td>Jeudi</td>
+<td>16h</td>
+<td>Hebdomadaire</td>
+<td>Centre Georges-François Leclerc</td>
+<td>Visioconférence </td>
+<td>
+    <details>
+        <summary><strong>Modalités de soumission d'un dossier</strong></summary>
+Dossier à soumettre sur le DCC du patient <br>
+       </details>
+<details>
+        <summary><strong>AMA en charge de la RCP</strong></summary>
+GARCIA Manon <br>
+<a href="mailto:mgarcia@cgfl.fr">mgarcia@cgfl.fr</a>  <br>
+Tel : 03 80 73 75 00 <br>  
+    </details>
+</td>    
+</tr>
+<tr>
+<td><span class="badge">Bretagne</span></td>
+<td>CHU La Cavale Blanche, Brest</td>
+<td>RCP Oncologie digestive, œsophage, gastrique</td>
+<td>Réseau OncoBretagne/pôle régional de cancérologie Bretagne</td>
+<td>Lundi</td>
+<td>17h</td>
+<td>Hebdomadaire</td>
+<td>Multisites</td>
+<td>Visioconférence </td>
+<td>
+    <details>
+        <summary><strong>Modalités de soumission d'un dossier</strong></summary>
+Dossier à compléter sur le DCC du patient <a href="https://auth.telesantebretagne.org/realms/gcs/protocol/openid-connect/auth?client_id=portail&redirect_uri=https%3A%2F%2Fmes-services.telesantebretagne.org%2F&state=393f5133-3a9e-429b-8c7e-63dadc25647c&response_mode=fragment&response_type=code&scope=openid&nonce=5bece8cd-6219-42c2-8be4-9bb0875f1a1d&code_challenge=pyq2CE1hE2OqXKTX7Xh5-nyJTMnta49SOC59khgCL-o&code_challenge_method=S256">DCC Bretagne</a <br>
+       </details>
+<details>
+        <summary><strong>AMA en charge de la RCP</strong></summary>
+ALIAS Sylvie <br>
+<a href="mailto:sylvie.alias@appuisante.fr">sylvie.alias@appuisante.fr</a>  <br>
+    </details>
+</td>    
+</tr>
+
+<tr>
+<td><span class="badge">Bretagne</span></td>
+<td>CHU La Cavale Blanche, Brest</td>
+<td>RCP Moléculaire</td>
+<td>Pôle régional de cancérologie Bretagne</td>
+<td>Mercredi</td>
+<td></td>
+<td>Hebdomadaire</td>
+<td>Multisites</td>
+<td>Visioconférence </td>
+<td>
+    <details>
+        <summary><strong>Modalités de soumission d'un dossier</strong></summary>
+Dossier à compléter sur le DCC du patient <a href="https://auth.telesantebretagne.org/realms/gcs/protocol/openid-connect/auth?client_id=portail&redirect_uri=https%3A%2F%2Fmes-services.telesantebretagne.org%2F&state=393f5133-3a9e-429b-8c7e-63dadc25647c&response_mode=fragment&response_type=code&scope=openid&nonce=5bece8cd-6219-42c2-8be4-9bb0875f1a1d&code_challenge=pyq2CE1hE2OqXKTX7Xh5-nyJTMnta49SOC59khgCL-o&code_challenge_method=S256">DCC Bretagne</a <br>
+       </details>
+<details>
+        <summary><strong>AMA en charge de la RCP</strong></summary>
+GUEN Laurence <br>
+<a href="mailto:poleregionalcancerologie@chu-brest.fr">poleregionalcancerologie@chu-brest.fr</a>  <br>
+Tel : 02 29 02 01 18  <br>
+Fax : 02 29 02 01 67 <br>
+    </details>
+</td>    
+</tr>
+
+<tr>
+<td><span class="badge">Bretagne</span></td>
+<td>CHU La Cavale Blanche, Brest</td>
+<td>RCP ARPEGO (multi-organes)</td>
+<td>Pôle régional de cancérologie Bretagne</td>
+<td>Mercredi</td>
+<td>8h</td>
+<td>Hebdomadaire</td>
+<td>Multisites</td>
+<td>Visioconférence </td>
+<td>
+    <details>
+        <summary><strong>Modalités de soumission d'un dossier</strong></summary>
+Dossier à compléter sur le DCC du patient <a href="https://auth.telesantebretagne.org/realms/gcs/protocol/openid-connect/auth?client_id=portail&redirect_uri=https%3A%2F%2Fmes-services.telesantebretagne.org%2F&state=393f5133-3a9e-429b-8c7e-63dadc25647c&response_mode=fragment&response_type=code&scope=openid&nonce=5bece8cd-6219-42c2-8be4-9bb0875f1a1d&code_challenge=pyq2CE1hE2OqXKTX7Xh5-nyJTMnta49SOC59khgCL-o&code_challenge_method=S256">DCC Bretagne</a <br>
+       </details>
+<details>
+        <summary><strong>AMA en charge de la RCP</strong></summary>
+<ul>
+<li>GOESIN Isabelle</li> <br>
+<a href="mailto:isabelle.goesin@chu-rennes.fr">isabelle.goesin@chu-rennes.fr</a>  <br>
+Tel : 02 99 28 99 87  <br>
+Fax : 02 99 28 99 68 <br>
+
+<li>GUEN Laurence</li> <br>
+<a href="mailto:poleregionalcancerologie@chu-brest.fr">poleregionalcancerologie@chu-brest.fr</a>  <br>
+Tel : 02 29 02 01 18  <br>
+Fax : 02 29 02 01 67 <br>
+</ul>
+    </details>
+</td>    
+</tr>
+
+<tr>
+<td><span class="badge">Bretagne</span></td>
+<td>CHU La Cavale Blanche, Brest</td>
+<td>RCP Tumeurs superficielles</td>
+<td> </td>
+<td>Mercredi</td>
+<td>16h30</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>
+    <details>
+        <summary><strong>Modalités de soumission d'un dossier</strong></summary>
+       </details>
+<details>
+        <summary><strong>AMA en charge de la RCP</strong></summary>
+    </details>
+</td>    
+</tr>
+<tr>
+<td><span class="badge">Bretagne</span></td>
+<td>Centre Eugène Marquis</td>
+<td>RCP d’oncologie digestive</td>
+<td>ONCO 5 Centre de Coordination en Cancérologie du territoire 5</td>
+<td>Mardi</td>
+<td>14h30</td>
+<td>Hebdomadaire</td>
+<td>CHU Rennes</td>
+<td>Visioconférence </td>
+<td>
+    <details>
+        <summary><strong>Modalités de soumission d'un dossier</strong></summary>
+Dossier à compléter sur le DCC du patient <a href="https://auth.telesantebretagne.org/realms/gcs/protocol/openid-connect/auth?client_id=portail&redirect_uri=https%3A%2F%2Fmes-services.telesantebretagne.org%2F&state=393f5133-3a9e-429b-8c7e-63dadc25647c&response_mode=fragment&response_type=code&scope=openid&nonce=5bece8cd-6219-42c2-8be4-9bb0875f1a1d&code_challenge=pyq2CE1hE2OqXKTX7Xh5-nyJTMnta49SOC59khgCL-o&code_challenge_method=S256">DCC Bretagne</a <br>
+       </details>
+<details>
+        <summary><strong>AMA en charge de la RCP</strong></summary>
+BUSIN Emilie <br>
+Centre de Coordination en Cancérologie du territoire 5 <br>
+Tel : 02 99 25 31 41 <br>
+    </details>
+</td>    
+</tr>
+
+<tr>
+<td><span class="badge">Bretagne</span></td>
+<td>Centre Eugène Marquis</td>
+<td>RCP Tumeurs Neuro-endocrines RENATEN</td>
+<td>ONCO 5 Centre de Coordination en Cancérologie du territoire 5</td>
+<td>Mardi</td>
+<td>14h</td>
+<td>Hebdomadaire</td>
+<td>CHU Rennes</td>
+<td>Visioconférence </td>
+<td>
+    <details>
+        <summary><strong>Modalités de soumission d'un dossier</strong></summary>
+Dossier à compléter sur le DCC du patient <a href="https://auth.telesantebretagne.org/realms/gcs/protocol/openid-connect/auth?client_id=portail&redirect_uri=https%3A%2F%2Fmes-services.telesantebretagne.org%2F&state=393f5133-3a9e-429b-8c7e-63dadc25647c&response_mode=fragment&response_type=code&scope=openid&nonce=5bece8cd-6219-42c2-8be4-9bb0875f1a1d&code_challenge=pyq2CE1hE2OqXKTX7Xh5-nyJTMnta49SOC59khgCL-o&code_challenge_method=S256">DCC Bretagne</a <br>
+       </details>
+<details>
+        <summary><strong>AMA en charge de la RCP</strong></summary>
+BUSIN Emilie <br>
+Centre de Coordination en Cancérologie du territoire 5 <br>
+Tel : 02 99 25 31 41 <br>
+    </details>
+</td>    
+</tr>
+<tr>
+<td><span class="badge">Bretagne</span></td>
+<td>CHU Pontchaillou, Rennes</td>
+<td>RCP Digestif</td>
+<td>OncoBretagne</td>
+<td>Mardi</td>
+<td>14h30</td>
+<td>Hebdomadaire</td>
+<td>Salle de radiologie</td>
+<td>Visioconférence </td>
+<td>
+    <details>
+        <summary><strong>Modalités de soumission d'un dossier</strong></summary>
+Dossier à compléter sur le DCC du patient <a href="https://auth.telesantebretagne.org/realms/gcs/protocol/openid-connect/auth?client_id=portail&redirect_uri=https%3A%2F%2Fmes-services.telesantebretagne.org%2F&state=393f5133-3a9e-429b-8c7e-63dadc25647c&response_mode=fragment&response_type=code&scope=openid&nonce=5bece8cd-6219-42c2-8be4-9bb0875f1a1d&code_challenge=pyq2CE1hE2OqXKTX7Xh5-nyJTMnta49SOC59khgCL-o&code_challenge_method=S256">DCC Bretagne</a <br>
+       </details>
+<details>
+        <summary><strong>AMA en charge de la RCP</strong></summary>
+BUSIN Emilie <br>
+Centre de Coordination en Cancérologie du territoire 5 <br>
+<a href="mailto:ingenieur.qualite@onco5.fr">ingenieur.qualite@onco5.fr</a>  <br>
+Tel : 02 99 25 31 41 <br>
+    </details>
+</td>    
+</tr>
+<tr>
+<td><span class="badge">Bretagne</span></td>
+<td>CHP Saint-Grégoire, Rennes</td>
+<td>RCP Digestif Libérale </td>
+<td>Réseau Onco 5</td>
+<td>Lundi</td>
+<td>19h</td>
+<td>Hebdomadaire</td>
+<td>Institut de Cancérologie et Radiothérapie Bretilien, Salle de réunion administrative </td>
+<td>Visioconférence </td>
+<td>
+    <details>
+        <summary><strong>Modalités de soumission d'un dossier</strong></summary>
+Dossier à compléter sur le DCC du patient <a href="https://auth.telesantebretagne.org/realms/gcs/protocol/openid-connect/auth?client_id=portail&redirect_uri=https%3A%2F%2Fmes-services.telesantebretagne.org%2F&state=393f5133-3a9e-429b-8c7e-63dadc25647c&response_mode=fragment&response_type=code&scope=openid&nonce=5bece8cd-6219-42c2-8be4-9bb0875f1a1d&code_challenge=pyq2CE1hE2OqXKTX7Xh5-nyJTMnta49SOC59khgCL-o&code_challenge_method=S256">Onco Bretagne</a <br>
+       </details>
+<details>
+        <summary><strong>AMA en charge de la RCP</strong></summary>
+Responsable Onco 5 : Dr VEILHAN L-A.<br>
+Tel : 02 99 25 44 05 <br>
+    </details>
+</td>    
+</tr>
+    
+<tr>
+<td><span class="badge">Centre-Val-de-Loire</span></td>
+<td>Hôpital Trousseau, CHRU Tours</td>
+<td>RCP Digestif ; RCP CHC ; RCP Tumeurs Neuro-endocrines ; RCP Oncogénétique</td>
+<td> </td>
+<td>Mardi</td>
+<td>14h-18h</td>
+<td>Hebdomadaire</td>
+<td> Salle de réunion du 9ème Etage </td>
+<td>Visioconférence Teams</td>
+<td>
+    <details>
+        <summary><strong>Modalités de soumission d'un dossier</strong></summary>
+        Fiche à déposer dans le dossier communicant de cancérologie (DCC) du patient <a href="https://connect.esante-centre.fr/">OncoCentre</a> <br>
+         </details>
+    <details>
+        <summary><strong>AMA en charge de la RCP</strong></summary>
+        <ul>
+            CHATEL Marjorie <br>
+            <a href="mailto:rcp.trousseau@chu-tours.fr">rcp.trousseau@chu-tours.fr</a><br>
+Tel : 02 47 47 47 47 <br>
+        </ul>
+    </details>
+</td>    
+</tr>
+<tr>
+<td><span class="badge">Grand-Est</span></td>
+<td>CHU Reims</td>
+<td>RCP Oncologie Digestive RESCOD </td>
+<td>Réseau NEON</td>
+<td>Mardi</td>
+<td>16h</td>
+<td>Bimestrielle</td>
+<td>CHU Reims, bâtiment CABROL 4ème étage </td>
+<td>Visioconférence sur la plateforme en ligne <a href="https://www.pulsy.fr/portail/nos-services-e-sante/e-rcp-54-62.html">PULSY</a  </td>
+<td>
+    <details>
+        <summary><strong>Modalités de soumission d'un dossier</strong></summary>
+Soumission de la fiche RCP sur la plateforme en ligne <a href="https://www.pulsy.fr/portail/nos-services-e-sante/e-rcp-54-62.html">PULSY</a ou fichier word par mail à l’AMA <br>
+       </details>
+<details>
+        <summary><strong>AMA en charge de la RCP</strong></summary>
+<a href="mailto:RCP@chu-reims.fr">RCP@chu-reims.fr</a>  <br>
+    </details>
+</td>    
+</tr>
+<tr>
+<td><span class="badge">Grand-Est</span></td>
+<td>Institut Strauss, Strasbourg</td>
+<td>RCP Digestif</td>
+<td></td>
+<td>Mardi</td>
+<td>17h</td>
+<td>Hebdomadaire</td>
+<td> Oncologie Médicale - Secrétariat RCP </td>
+<td>Visioconférence via Teams </td>
+<td>
+    <details>
+        <summary><strong>Modalités de soumission d'un dossier</strong></summary>
+Soumission de la fiche RCP sur la plateforme en ligne <a href="https://www.pulsy.fr/portail/nos-services-e-sante/e-rcp-54-62.html">PULSY</a <br>
+       </details>
+<details>
+        <summary><strong>AMA en charge de la RCP</strong></summary>
+HIFF Aurélia <br>
+<a href="mailto:secretariat-RCP@institut-strauss.fr">secretariat-RCP@institut-strauss.fr</a>  <br>
+Tel : 03 68 76 74 37<br>
+    </details>
+</td>    
+</tr>
+<tr>
+<td><span class="badge">Ile-de-France</span></td>
+<td>CHU Saint-Antoine</td>
+<td>RCP d'oncologie digestive</td>
+<td></td>
+<td>Mercredi</td>
+<td>16h-19h</td>
+<td>Hebdomadaire</td>
+<td>Salle de staff chirurgie digestive</td>
+<td></td>
+<td>
+    <details>
+        <summary><strong>Modalités de soumission d'un dossier</strong></summary>
+Dossier à soumettre à l’AMA<br>
+       </details>
+<details>
+        <summary><strong>AMA en charge de la RCP</strong></summary>
+MAIGA Aminata <br>
+<a href="mailto:aminata.maiga@aphp.fr">aminata.maiga@aphp.fr</a>  <br>
+Tel : 01 49 28 21 15<br>
+    </details>
+</td>    
+</tr>
+
+<tr>
+<td><span class="badge">Ile-de-France</span></td>
+<td>CHU Saint-Antoine</td>
+<td>RCP tumeur neuro-endocrine</td>
+<td>Réseau RENATEN</td>
+<td>Jeudi</td>
+<td>17h</td>
+<td>Mensuelle, 1er jeudi du mois</td>
+<td>Salle de staff oncologie médicale</td>
+<td></td>
+<td>
+    <details>
+        <summary><strong>Modalités de soumission d'un dossier</strong></summary>
+Dossier à soumettre à l’AMA<br>
+       </details>
+<details>
+        <summary><strong>AMA en charge de la RCP</strong></summary>
+MAIGA Aminata <br>
+<a href="mailto:aminata.maiga@aphp.fr">aminata.maiga@aphp.fr</a>  <br>
+Tel : 01 49 28 21 15<br>
+    </details>
+</td>    
+</tr>
+<tr>
+<td><span class="badge">Ile-de-France</span></td>
+<td>CHU Saint-Antoine</td>
+<td>RCP Oncologie digestive MSI national</td>
+<td></td>
+<td>Lundi</td>
+<td>14h-16h</td>
+<td>Bi-mensuelle</td>
+<td></td>
+<td> Webconférence Omnidoc, Pour tout renseignement contacter le chargé de mission: <a href="mailto:tataye.moussoundamoussoundakou@aphp.fr">tataye.moussoundamoussoundakou@aphp.fr</a>  </td>
+<td>
+    <details>
+        <summary><strong>Modalités de soumission d'un dossier</strong></summary>
+Dossier à soumettre à l’AMA<br>
+       </details>
+<details>
+        <summary><strong>AMA en charge de la RCP</strong></summary>
+MAIGA Aminata <br>
+<a href="mailto:aminata.maiga@aphp.fr">aminata.maiga@aphp.fr</a>  <br>
+Tel : 01 49 28 21 15<br>
+    </details>
+</td>    
+</tr>
+<tr>
+<td><span class="badge">Ile-de-France</span></td>
+<td>Hôpital Européen Georges Pompidou, AP-HP</td>
+<td>RCP Chimiothérapie</td>
+<td></td>
+<td>Mercredi</td>
+<td>13h</td>
+<td>Hebdomadaire</td>
+<td>Service d'Hépato-gastro-entérologie et oncologie digestive </td>
+<td></td>
+<td></td>    
+</tr>
+
+<tr>
+<td><span class="badge">Ile-de-France</span></td>
+<td>Hôpital Européen Georges Pompidou, AP-HP</td>
+<td>RCP Médico-Chirurgicale</td>
+<td></td>
+<td>Jeudi</td>
+<td>16h30</td>
+<td>Hebdomadaire</td>
+<td>Service d'Hépato-gastro-entérologie et oncologie digestive </td>
+<td></td>
+<td></td>    
+</tr>
+
+    <tr>
+<td><span class="badge">Ile-de-France</span></td>
+<td>Hôpital Saint-Louis, APHP</td>
+<td>RCP Oncologie Digestive</td>
+<td></td>
+<td>Mardi</td>
+<td>17h-20h</td>
+<td>Hebdomadaire</td>
+<td>Service de chirurgie viscérale</td>
+<td>Visioconférence possible</td>
+<td>
+    <details>
+        <summary><strong>Modalités de soumission d'un dossier</strong></summary>
+Liste de noms soumise au coordonnateur de la RCP (Dr Nelson Lourenço) <br>
+Fiche RCP à soumettre dans le logiciel ORBIS® <br>
+       </details>
+    <details>
+        <summary><strong>AMA en charge de la RCP</strong></summary>
+Absence d'AMA dédiée. Transmission des comptes-rendus par le secrétariat du service présenteur.
+<br>
+    </details>
+</td>    
+</tr>
+<tr>
+<td><span class="badge">Normandie</span></td>
+<td>Centre François Baclesse, Caen</td>
+<td>RCP d'oncologie digestive</td>
+<td></td>
+<td>Mardi</td>
+<td>14h30-18h</td>
+<td>Hebdomadaire</td>
+<td>Centre François Baclesse</td>
+<td></td>
+<td>
+    <details>
+        <summary><strong>Modalités de soumission d'un dossier</strong></summary>
+Enregistrement préalable par le secrétariat <br>
+Fiche régionale sur site le dossier communicant de cancérologie (DCC) du patient <a href="https://www.norm-uni.fr/portail.pro/">Norm’Uni</a> <br>
+       </details>
+    <details>
+        <summary><strong>AMA en charge de la RCP</strong></summary>
+THERY Julie <br>
+j.thery@baclesse.unicancer.fr <br>
+<a href="mailto:secretariat.digestif@baclesse.unicancer.fr">secretariat.digestif@baclesse.unicancer.fr</a>  <br>
+Tel : 02 31 45 50 16<br>
+Fax : 02 31 45 50 83 <br>
+    </details>
+</td>    
+</tr>
+
+<tr>
+<td><span class="badge">Normandie</span></td>
+<td>Centre François Baclesse, Caen</td>
+<td>RCP Biologie moléculaire : RCP multi-organes</td>
+<td></td>
+<td>Mardi</td>
+<td>17-19h</td>
+<td>Bi-mensuelle</td>
+<td>Centre François Baclesse</td>
+<td></td>
+<td>
+    <details>
+        <summary><strong>Modalités de soumission d'un dossier</strong></summary>
+Enregistrement préalable par le secrétariat <br>
+Fiche régionale sur site le dossier communicant de cancérologie (DCC) du patient <a href="https://www.norm-uni.fr/portail.pro/">Norm’Uni</a> <br>
+       </details>
+    <details>
+        <summary><strong>AMA en charge de la RCP</strong></summary>
+THERY Julie <br>
+j.thery@baclesse.unicancer.fr <br>
+<a href="mailto:secretariat.digestif@baclesse.unicancer.fr">secretariat.digestif@baclesse.unicancer.fr</a>  <br>
+Tel : 02 31 45 50 16<br>
+Fax : 02 31 45 50 83 <br>
+    </details>
+</td>    
+</tr>
+<tr>
+<td><span class="badge">Nouvelle-Aquitaine</span></td>
+<td>Hôpital Haut-Lévêque, CHU Bordeaux</td>
+<td>RCP</td>
+<td></td>
+<td>Lundi</td>
+<td>18h</td>
+<td>Hebdomadaire</td>
+<td>Centre Magellan</td>
+<td></td>
+<td>
+    <details>
+        <summary><strong>Modalités de soumission d'un dossier</strong></summary>
+Dossier à soumettre au secrétariat 3C du CHU par email : 3c-sud@chu-bordeaux.fr : <br>
+       </details>
+    <details>
+        <summary><strong>AMA en charge de la RCP</strong></summary>
+    </details>
+</td>    
+</tr>
+<tr>
+<td><span class="badge">Nouvelle-Aquitaine</span></td>
+<td>CHU Poitiers</td>
+<td>RCP Digestif</td>
+<td>Réseau Onco Nouvelle-Aquitaine</td>
+<td>Lundi</td>
+<td>16h-20h</td>
+<td>Hebdomadaire</td>
+<td>CHU de Poitiers</td>
+<td>Visioconférence</td>
+<td>
+    <details>
+        <summary><strong>Modalités de soumission d'un dossier</strong></summary>
+       </details>
+    <details>
+        <summary><strong>AMA en charge de la RCP</strong></summary>
+GAULTIER Karine <br>
+Tel : 05 49 44 46 08 <br>  
+    </details>
+</td>    
+</tr>
+<tr>
+<td><span class="badge">Occitanie</span></td>
+<td>ICM, Montpellier</td>
+<td>RCP Digestif</td>
+<td>Réseau Onco-Occitanie</td>
+<td>Jeudi</td>
+<td>15h</td>
+<td>Hebdomadaire</td>
+<td>Salle du citronnier</td>
+<td>Visioconférence via Teams</td>
+<td>
+    <details>
+        <summary><strong>Modalités de soumission d'un dossier</strong></summary>
+       </details>
+Fiche pré-remplie à soumettre à l’AMA : <br>
+    <details>
+        <summary><strong>AMA en charge de la RCP</strong></summary>
+href="mailto:Magali.Goguey-Muethon@icm.unicancer.fr">Magali.Goguey-Muethon@icm.unicancer.fr</a>  <br>
+Tel : 04 67 61 30 90 <br>  
+    </details>
+</td>    
+</tr>
+<tr>
+<td><span class="badge">Occitanie</span></td>
+<td>IUCT Rangueil-Larrey et Oncôpole, CHU Toulouse</td>
+<td>RCP Digestif (dont recours oeso-gastrique - ano-rectal - péritoine)</td>
+<td>Réseau Onco-Occitanie</td>
+<td></td>
+<td></td>
+<td>Hebdomadaire</td>
+<td>Salle de radiologie, Bâtiment H1, RDC</td>
+<td></td>
+<td>
+    <details>
+        <summary><strong>Modalités de soumission d'un dossier</strong></summary>
+Dossier à soumettre sur le dossier communicant de cancérologie (DCC) <a href="https://onco-occitanie.fr/le-parcours-de-soin/le-dossier-communicant-de-cancerologie-dcc/">Onco-Occitanie</a> <br>
+    </details>
+    <details>
+        <summary><strong>AMA en charge de la RCP</strong></summary>
+    </details>
+</td>    
+</tr>
+
+<tr>
+<td><span class="badge">Occitanie</span></td>
+<td>IUCT Rangueil-Larrey et Oncôpole, CHU Toulouse</td>
+<td>RCP Digestif (dont recours foie - voies biliaires - pancréas)</td>
+<td>Réseau Onco-Occitanie</td>
+<td></td>
+<td></td>
+<td>Hebdomadaire</td>
+<td>Salle de radiologie, Bâtiment H1, RDC</td>
+<td></td>
+<td>
+    <details>
+        <summary><strong>Modalités de soumission d'un dossier</strong></summary>  
+Dossier à soumettre sur le dossier communicant de cancérologie (DCC) <a href="https://onco-occitanie.fr/le-parcours-de-soin/le-dossier-communicant-de-cancerologie-dcc/">Onco-Occitanie</a> <br>
+    </details>
+    <details>
+        <summary><strong>AMA en charge de la RCP</strong></summary>
+    </details>
+</td>    
+</tr>
+<tr>
+<td><span class="badge">Occitanie</span></td>
+<td>IUCT Rangueil-Larrey et Oncôpole, CHU Toulouse</td>
+<td>RCP TUMEURS NEURO-ENDOCRINES (RENATEN)</td>
+<td>Réseau Onco-Occitanie</td>
+<td></td>
+<td></td>
+<td>Hebdomadaire</td>
+<td>Salle de radiologie, Bâtiment H1, RDC</td>
+<td></td>
+<td>
+    <details>
+        <summary><strong>Modalités de soumission d'un dossier</strong></summary>
+Dossier à soumettre sur le dossier communicant de cancérologie (DCC) <a href="https://onco-occitanie.fr/le-parcours-de-soin/le-dossier-communicant-de-cancerologie-dcc/">Onco-Occitanie</a> <br>
+   </details>
+    <details>
+        <summary><strong>AMA en charge de la RCP</strong></summary>
+    </details>
+</td>    
+</tr>
+<tr>
+<td><span class="badge">Occitanie</span></td>
+<td>IUCT Rangueil-Larrey et Oncôpole, CHU Toulouse</td>
+<td>RCP RECOURS DIGESTIF : BIOLOGIE MOLECULAIRE ET ESSAIS CLINIQUES</td>
+<td>Réseau Onco-Occitanie</td>
+<td></td>
+<td></td>
+<td>Bi-mensuelle</td>
+<td>Salle de radiologie, Bâtiment H1, RDC</td>
+<td></td>
+<td>
+    <details>
+        <summary><strong>Modalités de soumission d'un dossier</strong></summary>
+Dossier à soumettre sur le dossier communicant de cancérologie (DCC) <a href="https://onco-occitanie.fr/le-parcours-de-soin/le-dossier-communicant-de-cancerologie-dcc/">Onco-Occitanie</a> <br>
+    </details>
+    <details>
+        <summary><strong>AMA en charge de la RCP</strong></summary>
+    </details>
+</td>    
+</tr>
+<tr>
+<td><span class="badge">Pays de la Loire</span></td>
+<td>ICO Angers</td>
+<td>RCP péritoine</td>
+<td>Réseau ONCOPL</td>
+<td>Vendredi</td>
+<td>12h</td>
+<td>Hebdomadaire</td>
+<td>Salle 2</td>
+<td>Visioconférence</td>
+<td>
+    <details>
+        <summary><strong>Modalités de soumission d'un dossier</strong></summary>
+Dossier à compléter sur le dossier communicant de cancérologie (DCC) du patient <a href="https://portail.mediware.fr/Apps/WebObjects/OncoPL.woa">ONCOPL</a> <br>
+       </details>
+    <details>
+        <summary><strong>AMA en charge de la RCP</strong></summary>
+BOISDRON Amélie <br>
+<a href="mailto:amelie.boisdron@ico.unicancer.fr">amelie.boisdron@ico.unicancer.fr</a>  <br>
+Tel : 02 41 35 29 09 <br>
+    </details>
+</td>    
+</tr>
+<tr>
+<td><span class="badge">Pays de la Loire</span></td>
+<td>ICO Angers</td>
+<td>RCP moléculaire</td>
+<td>Réseau ONCOPL</td>
+<td>Vendredi</td>
+<td>8h30</td>
+<td>Bi-mensuelle</td>
+<td></td>
+<td>Visioconférence</td>
+<td>
+    <details>
+        <summary><strong>Modalités de soumission d'un dossier</strong></summary>
+Dossier à compléter sur le dossier communicant de cancérologie (DCC) du patient <a href="https://portail.mediware.fr/Apps/WebObjects/OncoPL.woa">ONCOPL</a> <br>
+       </details>
+    <details>
+        <summary><strong>AMA en charge de la RCP</strong></summary>
+BOISDRON Amélie <br>
+<a href="mailto:amelie.boisdron@ico.unicancer.fr">amelie.boisdron@ico.unicancer.fr</a>  <br>
+Tel : 02 41 35 29 09 <br>
+    </details>
+</td>    
+</tr>
+
+<tr>
+<td><span class="badge">Pays de la Loire</span></td>
+<td>ICO Angers</td>
+<td>RCP Digestif</td>
+<td>Réseau ONCOPL</td>
+<td>Mardi</td>
+<td>17h30</td>
+<td>Hebdomadaire</td>
+<td>Salle 2</td>
+<td></td>
+<td>
+    <details>
+        <summary><strong>Modalités de soumission d'un dossier</strong></summary>
+Dossier à compléter sur le dossier communicant de cancérologie (DCC) du patient <a href="https://portail.mediware.fr/Apps/WebObjects/OncoPL.woa">ONCOPL</a> <br>
+       </details>
+    <details>
+        <summary><strong>AMA en charge de la RCP</strong></summary>
+BOISDRON Amélie <br>
+<a href="mailto:amelie.boisdron@ico.unicancer.fr">amelie.boisdron@ico.unicancer.fr</a>  <br>
+Tel : 02 41 35 29 09 <br>
+    </details>
+</td>    
+</tr>
+<tr>
+<td><span class="badge">Provence-Alpes-Côte-d'Azur</span></td>
+<td>ICAP, Avignon</td>
+<td>RCP Digestif et Œsophage Estomac</td>
+<td>Réseau ONCOPACA</td>
+<td>Jeudi</td>
+<td>18h-21h</td>
+<td>Hebdomadaire</td>
+<td>ICAP Avignon</td>
+<td></td>
+<td>
+    <details>
+        <summary><strong>Modalités de soumission d'un dossier</strong></summary>
+Dossier à compléter sur le dossier communicant de cancérologie (DCC) du patient <a href="https://heimdall.sante-paca.fr/auth/realms/ror-prod/protocol/openid-connect/auth?response_type=code&redirect_uri=https%3A%2F%2Fsante-paca.fr%2Fopenid%2Flogin&client_id=ror-prod&nonce=5eed704473ba35f71b79644411dbda34&state=cada9eb3a222dc013eb0227af87852ca&scope=openid">Onco-PACA</a> <br>
+       </details>
+    <details>
+        <summary><strong>AMA en charge de la RCP</strong></summary>
+LAVERNHE Mélanie <br>
+<a href="mailto:m.lavernhe@isc84.org">m.lavernhe@isc84.org</a>  <br>
+Tel : 04 90 27 68 48 <br>
+    </details>
+</td>    
+</tr>
+
+<tr>
+<td><span class="badge">Provence-Alpes-Côte-d'Azur</span></td>
+<td>ICAP, Avignon</td>
+<td>RCP Tumeur Neuro-endocrine</td>
+<td>RENATEN</td>
+<td>Mercredi</td>
+<td>13h30-16h30</td>
+<td>Hebdomadaire</td>
+<td>Institut Paoli-Calmettes, Marseille</td>
+<td>Visioconférenc</td>
+<td>
+    <details>
+        <summary><strong>Modalités de soumission d'un dossier</strong></summary>
+Dossier à soumettre sur le dossier communicant de cancérologie (DCC) du patient <a href="https://ipcnet-projets.ipc.unicancer.fr/metiers/tne/rcp-regionale/Pages/portailTNE.aspx">RENATEN</a> <br>
+       </details>
+    <details>
+        <summary><strong>AMA en charge de la RCP</strong></summary>
+    </details>
+</td>    
+</tr>
+<tr>
+<td><span class="badge">Provence-Alpes-Côte-d'Azur</span></td>
+<td>Centre Antoine Lacassagne, Nice</td>
+<td>RCP Digestif</td>
+<td></td>
+<td>Mercredi</td>
+<td>8h-10h30</td>
+<td>Hebdomadaire</td>
+<td>Centre Antoine Lacassagne</td>
+<td>Et connexion à distance sur la plateforme <a href="https://www.rofim.fr/">ROFIM</a> </td>
+<td>
+    <details>
+        <summary><strong>Modalités de soumission d'un dossier</strong></summary>
+       </details>
+    <details>
+        <summary><strong>AMA en charge de la RCP</strong></summary>
+BONFILS Manon <br>
+<a href="mailto:manon.bonfils@nice.unicancer.fr">manon.bonfils@nice.unicancer.fr</a>  <br>
+Tel : 04 92 03 13 52<br> 
+Fax : 04 92 03 10 46 <br>  
+    </details>
+</td>    
+</tr>
+<tr>
+<td><span class="badge">Provence-Alpes-Côte-d'Azur</span></td>
+<td>Institut Paoli Calmettes, Marseille</td>
+<td>RCP n°081 RCP DIGESTIF IPC A1</td>
+<td></td>
+<td>Mardi</td>
+<td>16h30-18h30</td>
+<td>Hebdomadaire</td>
+<td>Salle de réunion IPC1</td>
+<td>Et connexion à distance sur la plateforme <a href="https://www.rofim.fr/">ROFIM</a> </td>
+<td>
+    <details>
+        <summary><strong>Modalités de soumission d'un dossier</strong></summary>
+       </details>
+    <details>
+        <summary><strong>AMA en charge de la RCP</strong></summary>
+BADDOUJ / MOURAD MALIKA <br>
+<a href="mailto:secretariat.rcp@ipc.unicancer.fr">secretariat.rcp@ipc.unicancer.fr</a>  <br>
+Tel : 04 91 22 33 17 <br>
+    </details>
+</td>    
+</tr>
+<tr>
+<td><span class="badge">Provence-Alpes-Côte-d'Azur</span></td>
+<td>Institut Paoli Calmettes, Marseille</td>
+<td>RCP n°372 Recours Chrirurgical Digestif IPC</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Salle de réunion IPC1</td>
+<td></a> </td>
+<td>
+    <details>
+        <summary><strong>Modalités de soumission d'un dossier</strong></summary>
+       </details>
+    <details>
+        <summary><strong>AMA en charge de la RCP</strong></summary>
+BADDOUJ / MOURAD MALIKA <br>
+<a href="mailto:secretariat.rcp@ipc.unicancer.fr">secretariat.rcp@ipc.unicancer.fr</a>  <br>
+Tel : 04 91 22 33 17 <br>
+    </details>
+</td>    
+</tr>
+<tr>
+<td><span class="badge">La Réunion</span></td>
+<td>CHU Sud Réunion, Saint-Pierre</td>
+<td>RCP Oncologie Digestive</td>
+<td></td>
+<td>Mercredi</td>
+<td>13h30 (heure locale) (Métropole : 10h30 heure d’hiver, 11h30 heure d’été)</td>
+<td>Hebdomadaire</td>
+<td>Salle Rouanet</td>
+<td>Et connexion à distance via Teams (lien de connexion adressé par le secrétariat de la RCP)</td>
+<td>
+    <details>
+        <summary><strong>Modalités de soumission d'un dossier</strong></summary>
+Fiche envoyée ou à récupérer auprès du secrétariat de la RCP: rcp.3csud@chu-reunion.fr <br>
+    </details>
+    <details>
+        <summary><strong>AMA en charge de la RCP</strong></summary>
+<a href="mailto:rcp.3csud@chu-reunion.fr">rcp.3csud@chu-reunion.fr</a>  <br>
+Tel : 02 62 35 91 04<br>  
+    </details>
+</td>    
+</tr>
+<tr>
+<td><span class="badge">Hauts-de-France</span></td>
+<td> CHU Lille </td>
+<td> RCP des tumeurs digestives </td>
+<td> Réseau Onco Hauts-de-France </td>
+<td>Vendredi</td>
+<td>16h</td>
+<td>Hebdomadaire </td>
+<td> Salle Charles Proye, Hôpital Huriez</td>
+<td> Visioconférence via Teams </td>
+<td>
+    <details>
+        <summary><strong>Modalités de soumission d'un dossier</strong></summary>
+Dossier à soumettre sur le portail DCR <a href="https://dcc.onco-hdf.fr/oncohdf/ui/GwtDCR.jsp">Onco Hauts-de-France</a> <br>
+       </details>
+    <details>
+        <summary><strong>AMA en charge de la RCP</strong></summary>
+BIENCOURT Magalie <br>
+<a href="mailto:RCP.hepato-digestive@chu-lille.fr">RCP.hepato-digestive@chu-lille.fr</a>  <br>
+Tel : 03 20 44 59 62<br>
+    </details>
+</td>  
+<tr>
+<td><span class="badge">Hauts-de-France</span></td>
+<td> CHU Lille </td>
+<td> RCP des tumeurs digestives superficielles </td>
+<td> Réseau Onco Hauts-de-France </td>
+<td>Vendredi</td>
+<td>15h30</td>
+<td>Mensuelle </td>
+<td> Salle Charles Proye, Hôpital Huriez</td>
+<td> Visioconférence via Teams </td>
+<td>
+    <details>
+        <summary><strong>Modalités de soumission d'un dossier</strong></summary>
+Dossier à soumettre sur le portail DCR <a href="https://dcc.onco-hdf.fr/oncohdf/ui/GwtDCR.jsp">Onco Hauts-de-France</a> <br>
+       </details>
+    <details>
+        <summary><strong>AMA en charge de la RCP</strong></summary>
+BIENCOURT Magalie <br>
+<a href="mailto:RCP.hepato-digestive@chu-lille.fr">RCP.hepato-digestive@chu-lille.fr</a>  <br>
+Tel : 03 20 44 59 62<br>
+    </details>
+</td>    
+<tr>
+<td><span class="badge">Guadeloupe</span></td>
+<td> CHU de la Guadeloupe </td>
+<td> RCP Oncologie digestive du CHU </td>
+<td> </td>
+<td>Mardi</td>
+<td>15h (heure locale) (20h ou 21h heure de Paris)</td>
+<td>Bi-mensuelle </td>
+<td> Locaux des 3C</td>
+<td> </td>
+<td>
+    <details>
+        <summary><strong>Modalités de soumission d'un dossier</strong></summary>
+Dossier à soumettre via IdéoRCP </a> <br>
+       </details>
+    <details>
+        <summary><strong>AMA en charge de la RCP</strong></summary>
+VEBER Céline <br>
+<a href="mailto:celine.bez@chu-guadeloupe.fr">celine.bez@chu-guadeloupe.fr</a>  <br>
+    </details>
+</td>  
+<tr>
+<td><span class="badge">Guadeloupe</span></td>
+<td> CHU de la Guadeloupe </td>
+<td> RCP Oncologie digestive du CH de la Basse Terre </td>
+<td> </td>
+<td>Mardi</td>
+<td>15h (heure locale) (20h ou 21h heure de Paris)</td>
+<td>Bi-mensuelle </td>
+<td> Locaux des 3C</td>
+<td> </td>
+<td>
+    <details>
+        <summary><strong>Modalités de soumission d'un dossier</strong></summary>
+Dossier à soumettre via IdéoRCP </a> <br>
+       </details>
+    <details>
+        <summary><strong>AMA en charge de la RCP</strong></summary>
+VEBER Céline <br>
+<a href="mailto:celine.bez@chu-guadeloupe.fr">celine.bez@chu-guadeloupe.fr</a>  <br>
+    </details>
+</td>  
+
+    
+</tbody>
+</table>
+
+
+<!-- ==================== Script complet ==================== -->
+<!-- ==================== Script complet avec filtres Réunions ==================== -->
+<script>
+let regionAsc = true;
+let dayAsc = true;
+let nameAsc = true;
+
+const tbody = document.querySelector("#meetingTable tbody");
+const searchInput = document.getElementById("searchInput");
+const regionFilter = document.getElementById("regionFilter");
+const centerFilter = document.getElementById("centerFilter");
+const counter = document.getElementById("counter");
+let activeTypes = [];
+
+// Ordre naturel des jours
+const daysOrder = ["Lundi","Mardi","Mercredi","Jeudi","Vendredi","Samedi","Dimanche"];
+
+// ==================== Fonctions utilitaires ====================
+function getRows() {
+    return Array.from(tbody.querySelectorAll("tr"))
+        .filter(row => !row.classList.contains("day-separator"));
+}
+
+function clearSeparators() {
+    document.querySelectorAll(".day-separator").forEach(el => el.remove());
+}
+
+function updateCounter() {
+    const visible = getRows().filter(row => row.style.display !== "none");
+    counter.innerText = visible.length + " réunion(s) affichée(s)";
+}
+
+// ==================== Filtrage global ====================
+function filterTable() {
+    const search = searchInput.value.toLowerCase();
+    const region = regionFilter.value;
+    const center = centerFilter.value;
+
+    let visibleCount = 0;
+
+    getRows().forEach(row => {
+        const rowRegion = row.cells[0].innerText;
+        const rowCenter = row.cells[1].innerText;
+        const meetingText = row.cells[2].innerText.toLowerCase();
+        const text = row.innerText.toLowerCase();
+
+        const matchSearch = !search || text.includes(search);
+        const matchRegion = !region || rowRegion === region;
+        const matchCenter = !center || rowCenter === center;
+        const matchType = activeTypes.length === 0 || activeTypes.some(type => meetingText.includes(type));
+
+        if (matchSearch && matchRegion && matchCenter && matchType) {
+            row.style.display = "";
+            visibleCount++;
+        } else {
+            row.style.display = "none";
+        }
+    });
+
+    updateCounter();
+    makeCentersClickable(); // garder les cellules Centre cliquables
+}
+
+// ==================== Filtre Centre dynamique ====================
+function updateCenterFilter() {
+    const region = regionFilter.value;
+    centerFilter.innerHTML = '<option value="">Tous les centres</option>';
+    const centers = new Set();
+
+    getRows().forEach(row => {
+        const rowRegion = row.cells[0].innerText;
+        const rowCenter = row.cells[1].innerText;
+        if (!region || rowRegion === region) {
+            centers.add(rowCenter);
+        }
+    });
+
+    centers.forEach(center => {
+        const option = document.createElement("option");
+        option.value = center;
+        option.textContent = center;
+        centerFilter.appendChild(option);
+    });
+}
+
+// ==================== Tri ====================
+function sortByRegion() {
+    clearSeparators();
+    const rows = getRows();
+    rows.sort((a,b) => {
+        const A = a.cells[0].innerText;
+        const B = b.cells[0].innerText;
+        return regionAsc ? A.localeCompare(B) : B.localeCompare(A);
+    });
+    rows.forEach(row => tbody.appendChild(row));
+    regionAsc = !regionAsc;
+
+    document.getElementById("sortRegion").innerText = "Région " + (regionAsc ? "▲" : "▼");
+    document.getElementById("sortByName").innerText = "Centre ⬍";
+    document.getElementById("sortDate").innerText = "Jour ⬍";
+}
+
+function sortByDay() {
+    clearSeparators();
+    const rows = getRows();
+    rows.sort((a,b) => {
+        const dayA = a.cells[4].innerText.trim();
+        const dayB = b.cells[4].innerText.trim();
+        const indexA = daysOrder.indexOf(dayA);
+        const indexB = daysOrder.indexOf(dayB);
+        return dayAsc ? indexA - indexB : indexB - indexA;
+    });
+    dayAsc = !dayAsc;
+    tbody.innerHTML = "";
+    let currentDay = "";
+    rows.forEach(row => {
+        const day = row.cells[4].innerText;
+        if (day !== currentDay) {
+            const sep = document.createElement("tr");
+            sep.className = "day-separator";
+            const cell = document.createElement("td");
+            cell.colSpan = 10;
+            cell.textContent = day;
+            sep.appendChild(cell);
+            tbody.appendChild(sep);
+            currentDay = day;
+        }
+        tbody.appendChild(row);
+    });
+
+    document.getElementById("sortDate").innerText = "Jour " + (dayAsc ? "▲" : "▼");
+    document.getElementById("sortRegion").innerText = "Région ⬍";
+    document.getElementById("sortByName").innerText = "Centre ⬍";
+}
+
+function sortByName() {
+    clearSeparators();
+    const rows = getRows();
+    rows.sort((a,b) => {
+        const A = a.cells[1].innerText.toLowerCase().trim();
+        const B = b.cells[1].innerText.toLowerCase().trim();
+        return nameAsc ? A.localeCompare(B,'fr',{sensitivity:'base'}) : B.localeCompare(A,'fr',{sensitivity:'base'});
+    });
+    rows.forEach(row => tbody.appendChild(row));
+    nameAsc = !nameAsc;
+
+    document.getElementById("sortByName").innerText = "Centre " + (nameAsc ? "▲" : "▼");
+    document.getElementById("sortRegion").innerText = "Région ⬍";
+    document.getElementById("sortDate").innerText = "Jour ⬍";
+}
+
+// ==================== Clic sur cellule Centre ====================
+function makeCentersClickable() {
+    getRows().forEach(row => {
+        const cell = row.cells[1];
+        cell.style.cursor = "pointer";
+        cell.style.color = "#007bff";
+        cell.style.textDecoration = "underline";
+
+        // Supprime anciens listeners
+        cell.replaceWith(cell.cloneNode(true));
+        const newCell = row.cells[1];
+
+        newCell.addEventListener("click", () => {
+            centerFilter.value = newCell.innerText;
+            filterTable();
+        });
+    });
+}
+
+// ==================== Réinitialiser les filtres ====================
+document.getElementById("resetFilters").addEventListener("click", () => {
+    searchInput.value = "";
+    regionFilter.value = "";
+    centerFilter.value = "";
+    activeTypes = [];
+    document.querySelectorAll('.filter-box').forEach(b => b.classList.remove('active'));
+    filterTable();
+    updateCenterFilter();
+});
+
+// ==================== Box Réunions ====================
+document.querySelectorAll('.filter-box').forEach(box => {
+    box.addEventListener('click', () => {
+        const type = box.dataset.type.toLowerCase();
+        box.classList.toggle('active');
+
+        if (activeTypes.includes(type)) {
+            activeTypes = activeTypes.filter(t => t !== type);
+        } else {
+            activeTypes.push(type);
+        }
+        filterTable();
+    });
+});
+
+// ==================== Event listeners filtres existants ====================
+searchInput.addEventListener("input", filterTable);
+regionFilter.addEventListener("change", () => {
+    filterTable();
+    updateCenterFilter();
+});
+centerFilter.addEventListener("change", filterTable);
+
+document.getElementById("sortRegion").addEventListener("click", sortByRegion);
+document.getElementById("sortDate").addEventListener("click", sortByDay);
+document.getElementById("sortByName").addEventListener("click", sortByName);
+
+// ==================== Initialisation ====================
+updateCenterFilter();
+makeCentersClickable();
+sortByDay();
+filterTable(); // initialise le compteur
+</script>
+</body>
+</html>
