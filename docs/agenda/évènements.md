@@ -159,6 +159,14 @@ const events = [
     image: "/assets/AFEF2026.png",
     lien: "https://www.congres-afef.com/"
   }
+  {
+    date: "2026-10-09",
+    displayDate: "09 Octobre 2026",
+    ville: "Lyon",
+    titre: "Journée d'Oncologie Digestive des Hospices Civils de Lyon",
+    image: "/assets/JOD2026.png",
+    lien: "https://www.congres-jod.org/"
+  }
 ];
 
 // TRI
