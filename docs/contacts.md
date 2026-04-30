@@ -160,21 +160,7 @@ body {
 .section a:hover {
   text-decoration: underline;
 }
-  
-.admin-link {
-  margin-top: 15px;
-  font-size: 16px;
-  color: #0077aa;
-  cursor: pointer;
-  font-weight: 600;
-  transition: 0.2s;
-}
-
-.admin-link:hover {
-  text-decoration: underline;
-  transform: scale(1.05);
-}
-  
+    
 </style>
 </head>
 
