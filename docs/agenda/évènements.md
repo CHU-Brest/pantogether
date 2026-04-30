@@ -174,6 +174,14 @@ const events = [
     titre: "Congrès National des Réseaux de Cancérologie",
     image: "/assets/CNRC2026.png",
     lien: "https://congres-reseaux-cancerologie.fr/"
+  },
+  {
+    date: "2026-11-27",
+    displayDate: "27 Novembre 2026",
+    ville: "Lorient",
+    titre: "Journée scientifique Oncologie digestive",
+    image: "",
+    lien: ""
   }
 ];
 
