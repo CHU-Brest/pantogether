@@ -158,7 +158,7 @@ const events = [
     titre: "99ème Journées Scientifiques de l'AFEF",
     image: "/assets/AFEF2026.png",
     lien: "https://www.congres-afef.com/"
-  }
+  },
   {
     date: "2026-10-09",
     displayDate: "09 Octobre 2026",
