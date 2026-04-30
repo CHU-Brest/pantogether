@@ -166,6 +166,14 @@ const events = [
     titre: "Journée d'Oncologie Digestive des Hospices Civils de Lyon",
     image: "/assets/JOD2026.png",
     lien: "https://www.congres-jod.org/"
+  },
+  {
+    date: "2026-11-19",
+    displayDate: "19-20 Novembre 2026",
+    ville: "Lyon",
+    titre: "Congrès National des Réseaux de Cancérologie",
+    image: "/assets/CNRC2026.png",
+    lien: "https://congres-reseaux-cancerologie.fr/"
   }
 ];
 
