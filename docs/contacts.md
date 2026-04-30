@@ -94,7 +94,7 @@ body {
 }
 
 .admin {
-  top: 210px;
+  top: 230px;
   left: 90px;
   width: 110px;
   height: 50px;
