@@ -93,6 +93,13 @@ body {
   height: 50px;
 }
 
+.admin {
+  top: 160px;
+  left: 90px;
+  width: 110px;
+  height: 50px;
+}
+  
 /* FICHE INFO */
 .info {
   width: 700px;
