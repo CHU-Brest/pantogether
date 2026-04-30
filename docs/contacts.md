@@ -190,6 +190,7 @@ body {
       <div class="zone estomac" onclick="showInfo('estomac', this)"></div>
       <div class="zone foie" onclick="showInfo('foie', this)"></div>
       <div class="zone pancreas" onclick="showInfo('pancreas', this)"></div>
+      <div class="zone admin" onclick="showInfo('admin', this)"></div>
     </div>
 
     <div class="admin-link" onclick="showInfo('admin', this)">
