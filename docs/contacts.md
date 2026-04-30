@@ -178,10 +178,6 @@ body {
       <div class="zone pancreas" onclick="showInfo('pancreas', this)"></div>
       <div class="zone admin" onclick="showInfo('admin', this)"></div>
     </div>
-
-    <div class="admin-link" onclick="showInfo('admin', this)">
-      📋 Coordination administrative
-    </div>
   </div>
 
   <!-- BLOC DROIT (LA CARD) -->
