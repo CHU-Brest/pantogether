@@ -96,8 +96,8 @@ body {
 .admin {
   top: 230px;
   left: 90px;
-  width: 110px;
-  height: 50px;
+  width: 130px;
+  height: 80px;
 }
   
 /* FICHE INFO */
