@@ -46,6 +46,8 @@ L’objectif est de fournir des **informations claires et fiables** sur :
     <a href="https://parislivercancergroup.com/pour-les-patients/#video-gallery-fabf4d9-4" target="_blank"> <img src="/assets/Immuno.png" alt="ITK" width="400" class="image-hover"> </a>
   <a href="https://parislivercancergroup.com/pour-les-patients/#video-gallery-fabf4d9-7" target="_blank"> <img src="/assets/Resection.png" alt="Resection" width="400" class="image-hover"> </a>
   <a href="https://parislivercancergroup.com/pour-les-patients/#video-gallery-fabf4d9-8" target="_blank"> <img src="/assets/Transplant.png" alt="Transplant" width="400" class="image-hover"> </a>
+  <a href="https://parislivercancergroup.com/pour-les-patients/#video-gallery-fabf4d9-9" target="_blank"> <img src="/assets/Ablation.png" alt="Ablation" width="400" class="image-hover"> </a>
+  <a href="https://parislivercancergroup.com/pour-les-patients/#video-gallery-fabf4d9-10" target="_blank"> <img src="/assets/Chimioembol.png" alt="Chimioembol" width="400" class="image-hover"> </a>
 </p>
 
 ## Cancers du pancréas
