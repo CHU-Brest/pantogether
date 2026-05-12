@@ -175,6 +175,14 @@ const events = [
     image: "/assets/CNRC2026.png",
     lien: "https://congres-reseaux-cancerologie.fr/"
   },
+  
+    date: "2026-09-29",
+    displayDate: "29 Septembre 2026",
+    ville: "Paris",
+    titre: "Journée scientifique sur la prévention et le dépistage des cancers",
+    image: "/assets/logoinca.png",
+    lien: ""
+  },
   {
     date: "2026-11-27",
     displayDate: "27 Novembre 2026",
