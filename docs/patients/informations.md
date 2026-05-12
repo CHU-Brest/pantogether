@@ -39,6 +39,9 @@ L’objectif est de fournir des **informations claires et fiables** sur :
   <br> 
   <a href="https://parislivercancergroup.com/pour-les-patients/#video-gallery-fabf4d9-5" target="_blank"> <img src="/assets/PLCGCHC.png" alt="CHC" width="400" class="image-hover"> </a> 
   <a href="https://parislivercancergroup.com/pour-les-patients/#video-gallery-fabf4d9-6" target="_blank"> <img src="/assets/PLCGCCA.png" alt="CCA" width="400" class="image-hover"> </a> 
+  <br> 
+  <a href="https://parislivercancergroup.com/pour-les-patients/#video-gallery-fabf4d9-1" target="_blank"> <img src="/assets/radioext.png" alt="radioext" width="400" class="image-hover"> </a> 
+  <a href="https://parislivercancergroup.com/pour-les-patients/#video-gallery-fabf4d9-2" target="_blank"> <img src="/assets/SIRT.png" alt="SIRT" width="400" class="image-hover"> </a> 
 </p>
 
 ## Cancers du pancréas
