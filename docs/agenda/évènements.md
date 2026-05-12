@@ -184,6 +184,30 @@ const events = [
     lien: ""
   },
   {
+    date: "2026-07-01",
+    displayDate: "01-04 Juillet 2026",
+    ville: "Munich, ALlemagne",
+    titre: "ESMO Gastrointestinal Cancers Congress 2026",
+    image: "/assets/ESMO2026.png",
+    lien: "https://www.esmo.org/meeting-calendar/esmo-gastrointestinal-cancers-congress-2026"
+  },
+  {
+    date: "2026-09-03",
+    displayDate: "03-05 Septembre 2026",
+    ville: "Bruxelles, Belgique",
+    titre: "ILCA Annual Conference",
+    image: "/assets/ILCA2026.png",
+    lien: "https://ilcalive.org/annual-conference-2026/"
+  },
+  {
+    date: "2027-01-14",
+    displayDate: "14-16 Janvier 2027",
+    ville: "Valence, Espagne",
+    titre: "EASL Liver Cancer Summit 2027",
+    image: "/assets/EASL2027.png",
+    lien: "https://easl.eu/event/liver-cancer-summit-2026/"
+  },
+  {
     date: "2026-11-27",
     displayDate: "27 Novembre 2026",
     ville: "Lorient",
