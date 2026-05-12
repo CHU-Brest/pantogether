@@ -22,6 +22,9 @@ L’objectif est de fournir des **informations claires et fiables** sur :
 - **[Paris Liver Cancer Group](https://parislivercancergroup.com)**  
   → Vidéos explicatives sur les cancers du foie  
 
+- **[INCa](https://www.cancer.fr/toute-l-information-sur-les-cancers)**  
+  → Informations sur les cancers en général : comprendre les cancers, prévenir les risques de cancer et se faire dépister
+    
 ---
 
 ## Cancers de l'œsophage et de la jonction œsogastrique
@@ -41,6 +44,7 @@ L’objectif est de fournir des **informations claires et fiables** sur :
 ## Cancers du pancréas
 
 <a href="https://publuu.com/flip-book/1022968/2311878" target="_blank"> <img src="/assets/guidepancreas.png" alt="guidepancreas" width="200" class="image-hover"> </a>
+
 
 <style> .image-hover {
   transition: transform 0.3s ease; 
