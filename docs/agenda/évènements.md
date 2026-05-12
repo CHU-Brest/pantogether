@@ -175,7 +175,7 @@ const events = [
     image: "/assets/CNRC2026.png",
     lien: "https://congres-reseaux-cancerologie.fr/"
   },
-  
+  {
     date: "2026-09-29",
     displayDate: "29 Septembre 2026",
     ville: "Paris",
