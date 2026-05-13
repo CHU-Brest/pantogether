@@ -158,7 +158,6 @@ const regions = {
 `
       }
     ]
-  }
 };
 
   'Île-de-France':{
@@ -220,25 +219,30 @@ function displayCenters(regionName){
     <p>${region.centers.length} centre(s)</p>
   `;
 
-  region.centers.forEach(center => {
-    html += `
-      <div class="center-card">
-        <h3>${center.nom}</h3>
-        <p><strong>Ville :</strong> ${center.ville}</p>
-        <p><strong>Réunion :</strong> ${center.réunion}</p>
-        <p><strong>Réseau :</strong> ${center.réseau}</p>
-        <p><strong>Jour :</strong> ${center.jour}</p>
-        <p><strong>Horaire :</strong> ${center.horaire}</p>
-        <p><strong>Fréquence :</strong> ${center.fréquence}</p>
-        <p><strong>Lieu :</strong> ${center.lieu}</p>
-        <p><strong>Visioconférence :</strong> ${center.visioconférence}</p>
-    ${center.dossier}
-</div>
-`;
-        <span class="badge">${regionName}</span>
-      </div>
-    `;
-  });
+region.centers.forEach(center => {
+
+  html += `
+    <div class="center-card">
+
+      <h3>${center.nom}</h3>
+
+      <p><strong>Ville :</strong> ${center.ville}</p>
+      <p><strong>Réunion :</strong> ${center.réunion}</p>
+      <p><strong>Réseau :</strong> ${center.réseau}</p>
+      <p><strong>Jour :</strong> ${center.jour}</p>
+      <p><strong>Horaire :</strong> ${center.horaire}</p>
+      <p><strong>Fréquence :</strong> ${center.fréquence}</p>
+      <p><strong>Lieu :</strong> ${center.lieu}</p>
+      <p><strong>Visioconférence :</strong> ${center.visioconférence}</p>
+
+      ${center.dossier}
+
+      <span class="badge">${regionName}</span>
+
+    </div>
+  `;
+
+});
 
   sidebar.innerHTML = html;
 }
