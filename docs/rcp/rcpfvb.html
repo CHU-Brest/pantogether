@@ -4,35 +4,48 @@ title: Foie et voies biliaires
 
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
 <meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Carte des régions & centres</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<title>Carte interactive</title>
+
+<link
+  rel="stylesheet"
+  href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+/>
+
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 
 <style>
+
 html, body{
   margin:0;
   padding:0;
-  height:100%;
   width:100%;
+  height:100%;
   font-family:Arial, sans-serif;
 }
 
 body{
   display:flex;
+  overflow:hidden;
 }
 
-/* ===== Carte ===== */
+/* =========================
+   Carte
+========================= */
+
 #map{
   flex:1;
   height:100vh;
-  z-index:1;
 }
 
-/* ===== Panneau droite ===== */
+/* =========================
+   Sidebar
+========================= */
+
 #sidebar{
   width:360px;
   background:white;
@@ -53,16 +66,10 @@ body{
   padding:14px;
   margin-bottom:14px;
   background:#fafafa;
-  transition:0.2s;
-}
-
-.center-card:hover{
-  transform:translateY(-2px);
-  box-shadow:0 4px 12px rgba(0,0,0,.08);
 }
 
 .center-card h3{
-  margin:0 0 8px;
+  margin-top:0;
   color:#2c3e50;
 }
 
@@ -73,21 +80,30 @@ body{
 
 .badge{
   display:inline-block;
-  margin-top:8px;
-  padding:4px 8px;
+  margin-top:10px;
+  padding:4px 10px;
   border-radius:999px;
   background:#3498db;
   color:white;
   font-size:12px;
 }
-  .leaflet-interactive{
+
+.leaflet-interactive{
   cursor:pointer;
 }
 
-/* ===== Responsive ===== */
+/* =========================
+   Responsive
+========================= */
+
 @media(max-width:900px){
+
   body{
     flex-direction:column;
+  }
+
+  #map{
+    height:60vh;
   }
 
   #sidebar{
@@ -97,12 +113,11 @@ body{
     border-top:1px solid #ddd;
   }
 
-  #map{
-    height:60vh;
-  }
 }
+
 </style>
 </head>
+
 <body>
 
 <div id="map"></div>
@@ -113,28 +128,36 @@ body{
 </div>
 
 <script>
+
 // =========================
 // Initialisation carte
 // =========================
+
 const map = L.map('map', {
-  zoomControl: true,
-  minZoom: 5
+  zoomControl:true,
+  minZoom:5
 }).setView([46.5, 2.5], 6);
 
-L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-  attribution:'© OpenStreetMap contributors'
-}).addTo(map);
+L.tileLayer(
+  'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+  {
+    attribution:'© OpenStreetMap contributors'
+  }
+).addTo(map);
 
 // =========================
-// Données régions + centres
+// Données régions
 // =========================
+
 const regions = {
 
   Bretagne:{
+
     color:'#4CAF50',
 
     centers:[
       {
+
         nom:'CHU Pontchaillou',
         ville:'Rennes',
         réunion:'RCP des tumeurs primitives hépatiques',
@@ -145,81 +168,80 @@ const regions = {
         lieu:'Service imagerie',
         visioconférence:'',
 
-        dossier: `
+        dossier:`
+
 <details>
-  <summary><strong>Modalités de soumission d'un dossier</strong></summary>
+  <summary>
+    <strong>Modalités de soumission d'un dossier</strong>
+  </summary>
 
-  Dossier à déposer sur le dossier communicant de cancérologie (DCC) du patient
-  <a href="https://auth.telesantebretagne.org/" target="_blank">
-    Onco Bretagne
-  </a>
+  <p>
+    Dossier à déposer sur le DCC du patient :
+    <a href="https://auth.telesantebretagne.org/" target="_blank">
+      Onco Bretagne
+    </a>
+  </p>
 
-  <br><br>
-
-  Ou transmission via
-  <a href="https://www.telesante-bretagne.fr/" target="_blank">
-    Télésanté Bretagne
-  </a>
+  <p>
+    Ou transmission via :
+    <a href="https://www.telesante-bretagne.fr/" target="_blank">
+      Télésanté Bretagne
+    </a>
+  </p>
 
 </details>
 
 <br>
 
 <details>
-  <summary><strong>AMA en charge de la RCP</strong></summary>
+  <summary>
+    <strong>AMA en charge de la RCP</strong>
+  </summary>
 
   <a href="mailto:secretariat.rcp@rennes.unicancer.fr">
     secretariat.rcp@rennes.unicancer.fr
   </a>
 
 </details>
+
 `
+
       }
     ]
   },
 
-  'Île-de-France':{
+  "Île-de-France":{
+
     color:'#2196F3',
 
     centers:[
       {
         nom:'AP-HP Pitié-Salpêtrière',
-        ville:'Paris',
-        type:'CHU',
-        contact:'01 42 16 00 00'
-      },
-
-      {
-        nom:'Hôpital Necker',
-        ville:'Paris',
-        type:'Centre expert',
-        contact:'01 44 49 40 00'
+        ville:'Paris'
       }
     ]
   },
 
   Occitanie:{
+
     color:'#FF9800',
 
     centers:[
       {
         nom:'CHU Toulouse',
-        ville:'Toulouse',
-        type:'CHU',
-        contact:'05 61 77 22 33'
+        ville:'Toulouse'
       }
     ]
   },
 
   "Provence-Alpes-Côte d'Azur":{
+
     color:'#E91E63',
 
     centers:[
       {
         nom:'APHM Marseille',
-        ville:'Marseille',
-        type:'CHU',
-        contact:'04 91 38 00 00'
+        ville:'Marseille'
       }
     ]
   }
@@ -229,6 +251,7 @@ const regions = {
 // =========================
 // Sidebar
 // =========================
+
 const sidebar = document.getElementById('sidebar');
 
 function displayCenters(regionName){
@@ -236,10 +259,12 @@ function displayCenters(regionName){
   const region = regions[regionName];
 
   if(!region){
+
     sidebar.innerHTML = `
       <h2>${regionName}</h2>
       <p>Aucun centre renseigné.</p>
     `;
+
     return;
   }
 
@@ -251,6 +276,7 @@ function displayCenters(regionName){
   region.centers.forEach(center => {
 
     html += `
+
       <div class="center-card">
 
         <h3>${center.nom || ''}</h3>
@@ -269,90 +295,105 @@ function displayCenters(regionName){
         <span class="badge">${regionName}</span>
 
       </div>
+
     `;
 
   });
 
   sidebar.innerHTML = html;
+
 }
 
 // =========================
-// Affichage régions
+// GeoJSON régions France
 // =========================
+
 let geojson;
 
-// Chargement GeoJSON France
 fetch('https://raw.githubusercontent.com/gregoiredavid/france-geojson/master/regions.geojson')
 
-  .then(res => res.json())
+.then(response => response.json())
 
-  .then(data => {
+.then(data => {
 
-geojson = L.geoJSON(data, {
+  geojson = L.geoJSON(data, {
 
-  style: function(feature) {
+    style: function(feature){
 
-    const regionName = feature.properties.nom;
+      const regionName = feature.properties.nom;
 
-    const regionData = regions[regionName];
+      const regionData = regions[regionName];
 
-    return {
-      fillColor: regionData ? regionData.color : '#cccccc',
-      weight: 2,
-      color: 'white',
-      fillOpacity: 0.7
-    };
-  },
+      return {
 
-  onEachFeature: function(feature, layer) {
+        fillColor: regionData
+          ? regionData.color
+          : '#dcdcdc',
 
-    const regionName = feature.properties.nom;
+        weight:2,
+        opacity:1,
+        color:'white',
+        fillOpacity:0.7
 
-    // Tooltip
-    layer.bindTooltip(regionName, {
-      sticky: true
-    });
+      };
 
-    // Hover
-    layer.on('mouseover', function(e) {
+    },
 
-      e.target.setStyle({
-        fillOpacity: 1,
-        weight: 3
+    onEachFeature: function(feature, layer){
+
+      const regionName = feature.properties.nom;
+
+      // Tooltip
+
+      layer.bindTooltip(regionName, {
+        sticky:true
       });
 
-    });
+      // Hover
 
-    layer.on('mouseout', function(e) {
+      layer.on('mouseover', function(e){
 
-      geojson.resetStyle(e.target);
+        e.target.setStyle({
+          fillOpacity:1,
+          weight:3
+        });
 
-    });
-
-    // CLICK
-    layer.on('click', function() {
-
-      console.log('CLICK OK:', regionName);
-
-      displayCenters(regionName);
-
-      map.fitBounds(layer.getBounds(), {
-        padding:[20,20]
       });
 
-    });
+      layer.on('mouseout', function(e){
 
-  }
+        geojson.resetStyle(e.target);
 
-}).addTo(map);
+      });
 
-  })
+      // Click
 
-  .catch(error => {
-    console.error('Erreur GeoJSON :', error);
-  });
+      layer.on('click', function(){
+
+        displayCenters(regionName);
+
+        map.fitBounds(
+          layer.getBounds(),
+          {
+            padding:[20,20]
+          }
+        );
+
+      });
+
+    }
+
+  }).addTo(map);
+
+})
+
+.catch(error => {
+
+  console.error('Erreur GeoJSON :', error);
+
+});
 
 </script>
-  
+
 </body>
 </html>
