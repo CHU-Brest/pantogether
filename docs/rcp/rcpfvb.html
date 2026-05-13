@@ -4,149 +4,44 @@ title: Foie et voies biliaires
 
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
 <meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-<title>Carte des régions & centres</title>
+<title>Carte régions</title>
 
-<link
-  rel="stylesheet"
-  href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-/>
-
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 
 <style>
-
-html,
-body{
+html,body{
   margin:0;
-  padding:0;
-  width:100%;
   height:100%;
-  font-family:Arial, sans-serif;
+  font-family:Arial;
 }
 
 body{
   display:flex;
-  overflow:hidden;
 }
-
-/* =========================
-   CARTE
-========================= */
 
 #map{
   flex:1;
   height:100vh;
 }
 
-/* =========================
-   SIDEBAR
-========================= */
-
 #sidebar{
-  width:360px;
-  background:white;
+  width:350px;
+  padding:15px;
   border-left:1px solid #ddd;
   overflow:auto;
-  padding:20px;
-  box-shadow:-2px 0 8px rgba(0,0,0,.08);
-}
-
-#sidebar h2{
-  margin-top:0;
-  color:#1f4e79;
-}
-
-.center-card{
-  border:1px solid #ddd;
-  border-radius:12px;
-  padding:14px;
-  margin-bottom:14px;
-  background:#fafafa;
-}
-
-.center-card h3{
-  margin-top:0;
-  margin-bottom:10px;
-  color:#2c3e50;
-}
-
-.center-card p{
-  margin:5px 0;
-  font-size:14px;
-}
-
-.badge{
-  display:inline-block;
-  margin-top:10px;
-  padding:5px 10px;
-  border-radius:999px;
-  background:#3498db;
-  color:white;
-  font-size:12px;
-}
-
-/* =========================
-   REGIONS
-========================= */
-
-.leaflet-interactive{
-  cursor:pointer;
 }
 
 .region-label{
   background:transparent;
   border:none;
   box-shadow:none;
-  color:#333;
-  font-weight:bold;
-  font-size:13px;
-  pointer-events:none;
-}
-  .leaflet-tooltip{
-  pointer-events:none;
-}
-
-/* =========================
-   DETAILS
-========================= */
-
-details{
-  margin-top:10px;
-}
-
-summary{
-  cursor:pointer;
   font-weight:bold;
 }
-
-/* =========================
-   MOBILE
-========================= */
-
-@media(max-width:900px){
-
-  body{
-    flex-direction:column;
-  }
-
-  #map{
-    height:60vh;
-  }
-
-  #sidebar{
-    width:100%;
-    height:40vh;
-    border-left:none;
-    border-top:1px solid #ddd;
-  }
-
-}
-
 </style>
 </head>
 
@@ -156,124 +51,120 @@ summary{
 
 <div id="sidebar">
   <h2>Centres</h2>
-  <p>Cliquez sur une région pour afficher les centres associés.</p>
+  <p>Clique sur une région</p>
 </div>
 
 <script>
 
-// =========================
+// =====================
 // MAP
-// =========================
+// =====================
+const map = L.map('map').setView([46.5,2.5],6);
 
-const map = L.map('map').setView([46.5, 2.5], 6);
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{
+  attribution:'© OSM'
+}).addTo(map);
 
-L.tileLayer(
-  'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
-  { attribution: '© OpenStreetMap' }
-).addTo(map);
-
-// =========================
-// SIDEBAR
-// =========================
-
-const sidebar = document.getElementById('sidebar');
-
-function displayCenters(name){
-
-  const data = regions[name];
-
-  if(!data){
-    sidebar.innerHTML = `<h2>${name}</h2><p>Aucun centre</p>`;
-    return;
-  }
-
-  sidebar.innerHTML = `
-    <h2>${name}</h2>
-    ${data.centers.map(c => `
-      <div class="center-card">
-        <h3>${c.nom}</h3>
-        <p>${c.ville}</p>
-      </div>
-    `).join('')}
-  `;
-}
-
-// =========================
+// =====================
 // DATA CENTRES
-// =========================
-
-const regions = {
-  Bretagne:{
-    centers:[{nom:'CHU Pontchaillou', ville:'Rennes'}]
+// =====================
+const regionsData = {
+  "Bretagne":{
+    centers:[
+      {nom:"CHU Pontchaillou", ville:"Rennes"}
+    ]
   },
   "Île-de-France":{
-    centers:[{nom:'Pitié-Salpêtrière', ville:'Paris'}]
-  },
-  Occitanie:{
-    centers:[{nom:'CHU Toulouse', ville:'Toulouse'}]
+    centers:[
+      {nom:"Pitié-Salpêtrière", ville:"Paris"}
+    ]
   }
 };
 
-// =========================
-// GEOJSON (CRUCIAL)
-// =========================
+// =====================
+// SIDEBAR
+// =====================
+const sidebar = document.getElementById("sidebar");
 
-fetch('https://france-geojson.gregoiredavid.fr/repo/regions.geojson')
-  .then(r => r.json())
-  .then(data => {
+function show(regionName){
 
-    const layerGroup = L.geoJSON(data, {
+  const data = regionsData[regionName];
 
-      style: {
-        fillColor: '#d9d9d9',
-        color: '#ffffff',
-        weight: 1.5,
-        fillOpacity: 0.8
-      },
+  if(!data){
+    sidebar.innerHTML = `<h2>${regionName}</h2><p>Aucun centre</p>`;
+    return;
+  }
 
-      onEachFeature: (feature, layer) => {
+  let html = `<h2>${regionName}</h2>`;
 
-        const name = feature.properties.nom;
-
-        // label
-        layer.bindTooltip(name, {
-          permanent: true,
-          direction: 'center',
-          className: 'region-label'
-        });
-
-        // hover
-        layer.on('mouseover', () => {
-          layer.setStyle({ fillOpacity: 1 });
-        });
-
-        layer.on('mouseout', () => {
-          layer.setStyle({ fillOpacity: 0.8 });
-        });
-
-        // CLICK
-        layer.on('click', (e) => {
-
-          console.log("CLICK:", name);
-
-          displayCenters(name);
-
-          // reset styles propre
-          layerGroup.resetStyle();
-
-          layer.setStyle({
-            fillOpacity: 1,
-            weight: 2
-          });
-
-        });
-
-      }
-
-    }).addTo(map);
-
+  data.centers.forEach(c=>{
+    html += `
+      <div style="padding:10px;border:1px solid #ddd;margin-bottom:10px">
+        <b>${c.nom}</b><br/>
+        ${c.ville}
+      </div>
+    `;
   });
 
+  sidebar.innerHTML = html;
+}
+
+// =====================
+// GEOJSON (IMPORTANT)
+// =====================
+
+// ⚠️ version robuste via fetch + logs
+fetch("https://france-geojson.gregoiredavid.fr/repo/regions.geojson")
+.then(r => r.json())
+.then(geojson => {
+
+  const layer = L.geoJSON(geojson, {
+
+    style: {
+      fillColor:"#d9d9d9",
+      color:"#ffffff",
+      weight:1,
+      fillOpacity:0.8
+    },
+
+    onEachFeature: function(feature, l){
+
+      const name =
+        feature.properties.nom ||
+        feature.properties.name ||
+        "inconnu";
+
+      console.log("Region:", name);
+
+      l.bindTooltip(name, {
+        permanent:true,
+        direction:"center",
+        className:"region-label"
+      });
+
+      l.on("mouseover", ()=>{
+        l.setStyle({fillOpacity:1});
+      });
+
+      l.on("mouseout", ()=>{
+        layer.resetStyle(l);
+      });
+
+      // ⭐ CLICK IMPORTANT
+      l.on("click", ()=>{
+        console.log("CLICK OK:", name);
+        show(name);
+      });
+    }
+
+  }).addTo(map);
+
+})
+.catch(err=>{
+  console.error("GeoJSON error", err);
+});
+
 </script>
+
 </body>
 </html>
