@@ -159,16 +159,15 @@ summary{
   <p>Cliquez sur une région pour afficher les centres associés.</p>
 </div>
 
+<script src="https://france-geojson.gregoiredavid.fr/repo/regions.geojson"></script>
+
 <script>
 
 // =========================
 // INITIALISATION CARTE
 // =========================
 
-const map = L.map('map', {
-  zoomControl:true,
-  minZoom:5
-}).setView([46.5, 2.5], 6);
+const map = L.map('map').setView([46.5, 2.5], 6);
 
 L.tileLayer(
   'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
@@ -187,48 +186,7 @@ const regions = {
     centers:[
       {
         nom:'CHU Pontchaillou',
-        ville:'Rennes',
-        réunion:'RCP des tumeurs primitives hépatiques',
-        réseau:'',
-        jour:'Jeudi',
-        horaire:'16h00',
-        fréquence:'Hebdomadaire',
-        lieu:'Service imagerie',
-        visioconférence:'',
-
-        dossier:`
-<details>
-  <summary>Modalités de soumission d'un dossier</summary>
-
-  Dossier à déposer sur le DCC du patient :
-
-  <br><br>
-
-  <a href="https://auth.telesantebretagne.org/" target="_blank">
-    Onco Bretagne
-  </a>
-
-  <br><br>
-
-  Ou transmission via :
-
-  <br><br>
-
-  <a href="https://www.telesante-bretagne.fr/" target="_blank">
-    Télésanté Bretagne
-  </a>
-
-</details>
-
-<details>
-  <summary>AMA en charge de la RCP</summary>
-
-  <a href="mailto:secretariat.rcp@rennes.unicancer.fr">
-    secretariat.rcp@rennes.unicancer.fr
-  </a>
-
-</details>
-`
+        ville:'Rennes'
       }
     ]
   },
@@ -236,26 +194,8 @@ const regions = {
   "Île-de-France":{
     centers:[
       {
-        nom:'AP-HP Pitié-Salpêtrière',
+        nom:'Pitié-Salpêtrière',
         ville:'Paris'
-      }
-    ]
-  },
-
-  Occitanie:{
-    centers:[
-      {
-        nom:'CHU Toulouse',
-        ville:'Toulouse'
-      }
-    ]
-  },
-
-  "Provence-Alpes-Côte d'Azur":{
-    centers:[
-      {
-        nom:'APHM Marseille',
-        ville:'Marseille'
       }
     ]
   }
@@ -272,7 +212,6 @@ function displayCenters(regionName){
 
   const region = regions[regionName];
 
-  // Région sans données
   if(!region){
 
     sidebar.innerHTML = `
@@ -285,66 +224,14 @@ function displayCenters(regionName){
 
   let html = `
     <h2>${regionName}</h2>
-    <p>${region.centers.length} centre(s)</p>
   `;
 
   region.centers.forEach(center => {
 
     html += `
       <div class="center-card">
-
-        <h3>${center.nom || ''}</h3>
-
-        <p><strong>Ville :</strong> ${center.ville || ''}</p>
-
-        ${
-          center.réunion
-          ? `<p><strong>Réunion :</strong> ${center.réunion}</p>`
-          : ''
-        }
-
-        ${
-          center.réseau
-          ? `<p><strong>Réseau :</strong> ${center.réseau}</p>`
-          : ''
-        }
-
-        ${
-          center.jour
-          ? `<p><strong>Jour :</strong> ${center.jour}</p>`
-          : ''
-        }
-
-        ${
-          center.horaire
-          ? `<p><strong>Horaire :</strong> ${center.horaire}</p>`
-          : ''
-        }
-
-        ${
-          center.fréquence
-          ? `<p><strong>Fréquence :</strong> ${center.fréquence}</p>`
-          : ''
-        }
-
-        ${
-          center.lieu
-          ? `<p><strong>Lieu :</strong> ${center.lieu}</p>`
-          : ''
-        }
-
-        ${
-          center.visioconférence
-          ? `<p><strong>Visioconférence :</strong> ${center.visioconférence}</p>`
-          : ''
-        }
-
-        ${center.dossier || ''}
-
-        <br>
-
-        <span class="badge">${regionName}</span>
-
+        <h3>${center.nom}</h3>
+        <p>${center.ville}</p>
       </div>
     `;
 
@@ -354,82 +241,57 @@ function displayCenters(regionName){
 }
 
 // =========================
-// GEOJSON REGIONS
+// GEOJSON
 // =========================
 
-fetch('https://france-geojson.gregoiredavid.fr/repo/regions.geojson')
+console.log(regions_geojson);
 
-  .then(response => response.json())
+L.geoJSON(regions_geojson, {
 
-  .then(data => {
+  style:{
+    fillColor:'#d9d9d9',
+    color:'#ffffff',
+    weight:1.5,
+    fillOpacity:0.8
+  },
 
-    L.geoJSON(data, {
+  onEachFeature:function(feature, layer){
 
-      style: function(){
+    const regionName = feature.properties.nom;
 
-        return {
-          fillColor:'#d9d9d9',
-          weight:1.5,
-          opacity:1,
-          color:'#ffffff',
-          fillOpacity:0.8
-        };
+    layer.bindTooltip(regionName, {
+      permanent:true,
+      direction:'center',
+      className:'region-label'
+    });
 
-      },
+    layer.on('mouseover', function(e){
 
-      onEachFeature: function(feature, layer){
+      e.target.setStyle({
+        fillOpacity:1
+      });
 
-        // Selon le GeoJSON
-        const regionName =
-          feature.properties.nom ||
-          feature.properties.name ||
-          '';
+    });
 
-        // Tooltip nom région
-        layer.bindTooltip(regionName, {
-          permanent:true,
-          direction:'center',
-          className:'region-label'
-        });
+    layer.on('mouseout', function(e){
 
-        // Hover
-        layer.on('mouseover', function(e){
+      e.target.setStyle({
+        fillOpacity:0.8
+      });
 
-          e.target.setStyle({
-            fillOpacity:1,
-            weight:2
-          });
+    });
 
-        });
+    layer.on('click', function(){
 
-        // Fin hover
-        layer.on('mouseout', function(e){
+      console.log('click', regionName);
 
-          e.target.setStyle({
-            fillOpacity:0.8,
-            weight:1.5
-          });
+      displayCenters(regionName);
 
-        });
+    });
 
-        // CLICK REGION
-        layer.on('click', function(){
+  }
 
-          displayCenters(regionName);
-
-        });
-
-      }
-
-    }).addTo(map);
-
-  })
-
-  .catch(error => {
-
-    console.error('Erreur GeoJSON :', error);
-
-  });
+}).addTo(map);
 
 </script>
 
