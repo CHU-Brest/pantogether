@@ -2,8 +2,8 @@
 title: Foie et voies biliaires
 ---
 
-```html
 <!DOCTYPE html>
+<html>
 <html lang="fr">
 <head>
 <meta charset="UTF-8" />
@@ -14,18 +14,23 @@ title: Foie et voies biliaires
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 
 <style>
-body{
+html, body{
   margin:0;
+  padding:0;
+  height:100%;
+  width:100%;
   font-family:Arial, sans-serif;
+}
+
+body{
   display:flex;
-  height:100vh;
-  overflow:hidden;
 }
 
 /* ===== Carte ===== */
 #map{
   flex:1;
   height:100vh;
+  z-index:1;
 }
 
 /* ===== Panneau droite ===== */
@@ -303,7 +308,7 @@ fetch('https://france-geojson.gregoiredavid.fr/repo/regions.geojson')
       onEachFeature: (feature, layer) => {
 
         const regionName = feature.properties.nom;
-
+console.log(feature.properties);
         console.log(regionName);
 
         // Tooltip
