@@ -32,9 +32,16 @@ body{display:flex;}
 }
 
 #filters{
+  position:sticky;
+  top:0;
+  background:white;
+  z-index:10;
   padding-bottom:10px;
   border-bottom:1px solid #ddd;
-  margin-bottom:10px;
+}
+
+#results{
+  padding-top:10px;
 }
 
 button{
@@ -71,28 +78,31 @@ button.active{
 
 <div id="sidebar">
 
-<div id="filters">
+  <div id="filters">
 
-  <b>Cancer</b><br>
+    <b>Cancer</b><br>
 
-  <button onclick="setCancer('all')" id="c-all" class="active">Tous</button>
-  <button onclick="setCancer('foie')" id="c-foie">Foie</button>
-  <button onclick="setCancer('oeso')" id="c-oeso">Oeso</button>
-  <button onclick="setCancer('pancreas')" id="c-pan">Pancréas</button>
+    <button onclick="setCancer('all')" id="c-all" class="active">Tous</button>
+    <button onclick="setCancer('foie')" id="c-foie">Foie</button>
+    <button onclick="setCancer('oeso')" id="c-oeso">Oeso</button>
+    <button onclick="setCancer('pancreas')" id="c-pan">Pancréas</button>
 
-  <hr>
+    <hr>
 
-  <b>Zone</b><br>
+    <b>Zone</b><br>
 
-  <button onclick="setZone('all')" id="z-all" class="active">Tous</button>
-  <button onclick="setZone('metropole')" id="z-metro">Métropole</button>
-  <button onclick="setZone('drom')" id="z-drom">DROM</button>
+    <button onclick="setZone('all')" id="z-all" class="active">Tous</button>
+    <button onclick="setZone('metropole')" id="z-metro">Métropole</button>
+    <button onclick="setZone('drom')" id="z-drom">DROM</button>
 
-</div>
+  </div>
 <div id="panel">
  <a href="../">⬅ Retour</a> 
-<h2>Centres</h2>
-<p>Clique une région</p>
+  <!-- 👇 ICI LES RÉSULTATS -->
+  <div id="results">
+    <h2>Centres</h2>
+    <p>Clique une région</p>
+  </div>
 
 </div>
 
@@ -211,12 +221,14 @@ function refresh(){
   if(currentRegion) render();
 }
 
-function render(){
+  function render(){
 
   const region = data[currentRegion];
 
+  const results = document.getElementById("results");
+
   if(!region){
-    sidebar.innerHTML = "<h2>Aucune donnée</h2>";
+    results.innerHTML = "<h2>Aucune région</h2>";
     return;
   }
 
@@ -228,12 +240,12 @@ function render(){
   let html = `<h2>${currentRegion}</h2>`;
 
   if(list.length === 0){
-    html += "<p>Aucun résultat</p>";
+    html += "<p>Aucun centre</p>";
   }
 
   list.forEach(c=>{
     html += `
-      <div class="card">
+       <div class="card" style="border-left:6px solid ${cancerColors[c.cancer]}">
         <b>${c.nom}</b><br>
         ${c.ville}<br>
         ${c.cancer}<br>
@@ -244,13 +256,26 @@ function render(){
         ${c.frequance}<br>
         ${c.lieu}<br>
         ${c.visioconference}<br>
-        ${c.dossier}<br>
-        
+        ${c.dossier}<br>      
+      <span style="
+          display:inline-block;
+          margin-top:6px;
+          padding:3px 8px;
+          border-radius:999px;
+          background:${cancerColors[c.cancer]};
+          color:white;
+          font-size:12px;
+        ">
+          ${c.cancer}
+        </span>
+
+        <br><br>
+        ${c.reunion || ""}
       </div>
     `;
   });
 
-  sidebar.innerHTML = html;
+  results.innerHTML = html;
 }
 
 // ===================== GEOJSON =====================
