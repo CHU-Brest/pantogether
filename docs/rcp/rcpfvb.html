@@ -175,24 +175,6 @@ L.tileLayer(
 ).addTo(map);
 
 // =========================
-// DONNÉES CENTRES
-// =========================
-
-const regions = {
-  Bretagne:{
-    centers:[
-      { nom:'CHU Pontchaillou', ville:'Rennes' }
-    ]
-  },
-
-  "Île-de-France":{
-    centers:[
-      { nom:'Pitié-Salpêtrière', ville:'Paris' }
-    ]
-  }
-};
-
-// =========================
 // SIDEBAR
 // =========================
 
@@ -222,47 +204,78 @@ function displayCenters(regionName){
 }
 
 // =========================
-// GEOJSON (IMPORTANT)
+// DONNÉES
+// =========================
+
+const regions = {
+  Bretagne:{
+    centers:[
+      { nom:'CHU Pontchaillou', ville:'Rennes' }
+    ]
+  },
+  "Île-de-France":{
+    centers:[
+      { nom:'Pitié-Salpêtrière', ville:'Paris' }
+    ]
+  }
+};
+
+// =========================
+// IMPORTANT : GEOJSON PROPRE
 // =========================
 
 fetch('https://france-geojson.gregoiredavid.fr/repo/regions.geojson')
-  .then(res => res.json())
-  .then(data => {
+  .then(r => r.json())
+  .then(geojsonData => {
 
-    L.geoJSON(data, {
+    const geoLayer = L.geoJSON(geojsonData, {
 
-      style: {
-        fillColor:'#d9d9d9',
-        color:'#ffffff',
-        weight:1.5,
-        fillOpacity:0.8
+      style: function(){
+        return {
+          fillColor:'#d9d9d9',
+          color:'#ffffff',
+          weight:1.5,
+          fillOpacity:0.8
+        };
       },
 
       onEachFeature: function(feature, layer){
 
-        const regionName =
-          feature.properties.nom ||
-          feature.properties.name ||
-          '';
+        const regionName = feature.properties.nom;
 
-        // label
+        // LABEL
         layer.bindTooltip(regionName, {
           permanent:true,
           direction:'center',
           className:'region-label'
         });
 
+        // HOVER
         layer.on('mouseover', function(){
           layer.setStyle({ fillOpacity:1 });
         });
 
         layer.on('mouseout', function(){
-          layer.setStyle({ fillOpacity:0.8 });
+          geoLayer.resetStyle(layer);
         });
 
-        // CLICK (ça doit marcher maintenant)
-        layer.on('click', function(){
+        // CLICK (ULTRA IMPORTANT)
+        layer.on('click', function(e){
+
+          console.log("CLICK OK:", regionName);
+
           displayCenters(regionName);
+
+          // highlight clicked region
+          geoLayer.eachLayer(l => {
+            geoLayer.resetStyle(l);
+          });
+
+          layer.setStyle({
+            fillOpacity:1,
+            weight:2
+          });
+
         });
 
       }
@@ -273,6 +286,5 @@ fetch('https://france-geojson.gregoiredavid.fr/repo/regions.geojson')
   .catch(err => console.error("GeoJSON error:", err));
 
 </script>
-
 </body>
 </html>
