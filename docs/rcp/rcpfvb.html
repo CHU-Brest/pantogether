@@ -113,8 +113,8 @@ body{
 // Initialisation carte
 // =========================
 const map = L.map('map', {
-  zoomControl:true,
-  minZoom:5
+  zoomControl: true,
+  minZoom: 5
 }).setView([46.5, 2.5], 6);
 
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -125,9 +125,11 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 // Données régions + centres
 // =========================
 const regions = {
+
   Bretagne:{
     color:'#4CAF50',
-      centers:[
+
+    centers:[
       {
         nom:'CHU Pontchaillou',
         ville:'Rennes',
@@ -141,28 +143,40 @@ const regions = {
 
         dossier: `
 <details>
-    <summary><strong>Modalités de soumission d'un dossier</strong></summary>
+  <summary><strong>Modalités de soumission d'un dossier</strong></summary>
 
-    Dossier à déposer sur le dossier communicant de cancérologie (DCC) du patient <a href="https://auth.telesantebretagne.org/">Onco Bretagne</a>
-    <br>
+  Dossier à déposer sur le dossier communicant de cancérologie (DCC) du patient
+  <a href="https://auth.telesantebretagne.org/" target="_blank">
+    Onco Bretagne
+  </a>
 
-    Ou transmission via <a href="https://www.telesante-bretagne.fr/">Télésanté Bretagne</a>
+  <br><br>
+
+  Ou transmission via
+  <a href="https://www.telesante-bretagne.fr/" target="_blank">
+    Télésanté Bretagne
+  </a>
 
 </details>
 
-<details>
-    <summary><strong>AMA en charge de la RCP</strong></summary>
+<br>
 
-    <a href="mailto:secretariat.rcp@rennes.unicancer.fr">secretariat.rcp@rennes.unicancer.fr</a>
+<details>
+  <summary><strong>AMA en charge de la RCP</strong></summary>
+
+  <a href="mailto:secretariat.rcp@rennes.unicancer.fr">
+    secretariat.rcp@rennes.unicancer.fr
+  </a>
 
 </details>
 `
       }
     ]
- },
+  },
 
   'Île-de-France':{
     color:'#2196F3',
+
     centers:[
       {
         nom:'AP-HP Pitié-Salpêtrière',
@@ -170,6 +184,7 @@ const regions = {
         type:'CHU',
         contact:'01 42 16 00 00'
       },
+
       {
         nom:'Hôpital Necker',
         ville:'Paris',
@@ -181,6 +196,7 @@ const regions = {
 
   Occitanie:{
     color:'#FF9800',
+
     centers:[
       {
         nom:'CHU Toulouse',
@@ -193,6 +209,7 @@ const regions = {
 
   "Provence-Alpes-Côte d'Azur":{
     color:'#E91E63',
+
     centers:[
       {
         nom:'APHM Marseille',
@@ -202,6 +219,7 @@ const regions = {
       }
     ]
   }
+
 };
 
 // =========================
@@ -210,37 +228,46 @@ const regions = {
 const sidebar = document.getElementById('sidebar');
 
 function displayCenters(regionName){
+
   const region = regions[regionName];
+
+  if(!region){
+    sidebar.innerHTML = `
+      <h2>${regionName}</h2>
+      <p>Aucun centre renseigné.</p>
+    `;
+    return;
+  }
 
   let html = `
     <h2>${regionName}</h2>
     <p>${region.centers.length} centre(s)</p>
   `;
 
-region.centers.forEach(center => {
+  region.centers.forEach(center => {
 
-  html += `
-    <div class="center-card">
+    html += `
+      <div class="center-card">
 
-      <h3>${center.nom}</h3>
+        <h3>${center.nom || ''}</h3>
 
-      <p><strong>Ville :</strong> ${center.ville}</p>
-      <p><strong>Réunion :</strong> ${center.réunion}</p>
-      <p><strong>Réseau :</strong> ${center.réseau}</p>
-      <p><strong>Jour :</strong> ${center.jour}</p>
-      <p><strong>Horaire :</strong> ${center.horaire}</p>
-      <p><strong>Fréquence :</strong> ${center.fréquence}</p>
-      <p><strong>Lieu :</strong> ${center.lieu}</p>
-      <p><strong>Visioconférence :</strong> ${center.visioconférence}</p>
+        <p><strong>Ville :</strong> ${center.ville || ''}</p>
+        <p><strong>Réunion :</strong> ${center.réunion || ''}</p>
+        <p><strong>Réseau :</strong> ${center.réseau || ''}</p>
+        <p><strong>Jour :</strong> ${center.jour || ''}</p>
+        <p><strong>Horaire :</strong> ${center.horaire || ''}</p>
+        <p><strong>Fréquence :</strong> ${center.fréquence || ''}</p>
+        <p><strong>Lieu :</strong> ${center.lieu || ''}</p>
+        <p><strong>Visioconférence :</strong> ${center.visioconférence || ''}</p>
 
-      ${center.dossier}
+        ${center.dossier || ''}
 
-      <span class="badge">${regionName}</span>
+        <span class="badge">${regionName}</span>
 
-    </div>
-  `;
+      </div>
+    `;
 
-});
+  });
 
   sidebar.innerHTML = html;
 }
@@ -250,9 +277,11 @@ region.centers.forEach(center => {
 // =========================
 let geojson;
 
-// Chargement des régions France
+// Chargement GeoJSON France
 fetch('https://france-geojson.gregoiredavid.fr/repo/regions.geojson')
+
   .then(res => res.json())
+
   .then(data => {
 
     geojson = L.geoJSON(data, {
@@ -263,11 +292,11 @@ fetch('https://france-geojson.gregoiredavid.fr/repo/regions.geojson')
         const regionData = regions[regionName];
 
         return {
-    fillColor: regionData ? regionData.color : '#dcdcdc',
-    weight:2,
-    opacity:1,
-    color:'white',
-    fillOpacity:0.7
+          fillColor: regionData ? regionData.color : '#dcdcdc',
+          weight: 2,
+          opacity: 1,
+          color: 'white',
+          fillOpacity: 0.7
         };
       },
 
@@ -275,21 +304,28 @@ fetch('https://france-geojson.gregoiredavid.fr/repo/regions.geojson')
 
         const regionName = feature.properties.nom;
 
+        console.log(regionName);
+
         // Tooltip
         layer.bindTooltip(regionName, {
-          sticky:true
+          sticky: true
         });
 
         // Hover
         layer.on('mouseover', e => {
+
           e.target.setStyle({
-            fillOpacity:1,
-            weight:3
+            fillOpacity: 1,
+            weight: 3
           });
+
         });
 
+        // Sortie hover
         layer.on('mouseout', e => {
+
           geojson.resetStyle(e.target);
+
         });
 
         // Clic région
@@ -304,14 +340,19 @@ fetch('https://france-geojson.gregoiredavid.fr/repo/regions.geojson')
           });
 
         });
-console.log(regionName);
+
       }
 
     }).addTo(map);
 
-  });
-</script>
+  })
 
+  .catch(error => {
+    console.error('Erreur GeoJSON :', error);
+  });
+
+</script>
+  
 </body>
 </html>
 `
