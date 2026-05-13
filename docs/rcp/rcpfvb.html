@@ -157,6 +157,7 @@ const data = {
 </details>
 `
     },
+    
     {
       nom:'CHU Brest',
       ville:'Brest',
@@ -257,17 +258,20 @@ function refresh(){
   list.forEach(c=>{
     html += `
        <div class="card" style="border-left:6px solid ${cancerColors[c.cancer]}">
-        <b>${c.nom}</b><br>
-        ${c.ville}<br>
-        ${c.cancer}<br>
-        ${c.reunion}<br>
-        ${c.reseau}<br>
-        ${c.jour}<br>
-        ${c.horaire}<br>
-        ${c.frequance}<br>
-        ${c.lieu}<br>
-        ${c.visioconference}<br>
-        ${c.dossier}<br>      
+        <b>${c.nom || ""}</b><br>
+      <b>Ville :</b> ${c.ville || ""}<br>
+      <b>Type :</b> ${c.type || ""}<br>
+
+      <b>Réunion :</b> ${c.réunion || ""}<br>
+      <b>Réseau :</b> ${c.réseau || ""}<br>
+      <b>Jour :</b> ${c.jour || ""}<br>
+      <b>Horaire :</b> ${c.horaire || ""}<br>
+      <b>Fréquence :</b> ${c.fréquence || ""}<br>
+      <b>Lieu :</b> ${c.lieu || ""}<br>
+      <b>Visioconférence :</b> ${c.visioconférence || ""}<br>
+
+      ${c.dossier || ""}
+    
       <span style="
           display:inline-block;
           margin-top:6px;
@@ -277,14 +281,12 @@ function refresh(){
           color:white;
           font-size:12px;
         ">
-          ${c.cancer}
-        </span>
+          ${c.type || "non classé"}
+      </span>
 
-        <br><br>
-        ${c.reunion || ""}
-      </div>
-    `;
-  });
+    </div>
+  `;
+});
 
   results.innerHTML = html;
 }
