@@ -176,22 +176,6 @@ fetch(url)
 
   }).addTo(map);
 
-  // 🔥 test crucial
-  console.log("GeoJSON layer added to map");
-
-})
-.catch(err => {
-
-  console.error("❌ GeoJSON FAILED:", err);
-
-  sidebar.innerHTML = `
-    <h2 style="color:red">ERREUR GEOJSON</h2>
-    <p>Le fichier de régions ne se charge pas.</p>
-    <p>Cause probable : GitHub Pages bloque ou réseau.</p>
-    <pre>${err}</pre>
-  `;
-});
-
 </script>
 
 </body>
