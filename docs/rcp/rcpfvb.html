@@ -303,10 +303,8 @@ fetch('https://france-geojson.gregoiredavid.fr/repo/regions.geojson')
           fillOpacity: 0.7
         };
       },
+onEachFeature: (feature, layer) => {
 
-      onEachFeature: (feature, layer) => {
-
-  // Selon les GeoJSON le nom peut être dans différents champs
   const regionName =
     feature.properties.nom ||
     feature.properties.name ||
@@ -343,7 +341,9 @@ fetch('https://france-geojson.gregoiredavid.fr/repo/regions.geojson')
     console.log('CLICK:', regionName);
 
     if(regions[regionName]){
+
       displayCenters(regionName);
+
     } else {
 
       sidebar.innerHTML = `
@@ -360,52 +360,7 @@ fetch('https://france-geojson.gregoiredavid.fr/repo/regions.geojson')
   });
 
 }
-
-        const regionName =
-  feature.properties.nom ||
-  feature.properties.name ||
-  feature.properties.libgeo ||
-  '';
-console.log(feature.properties);
-        console.log(regionName);
-
-        // Tooltip
-        layer.bindTooltip(regionName, {
-          sticky: true
-        });
-
-        // Hover
-        layer.on('mouseover', e => {
-
-          e.target.setStyle({
-            fillOpacity: 1,
-            weight: 3
-          });
-
-        });
-
-        // Sortie hover
-        layer.on('mouseout', e => {
-
-          geojson.resetStyle(e.target);
-
-        });
-
-        // Clic région
-        layer.on('click', () => {
-
-          if(regions[regionName]){
-            displayCenters(regionName);
-          }
-
-          map.fitBounds(layer.getBounds(), {
-            padding:[20,20]
-          });
-
-        });
-
-      }
-
+      
     }).addTo(map);
 
   })
