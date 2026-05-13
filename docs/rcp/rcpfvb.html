@@ -123,7 +123,7 @@ const data = {
     {
       nom:'CHU Pontchaillou',
       ville:'Rennes',
-      type:"foie",
+      cancer:"foie",
       réunion:'RCP des tumeurs primitives hépatiques',
       réseau:'',
       jour:'Jeudi',
@@ -163,7 +163,7 @@ const data = {
     {
       nom:'CHU Brest',
       ville:'Brest',
-      type:"oeso",
+      cancer:"oeso",
       réunion:'',
       réseau:'',
       jour:'',
@@ -282,7 +282,7 @@ function refresh(){
        <div class="card" style="border-left:6px solid ${cancerColors[c.cancer]}">
         <b>${c.nom || ""}</b><br>
       <b>Ville :</b> ${c.ville || ""}<br>
-      <b>Type :</b> ${c.cancer || ""}<br>
+      <b>Cancer :</b> ${c.cancer || ""}<br>
 
       <b>Réunion :</b> ${c.réunion || ""}<br>
       <b>Réseau :</b> ${c.réseau || ""}<br>
