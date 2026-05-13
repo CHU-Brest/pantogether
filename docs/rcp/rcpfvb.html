@@ -8,7 +8,7 @@ title: Foie et voies biliaires
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-<title>Carte RCP Foie</title>
+<title>Carte RCP V2</title>
 
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -20,31 +20,19 @@ html,body{
   font-family:Arial;
 }
 
-body{
-  display:flex;
-}
+body{display:flex;}
 
-#map{
-  flex:1;
-  height:100vh;
-}
+#map{flex:1;height:100vh;}
 
 #sidebar{
   width:380px;
-  padding:18px;
+  padding:15px;
   border-left:1px solid #ddd;
   overflow:auto;
-  background:#fff;
 }
 
-h2{
-  margin-top:0;
-  color:#1f4e79;
-}
-
-/* FILTERS */
 #filters{
-  padding:10px;
+  padding-bottom:10px;
   border-bottom:1px solid #ddd;
   margin-bottom:10px;
 }
@@ -52,28 +40,24 @@ h2{
 button{
   margin:3px;
   padding:6px 10px;
-  border:1px solid #ccc;
-  background:#f7f7f7;
-  cursor:pointer;
   border-radius:6px;
+  border:1px solid #ccc;
+  cursor:pointer;
+  background:#f5f5f5;
 }
 
 button.active{
   background:#3498db;
   color:white;
-  border-color:#3498db;
 }
 
 .card{
   border:1px solid #ddd;
-  border-radius:10px;
-  padding:12px;
-  margin-bottom:12px;
+  padding:10px;
+  margin-bottom:10px;
+  border-radius:8px;
   background:#fafafa;
 }
-
-.card h3{margin:0 0 8px;}
-.card p{margin:4px 0;font-size:14px;}
 
 .leaflet-interactive{
   cursor:pointer;
@@ -87,171 +71,135 @@ button.active{
 
 <div id="sidebar">
 
-  <div id="filters">
+<div id="filters">
 
-    <b>Type cancer :</b><br>
+  <b>Cancer</b><br>
 
-    <button onclick="setFilter('all')" id="f-all" class="active">Tous</button>
-    <button onclick="setFilter('oesogastrique')" id="f-oeso">Oesogastrique</button>
-    <button onclick="setFilter('foie')" id="f-foie">Foie</button>
-    <button onclick="setFilter('pancreas')" id="f-pan">Pancréas</button>
+  <button onclick="setCancer('all')" id="c-all" class="active">Tous</button>
+  <button onclick="setCancer('foie')" id="c-foie">Foie</button>
+  <button onclick="setCancer('oeso')" id="c-oeso">Oeso</button>
+  <button onclick="setCancer('pancreas')" id="c-pan">Pancréas</button>
 
-    <hr>
+  <hr>
 
-    <b>Zone :</b><br>
+  <b>Zone</b><br>
 
-    <button onclick="setZone('all')" id="z-all" class="active">Tous</button>
-    <button onclick="setZone('metropole')" id="z-metro">Métropole</button>
-    <button onclick="setZone('drom')" id="z-drom">DROM</button>
+  <button onclick="setZone('all')" id="z-all" class="active">Tous</button>
+  <button onclick="setZone('metropole')" id="z-metro">Métropole</button>
+  <button onclick="setZone('drom')" id="z-drom">DROM</button>
 
-  </div>
+</div>
 
-  <h2>Centres</h2>
-  <p>Clique sur une région</p>
+<h2>Centres</h2>
+<p>Clique une région</p>
 
 </div>
 
 <script>
 
-// =====================
-// MAP
-// =====================
+// ===================== MAP =====================
 const map = L.map('map').setView([46.5,2.5],6);
 
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{
   attribution:'© OSM'
 }).addTo(map);
 
-// =====================
-// DATA
-// =====================
+// ===================== DATA =====================
 const data = {
-"Bretagne":[
-    {
-      nom:'CHU Pontchaillou',
-      ville:'Rennes',
-      type:"foie",
-      réunion:'RCP des tumeurs primitives hépatiques',
-      réseau:'',
-      jour:'Jeudi',
-      horaire:'16h00',
-      fréquence:'Hebdomadaire',
-      lieu:'Service imagerie',
-      visioconférence:'',
+  "Bretagne":{
+    zone:"metropole",
+    centers:[
+      {nom:"CHU Rennes", ville:"Rennes", cancer:"foie", reunion:"RCP foie"}
+    ]
+  },
 
-      dossier:`
-<details>
-  <summary>Modalités de soumission d'un dossier</summary>
+  "Île-de-France":{
+    zone:"metropole",
+    centers:[
+      {nom:"Pitié-Salpêtrière", ville:"Paris", cancer:"oeso", reunion:"RCP oesogastrique"}
+    ]
+  },
 
-  Dossier à déposer sur le DCC du patient :
-
-  <br><br>
-
-  <a href="https://auth.telesantebretagne.org/" target="_blank">Onco Bretagne</a>
-
-  <br><br>
-
-  Ou via :
-
-  <br><br>
-
-  <a href="https://www.telesante-bretagne.fr/" target="_blank">Télésanté Bretagne</a>
-</details>
-
-<details>
-  <summary>AMA en charge de la RCP</summary>
-
-  <a href="mailto:secretariat.rcp@rennes.unicancer.fr">
-    secretariat.rcp@rennes.unicancer.fr
-  </a>
-</details>
-`
-    }
-  ],
-
-
-  "Guadeloupe":[
-    {
-      nom:"CHU Pointe-à-Pitre",
-      ville:"Guadeloupe",
-      type:"pancreas",
-      zone:"drom"
-    }
-  ],
-
-  "Île-de-France":[
-    {
-      nom:"Pitié-Salpêtrière",
-      ville:"Paris",
-      type:"oesogastrique",
-      zone:"metropole"
-    }
-  ]
+  "Guadeloupe":{
+    zone:"drom",
+    centers:[
+      {nom:"CHU Guadeloupe", ville:"Pointe-à-Pitre", cancer:"pancreas", reunion:"RCP pancréas"}
+    ]
+  }
 };
 
-// =====================
-// STATE
-// =====================
-let currentType = "all";
-let currentZone = "all";
-let lastRegion = null;
+// ===================== STATE =====================
+let cancerFilter = "all";
+let zoneFilter = "all";
+let currentRegion = null;
 
-// =====================
-// FILTER UI
-// =====================
-function setFilter(type){
-  currentType = type;
-  updateButtons();
-  if(lastRegion) refreshSidebar(lastRegion);
+const cancerColors = {
+  "oeso": "#2ecc71",      // vert
+  "foie": "#e74c3c",      // rouge
+  "pancreas": "#f39c12"   // orange
+};
+
+
+// ===================== FILTERS =====================
+function setCancer(v){
+  cancerFilter = v;
+  refresh();
 }
 
-function setZone(zone){
-  currentZone = zone;
-  updateButtons();
-  if(lastRegion) refreshSidebar(lastRegion);
+function setZone(v){
+  zoneFilter = v;
+  refresh();
 }
 
-function updateButtons(){
+function refreshButtons(){
 
   document.querySelectorAll("#filters button")
     .forEach(b => b.classList.remove("active"));
 
-  document.getElementById("f-" + currentType)?.classList.add("active");
-  document.getElementById("z-" + currentZone)?.classList.add("active");
+  document.getElementById("c-" + cancerFilter)?.classList.add("active");
+  document.getElementById("z-" + zoneFilter)?.classList.add("active");
 }
 
-// =====================
-// SIDEBAR
-// =====================
+// ===================== SIDEBAR =====================
 const sidebar = document.getElementById("sidebar");
 
 function show(region){
-  lastRegion = region;
-  refreshSidebar(region);
+  currentRegion = region;
+  render();
 }
 
-function refreshSidebar(region){
+function refresh(){
+  refreshButtons();
+  if(currentRegion) render();
+}
 
-  const list = data[region] || [];
+function render(){
 
-  const filtered = list.filter(c =>
-    (currentType === "all" || c.type === currentType) &&
-    (currentZone === "all" || c.zone === currentZone)
-  );
+  const region = data[currentRegion];
 
-  let html = `<h2>${region}</h2>`;
-
-  if(filtered.length === 0){
-    html += "<p>Aucun centre</p>";
+  if(!region){
+    sidebar.innerHTML = "<h2>Aucune donnée</h2>";
+    return;
   }
 
-  filtered.forEach(c=>{
+  const list = region.centers.filter(c =>
+    (cancerFilter === "all" || c.cancer === cancerFilter) &&
+    (zoneFilter === "all" || region.zone === zoneFilter)
+  );
+
+  let html = `<h2>${currentRegion}</h2>`;
+
+  if(list.length === 0){
+    html += "<p>Aucun résultat</p>";
+  }
+
+  list.forEach(c=>{
     html += `
       <div class="card">
-        <h3>${c.nom}</h3>
-        <p>${c.ville || ""}</p>
-        <p>${c.type || ""}</p>
-        ${c.dossier || ""}
+        <b>${c.nom}</b><br>
+        ${c.ville}<br>
+        ${c.cancer}<br>
+        ${c.reunion}
       </div>
     `;
   });
@@ -259,49 +207,83 @@ function refreshSidebar(region){
   sidebar.innerHTML = html;
 }
 
-// =====================
-// GEOJSON
-// =====================
+// ===================== GEOJSON =====================
 fetch("https://pantogether.fr/data/regions.geojson")
 .then(r => r.json())
 .then(geojson => {
 
-  const layerGroup = L.geoJSON(geojson, {
+  const layer = L.geoJSON(geojson, {
 
     style:{
-      fillColor:"#d9d9d9",
+      fillColor:"#eaeaea",
       color:"#ffffff",
       weight:1,
-      fillOpacity:0.8
+      fillOpacity:0.6
     },
 
-    onEachFeature:(feature, layer)=>{
+    onEachFeature:(feature, l)=>{
 
-      const name = feature.properties.nom;
+      const regionName = feature.properties.nom;
 
-      layer.bindTooltip(name,{
+      l.bindTooltip(regionName, {
         permanent:true,
-        direction:"center"
+        direction:"center",
+        className:"region-label"
       });
 
-      layer.on("click", ()=>{
-        show(name);
+      l.on("click", () => {
+        show(regionName);
       });
-
-      layer.on("mouseover", ()=>{
-        layer.setStyle({fillOpacity:1});
-      });
-
-      layer.on("mouseout", ()=>{
-        layerGroup.resetStyle(layer);
-      });
-
     }
 
   }).addTo(map);
 
-});
+  // 👇 AJOUT DES CENTRES APRÈS CHARGEMENT CARTE
+  renderMarkers();
 
+});
+let markersLayer = L.layerGroup().addTo(map);
+
+function renderMarkers(){
+
+  markersLayer.clearLayers();
+
+  Object.entries(data).forEach(([regionName, region]) => {
+
+    region.centers.forEach(center => {
+
+      const color = cancerColors[center.cancer] || "#666";
+
+      const marker = L.circleMarker(getCoords(regionName), {
+        radius:8,
+        color:"#fff",
+        weight:2,
+        fillColor:color,
+        fillOpacity:1
+      });
+
+      marker.bindPopup(`
+        <b>${center.nom}</b><br>
+        ${center.ville}<br>
+        <span style="color:${color}">
+          ${center.cancer}
+        </span>
+      `);
+
+      markersLayer.addLayer(marker);
+    });
+
+  });
+}
+  const coords = {
+  "Bretagne":[48.2, -2.8],
+  "Île-de-France":[48.8, 2.3],
+  "Guadeloupe":[16.2, -61.5]
+};
+
+function getCoords(region){
+  return coords[region] || [46.5,2.5];
+}
 </script>
 
 </body>
