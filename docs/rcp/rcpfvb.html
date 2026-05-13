@@ -76,6 +76,9 @@ body{
   color:white;
   font-size:12px;
 }
+  .leaflet-interactive{
+  cursor:pointer;
+}
 
 /* ===== Responsive ===== */
 @media(max-width:900px){
@@ -123,6 +126,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 // =========================
 const regions = {
   Bretagne:{
+    color:'#4CAF50',
       centers:[
       {
         nom:'CHU Pontchaillou',
@@ -158,6 +162,7 @@ const regions = {
  },
 
   'Île-de-France':{
+    color:'#2196F3',
     centers:[
       {
         nom:'AP-HP Pitié-Salpêtrière',
@@ -175,6 +180,7 @@ const regions = {
   },
 
   Occitanie:{
+    color:'#FF9800',
     centers:[
       {
         nom:'CHU Toulouse',
@@ -185,7 +191,8 @@ const regions = {
     ]
   },
 
-  'Provence-Alpes-Côte d\'Azur':{
+  'Provence-Alpes-Côte d'Azur':{
+    color:'#E91E63',
     centers:[
       {
         nom:'APHM Marseille',
@@ -256,11 +263,11 @@ fetch('https://france-geojson.gregoiredavid.fr/repo/regions.geojson')
         const regionData = regions[regionName];
 
         return {
-          fillColor: regionData?.color || '#cccccc',
-          weight: 2,
-          opacity: 1,
-          color: 'white',
-          fillOpacity: 0.7
+    fillColor: regionData ? regionData.color : '#dcdcdc',
+    weight:2,
+    opacity:1,
+    color:'white',
+    fillOpacity:0.7
         };
       },
 
@@ -297,7 +304,7 @@ fetch('https://france-geojson.gregoiredavid.fr/repo/regions.geojson')
           });
 
         });
-
+console.log(regionName);
       }
 
     }).addTo(map);
