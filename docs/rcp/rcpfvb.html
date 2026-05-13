@@ -307,7 +307,66 @@ fetch('https://france-geojson.gregoiredavid.fr/repo/regions.geojson')
 
       onEachFeature: (feature, layer) => {
 
-        const regionName = feature.properties.nom;
+  // Selon les GeoJSON le nom peut être dans différents champs
+  const regionName =
+    feature.properties.nom ||
+    feature.properties.name ||
+    feature.properties.libgeo ||
+    '';
+
+  console.log(regionName);
+
+  // Tooltip
+  layer.bindTooltip(regionName, {
+    sticky: true
+  });
+
+  // Hover
+  layer.on('mouseover', e => {
+
+    e.target.setStyle({
+      fillOpacity: 1,
+      weight: 3
+    });
+
+  });
+
+  // Fin hover
+  layer.on('mouseout', e => {
+
+    geojson.resetStyle(e.target);
+
+  });
+
+  // Clic région
+  layer.on('click', () => {
+
+    console.log('CLICK:', regionName);
+
+    if(regions[regionName]){
+      displayCenters(regionName);
+    } else {
+
+      sidebar.innerHTML = `
+        <h2>${regionName}</h2>
+        <p>Aucun centre renseigné pour cette région.</p>
+      `;
+
+    }
+
+    map.fitBounds(layer.getBounds(), {
+      padding:[20,20]
+    });
+
+  });
+
+}
+
+        const regionName =
+  feature.properties.nom ||
+  feature.properties.name ||
+  feature.properties.libgeo ||
+  '';
 console.log(feature.properties);
         console.log(regionName);
 
@@ -360,4 +419,3 @@ console.log(feature.properties);
   
 </body>
 </html>
-`
