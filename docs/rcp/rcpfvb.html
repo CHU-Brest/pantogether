@@ -8,18 +8,68 @@ title: Foie et voies biliaires
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
+<title>Carte RCP Foie</title>
 
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 
 <style>
-html,body{margin:0;height:100%;font-family:Arial;}
-body{display:flex;}
-#map{flex:1;height:100vh;}
-#sidebar{width:340px;padding:15px;border-left:1px solid #ddd;overflow:auto;}
-.region-label{
-  background:transparent;border:none;box-shadow:none;
-  font-weight:bold;font-size:12px;
+html,body{
+  margin:0;
+  height:100%;
+  font-family:Arial;
+}
+
+body{
+  display:flex;
+}
+
+#map{
+  flex:1;
+  height:100vh;
+}
+
+#sidebar{
+  width:380px;
+  padding:18px;
+  border-left:1px solid #ddd;
+  overflow:auto;
+  background:#fff;
+}
+
+h2{
+  margin-top:0;
+  color:#1f4e79;
+}
+
+.card{
+  border:1px solid #ddd;
+  border-radius:10px;
+  padding:12px;
+  margin-bottom:12px;
+  background:#fafafa;
+}
+
+.card h3{
+  margin:0 0 8px;
+}
+
+.card p{
+  margin:4px 0;
+  font-size:14px;
+}
+
+details{
+  margin-top:8px;
+}
+
+summary{
+  cursor:pointer;
+  font-weight:bold;
+}
+
+.leaflet-interactive{
+  cursor:pointer;
 }
 </style>
 </head>
@@ -28,6 +78,10 @@ body{display:flex;}
 
 <div id="map"></div>
 
+<div id="sidebar">
+  <h2>Centres</h2>
+  <p>Clique sur une région</p>
+</div>
 
 <script>
 
@@ -40,24 +94,23 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{
   attribution:'© OSM'
 }).addTo(map);
 
-const sidebar = document.getElementById("sidebar");
-
 // =====================
-// CENTRES TEST
+// CENTRES
 // =====================
 const data = {
   "Bretagne":[
-    {nom:'CHU Pontchaillou',
-        ville:'Rennes',
-        réunion:'RCP des tumeurs primitives hépatiques',
-        réseau:'',
-        jour:'Jeudi',
-        horaire:'16h00',
-        fréquence:'Hebdomadaire',
-        lieu:'Service imagerie',
-        visioconférence:'',
+    {
+      nom:'CHU Pontchaillou',
+      ville:'Rennes',
+      réunion:'RCP des tumeurs primitives hépatiques',
+      réseau:'',
+      jour:'Jeudi',
+      horaire:'16h00',
+      fréquence:'Hebdomadaire',
+      lieu:'Service imagerie',
+      visioconférence:'',
 
-        dossier:`
+      dossier:`
 <details>
   <summary>Modalités de soumission d'un dossier</summary>
 
@@ -65,20 +118,15 @@ const data = {
 
   <br><br>
 
-  <a href="https://auth.telesantebretagne.org/" target="_blank">
-    Onco Bretagne
-  </a>
+  <a href="https://auth.telesantebretagne.org/" target="_blank">Onco Bretagne</a>
 
   <br><br>
 
-  Ou transmission via :
+  Ou via :
 
   <br><br>
 
-  <a href="https://www.telesante-bretagne.fr/" target="_blank">
-    Télésanté Bretagne
-  </a>
-
+  <a href="https://www.telesante-bretagne.fr/" target="_blank">Télésanté Bretagne</a>
 </details>
 
 <details>
@@ -87,71 +135,85 @@ const data = {
   <a href="mailto:secretariat.rcp@rennes.unicancer.fr">
     secretariat.rcp@rennes.unicancer.fr
   </a>
-
 </details>
 `
-      }
+    }
   ],
+
   "Île-de-France":[
-    {nom:"Pitié", ville:"Paris"}
+    {
+      nom:"Pitié-Salpêtrière",
+      ville:"Paris"
+    }
   ]
 };
 
-function show(region){
-  const list = data[region];
+// =====================
+// SIDEBAR
+// =====================
+const sidebar = document.getElementById("sidebar");
 
-  if(!list){
+function show(region){
+
+  const centers = data[region];
+
+  if(!centers){
     sidebar.innerHTML = `<h2>${region}</h2><p>Aucun centre</p>`;
     return;
   }
 
-  sidebar.innerHTML =
-    `<h2>${region}</h2>` +
-    list.map(c=>`
-      <div style="padding:10px;border:1px solid #ddd;margin:5px 0">
-        <b>${c.nom}</b><br>${c.ville}
+  let html = `<h2>${region}</h2>`;
+
+  centers.forEach(c => {
+
+    html += `
+      <div class="card">
+
+        <h3>${c.nom}</h3>
+        <p><b>Ville :</b> ${c.ville || ''}</p>
+        <p><b>Réunion :</b> ${c.réunion || ''}</p>
+        <p><b>Réseau :</b> ${c.réseau || ''}</p>
+        <p><b>Jour :</b> ${c.jour || ''}</p>
+        <p><b>Horaire :</b> ${c.horaire || ''}</p>
+        <p><b>Fréquence :</b> ${c.fréquence || ''}</p>
+        <p><b>Lieu :</b> ${c.lieu || ''}</p>
+        <p><b>Visioconférence :</b> ${c.visioconférence || ''}</p>
+
+        ${c.dossier || ''}
+
       </div>
-    `).join("");
+    `;
+
+  });
+
+  sidebar.innerHTML = html;
 }
 
 // =====================
-// GEOJSON SAFE LOAD
+// GEOJSON LOCAL (IMPORTANT)
 // =====================
-const url = "https://pantogether.fr/data/regions.geojson";
-
-fetch(url)
-.then(r => {
-  console.log("GeoJSON HTTP status:", r.status);
-  return r.json();
-})
+fetch("https://pantogether.fr/data/regions.geojson")
+.then(r => r.json())
 .then(geojson => {
-
-  console.log("GeoJSON loaded OK");
 
   const layerGroup = L.geoJSON(geojson, {
 
-    style: {
+    style:{
       fillColor:"#d9d9d9",
       color:"#ffffff",
       weight:1,
-      fillOpacity:0.7
+      fillOpacity:0.8
     },
 
-    onEachFeature: function(feature, layer){
+    onEachFeature:(feature, layer)=>{
 
       const name =
         feature.properties.nom ||
-        feature.properties.name ||
-        feature.properties.NOM ||
-        "unknown";
+        feature.properties.name;
 
-      console.log("Region detected:", name);
-
-      // label
       layer.bindTooltip(name,{
         permanent:true,
-        direction:"center",
-        className:"region-label"
+        direction:"center"
       });
 
       layer.on("mouseover", ()=>{
@@ -163,13 +225,14 @@ fetch(url)
       });
 
       layer.on("click", ()=>{
-        console.log("CLICK WORKS:", name);
         show(name);
       });
 
     }
 
   }).addTo(map);
+
+});
 
 </script>
 
