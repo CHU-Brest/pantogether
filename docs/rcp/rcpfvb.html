@@ -118,6 +118,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{
 // ===================== DATA =====================
 const data = {
   "Bretagne":[
+    zone:"metropole",
     {
       nom:'CHU Pontchaillou',
       ville:'Rennes',
@@ -179,7 +180,26 @@ const data = {
       {nom:"Pitié-Salpêtrière", ville:"Paris", cancer:"oeso", reunion:"RCP oesogastrique"}
     ]
   },
+  
+ "Pays de la Loire":{
+    zone:"metropole",
+    centers:[
+      {
+        nom:"CHU Nantes",
+        ville:"Nantes",
+        cancer:"pancreas",
 
+        réunion:"RCP pancréas",
+        réseau:'',
+        jour:'',
+        horaire:'',
+        fréquence:'',
+        lieu:'',
+        visioconférence:'',
+        dossier:''
+      }
+    ]
+  },
   "Guadeloupe":{
     zone:"drom",
     centers:[
@@ -260,7 +280,7 @@ function refresh(){
        <div class="card" style="border-left:6px solid ${cancerColors[c.cancer]}">
         <b>${c.nom || ""}</b><br>
       <b>Ville :</b> ${c.ville || ""}<br>
-      <b>Type :</b> ${c.type || ""}<br>
+      <b>Type :</b> ${c.cancer || ""}<br>
 
       <b>Réunion :</b> ${c.réunion || ""}<br>
       <b>Réseau :</b> ${c.réseau || ""}<br>
@@ -281,7 +301,7 @@ function refresh(){
           color:white;
           font-size:12px;
         ">
-          ${c.type || "non classé"}
+          ${c.cancer || "non classé"}
       </span>
 
     </div>
