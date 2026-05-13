@@ -8,39 +8,19 @@ title: Foie et voies biliaires
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-<title>Carte régions</title>
+<title>Carte debug régions</title>
 
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 
 <style>
-html,body{
-  margin:0;
-  height:100%;
-  font-family:Arial;
-}
-
-body{
-  display:flex;
-}
-
-#map{
-  flex:1;
-  height:100vh;
-}
-
-#sidebar{
-  width:350px;
-  padding:15px;
-  border-left:1px solid #ddd;
-  overflow:auto;
-}
-
+html,body{margin:0;height:100%;font-family:Arial;}
+body{display:flex;}
+#map{flex:1;height:100vh;}
+#sidebar{width:340px;padding:15px;border-left:1px solid #ddd;overflow:auto;}
 .region-label{
-  background:transparent;
-  border:none;
-  box-shadow:none;
-  font-weight:bold;
+  background:transparent;border:none;box-shadow:none;
+  font-weight:bold;font-size:12px;
 }
 </style>
 </head>
@@ -50,8 +30,8 @@ body{
 <div id="map"></div>
 
 <div id="sidebar">
-  <h2>Centres</h2>
-  <p>Clique sur une région</p>
+  <h2>Debug</h2>
+  <p>Chargement...</p>
 </div>
 
 <script>
@@ -65,103 +45,108 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{
   attribution:'© OSM'
 }).addTo(map);
 
-// =====================
-// DATA CENTRES
-// =====================
-const regionsData = {
-  "Bretagne":{
-    centers:[
-      {nom:"CHU Pontchaillou", ville:"Rennes"}
-    ]
-  },
-  "Île-de-France":{
-    centers:[
-      {nom:"Pitié-Salpêtrière", ville:"Paris"}
-    ]
-  }
-};
-
-// =====================
-// SIDEBAR
-// =====================
 const sidebar = document.getElementById("sidebar");
 
-function show(regionName){
+// =====================
+// CENTRES TEST
+// =====================
+const data = {
+  "Bretagne":[
+    {nom:"CHU Rennes", ville:"Rennes"}
+  ],
+  "Île-de-France":[
+    {nom:"Pitié", ville:"Paris"}
+  ]
+};
 
-  const data = regionsData[regionName];
+function show(region){
+  const list = data[region];
 
-  if(!data){
-    sidebar.innerHTML = `<h2>${regionName}</h2><p>Aucun centre</p>`;
+  if(!list){
+    sidebar.innerHTML = `<h2>${region}</h2><p>Aucun centre</p>`;
     return;
   }
 
-  let html = `<h2>${regionName}</h2>`;
-
-  data.centers.forEach(c=>{
-    html += `
-      <div style="padding:10px;border:1px solid #ddd;margin-bottom:10px">
-        <b>${c.nom}</b><br/>
-        ${c.ville}
+  sidebar.innerHTML =
+    `<h2>${region}</h2>` +
+    list.map(c=>`
+      <div style="padding:10px;border:1px solid #ddd;margin:5px 0">
+        <b>${c.nom}</b><br>${c.ville}
       </div>
-    `;
-  });
-
-  sidebar.innerHTML = html;
+    `).join("");
 }
 
 // =====================
-// GEOJSON (IMPORTANT)
+// GEOJSON SAFE LOAD
 // =====================
+const url = "https://france-geojson.gregoiredavid.fr/repo/regions.geojson";
 
-// ⚠️ version robuste via fetch + logs
-fetch("https://france-geojson.gregoiredavid.fr/repo/regions.geojson")
-.then(r => r.json())
+fetch(url)
+.then(r => {
+  console.log("GeoJSON HTTP status:", r.status);
+  return r.json();
+})
 .then(geojson => {
 
-  const layer = L.geoJSON(geojson, {
+  console.log("GeoJSON loaded OK");
+
+  const layerGroup = L.geoJSON(geojson, {
 
     style: {
       fillColor:"#d9d9d9",
       color:"#ffffff",
       weight:1,
-      fillOpacity:0.8
+      fillOpacity:0.7
     },
 
-    onEachFeature: function(feature, l){
+    onEachFeature: function(feature, layer){
 
       const name =
         feature.properties.nom ||
         feature.properties.name ||
-        "inconnu";
+        feature.properties.NOM ||
+        "unknown";
 
-      console.log("Region:", name);
+      console.log("Region detected:", name);
 
-      l.bindTooltip(name, {
+      // label
+      layer.bindTooltip(name,{
         permanent:true,
         direction:"center",
         className:"region-label"
       });
 
-      l.on("mouseover", ()=>{
-        l.setStyle({fillOpacity:1});
+      layer.on("mouseover", ()=>{
+        layer.setStyle({fillOpacity:1});
       });
 
-      l.on("mouseout", ()=>{
-        layer.resetStyle(l);
+      layer.on("mouseout", ()=>{
+        layerGroup.resetStyle(layer);
       });
 
-      // ⭐ CLICK IMPORTANT
-      l.on("click", ()=>{
-        console.log("CLICK OK:", name);
+      layer.on("click", ()=>{
+        console.log("CLICK WORKS:", name);
         show(name);
       });
+
     }
 
   }).addTo(map);
 
+  // 🔥 test crucial
+  console.log("GeoJSON layer added to map");
+
 })
-.catch(err=>{
-  console.error("GeoJSON error", err);
+.catch(err => {
+
+  console.error("❌ GeoJSON FAILED:", err);
+
+  sidebar.innerHTML = `
+    <h2 style="color:red">ERREUR GEOJSON</h2>
+    <p>Le fichier de régions ne se charge pas.</p>
+    <p>Cause probable : GitHub Pages bloque ou réseau.</p>
+    <pre>${err}</pre>
+  `;
 });
 
 </script>
