@@ -41,6 +41,7 @@ h2{
   margin-top:0;
   color:#1f4e79;
 }
+
 /* FILTERS */
 #filters{
   padding:10px;
@@ -62,6 +63,7 @@ button.active{
   color:white;
   border-color:#3498db;
 }
+
 .card{
   border:1px solid #ddd;
   border-radius:10px;
@@ -70,26 +72,8 @@ button.active{
   background:#fafafa;
 }
 
-.card h3{
-  margin:0 0 8px;
-}
-
-.card p{
-  margin:4px 0;
-  font-size:14px;
-}
-.region-label{
-  font-size:12px;
-  font-weight:bold;
-}
-details{
-  margin-top:8px;
-}
-
-summary{
-  cursor:pointer;
-  font-weight:bold;
-}
+.card h3{margin:0 0 8px;}
+.card p{margin:4px 0;font-size:14px;}
 
 .leaflet-interactive{
   cursor:pointer;
@@ -107,25 +91,26 @@ summary{
 
     <b>Type cancer :</b><br>
 
-    <button onclick="setFilter('all')" class="active">Tous</button>
-    <button onclick="setFilter('oesogastrique')">Oesogastrique</button>
-    <button onclick="setFilter('foie')">Foie</button>
-    <button onclick="setFilter('pancreas')">Pancréas</button>
+    <button onclick="setFilter('all')" id="f-all" class="active">Tous</button>
+    <button onclick="setFilter('oesogastrique')" id="f-oeso">Oesogastrique</button>
+    <button onclick="setFilter('foie')" id="f-foie">Foie</button>
+    <button onclick="setFilter('pancreas')" id="f-pan">Pancréas</button>
 
     <hr>
 
     <b>Zone :</b><br>
 
-    <button onclick="setZone('all')" class="active">Tous</button>
-    <button onclick="setZone('metropole')">Métropole</button>
-    <button onclick="setZone('drom')">DROM</button>
+    <button onclick="setZone('all')" id="z-all" class="active">Tous</button>
+    <button onclick="setZone('metropole')" id="z-metro">Métropole</button>
+    <button onclick="setZone('drom')" id="z-drom">DROM</button>
 
   </div>
 
   <h2>Centres</h2>
-  <p>Clique une région</p>
+  <p>Clique sur une région</p>
 
 </div>
+
 <script>
 
 // =====================
@@ -138,10 +123,10 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{
 }).addTo(map);
 
 // =====================
-// CENTRES
+// DATA
 // =====================
 const data = {
-  "Bretagne":[
+"Bretagne":[
     {
       nom:'CHU Pontchaillou',
       ville:'Rennes',
@@ -183,7 +168,9 @@ const data = {
 `
     }
   ],
-"Guadeloupe":[
+
+
+  "Guadeloupe":[
     {
       nom:"CHU Pointe-à-Pitre",
       ville:"Guadeloupe",
@@ -191,46 +178,54 @@ const data = {
       zone:"drom"
     }
   ],
-  
+
   "Île-de-France":[
     {
       nom:"Pitié-Salpêtrière",
-      ville:"Paris"
+      ville:"Paris",
       type:"oesogastrique",
+      zone:"metropole"
     }
   ]
 };
+
 // =====================
-// FILTRES
+// STATE
 // =====================
 let currentType = "all";
 let currentZone = "all";
+let lastRegion = null;
 
+// =====================
+// FILTER UI
+// =====================
 function setFilter(type){
   currentType = type;
   updateButtons();
-  refreshSidebar(lastRegion);
+  if(lastRegion) refreshSidebar(lastRegion);
 }
 
 function setZone(zone){
   currentZone = zone;
   updateButtons();
-  refreshSidebar(lastRegion);
+  if(lastRegion) refreshSidebar(lastRegion);
 }
 
 function updateButtons(){
-  document.querySelectorAll("button").forEach(b=>{
-    b.classList.remove("active");
-  });
+
+  document.querySelectorAll("#filters button")
+    .forEach(b => b.classList.remove("active"));
+
+  document.getElementById("f-" + currentType)?.classList.add("active");
+  document.getElementById("z-" + currentZone)?.classList.add("active");
 }
+
 // =====================
 // SIDEBAR
 // =====================
 const sidebar = document.getElementById("sidebar");
-let lastRegion = null;
 
 function show(region){
-
   lastRegion = region;
   refreshSidebar(region);
 }
@@ -239,44 +234,33 @@ function refreshSidebar(region){
 
   const list = data[region] || [];
 
-  const filtered = list.filter(c=>{
-    const okType = currentType==="all" || c.type===currentType;
-    const okZone = currentZone==="all" || c.zone===currentZone;
-    return okType && okZone;
-  });
+  const filtered = list.filter(c =>
+    (currentType === "all" || c.type === currentType) &&
+    (currentZone === "all" || c.zone === currentZone)
+  );
 
   let html = `<h2>${region}</h2>`;
 
-  if(filtered.length===0){
-    html += "<p>Aucun centre pour ce filtre</p>";
+  if(filtered.length === 0){
+    html += "<p>Aucun centre</p>";
   }
 
   filtered.forEach(c=>{
     html += `
       <div class="card">
-
         <h3>${c.nom}</h3>
-        <p><b>Ville :</b> ${c.ville || ''}</p>
-        <p><b>Réunion :</b> ${c.réunion || ''}</p>
-        <p><b>Réseau :</b> ${c.réseau || ''}</p>
-        <p><b>Jour :</b> ${c.jour || ''}</p>
-        <p><b>Horaire :</b> ${c.horaire || ''}</p>
-        <p><b>Fréquence :</b> ${c.fréquence || ''}</p>
-        <p><b>Lieu :</b> ${c.lieu || ''}</p>
-        <p><b>Visioconférence :</b> ${c.visioconférence || ''}</p>
-
-        ${c.dossier || ''}
-
+        <p>${c.ville || ""}</p>
+        <p>${c.type || ""}</p>
+        ${c.dossier || ""}
       </div>
     `;
-
   });
 
-document.getElementById("sidebar").innerHTML = html;
+  sidebar.innerHTML = html;
 }
 
 // =====================
-// GEOJSON LOCAL (IMPORTANT)
+// GEOJSON
 // =====================
 fetch("https://pantogether.fr/data/regions.geojson")
 .then(r => r.json())
@@ -293,13 +277,15 @@ fetch("https://pantogether.fr/data/regions.geojson")
 
     onEachFeature:(feature, layer)=>{
 
-      const name =
-        feature.properties.nom ||
-        feature.properties.name;
+      const name = feature.properties.nom;
 
       layer.bindTooltip(name,{
         permanent:true,
         direction:"center"
+      });
+
+      layer.on("click", ()=>{
+        show(name);
       });
 
       layer.on("mouseover", ()=>{
@@ -308,10 +294,6 @@ fetch("https://pantogether.fr/data/regions.geojson")
 
       layer.on("mouseout", ()=>{
         layerGroup.resetStyle(layer);
-      });
-
-      layer.on("click", ()=>{
-        show(name);
       });
 
     }
