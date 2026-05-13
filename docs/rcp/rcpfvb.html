@@ -291,6 +291,19 @@ function refresh(){
   results.innerHTML = html;
 }
 
+function normalize(name){
+  return name
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .trim()
+    .toLowerCase();
+}
+const regionMap = {
+  "bretagne": "Bretagne",
+  "ile-de-france": "Île-de-France",
+  "pays de la loire": "Pays de la Loire",
+  "guadeloupe": "Guadeloupe"
+};
 // ===================== GEOJSON =====================
 fetch("https://pantogether.fr/data/regions.geojson")
 .then(r => r.json())
@@ -307,7 +320,7 @@ fetch("https://pantogether.fr/data/regions.geojson")
 
     onEachFeature:(feature, l)=>{
 
-      const regionName = feature.properties.nom;
+      const regionName = feature.properties.nom || feature.properties.name || "";
 
       l.bindTooltip(regionName, {
         permanent:true,
@@ -316,7 +329,14 @@ fetch("https://pantogether.fr/data/regions.geojson")
       });
 
       l.on("click", () => {
-        show(regionName);
+        const key = normalize(regionName);
+const realKey = regionMap[key];
+
+console.log("CLICK:", regionName, "→", realKey);
+
+if(realKey){
+  show(realKey);
+}
       });
     }
 
