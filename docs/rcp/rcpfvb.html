@@ -107,12 +107,49 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{
 
 // ===================== DATA =====================
 const data = {
-  "Bretagne":{
-    zone:"metropole",
-    centers:[
-      {nom:"CHU Rennes", ville:"Rennes", cancer:"foie", reunion:"RCP foie"}
-    ]
-  },
+  "Bretagne":[
+    {
+      nom:'CHU Pontchaillou',
+      ville:'Rennes',
+      type:"foie",
+      réunion:'RCP des tumeurs primitives hépatiques',
+      réseau:'',
+      jour:'Jeudi',
+      horaire:'16h00',
+      fréquence:'Hebdomadaire',
+      lieu:'Service imagerie',
+      visioconférence:'',
+
+      dossier:`
+<details>
+  <summary>Modalités de soumission d'un dossier</summary>
+
+  Dossier à déposer sur le DCC du patient :
+
+  <br><br>
+
+  <a href="https://auth.telesantebretagne.org/" target="_blank">Onco Bretagne</a>
+
+  <br><br>
+
+  Ou via :
+
+  <br><br>
+
+  <a href="https://www.telesante-bretagne.fr/" target="_blank">Télésanté Bretagne</a>
+</details>
+
+<details>
+  <summary>AMA en charge de la RCP</summary>
+
+  <a href="mailto:secretariat.rcp@rennes.unicancer.fr">
+    secretariat.rcp@rennes.unicancer.fr
+  </a>
+</details>
+`
+    }
+  ],
+
 
   "Île-de-France":{
     zone:"metropole",
@@ -200,7 +237,15 @@ function render(){
         <b>${c.nom}</b><br>
         ${c.ville}<br>
         ${c.cancer}<br>
-        ${c.reunion}
+        ${c.reunion}<br>
+        ${c.reseau}<br>
+        ${c.jour}<br>
+        ${c.horaire}<br>
+        ${c.frequance}<br>
+        ${c.lieu}<br>
+        ${c.visioconference}<br>
+        ${c.dossier}<br>
+        
       </div>
     `;
   });
