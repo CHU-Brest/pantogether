@@ -41,7 +41,27 @@ h2{
   margin-top:0;
   color:#1f4e79;
 }
+/* FILTERS */
+#filters{
+  padding:10px;
+  border-bottom:1px solid #ddd;
+  margin-bottom:10px;
+}
 
+button{
+  margin:3px;
+  padding:6px 10px;
+  border:1px solid #ccc;
+  background:#f7f7f7;
+  cursor:pointer;
+  border-radius:6px;
+}
+
+button.active{
+  background:#3498db;
+  color:white;
+  border-color:#3498db;
+}
 .card{
   border:1px solid #ddd;
   border-radius:10px;
@@ -58,7 +78,10 @@ h2{
   margin:4px 0;
   font-size:14px;
 }
-
+.region-label{
+  font-size:12px;
+  font-weight:bold;
+}
 details{
   margin-top:8px;
 }
@@ -79,10 +102,30 @@ summary{
 <div id="map"></div>
 
 <div id="sidebar">
-  <h2>Centres</h2>
-  <p>Clique sur une région</p>
-</div>
 
+  <div id="filters">
+
+    <b>Type cancer :</b><br>
+
+    <button onclick="setFilter('all')" class="active">Tous</button>
+    <button onclick="setFilter('oesogastrique')">Oesogastrique</button>
+    <button onclick="setFilter('foie')">Foie</button>
+    <button onclick="setFilter('pancreas')">Pancréas</button>
+
+    <hr>
+
+    <b>Zone :</b><br>
+
+    <button onclick="setZone('all')" class="active">Tous</button>
+    <button onclick="setZone('metropole')">Métropole</button>
+    <button onclick="setZone('drom')">DROM</button>
+
+  </div>
+
+  <h2>Centres</h2>
+  <p>Clique une région</p>
+
+</div>
 <script>
 
 // =====================
@@ -102,6 +145,7 @@ const data = {
     {
       nom:'CHU Pontchaillou',
       ville:'Rennes',
+      type:"foie",
       réunion:'RCP des tumeurs primitives hépatiques',
       réseau:'',
       jour:'Jeudi',
@@ -139,33 +183,75 @@ const data = {
 `
     }
   ],
-
+"Guadeloupe":[
+    {
+      nom:"CHU Pointe-à-Pitre",
+      ville:"Guadeloupe",
+      type:"pancreas",
+      zone:"drom"
+    }
+  ],
+  
   "Île-de-France":[
     {
       nom:"Pitié-Salpêtrière",
       ville:"Paris"
+      type:"oesogastrique",
     }
   ]
 };
+// =====================
+// FILTRES
+// =====================
+let currentType = "all";
+let currentZone = "all";
 
+function setFilter(type){
+  currentType = type;
+  updateButtons();
+  refreshSidebar(lastRegion);
+}
+
+function setZone(zone){
+  currentZone = zone;
+  updateButtons();
+  refreshSidebar(lastRegion);
+}
+
+function updateButtons(){
+  document.querySelectorAll("button").forEach(b=>{
+    b.classList.remove("active");
+  });
+}
 // =====================
 // SIDEBAR
 // =====================
 const sidebar = document.getElementById("sidebar");
+let lastRegion = null;
 
 function show(region){
 
-  const centers = data[region];
+  lastRegion = region;
+  refreshSidebar(region);
+}
 
-  if(!centers){
-    sidebar.innerHTML = `<h2>${region}</h2><p>Aucun centre</p>`;
-    return;
-  }
+function refreshSidebar(region){
+
+  const list = data[region] || [];
+
+  const filtered = list.filter(c=>{
+    const okType = currentType==="all" || c.type===currentType;
+    const okZone = currentZone==="all" || c.zone===currentZone;
+    return okType && okZone;
+  });
 
   let html = `<h2>${region}</h2>`;
 
-  centers.forEach(c => {
+  if(filtered.length===0){
+    html += "<p>Aucun centre pour ce filtre</p>";
+  }
 
+  filtered.forEach(c=>{
     html += `
       <div class="card">
 
@@ -186,7 +272,7 @@ function show(region){
 
   });
 
-  sidebar.innerHTML = html;
+document.getElementById("sidebar").innerHTML = html;
 }
 
 // =====================
