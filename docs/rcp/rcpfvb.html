@@ -52,7 +52,50 @@ const sidebar = document.getElementById("sidebar");
 // =====================
 const data = {
   "Bretagne":[
-    {nom:"CHU Rennes", ville:"Rennes"}
+    {nom:'CHU Pontchaillou',
+        ville:'Rennes',
+        réunion:'RCP des tumeurs primitives hépatiques',
+        réseau:'',
+        jour:'Jeudi',
+        horaire:'16h00',
+        fréquence:'Hebdomadaire',
+        lieu:'Service imagerie',
+        visioconférence:'',
+
+        dossier:`
+<details>
+  <summary>Modalités de soumission d'un dossier</summary>
+
+  Dossier à déposer sur le DCC du patient :
+
+  <br><br>
+
+  <a href="https://auth.telesantebretagne.org/" target="_blank">
+    Onco Bretagne
+  </a>
+
+  <br><br>
+
+  Ou transmission via :
+
+  <br><br>
+
+  <a href="https://www.telesante-bretagne.fr/" target="_blank">
+    Télésanté Bretagne
+  </a>
+
+</details>
+
+<details>
+  <summary>AMA en charge de la RCP</summary>
+
+  <a href="mailto:secretariat.rcp@rennes.unicancer.fr">
+    secretariat.rcp@rennes.unicancer.fr
+  </a>
+
+</details>
+`
+      }
   ],
   "Île-de-France":[
     {nom:"Pitié", ville:"Paris"}
