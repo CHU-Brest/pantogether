@@ -162,16 +162,14 @@ summary{
 <script>
 
 // =========================
-// CARTE
+// MAP
 // =========================
 
 const map = L.map('map').setView([46.5, 2.5], 6);
 
 L.tileLayer(
   'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
-  {
-    attribution:'© OpenStreetMap contributors'
-  }
+  { attribution: '© OpenStreetMap' }
 ).addTo(map);
 
 // =========================
@@ -180,100 +178,92 @@ L.tileLayer(
 
 const sidebar = document.getElementById('sidebar');
 
-function displayCenters(regionName){
+function displayCenters(name){
 
-  const region = regions[regionName];
+  const data = regions[name];
 
-  if(!region){
-    sidebar.innerHTML = `<h2>${regionName}</h2><p>Aucun centre</p>`;
+  if(!data){
+    sidebar.innerHTML = `<h2>${name}</h2><p>Aucun centre</p>`;
     return;
   }
 
-  let html = `<h2>${regionName}</h2>`;
-
-  region.centers.forEach(c => {
-    html += `
+  sidebar.innerHTML = `
+    <h2>${name}</h2>
+    ${data.centers.map(c => `
       <div class="center-card">
         <h3>${c.nom}</h3>
         <p>${c.ville}</p>
       </div>
-    `;
-  });
-
-  sidebar.innerHTML = html;
+    `).join('')}
+  `;
 }
 
 // =========================
-// DONNÉES
+// DATA CENTRES
 // =========================
 
 const regions = {
   Bretagne:{
-    centers:[
-      { nom:'CHU Pontchaillou', ville:'Rennes' }
-    ]
+    centers:[{nom:'CHU Pontchaillou', ville:'Rennes'}]
   },
   "Île-de-France":{
-    centers:[
-      { nom:'Pitié-Salpêtrière', ville:'Paris' }
-    ]
+    centers:[{nom:'Pitié-Salpêtrière', ville:'Paris'}]
+  },
+  Occitanie:{
+    centers:[{nom:'CHU Toulouse', ville:'Toulouse'}]
   }
 };
 
 // =========================
-// IMPORTANT : GEOJSON PROPRE
+// GEOJSON (CRUCIAL)
 // =========================
 
 fetch('https://france-geojson.gregoiredavid.fr/repo/regions.geojson')
   .then(r => r.json())
-  .then(geojsonData => {
+  .then(data => {
 
-    const geoLayer = L.geoJSON(geojsonData, {
+    const layerGroup = L.geoJSON(data, {
 
-      style: function(){
-        return {
-          fillColor:'#d9d9d9',
-          color:'#ffffff',
-          weight:1.5,
-          fillOpacity:0.8
-        };
+      style: {
+        fillColor: '#d9d9d9',
+        color: '#ffffff',
+        weight: 1.5,
+        fillOpacity: 0.8
       },
 
-      onEachFeature: function(feature, layer){
+      onEachFeature: (feature, layer) => {
 
-        const regionName = feature.properties.nom;
+        const name = feature.properties.nom;
 
-        // LABEL
-        layer.bindTooltip(regionName, {
-          permanent:true,
-          direction:'center',
-          className:'region-label'
+        // label
+        layer.bindTooltip(name, {
+          permanent: true,
+          direction: 'center',
+          className: 'region-label'
         });
 
-        // HOVER
-        layer.on('mouseover', function(){
-          layer.setStyle({ fillOpacity:1 });
+        // hover
+        layer.on('mouseover', () => {
+          layer.setStyle({ fillOpacity: 1 });
         });
 
-        layer.on('mouseout', function(){
-          geoLayer.resetStyle(layer);
+        layer.on('mouseout', () => {
+          layer.setStyle({ fillOpacity: 0.8 });
         });
 
-        // CLICK (ULTRA IMPORTANT)
-        layer.on('click', function(e){
+        // CLICK
+        layer.on('click', (e) => {
 
-          console.log("CLICK OK:", regionName);
+          console.log("CLICK:", name);
 
-          displayCenters(regionName);
+          displayCenters(name);
 
-          // highlight clicked region
-          geoLayer.eachLayer(l => {
-            geoLayer.resetStyle(l);
-          });
+          // reset styles propre
+          layerGroup.resetStyle();
 
           layer.setStyle({
-            fillOpacity:1,
-            weight:2
+            fillOpacity: 1,
+            weight: 2
           });
 
         });
@@ -282,8 +272,7 @@ fetch('https://france-geojson.gregoiredavid.fr/repo/regions.geojson')
 
     }).addTo(map);
 
-  })
-  .catch(err => console.error("GeoJSON error:", err));
+  });
 
 </script>
 </body>
