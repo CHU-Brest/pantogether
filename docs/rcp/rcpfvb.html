@@ -7,9 +7,9 @@ title: Foie et voies biliaires
 
 <head>
 <meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<title>Carte interactive</title>
+<title>Carte des régions & centres</title>
 
 <link
   rel="stylesheet"
@@ -20,7 +20,8 @@ title: Foie et voies biliaires
 
 <style>
 
-html, body{
+html,
+body{
   margin:0;
   padding:0;
   width:100%;
@@ -34,7 +35,7 @@ body{
 }
 
 /* =========================
-   Carte
+   CARTE
 ========================= */
 
 #map{
@@ -43,7 +44,7 @@ body{
 }
 
 /* =========================
-   Sidebar
+   SIDEBAR
 ========================= */
 
 #sidebar{
@@ -52,7 +53,7 @@ body{
   border-left:1px solid #ddd;
   overflow:auto;
   padding:20px;
-  box-shadow:-2px 0 8px rgba(0,0,0,.1);
+  box-shadow:-2px 0 8px rgba(0,0,0,.08);
 }
 
 #sidebar h2{
@@ -70,30 +71,57 @@ body{
 
 .center-card h3{
   margin-top:0;
+  margin-bottom:10px;
   color:#2c3e50;
 }
 
 .center-card p{
-  margin:4px 0;
+  margin:5px 0;
   font-size:14px;
 }
 
 .badge{
   display:inline-block;
   margin-top:10px;
-  padding:4px 10px;
+  padding:5px 10px;
   border-radius:999px;
   background:#3498db;
   color:white;
   font-size:12px;
 }
 
+/* =========================
+   REGIONS
+========================= */
+
 .leaflet-interactive{
   cursor:pointer;
 }
 
+.region-label{
+  background:transparent;
+  border:none;
+  box-shadow:none;
+  color:#333;
+  font-weight:bold;
+  font-size:13px;
+}
+
 /* =========================
-   Responsive
+   DETAILS
+========================= */
+
+details{
+  margin-top:10px;
+}
+
+summary{
+  cursor:pointer;
+  font-weight:bold;
+}
+
+/* =========================
+   MOBILE
 ========================= */
 
 @media(max-width:900px){
@@ -130,7 +158,7 @@ body{
 <script>
 
 // =========================
-// Initialisation carte
+// INITIALISATION CARTE
 // =========================
 
 const map = L.map('map', {
@@ -146,74 +174,62 @@ L.tileLayer(
 ).addTo(map);
 
 // =========================
-// Données régions
+// DONNÉES
 // =========================
 
 const regions = {
 
   Bretagne:{
-
-    color:'#4CAF50',
-
     centers:[
       {
-
         nom:'CHU Pontchaillou',
         ville:'Rennes',
         réunion:'RCP des tumeurs primitives hépatiques',
         réseau:'',
         jour:'Jeudi',
         horaire:'16h00',
-        fréquence:'hebdomadaire',
+        fréquence:'Hebdomadaire',
         lieu:'Service imagerie',
         visioconférence:'',
 
         dossier:`
-
 <details>
-  <summary>
-    <strong>Modalités de soumission d'un dossier</strong>
-  </summary>
+  <summary>Modalités de soumission d'un dossier</summary>
 
-  <p>
-    Dossier à déposer sur le DCC du patient :
-    <a href="https://auth.telesantebretagne.org/" target="_blank">
-      Onco Bretagne
-    </a>
-  </p>
+  Dossier à déposer sur le DCC du patient :
 
-  <p>
-    Ou transmission via :
-    <a href="https://www.telesante-bretagne.fr/" target="_blank">
-      Télésanté Bretagne
-    </a>
-  </p>
+  <br><br>
+
+  <a href="https://auth.telesantebretagne.org/" target="_blank">
+    Onco Bretagne
+  </a>
+
+  <br><br>
+
+  Ou transmission via :
+
+  <br><br>
+
+  <a href="https://www.telesante-bretagne.fr/" target="_blank">
+    Télésanté Bretagne
+  </a>
 
 </details>
 
-<br>
-
 <details>
-  <summary>
-    <strong>AMA en charge de la RCP</strong>
-  </summary>
+  <summary>AMA en charge de la RCP</summary>
 
   <a href="mailto:secretariat.rcp@rennes.unicancer.fr">
     secretariat.rcp@rennes.unicancer.fr
   </a>
 
 </details>
-
 `
-
       }
     ]
   },
 
   "Île-de-France":{
-
-    color:'#2196F3',
-
     centers:[
       {
         nom:'AP-HP Pitié-Salpêtrière',
@@ -223,9 +239,6 @@ const regions = {
   },
 
   Occitanie:{
-
-    color:'#FF9800',
-
     centers:[
       {
         nom:'CHU Toulouse',
@@ -235,9 +248,6 @@ const regions = {
   },
 
   "Provence-Alpes-Côte d'Azur":{
-
-    color:'#E91E63',
-
     centers:[
       {
         nom:'APHM Marseille',
@@ -249,7 +259,7 @@ const regions = {
 };
 
 // =========================
-// Sidebar
+// SIDEBAR
 // =========================
 
 const sidebar = document.getElementById('sidebar');
@@ -258,6 +268,7 @@ function displayCenters(regionName){
 
   const region = regions[regionName];
 
+  // Région sans données
   if(!region){
 
     sidebar.innerHTML = `
@@ -276,122 +287,145 @@ function displayCenters(regionName){
   region.centers.forEach(center => {
 
     html += `
-
       <div class="center-card">
 
         <h3>${center.nom || ''}</h3>
 
         <p><strong>Ville :</strong> ${center.ville || ''}</p>
-        <p><strong>Réunion :</strong> ${center.réunion || ''}</p>
-        <p><strong>Réseau :</strong> ${center.réseau || ''}</p>
-        <p><strong>Jour :</strong> ${center.jour || ''}</p>
-        <p><strong>Horaire :</strong> ${center.horaire || ''}</p>
-        <p><strong>Fréquence :</strong> ${center.fréquence || ''}</p>
-        <p><strong>Lieu :</strong> ${center.lieu || ''}</p>
-        <p><strong>Visioconférence :</strong> ${center.visioconférence || ''}</p>
+
+        ${
+          center.réunion
+          ? `<p><strong>Réunion :</strong> ${center.réunion}</p>`
+          : ''
+        }
+
+        ${
+          center.réseau
+          ? `<p><strong>Réseau :</strong> ${center.réseau}</p>`
+          : ''
+        }
+
+        ${
+          center.jour
+          ? `<p><strong>Jour :</strong> ${center.jour}</p>`
+          : ''
+        }
+
+        ${
+          center.horaire
+          ? `<p><strong>Horaire :</strong> ${center.horaire}</p>`
+          : ''
+        }
+
+        ${
+          center.fréquence
+          ? `<p><strong>Fréquence :</strong> ${center.fréquence}</p>`
+          : ''
+        }
+
+        ${
+          center.lieu
+          ? `<p><strong>Lieu :</strong> ${center.lieu}</p>`
+          : ''
+        }
+
+        ${
+          center.visioconférence
+          ? `<p><strong>Visioconférence :</strong> ${center.visioconférence}</p>`
+          : ''
+        }
 
         ${center.dossier || ''}
+
+        <br>
 
         <span class="badge">${regionName}</span>
 
       </div>
-
     `;
 
   });
 
   sidebar.innerHTML = html;
-
 }
 
 // =========================
-// GeoJSON régions France
+// GEOJSON REGIONS
 // =========================
 
-let geojson;
+fetch('https://france-geojson.gregoiredavid.fr/repo/regions.geojson')
 
-fetch('https://raw.githubusercontent.com/gregoiredavid/france-geojson/master/regions.geojson')
+  .then(response => response.json())
 
-.then(response => response.json())
+  .then(data => {
 
-.then(data => {
+    L.geoJSON(data, {
 
-  geojson = L.geoJSON(data, {
+      style: function(){
 
-    style: function(feature){
+        return {
+          fillColor:'#d9d9d9',
+          weight:1.5,
+          opacity:1,
+          color:'#ffffff',
+          fillOpacity:0.8
+        };
 
-      const regionName = feature.properties.nom;
+      },
 
-      const regionData = regions[regionName];
+      onEachFeature: function(feature, layer){
 
-      return {
+        // Selon le GeoJSON
+        const regionName =
+          feature.properties.nom ||
+          feature.properties.name ||
+          '';
 
-        fillColor: regionData
-          ? regionData.color
-          : '#dcdcdc',
-
-        weight:2,
-        opacity:1,
-        color:'white',
-        fillOpacity:0.7
-
-      };
-
-    },
-
-    onEachFeature: function(feature, layer){
-
-      const regionName = feature.properties.nom;
-
-      // Tooltip
-
-      layer.bindTooltip(regionName, {
-        sticky:true
-      });
-
-      // Hover
-
-      layer.on('mouseover', function(e){
-
-        e.target.setStyle({
-          fillOpacity:1,
-          weight:3
+        // Tooltip nom région
+        layer.bindTooltip(regionName, {
+          permanent:true,
+          direction:'center',
+          className:'region-label'
         });
 
-      });
+        // Hover
+        layer.on('mouseover', function(e){
 
-      layer.on('mouseout', function(e){
+          e.target.setStyle({
+            fillOpacity:1,
+            weight:2
+          });
 
-        geojson.resetStyle(e.target);
+        });
 
-      });
+        // Fin hover
+        layer.on('mouseout', function(e){
 
-      // Click
+          e.target.setStyle({
+            fillOpacity:0.8,
+            weight:1.5
+          });
 
-      layer.on('click', function(){
+        });
 
-        displayCenters(regionName);
+        // CLICK REGION
+        layer.on('click', function(){
 
-        map.fitBounds(
-          layer.getBounds(),
-          {
-            padding:[20,20]
-          }
-        );
+          displayCenters(regionName);
 
-      });
+        });
 
-    }
+      }
 
-  }).addTo(map);
+    }).addTo(map);
 
-})
+  })
 
-.catch(error => {
+  .catch(error => {
 
-  console.error('Erreur GeoJSON :', error);
+    console.error('Erreur GeoJSON :', error);
 
-});
+  });
 
 </script>
 
