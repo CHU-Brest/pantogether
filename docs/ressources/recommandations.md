@@ -58,8 +58,8 @@
 
   <div class="card">
     <strong>Cancer de l’estomac</strong><br>
-    <span class="version">Version : 12/05/2025</span><br>
-    <a href="https://www.snfge.org/sites/www.snfge.org/files/tncd/2025-09/tncd_chap-02-cancer-estomac_2025-05-12_0.pdf" target="_blank">
+    <span class="version">Version : 22/04/2026</span><br>
+    <a href="https://www.snfge.org/sites/www.snfge.org/files/tncd/2026-05/tncd_chap-02-cancer-estomac_2026-04-22.pdf" target="_blank">
       Accéder au document
     </a>
   </div>
