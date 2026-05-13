@@ -2,502 +2,285 @@
 title: Foie et voies biliaires
 ---
 
+```html
 <!DOCTYPE html>
 <html lang="fr">
 <head>
 <meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Carte des régions & centres</title>
 
-<title>Carte Interactive RCP France + DROM</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 
 <style>
 body{
-    margin:0;
-    font-family:Segoe UI,Arial,sans-serif;
-    background:#f4f6f9;
-    color:#1f2937;
+  margin:0;
+  font-family:Arial, sans-serif;
+  display:flex;
+  height:100vh;
+  overflow:hidden;
 }
 
-header{
-    padding:25px;
-    background:white;
-    box-shadow:0 2px 8px rgba(0,0,0,.05);
+/* ===== Carte ===== */
+#map{
+  flex:1;
+  height:100vh;
 }
 
-h1{
-    margin:0;
-    color:crimson;
+/* ===== Panneau droite ===== */
+#sidebar{
+  width:360px;
+  background:white;
+  border-left:1px solid #ddd;
+  overflow:auto;
+  padding:20px;
+  box-shadow:-2px 0 8px rgba(0,0,0,.1);
 }
 
-.subtitle{
-    margin-top:8px;
-    color:#555;
+#sidebar h2{
+  margin-top:0;
+  color:#1f4e79;
 }
 
-.layout{
-    display:flex;
-    height:calc(100vh - 110px);
+.center-card{
+  border:1px solid #ddd;
+  border-radius:12px;
+  padding:14px;
+  margin-bottom:14px;
+  background:#fafafa;
+  transition:0.2s;
 }
 
-#mapContainer{
-    flex:1;
-    background:#eef2f7;
-    position:relative;
-    overflow:auto;
+.center-card:hover{
+  transform:translateY(-2px);
+  box-shadow:0 4px 12px rgba(0,0,0,.08);
 }
 
-svg{
-    width:100%;
-    height:100%;
+.center-card h3{
+  margin:0 0 8px;
+  color:#2c3e50;
 }
 
-.region{
-    fill:#cbd5e1;
-    stroke:white;
-    stroke-width:2;
-    cursor:pointer;
-    transition:.2s;
-}
-
-.region:hover{
-    fill:#2563eb;
-}
-
-.region.active{
-    fill:#dc2626;
-}
-
-#regionPanel{
-    width:430px;
-    background:white;
-    overflow:auto;
-    border-left:1px solid #e5e7eb;
-    padding:20px;
-}
-
-.region-title{
-    font-size:24px;
-    margin-bottom:15px;
-    color:#111827;
-}
-
-.card{
-    background:#f9fafb;
-    border:1px solid #e5e7eb;
-    border-radius:14px;
-    padding:16px;
-    margin-bottom:16px;
-    transition:.2s;
-}
-
-.card:hover{
-    transform:translateY(-2px);
-    box-shadow:0 4px 12px rgba(0,0,0,.06);
-}
-
-.card h3{
-    margin:0 0 8px 0;
-    color:#111827;
+.center-card p{
+  margin:4px 0;
+  font-size:14px;
 }
 
 .badge{
-    display:inline-block;
-    padding:4px 10px;
-    border-radius:999px;
-    background:#dbeafe;
-    color:#1d4ed8;
-    font-size:12px;
-    margin-bottom:10px;
+  display:inline-block;
+  margin-top:8px;
+  padding:4px 8px;
+  border-radius:999px;
+  background:#3498db;
+  color:white;
+  font-size:12px;
 }
 
-.info{
-    font-size:14px;
-    margin:6px 0;
-}
+/* ===== Responsive ===== */
+@media(max-width:900px){
+  body{
+    flex-direction:column;
+  }
 
-details{
-    margin-top:10px;
-}
+  #sidebar{
+    width:100%;
+    height:40vh;
+    border-left:none;
+    border-top:1px solid #ddd;
+  }
 
-summary{
-    cursor:pointer;
-    font-weight:600;
-}
-
-.empty{
-    color:#6b7280;
-    padding:20px;
-}
-
-.drom{
-    fill:#94a3b8;
-}
-
-.legend{
-    position:absolute;
-    bottom:20px;
-    left:20px;
-    background:white;
-    padding:10px 14px;
-    border-radius:10px;
-    box-shadow:0 2px 8px rgba(0,0,0,.1);
-    font-size:13px;
-}
-
-.dot{
-    width:12px;
-    height:12px;
-    display:inline-block;
-    border-radius:50%;
-    margin-right:6px;
-}
-
-@media(max-width:1000px){
-    .layout{
-        flex-direction:column;
-        height:auto;
-    }
-
-    #regionPanel{
-        width:100%;
-        border-left:none;
-        border-top:1px solid #e5e7eb;
-    }
-
-    #mapContainer{
-        height:65vh;
-    }
+  #map{
+    height:60vh;
+  }
 }
 </style>
 </head>
-
 <body>
 
-<header>
-    <h1>Foie et Voies Biliaires</h1>
-    <div class="subtitle">
-        Carte interactive des RCP en France métropolitaine et DROM
-    </div>
-</header>
+<div id="map"></div>
 
-<div class="layout">
-
-<div id="mapContainer">
-
-<!-- ===================== CARTE SVG ===================== -->
-
-<svg viewBox="0 0 1000 900">
-
-    <!-- Bretagne -->
-    <path class="region" id="Bretagne"
-        d="M120 260 L190 220 L250 240 L260 300 L210 340 L150 330 L110 290 Z"/>
-
-    <!-- Normandie -->
-    <path class="region" id="Normandie"
-        d="M240 180 L340 170 L380 230 L330 280 L250 260 Z"/>
-
-    <!-- Hauts-de-France -->
-    <path class="region" id="Hauts-de-France"
-        d="M430 80 L530 70 L580 130 L520 190 L430 160 Z"/>
-
-    <!-- Grand Est -->
-    <path class="region" id="Grand-Est"
-        d="M600 130 L720 120 L780 250 L730 360 L620 340 L570 230 Z"/>
-
-    <!-- Pays de la Loire -->
-    <path class="region" id="Pays de la Loire"
-        d="M220 340 L320 330 L360 400 L300 470 L210 430 Z"/>
-
-    <!-- Centre-Val-de-Loire -->
-    <path class="region" id="Centre-Val-de-Loire"
-        d="M380 320 L500 320 L530 400 L450 470 L350 430 Z"/>
-
-    <!-- Ile-de-France -->
-    <circle class="region" id="Ile-de-France" cx="520" cy="280" r="35"/>
-
-    <!-- Bourgogne -->
-    <path class="region" id="Bourgogne-Franche-Comté"
-        d="M560 330 L670 330 L700 430 L610 500 L540 450 Z"/>
-
-    <!-- Nouvelle-Aquitaine -->
-    <path class="region" id="Nouvelle-Aquitaine"
-        d="M180 500 L360 500 L400 700 L260 820 L130 740 L120 590 Z"/>
-
-    <!-- Auvergne Rhône Alpes -->
-    <path class="region" id="Auvergne-Rhône-Alpes"
-        d="M620 500 L760 470 L820 640 L700 770 L570 700 Z"/>
-
-    <!-- Occitanie -->
-    <path class="region" id="Occitanie"
-        d="M410 650 L560 650 L610 820 L450 860 L320 790 Z"/>
-
-    <!-- PACA -->
-    <path class="region" id="Provence-Alpes-Côte-d'Azur"
-        d="M760 700 L900 720 L930 820 L790 850 L720 780 Z"/>
-
-    <!-- Guadeloupe -->
-    <circle class="region drom" id="Guadeloupe" cx="850" cy="180" r="18"/>
-
-    <!-- Labels -->
-    <text x="150" y="285" font-size="16">Bretagne</text>
-    <text x="270" y="220" font-size="16">Normandie</text>
-    <text x="440" y="130" font-size="16">Hauts-de-France</text>
-    <text x="640" y="240" font-size="16">Grand Est</text>
-    <text x="240" y="400" font-size="16">Pays de la Loire</text>
-    <text x="390" y="390" font-size="16">Centre</text>
-    <text x="500" y="285" font-size="14">IDF</text>
-    <text x="560" y="420" font-size="14">BFC</text>
-    <text x="190" y="640" font-size="16">Nouvelle-Aquitaine</text>
-    <text x="610" y="620" font-size="16">AURA</text>
-    <text x="430" y="760" font-size="16">Occitanie</text>
-    <text x="780" y="790" font-size="16">PACA</text>
-    <text x="820" y="150" font-size="14">Guadeloupe</text>
-
-</svg>
-
-<div class="legend">
-    <div><span class="dot" style="background:#cbd5e1"></span> Région</div>
-    <div><span class="dot" style="background:#dc2626"></span> Région sélectionnée</div>
-</div>
-
-</div>
-
-<!-- ===================== PANNEAU ===================== -->
-
-<div id="regionPanel">
-
-<div class="empty">
-    Cliquez sur une région de la carte pour afficher les RCP.
-</div>
-
-</div>
-
+<div id="sidebar">
+  <h2>Centres</h2>
+  <p>Cliquez sur une région pour afficher les centres associés.</p>
 </div>
 
 <script>
+// =========================
+// Initialisation carte
+// =========================
+const map = L.map('map', {
+  zoomControl:true,
+  minZoom:5
+}).setView([46.5, 2.5], 6);
 
-const rcpData = {
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  attribution:'© OpenStreetMap contributors'
+}).addTo(map);
 
-"Bretagne":[
-{
-centre:"CHU Pontchaillou, Rennes",
-reunion:"RCP des tumeurs primitives hépatiques",
-jour:"Jeudi",
-horaire:"16h00",
-frequence:"Hebdomadaire",
-lieu:"Service d'imagerie"
-}
-],
+// =========================
+// Données régions + centres
+// =========================
+const regions = {
+  Bretagne:{
+    color:'#4CAF50',
+    coords:[48.2,-2.8],
 
-"Pays de la Loire":[
-{
-centre:"CHU Nantes",
-reunion:"RCP foie et voies biliaires",
-jour:"Mercredi",
-horaire:"13h30-16h",
-frequence:"Hebdomadaire",
-lieu:"CHU Nantes"
-},
-{
-centre:"CHU Angers",
-reunion:"RCP des tumeurs primitives hépatiques",
-jour:"Vendredi",
-horaire:"15h",
-frequence:"Hebdomadaire",
-lieu:"CHU Angers"
-}
-],
+    centers:[
+      {
+        nom:'CHU Pontchaillou',
+        ville:'Rennes',
+        réunion:'RCP des tumeurs primitives hépatiques',
+        réseau:'',
+        jour:'Jeudi',
+        horaire:'16h00',
+        fréquence:'hebdomadaire',
+        lieu:'Service imagerie',
+        visioconférence:'',
 
-"Normandie":[
-{
-centre:"CHU Caen",
-reunion:"RCP Tumeurs primitives du Foie",
-jour:"Lundi",
-horaire:"16h30-19h",
-frequence:"Hebdomadaire",
-lieu:"Hôpital Côte de la Nacre"
-}
-],
+        dossier: `
+<details>
+    <summary><strong>Modalités de soumission d'un dossier</strong></summary>
 
-"Ile-de-France":[
-{
-centre:"Hôpital Beaujon AP-HP",
-reunion:"RCP Tumeurs hépatiques",
-jour:"Lundi",
-horaire:"14h-18h",
-frequence:"Hebdomadaire",
-lieu:"Salle de staff radiologie"
-},
-{
-centre:"Hôpital Saint-Antoine",
-reunion:"RCP tumeurs primitives foie et voies biliaires",
-jour:"Mercredi",
-horaire:"16h-18h",
-frequence:"Hebdomadaire",
-lieu:"Amphithéâtre radiologie"
-}
-],
+    Dossier à déposer sur le dossier communicant de cancérologie (DCC) du patient
+    <a href="https://auth.telesantebretagne.org/">
+        Onco Bretagne
+    </a>
+    <br>
 
-"Occitanie":[
-{
-centre:"CHU Montpellier",
-reunion:"RCP Foie",
-jour:"Vendredi",
-horaire:"14h",
-frequence:"Hebdomadaire",
-lieu:"Salle réunion radiologie"
-},
-{
-centre:"CHU Toulouse",
-reunion:"RCP CHC / Digestive / Moléculaire",
-jour:"Mercredi",
-horaire:"15h-18h30",
-frequence:"Hebdomadaire",
-lieu:"Hôpital Rangueil"
-}
-],
+    Ou transmission via
+    <a href="https://www.telesante-bretagne.fr/">
+        Télésanté Bretagne
+    </a>
 
-"Auvergne-Rhône-Alpes":[
-{
-centre:"Hôpital Croix-Rousse",
-reunion:"RCP CHC et tumeurs primitives du foie",
-jour:"Mardi",
-horaire:"17h-20h",
-frequence:"Hebdomadaire",
-lieu:"Bâtiment R"
-}
-],
+</details>
 
-"Nouvelle-Aquitaine":[
-{
-centre:"CHU Haut-Lévêque",
-reunion:"RCP tumeurs primitives du foie et voies biliaires",
-jour:"Mardi",
-horaire:"17h",
-frequence:"Hebdomadaire",
-lieu:"Salle Vasco-de-Gama"
-}
-],
+<details>
+    <summary><strong>AMA en charge de la RCP</strong></summary>
 
-"Grand-Est":[
-{
-centre:"CHU Reims",
-reunion:"RCP ONCOFOIE",
-jour:"Mardi",
-horaire:"16h-19h",
-frequence:"Bi-mensuelle",
-lieu:"CHU Reims"
-}
-],
+    <a href="mailto:secretariat.rcp@rennes.unicancer.fr">
+        secretariat.rcp@rennes.unicancer.fr
+    </a>
 
-"Hauts-de-France":[
-{
-centre:"CHU Lille",
-reunion:"RCP Tumeurs Hépatiques primitives",
-jour:"Jeudi",
-horaire:"16h-19h",
-frequence:"Hebdomadaire",
-lieu:"Hôpital Claude Huriez"
-}
-],
-
-"Guadeloupe":[
-{
-centre:"CHU Guadeloupe",
-reunion:"RCP nodule hépatique",
-jour:"Mardi",
-horaire:"8h",
-frequence:"Mensuelle",
-lieu:"Salle RCP des 3C"
-}
-],
-
-"Provence-Alpes-Côte-d'Azur":[
-{
-centre:"CHU Nice",
-reunion:"RCP tumeurs hépato-biliaires",
-jour:"Jeudi",
-horaire:"8h-9h30",
-frequence:"Hebdomadaire",
-lieu:"Archet 3"
-}
-],
-
-"Bourgogne-Franche-Comté":[
-{
-centre:"CHU Dijon",
-reunion:"RCP des tumeurs hépatiques",
-jour:"Lundi",
-horaire:"17h",
-frequence:"Hebdomadaire",
-lieu:"Service radiologie"
-}
-],
-
-"Centre-Val-de-Loire":[
-{
-centre:"CHRU Tours",
-reunion:"RCP Digestif / CHC / Neuro-endocrines",
-jour:"Mardi",
-horaire:"14h-18h",
-frequence:"Hebdomadaire",
-lieu:"Salle du 9e étage"
-}
-]
-
+</details>
+`
+      }
+    ]
+  }
 };
 
-const panel = document.getElementById("regionPanel");
+  'Île-de-France':{
+    color:'#2196F3',
+    coords:[48.8,2.5],
+    centers:[
+      {
+        nom:'AP-HP Pitié-Salpêtrière',
+        ville:'Paris',
+        type:'CHU',
+        contact:'01 42 16 00 00'
+      },
+      {
+        nom:'Hôpital Necker',
+        ville:'Paris',
+        type:'Centre expert',
+        contact:'01 44 49 40 00'
+      }
+    ]
+  },
 
-document.querySelectorAll(".region").forEach(region => {
+  Occitanie:{
+    color:'#FF9800',
+    coords:[43.9,1.8],
+    centers:[
+      {
+        nom:'CHU Toulouse',
+        ville:'Toulouse',
+        type:'CHU',
+        contact:'05 61 77 22 33'
+      }
+    ]
+  },
 
-    region.addEventListener("click", () => {
+  'Provence-Alpes-Côte d’Azur':{
+    color:'#E91E63',
+    coords:[43.9,6],
+    centers:[
+      {
+        nom:'APHM Marseille',
+        ville:'Marseille',
+        type:'CHU',
+        contact:'04 91 38 00 00'
+      }
+    ]
+  }
+};
 
-        document.querySelectorAll(".region")
-            .forEach(r => r.classList.remove("active"));
+// =========================
+// Sidebar
+// =========================
+const sidebar = document.getElementById('sidebar');
 
-        region.classList.add("active");
+function displayCenters(regionName){
+  const region = regions[regionName];
 
-        const regionName = region.id;
+  let html = `
+    <h2>${regionName}</h2>
+    <p>${region.centers.length} centre(s)</p>
+  `;
 
-        const meetings = rcpData[regionName] || [];
+  region.centers.forEach(center => {
+    html += `
+      <div class="center-card">
+        <h3>${center.nom}</h3>
+        <p><strong>Ville :</strong> ${center.ville}</p>
+        <p><strong>Réunion :</strong> ${center.réunion}</p>
+        <p><strong>Réseau :</strong> ${center.réseau}</p>
+        <p><strong>Jour :</strong> ${center.jour}</p>
+        <p><strong>Horaire :</strong> ${center.horaire}</p>
+        <p><strong>Fréquence :</strong> ${center.fréquence}</p>
+        <p><strong>Lieu :</strong> ${center.lieu}</p>
+        <p><strong>Visioconférence :</strong> ${center.visioconférence}</p>
+    ${center.dossier}
+</div>
+`;
+        <span class="badge">${regionName}</span>
+      </div>
+    `;
+  });
 
-        panel.innerHTML = `
-            <div class="region-title">${regionName}</div>
-            ${meetings.length ? meetings.map(m => `
-                <div class="card">
-                    <div class="badge">${m.frequence}</div>
+  sidebar.innerHTML = html;
+}
 
-                    <h3>${m.centre}</h3>
+// =========================
+// Affichage régions
+// =========================
+Object.entries(regions).forEach(([name, region]) => {
 
-                    <div class="info">
-                        <strong>Réunion :</strong> ${m.reunion}
-                    </div>
+  const circle = L.circleMarker(region.coords, {
+    radius:28,
+    fillColor:region.color,
+    color:'#fff',
+    weight:3,
+    fillOpacity:0.85
+  }).addTo(map);
 
-                    <div class="info">
-                        <strong>Jour :</strong> ${m.jour}
-                    </div>
+  circle.bindTooltip(name, {
+    permanent:true,
+    direction:'center',
+    className:'region-label'
+  });
 
-                    <div class="info">
-                        <strong>Horaire :</strong> ${m.horaire}
-                    </div>
+  circle.on('click', () => {
+    displayCenters(name);
 
-                    <div class="info">
-                        <strong>Lieu :</strong> ${m.lieu}
-                    </div>
-
-                </div>
-            `).join("") : `
-                <div class="empty">
-                    Aucune réunion enregistrée pour cette région.
-                </div>
-            `}
-        `;
+    map.flyTo(region.coords, 7, {
+      duration:0.8
     });
-
+  });
 });
 
 </script>
 
 </body>
 </html>
+`
