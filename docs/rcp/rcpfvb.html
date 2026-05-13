@@ -164,7 +164,7 @@ summary{
 <script>
 
 // =========================
-// INITIALISATION CARTE
+// CARTE
 // =========================
 
 const map = L.map('map').setView([46.5, 2.5], 6);
@@ -177,29 +177,21 @@ L.tileLayer(
 ).addTo(map);
 
 // =========================
-// DONNÉES
+// DONNÉES CENTRES
 // =========================
 
 const regions = {
-
   Bretagne:{
     centers:[
-      {
-        nom:'CHU Pontchaillou',
-        ville:'Rennes'
-      }
+      { nom:'CHU Pontchaillou', ville:'Rennes' }
     ]
   },
 
   "Île-de-France":{
     centers:[
-      {
-        nom:'Pitié-Salpêtrière',
-        ville:'Paris'
-      }
+      { nom:'Pitié-Salpêtrière', ville:'Paris' }
     ]
   }
-
 };
 
 // =========================
@@ -213,85 +205,74 @@ function displayCenters(regionName){
   const region = regions[regionName];
 
   if(!region){
-
-    sidebar.innerHTML = `
-      <h2>${regionName}</h2>
-      <p>Aucun centre renseigné.</p>
-    `;
-
+    sidebar.innerHTML = `<h2>${regionName}</h2><p>Aucun centre</p>`;
     return;
   }
 
-  let html = `
-    <h2>${regionName}</h2>
-  `;
+  let html = `<h2>${regionName}</h2>`;
 
-  region.centers.forEach(center => {
-
+  region.centers.forEach(c => {
     html += `
       <div class="center-card">
-        <h3>${center.nom}</h3>
-        <p>${center.ville}</p>
+        <h3>${c.nom}</h3>
+        <p>${c.ville}</p>
       </div>
     `;
-
   });
 
   sidebar.innerHTML = html;
 }
 
 // =========================
-// GEOJSON
+// GEOJSON (IMPORTANT)
 // =========================
 
-console.log(regions_geojson);
+fetch('https://france-geojson.gregoiredavid.fr/repo/regions.geojson')
+  .then(res => res.json())
+  .then(data => {
 
-L.geoJSON(regions_geojson, {
+    L.geoJSON(data, {
 
-  style:{
-    fillColor:'#d9d9d9',
-    color:'#ffffff',
-    weight:1.5,
-    fillOpacity:0.8
-  },
-
-  onEachFeature:function(feature, layer){
-
-    const regionName = feature.properties.nom;
-
-    layer.bindTooltip(regionName, {
-      permanent:true,
-      direction:'center',
-      className:'region-label'
-    });
-
-    layer.on('mouseover', function(e){
-
-      e.target.setStyle({
-        fillOpacity:1
-      });
-
-    });
-
-    layer.on('mouseout', function(e){
-
-      e.target.setStyle({
+      style: {
+        fillColor:'#d9d9d9',
+        color:'#ffffff',
+        weight:1.5,
         fillOpacity:0.8
-      });
+      },
 
-    });
+      onEachFeature: function(feature, layer){
 
-    layer.on('click', function(){
+        const regionName =
+          feature.properties.nom ||
+          feature.properties.name ||
+          '';
 
-      console.log('click', regionName);
+        // label
+        layer.bindTooltip(regionName, {
+          permanent:true,
+          direction:'center',
+          className:'region-label'
+        });
 
-      displayCenters(regionName);
+        layer.on('mouseover', function(){
+          layer.setStyle({ fillOpacity:1 });
+        });
 
-    });
+        layer.on('mouseout', function(){
+          layer.setStyle({ fillOpacity:0.8 });
+        });
 
-  }
+        // CLICK (ça doit marcher maintenant)
+        layer.on('click', function(){
+          displayCenters(regionName);
+        });
 
-}).addTo(map);
+      }
+
+    }).addTo(map);
+
+  })
+  .catch(err => console.error("GeoJSON error:", err));
 
 </script>
 
