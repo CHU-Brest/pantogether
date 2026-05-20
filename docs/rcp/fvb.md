@@ -551,7 +551,20 @@ Fax : 02 31 06 36 09 <br>
 Fiche à déposer sur le dossier communicant de cancérologie (DCC) du patient [Norm’Uni ](https://www.norm-uni.fr/portail.pro/) <br>
 
 
-### **Rouen**   
+### **CHU Rouen**   
+<ul>
+<li><strong> RCP Oncologie Digestive</strong></li> <br>
+Réseau OncoNormandie <br>
+<strong>Horaire :</strong> Jeudi à 15h30 <br>
+<strong>Fréquence :</strong> Hebdomadaire <br>
+<strong>Lieu :</strong> CHU Rouen <br>
+Service d’Hépatogastro-entérologie <br>
+1 rue de Germont, 76000 <strong>Rouen</strong>  <br>
+              <br>
+</ul>
+**Modalités de soumission d’un dossier** : <br>
+Fiche à déposer sur le dossier communicant de cancérologie (DCC) du patient [Norm’Uni ](https://www.norm-uni.fr/portail.pro/) <br>
+  <br>
    
 ## <span style="color:blue">**Nouvelle-Aquitaine**</span>
 ### **Hôpital Haut-Lévêque, CHU Bordeaux**
