@@ -1899,7 +1899,64 @@ Tel : 02 31 06 43 88<br>
 </details>
 
 
-### **Rouen**   
+### **CHU Rouen**   
+**Pr GHASSAN Riachi**     
+Service d’Hépatogastro-entérologie<br> 
+1 Rue de Germont, 76000 **Rouen** <br>
+Ghassan.Riachi@chu-rouen.fr <br> 
+<br>    
+   **Secrétariat :**      
+MARCOS Carine<br>
+carine.marcos@chu-rouen.fr <br>
+Tel : 02 32 88 66 33 <br>
+Fax : 02 32 88 81 49 <br>
+<br>
+<details>
+    <summary>Ressources de soin</summary> <br>
+<B>Plateaux techniques</B> <br>    
+<ul>
+<li>Radiothérapie externe </li>   
+<li>Radio-embolisation</li>   
+<li>Radiologie interventionnelle</li>   
+<li> Médecine nucléaire </li>   
+<li>Endoscopie interventionnelle bilio-pancréatique</li>   
+<li>Chirurgie viscérale</li>
+<li>Oncogénétique</li>   
+<li> Plateforme de biologie moléculaire </li> 
+<li> Plateforme d'anatomopathologie </li> 
+<li>Plateforme d’imagerie</li> 
+<li> Plateau de réanimation </li> 
+<li>Centre d'Investigation Clinique multithématique</li>
+</ul>
+<br>   
+<B>Soins de support</B> <br>
+<ul>
+<li>Diététique et nutrition</li>      
+<li>Soutien psychologique du patient</li>   
+<li>Soutien psychologique des proches et des aidants</li>   
+<li>Accompagnement social, familial et professionnel</li>   
+<li> Rééducation et activités physiques adaptées </li>   
+<li>Gestion de la douleur</li>   
+<li>Unité mobile de soins palliatifs</li>   
+<li> Onco-gériatrie</li>   
+<li> Conseils d'hygiène de vie</li>  
+
+</ul>
+<br>
+</details>   
+
+<details>
+    <summary>Ressources humaines</summary>
+<br>
+<ul>  
+<li> <B>Infirmier(e) de Coordination :</B> </li>
+<li> <B>Infirmier(e) en Pratiques Avancées :</B> </li>
+MAGNIER Helene <br>
+<br>
+<li> <B>Attaché(e) de Recherche Clinique :</B> </li>
+</ul>
+</details>
+
    
 ## <span style="color:blue">**Nouvelle-Aquitaine**</span>
 ### **Hôpital Haut-Lévêque, CHU Bordeaux**
