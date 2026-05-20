@@ -39,7 +39,7 @@ L’objectif est de fournir des **informations claires et fiables** sur :
 ## Cancers du foie et des voies biliaires
 <p> <a href="https://publuu.com/flip-book/1022968/2351172" target="_blank"> <img src="/assets/guidefoie.png" alt="guidefoie" width="200" class="image-hover"> </a> 
   <br> 
-  <a href="https://www.cancer.fr/catalogue-des-publications/cancer-du-foie-reperage-et-suivi-des-patients-a-risque-en-medecine-generale" target="_blank"> <img src="/assets/foiedepistage.png" alt="foiedepistage" width="200" class="image-hover"> </a> 
+  <a href="https://www.cancer.fr/catalogue-des-publications/cancer-du-foie-reperage-et-suivi-des-patients-a-risque-en-medecine-generale" target="_blank"> <img src="/assets/depistagefoie.png" alt="depistagefoie" width="200" class="image-hover"> </a> 
   <br>
   <a href="https://en-www.cancer.fr/catalogue-des-publications/les-traitements-du-cancer-du-foie" target="_blank"> <img src="/assets/guidefoieinca.png" alt="guidefoieinca" width="200" class="image-hover"> </a> 
   <br> 
