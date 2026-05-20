@@ -22,8 +22,9 @@ L’objectif est de fournir des **informations claires et fiables** sur :
 - **[Paris Liver Cancer Group](https://parislivercancergroup.com)**  
   → Vidéos explicatives sur les cancers du foie  
 
-- **[INCa](https://www.cancer.fr/toute-l-information-sur-les-cancers)**  
-  → Informations sur les cancers en général : comprendre les cancers, prévenir les risques de cancer et se faire dépister
+- **[INCa](https://www.cancer.fr/)**  
+  → [Informations sur les cancers en général](https://www.cancer.fr/toute-l-information-sur-les-cancers) : comprendre les cancers, prévenir les risques de cancer et se faire dépister
+  → Informations sur les [cancers du foie](https://en-www.cancer.fr/personnes-malades/les-cancers/foie)
     
 ---
 
@@ -36,6 +37,8 @@ L’objectif est de fournir des **informations claires et fiables** sur :
 
 ## Cancers du foie et des voies biliaires
 <p> <a href="https://publuu.com/flip-book/1022968/2351172" target="_blank"> <img src="/assets/guidefoie.png" alt="guidefoie" width="200" class="image-hover"> </a> 
+  <br> 
+  <a href="https://en-www.cancer.fr/catalogue-des-publications/les-traitements-du-cancer-du-foie" target="_blank"> <img src="/assets/guidefoieinca.png" alt="guidefoieinca" width="200" class="image-hover"> </a> 
   <br> 
   <a href="https://parislivercancergroup.com/pour-les-patients/#video-gallery-fabf4d9-5" target="_blank"> <img src="/assets/PLCGCHC.png" alt="CHC" width="400" class="image-hover"> </a> 
   <a href="https://parislivercancergroup.com/pour-les-patients/#video-gallery-fabf4d9-6" target="_blank"> <img src="/assets/PLCGCCA.png" alt="CCA" width="400" class="image-hover"> </a> 
