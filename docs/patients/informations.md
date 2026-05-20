@@ -25,6 +25,7 @@ L’objectif est de fournir des **informations claires et fiables** sur :
 - **[INCa](https://www.cancer.fr/)**  
   → [Informations sur les cancers en général](https://www.cancer.fr/toute-l-information-sur-les-cancers) : comprendre les cancers, prévenir les risques de cancer et se faire dépister
   → Informations sur les [cancers du foie](https://en-www.cancer.fr/personnes-malades/les-cancers/foie)
+  → Informations sur les [cancers du pancréas](https://www.cancer.fr/personnes-malades/les-cancers/pancreas/comprendre-la-maladie/l-essentiel)
     
 ---
 
@@ -57,7 +58,9 @@ L’objectif est de fournir des **informations claires et fiables** sur :
 
 ## Cancers du pancréas
 
-<a href="https://publuu.com/flip-book/1022968/2311878" target="_blank"> <img src="/assets/guidepancreas.png" alt="guidepancreas" width="200" class="image-hover"> </a>
+<p> <a href="https://publuu.com/flip-book/1022968/2311878" target="_blank"> <img src="/assets/guidepancreas.png" alt="guidepancreas" width="200" class="image-hover"> </a>
+<a href="https://en-www.cancer.fr/catalogue-des-publications/les-traitements-du-cancer-du-pancreas" target="_blank"> <img src="/assets/tttpancreasinca.png" alt="tttpancreasinca" width="400" class="image-hover"> </a>
+</p>
 
 
 <style> .image-hover {
