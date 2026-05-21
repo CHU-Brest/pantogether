@@ -23,9 +23,11 @@ L’objectif est de fournir des **informations claires et fiables** sur :
   → Vidéos explicatives sur les cancers du foie  
 
 - **[INCa](https://www.cancer.fr/)**  
-  → [Informations sur les cancers en général](https://www.cancer.fr/toute-l-information-sur-les-cancers) : comprendre les cancers, prévenir les risques de cancer et se faire dépister   
+  → [Informations sur les cancers en général](https://www.cancer.fr/toute-l-information-sur-les-cancers) : comprendre les cancers, prévenir les risques de cancer et se faire dépister
+  → Informations sur les [cancers de l'oesophage](https://www.cancer.fr/personnes-malades/les-cancers/aesophage)   
+  → Informations sur les [cancers de l'estomac](https://www.cancer.fr/personnes-malades/les-cancers/estomac)   
   → Informations sur les [cancers du foie](https://en-www.cancer.fr/personnes-malades/les-cancers/foie)   
-  → Informations sur les [cancers du pancréas](https://www.cancer.fr/personnes-malades/les-cancers/pancreas/comprendre-la-maladie/l-essentiel)   
+  → Informations sur les [cancers du pancréas](https://www.cancer.fr/personnes-malades/les-cancers/pancreas)    
     
 ---
 
