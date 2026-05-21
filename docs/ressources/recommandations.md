@@ -44,7 +44,7 @@
 </style>
 
   <!-- TNCD -->
- ## <h2>🔷 Thésaurus National de Cancérologie Digestive (TNCD)</h2>
+ <h2>🔷 Thésaurus National de Cancérologie Digestive (TNCD)</h2>
   <div class="stack">
   <h3> 🔸Œso-gastrique</h3>
 
@@ -129,7 +129,7 @@
   </div>
 
   <!-- AFEF -->
-##  <h2>🔷 Association Française pour l’Étude du Foie (AFEF)</h2>
+<h2>🔷 Association Française pour l’Étude du Foie (AFEF)</h2>
 
   <div class="card">
     <strong>Prise en charge du carcinome hépatocellulaire & outils pour la pratique</strong><br>
@@ -147,7 +147,7 @@
     </a>
   </div>
   
-## <h2>🔷 Thésaurus ACHBT, INCa</h2>
+<h2>🔷 Thésaurus ACHBT, INCa</h2>
   <div class="stack">
   <h3> 🔸Pancréas</h3>
 
