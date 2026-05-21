@@ -30,8 +30,7 @@ L’objectif est de fournir des **informations claires et fiables** sur :
   → Informations sur les [cancers du pancréas](https://www.cancer.fr/personnes-malades/les-cancers/pancreas)    
     
 ---
-
-## Cancers de l'œsophage et de l'estomac
+<h2>🔷 Cancers de l'œsophage et de l'estomac </h2>
 
 <p> 
   <a href="https://publuu.com/flip-book/1022968/2332220" target="_blank"> <img src="/assets/guideoes.png" alt="guideoes" width="200" class="image-hover"> 
