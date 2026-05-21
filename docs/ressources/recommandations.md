@@ -146,7 +146,19 @@
       Accéder au document
     </a>
   </div>
- 
+  
+ <h2>🔷 Thésaurus ACHBT, INCa</h2>
+  <div class="stack">
+  <h3> 🔸Pancréas</h3>
+
+  <div class="card">
+    <strong>Adénocarcinome du pancréas</strong><br>
+    <span class="version">Version : 2019</span><br>
+    <a href="https://www.cancer.fr/catalogue-des-publications/thesaurus-conduites-a-tenir-devant-des-patients-atteints-d-adenocarcinomes-du-pancreas" target="_blank">
+      Accéder au document
+    </a>
+  </div>
+
 </div>
 
 </main>
