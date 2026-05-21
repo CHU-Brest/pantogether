@@ -29,13 +29,15 @@ L’objectif est de fournir des **informations claires et fiables** sur :
     
 ---
 
-## Cancers de l'œsophage et de la jonction œsogastrique
+## Cancers de l'œsophage et de l'estomac
 
-<p> <a href="https://publuu.com/flip-book/1022968/2311877" target="_blank"> <img src="/assets/guideestomac.png" alt="guideestomac" width="200" class="image-hover"> </a> 
+<p> 
   <a href="https://publuu.com/flip-book/1022968/2332220" target="_blank"> <img src="/assets/guideoes.png" alt="guideoes" width="200" class="image-hover"> 
   </a> 
 <a href="https://en-www.cancer.fr/catalogue-des-publications/les-traitements-des-cancers-de-l-oesophage" target="_blank"> <img src="/assets/tttoesinca.png" alt="tttoesinca" width="230" class="image-hover"> 
   </a>
+  <br>
+  <a href="https://publuu.com/flip-book/1022968/2311877" target="_blank"> <img src="/assets/guideestomac.png" alt="guideestomac" width="200" class="image-hover"> </a> 
 <a href="https://en-www.cancer.fr/catalogue-des-publications/les-traitements-des-cancers-de-l-estomac" target="_blank"> <img src="/assets/tttestinca.png" alt="tttestinca" width="230" class="image-hover"> 
   </a>
 </p>
