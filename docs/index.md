@@ -143,7 +143,7 @@ Ils assurent :
 ## Vision
 
 <div class="slogan">
-PAN-TOGETHER : améliorer ensemble le pronostic des cancers digestifs de mauvais pronostic
+PAN-TOGETHER : ENSEMBLE pour améliorer le pronostic des cancers digestifs
 </div>
 
 ---
