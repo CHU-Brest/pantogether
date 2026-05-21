@@ -57,7 +57,7 @@ L’objectif est de fournir des **informations claires et fiables** sur :
 ## Cancers du pancréas
 
 <p> <a href="https://publuu.com/flip-book/1022968/2311878" target="_blank"> <img src="/assets/guidepancreas.png" alt="guidepancreas" width="200" class="image-hover"> </a>
-<a href="https://en-www.cancer.fr/catalogue-des-publications/les-traitements-du-cancer-du-pancreas" target="_blank"> <img src="/assets/tttpancreasinca.png" alt="tttpancreasinca" width="400" class="image-hover"> </a>
+<a href="https://en-www.cancer.fr/catalogue-des-publications/les-traitements-du-cancer-du-pancreas" target="_blank"> <img src="/assets/tttpancreasinca.png" alt="tttpancreasinca" width="230" class="image-hover"> </a>
 </p>
 
 
