@@ -14,7 +14,7 @@ L’objectif est de fournir des **informations claires et fiables** sur :
 
 ---
 
-<h2>🔷 Ressources utiles </h2>
+## <h2>🔷 Ressources utiles </h2>
 
 - **[Fondation ARCAD](https://www.fondationarcad.org/les-cancers-digestifs/tous-les-guides-a-r-ca-d/#Tlchargement)**  
   → Guides complets sur les cancers digestifs  
@@ -30,7 +30,7 @@ L’objectif est de fournir des **informations claires et fiables** sur :
   → Informations sur les [cancers du pancréas](https://www.cancer.fr/personnes-malades/les-cancers/pancreas)    
     
 ---
-<h2>🔷 Cancers de l'œsophage et de l'estomac </h2>
+## <h2>🔷 Cancers de l'œsophage et de l'estomac </h2>
 
 <p> 
   <a href="https://publuu.com/flip-book/1022968/2332220" target="_blank"> <img src="/assets/guideoes.png" alt="guideoes" width="200" class="image-hover"> 
@@ -44,7 +44,7 @@ L’objectif est de fournir des **informations claires et fiables** sur :
 </p>
 ---
 
-<h2>🔷 Cancers du foie et des voies biliaires </h2>
+## <h2>🔷 Cancers du foie et des voies biliaires </h2>
 
 <p> <a href="https://publuu.com/flip-book/1022968/2351172" target="_blank"> <img src="/assets/guidefoie.png" alt="guidefoie" width="200" class="image-hover"> </a>  
     <a href="https://en-www.cancer.fr/catalogue-des-publications/les-traitements-du-cancer-du-foie" target="_blank"> <img src="/assets/guidefoieinca.png" alt="guidefoieinca" width="230" class="image-hover"> </a> 
@@ -62,7 +62,7 @@ L’objectif est de fournir des **informations claires et fiables** sur :
   <a href="https://parislivercancergroup.com/pour-les-patients/#video-gallery-fabf4d9-10" target="_blank"> <img src="/assets/Chimioembol.png" alt="Chimioembol" width="400" class="image-hover"> </a>
 </p>
 
-<h2>🔷 Cancers du pancréas </h2>
+## <h2>🔷 Cancers du pancréas </h2>
 
 <p> <a href="https://publuu.com/flip-book/1022968/2311878" target="_blank"> <img src="/assets/guidepancreas.png" alt="guidepancreas" width="200" class="image-hover"> </a>
 <a href="https://en-www.cancer.fr/catalogue-des-publications/les-traitements-du-cancer-du-pancreas" target="_blank"> <img src="/assets/tttpancreasinca.png" alt="tttpancreasinca" width="230" class="image-hover"> </a>
