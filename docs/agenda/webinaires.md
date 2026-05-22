@@ -2,8 +2,18 @@
 title: Webinaires
 
 ---
-# Pancréas
-## Evènements à venir
+## Evènements à venir   
+<br>
+**Webinaire de la Fondation ARCAD** <br> 
+📅 Reporté, Date à venir
+<br> 
+<a href="https://www.fondationarcad.org/webconference/le-projet-yoda-mieux-comprendre-les-cancers-du-pancreas-chez-les-jeunes/" target="_blank">
+  <img src="/assets/ARCADYODA26.png" alt="ARCADYODA" width="350" class="image-hover">
+</a>
+<br> 
+
+
+## Evènements passés   
 
 **Webinaires bi-mensuels du réseau [FRAP](https://www.frap-network.org/) sur le cancer du pancréas.**  
    
@@ -35,10 +45,4 @@ https://u-paris.zoom.us/meeting/register/O11F8yzFSXulOT-fF67iAg <br>
 </a>
 <br>
 <br> 
-**Webinaire de la Fondation ARCAD** <br> 
-📅 Reporté, Date à venir
-<br> 
-<a href="https://www.fondationarcad.org/webconference/le-projet-yoda-mieux-comprendre-les-cancers-du-pancreas-chez-les-jeunes/" target="_blank">
-  <img src="/assets/ARCADYODA26.png" alt="ARCADYODA" width="350" class="image-hover">
-</a>
-<br> 
+
