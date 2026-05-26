@@ -95,7 +95,7 @@ Il s’articule autour d’un centre pilote et de 3 centres experts référents 
 Le réseau regroupe **plus de 52 centres experts** en France et Outre-mer.   
 Chaque centre expert est reconnu pour son haut niveau d’expertise et sélectionné selon des critères d’excellence exigeants incluant une prise en charge d’un volume important de patients, un accès systématique aux essais cliniques les plus innovants, ainsi qu’une activité scientifique reconnue au niveau national et international.   
 
-Ils assurent :
+Ils assurent :   
 - l'accès aux essais cliniques innovants   
 - l'animation de réunions de concertation pluridisciplinaire spécialisées (RCP)   
 - la coordination ville–hôpital   
