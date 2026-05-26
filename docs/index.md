@@ -93,10 +93,10 @@ sur l’ensemble du territoire.
 Le réseau regroupe **plus de 52 centres experts** en France et Outre-mer.
 
 Ils assurent :
-- accès aux essais cliniques innovants
-- concertation pluridisciplinaire (RCP spécialisées)
-- coordination ville–hôpital
-- accès aux plateaux techniques de référence
+- accès aux essais cliniques innovants   
+- concertation pluridisciplinaire (RCP spécialisées)   
+- coordination ville–hôpital   
+- accès aux plateaux techniques de référence   
 
 👉 <a href="../cartes.html"><strong>Voir la cartographie des centres</strong></a>
 
