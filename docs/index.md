@@ -39,6 +39,8 @@ sur l’ensemble du territoire.
 ---
 
 ## Organisation
+**PAN-TOGETHER** est un réseau d’excellence clinique labellisé par l’INCa.   
+Il s’articule autour d’un centre pilote et de 3 centres experts référents pour chaque axe basé sur les localisations anatomiques ciblées. Chaque centre référent pilote le projet à l’échelle nationale en s’appuyant sur des centres experts.       
 
 <!-- CARD CENTRALE -->
 <div class="center-card">
@@ -90,13 +92,14 @@ sur l’ensemble du territoire.
 
 ## Centres experts
 
-Le réseau regroupe **plus de 52 centres experts** en France et Outre-mer.
+Le réseau regroupe **plus de 52 centres experts** en France et Outre-mer.   
+Chaque centre expert est reconnu pour son haut niveau d’expertise et sélectionné selon des critères d’excellence exigeants incluant une prise en charge d’un volume important de patients, un accès systématique aux essais cliniques les plus innovants, ainsi qu’une activité scientifique reconnue au niveau national et international.   
 
 Ils assurent :
-- accès aux essais cliniques innovants   
-- concertation pluridisciplinaire (RCP spécialisées)   
-- coordination ville–hôpital   
-- accès aux plateaux techniques de référence   
+- l'accès aux essais cliniques innovants   
+- l'animation de réunions de concertation pluridisciplinaire spécialisées (RCP)   
+- la coordination ville–hôpital   
+- l'accès aux plateaux techniques de référence   
 
 👉 <a href="../cartes.html"><strong>Voir la cartographie des centres</strong></a>
 
