@@ -186,7 +186,7 @@ const events = [
   {
     date: "2026-07-01",
     displayDate: "01-04 Juillet 2026",
-    ville: "Munich, ALlemagne",
+    ville: "Munich, Allemagne",
     titre: "ESMO Gastrointestinal Cancers Congress 2026",
     image: "/assets/ESMO2026.png",
     lien: "https://www.esmo.org/meeting-calendar/esmo-gastrointestinal-cancers-congress-2026"
