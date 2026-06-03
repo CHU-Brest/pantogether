@@ -2,11 +2,247 @@
 title: Web conférences
 
 ---
+<div class="month-nav" id="month-nav"></div>
+<div class="timeline" id="timeline"></div>
 
-**Webinaire FRAP, Espoir Pancréas et l'AFRCP** <br> 
-📅 05 Juin 2026 de 12h à 14h
-<br> 
-<a href="https://frap.anamorphik.com/" target="_blank">
-  <img src="/assets/webinairefrap050626.png" alt="webinairefrap050626" width="300" class="image-hover">
-</a>
-<br>
+<style>
+.timeline {
+  position: relative;
+  max-width: 900px;
+  margin: 50px auto;
+}
+
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 4px;
+  background: #ddd;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.timeline-item {
+  position: relative;
+  width: 50%;
+  padding: 20px 40px;
+  opacity: 0;
+  transform: translateY(40px);
+  transition: 0.6s;
+}
+
+.timeline-item.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.timeline-item.left { left: 0; }
+.timeline-item.right { left: 50%; }
+
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  top: 30px;
+  width: 16px;
+  height: 16px;
+  background: #007BFF;
+  border-radius: 50%;
+}
+
+.timeline-item.left::before { right: -8px; }
+.timeline-item.right::before { left: -8px; }
+
+.content {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+}
+
+.content img {
+  margin-top: 10px;
+  max-width: 100%;
+  border-radius: 6px;
+}
+
+.timeline-month {
+  text-align: center;
+  font-weight: bold;
+  margin: 40px 0 20px;
+}
+
+/* NAV */
+.month-nav {
+  position: sticky;
+  top: 0;
+  background: white;
+  padding: 10px;
+  z-index: 100;
+}
+
+.month-grid {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.month-btn {
+  padding: 8px 14px;
+  border-radius: 20px;
+  background: #eee;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.month-btn:hover {
+  background: #007BFF;
+  color: white;
+}
+
+.month-btn.active {
+  background: #007BFF;
+  color: white;
+}
+
+/* MOBILE */
+@media screen and (max-width: 768px) {
+  .timeline::after { left: 20px; }
+
+  .timeline-item {
+    width: 100%;
+    padding-left: 60px;
+  }
+
+  .timeline-item.right { left: 0; }
+}
+</style>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+const events = [
+  {
+    date: "2026-06-05",
+    displayDate: "05 Juin 2026",
+    horaire: "12h-14h",
+    organisateur: "FRAP, Espoir Pancréas et l'AFRCP",
+    titre: "De la recherche à la clinique : entre science, médias et accès aux traitements",
+    image: "/assets/webinairefrap050626.png",
+    lien: "https://frap.anamorphik.com/"
+  },
+  {
+    date: "2026-06-26",
+    displayDate: "26 Juin 2026",
+    horaire: "12h15-13h",
+    organisateur: "ARCAD",
+    titre: "Thérapie ciblée et cancer du pancréas : les inhibiteurs de KRAS",
+    image: "/assets/arcad260626.png",
+    lien: "https://www.fondationarcad.org/webconference/26-06-2026-webconference-therapie-ciblee-et-cancer-du-pancreas-les-inhibiteurs-de-kras/"
+  }
+ ];
+
+// TRI
+events.sort((a,b)=> new Date(a.date)-new Date(b.date));
+
+// GROUP
+const months = {};
+events.forEach(e=>{
+  const d=new Date(e.date);
+  const key=d.toLocaleString('fr-FR',{month:'long',year:'numeric'});
+  if(!months[key]) months[key]=[];
+  months[key].push(e);
+});
+
+const timeline=document.getElementById('timeline');
+const nav=document.getElementById('month-nav');
+
+const grid=document.createElement('div');
+grid.className='month-grid';
+nav.appendChild(grid);
+
+let index=0;
+const monthElements=[];
+
+Object.keys(months).forEach(month=>{
+
+  const id=month.replace(/\s/g,'-');
+
+  // bouton navigation
+  const btn=document.createElement('div');
+  btn.className='month-btn';
+  btn.innerText=month;
+
+  btn.onclick=()=>{
+    const el = document.getElementById(id);
+    const y = el.getBoundingClientRect().top + window.scrollY - 80;
+    window.scrollTo({top:y, behavior:'smooth'});
+  };
+
+  grid.appendChild(btn);
+
+  // titre mois
+  const monthBlock=document.createElement('div');
+  monthBlock.className='timeline-month';
+  monthBlock.id=id;
+  monthBlock.innerText=month;
+
+  timeline.appendChild(monthBlock);
+
+  monthElements.push({element:monthBlock,btn});
+
+  // events
+  months[month].forEach(e=>{
+    const side=index%2===0?'left':'right';
+
+    const item=document.createElement('div');
+    item.className='timeline-item '+side;
+
+    item.innerHTML=`
+      <div class="content">
+        <span>${e.displayDate} · ${e.horaire}</span>
+        <h3>${e.titre}</h3>
+        <h3>${e.organisateur}</h3>
+        <a href="${e.lien}" target="_blank">
+          <img src="${e.image}">
+        </a>
+      </div>
+    `;
+
+    timeline.appendChild(item);
+    index++;
+  });
+});
+
+// animation apparition
+function reveal() {
+  document.querySelectorAll('.timeline-item').forEach(item => {
+    const top = item.getBoundingClientRect().top;
+    if (top < window.innerHeight * 0.85) {
+      item.classList.add('show');
+    }
+  });
+}
+
+window.addEventListener('scroll', reveal);
+reveal();
+
+// surlignage mois actif
+window.addEventListener('scroll',()=>{
+  let current=null;
+
+  monthElements.forEach(m=>{
+    if(m.element.getBoundingClientRect().top <= 120){
+      current=m;
+    }
+  });
+
+  if(current){
+    document.querySelectorAll('.month-btn').forEach(b=>b.classList.remove('active'));
+    current.btn.classList.add('active');
+  }
+});
+
+});
+</script>
