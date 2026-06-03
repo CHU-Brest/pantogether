@@ -1,7 +1,3 @@
----
-title: Web conférences
-
----
 <div class="month-nav" id="month-nav"></div>
 <div class="timeline" id="timeline"></div>
 
