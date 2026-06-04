@@ -214,6 +214,14 @@ const events = [
     titre: "Journée scientifique Oncologie digestive",
     image: "",
     lien: ""
+  },
+  {
+    date: "2026-06-17",
+    displayDate: "27 Juin 2026",
+    ville: "Paris",
+    titre: "Face aux cancers, les hôpitaux oublics en action_FHF & FHF Cancer",
+    image: "/assets/fhf170626.png",
+    lien: "https://www.fhf.fr/actualites/agenda/face-au-cancer-les-hopitaux-publics-en-action"
   }
 ];
 
