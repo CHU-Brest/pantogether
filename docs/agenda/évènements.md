@@ -180,7 +180,7 @@ const events = [
     displayDate: "29 Septembre 2026",
     ville: "Paris",
     titre: "Journée scientifique sur la prévention et le dépistage des cancers",
-    image: "/assets/logoinca.png",
+    image: "/assets/inca290926.png",
     lien: "https://www.cancer.fr/evenements/journee-scientifique-sur-le-depistage-et-la-prevention-des-cancers"
   },
   {
