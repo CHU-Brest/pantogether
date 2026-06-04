@@ -181,7 +181,7 @@ const events = [
     ville: "Paris",
     titre: "Journée scientifique sur la prévention et le dépistage des cancers",
     image: "/assets/logoinca.png",
-    lien: ""
+    lien: "https://www.cancer.fr/evenements/journee-scientifique-sur-le-depistage-et-la-prevention-des-cancers"
   },
   {
     date: "2026-07-01",
