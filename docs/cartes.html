@@ -10,6 +10,7 @@ title: Carte interactive des centres
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://unpkg.com/leaflet.markercluster/dist/leaflet.markercluster.js"></script>
 <style>
 body{margin:0;font-family:Arial}
 #map{
@@ -72,6 +73,8 @@ body{margin:0;font-family:Arial}
     width:90vw !important;
     max-width:90vw !important;
   }
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.css" />
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.Default.css" />
 }
 
 </style>
@@ -171,8 +174,14 @@ body{margin:0;font-family:Arial}
  const map = L.map('map').setView([46.6,2.5],6);
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'© OpenStreetMap'}).addTo(map);
 
-const markerGroup = L.layerGroup().addTo(map);
-
+const markerGroup = L.markerClusterGroup({
+  showCoverageOnHover: false,
+  spiderfyOnMaxZoom: true,
+  zoomToBoundsOnClick: true,
+  maxClusterRadius: 50
+});
+map.addLayer(markerGroup);
+ 
 // ===== Régions cliquables (GeoJSON) =====
 const urlRegions = "https://raw.githubusercontent.com/gregoiredavid/france-geojson/master/regions.geojson";
 
