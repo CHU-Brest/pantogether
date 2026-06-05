@@ -384,7 +384,7 @@ const centres = [
     nom: "CHU Clermont-Ferrand", ville: "Clermont-Ferrand", region: "Auvergne-Rhône-Alpes",
     axe: "foie", lat: 45.790, lng: 3.115,
     rcps: [
-      { reunion: "RCP Tumeurs hépatiques", reseau: "", jour: "Vendredi", horaire: "14h30–17h", freq: "Hebdomadaire", ama: "GARREAU Sylvie", email: "sgarreau@chu-clermontferrand.fr", tel: "04 73 75 05 23" }
+      { reunion: "RCP Tumeurs hépatiques", reseau: "", jour: "Vendredi", horaire: "14h30–17h", freq: "Hebdomadaire", ama: "ROCHA Stéphanie", email: "srocha@chu-clermontferrand.fr", tel: "04 73 75 05 23" }
     ]
   },
   {
@@ -398,8 +398,8 @@ const centres = [
     nom: "Hôpital Croix-Rousse, HCL", ville: "Lyon", region: "Auvergne-Rhône-Alpes",
     axe: "foie", lat: 45.772, lng: 4.828,
     rcps: [
-      { reunion: "RCP CHC et autres tumeurs primitives du foie", reseau: "ONCO-AURA", jour: "Mardi", horaire: "17h–20h", freq: "Hebdomadaire" },
-      { reunion: "RCP Hépato-Gastroentérologie", reseau: "ONCO-AURA", jour: "Jeudi", horaire: "16h–18h", freq: "Hebdomadaire" }
+      { reunion: "RCP CHC et autres tumeurs primitives du foie", reseau: "ONCO-AURA", jour: "Mardi", horaire: "17h–20h", freq: "Hebdomadaire", ama: "QUERIN Marie (secrétaire des 3C) & LESNIOHSKI Eve (secrétaire du Pr Merle)", email: "marie.querin@chu-lyon.fr & eve.lesniohski@chu-lyon.fr", tel: "04 72 07 29 17 & 04 26 10 93 56" },
+      { reunion: "RCP Hépato-Gastroentérologie", reseau: "ONCO-AURA", jour: "Jeudi", horaire: "16h–18h", freq: "Hebdomadaire", ama: "QUERIN Marie (secrétaire des 3C) & LESNIOHSKI Eve (secrétaire du Pr Merle)", email: "marie.querin@chu-lyon.fr & eve.lesniohski@chu-lyon.fr", tel: "04 72 07 29 17 & 04 26 10 93 56" }
     ]
   },
   {
@@ -413,8 +413,9 @@ const centres = [
     nom: "Hôpital François Mitterrand, CHU Dijon", ville: "Dijon", region: "Bourgogne-Franche-Comté",
     axe: "foie", lat: 47.323, lng: 5.044,
     rcps: [
-      { reunion: "RCP des tumeurs hépatiques", reseau: "RRC BFC", jour: "Lundi", horaire: "17h", freq: "Hebdomadaire", email: "3C@chu-dijon.fr", tel: "03 80 29 56 27" },
-      { reunion: "RCP d'oncologie digestive", reseau: "RRC BFC", jour: "Mercredi", horaire: "16h30", freq: "Hebdomadaire", email: "3C@chu-dijon.fr" }
+      { reunion: "RCP des tumeurs hépatiques", reseau: "Réseau Régional de Cancérologie de BFC", jour: "Lundi", horaire: "17h", freq: "Hebdomadaire", email: "3C@chu-dijon.fr", tel: "03 80 29 56 27" },
+      { reunion: "RCP d'oncologie digestive", reseau: "Réseau Régional de Cancérologie de BFC", jour: "Mercredi", horaire: "16h30", freq: "Hebdomadaire", email: "3C@chu-dijon.fr", tel: "03 80 29 56 27" },
+      { reunion: "RCP Oncogénétique", reseau: "Réseau Régional de Cancérologie de BFC", jour: "Mercredi", horaire: "15h-16h", freq: "Bi-mensuelle", email: "3C@chu-dijon.fr", tel: "03 80 29 56 27" }
     ]
   },
   {
@@ -428,22 +429,22 @@ const centres = [
     nom: "Hôpital Trousseau, CHRU Tours", ville: "Tours", region: "Centre-Val-de-Loire",
     axe: "foie", lat: 47.369, lng: 0.708,
     rcps: [
-      { reunion: "RCP Digestif ; RCP CHC ; RCP Tumeurs Neuro-endocrines ; RCP Oncogénétique", reseau: "", jour: "Mardi", horaire: "14h–18h", freq: "Hebdomadaire", ama: "CHATEL Marjorie", email: "rcp.trousseau@chu-tours.fr", tel: "02 47 47 47 47" }
+      { reunion: "RCP Digestif ; RCP CHC ; RCP Oncogénétique", reseau: "", jour: "Mardi", horaire: "14h–18h", freq: "Hebdomadaire", ama: "CHATEL Marjorie", email: "rcp.trousseau@chu-tours.fr", tel: "02 47 47 47 47" }
     ]
   },
   {
     nom: "CHRU Nancy", ville: "Nancy", region: "Grand-Est",
     axe: "foie", lat: 48.684, lng: 6.184,
     rcps: [
-      { reunion: "RCP Tumeurs primitives du foie (CHU-ICL)", reseau: "", jour: "Jeudi", horaire: "", freq: "Hebdomadaire", ama: "DARENNE Laurence", email: "L.DARENNE@chru-nancy.fr" },
-      { reunion: "RCP Oncologie Digestive (CHU-ICL)", reseau: "", jour: "Mardi", horaire: "", freq: "Hebdomadaire", ama: "DARENNE Laurence", email: "L.DARENNE@chru-nancy.fr" }
+      { reunion: "RCP Tumeurs primitives du foie (CHU-ICL)", reseau: "", jour: "Jeudi", horaire: "", freq: "Hebdomadaire", ama: "DARENNE Laurence & MOUTHON Muriel", email: "L.DARENNE@chru-nancy.fr & M.MOUTHON@chru-nancy.fr" },
+      { reunion: "RCP Oncologie Digestive (CHU-ICL)", reseau: "", jour: "Mardi", horaire: "", freq: "Hebdomadaire", ama: "DARENNE Laurence & MOUTHON Muriel", email: "L.DARENNE@chru-nancy.fr & M.MOUTHON@chru-nancy.fr" }
     ]
   },
   {
     nom: "CHU Reims", ville: "Reims", region: "Grand-Est",
     axe: "foie", lat: 49.245, lng: 4.028,
     rcps: [
-      { reunion: "RCP ONCOFOIE", reseau: "", jour: "Mardi", horaire: "16h–19h", freq: "Bi-mensuelle", ama: "CURIE Marie Aurore", email: "macurie@chu-reims.fr", tel: "03 26 78 76 10" }
+      { reunion: "RCP ONCOFOIE", reseau: "", jour: "Mardi", horaire: "16h–19h", freq: "Bi-mensuelle", ama: "CURIE Marie Aurore & GLADIEUX Elodie", email: "macurie@chu-reims.fr & egladieux@chu-reims.fr", tel: "03 26 78 76 10" }
     ]
   },
   {
@@ -451,29 +452,29 @@ const centres = [
     axe: "foie", lat: 16.247, lng: -61.537,
     rcps: [
       { reunion: "RCP Oncologie digestive", reseau: "", jour: "Mardi", horaire: "15h (heure locale)", freq: "Bi-mensuelle", ama: "BEZ Céline", email: "celine.bez@chu-guadeloupe.fr", tel: "+590 590 89 16 70" },
-      { reunion: "RCP nodule hépatique", reseau: "", jour: "Mardi", horaire: "8h ou 9h (heure locale)", freq: "Mensuelle", ama: "BEZ Céline", email: "celine.bez@chu-guadeloupe.fr" }
+      { reunion: "RCP nodule hépatique", reseau: "", jour: "Mardi", horaire: "14h (heure de Paris)", freq: "Mensuelle", ama: "BEZ Céline", email: "celine.bez@chu-guadeloupe.fr", tel: "+590 590 89 16 70" }
     ]
   },
   {
     nom: "CHU Amiens", ville: "Amiens", region: "Hauts-de-France",
     axe: "foie", lat: 49.892, lng: 2.302,
     rcps: [
-      { reunion: "RCP CHC", reseau: "", jour: "Jeudi", horaire: "8h30–9h30", freq: "Hebdomadaire", ama: "DOMONT Catherine", email: "domont.catherine@chu-amiens.fr", tel: "03 22 08 88 49" }
+      { reunion: "RCP CHC", reseau: "", jour: "Jeudi", horaire: "8h30–9h30", freq: "Hebdomadaire", ama: "DOMONT Catherine", email: "domont.catherine@chu-amiens.fr", tel: "03 22 08 88 49", fax : "03 22 08 99 39" }
     ]
   },
   {
     nom: "CHU Lille", ville: "Lille", region: "Hauts-de-France",
     axe: "foie", lat: 50.609, lng: 3.055,
     rcps: [
-      { reunion: "RCP Tumeurs Hépatiques primitives (CHC et Cholangiocarcinome)", reseau: "", jour: "Jeudi", horaire: "16h–19h", freq: "Hebdomadaire", ama: "BLENCOURT Magalie", email: "rcp.hepato-digestive@chu-lille.fr", tel: "03 20 44 61 45" },
-      { reunion: "RCP Oncologie Digestive hors Tumeurs primitives hépatiques", reseau: "", jour: "Vendredi", horaire: "16h–19h", freq: "Hebdomadaire", ama: "BLENCOURT Magalie", email: "rcp.hepato-digestive@chu-lille.fr" }
+      { reunion: "RCP Tumeurs Hépatiques primitives (CHC et Cholangiocarcinome)", reseau: "", jour: "Jeudi", horaire: "16h–19h", freq: "Hebdomadaire", ama: "BLENCOURT Magalie", email: "magalie.biencourt@chu-lille.fr", tel: "03 20 44 61 45", fax : "03 20 44 56 40" },
+      { reunion: "RCP Oncologie Digestive hors Tumeurs primitives hépatiques", reseau: "", jour: "Vendredi", horaire: "16h–19h", freq: "Hebdomadaire", ama: "BLENCOURT Magalie", email: "magalie.biencourt@chu-lille.fr", tel: "03 20 44 61 45", fax : "03 20 44 56 40" }
     ]
   },
   {
     nom: "CHU Avicenne, APHP", ville: "Bobigny", region: "Ile-de-France",
     axe: "foie", lat: 48.908, lng: 2.44,
     rcps: [
-      { reunion: "RCP de compétence rare « Tumeurs Primitives du foie »", reseau: "OncoRIF", jour: "Vendredi", horaire: "14h30–17h30", freq: "Hebdomadaire", ama: "MOMMELE Peggy", email: "Peggy.mommele@aphp.fr", tel: "01 48 02 68 03" }
+      { reunion: "RCP de compétence rare « Tumeurs Primitives du foie »", reseau: "OncoRIF", jour: "Vendredi", horaire: "14h30–17h30", freq: "Hebdomadaire", ama: "MOMMELE Peggy", email: "Peggy.mommele@aphp.fr", tel: "01 48 02 68 03", fax : "01 48 02 68 02" }
     ]
   },
   {
@@ -494,46 +495,47 @@ const centres = [
     nom: "Hôpital Saint-Antoine, AP-HP", ville: "Paris", region: "Ile-de-France",
     axe: "foie", lat: 48.848, lng: 2.381,
     rcps: [
-      { reunion: "RCP des tumeurs primitives du foie et des voies biliaires (Lundi)", reseau: "", jour: "Lundi", horaire: "15h–16h", freq: "Hebdomadaire", ama: "LEJEUNE Claudine", email: "claudine.lejeune@aphp.fr", tel: "01 49 28 24 63" },
-      { reunion: "RCP des tumeurs primitives du foie et des voies biliaires (Mercredi)", reseau: "", jour: "Mercredi", horaire: "16h–18h", freq: "Hebdomadaire", ama: "LEJEUNE Claudine", email: "claudine.lejeune@aphp.fr" }
+      { reunion: "RCP des tumeurs primitives du foie et des voies biliaires", reseau: "", jour: "Lundi", horaire: "15h–16h", freq: "Hebdomadaire", ama: "LEJEUNE Claudine & DI SACCO Hélène", email: "claudine.lejeune@aphp.fr & coordination.onco-hepato.sat@aphp", tel: "01 49 28 24 63 & 01 49 28 31 52", fax : "01 49 28 21 07 & 01 49 23 24 74" },
+      { reunion: "RCP des tumeurs primitives du foie et des voies biliaires", reseau: "", jour: "Mercredi", horaire: "16h–18h", freq: "Hebdomadaire", ama: "LEJEUNE Claudine & DI SACCO Hélène", email: "claudine.lejeune@aphp.fr & coordination.onco-hepato.sat@aphp", tel: "01 49 28 24 63 & 01 49 28 31 52", fax : "01 49 28 21 07 & 01 49 23 24 74" }
     ]
   },
   {
     nom: "CHU La Pitié Salpêtrière, AP-HP", ville: "Paris", region: "Ile-de-France",
     axe: "foie", lat: 48.841, lng: 2.357,
     rcps: [
-      { reunion: "RCP tumeurs hépatiques", reseau: "", jour: "Mardi", horaire: "16h30", freq: "Hebdomadaire", ama: "GAUTIER Violaine", email: "violaine.gautier@aphp.fr", tel: "01 48 02 68 03" }
+      { reunion: "RCP tumeurs hépatiques", reseau: "", jour: "Mardi", horaire: "16h30", freq: "Hebdomadaire", ama: "GAUTIER Violaine", email: "violaine.gautier@aphp.fr", tel: "01 48 02 68 03", fax : "01 48 02 68 02" }
     ]
   },
   {
     nom: "Institut Médico-Chirurgical Montsouris", ville: "Paris", region: "Ile-de-France",
     axe: "foie", lat: 48.822, lng: 2.338,
     rcps: [
-      { reunion: "RCP d'oncologie digestive", reseau: "", jour: "Mardi", horaire: "17h–19h30", freq: "Hebdomadaire", ama: "HALIMI Lorena", email: "lorena.halimi@imm.fr", tel: "01 56 61 63 13" }
+      { reunion: "RCP d'oncologie digestive", reseau: "", jour: "Mardi", horaire: "17h–19h30", freq: "Hebdomadaire", ama: "HALIMI Lorena", email: "lorena.halimi@imm.fr", tel: "01 56 61 63 13", fax : "01 56 61 63 23" }
     ]
   },
   {
     nom: "Hôpital de Saint-Cloud, Institut Curie", ville: "Saint-Cloud", region: "Ile-de-France",
     axe: "foie", lat: 48.848, lng: 2.212,
     rcps: [
-      { reunion: "RCP oncologie digestive médicale hebdomadaire", reseau: "", jour: "Vendredi", horaire: "9h", freq: "Hebdomadaire", ama: "DELVAL Emilie", email: "emilie.delval@curie.fr", tel: "01 47 11 18 42" },
-      { reunion: "RCP oncologie digestive médico-chirurgicale (APR)", reseau: "", jour: "Jeudi", horaire: "16h", freq: "Hebdomadaire", ama: "DELVAL Emilie", email: "emilie.delval@curie.fr" },
-      { reunion: "RCP moléculaire hebdomadaire", reseau: "", jour: "Lundi", horaire: "17h", freq: "Hebdomadaire", ama: "DELVAL Emilie", email: "emilie.delval@curie.fr" }
+      { reunion: "RCP oncologie digestive médicale hebdomadaire (Institut Curie)", reseau: "", jour: "Vendredi", horaire: "9h", freq: "Hebdomadaire", ama: "DELVAL Emilie", email: "emilie.delval@curie.fr", tel: "01 47 11 18 42" },
+      { reunion: "RCP oncologie digestive médico-chirurgicale (APR)", reseau: "", jour: "Jeudi", horaire: "16h", freq: "Hebdomadaire", ama: "DELVAL Emilie", email: "emilie.delval@curie.fr", tel: "01 47 11 18 42" },
+      { reunion: "RCP moléculaire hebdomadaire", reseau: "", jour: "Lundi", horaire: "17h", freq: "Hebdomadaire", ama: "DELVAL Emilie", email: "emilie.delval@curie.fr", tel: "01 47 11 18 42" }
     ]
   },
   {
     nom: "Hôpital Brousse, AP-HP", ville: "Villejuif", region: "Ile-de-France",
     axe: "foie", lat: 48.793, lng: 2.365,
     rcps: [
-      { reunion: "RCP Tumeurs primitives et secondaires du foie et VH et tumeurs du pancréas", reseau: "", jour: "Mardi", horaire: "14h", freq: "Hebdomadaire", ama: "ALBEROLA Véronique", email: "veronique.alberola@aphp.fr", tel: "01 45 59 35 95" }
+      { reunion: "RCP Tumeurs primitives et secondaires du foie et VH et tumeurs du pancréas", reseau: "", jour: "Mardi", horaire: "14h", freq: "Hebdomadaire", ama: "ALBEROLA Véronique", email: "veronique.alberola@aphp.fr", tel: "01 45 59 35 95", fax : "01 45 59 34 98" },
+      { reunion: "RCP Moléculaire des tumeurs solides", reseau: "", jour: "Jeudi", horaire: "9h30", freq: "Mensuelle (1er jeudi)", ama: "ALBEROLA Véronique", email: "veronique.alberola@aphp.fr", tel: "01 45 59 35 95", fax : "01 45 59 34 98" }      
     ]
   },
   {
     nom: "CHU Caen", ville: "Caen", region: "Normandie",
     axe: "foie", lat: 49.182, lng: -0.374,
     rcps: [
-      { reunion: "RCP Tumeurs primitives du Foie (malignes et bénignes)", reseau: "", jour: "Lundi", horaire: "16h30–19h", freq: "Hebdomadaire", email: "institutcancer-sec@chu-caen.fr", tel: "02 31 06 53 40" },
-      { reunion: "RCP digestif pour les tumeurs des voies biliaires", reseau: "", jour: "Jeudi", horaire: "16h30–19h", freq: "Hebdomadaire", email: "institutcancer-sec@chu-caen.fr" }
+      { reunion: "RCP Tumeurs primitives du Foie (malignes et bénignes)", reseau: "", jour: "Lundi", horaire: "16h30–19h", freq: "Hebdomadaire", ama: "Institut de Cancérologie, Secrétariat Pôle Recherche/Biologie", email: "institutcancer-sec@chu-caen.fr", tel: "02 31 06 53 40 ou 02 31 06 54 53", fax : "02 31 06 36 09" },
+      { reunion: "RCP digestif pour les tumeurs des voies biliaires", reseau: "", jour: "Jeudi", horaire: "16h30–19h", freq: "Hebdomadaire", ama: "Institut de Cancérologie, Secrétariat Pôle Recherche/Biologie", email: "institutcancer-sec@chu-caen.fr", tel: "02 31 06 53 40 ou 02 31 06 54 53", fax : "02 31 06 36 09" }
     ]
   },
   {
@@ -547,22 +549,22 @@ const centres = [
     nom: "CHU Haut-Lévêque", ville: "Bordeaux", region: "Nouvelle-Aquitaine",
     axe: "foie", lat: 44.842, lng: -0.612,
     rcps: [
-      { reunion: "RCP tumeurs primitives du foie et des voies biliaires", reseau: "RCA", jour: "Mardi", horaire: "17h", freq: "Hebdomadaire", email: "3c-sud@chu-bordeaux.fr" }
+      { reunion: "RCP tumeurs primitives du foie et des voies biliaires", reseau: "Réseau de cancérologie d'Aquitaine", jour: "Mardi", horaire: "17h", freq: "Hebdomadaire", email: "3c-sud@chu-bordeaux.fr" }
     ]
   },
   {
     nom: "CHU Limoges", ville: "Limoges", region: "Nouvelle-Aquitaine",
     axe: "foie", lat: 45.833, lng: 1.261,
     rcps: [
-      { reunion: "RCP CHC et Voies biliaires ; RCP Digestif", reseau: "Onco Nouvelle-Aquitaine", jour: "Jeudi", horaire: "15h30–17h", freq: "Hebdomadaire", ama: "BLANCHETON Mylène", email: "mylene.blancheton@chu-limoges.fr", tel: "05 55 05 67 65" }
+      { reunion: "RCP CHC et Voies biliaires ; RCP Digestif", reseau: "Onco Nouvelle-Aquitaine", jour: "Jeudi", horaire: "15h30–17h", freq: "Hebdomadaire", ama: "BLANCHETON Mylène", email: "mylene.blancheton@chu-limoges.fr & secretariat.rcp.3c@chulimoges.fr & sucp1@chu-limoges.fr", tel: "05 55 05 67 65", fax : "05 55 05 65 46" }
     ]
   },
   {
     nom: "CHU Poitiers", ville: "Poitiers", region: "Nouvelle-Aquitaine",
     axe: "foie", lat: 46.584, lng: 0.344,
     rcps: [
-      { reunion: "RCP d'oncologie digestive", reseau: "Onco Nouvelle-Aquitaine", jour: "Lundi", horaire: "", freq: "Hebdomadaire" },
-      { reunion: "RCP CHC", reseau: "Onco Nouvelle-Aquitaine", jour: "Mardi", horaire: "", freq: "Hebdomadaire" }
+      { reunion: "RCP d'oncologie digestive", reseau: "Réseau Régional des 3C Nouvelle-Aquitaine", jour: "Lundi", horaire: "", freq: "Hebdomadaire" },
+      { reunion: "RCP CHC", reseau: "Réseau Régional des 3C Nouvelle-Aquitaine", jour: "Mardi", horaire: "", freq: "Hebdomadaire" }
     ]
   },
   {
@@ -570,14 +572,14 @@ const centres = [
     axe: "foie", lat: 43.609, lng: 3.879,
     rcps: [
       { reunion: "RCP Digestif", reseau: "Onco Occitanie", jour: "Mardi", horaire: "17h", freq: "Hebdomadaire", ama: "MARCQ Catherine", email: "c-marcq@chu-montpellier.fr", tel: "04 67 33 07 54" },
-      { reunion: "RCP Foie", reseau: "Onco Occitanie", jour: "Vendredi", horaire: "14h", freq: "Hebdomadaire", ama: "MARCQ Catherine", email: "c-marcq@chu-montpellier.fr" }
+      { reunion: "RCP Foie", reseau: "Onco Occitanie", jour: "Vendredi", horaire: "14h", freq: "Hebdomadaire", ama: "MARCQ Catherine", email: "c-marcq@chu-montpellier.fr", tel: "04 67 33 07 54" }
     ]
   },
   {
     nom: "Hôpital Rangueil, CHU Toulouse", ville: "Toulouse", region: "Occitanie",
     axe: "foie", lat: 43.558, lng: 1.462,
     rcps: [
-      { reunion: "RCP CHC ; RCP oncologie digestive (cholangiocarcinomes) ; RCP moléculaire", reseau: "ONCOMIP", jour: "Mercredi", horaire: "15h–18h30", freq: "", ama: "SEGUIN Sylvie", email: "seguin.s@chu-toulouse.fr", tel: "05 61 34 34 14" }
+      { reunion: "RCP CHC (responsable Pr Peron) ; RCP oncologie digestive (cholangiocarcinomes) (Dr Fares) ; RCP moléculaire (Dr Fares)", reseau: "ONCOMIP", jour: "Mercredi", horaire: "15h–18h30", freq: "", ama: "SEGUIN Sylvie", email: "seguin.s@chu-toulouse.fr", tel: "05 61 34 34 14" }
     ]
   },
   {
@@ -585,7 +587,7 @@ const centres = [
     axe: "foie", lat: 47.472, lng: -0.557,
     rcps: [
       { reunion: "RCP des tumeurs primitives hépatiques", reseau: "Onco-PL", jour: "Vendredi", horaire: "15h", freq: "Hebdomadaire", ama: "LAMARCHE Béatrice", email: "béatrice.lamarche@chu-angers.fr", tel: "02 41 35 78 32" },
-      { reunion: "RCP oncologie digestive", reseau: "Onco-PL", jour: "Lundi", horaire: "17h", freq: "Hebdomadaire", ama: "LAMARCHE Béatrice", email: "béatrice.lamarche@chu-angers.fr" }
+      { reunion: "RCP oncologie digestive", reseau: "Onco-PL", jour: "Lundi", horaire: "17h", freq: "Hebdomadaire", ama: "LAMARCHE Béatrice", email: "béatrice.lamarche@chu-angers.fr", tel: "02 41 35 78 32" }
     ]
   },
   {
@@ -606,9 +608,10 @@ const centres = [
     nom: "Hôpital Saint-Joseph", ville: "Marseille", region: "Provence-Alpes-Côte-d'Azur",
     axe: "foie", lat: 43.282, lng: 5.398,
     rcps: [
-      { reunion: "RCP tumeurs hépato-Biliaires (hebdomadaire)", reseau: "ONCOPACA", jour: "", horaire: "", freq: "Hebdomadaire", ama: "FALZON Cécile", email: "cfalzon@hopital-saint-joseph.fr", tel: "04 91 80 70 42" },
-      { reunion: "RCP Oncologie Digestive", reseau: "ONCOPACA", jour: "", horaire: "", freq: "Hebdomadaire", ama: "FALZON Cécile", email: "cfalzon@hopital-saint-joseph.fr" },
-      { reunion: "RCP radio-embolisation", reseau: "ONCOPACA", jour: "", horaire: "", freq: "Bi-mensuelle", ama: "FALZON Cécile", email: "cfalzon@hopital-saint-joseph.fr" }
+      { reunion: "RCP tumeurs hépato-Biliaires (hebdomadaire)", reseau: "ONCOPACA et 3C", jour: "", horaire: "", freq: "Hebdomadaire", ama: "FALZON Cécile", email: "cfalzon@hopital-saint-joseph.fr & 3c@hopital-saint-joseph.fr", tel: "04 91 80 70 42" },
+      { reunion: "RCP Oncologie Digestive", reseau: "ONCOPACA et 3C", jour: "", horaire: "", freq: "Hebdomadaire", ama: "FALZON Cécile", email: "cfalzon@hopital-saint-joseph.fr & 3c@hopital-saint-joseph.fr" },
+      { reunion: "RCP radio-embolisation", reseau: "ONCOPACA et 3C", jour: "", horaire: "", freq: "Bi-mensuelle", ama: "FALZON Cécile", email: "cfalzon@hopital-saint-joseph.fr & 3c@hopital-saint-joseph.fr" },
+      { reunion: "RCP tumeurs hépato-Biliaires", reseau: "ONCOPACA et 3C", jour: "", horaire: "", freq: "Bi-mensuelle", ama: "FALZON Cécile", email: "cfalzon@hopital-saint-joseph.fr & 3c@hopital-saint-joseph.fr", tel: "04 91 80 70 42" }
     ]
   }
 ];
