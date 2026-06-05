@@ -6307,7 +6307,7 @@ markerGroup.clearLayers();
   liste.forEach(h=>{
    const marker = L.marker([h.lat, h.lng], {
   icon: getIconCentre(h),
-  cancers: h.cancers
+  cancers: h.cancers,
   ville: h.ville
 })
   .addTo(markerGroup)
