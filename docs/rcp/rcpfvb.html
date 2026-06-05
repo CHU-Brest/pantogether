@@ -166,7 +166,7 @@ const centres = [
     nom: "Centre Hospitalier Lyon Sud", ville: "Lyon", region: "Auvergne-Rhône-Alpes",
     axe: "oeso", lat: 45.697, lng: 4.793,
     rcps: [
-      { reunion: "RCP Oncologie Digestive et de Recours", reseau: "ONCAURA", jour: "Mercredi", horaire: "17h–19h30", freq: "Hebdomadaire", ama: "RINGOT Audrey", email: "audrey.ringot@chu-lyon.fr" }
+      { reunion: "RCP Oncologie Digestive et de Recours", reseau: "ONCAURA", jour: "Mercredi", horaire: "17h–19h30", freq: "Hebdomadaire", ama: "RINGOT Audrey", email: "audrey.ringot@chu-lyon.fr ou audrey.ringot@univ-lyon1.fr" }
     ]
   },
   {
@@ -174,7 +174,7 @@ const centres = [
     axe: "oeso", lat: 45.741, lng: 4.873,
     rcps: [
       { reunion: "RCP d'oncologie digestive", reseau: "", jour: "Jeudi", horaire: "12h30", freq: "Hebdomadaire", ama: "POURRIOT Camille", email: "camille.pourriot@ramsaysante.fr", tel: "04 37 53 87 33" },
-      { reunion: "RCP Tumeurs superficielles", reseau: "", jour: "Mercredi", horaire: "12h", freq: "Mensuelle (2e mercredi)", ama: "POURRIOT Camille", email: "camille.pourriot@ramsaysante.fr" }
+      { reunion: "RCP Tumeurs superficielles", reseau: "", jour: "Mercredi", horaire: "12h", freq: "Mensuelle (2e mercredi)", ama: "POURRIOT Camille", email: "camille.pourriot@ramsaysante.fr", tel: "04 37 53 87 33" }
     ]
   },
   {
@@ -204,6 +204,7 @@ const centres = [
     axe: "oeso", lat: 47.321, lng: 5.041,
     rcps: [
       { reunion: "RCP digestif Région Bourgogne", reseau: "", jour: "Mercredi", horaire: "16h30", freq: "Hebdomadaire", ama: "Secrétariat 3C", email: "3C@chu-dijon.fr", tel: "03 80 29 56 27" }
+      { reunion: "RCP Tumeurs Neuro-endocrines RENATEN & Tumeurs Rares Bourgogne Franche Comté", reseau: "", jour: "Mercredi", horaire: "16h30", freq: "Hebdomadaire", ama: "Secrétariat 3C", email: "3C@chu-dijon.fr", tel: "03 80 29 56 27" }
     ]
   },
   {
@@ -217,9 +218,9 @@ const centres = [
     nom: "CHU La Cavale Blanche", ville: "Brest", region: "Bretagne",
     axe: "oeso", lat: 48.381, lng: -4.498,
     rcps: [
-      { reunion: "RCP Oncologie digestive, œsophage, gastrique", reseau: "OncoBretagne", jour: "Lundi", horaire: "17h", freq: "Hebdomadaire", ama: "ALIAS Sylvie", email: "sylvie.alias@appuisante.fr" },
-      { reunion: "RCP Moléculaire", reseau: "OncoBretagne", jour: "Mercredi", horaire: "", freq: "Hebdomadaire", ama: "GUEN Laurence", email: "poleregionalcancerologie@chu-brest.fr", tel: "02 29 02 01 18" },
-      { reunion: "RCP ARPEGO (multi-organes)", reseau: "OncoBretagne", jour: "Mercredi", horaire: "8h", freq: "Hebdomadaire" }
+      { reunion: "RCP Oncologie digestive, œsophage, gastrique", reseau: "OncoBretagne/pôle régional de cancérologie Bretagne", jour: "Lundi", horaire: "17h", freq: "Hebdomadaire", ama: "ALIAS Sylvie", email: "sylvie.alias@appuisante.fr" },
+      { reunion: "RCP Moléculaire", reseau: "Pôle régional de cancérologie Bretagne", jour: "Mercredi", horaire: "", freq: "Hebdomadaire", ama: "GUEN Laurence", email: "poleregionalcancerologie@chu-brest.fr", tel: "02 29 02 01 18", Fax : "02 29 02 01 67" },
+      { reunion: "RCP ARPEGO (multi-organes)", reseau: "Pôle régional de cancérologie Bretagne", jour: "Mercredi", horaire: "8h", freq: "Hebdomadaire", ama: "GOESIN Isabelle" "GUEN Laurence", email: "isabelle.goesin@chu-rennes.fr" "poleregionalcancerologie@chu-brest.fr", tel: "02 99 28 99 87" "02 29 02 01 18", Fax : "02 99 28 99 68" "02 29 02 01 67" }
     ]
   },
   {
@@ -767,6 +768,7 @@ function buildPopup(c) {
         ${r.ama ? r.ama + '<br>' : ''}
         ${r.email ? '<a href="mailto:' + r.email + '">' + r.email + '</a><br>' : ''}
         ${r.tel ? r.tel : ''}
+        ${r.fax ? r.fax : ''}
       </div>` : '';
 
     const soumissionHtml = r.soumission ? `
