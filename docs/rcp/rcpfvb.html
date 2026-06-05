@@ -234,21 +234,21 @@ const centres = [
     nom: "CHU Pontchaillou", ville: "Rennes", region: "Bretagne",
     axe: "oeso", lat: 48.118, lng: -1.698,
     rcps: [
-      { reunion: "RCP Digestif", reseau: "OncoBretagne", jour: "Mardi", horaire: "14h30", freq: "Hebdomadaire", ama: "BUSIN Emilie", tel: "02 99 25 31 41" }
+      { reunion: "RCP Digestif", reseau: "OncoBretagne", jour: "Mardi", horaire: "14h30", freq: "Hebdomadaire", ama: "BUSIN Emilie", email: "ingenieur.qualite@onco5.fr", tel: "02 99 25 31 41" }
     ]
   },
   {
     nom: "CHP Saint-Grégoire", ville: "Rennes", region: "Bretagne",
     axe: "oeso", lat: 48.153, lng: -1.694,
     rcps: [
-      { reunion: "RCP Digestif Libérale", reseau: "Onco 5", jour: "Lundi", horaire: "19h", freq: "Hebdomadaire", tel: "02 99 25 44 05" }
+      { reunion: "RCP Digestif Libérale", reseau: "Onco 5", jour: "Lundi", horaire: "19h", freq: "Hebdomadaire", ama: "Dr VEILHAN L-A", tel: "02 99 25 44 05" }
     ]
   },
   {
     nom: "Hôpital Trousseau, CHRU Tours", ville: "Tours", region: "Centre-Val-de-Loire",
     axe: "oeso", lat: 47.366, lng: 0.705,
     rcps: [
-      { reunion: "RCP Digestif ; RCP Tumeurs Neuro-endocrines ; RCP Oncogénétique", reseau: "", jour: "Mardi", horaire: "14h–18h", freq: "Hebdomadaire", ama: "CHATEL Marjorie", email: "rcp.trousseau@chu-tours.fr", tel: "02 47 47 47 47" }
+      { reunion: "RCP Digestif ; RCP CHC ; RCP Oncogénétique", reseau: "", jour: "Mardi", horaire: "14h–18h", freq: "Hebdomadaire", ama: "CHATEL Marjorie", email: "rcp.trousseau@chu-tours.fr", tel: "02 47 47 47 47" }
     ]
   },
   {
@@ -270,7 +270,7 @@ const centres = [
     axe: "oeso", lat: 48.851, lng: 2.377,
     rcps: [
       { reunion: "RCP d'oncologie digestive", reseau: "", jour: "Mercredi", horaire: "16h–19h", freq: "Hebdomadaire", ama: "MAIGA Aminata", email: "aminata.maiga@aphp.fr", tel: "01 49 28 21 15" },
-      { reunion: "RCP Oncologie digestive MSI national", reseau: "", jour: "Lundi", horaire: "14h–16h", freq: "Bi-mensuelle", ama: "MAIGA Aminata", email: "aminata.maiga@aphp.fr" }
+      { reunion: "RCP Oncologie digestive MSI national", reseau: "", jour: "Lundi", horaire: "14h–16h", freq: "Bi-mensuelle", ama: "MAIGA Aminata", email: "aminata.maiga@aphp.fr", tel: "01 49 28 21 15" }
     ]
   },
   {
@@ -292,15 +292,15 @@ const centres = [
     nom: "Centre François Baclesse", ville: "Caen", region: "Normandie",
     axe: "oeso", lat: 49.192, lng: -0.371,
     rcps: [
-      { reunion: "RCP d'oncologie digestive", reseau: "", jour: "Mardi", horaire: "14h30–18h", freq: "Hebdomadaire", ama: "THERY Julie", email: "secretariat.digestif@baclesse.unicancer.fr", tel: "02 31 45 50 16" },
-      { reunion: "RCP Biologie moléculaire : multi-organes", reseau: "", jour: "Mardi", horaire: "17h–19h", freq: "Bi-mensuelle", ama: "THERY Julie", email: "secretariat.digestif@baclesse.unicancer.fr" }
+      { reunion: "RCP d'oncologie digestive", reseau: "", jour: "Mardi", horaire: "14h30–18h", freq: "Hebdomadaire", ama: "THERY Julie", email: "secretariat.digestif@baclesse.unicancer.fr", tel: "02 31 45 50 16", fax : "02 31 45 50 83" },
+      { reunion: "RCP Biologie moléculaire : multi-organes", reseau: "", jour: "Mardi", horaire: "17h–19h", freq: "Bi-mensuelle", ama: "THERY Julie", email: "secretariat.digestif@baclesse.unicancer.fr", tel: "02 31 45 50 16", fax : "02 31 45 50 83" }
     ]
   },
   {
     nom: "Hôpital Haut-Lévêque, CHU Bordeaux", ville: "Bordeaux", region: "Nouvelle-Aquitaine",
     axe: "oeso", lat: 44.839, lng: -0.608,
     rcps: [
-      { reunion: "RCP", reseau: "", jour: "Lundi", horaire: "18h", freq: "Hebdomadaire" }
+      { reunion: "RCP", reseau: "", jour: "Lundi", horaire: "18h", freq: "Hebdomadaire", ama: "", email: "3c-sud@chu-bordeaux.fr" }
     ]
   },
   {
@@ -321,14 +321,17 @@ const centres = [
     nom: "IUCT Rangueil-Larrey et Oncôpole, CHU Toulouse", ville: "Toulouse", region: "Occitanie",
     axe: "oeso", lat: 43.565, lng: 1.459,
     rcps: [
-      { reunion: "RCP Digestif (dont recours oeso-gastrique - ano-rectal - péritoine)", reseau: "Onco-Occitanie", jour: "", horaire: "", freq: "Hebdomadaire" }
+      { reunion: "RCP Digestif (dont recours oeso-gastrique - ano-rectal - péritoine)", reseau: "Onco-Occitanie", jour: "", horaire: "", freq: "Hebdomadaire" },
+      { reunion: "RCP Recours Digestif : Biologie Moléculaire et Essais Cliniques", reseau: "Onco-Occitanie", jour: "", horaire: "", freq: "Bi-mensuelle" }
+    ]
     ]
   },
   {
     nom: "ICO Angers", ville: "Angers", region: "Pays de la Loire",
     axe: "oeso", lat: 47.469, lng: -0.552,
     rcps: [
-      { reunion: "RCP péritoine", reseau: "ONCOPL", jour: "Vendredi", horaire: "12h", freq: "Hebdomadaire", ama: "BOISDRON Amélie", email: "amelie.boisdron@ico.unicancer.fr", tel: "02 41 35 29 09" },
+      { reunion: "RCP Péritoine", reseau: "ONCOPL", jour: "Vendredi", horaire: "12h", freq: "Hebdomadaire", ama: "BOISDRON Amélie", email: "amelie.boisdron@ico.unicancer.fr", tel: "02 41 35 29 09" },
+      { reunion: "RCP Moléculaire", reseau: "ONCOPL", jour: "Vendredi", horaire: "8h30", freq: "Bi-mensuelle", ama: "BOISDRON Amélie", email: "amelie.boisdron@ico.unicancer.fr", tel: "02 41 35 29 09" },
       { reunion: "RCP Digestif", reseau: "ONCOPL", jour: "Mardi", horaire: "17h30", freq: "Hebdomadaire", ama: "BOISDRON Amélie", email: "amelie.boisdron@ico.unicancer.fr" }
     ]
   },
@@ -343,14 +346,15 @@ const centres = [
     nom: "Centre Antoine Lacassagne", ville: "Nice", region: "Provence-Alpes-Côte-d'Azur",
     axe: "oeso", lat: 43.714, lng: 7.264,
     rcps: [
-      { reunion: "RCP Digestif", reseau: "", jour: "Mercredi", horaire: "8h–10h30", freq: "Hebdomadaire", ama: "BONFILS Manon", email: "manon.bonfils@nice.unicancer.fr", tel: "04 92 03 13 52" }
+      { reunion: "RCP Digestif", reseau: "", jour: "Mercredi", horaire: "8h–10h30", freq: "Hebdomadaire", ama: "BONFILS Manon", email: "manon.bonfils@nice.unicancer.fr", tel: "04 92 03 13 52", fax: "04 92 03 10 46" }
     ]
   },
   {
     nom: "Institut Paoli Calmettes", ville: "Marseille", region: "Provence-Alpes-Côte-d'Azur",
     axe: "oeso", lat: 43.293, lng: 5.401,
     rcps: [
-      { reunion: "RCP DIGESTIF IPC A1", reseau: "", jour: "Mardi", horaire: "16h30–18h30", freq: "Hebdomadaire", ama: "BADDOUJ / MOURAD MALIKA", email: "secretariat.rcp@ipc.unicancer.fr", tel: "04 91 22 33 17" }
+      { reunion: "RCP n°081 DIGESTIF IPC A1", reseau: "", jour: "Mardi", horaire: "16h30–18h30", freq: "Hebdomadaire", ama: "BADDOUJ / MOURAD MALIKA", email: "secretariat.rcp@ipc.unicancer.fr", tel: "04 91 22 33 17" },
+      { reunion: "RCP n°372 Recours Chrirurgical Digestif IPC", reseau: "", jour: "", horaire: "", freq: "", ama: "BADDOUJ / MOURAD MALIKA", email: "secretariat.rcp@ipc.unicancer.fr", tel: "04 91 22 33 17" }
     ]
   },
   {
