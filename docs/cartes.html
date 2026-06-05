@@ -174,13 +174,42 @@ body{margin:0;font-family:Arial}
  const map = L.map('map').setView([46.6,2.5],6);
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'© OpenStreetMap'}).addTo(map);
 
-const markerGroup = L.markerClusterGroup({
+const clusterOeso = L.markerClusterGroup({
   showCoverageOnHover: false,
   spiderfyOnMaxZoom: true,
   zoomToBoundsOnClick: true,
-  maxClusterRadius: 50
+  maxClusterRadius: 50,
+  iconCreateFunction: cluster => L.divIcon({
+    html: `<div style="background:#27ae60;color:white;border-radius:50%;width:36px;height:36px;display:flex;align-items:center;justify-content:center;font-weight:bold;font-size:14px;border:2px solid white;box-shadow:0 1px 4px rgba(0,0,0,.4)">${cluster.getChildCount()}</div>`,
+    className: '', iconSize: [36, 36]
+  })
 });
-map.addLayer(markerGroup);
+
+const clusterFoie = L.markerClusterGroup({
+  showCoverageOnHover: false,
+  spiderfyOnMaxZoom: true,
+  zoomToBoundsOnClick: true,
+  maxClusterRadius: 50,
+  iconCreateFunction: cluster => L.divIcon({
+    html: `<div style="background:#2980b9;color:white;border-radius:50%;width:36px;height:36px;display:flex;align-items:center;justify-content:center;font-weight:bold;font-size:14px;border:2px solid white;box-shadow:0 1px 4px rgba(0,0,0,.4)">${cluster.getChildCount()}</div>`,
+    className: '', iconSize: [36, 36]
+  })
+});
+
+const clusterPancreas = L.markerClusterGroup({
+  showCoverageOnHover: false,
+  spiderfyOnMaxZoom: true,
+  zoomToBoundsOnClick: true,
+  maxClusterRadius: 50,
+  iconCreateFunction: cluster => L.divIcon({
+    html: `<div style="background:#e67e22;color:white;border-radius:50%;width:36px;height:36px;display:flex;align-items:center;justify-content:center;font-weight:bold;font-size:14px;border:2px solid white;box-shadow:0 1px 4px rgba(0,0,0,.4)">${cluster.getChildCount()}</div>`,
+    className: '', iconSize: [36, 36]
+  })
+});
+
+map.addLayer(clusterOeso);
+map.addLayer(clusterFoie);
+map.addLayer(clusterPancreas);
  
 // ===== Régions cliquables (GeoJSON) =====
 const urlRegions = "https://raw.githubusercontent.com/gregoiredavid/france-geojson/master/regions.geojson";
@@ -6267,7 +6296,9 @@ Service d'hépato-gastro-entérologie <br>
  }); 
  // ===== Affichage markers ===== 
  function afficherHopitaux(liste){ 
-  markerGroup.clearLayers(); 
+clusterOeso.clearLayers();
+clusterFoie.clearLayers();
+clusterPancreas.clearLayers(); 
  const listeDiv = document.getElementById("listeCentres"); 
   listeDiv.innerHTML = ""; 
   
@@ -6276,11 +6307,14 @@ Service d'hépato-gastro-entérologie <br>
    return; 
   } 
   liste.forEach(h=>{
-   const marker = L.marker([h.lat,h.lng], { icon: getIconCentre(h)
-  }).addTo(markerGroup)
-    .bindPopup(h.popupHtml,{
-     maxWidth:420, minWidth:300, className:"popup-uniforme" 
-    }); 
+   let cluster = clusterFoie; // défaut
+if (h.cancers.includes("oesogastrique")) cluster = clusterOeso;
+else if (h.cancers.includes("pancreas")) cluster = clusterPancreas;
+
+const marker = L.marker([h.lat, h.lng], { icon: getIconCentre(h) })
+  .addTo(cluster)
+  .bindPopup(h.popupHtml, { maxWidth: 420, minWidth: 300, className: "popup-uniforme" });
+   
    // élément liste 
    const item = document.createElement("div"); 
    item.style.cursor="pointer"; 
