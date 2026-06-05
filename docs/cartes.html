@@ -196,7 +196,9 @@ const markerGroup = L.markerClusterGroup({
   }
 });
 map.addLayer(markerGroup);
-
+markerGroup.on('clusterclick', function(e) {
+  e.layer.spiderfy();
+});
  
 // ===== Régions cliquables (GeoJSON) =====
 const urlRegions = "https://raw.githubusercontent.com/gregoiredavid/france-geojson/master/regions.geojson";
