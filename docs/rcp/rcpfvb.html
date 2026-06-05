@@ -360,7 +360,7 @@ const centres = [
     nom: "CHU de la Guadeloupe", ville: "Pointe-à-Pitre", region: "Guadeloupe",
     axe: "oeso", lat: 16.243, lng: -61.533,
     rcps: [
-      { reunion: "RCP Oncologie digestive du CHU", reseau: "", jour: "Mardi", horaire: "15h (heure locale)", freq: "Bi-mensuelle", ama: "VEBER Céline", email: "celine.bez@chu-guadeloupe.fr" }
+      { reunion: "RCP Oncologie digestive du CHU", reseau: "", jour: "Mardi", horaire: "15h (heure locale) (20h ou 21h heure de Paris)", freq: "Bi-mensuelle", ama: "VEBER Céline", email: "celine.bez@chu-guadeloupe.fr" }
     ]
   },
   {
@@ -368,14 +368,14 @@ const centres = [
     axe: "oeso", lat: 50.612, lng: 3.058,
     rcps: [
       { reunion: "RCP des tumeurs digestives", reseau: "Onco Hauts-de-France", jour: "Vendredi", horaire: "16h", freq: "Hebdomadaire", ama: "BIENCOURT Magalie", email: "RCP.hepato-digestive@chu-lille.fr", tel: "03 20 44 59 62" },
-      { reunion: "RCP des tumeurs digestives superficielles", reseau: "Onco Hauts-de-France", jour: "Vendredi", horaire: "15h30", freq: "Mensuelle", ama: "BIENCOURT Magalie", email: "RCP.hepato-digestive@chu-lille.fr" }
+      { reunion: "RCP des tumeurs digestives superficielles", reseau: "Onco Hauts-de-France", jour: "Vendredi", horaire: "15h30", freq: "Mensuelle", ama: "BIENCOURT Magalie", email: "RCP.hepato-digestive@chu-lille.fr", tel: "03 20 44 59 62" }
     ]
   },
   {
     nom: "CHU Sud Réunion", ville: "Saint-Pierre (La Réunion)", region: "La Réunion",
     axe: "oeso", lat: -21.339, lng: 55.476,
     rcps: [
-      { reunion: "RCP Oncologie Digestive", reseau: "", jour: "Mercredi", horaire: "13h30 (heure locale)", freq: "Hebdomadaire", email: "rcp.3csud@chu-reunion.fr", tel: "02 62 35 91 04" }
+      { reunion: "RCP Oncologie Digestive", reseau: "", jour: "Mercredi", horaire: "13h30 (heure locale)(10h30 heure d’hiver, 11h30 heure d’été, heure de Paris)", freq: "Hebdomadaire", email: "rcp.3csud@chu-reunion.fr", tel: "02 62 35 91 04" }
     ]
   },
 
@@ -617,8 +617,8 @@ const centres = [
 // Indexé par : "nom|rang_rcp" (0-based)
 const patches = {
   // OESO
-  "CHU Clermont-Ferrand oeso|0": { lieu: "Service de chirurgie digestive CHU Estaing", soumission: "Fiche pré-établie à rendre au plus tard le matin des RCP" },
-  "Centre Hospitalier Lyon Sud|0": { lieu: "Radiologie du Centre Hospitalier Lyon Sud (Bât 3B)", soumission: "Création d'une fiche RCP cancer sur Easily ou sur Onco AURA" },
+  "CHU Clermont-Ferrand oeso|0": { lieu: "Service de chirurgie digestive CHU Estaing & Visioconférence possible sur demande au secrétariat", soumission: "Fiche pré-établie à rendre au plus tard le matin des RCP" },
+  "Centre Hospitalier Lyon Sud|0": { lieu: "Radiologie du Centre Hospitalier Lyon Sud (Bât 3B) & Visioconférence", soumission: "Création d'une fiche RCP cancer sur Easily par le secrétariat (si aucune venue aux HCL) ou sur <a href="https://www.sante-ra.fr/RCP/GestionRCP/choixPathoChronique.aspx?refUrl=http%3a%2f%2fwww.sante-ra.fr%2frcp%2fAccueil.aspx">Onco AURA</a" },
   "Centre Jean Mermoz|0": { lieu: "Salle de RCP", soumission: "Dossier à compléter sur SISRA" },
   "Centre Jean Mermoz|1": { lieu: "Salle de RCP", soumission: "Dossier à compléter sur SISRA" },
   "CRLCC Léon Bérard|0": { lieu: "Centre Léon Bérard", soumission: "Dossier à soumettre sur le DCC SARA" },
