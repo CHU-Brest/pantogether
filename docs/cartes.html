@@ -177,8 +177,9 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'Â
 const markerGroup = L.markerClusterGroup({
   showCoverageOnHover: false,
   spiderfyOnMaxZoom: true,
-  zoomToBoundsOnClick: true,
+  zoomToBoundsOnClick: false,
   maxClusterRadius: 50,
+  spiderLegPolylineOptions: { weight: 2, color: '#444', opacity: 0.6 }, // style des traits
   iconCreateFunction: cluster => {
     const markers = cluster.getAllChildMarkers();
     const cancers = new Set(markers.flatMap(m => m.options.cancers || []));
