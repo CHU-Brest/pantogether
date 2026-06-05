@@ -197,7 +197,18 @@ const markerGroup = L.markerClusterGroup({
 });
 map.addLayer(markerGroup);
 markerGroup.on('clusterclick', function(e) {
-  e.layer.spiderfy();
+  const markers = e.layer.getAllChildMarkers();
+  
+  // Récupère toutes les villes distinctes dans le cluster
+  const villes = new Set(markers.map(m => m.options.ville));
+  
+  if (villes.size === 1) {
+    // Tous les marqueurs sont dans la même ville → spiderfy
+    e.layer.spiderfy();
+  } else {
+    // Villes différentes → zoom sur le cluster
+    e.layer.zoomToBounds({ padding: [20, 20] });
+  }
 });
  
 // ===== Régions cliquables (GeoJSON) =====
@@ -6297,6 +6308,7 @@ markerGroup.clearLayers();
    const marker = L.marker([h.lat, h.lng], {
   icon: getIconCentre(h),
   cancers: h.cancers
+  ville: h.ville
 })
   .addTo(markerGroup)
   .bindPopup(h.popupHtml, { maxWidth: 420, minWidth: 300, className: "popup-uniforme" });
