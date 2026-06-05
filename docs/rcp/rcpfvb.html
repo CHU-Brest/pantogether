@@ -762,7 +762,7 @@ function buildPopup(c) {
   const label   = c.axe === 'oeso' ? 'Oeso-gastrique' : 'Foie & voies biliaires';
 
   const cards = c.rcps.map(r => {
-    const contactHtml = (r.ama || r.email || r.tel) ? `
+    const contactHtml = (r.ama || r.email || r.tel || r.fax) ? `
       <div class="rcp-contact">
         <b>📋 AMA / Contact</b>
         ${r.ama ? r.ama + '<br>' : ''}
