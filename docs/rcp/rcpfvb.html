@@ -233,8 +233,11 @@ const centres = [
     rcps: [
       { reunion: "RCP Oncologie digestive, œsophage, gastrique", reseau: "OncoBretagne/pôle régional de cancérologie Bretagne", jour: "Lundi", horaire: "17h", freq: "Hebdomadaire", ama: "ALIAS Sylvie", email: "sylvie.alias@appuisante.fr" },
       { reunion: "RCP Moléculaire", reseau: "Pôle régional de cancérologie Bretagne", jour: "Mercredi", horaire: "", freq: "Hebdomadaire", ama: "GUEN Laurence", email: "poleregionalcancerologie@chu-brest.fr", tel: "02 29 02 01 18", Fax : "02 29 02 01 67" },
-      { reunion: "RCP ARPEGO (multi-organes)", reseau: "Pôle régional de cancérologie Bretagne", jour: "Mercredi", horaire: "8h", freq: "Hebdomadaire", ama: "GOESIN Isabelle & GUEN Laurence", email: "isabelle.goesin@chu-rennes.fr & poleregionalcancerologie@chu-brest.fr", tel: "02 99 28 99 87 & 02 29 02 01 18", Fax : "02 99 28 99 68 & 02 29 02 01 67" }
-    ]
+      { reunion: "RCP ARPEGO (multi-organes)", reseau: "Pôle régional de cancérologie Bretagne", jour: "Mercredi", horaire: "8h", freq: "Hebdomadaire", 
+       contacts: [
+    { ama: "GOESIN Isabelle", email: "isabelle.goesin@chu-rennes.fr", tel: "02 99 28 99 87", fax : "02 99 28 99 68" },
+    { ama: "GUEN Laurence", email: "poleregionalcancerologie@chu-brest.fr", tel: "02 29 02 01 18", fax : "02 29 02 01 67" }
+  ],
   },
   {
     nom: "Centre Eugène Marquis", ville: "Rennes", region: "Bretagne",
@@ -411,8 +414,15 @@ const centres = [
     nom: "Hôpital Croix-Rousse, HCL", ville: "Lyon", region: "Auvergne-Rhône-Alpes",
     axe: "foie", lat: 45.772, lng: 4.828,
     rcps: [
-      { reunion: "RCP CHC et autres tumeurs primitives du foie", reseau: "ONCO-AURA", jour: "Mardi", horaire: "17h–20h", freq: "Hebdomadaire", ama: "QUERIN Marie (secrétaire des 3C) & LESNIOHSKI Eve (secrétaire du Pr Merle)", email: "marie.querin@chu-lyon.fr & eve.lesniohski@chu-lyon.fr", tel: "04 72 07 29 17 & 04 26 10 93 56" },
-      { reunion: "RCP Hépato-Gastroentérologie", reseau: "ONCO-AURA", jour: "Jeudi", horaire: "16h–18h", freq: "Hebdomadaire", ama: "QUERIN Marie (secrétaire des 3C) & LESNIOHSKI Eve (secrétaire du Pr Merle)", email: "marie.querin@chu-lyon.fr & eve.lesniohski@chu-lyon.fr", tel: "04 72 07 29 17 & 04 26 10 93 56" }
+      { reunion: "RCP CHC et autres tumeurs primitives du foie", reseau: "ONCO-AURA", jour: "Mardi", horaire: "17h–20h", freq: "Hebdomadaire", 
+       contacts: [
+    { ama: "QUERIN Marie (secrétaire des 3C)", email: "marie.querin@chu-lyon.fr", tel: "04 72 07 29 17" },
+    { ama: "LESNIOHSKI Eve (secrétaire du Pr Merle)", email: "eve.lesniohski@chu-lyon.fr", tel: "04 26 10 93 56" }
+       ] },
+      { reunion: "RCP Hépato-Gastroentérologie", reseau: "ONCO-AURA", jour: "Jeudi", horaire: "16h–18h", freq: "Hebdomadaire", 
+       contacts: [
+       { ama: "QUERIN Marie (secrétaire des 3C)", email: "marie.querin@chu-lyon.fr", tel: "04 72 07 29 17" },
+    { ama: "LESNIOHSKI Eve (secrétaire du Pr Merle)", email: "eve.lesniohski@chu-lyon.fr", tel: "04 26 10 93 56" }
     ]
   },
   {
@@ -449,15 +459,27 @@ const centres = [
     nom: "CHRU Nancy", ville: "Nancy", region: "Grand-Est",
     axe: "foie", lat: 48.684, lng: 6.184,
     rcps: [
-      { reunion: "RCP Tumeurs primitives du foie (CHU-ICL)", reseau: "", jour: "Jeudi", horaire: "", freq: "Hebdomadaire", ama: "DARENNE Laurence & MOUTHON Muriel", email: "L.DARENNE@chru-nancy.fr & M.MOUTHON@chru-nancy.fr" },
-      { reunion: "RCP Oncologie Digestive (CHU-ICL)", reseau: "", jour: "Mardi", horaire: "", freq: "Hebdomadaire", ama: "DARENNE Laurence & MOUTHON Muriel", email: "L.DARENNE@chru-nancy.fr & M.MOUTHON@chru-nancy.fr" }
+      { reunion: "RCP Tumeurs primitives du foie (CHU-ICL)", reseau: "", jour: "Jeudi", horaire: "", freq: "Hebdomadaire", 
+       contacts: [
+    { ama: "DARENNE Laurence", email: "L.DARENNE@chru-nancy.fr" },
+    { ama: "MOUTHON Muriel", email: "M.MOUTHON@chru-nancy.fr" }
+       ] },
+      { reunion: "RCP Oncologie Digestive (CHU-ICL)", reseau: "", jour: "Mardi", horaire: "", freq: "Hebdomadaire", 
+       contacts: [
+    { ama: "DARENNE Laurence", email: "L.DARENNE@chru-nancy.fr" },
+    { ama: "MOUTHON Muriel", email: "M.MOUTHON@chru-nancy.fr" }
+       ] }
     ]
   },
   {
     nom: "CHU Reims", ville: "Reims", region: "Grand-Est",
     axe: "foie", lat: 49.245, lng: 4.028,
     rcps: [
-      { reunion: "RCP ONCOFOIE", reseau: "", jour: "Mardi", horaire: "16h–19h", freq: "Bi-mensuelle", ama: "CURIE Marie Aurore & GLADIEUX Elodie", email: "macurie@chu-reims.fr & egladieux@chu-reims.fr", tel: "03 26 78 76 10" }
+      { reunion: "RCP ONCOFOIE", reseau: "", jour: "Mardi", horaire: "16h–19h", freq: "Bi-mensuelle", 
+       contacts: [
+    { ama: "CURIE Marie Aurore", email: "macurie@chu-reims.fr", tel: "03 26 78 76 10" },
+    { ama: "GLADIEUX Elodie", email: "egladieux@chu-reims.fr", tel: "03 26 78 76 10" }
+       ] }
     ]
   },
   {
@@ -789,15 +811,17 @@ function buildPopup(c) {
   const label   = c.axe === 'oeso' ? 'Oeso-gastrique' : 'Foie & voies biliaires';
 
   const cards = c.rcps.map(r => {
-    const contactHtml = (r.ama || r.email || r.tel || r.fax) ? `
-      <div class="rcp-contact">
-        <b>📋 AMA / Contact</b>
-        ${r.ama ? r.ama + '<br>' : ''}
-        ${r.email ? '<a href="mailto:' + r.email + '">' + r.email + '</a><br>' : ''}
-        ${r.tel ? r.tel : ''}
-        ${r.fax ? r.fax : ''}
-      </div>` : '';
-
+    const contactHtml = (r.contacts && r.contacts.length > 0) ? `
+  <div class="rcp-contact">
+    <b>📋 AMA / Contact</b>
+    ${r.contacts.map(ct =>
+      (ct.ama ? ct.ama + '<br>' : '') +
+      (ct.email ? '<a href="mailto:' + ct.email + '">' + ct.email + '</a><br>' : '') +
+      (ct.tel ? ct.tel : '') +
+      (ct.fax ? ct.fax : '')
+    ).join('<hr style="border:none;border-top:1px solid #c3e6cb;margin:5px 0">')}
+  </div>` : '';
+    
     const soumissionHtml = r.soumission ? `
       <div class="rcp-soumission">
         <b>📂 Modalités de soumission</b>
