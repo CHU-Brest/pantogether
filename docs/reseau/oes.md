@@ -1852,6 +1852,97 @@ secretariat.og@chu-bordeaux.fr <br>
 AURILLAC Valérie  <br>
 </ul>
 </details>
+
+### **Institut Bergonié, Bordeaux** <br>
+**Dr PALMIERI Lola-Jade**     
+Groupe digestif - Département d'oncologie médicale <br>
+229 cours de l'Argonne, 33076 **Bordeaux** <br>
+l.palmieri@bordeaux.unicancer.fr<br>
+<br>    
+   **Secrétariat :**  <br>
+LAVANDIER Sarah <br>
+am.dig@bordeaux.unicancer.fr <br>
+Tel : 05 56 33 32 78 <br>
+Fax : 05 56 33 33 83 <br>
+
+[Site web](< https://www.bergonie.fr/>)
+<br>
+<details>
+    <summary>Ressources de soin</summary> <br>
+<B>Plateaux techniques</B> <br>    
+<ul>
+<li><b>Diagnostic :</b></li>  
+&#x2705 Médecine nucléaire <br>    
+&#x2705 Endoscopie interventionnelle <br>
+&#x2705 Plateforme de biologie moléculaire <br>
+&#x2705 Plateforme d'anatomopathologie <br> 
+&#x2705 Plateforme d'imagerie <br>  
+&#x2705 Oncogénétique <br>  
+&#x2705 Centre de diagnostic rapide <br>   
+<br>
+<li><b>Traitement</b></li>
+&#x2705 Radiothérapie externe <br>   
+&#x2705 Radio-embolisation <br>   
+&#x2705 Radiologie interventionnelle <br>  
+&#x2705 Chirurgie viscérale   <br>
+&#x2705 Chirurgie digestive de recours <br>  
+&#x2718 Chirurgie thoracique* <br>  
+&#x2705 Plateau de réanimation <br> 
+ <br>
+<li><b>Recherche :</b></li>
+&#x2705 Unité de recherche clinique dédiée <br> 
+&#x2718 Centre d'Investigation Clinique multithématique <br>
+&#x2705 Accès aux études de phase I <br>
+<br>
+*Convention avec le CHU de Bordeaux pour la chirurgie thoracique
+</ul>
+<br>   
+<B>Soins de support</B> <br>
+<ul>
+<li><b>Soins « socle » :</b></li>
+&#x2705 Gestion de la douleur <br>
+&#x2705 Diététique et nutrition <br>
+&#x2705 Soutien psychologique du patient <br>
+&#x2705 Accompagnement social, familial et professionnel <br>
+<br>
+<li><b>Soins de support complémentaires : </b></li>
+&#x2705 Rééducation et activités physiques adaptées <br>
+&#x2705 Préservation de la fertilité <br>
+&#x2705 Gestion des troubles de la sexualité <br>
+&#x2705 Conseils d’hygiène de vie <br>
+&#x2705 Soutien psychologique des proches et des aidants <br>
+<br>
+<li><b>Autres soins de support et services : </b></li>
+&#x2705 Parcours de réadaptation respiratoire <br>
+&#x2705 Onco-gériatrie <br>
+&#x2705 Unité mobile de soins palliatifs <br>
+&#x2718 Unité de soins palliatifs dédiée <br>
+&#x2705 Hôpital de jour de soins de support <br>
+&#x2705 Espace de réflexion éthique <br>
+&#x2705 Approches non conventionnelles (hypnose, acupuncture, sophrologie, …) <br>
+&#x2705 Gestion de la fatigue <br>
+&#x2718 Ateliers d’art thérapie <br>
+&#x2705 Soins esthétiques et corporels <br>
+<br>
+</ul>
+</details>   
+
+<details>
+    <summary>Ressources humaines</summary>
+<br>
+<ul>  
+<li> <B>Infirmier(e) de Coordination :</B> </li>
+MOUCHAGUE Emelyne <br>
+e.mouchague@bordeaux.unicancer.fr <br>
+Tel : 05 47 30 61 89
+<br>
+<li> <B>Attaché(e) de Recherche Clinique :</B> </li>
+REY Alexandra <br>
+a.rey@bordeaux.unicancer.fr <br>
+A-ARC-Digestif@bordeaux.unicancer.fr <br>
+</ul>
+</details>
+
    
 ### **CHU Poitiers** <br>
 **Pr TOUGERON David**     <br>
