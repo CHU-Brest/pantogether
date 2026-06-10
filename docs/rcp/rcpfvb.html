@@ -147,6 +147,16 @@ select {
     <div class="legende-item"><div class="legende-dot" style="background:#2980b9"></div> Centre foie & voies biliaires</div>
     <div class="legende-item"><div class="legende-dot" style="background:#7f8c8d"></div> Cluster mixte</div>
   </div>
+ <hr>
+<b style="font-size:13px">Navigation :</b>
+<div style="display:flex;flex-wrap:wrap;gap:6px;margin-top:6px">
+  <button onclick="zoomVers('metropole')" style="flex:1;padding:6px;border:1px solid #bdc3c7;border-radius:6px;background:#ecf0f1;cursor:pointer;font-size:12px">🇫🇷 Métropole</button>
+  <button onclick="zoomVers('guadeloupe')" style="flex:1;padding:6px;border:1px solid #bdc3c7;border-radius:6px;background:#ecf0f1;cursor:pointer;font-size:12px">🟣 Guadeloupe</button>
+  <button onclick="zoomVers('martinique')" style="flex:1;padding:6px;border:1px solid #bdc3c7;border-radius:6px;background:#ecf0f1;cursor:pointer;font-size:12px">🟠 Martinique</button>
+  <button onclick="zoomVers('guyane')" style="flex:1;padding:6px;border:1px solid #bdc3c7;border-radius:6px;background:#ecf0f1;cursor:pointer;font-size:12px">🟤 Guyane</button>
+  <button onclick="zoomVers('reunion')" style="flex:1;padding:6px;border:1px solid #bdc3c7;border-radius:6px;background:#ecf0f1;cursor:pointer;font-size:12px">🔴 La Réunion</button>
+  <button onclick="zoomVers('mayotte')" style="flex:1;padding:6px;border:1px solid #bdc3c7;border-radius:6px;background:#ecf0f1;cursor:pointer;font-size:12px">🟡 Mayotte</button>
+</div> 
 </div>
 
 <div id="map"></div>
@@ -866,6 +876,18 @@ regionSelect.addEventListener('change', () => {
   afficher();
 });
 
+function zoomVers(zone) {
+  const coords = {
+    metropole:  { lat: 46.6,    lng: 2.5,    zoom: 6  },
+    guadeloupe: { lat: 16.25,   lng: -61.55, zoom: 9  },
+    martinique: { lat: 14.62,   lng: -61.05, zoom: 10 },
+    guyane:     { lat: 4.0,     lng: -53.0,  zoom: 7  },
+    reunion:    { lat: -21.1,   lng: 55.5,   zoom: 10 },
+    mayotte:    { lat: -12.83,  lng: 45.15,  zoom: 11 },
+  };
+  const c = coords[zone];
+  map.setView([c.lat, c.lng], c.zoom);
+}
 afficher();
 
 document.getElementById('togglePanel').onclick = () =>
