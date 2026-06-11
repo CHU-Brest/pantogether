@@ -14,9 +14,9 @@ nav:
     - cartes.html
   - RCP:
     - rcp/RCP.md
+    - Carte intéractive des RCP: rcp/rcpfvb.html
     - Oesophage, Estomac, Jonction oesogastrique: rcp/oes.html
     - Foie et voies biliaires: rcp/fvb2.html
-    - Carte intéractive des RCP: rcp/rcpfvb.html
   - Ressources : 
     - ressources/recommandations.md
     - ressources/documentation.md
