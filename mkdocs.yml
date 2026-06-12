@@ -18,7 +18,7 @@ nav:
     - Oesophage, Estomac, Jonction oesogastrique: rcp/oes.html
     - Foie et voies biliaires: rcp/fvb2.html
   - Recherche : 
-   - recherche/rechercheclinique.html
+    - recherche/rechercheclinique.html
   - Ressources : 
     - ressources/recommandations.md
     - ressources/documentation.md
