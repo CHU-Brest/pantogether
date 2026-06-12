@@ -1,0 +1,1074 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Carte RCP – Centres oeso-gastriques & foie et voies biliaires</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.css" />
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.Default.css" />
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://unpkg.com/leaflet.markercluster/dist/leaflet.markercluster.js"></script>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: Arial, sans-serif; }
+#map { height: 100vh; width: 100vw; }
+#panel {
+  position: fixed; top: 0; left: 0;
+  width: 280px; height: 100vh;
+  background: white; padding: 14px;
+  overflow-y: auto; z-index: 2000;
+  box-shadow: 2px 0 8px rgba(0,0,0,.2);
+  transition: left 0.3s;
+}
+#togglePanel {
+  position: fixed; top: 10px; left: 10px;
+  z-index: 3000; background: #3498db; color: white;
+  border: none; padding: 8px 12px; border-radius: 6px;
+  font-size: 16px; cursor: pointer; display: none;
+}
+@media(max-width:768px) {
+  #panel { left: -290px; }
+  #panel.open { left: 0; }
+  #togglePanel { display: block; }
+}
+h3 { font-size: 15px; margin-bottom: 8px; color: #2c3e50; }
+hr { border: none; border-top: 1px solid #eee; margin: 10px 0; }
+.axe-filter { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 10px; }
+.axe-btn {
+  padding: 6px 12px; border: 2px solid transparent;
+  border-radius: 20px; cursor: pointer; font-size: 13px;
+  font-weight: bold; transition: 0.2s; flex: 1; text-align: center;
+}
+.axe-btn.oeso  { background: #e8f8f0; border-color: #27ae60; color: #27ae60; }
+.axe-btn.foie  { background: #eaf3fb; border-color: #2980b9; color: #2980b9; }
+.axe-btn.active.oeso { background: #27ae60; color: white; }
+.axe-btn.active.foie { background: #2980b9; color: white; }
+select {
+  width: 100%; padding: 7px; border: 1px solid #ddd;
+  border-radius: 6px; font-size: 13px; margin-bottom: 10px;
+}
+#listeCentres {
+  max-height: 220px; overflow-y: auto;
+  border: 1px solid #eee; border-radius: 6px;
+}
+.centre-item {
+  padding: 7px 9px; cursor: pointer;
+  border-bottom: 1px solid #f0f0f0; font-size: 13px;
+  transition: background 0.15s;
+}
+.centre-item:hover { background: #f5f8ff; }
+.centre-item .axe-dot {
+  display: inline-block; width: 10px; height: 10px;
+  border-radius: 50%; margin-right: 6px; vertical-align: middle;
+}
+.centre-item small { color: #888; }
+.legende { margin-top: 4px; }
+.legende-item { display: flex; align-items: center; gap: 8px; font-size: 13px; margin-bottom: 4px; }
+.legende-dot { width: 14px; height: 14px; border-radius: 50%; flex-shrink: 0; }
+/* Popup */
+.popup-rcp { max-height: 480px; overflow-y: auto; width: 520px; max-width: 92vw; font-size: 13px; }
+.popup-rcp h4 { color: #2c3e50; margin-bottom: 4px; font-size: 16px; }
+.popup-rcp .axe-badge {
+  display: inline-block; padding: 2px 10px; border-radius: 10px;
+  font-size: 11px; font-weight: bold; margin-bottom: 6px; color: white;
+}
+.rcp-card {
+  border: 1px solid #e2e8f0; border-radius: 8px;
+  padding: 10px 12px; margin-bottom: 10px; background: #fafbfc;
+}
+.rcp-card:last-child { margin-bottom: 0; }
+.rcp-card .rcp-titre { font-weight: bold; color: #2c3e50; margin-bottom: 6px; line-height: 1.3; }
+.rcp-card .rcp-reseau { font-size: 11px; color: #888; font-style: italic; margin-bottom: 6px; }
+.rcp-card .rcp-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 4px 12px; margin-bottom: 8px; }
+.rcp-card .rcp-field { font-size: 12px; }
+.rcp-card .rcp-field span { color: #666; }
+.rcp-card .rcp-field b { color: #333; }
+.rcp-card .rcp-soumission {
+  background: #eef6ff; border-left: 3px solid #3498db;
+  padding: 6px 9px; border-radius: 4px; font-size: 12px;
+  margin-top: 6px; line-height: 1.5;
+}
+.rcp-card .rcp-soumission b { display: block; margin-bottom: 2px; color: #2980b9; }
+.rcp-card .rcp-contact {
+  background: #f0faf4; border-left: 3px solid #27ae60;
+  padding: 6px 9px; border-radius: 4px; font-size: 12px;
+  margin-top: 6px; line-height: 1.5;
+}
+.rcp-card .rcp-contact b { display: block; margin-bottom: 2px; color: #27ae60; }
+.rcp-card .rcp-contact a { color: #2980b9; }
+.rcp-contact-sep { border: none; border-top: 1px solid #c3e6cb; margin: 5px 0; }
+#compteur { font-size: 12px; color: #888; margin-bottom: 8px; }
+</style>
+</head>
+<body>
+
+<button id="togglePanel">☰ Filtres</button>
+
+<div id="panel">
+  <a href="../rcp/RCP/" style="display:inline-flex;align-items:center;gap:6px;font-size:13px;color:#2c3e50;text-decoration:none;margin-bottom:10px">← Retour</a>
+  <h3>🗺 Carte des RCP</h3>
+  <div id="compteur"></div>
+  <hr>
+  <b style="font-size:13px">Axe :</b>
+  <div class="axe-filter" style="margin-top:6px">
+    <div class="axe-btn oeso active" data-axe="oeso">🟢 Oeso-gastrique</div>
+    <div class="axe-btn foie active" data-axe="foie">🔵 Foie et voies biliaires</div>
+  </div>
+  <b style="font-size:13px">Région :</b>
+  <select id="regionFilter" style="margin-top:4px">
+    <option value="">Toutes</option>
+  </select>
+  <b style="font-size:13px">Centres visibles :</b>
+  <div id="listeCentres" style="margin-top:4px"></div>
+  <hr>
+  <div class="legende">
+    <div class="legende-item"><div class="legende-dot" style="background:#27ae60"></div> Centre oeso-gastrique</div>
+    <div class="legende-item"><div class="legende-dot" style="background:#2980b9"></div> Centre foie & voies biliaires</div>
+    <div class="legende-item"><div class="legende-dot" style="background:#7f8c8d"></div> Cluster mixte</div>
+  </div>
+  <hr>
+  <b style="font-size:13px">Navigation :</b>
+  <div style="display:flex;flex-wrap:wrap;gap:6px;margin-top:6px">
+    <button onclick="zoomVers('metropole')" style="flex:1;padding:6px;border:1px solid #bdc3c7;border-radius:6px;background:#ecf0f1;cursor:pointer;font-size:12px"> Métropole</button>
+    <button onclick="zoomVers('guadeloupe')" style="flex:1;padding:6px;border:1px solid #bdc3c7;border-radius:6px;background:#ecf0f1;cursor:pointer;font-size:12px"> Guadeloupe</button>
+    <button onclick="zoomVers('martinique')" style="flex:1;padding:6px;border:1px solid #bdc3c7;border-radius:6px;background:#ecf0f1;cursor:pointer;font-size:12px"> Martinique</button>
+    <button onclick="zoomVers('guyane')" style="flex:1;padding:6px;border:1px solid #bdc3c7;border-radius:6px;background:#ecf0f1;cursor:pointer;font-size:12px"> Guyane</button>
+    <button onclick="zoomVers('reunion')" style="flex:1;padding:6px;border:1px solid #bdc3c7;border-radius:6px;background:#ecf0f1;cursor:pointer;font-size:12px"> La Réunion</button>
+    <button onclick="zoomVers('mayotte')" style="flex:1;padding:6px;border:1px solid #bdc3c7;border-radius:6px;background:#ecf0f1;cursor:pointer;font-size:12px"> Mayotte</button>
+  </div>
+</div>
+
+<div id="map"></div>
+
+<script>
+const centres = [
+  // ===== OESO-GASTRIQUE =====
+  {
+    nom: "CHU Clermont-Ferrand", ville: "Clermont-Ferrand", region: "Auvergne-Rhône-Alpes",
+    axe: "oeso", lat: 45.786, lng: 3.112,
+    rcps: [
+      { reunion: "RCP d'oncologie digestive et chirurgie digestive conventionnelle et de recours", reseau: "ONCAURA", jour: "Lundi", horaire: "13h30–17h", freq: "Hebdomadaire",
+        lieu: "Service de chirurgie digestive CHU Estaing – Visioconférence possible sur demande",
+        contacts: [{ ama: "CHAMPION Sylvie", email: "schampion@chu-clermontferrand.fr", tel: "04 73 75 04 94" }],
+        soumission: "Fiche pré-établie à rendre au plus tard le matin des RCP" }
+    ]
+  },
+  {
+    nom: "Centre Hospitalier Lyon Sud", ville: "Lyon", region: "Auvergne-Rhône-Alpes",
+    axe: "oeso", lat: 45.697, lng: 4.793,
+    rcps: [
+      { reunion: "RCP Oncologie Digestive et de Recours", reseau: "ONCAURA", jour: "Mercredi", horaire: "17h–19h30", freq: "Hebdomadaire",
+        lieu: "Radiologie du Centre Hospitalier Lyon Sud (Bât 3B) – Visioconférence via Teams",
+        contacts: [{ ama: "RINGOT Audrey", email: "audrey.ringot@chu-lyon.fr" }],
+       soumission: 'Création d\'une fiche RCP cancer sur Easily par le secrétariat ou sur <a href="https://www.sante-ra.fr/RCP/GestionRCP/choixPathoChronique.aspx?refUrl=http%3a%2f%2fwww.sante-ra.fr%2frcp%2fAccueil.aspx" target="_blank">Onco AURA</a> ' }
+    ]
+  },
+  {
+    nom: "Centre Jean Mermoz", ville: "Lyon", region: "Auvergne-Rhône-Alpes",
+    axe: "oeso", lat: 45.741, lng: 4.873,
+    rcps: [
+      { reunion: "RCP d'oncologie digestive", reseau: "", jour: "Jeudi", horaire: "12h30", freq: "Hebdomadaire",
+        lieu: "Salle de RCP",
+        contacts: [{ ama: "POURRIOT Camille", email: "camille.pourriot@ramsaysante.fr", tel: "04 37 53 87 33" }],
+        soumission: 'Dossier à compléter sur <a href="https://www.sante-ara.fr/services/monsisra" target="_blank">SISRA</a>' },
+      { reunion: "RCP Tumeurs superficielles", reseau: "", jour: "Mercredi", horaire: "12h", freq: "Mensuelle (2e mercredi)",
+        lieu: "Salle de RCP",
+        contacts: [{ ama: "POURRIOT Camille", email: "camille.pourriot@ramsaysante.fr", tel: "04 37 53 87 33" }],
+        soumission: 'Dossier à compléter sur <a href="https://www.sante-ara.fr/services/monsisra" target="_blank">SISRA</a>' }
+    ]
+  },
+  {
+    nom: "CRLCC Léon Bérard", ville: "Lyon", region: "Auvergne-Rhône-Alpes",
+    axe: "oeso", lat: 45.736, lng: 4.832,
+    rcps: [
+      { reunion: "RCP d'oncologie digestive (CLB)", reseau: "", jour: "Lundi", horaire: "17h", freq: "Hebdomadaire",
+        lieu: "Centre Léon Bérard – Visioconférence via Teams",
+        contacts: [{ ama: "REY Stéphanie", tel: "04 69 85 64 91" }],
+        soumission: "Dossier à soumettre sur le DCC SARA" }
+    ]
+  },
+  {
+    nom: "CHU Saint-Etienne", ville: "Saint-Étienne", region: "Auvergne-Rhône-Alpes",
+    axe: "oeso", lat: 45.434, lng: 4.39,
+    rcps: [
+      { reunion: "RCP Oncologie Digestive", reseau: "ONCOLOIRE", jour: "Lundi", horaire: "18h–20h", freq: "Hebdomadaire",
+        lieu: "CHU de Saint-Étienne – Visioconférence",
+        contacts: [{ ama: "AYALA Sandrine", tel: "04 77 82 25 55" }],
+        soumission: "Fiche à soumettre à l'AMA" }
+    ]
+  },
+  {
+    nom: "CHU Besançon", ville: "Besançon", region: "Bourgogne-Franche-Comté",
+    axe: "oeso", lat: 47.237, lng: 6.024,
+    rcps: [
+      { reunion: "RCP d'oncologie digestive", reseau: "", jour: "Mardi", horaire: "", freq: "Hebdomadaire",
+        lieu: "CHU Besançon et visioconférence",
+        contacts: [{ ama: "QUERRY Carène, IRFC", tel: "03 81 53 92 38" }],
+        soumission: 'Dossier à soumettre sur le <a href="https://www.oncobfc.com/dossier-communicant-de-cancerologie-dcc" target="_blank">DCC Onco BFC</a>' },
+      { reunion: "RCP d'oncologie digestive", reseau: "", jour: "Jeudi", horaire: "", freq: "Hebdomadaire",
+        lieu: "Hôpital Nord Franche-Comté et visioconférence",
+        contacts: [{ ama: "QUERRY Carène, IRFC", tel: "03 81 53 92 38" }],
+        soumission: 'Dossier à soumettre sur le <a href="https://www.oncobfc.com/dossier-communicant-de-cancerologie-dcc" target="_blank">DCC Onco BFC</a>' }
+    ]
+  },
+  {
+    nom: "Hôpital François Mitterrand, CHU Dijon", ville: "Dijon", region: "Bourgogne-Franche-Comté",
+    axe: "oeso", lat: 47.321, lng: 5.041,
+    rcps: [
+      { reunion: "RCP digestif Régionale Bourgogne", reseau: "", jour: "Mercredi", horaire: "16h30", freq: "Hebdomadaire",
+        lieu: "Service d'hépato-gastroentérologie et oncologie digestive et visioconférence via le logiciel Covotem sur demande au secrétariat des 3C",
+        contacts: [{ ama: "Secrétariat 3C", email: "3C@chu-dijon.fr", tel: "03 80 29 56 27" }],
+        soumission: 'Dossier à soumettre sur le <a href="https://www.oncobfc.com/dossier-communicant-de-cancerologie-dcc" target="_blank">DCC Onco BFC</a>' },
+      { reunion: "RCP Tumeurs Neuro-endocrines RENATEN & Tumeurs Rares BFC", reseau: "", jour: "Mercredi", horaire: "16h30", freq: "Hebdomadaire",
+        lieu: "Service d'hépato-gastroentérologie et oncologie digestive et visioconférence via le logiciel Covotem sur demande au secrétariat des 3C",
+        contacts: [{ ama: "Secrétariat 3C", email: "3C@chu-dijon.fr", tel: "03 80 29 56 27" }],
+        soumission: 'Dossier à soumettre sur le <a href="https://www.oncobfc.com/dossier-communicant-de-cancerologie-dcc" target="_blank">DCC Onco BFC</a>' }
+    ]
+  },
+  {
+    nom: "Centre Georges-François Leclerc", ville: "Dijon", region: "Bourgogne-Franche-Comté",
+    axe: "oeso", lat: 47.318, lng: 5.052,
+    rcps: [
+      { reunion: "RCP d'oncologie digestive de recours", reseau: "", jour: "Jeudi", horaire: "16h", freq: "Hebdomadaire",
+        lieu: "Centre Georges-François Leclerc – Visioconférence",
+        contacts: [{ ama: "GARCIA Manon", email: "mgarcia@cgfl.fr", tel: "03 80 73 75 00" }],
+        soumission: "Dossier à soumettre sur le DCC du patient" }
+    ]
+  },
+  {
+    nom: "CHU La Cavale Blanche", ville: "Brest", region: "Bretagne",
+    axe: "oeso", lat: 48.381, lng: -4.498,
+    rcps: [
+      { reunion: "RCP Oncologie digestive, œsophage, gastrique", reseau: "OncoBretagne / pôle régional de cancérologie Bretagne", jour: "Lundi", horaire: "17h", freq: "Hebdomadaire",
+        lieu: "Multisites – Visioconférence",
+        contacts: [{ ama: "ALIAS Sylvie", email: "sylvie.alias@appuisante.fr" }],
+        soumission: 'Dossier à compléter sur le <a href="https://auth.telesantebretagne.org/realms/gcs/protocol/openid-connect/auth?client_id=portail&redirect_uri=https%3A%2F%2Fmes-services.telesantebretagne.org%2F&state=393f5133-3a9e-429b-8c7e-63dadc25647c&response_mode=fragment&response_type=code&scope=openid&nonce=5bece8cd-6219-42c2-8be4-9bb0875f1a1d&code_challenge=pyq2CE1hE2OqXKTX7Xh5-nyJTMnta49SOC59khgCL-o&code_challenge_method=S256" target="_blank">DCC Onco Bretagne</a>' },
+      { reunion: "RCP Moléculaire", reseau: "Pôle régional de cancérologie Bretagne", jour: "Mercredi", horaire: "", freq: "Hebdomadaire",
+        lieu: "Multisites – Visioconférence",
+        contacts: [{ ama: "GUEN Laurence", email: "poleregionalcancerologie@chu-brest.fr", tel: "02 29 02 01 18", fax: "02 29 02 01 67" }],
+        soumission: 'Dossier à compléter sur le <a href="https://auth.telesantebretagne.org/realms/gcs/protocol/openid-connect/auth?client_id=portail&redirect_uri=https%3A%2F%2Fmes-services.telesantebretagne.org%2F&state=393f5133-3a9e-429b-8c7e-63dadc25647c&response_mode=fragment&response_type=code&scope=openid&nonce=5bece8cd-6219-42c2-8be4-9bb0875f1a1d&code_challenge=pyq2CE1hE2OqXKTX7Xh5-nyJTMnta49SOC59khgCL-o&code_challenge_method=S256" target="_blank">DCC Onco Bretagne</a>' },
+      { reunion: "RCP ARPEGO (multi-organes)", reseau: "Pôle régional de cancérologie Bretagne", jour: "Mercredi", horaire: "8h", freq: "Hebdomadaire",
+        lieu: "Multisites – Visioconférence",
+        contacts: [
+          { ama: "GOESIN Isabelle", email: "isabelle.goesin@chu-rennes.fr", tel: "02 99 28 99 87", fax: "02 99 28 99 68" },
+          { ama: "GUEN Laurence", email: "poleregionalcancerologie@chu-brest.fr", tel: "02 29 02 01 18", fax: "02 29 02 01 67" }
+        ],
+        soumission: 'Dossier à compléter sur le <a href="https://auth.telesantebretagne.org/realms/gcs/protocol/openid-connect/auth?client_id=portail&redirect_uri=https%3A%2F%2Fmes-services.telesantebretagne.org%2F&state=393f5133-3a9e-429b-8c7e-63dadc25647c&response_mode=fragment&response_type=code&scope=openid&nonce=5bece8cd-6219-42c2-8be4-9bb0875f1a1d&code_challenge=pyq2CE1hE2OqXKTX7Xh5-nyJTMnta49SOC59khgCL-o&code_challenge_method=S256" target="_blank">DCC Onco Bretagne</a>' }
+    ]
+  },
+  {
+    nom: "Centre Eugène Marquis", ville: "Rennes", region: "Bretagne",
+    axe: "oeso", lat: 48.104, lng: -1.69,
+    rcps: [
+      { reunion: "RCP d'oncologie digestive", reseau: "ONCO 5", jour: "Mardi", horaire: "14h30", freq: "Hebdomadaire",
+        lieu: "CHU Rennes – Visioconférence",
+        contacts: [{ ama: "BUSIN Emilie", tel: "02 99 25 31 41" }],
+        soumission: 'Dossier à compléter sur le <a href="https://auth.telesantebretagne.org/realms/gcs/protocol/openid-connect/auth?client_id=portail&redirect_uri=https%3A%2F%2Fmes-services.telesantebretagne.org%2F&state=393f5133-3a9e-429b-8c7e-63dadc25647c&response_mode=fragment&response_type=code&scope=openid&nonce=5bece8cd-6219-42c2-8be4-9bb0875f1a1d&code_challenge=pyq2CE1hE2OqXKTX7Xh5-nyJTMnta49SOC59khgCL-o&code_challenge_method=S256" target="_blank">DCC Onco Bretagne</a>' }
+    ]
+  },
+  {
+    nom: "CHU Pontchaillou", ville: "Rennes", region: "Bretagne",
+    axe: "oeso", lat: 48.118, lng: -1.698,
+    rcps: [
+      { reunion: "RCP Digestif", reseau: "OncoBretagne", jour: "Mardi", horaire: "14h30", freq: "Hebdomadaire",
+        lieu: "Salle de radiologie – Visioconférence",
+        contacts: [{ ama: "BUSIN Emilie", email: "ingenieur.qualite@onco5.fr", tel: "02 99 25 31 41" }],
+        soumission: 'Dossier à compléter sur le <a href="https://auth.telesantebretagne.org/realms/gcs/protocol/openid-connect/auth?client_id=portail&redirect_uri=https%3A%2F%2Fmes-services.telesantebretagne.org%2F&state=393f5133-3a9e-429b-8c7e-63dadc25647c&response_mode=fragment&response_type=code&scope=openid&nonce=5bece8cd-6219-42c2-8be4-9bb0875f1a1d&code_challenge=pyq2CE1hE2OqXKTX7Xh5-nyJTMnta49SOC59khgCL-o&code_challenge_method=S256" target="_blank">DCC Onco Bretagne</a>' }
+    ]
+  },
+  {
+    nom: "CHP Saint-Grégoire", ville: "Rennes", region: "Bretagne",
+    axe: "oeso", lat: 48.153, lng: -1.694,
+    rcps: [
+      { reunion: "RCP Digestive Libérale", reseau: "Onco 5", jour: "Lundi", horaire: "19h", freq: "Hebdomadaire",
+        lieu: "Institut de Cancérologie et Radiothérapie Bretilien",
+        contacts: [{ ama: "Dr VEILHAN L-A", tel: "02 99 25 44 05" }],
+        soumission: 'Dossier à compléter sur le <a href="https://auth.telesantebretagne.org/realms/gcs/protocol/openid-connect/auth?client_id=portail&redirect_uri=https%3A%2F%2Fmes-services.telesantebretagne.org%2F&state=393f5133-3a9e-429b-8c7e-63dadc25647c&response_mode=fragment&response_type=code&scope=openid&nonce=5bece8cd-6219-42c2-8be4-9bb0875f1a1d&code_challenge=pyq2CE1hE2OqXKTX7Xh5-nyJTMnta49SOC59khgCL-o&code_challenge_method=S256" target="_blank">DCC Onco Bretagne</a>' }
+    ]
+  },
+  {
+    nom: "Hôpital Trousseau, CHRU Tours", ville: "Tours", region: "Centre-Val-de-Loire",
+    axe: "oeso", lat: 47.366, lng: 0.705,
+    rcps: [
+      { reunion: "RCP Digestif ; RCP CHC ; RCP Oncogénétique", reseau: "", jour: "Mardi", horaire: "14h–18h", freq: "Hebdomadaire",
+        lieu: "Salle de réunion du 9ème Étage – Visioconférence Teams",
+        contacts: [{ ama: "CHATEL Marjorie", email: "rcp.trousseau@chu-tours.fr", tel: "02 47 47 47 47" }],
+        soumission: 'Fiche à déposer dans le DCC du patient <a href="https://connect.esante-centre.fr/" target="_blank">DCC Onco Centre</a>' }
+    ]
+  },
+  {
+    nom: "CHU Reims", ville: "Reims", region: "Grand-Est",
+    axe: "oeso", lat: 49.248, lng: 4.025,
+    rcps: [
+      { reunion: "RCP Oncologie Digestive RESCOD", reseau: "NEON", jour: "Mardi", horaire: "16h", freq: "Bimestrielle",
+        lieu: 'CHU Reims, bâtiment CABROL 4ème étage – Visioconférence <a href="https://www.pulsy.fr/portail/nos-services-e-sante/e-rcp-54-62.html" target="_blank">PULSY</a>',
+        contacts: [{ email: "RCP@chu-reims.fr" }],
+        soumission: 'Soumission de la fiche RCP sur la plateforme <a href="https://www.pulsy.fr/portail/nos-services-e-sante/e-rcp-54-62.html" target="_blank">PULSY</a> ou fichier Word par mail à l\'AMA' }
+    ]
+  },
+  {
+    nom: "Institut Strauss", ville: "Strasbourg", region: "Grand-Est",
+    axe: "oeso", lat: 48.574, lng: 7.752,
+    rcps: [
+      { reunion: "RCP Digestif", reseau: "", jour: "Mardi", horaire: "17h", freq: "Hebdomadaire",
+        lieu: "Oncologie Médicale - Secrétariat RCP – Visioconférence Teams",
+        contacts: [{ ama: "HIFF Aurélia", email: "secretariat-RCP@institut-strauss.fr", tel: "03 68 76 74 37" }],
+        soumission: 'Soumission de la fiche RCP sur la plateforme <a href="https://www.pulsy.fr/portail/nos-services-e-sante/e-rcp-54-62.html" target="_blank">PULSY</a>' }
+    ]
+  },
+  {
+    nom: "CHU Saint-Antoine", ville: "Paris", region: "Ile-de-France",
+    axe: "oeso", lat: 48.851, lng: 2.377,
+    rcps: [
+      { reunion: "RCP d'oncologie digestive", reseau: "", jour: "Mercredi", horaire: "16h–19h", freq: "Hebdomadaire",
+        lieu: "Salle de staff chirurgie digestive",
+        contacts: [{ ama: "MAIGA Aminata", email: "aminata.maiga@aphp.fr", tel: "01 49 28 21 15" }],
+        soumission: "Dossier à soumettre à l'AMA" },
+      { reunion: "RCP Oncologie digestive MSI national", reseau: "", jour: "Lundi", horaire: "14h–16h", freq: "Bi-mensuelle",
+        lieu: "Webconférence Omnidoc - Pour tout renseignement contacter le chargé de mission: tataye.moussoundamoussoundakou@aphp.fr",
+        contacts: [{ ama: "MAIGA Aminata", email: "aminata.maiga@aphp.fr", tel: "01 49 28 21 15" }],
+        soumission: "Dossier à soumettre à l'AMA" }
+    ]
+  },
+  {
+    nom: "Hôpital Européen Georges Pompidou, AP-HP", ville: "Paris", region: "Ile-de-France",
+    axe: "oeso", lat: 48.839, lng: 2.278,
+    rcps: [
+      { reunion: "RCP Chimiothérapie", reseau: "", jour: "Mercredi", horaire: "13h", freq: "Hebdomadaire",
+        lieu: "Service d'Hépato-gastro-entérologie et oncologie digestive" },
+      { reunion: "RCP Médico-Chirurgicale", reseau: "", jour: "Jeudi", horaire: "16h30", freq: "Hebdomadaire",
+        lieu: "Service d'Hépato-gastro-entérologie et oncologie digestive" }
+    ]
+  },
+  {
+    nom: "Hôpital Saint-Louis, APHP", ville: "Paris", region: "Ile-de-France",
+    axe: "oeso", lat: 48.873, lng: 2.363,
+    rcps: [
+      { reunion: "RCP Oncologie Digestive", reseau: "", jour: "Mardi", horaire: "17h–20h", freq: "Hebdomadaire",
+        lieu: "Service de chirurgie viscérale – Visioconférence possible",
+        soumission: "Liste de noms soumise au coordonnateur (Dr Nelson Lourenço). Fiche RCP à soumettre dans le logiciel ORBIS®" }
+    ]
+  },
+  {
+    nom: "Centre François Baclesse", ville: "Caen", region: "Normandie",
+    axe: "oeso", lat: 49.192, lng: -0.371,
+    rcps: [
+      { reunion: "RCP d'oncologie digestive", reseau: "", jour: "Mardi", horaire: "14h30–18h", freq: "Hebdomadaire",
+        lieu: "Centre François Baclesse",
+        contacts: [
+          { ama: "THERY Julie", email: "secretariat.digestif@baclesse.unicancer.fr", tel: "02 31 45 50 16", fax: "02 31 45 50 83" },
+          { email: "j.thery@baclesse.unicancer.fr" }
+        ],
+        soumission: 'Enregistrement préalable par le secrétariat. Fiche régionale sur <a href="https://www.norm-uni.fr/portail.pro/" target="_blank">NormUni</a>' },
+      { reunion: "RCP Biologie moléculaire : multi-organes", reseau: "", jour: "Mardi", horaire: "17h–19h", freq: "Bi-mensuelle",
+        lieu: "Centre François Baclesse",
+        contacts: [
+          { ama: "THERY Julie", email: "secretariat.digestif@baclesse.unicancer.fr", tel: "02 31 45 50 16", fax: "02 31 45 50 83" },
+          { email: "j.thery@baclesse.unicancer.fr" }
+        ],
+        soumission: 'Enregistrement préalable par le secrétariat. Fiche régionale sur <a href="https://www.norm-uni.fr/portail.pro/" target="_blank">NormUni</a>' }
+    ]
+  },
+  {
+    nom: "Hôpital Haut-Lévêque, CHU Bordeaux", ville: "Bordeaux", region: "Nouvelle-Aquitaine",
+    axe: "oeso", lat: 44.839, lng: -0.608,
+    rcps: [
+      { reunion: "RCP Oncologie Digestive", reseau: "", jour: "Lundi", horaire: "18h", freq: "Hebdomadaire",
+        lieu: "Centre Magellan",
+        contacts: [{ email: "3c-sud@chu-bordeaux.fr" }],
+        soumission: "Dossier à soumettre au secrétariat 3C du CHU : 3c-sud@chu-bordeaux.fr" }
+    ]
+  },
+  {
+    nom: "Institut Bergonié", ville: "Bordeaux", region: "Nouvelle-Aquitaine",
+    axe: "oeso", lat: 44.8237, lng: -0.5807,
+    rcps: [
+      { reunion: "RCP Digestive", reseau: "Onco Nouvelle-Aquitaine", jour: "Lundi", horaire: "18h–20h", freq: "Hebdomadaire",
+        lieu: "Institut Bergonié",
+        contacts: [{ ama: "LAVANDIER Sarah", email: "am.dig@bordeaux.unicancer.fr", tel: "05 56 33 32 78", fax: "05 56 33 33 83" }],
+        soumission: 'Demandes via le Dossier communicant de cancérologie K-Process : <a href="https://aquitaine.dcc-poitou-charentes.fr/rcp/" target="_blank">K-Process</a>' },
+      { reunion: "RCP Digestive", reseau: "Onco Nouvelle-Aquitaine", jour: "Jeudi", horaire: "8h30–11h", freq: "Hebdomadaire",
+        lieu: "Institut Bergonié",
+        contacts: [{ ama: "LAVANDIER Sarah", email: "am.dig@bordeaux.unicancer.fr", tel: "05 56 33 32 78", fax: "05 56 33 33 83" }],
+        soumission: 'Demandes via le Dossier communicant de cancérologie K-Process : <a href="https://aquitaine.dcc-poitou-charentes.fr/rcp/" target="_blank">K-Process</a>' }
+    ]
+  },
+  {
+    nom: "CHU Poitiers", ville: "Poitiers", region: "Nouvelle-Aquitaine",
+    axe: "oeso", lat: 46.58, lng: 0.34,
+    rcps: [
+      { reunion: "RCP Digestif", reseau: "Onco Nouvelle-Aquitaine", jour: "Lundi", horaire: "16h–20h", freq: "Hebdomadaire",
+        lieu: "CHU de Poitiers – Visioconférence",
+        contacts: [{ ama: "GAULTIER Karine", tel: "05 49 44 46 08" }],
+        soumission: 'Demandes via le Dossier communicant de cancérologie K-Process : <a href="https://aquitaine.dcc-poitou-charentes.fr/rcp/" target="_blank">K-Process</a>' }
+    ]
+  },
+  {
+    nom: "ICM", ville: "Montpellier", region: "Occitanie",
+    axe: "oeso", lat: 43.614, lng: 3.862,
+    rcps: [
+      { reunion: "RCP Digestif", reseau: "Onco-Occitanie", jour: "Jeudi", horaire: "15h", freq: "Hebdomadaire",
+        lieu: "Salle du citronnier – Visioconférence Teams",
+        contacts: [{ ama: "GOGUEY-MUETHON Magali", email: "Magali.Goguey-Muethon@icm.unicancer.fr", tel: "04 67 61 30 90" }],
+        soumission: "Fiche pré-remplie à soumettre à l'AMA" }
+    ]
+  },
+  {
+    nom: "IUCT Rangueil-Larrey et Oncôpole, CHU Toulouse", ville: "Toulouse", region: "Occitanie",
+    axe: "oeso", lat: 43.565, lng: 1.459,
+    rcps: [
+      { reunion: "RCP Digestif (dont recours oeso-gastrique - ano-rectal - péritoine)", reseau: "Onco-Occitanie", jour: "", horaire: "", freq: "Hebdomadaire",
+        lieu: "Salle de radiologie, Bâtiment H1, RDC",
+        soumission: 'Dossier à soumettre sur le DCC <a href="https://onco-occitanie.fr/le-parcours-de-soin/le-dossier-communicant-de-cancerologie-dcc/" target="_blank">Onco-Occitanie</a>' },
+      { reunion: "RCP Recours Digestif : Biologie Moléculaire et Essais Cliniques", reseau: "Onco-Occitanie", jour: "", horaire: "", freq: "Bi-mensuelle",
+        lieu: "Salle de radiologie, Bâtiment H1, RDC",
+        soumission: 'Dossier à soumettre sur le DCC <a href="https://onco-occitanie.fr/le-parcours-de-soin/le-dossier-communicant-de-cancerologie-dcc/" target="_blank">Onco-Occitanie</a>' }
+    ]
+  },
+  {
+    nom: "ICO Angers", ville: "Angers", region: "Pays de la Loire",
+    axe: "oeso", lat: 47.469, lng: -0.552,
+    rcps: [
+      { reunion: "RCP Péritoine", reseau: "ONCOPL", jour: "Vendredi", horaire: "12h", freq: "Hebdomadaire",
+        lieu: "Salle 2",
+        contacts: [{ ama: "BOISDRON Amélie", email: "amelie.boisdron@ico.unicancer.fr", tel: "02 41 35 29 09" }],
+        soumission: "Dossier à compléter sur le DCC ONCOPL" },
+      { reunion: "RCP Moléculaire", reseau: "ONCOPL", jour: "Vendredi", horaire: "8h30", freq: "Bi-mensuelle",
+        lieu: "Visioconférence",
+        contacts: [{ ama: "BOISDRON Amélie", email: "amelie.boisdron@ico.unicancer.fr", tel: "02 41 35 29 09" }],
+        soumission: "Dossier à compléter sur le DCC ONCOPL" },
+      { reunion: "RCP Digestif", reseau: "ONCOPL", jour: "Mardi", horaire: "17h30", freq: "Hebdomadaire",
+        lieu: "Salle 2",
+        contacts: [{ ama: "BOISDRON Amélie", email: "amelie.boisdron@ico.unicancer.fr", tel: "02 41 35 29 09" }],
+        soumission: 'Dossier à compléter sur le DCC <a href="https://portail.mediware.fr/Apps/WebObjects/OncoPL.woa" target="_blank">OncoPL</a>' }
+    ]
+  },
+  {
+    nom: "ICAP", ville: "Avignon", region: "Provence-Alpes-Côte-d'Azur",
+    axe: "oeso", lat: 43.947, lng: 4.806,
+    rcps: [
+      { reunion: "RCP Digestive et Œsophage Estomac", reseau: "ONCOPACA", jour: "Jeudi", horaire: "18h–21h", freq: "Hebdomadaire",
+        lieu: "ICAP Avignon",
+        contacts: [{ ama: "LAVERNHE Mélanie", email: "m.lavernhe@isc84.org", tel: "04 90 27 68 48" }],
+        soumission: 'Dossier à compléter sur le DCC <a href="https://heimdall.sante-paca.fr/auth/realms/ror-prod/protocol/openid-connect/auth?response_type=code&redirect_uri=https%3A%2F%2Fsante-paca.fr%2Fopenid%2Flogin&client_id=ror-prod&nonce=5eed704473ba35f71b79644411dbda34&state=cada9eb3a222dc013eb0227af87852ca&scope=openid" target="_blank">OncoPACA</a>' }
+    ]
+  },
+  {
+    nom: "Centre Antoine Lacassagne", ville: "Nice", region: "Provence-Alpes-Côte-d'Azur",
+    axe: "oeso", lat: 43.714, lng: 7.264,
+    rcps: [
+      { reunion: "RCP Digestive", reseau: "", jour: "Mercredi", horaire: "8h–10h30", freq: "Hebdomadaire",
+        lieu: 'Centre Antoine Lacassagne – Connexion à distance <a href="https://www.rofim.fr/" target="_blank">ROFIM</a>',
+        contacts: [{ ama: "BONFILS Manon", email: "manon.bonfils@nice.unicancer.fr", tel: "04 92 03 13 52", fax: "04 92 03 10 46" }],
+        soumission: "Contacter l'AMA" }
+    ]
+  },
+  {
+    nom: "Institut Paoli Calmettes", ville: "Marseille", region: "Provence-Alpes-Côte-d'Azur",
+    axe: "oeso", lat: 43.293, lng: 5.401,
+    rcps: [
+      { reunion: "RCP n°081 DIGESTIF IPC A1", reseau: "", jour: "Mardi", horaire: "16h30–18h30", freq: "Hebdomadaire",
+        lieu: 'Salle de réunion IPC1 – Connexion <a href="https://www.rofim.fr/" target="_blank">ROFIM</a>',
+        contacts: [{ ama: "BADDOUJ / MOURAD MALIKA", email: "secretariat.rcp@ipc.unicancer.fr", tel: "04 91 22 33 17" }],
+        soumission: "Contacter le secrétariat RCP" },
+      { reunion: "RCP n°372 Recours Chirurgical Digestif IPC", reseau: "", jour: "", horaire: "", freq: "",
+        lieu: "Salle de réunion IPC1",
+        contacts: [{ ama: "BADDOUJ / MOURAD MALIKA", email: "secretariat.rcp@ipc.unicancer.fr", tel: "04 91 22 33 17" }],
+        soumission: "Contacter le secrétariat RCP" }
+    ]
+  },
+  {
+    nom: "CHU de la Guadeloupe", ville: "Pointe-à-Pitre", region: "Guadeloupe",
+    axe: "oeso", lat: 16.243, lng: -61.533,
+    rcps: [
+      { reunion: "RCP Oncologie digestive du CHU", reseau: "", jour: "Mardi", horaire: "15h (heure locale) / 20h–21h (Paris)", freq: "Bi-mensuelle",
+        lieu: "Locaux des 3C",
+        contacts: [{ ama: "VEBER Céline", email: "celine.bez@chu-guadeloupe.fr" }],
+        soumission: "Dossier à soumettre via IdéoRCP" },
+      { reunion: "RCP Oncologie digestive du CH de la Basse Terre", reseau: "", jour: "Mardi", horaire: "15h (heure locale) / 20h–21h (Paris)", freq: "Bi-mensuelle",
+        lieu: "Locaux des 3C",
+        contacts: [{ ama: "VEBER Céline", email: "celine.bez@chu-guadeloupe.fr" }],
+        soumission: "Dossier à soumettre via IdéoRCP" }
+    ]
+  },
+  {
+    nom: "CHU Lille", ville: "Lille", region: "Hauts-de-France",
+    axe: "oeso", lat: 50.612, lng: 3.058,
+    rcps: [
+      { reunion: "RCP des tumeurs digestives", reseau: "Onco Hauts-de-France", jour: "Vendredi", horaire: "16h", freq: "Hebdomadaire",
+        lieu: "Salle Charles Proye, Hôpital Huriez",
+        contacts: [{ ama: "BIENCOURT Magalie", email: "RCP.hepato-digestive@chu-lille.fr", tel: "03 20 44 59 62" }],
+        soumission: 'Dossier à soumettre sur le portail <a href="https://dcc.onco-hdf.fr/oncohdf/ui/GwtDCR.jsp"target="_blank">DCR Onco Hauts-de-France</a>' },
+      { reunion: "RCP des tumeurs digestives superficielles", reseau: "Onco Hauts-de-France", jour: "Vendredi", horaire: "15h30", freq: "Mensuelle",
+        lieu: "Salle Charles Proye, Hôpital Huriez – Visioconférence Teams",
+        contacts: [{ ama: "BIENCOURT Magalie", email: "RCP.hepato-digestive@chu-lille.fr", tel: "03 20 44 59 62" }],
+        soumission: 'Dossier à soumettre sur le portail <a href="https://dcc.onco-hdf.fr/oncohdf/ui/GwtDCR.jsp"target="_blank">DCR Onco Hauts-de-France</a>' }
+    ]
+  },
+  {
+    nom: "CHU Sud Réunion", ville: "Saint-Pierre (La Réunion)", region: "La Réunion",
+    axe: "oeso", lat: -21.339, lng: 55.476,
+    rcps: [
+      { reunion: "RCP Onco-Digestive", reseau: "", jour: "Mercredi", horaire: "13h30 (heure locale) / 10h30–11h30 (Paris)", freq: "Hebdomadaire",
+        lieu: "Salle Rouanet – Connexion Teams",
+        contacts: [{ email: "rcp.3csud@chu-reunion.fr", tel: "02 62 35 91 04" }],
+        soumission: "Fiche envoyée ou à récupérer auprès du secrétariat : rcp.3csud@chu-reunion.fr" }
+    ]
+  },
+
+  // ===== FOIE =====
+  {
+    nom: "CHU Clermont-Ferrand", ville: "Clermont-Ferrand", region: "Auvergne-Rhône-Alpes",
+    axe: "foie", lat: 45.790, lng: 3.115,
+    rcps: [
+      { reunion: "RCP Tumeurs hépatiques", reseau: "", jour: "Vendredi", horaire: "14h30–17h", freq: "Hebdomadaire",
+        lieu: "Site Estaing, Service de radiologie",
+        contacts: [{ ama: "ROCHA Stéphanie", email: "srocha@chu-clermontferrand.fr", tel: "04 73 75 05 23" }],
+        soumission: "Fiche type de l'AFEF à soumettre à l'AMA par e-mail avant présentation" }
+    ]
+  },
+  {
+    nom: "CHU Grenoble-Alpes", ville: "Grenoble", region: "Auvergne-Rhône-Alpes",
+    axe: "foie", lat: 45.188, lng: 5.724,
+    rcps: [
+      { reunion: "RCP des tumeurs primitives hépatiques", reseau: "", jour: "Mardi", horaire: "16h", freq: "Hebdomadaire",
+        lieu: "Hôpital Michallon, Service d'Hépato-gastroentérologie",
+        contacts: [{ ama: "WOITELLIER Béatrice", email: "Cancerologie3C@chu-grenoble.fr", tel: "04 76 76 54 36" }],
+        soumission: "Fiche pré-remplie à soumettre à l'AMA avant présentation" }
+    ]
+  },
+  {
+    nom: "Hôpital Croix-Rousse, HCL", ville: "Lyon", region: "Auvergne-Rhône-Alpes",
+    axe: "foie", lat: 45.772, lng: 4.828,
+    rcps: [
+      { reunion: "RCP CHC et autres tumeurs primitives du foie", reseau: "ONCO-AURA", jour: "Mardi", horaire: "17h–20h", freq: "Hebdomadaire",
+        lieu: "Salle de réunion de chirurgie, 4ème étage bâtiment R",
+        contacts: [
+          { ama: "QUERIN Marie (secrétaire des 3C)", email: "marie.querin@chu-lyon.fr", tel: "04 72 07 29 17" },
+          { ama: "LESNIOHSKI Eve (secrétaire du Pr Merle)", email: "eve.lesniohski@chu-lyon.fr", tel: "04 26 10 93 56" }
+        ],
+        soumission: "Contacter le secrétariat des 3C ou du Pr Merle" },
+      { reunion: "RCP Hépato-Gastroentérologie", reseau: "ONCO-AURA", jour: "Jeudi", horaire: "16h–18h", freq: "Hebdomadaire",
+        lieu: "Salle de réunion de chirurgie, 4ème étage bâtiment R",
+        contacts: [
+          { ama: "QUERIN Marie (secrétaire des 3C)", email: "marie.querin@chu-lyon.fr", tel: "04 72 07 29 17" },
+          { ama: "LESNIOHSKI Eve (secrétaire du Pr Merle)", email: "eve.lesniohski@chu-lyon.fr", tel: "04 26 10 93 56" }
+        ],
+        soumission: "Contacter le secrétariat des 3C ou du Pr Merle" }
+    ]
+  },
+  {
+    nom: "CHU Saint-Etienne", ville: "Saint-Étienne", region: "Auvergne-Rhône-Alpes",
+    axe: "foie", lat: 45.437, lng: 4.395,
+    rcps: [
+      { reunion: "RCP Recours Tumeurs Hépatiques", reseau: "ONCOLOIRE", jour: "Jeudi", horaire: "17h–20h", freq: "Hebdomadaire",
+        lieu: "CHU de Saint-Étienne – Visioconférence",
+        contacts: [{ ama: "AYALA Sandrine", tel: "04 77 82 25 55" }],
+        soumission: "Fiche à soumettre à l'AMA" }
+    ]
+  },
+  {
+    nom: "Hôpital François Mitterrand, CHU Dijon", ville: "Dijon", region: "Bourgogne-Franche-Comté",
+    axe: "foie", lat: 47.323, lng: 5.044,
+    rcps: [
+      { reunion: "RCP des tumeurs hépatiques", reseau: "Réseau Régional de Cancérologie de BFC", jour: "Lundi", horaire: "17h", freq: "Hebdomadaire",
+        lieu: "Service de Radiologie",
+        contacts: [{ email: "3C@chu-dijon.fr", tel: "03 80 29 56 27" }],
+        soumission: 'Fiche à déposer sur le DCC du patient <a href="https://www.bfc-sante.fr/bureau-virtuel/accueil/authentification-7-5.html" target="_blank">Onco BFC</a>' },
+      { reunion: "RCP de cancérologie digestive", reseau: "Réseau Régional de Cancérologie de BFC", jour: "Mercredi", horaire: "16h30", freq: "Hebdomadaire",
+        lieu: "Service de Radiologie",
+        contacts: [{ email: "3C@chu-dijon.fr", tel: "03 80 29 56 27" }],
+        soumission: 'Fiche à déposer sur le DCC du patient <a href="https://www.bfc-sante.fr/bureau-virtuel/accueil/authentification-7-5.html" target="_blank">Onco BFC</a>' },
+      { reunion: "RCP Oncogénétique", reseau: "Réseau Régional de Cancérologie de BFC", jour: "Mercredi", horaire: "15h–16h", freq: "Bi-mensuelle",
+        lieu: "Visioconférence",
+        contacts: [{ email: "3C@chu-dijon.fr", tel: "03 80 29 56 27" }],
+        soumission: 'Fiche à déposer sur le DCC du patient <a href="https://www.bfc-sante.fr/bureau-virtuel/accueil/authentification-7-5.html" target="_blank">Onco BFC</a>' }
+    ]
+  },
+  {
+    nom: "CHU Pontchaillou", ville: "Rennes", region: "Bretagne",
+    axe: "foie", lat: 48.121, lng: -1.702,
+    rcps: [
+      { reunion: "RCP des tumeurs primitives hépatiques", reseau: "", jour: "Jeudi", horaire: "16h", freq: "Hebdomadaire",
+        lieu: "Service d'imagerie",
+        contacts: [{ email: "secretariat.rcp@rennes.unicancer.fr" }],
+        soumission: 'Dossier à déposer sur le DCC du patient <a href="https://auth.telesantebretagne.org/realms/gcs/protocol/openid-connect/auth?client_id=portail&redirect_uri=https%3A%2F%2Fmes-services.telesantebretagne.org%2F&state=6e550e5f-2ce0-4d1a-923d-cf8f0b7c9e59&response_mode=fragment&response_type=code&scope=openid&nonce=a7208634-10a7-4acf-891d-8b00ab7c11a3&code_challenge=V4XoHzq6Zwvg1B8JSpRO5eTya1YZlX6jqnheIjN65Ow&code_challenge_method=S256" target="_blank">Onco Bretagne</a> ou transmission via <a href="https://www.telesante-bretagne.fr/" target="_blank">Télésanté Bretagne</a>' }
+    ]
+  },
+  {
+    nom: "Hôpital Trousseau, CHRU Tours", ville: "Tours", region: "Centre-Val-de-Loire",
+    axe: "foie", lat: 47.369, lng: 0.708,
+    rcps: [
+      { reunion: "RCP Digestif ; RCP CHC ; RCP Oncogénétique", reseau: "", jour: "Mardi", horaire: "14h–18h", freq: "Hebdomadaire",
+        lieu: "Salle de réunion du 9ème Étage – Visioconférence Teams",
+        contacts: [{ ama: "CHATEL Marjorie", email: "rcp.trousseau@chu-tours.fr", tel: "02 47 47 47 47" }],
+        soumission: 'Fiche à déposer dans le DCC du patient <a href="https://connect.esante-centre.fr/" target="_blank">Onco Centre</a>' }
+    ]
+  },
+  {
+    nom: "CHRU Nancy", ville: "Nancy", region: "Grand-Est",
+    axe: "foie", lat: 48.684, lng: 6.184,
+    rcps: [
+      { reunion: "RCP Tumeurs primitives du foie (CHU-ICL)", reseau: "", jour: "Jeudi", horaire: "", freq: "Hebdomadaire",
+        lieu: 'Service de Radiologie du CHRU – Visioconférence <a href="https://www.pulsy.fr/portail/nos-services-e-sante/e-rcp-54-62.html" target="_blank">PULSY</a>',
+        contacts: [
+          { ama: "DARENNE Laurence", email: "L.DARENNE@chru-nancy.fr" },
+          { ama: "MOUTHON Muriel", email: "M.MOUTHON@chru-nancy.fr" }
+        ],
+        soumission: 'Soumission de la fiche RCP sur la plateforme <a href="https://www.pulsy.fr/portail/nos-services-e-sante/e-rcp-54-62.html" target="_blank">PULSY</a> et téléphone pour certains praticiens hors centre. Pour toute question relative à l\'utilisation de e-RCP en cancérologie, contactez le support NEON au 03 72 61 61 30 ou par mail à e-rcp@rrcge.org' },
+      { reunion: "RCP Cancers de l'appareil digestif (CHU-ICL)", reseau: "", jour: "Mardi", horaire: "", freq: "Hebdomadaire",
+        lieu: 'Service de Radiologie du CHRU – Visioconférence <a href="https://www.pulsy.fr/portail/nos-services-e-sante/e-rcp-54-62.html" target="_blank">PULSY</a> et téléphone pour certains praticiens hors centre',
+        contacts: [
+          { ama: "DARENNE Laurence", email: "L.DARENNE@chru-nancy.fr" },
+          { ama: "MOUTHON Muriel", email: "M.MOUTHON@chru-nancy.fr" }
+        ],
+        soumission: 'Soumission de la fiche RCP sur la plateforme <a href="https://www.pulsy.fr/portail/nos-services-e-sante/e-rcp-54-62.html" target="_blank">PULSY</a> et téléphone pour certains praticiens hors centre. Pour toute question relative à l\'utilisation de e-RCP en cancérologie, contactez le support NEON au 03 72 61 61 30 ou par mail à e-rcp@rrcge.org' }
+    ]
+  },
+  {
+    nom: "CHU Reims", ville: "Reims", region: "Grand-Est",
+    axe: "foie", lat: 49.245, lng: 4.028,
+    rcps: [
+      { reunion: "RCP ONCOFOIE", reseau: "", jour: "Mardi", horaire: "16h–19h", freq: "Bi-mensuelle",
+        lieu: 'CHU Reims – Visioconférence <a href="https://www.pulsy.fr/portail/nos-services-e-sante/e-rcp-54-62.html" target="_blank">PULSY</a>',
+        contacts: [
+          { ama: "CURIE Marie Aurore", email: "macurie@chu-reims.fr", tel: "03 26 78 76 10" },
+          { ama: "GLADIEUX Elodie", email: "egladieux@chu-reims.fr", tel: "03 26 78 76 10" }
+        ],
+        soumission: 'Soumission de la fiche RCP sur la plateforme <a href="https://www.pulsy.fr/portail/nos-services-e-sante/e-rcp-54-62.html" target="_blank">PULSY</a>' }
+    ]
+  },
+  {
+    nom: "CHU Guadeloupe", ville: "Pointe-à-Pitre", region: "Guadeloupe",
+    axe: "foie", lat: 16.247, lng: -61.537,
+    rcps: [
+      { reunion: "RCP Oncologie digestive", reseau: "", jour: "Mardi", horaire: "15h (heure locale) / 20h–21h (Paris)", freq: "Bi-mensuelle",
+        lieu: "Salle de RCP des 3C",
+        contacts: [{ ama: "BEZ Céline", email: "celine.bez@chu-guadeloupe.fr", tel: "+590 590 89 16 70" }],
+        soumission: "Fiche RCP dédiée à envoyer à l'AMA ou à déposer dans le DCC du patient" },
+      { reunion: "RCP nodule hépatique", reseau: "", jour: "Mardi", horaire: "14h (heure de Paris)", freq: "Mensuelle",
+        lieu: "Salle de RCP des 3C – Visioconférence",
+        contacts: [{ ama: "BEZ Céline", email: "celine.bez@chu-guadeloupe.fr", tel: "+590 590 89 16 70" }],
+        soumission: "Fiche RCP dédiée à envoyer à l'AMA ou à déposer dans le DCC du patient" }
+    ]
+  },
+  {
+    nom: "CHU Amiens", ville: "Amiens", region: "Hauts-de-France",
+    axe: "foie", lat: 49.892, lng: 2.302,
+    rcps: [
+      { reunion: "RCP CHC", reseau: "", jour: "Jeudi", horaire: "8h30–9h30", freq: "Hebdomadaire",
+        lieu: "Salle de Radiologie – Visioconférence",
+        contacts: [{ ama: "DOMONT Catherine", email: "domont.catherine@chu-amiens.fr", tel: "03 22 08 88 49", fax: "03 22 08 99 39" }],
+        soumission: "Fiche de présentation CHC standardisée du service à soumettre à l'AMA" }
+    ]
+  },
+  {
+    nom: "CHU Lille", ville: "Lille", region: "Hauts-de-France",
+    axe: "foie", lat: 50.609, lng: 3.055,
+    rcps: [
+      { reunion: "RCP Tumeurs Hépatiques primitives (CHC et Cholangiocarcinome)", reseau: "", jour: "Jeudi", horaire: "16h–19h", freq: "Hebdomadaire",
+        lieu: "Salle Multi-Media, Hôpital Claude Huriez – Visioconférence Teams",
+        contacts: [{ ama: "BLENCOURT Magalie", email: "magalie.biencourt@chu-lille.fr", tel: "03 20 44 61 45", fax: "03 20 44 56 40" }],
+        soumission: "Dossier à soumettre par mail à rcp.hepato-digestive@chu-lille.fr" },
+      { reunion: "RCP Cancers Digestifs hors Tumeurs hépatiques primitives", reseau: "", jour: "Vendredi", horaire: "16h–19h", freq: "Hebdomadaire",
+        lieu: "Salle Multi-Media, Hôpital Claude Huriez – Visioconférence Teams",
+        contacts: [{ ama: "BLENCOURT Magalie", email: "magalie.biencourt@chu-lille.fr", tel: "03 20 44 61 45", fax: "03 20 44 56 40" }],
+        soumission: "Dossier à soumettre par mail à rcp.hepato-digestive@chu-lille.fr" }
+    ]
+  },
+  {
+    nom: "CHU Avicenne, APHP", ville: "Bobigny", region: "Ile-de-France",
+    axe: "foie", lat: 48.908, lng: 2.44,
+    rcps: [
+      { reunion: "RCP de compétence rare « Tumeurs Primitives du foie »", reseau: "OncoRIF", jour: "Vendredi", horaire: "14h30–17h30", freq: "Hebdomadaire",
+        lieu: "Salle de radiologie interventionnelle, RDC, Bâtiment Larrey C – Visioconférence Zoom",
+        contacts: [{ ama: "MOMMELE Peggy", email: "Peggy.mommele@aphp.fr", tel: "01 48 02 68 03", fax: "01 48 02 68 02" }],
+        soumission: "Fiche type AFEF pour les CHC, ou fiche PANTOGETHER dédiée pour cholangiocarcinome et autres tumeurs primitives du foie. Soumettre à l'AMA avant présentation" }
+    ]
+  },
+  {
+    nom: "CHU Henri Mondor, AP-HP", ville: "Créteil", region: "Ile-de-France",
+    axe: "foie", lat: 48.783, lng: 2.457,
+    rcps: [
+      { reunion: "RCP Tumeurs Primitives du foie HMN", reseau: "", jour: "Vendredi", horaire: "14h", freq: "Hebdomadaire",
+        lieu: "Salle de STAFF CALIPPSO, Service de Chirurgie digestive",
+        contacts: [{ ama: "REMILIEN Evy", tel: "01 49 81 23 67" }],
+        soumission: "Soumission de la fiche Certif par e-mail à l'AMA" }
+    ]
+  },
+  {
+    nom: "Hôpital Beaujon AP-HP", ville: "Clichy", region: "Ile-de-France",
+    axe: "foie", lat: 48.905, lng: 2.308,
+    rcps: [
+      { reunion: "RCP Oncologie hépatique", reseau: "", jour: "Lundi", horaire: "14h–18h", freq: "Hebdomadaire",
+        lieu: "Salle de staff du service de radiologie – Visioconférence Teams",
+        contacts: [{ ama: "EL BARKANI Maryline", email: "maryline.berard@aphp.fr", tel: "01 40 84 56 14" }],
+        soumission: "Adressage des demandes à l'AMA ou au secrétariat : secretariat.oncologie.hepatique.bjn@aphp.fr" }
+    ]
+  },
+  {
+    nom: "Hôpital Saint-Antoine, AP-HP", ville: "Paris", region: "Ile-de-France",
+    axe: "foie", lat: 48.848, lng: 2.381,
+    rcps: [
+      { reunion: "RCP des tumeurs primitives du foie et des voies biliaires", reseau: "", jour: "Lundi", horaire: "15h–16h", freq: "Hebdomadaire",
+        lieu: "Amphithéâtre de radiologie",
+        contacts: [
+          { ama: "LEJEUNE Claudine (AMA)", email: "claudine.lejeune@aphp.fr", tel: "01 49 28 24 63", fax: "01 49 28 21 07" },
+          { ama: "DI SACCO Hélène (IDEC)", email: "coordination.onco-hepato.sat@aphp.fr", tel: "01 49 28 31 52", fax: "01 49 23 24 74" }
+        ],
+        soumission: "Fiche RCP à soumettre dans le logiciel ORBIS®" },
+      { reunion: "RCP des tumeurs primitives du foie et des voies biliaires", reseau: "", jour: "Mercredi", horaire: "16h–18h", freq: "Hebdomadaire",
+        lieu: "Amphithéâtre de radiologie",
+        contacts: [
+          { ama: "LEJEUNE Claudine (AMA)", email: "claudine.lejeune@aphp.fr", tel: "01 49 28 24 63", fax: "01 49 28 21 07" },
+          { ama: "DI SACCO Hélène (IDEC)", email: "coordination.onco-hepato.sat@aphp.fr", tel: "01 49 28 31 52", fax: "01 49 23 24 74" }
+        ],
+        soumission: "Fiche RCP à soumettre dans le logiciel ORBIS®" }
+    ]
+  },
+  {
+    nom: "CHU La Pitié Salpêtrière, AP-HP", ville: "Paris", region: "Ile-de-France",
+    axe: "foie", lat: 48.841, lng: 2.357,
+    rcps: [
+      { reunion: "RCP tumeurs du foie", reseau: "", jour: "Mardi", horaire: "16h30", freq: "Hebdomadaire",
+        lieu: "Service de radiologie – Visioconférence Zoom",
+        contacts: [{ ama: "GAUTIER Violaine", email: "violaine.gautier@aphp.fr", tel: "01 48 02 68 03", fax: "01 48 02 68 02" }],
+        soumission: "Dossier à soumettre par e-mail à l'AMA ou au Dr Allaire Manon : manon.allaire@aphp.fr" }
+    ]
+  },
+  {
+    nom: "Institut Médico-Chirurgical Montsouris", ville: "Paris", region: "Ile-de-France",
+    axe: "foie", lat: 48.822, lng: 2.338,
+    rcps: [
+      { reunion: "RCP d'oncologie digestive", reseau: "", jour: "Mardi", horaire: "17h–19h30", freq: "Hebdomadaire",
+        lieu: "Institut Médico-chirurgical Montsouris",
+        contacts: [{ ama: "HALIMI Lorena", email: "lorena.halimi@imm.fr", tel: "01 56 61 63 13", fax: "01 56 61 63 23" }],
+        soumission: "Dossier à soumettre à l'AMA en charge de la RCP" }
+    ]
+  },
+  {
+    nom: "Hôpital de Saint-Cloud, Institut Curie", ville: "Saint-Cloud", region: "Ile-de-France",
+    axe: "foie", lat: 48.848, lng: 2.212,
+    rcps: [
+      { reunion: "RCP oncologie digestive médicale hebdomadaire (Institut Curie)", reseau: "", jour: "Vendredi", horaire: "9h", freq: "Hebdomadaire",
+        lieu: "Hôpital de Saint-Cloud – Visioconférence Teams",
+        contacts: [{ ama: "DELVAL Emilie", email: "emilie.delval@curie.fr", tel: "01 47 11 18 42" }],
+        soumission: "Fiche type Pan-Together à soumettre par e-mail à l'AMA ou au Pr Neuzillet Cindy : cindy.neuzillet@curie.fr" },
+      { reunion: "RCP oncologie digestive médico-chirurgicale (APR)", reseau: "", jour: "Jeudi", horaire: "16h", freq: "Hebdomadaire",
+        lieu: "Hôpital Ambroise Paré",
+        contacts: [{ ama: "DELVAL Emilie", email: "emilie.delval@curie.fr", tel: "01 47 11 18 42" }],
+        soumission: "Fiche type Pan-Together à soumettre par e-mail à l'AMA ou au Pr Neuzillet Cindy : cindy.neuzillet@curie.fr" },
+      { reunion: "RCP moléculaire hebdomadaire", reseau: "", jour: "Lundi", horaire: "17h", freq: "Hebdomadaire",
+        lieu: "Visioconférence Teams",
+        contacts: [{ ama: "DELVAL Emilie", email: "emilie.delval@curie.fr", tel: "01 47 11 18 42" }],
+        soumission: "Fiche type Pan-Together à soumettre par e-mail à l'AMA ou au Pr Neuzillet Cindy : cindy.neuzillet@curie.fr" }
+    ]
+  },
+  {
+    nom: "Hôpital Brousse, AP-HP", ville: "Villejuif", region: "Ile-de-France",
+    axe: "foie", lat: 48.793, lng: 2.365,
+    rcps: [
+      { reunion: "RCP Tumeurs primitives et secondaires du foie et VH et tumeurs du pancréas", reseau: "", jour: "Mardi", horaire: "14h", freq: "Hebdomadaire",
+        lieu: "Centre Hépato-Biliaire – Visioconférence",
+        contacts: [{ ama: "ALBEROLA Véronique", email: "veronique.alberola@aphp.fr", tel: "01 45 59 35 95", fax: "01 45 59 34 98" }],
+        soumission: "Fiche de demande à soumettre à l'AMA" },
+      { reunion: "RCP Moléculaire des tumeurs solides", reseau: "", jour: "Jeudi", horaire: "9h30", freq: "Mensuelle (1er jeudi)",
+        lieu: "Service de Cancérologie – Visioconférence",
+        contacts: [{ ama: "ALBEROLA Véronique", email: "veronique.alberola@aphp.fr", tel: "01 45 59 35 95", fax: "01 45 59 34 98" }],
+        soumission: "Fiche de demande à soumettre à l'AMA" }
+    ]
+  },
+  {
+    nom: "CHU Caen", ville: "Caen", region: "Normandie",
+    axe: "foie", lat: 49.182, lng: -0.374,
+    rcps: [
+      { reunion: "RCP Tumeurs primitives du Foie (malignes et bénignes)", reseau: "", jour: "Lundi", horaire: "16h30–19h", freq: "Hebdomadaire",
+        lieu: "Hôpital Côte de la Nacre, salle de visioconférence, niveau 3, Connexion à distance possible, contacter : institutcancer-sec@chu-caen.fr",
+        contacts: [{ ama: "Institut de Cancérologie, Secrétariat Pôle Recherche/Biologie", email: "institutcancer-sec@chu-caen.fr", tel: "02 31 06 53 40 ou 02 31 06 54 53", fax: "02 31 06 36 09" }],
+        soumission: 'Fiche à déposer sur le DCC du patient <a href="https://www.norm-uni.fr/portail.pro/" target="_blank">NormUNI</a>' },
+      { reunion: "RCP digestif pour les tumeurs des voies biliaires", reseau: "", jour: "Jeudi", horaire: "16h30–19h", freq: "Hebdomadaire",
+        lieu: "Hôpital Côte de la Nacre, salle de visioconférence, niveau 3, Connexion à distance possible, contacter : institutcancer-sec@chu-caen.fr",
+        contacts: [{ ama: "Institut de Cancérologie, Secrétariat Pôle Recherche/Biologie", email: "institutcancer-sec@chu-caen.fr", tel: "02 31 06 53 40 ou 02 31 06 54 53", fax: "02 31 06 36 09" }],
+        soumission: 'Fiche à déposer sur le DCC du patient <a href="https://www.norm-uni.fr/portail.pro/" target="_blank">NormUNI</a>' }
+    ]
+  },
+  {
+    nom: "CHU Rouen", ville: "Rouen", region: "Normandie",
+    axe: "foie", lat: 49.443, lng: 1.099,
+    rcps: [
+      { reunion: "RCP Oncologie Digestive", reseau: "OncoNormandie", jour: "Jeudi", horaire: "15h30", freq: "Hebdomadaire",
+        lieu: "Service d'Hépatogastro-entérologie",
+        soumission: 'Fiche à déposer sur le DCC du patient <a href="https://www.norm-uni.fr/portail.pro/" target="_blank">NormUNI</a>' }
+    ]
+  },
+  {
+    nom: "CHU Haut-Lévêque", ville: "Bordeaux", region: "Nouvelle-Aquitaine",
+    axe: "foie", lat: 44.842, lng: -0.612,
+    rcps: [
+      { reunion: "RCP tumeurs primitives du foie et des voies biliaires", reseau: "Réseau de cancérologie d'Aquitaine", jour: "Mardi", horaire: "17h", freq: "Hebdomadaire",
+        lieu: "Salle Vasco-de-Gama, RDC, Bâtiment Magellan – Visioconférence",
+        contacts: [{ email: "3c-sud@chu-bordeaux.fr" }],
+        soumission: "Dossier à soumettre au 3C du CHU : 3c-sud@chu-bordeaux.fr" }
+    ]
+  },
+  {
+    nom: "CHU Limoges", ville: "Limoges", region: "Nouvelle-Aquitaine",
+    axe: "foie", lat: 45.833, lng: 1.261,
+    rcps: [
+      { reunion: "RCP CHC et Voies biliaires ; RCP Digestive", reseau: "Onco Nouvelle-Aquitaine", jour: "Jeudi", horaire: "15h30–17h", freq: "Hebdomadaire",
+        lieu: "CHU Dupuytren 1, Salle de colloque, service d'Hépato-Gastroentérologie",
+        contacts: [
+          { ama: "BLANCHETON Mylène", email: "mylene.blancheton@chu-limoges.fr", tel: "05 55 05 67 65", fax: "05 55 05 65 46" },
+          { email: "sucp1@chu-limoges.fr" }
+        ],
+        soumission: "Contacter l'AMA" }
+    ]
+  },
+  {
+    nom: "CHU Poitiers", ville: "Poitiers", region: "Nouvelle-Aquitaine",
+    axe: "foie", lat: 46.584, lng: 0.344,
+    rcps: [
+      { reunion: "RCP d'oncologie digestive", reseau: "Réseau Régional des 3C Nouvelle-Aquitaine", jour: "Lundi", horaire: "", freq: "Hebdomadaire",
+        lieu: "CHU Poitiers – Visioconférence",
+        soumission: 'Demandes via le Dossier communicant de cancérologie K-Process : <a href="https://aquitaine.dcc-poitou-charentes.fr/rcp/" target="_blank">K-Process</a>' },
+      { reunion: "RCP CHC", reseau: "Réseau Régional des 3C Nouvelle-Aquitaine", jour: "Mardi", horaire: "", freq: "Hebdomadaire",
+        lieu: "CHU Poitiers – Visioconférence",
+        soumission: 'Demandes via le DCC <a href="https://aquitaine.dcc-poitou-charentes.fr/rcp/" target="_blank">K-Process</a>' }
+    ]
+  },
+  {
+    nom: "Hôpital St Eloi, CHU Montpellier", ville: "Montpellier", region: "Occitanie",
+    axe: "foie", lat: 43.609, lng: 3.879,
+    rcps: [
+      { reunion: "RCP Digestive", reseau: "Onco Occitanie", jour: "Mardi", horaire: "17h", freq: "Hebdomadaire",
+        lieu: "Salle de réunion radiologie – Visioconférence Teams",
+        contacts: [{ ama: "MARCQ Catherine", email: "c-marcq@chu-montpellier.fr", tel: "04 67 33 07 54" }],
+        soumission: "Saisie de la fiche RCP en ligne dans le DCC du patient Onco Occitanie" },
+      { reunion: "RCP Foie", reseau: "Onco Occitanie", jour: "Vendredi", horaire: "14h", freq: "Hebdomadaire",
+        lieu: "Salle de réunion radiologie – Visioconférence Teams",
+        contacts: [{ ama: "MARCQ Catherine", email: "c-marcq@chu-montpellier.fr", tel: "04 67 33 07 54" }],
+        soumission: 'Saisie de la fiche RCP en ligne dans le DCC du patient <a href="https://portail.mediware.fr/Apps/WebObjects/Oncooc.woa/wa" target="_blank">Onco Occitanie</a>' }
+    ]
+  },
+  {
+    nom: "Hôpital Rangueil, CHU Toulouse", ville: "Toulouse", region: "Occitanie",
+    axe: "foie", lat: 43.558, lng: 1.462,
+    rcps: [
+      { reunion: "RCP CHC (Pr Peron) ; RCP onco digestive (cholangiocarcinomes) (Dr Fares) ; RCP moléculaire (Dr Fares)", reseau: "ONCOMIP", jour: "Mercredi", horaire: "15h–18h30", freq: "",
+        lieu: "",
+        contacts: [{ ama: "SEGUIN Sylvie", email: "seguin.s@chu-toulouse.fr", tel: "05 61 34 34 14" }],
+        soumission: 'Saisie de la fiche RCP en ligne dans le DCC du patient <a href="https://portail.mediware.fr/Apps/WebObjects/Oncooc.woa/wa" target="_blank">Onco Occitanie</a>' }
+    ]
+  },
+  {
+    nom: "CHU Angers", ville: "Angers", region: "Pays de la Loire",
+    axe: "foie", lat: 47.472, lng: -0.557,
+    rcps: [
+      { reunion: "RCP des tumeurs primitives hépatiques", reseau: "Onco-PL", jour: "Vendredi", horaire: "15h", freq: "Hebdomadaire",
+        lieu: "CHU Angers",
+        contacts: [{ ama: "LAMARCHE Béatrice", email: "beatrice.lamarche@chu-angers.fr", tel: "02 41 35 78 32" }],
+        soumission: "Saisie de la fiche RCP en ligne dans le DCC du patient OncoPL" },
+      { reunion: "RCP onco digestive", reseau: "Onco-PL", jour: "Lundi", horaire: "17h", freq: "Hebdomadaire",
+        lieu: "CHU Angers",
+        contacts: [{ ama: "LAMARCHE Béatrice", email: "beatrice.lamarche@chu-angers.fr", tel: "02 41 35 78 32" }],
+        soumission: 'Saisie de la fiche RCP en ligne dans le DCC du patient <a href="https://portail.mediware.fr/Apps/WebObjects/OncoPL.woa/" target="_blank">OncoPL</a>' }
+    ]
+  },
+  {
+    nom: "CHU Nantes", ville: "Nantes", region: "Pays de la Loire",
+    axe: "foie", lat: 47.218, lng: -1.553,
+    rcps: [
+      { reunion: "RCP hépatobiliaire", reseau: "", jour: "Mercredi", horaire: "13h30–16h", freq: "Hebdomadaire",
+        lieu: "CHU Nantes – Connexion à distance avec le CHD de la Roche-sur-Yon, ICO et Clinique mutualiste de St Nazaire",
+        soumission: 'Saisie de la fiche RCP en ligne dans le DCC du patient <a href="https://portail.mediware.fr/Apps/WebObjects/OncoPL.woa/" target="_blank">OncoPL</a>' }
+    ]
+  },
+  {
+    nom: "CHU de Nice", ville: "Nice", region: "Provence-Alpes-Côte-d'Azur",
+    axe: "foie", lat: 43.719, lng: 7.269,
+    rcps: [
+      { reunion: "RCP de cancérologie hépato-biliaire", reseau: "", jour: "Jeudi", horaire: "8h–9h30", freq: "Hebdomadaire",
+        lieu: "Bâtiment Archet 3, 1ère étage, salle 109 – Visioconférence Teams",
+        contacts: [{ ama: "FERKOUNE Anissa", email: "ferkoune.a@chu-nice.fr" }],
+        soumission: "Fiche RCP rédigée lors de la réunion" }
+    ]
+  },
+  {
+    nom: "Hôpital Saint-Joseph", ville: "Marseille", region: "Provence-Alpes-Côte-d'Azur",
+    axe: "foie", lat: 43.282, lng: 5.398,
+    rcps: [
+      { reunion: "RCP tumeurs hépato-biliaires", reseau: "ONCOPACA et 3C", jour: "", horaire: "", freq: "Hebdomadaire",
+        lieu: "Hôpital Saint-Joseph",
+        contacts: [{ ama: "FALZON Cécile", email: "cfalzon@hopital-saint-joseph.fr", tel: "04 91 80 70 42" }],
+        soumission: "Dossier à soumettre par mail à l'AMA" },
+      { reunion: "RCP Cancers Digestifs", reseau: "ONCOPACA et 3C", jour: "", horaire: "", freq: "Hebdomadaire",
+        lieu: "Hôpital Saint-Joseph",
+        contacts: [{ ama: "FALZON Cécile", email: "cfalzon@hopital-saint-joseph.fr", tel: "04 91 80 70 42" }],
+        soumission: "Dossier à soumettre par mail à l'AMA" },
+      { reunion: "RCP radio-embolisation", reseau: "ONCOPACA et 3C", jour: "", horaire: "", freq: "Bi-mensuelle",
+        lieu: "CHU Timone",
+        contacts: [{ ama: "FALZON Cécile", email: "cfalzon@hopital-saint-joseph.fr", tel: "04 91 80 70 42" }],
+        soumission: "Dossier à soumettre par mail à l'AMA" }
+    ]
+  }
+];
+
+// ===================== CARTE =====================
+const map = L.map('map').setView([46.6, 2.5], 6);
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { attribution: '© OpenStreetMap' }).addTo(map);
+
+const icons = {
+  oeso: L.icon({ iconUrl: "https://maps.google.com/mapfiles/ms/icons/green-dot.png", iconSize: [32,32], iconAnchor: [16,32] }),
+  foie: L.icon({ iconUrl: "https://maps.google.com/mapfiles/ms/icons/blue-dot.png", iconSize: [32,32], iconAnchor: [16,32] })
+};
+
+const markerGroup = L.markerClusterGroup({
+  showCoverageOnHover: false,
+  spiderfyOnMaxZoom: true,
+  zoomToBoundsOnClick: false,
+  maxClusterRadius: 50,
+  spiderLegPolylineOptions: { weight: 2, color: '#555', opacity: 0.7 },
+  iconCreateFunction: cluster => {
+    const markers = cluster.getAllChildMarkers();
+    const axes = new Set(markers.map(m => m.options.axe));
+    let color = '#7f8c8d';
+    if (axes.size === 1) {
+      if (axes.has('oeso')) color = '#27ae60';
+      else if (axes.has('foie')) color = '#2980b9';
+    }
+    return L.divIcon({
+      html: '<div style="background:' + color + ';color:white;border-radius:50%;width:36px;height:36px;display:flex;align-items:center;justify-content:center;font-weight:bold;font-size:14px;border:2px solid white;box-shadow:0 2px 5px rgba(0,0,0,.35)">' + cluster.getChildCount() + '</div>',
+      className: '', iconSize: [36, 36]
+    });
+  }
+});
+map.addLayer(markerGroup);
+
+markerGroup.on('clusterclick', function(e) {
+  const markers = e.layer.getAllChildMarkers();
+  const villes = new Set(markers.map(m => m.options.ville));
+  if (villes.size === 1) {
+    e.layer.spiderfy();
+  } else {
+    e.layer.zoomToBounds({ padding: [30, 30] });
+  }
+});
+
+// ===================== POPUP =====================
+function buildPopup(c) {
+  const couleur = c.axe === 'oeso' ? '#27ae60' : '#2980b9';
+  const label = c.axe === 'oeso' ? 'Oeso-gastrique' : 'Foie & voies biliaires';
+
+  const cards = c.rcps.map(function(r) {
+    let contactHtml = '';
+    if (r.contacts && r.contacts.length > 0) {
+      const contactLines = r.contacts.map(function(ct) {
+        let line = '';
+        if (ct.ama) line += ct.ama + '<br>';
+        if (ct.email) line += '<a href="mailto:' + ct.email + '">' + ct.email + '</a><br>';
+        if (ct.tel) line += '📞 ' + ct.tel + '<br>';
+        if (ct.fax) line += 'Fax : ' + ct.fax + '<br>';
+        return line;
+      }).join('<hr class="rcp-contact-sep">');
+      contactHtml = '<div class="rcp-contact"><b>📋 AMA / Contact</b>' + contactLines + '</div>';
+    }
+
+    const soumissionHtml = r.soumission
+      ? '<div class="rcp-soumission"><b>📂 Modalités de soumission</b>' + r.soumission + '</div>'
+      : '';
+
+    return '<div class="rcp-card">'
+      + '<div class="rcp-titre">' + r.reunion + '</div>'
+      + (r.reseau ? '<div class="rcp-reseau">Réseau : ' + r.reseau + '</div>' : '')
+      + '<div class="rcp-grid">'
+      + '<div class="rcp-field"><span>📅 Jour :</span> <b>' + (r.jour || '–') + '</b></div>'
+      + '<div class="rcp-field"><span>🕐 Horaire :</span> <b>' + (r.horaire || '–') + '</b></div>'
+      + '<div class="rcp-field"><span>🔁 Fréquence :</span> <b>' + (r.freq || '–') + '</b></div>'
+      + '<div class="rcp-field"><span>📍 Lieu :</span> <b>' + (r.lieu || '–') + '</b></div>'
+      + '</div>'
+      + contactHtml
+      + soumissionHtml
+      + '</div>';
+  }).join('');
+
+  return '<div class="popup-rcp">'
+    + '<h4>' + c.nom + '</h4>'
+    + '<span class="axe-badge" style="background:' + couleur + '">' + label + '</span>'
+    + '<small style="color:#888;display:block;margin-bottom:10px">' + c.ville + ' · ' + c.region + '</small>'
+    + cards
+    + '</div>';
+}
+
+// ===================== FILTRES =====================
+let activeAxes = new Set(['oeso', 'foie']);
+let activeRegion = '';
+
+const regionSelect = document.getElementById('regionFilter');
+const regions = [...new Set(centres.map(c => c.region))].sort();
+regions.forEach(r => {
+  const opt = document.createElement('option');
+  opt.value = r; opt.textContent = r;
+  regionSelect.appendChild(opt);
+});
+
+function afficher() {
+  markerGroup.clearLayers();
+  const liste = document.getElementById('listeCentres');
+  liste.innerHTML = '';
+
+  const visibles = centres.filter(c =>
+    activeAxes.has(c.axe) && (!activeRegion || c.region === activeRegion)
+  );
+
+  document.getElementById('compteur').textContent = visibles.length + ' centre(s) affiché(s)';
+
+  visibles.forEach(c => {
+    const marker = L.marker([c.lat, c.lng], { icon: icons[c.axe], axe: c.axe, ville: c.ville })
+      .bindPopup(buildPopup(c), { maxWidth: 560, minWidth: 360, className: 'popup-rcp' });
+    markerGroup.addLayer(marker);
+
+    const item = document.createElement('div');
+    item.className = 'centre-item';
+    const couleur = c.axe === 'oeso' ? '#27ae60' : '#2980b9';
+    item.innerHTML = '<span class="axe-dot" style="background:' + couleur + '"></span><b>' + c.nom + '</b><br><small>' + c.ville + '</small>';
+    item.onclick = () => { map.setView([c.lat, c.lng], 9); marker.openPopup(); };
+    liste.appendChild(item);
+  });
+}
+
+document.querySelectorAll('.axe-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const axe = btn.dataset.axe;
+    btn.classList.toggle('active');
+    if (activeAxes.has(axe)) activeAxes.delete(axe);
+    else activeAxes.add(axe);
+    afficher();
+  });
+});
+
+regionSelect.addEventListener('change', () => {
+  activeRegion = regionSelect.value;
+  afficher();
+});
+
+function zoomVers(zone) {
+  const coords = {
+    metropole:  { lat: 46.6,   lng: 2.5,    zoom: 6  },
+    guadeloupe: { lat: 16.25,  lng: -61.55, zoom: 9  },
+    martinique: { lat: 14.62,  lng: -61.05, zoom: 10 },
+    guyane:     { lat: 4.0,    lng: -53.0,  zoom: 7  },
+    reunion:    { lat: -21.1,  lng: 55.5,   zoom: 10 },
+    mayotte:    { lat: -12.83, lng: 45.15,  zoom: 11 }
+  };
+  const c = coords[zone];
+  map.setView([c.lat, c.lng], c.zoom);
+}
+
+afficher();
+
+document.getElementById('togglePanel').onclick = () =>
+  document.getElementById('panel').classList.toggle('open');
+</script>
+</body>
+</html>
