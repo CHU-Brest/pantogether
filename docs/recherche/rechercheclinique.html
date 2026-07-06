@@ -93,12 +93,12 @@ body{font-family:'Segoe UI',Arial,sans-serif}
   <div>
     <div class="slabel">Outre-Mer</div>
     <div class="dbtns">
-      <button class="dbtn" id="b1">&#127796; Guadeloupe</button>
-      <button class="dbtn" id="b2">&#127796; Martinique</button>
-      <button class="dbtn" id="b3">&#127807; Guyane</button>
-      <button class="dbtn" id="b4">&#9968; La Reunion</button>
-      <button class="dbtn" id="b5">&#127965; Mayotte</button>
-      <button class="dbtn" id="b0" style="min-width:100%">&#8617; Retour Metropole</button>
+      <button class="dbtn" id="b1">Guadeloupe</button>
+      <button class="dbtn" id="b2">Martinique</button>
+      <button class="dbtn" id="b3">Guyane</button>
+      <button class="dbtn" id="b4">La Reunion</button>
+      <button class="dbtn" id="b5">Mayotte</button>
+      <button class="dbtn" id="b0" style="min-width:100%">Retour Metropole</button>
     </div>
   </div>
 </div>
@@ -110,7 +110,7 @@ body{font-family:'Segoe UI',Arial,sans-serif}
 //  CONFIGURATION — remplacez les LIEN_... par vos URLs
 // ================================================================
 var G = {
-   "Auvergne-Rhône-Alpes":           {groupe:1, lien:"https://ressources-aura.fr/plateforme/recherche-clinique/annuaire/essais-cliniques"},
+  "Auvergne-Rhône-Alpes":           {groupe:1, lien:"https://ressources-aura.fr/plateforme/recherche-clinique/annuaire/essais-cliniques"},
   "Bourgogne-Franche-Comté":        {groupe:2, lien:"https://hector-essais-cliniques.fr/"},
   "Grand Est":                       {groupe:2, lien:"https://hector-essais-cliniques.fr/"},
   "Centre-Val de Loire":             {groupe:3, lien:"https://oncocentre.org/professionnels/recherche-clinique/repertoire-des-essais-cliniques/"},
@@ -125,92 +125,81 @@ var G = {
 };
 
 var GROUPES = {
-  1:{label:"Auvergne-Rhone-Alpes",               couleur:"#2D6A9F"},
-  2:{label:"Bourgogne-FC et Grand Est",          couleur:"#3a8c6e"},
-  3:{label:"Centre-Val de Loire.",               couleur:"#c5792a"},
-  4:{label:"Ile-de-France",                      couleur:"#9b3a7a"},
-  5:{label:"Hauts-de-France / Normandie /  PDL", couleur:"#4a7ab5"},
-  6:{label:"PACA / Corse",                       couleur:"#c94040"},
-  7:{label:"Occitanie",                          couleur:"#2a9a7a"}
+  1:{label:"Auvergne-Rhone-Alpes",                         couleur:"#2D6A9F"},
+  2:{label:"Bourgogne-FC et Grand Est",                    couleur:"#3a8c6e"},
+  3:{label:"Centre-Val de Loire",         couleur:"#c5792a"},
+  4:{label:"Ile-de-France",                                couleur:"#9b3a7a"},
+  5:{label:"Hauts-de-France / Normandie / PDL", couleur:"#4a7ab5"},
+  6:{label:"PACA / Corse ",                     couleur:"#c94040"},
+  7:{label:"Occitanie",                                         couleur:"#2a9a7a"}
 };
 
 // ================================================================
-//  CARTE
+//  CARTE — tuiles OSM en francais
 // ================================================================
 var map = L.map("map").setView([46.6, 2.5], 6);
 
-L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png", {
-  attribution: "&copy; OpenStreetMap &copy; CARTO",
-  subdomains: "abcd", maxZoom: 19
+L.tileLayer("https://{s}.tile.openstreetmap.fr/osmfr/{z}/{x}/{y}.png", {
+  attribution: "&copy; OpenStreetMap contributors",
+  subdomains: "abc",
+  maxZoom: 20
 }).addTo(map);
 
-// Chargement GeoJSON officiel depuis github gregoiredavid (reference en France)
 var GEOJSON_URL = "https://raw.githubusercontent.com/gregoiredavid/france-geojson/master/regions-version-simplifiee.geojson";
 
-function getCouleur(nomRegion) {
-  var r = G[nomRegion];
+function getCouleur(nom) {
+  var r = G[nom];
   if (!r) return "#888888";
   var grp = GROUPES[r.groupe];
   return grp ? grp.couleur : "#888888";
 }
 
-function getLien(nomRegion) {
-  var r = G[nomRegion];
+function getLien(nom) {
+  var r = G[nom];
   return r ? r.lien : "";
 }
 
-function getGroupe(nomRegion) {
-  var r = G[nomRegion];
+function getGroupe(nom) {
+  var r = G[nom];
   return r ? r.groupe : 0;
 }
-
-var geojsonLayer;
 
 fetch(GEOJSON_URL)
   .then(function(resp) { return resp.json(); })
   .then(function(data) {
-
-    // Normaliser le nom selon les variantes du GeoJSON
-    data.features.forEach(function(f) {
-      var n = f.properties.nom || f.properties.name || f.properties.NOM_REG || "";
-      f.properties.nomNorm = n;
-    });
-
-    geojsonLayer = L.geoJSON(data, {
+    L.geoJSON(data, {
       style: function(feature) {
-        var couleur = getCouleur(feature.properties.nomNorm);
+        var nom = feature.properties.nom;
         return {
-          fillColor: couleur,
+          fillColor:   getCouleur(nom),
           fillOpacity: 0.50,
-          color: "#ffffff",
-          weight: 2,
-          opacity: 1
+          color:       "#ffffff",
+          weight:      2,
+          opacity:     1
         };
       },
       onEachFeature: function(feature, layer) {
-        var nom = feature.properties.nomNorm;
+        var nom     = feature.properties.nom;
         var couleur = getCouleur(nom);
-        var grpId = getGroupe(nom);
-        var grp = GROUPES[grpId];
+        var grpId   = getGroupe(nom);
+        var grp     = GROUPES[grpId];
 
-        layer.bindTooltip(nom, {
-          className: "rtt", sticky: true, direction: "top"
-        });
+        layer.bindTooltip(nom, {className:"rtt", sticky:true, direction:"top"});
 
         layer.on("mouseover", function() {
-          layer.setStyle({fillOpacity: 0.80, weight: 3});
+          layer.setStyle({fillOpacity:0.80, weight:3});
           layer.bringToFront();
         });
         layer.on("mouseout", function() {
-          layer.setStyle({fillOpacity: 0.50, weight: 2});
+          layer.setStyle({fillOpacity:0.50, weight:2});
         });
         layer.on("click", function(e) {
-          var lien = getLien(nom);
+          var lien    = getLien(nom);
           var hasLink = lien && lien.indexOf("LIEN_") !== 0;
           var btnHtml = hasLink
             ? '<a class="plink" href="' + lien + '" style="background:' + couleur + '">Acceder a l\'espace &rarr;</a>'
             : '<p class="pnl">Lien a configurer dans le code</p>';
-          L.popup({maxWidth: 300})
+          L.popup({maxWidth:300})
             .setLatLng(e.latlng)
             .setContent(
               '<div class="pi">'
@@ -235,30 +224,33 @@ fetch(GEOJSON_URL)
 //  DROM markers
 // ================================================================
 var droms = [
-  {n:"Guadeloupe", a:16.26,  o:-61.55, id:"b1"},
-  {n:"Martinique", a:14.64,  o:-61.02, id:"b2"},
-  {n:"Guyane",     a: 3.94,  o:-53.13, id:"b3"},
-  {n:"La Reunion", a:-21.11, o: 55.53, id:"b4"},
-  {n:"Mayotte",    a:-12.84, o: 45.15, id:"b5"}
+  {n:"Guadeloupe", a:16.26,  o:-61.55},
+  {n:"Martinique", a:14.64,  o:-61.02},
+  {n:"Guyane",     a: 3.94,  o:-53.13},
+  {n:"La Reunion", a:-21.11, o: 55.53},
+  {n:"Mayotte",    a:-12.84, o: 45.15}
 ];
 
 droms.forEach(function(d) {
   var ic = L.divIcon({
     html: '<div style="background:#2a9a7a;width:18px;height:18px;border-radius:50%;border:3px solid #fff;box-shadow:0 2px 6px rgba(0,0,0,.35)"></div>',
-    className: "", iconSize: [18,18], iconAnchor: [9,9]
+    className: "", iconSize:[18,18], iconAnchor:[9,9]
   });
-  L.marker([d.a, d.o], {icon: ic})
+  L.marker([d.a, d.o], {icon:ic})
     .bindTooltip(d.n, {className:"rtt", direction:"top"})
     .on("click", function(e) {
-      var g7 = GROUPES[7];
-      var lien = g7 ? "LIEN_DROM" : "";
-      var hasLink = lien && lien.indexOf("LIEN_") !== 0;
+      var lien    = "LIEN_DROM";
+      var hasLink = lien.indexOf("LIEN_") !== 0;
       var btnHtml = hasLink
         ? '<a class="plink" href="' + lien + '" style="background:#2a9a7a">Acceder a l\'espace &rarr;</a>'
         : '<p class="pnl">Lien a configurer dans le code</p>';
-      L.popup({maxWidth: 280})
+      L.popup({maxWidth:280})
         .setLatLng(e.latlng)
-        .setContent('<div class="pi"><h4>' + d.n + '</h4><span class="pbadge" style="background:#2a9a7a">DROM</span>' + btnHtml + '</div>')
+        .setContent(
+          '<div class="pi"><h4>' + d.n + '</h4>'
+          + '<span class="pbadge" style="background:#2a9a7a">DROM</span>'
+          + btnHtml + '</div>'
+        )
         .openOn(map);
     })
     .addTo(map);
@@ -284,19 +276,19 @@ var ll = document.getElementById("llist");
 //  NAVIGATION ZOOM
 // ================================================================
 var zooms = {
-  b0:[46.6,   2.5,    6],
-  b1:[16.26, -61.55,  9],
-  b2:[14.64, -61.02, 10],
-  b3:[ 3.94, -53.13,  7],
-  b4:[-21.11, 55.53, 10],
-  b5:[-12.84, 45.15, 11]
+  b0:[46.6,    2.5,    6],
+  b1:[16.26,  -61.55,  9],
+  b2:[14.64,  -61.02, 10],
+  b3:[ 3.94,  -53.13,  7],
+  b4:[-21.11,  55.53, 10],
+  b5:[-12.84,  45.15, 11]
 };
 ["b0","b1","b2","b3","b4","b5"].forEach(function(id) {
   var el = document.getElementById(id);
   if (el) {
     el.addEventListener("click", function() {
       var z = zooms[id];
-      map.setView([z[0], z[1]], z[2]);
+      map.setView([z[0],z[1]], z[2]);
     });
   }
 });
