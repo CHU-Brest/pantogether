@@ -1,566 +1,361 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Répertoires Essais Cliniques</title>
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Marianne:wght@400;700&family=Source+Sans+3:wght@300;400;600&display=swap');
+<meta charset="UTF-8">
+<title>Carte des régions — France</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Segoe UI', Arial, sans-serif; background: #f0f4f8; }
+  #map { height: 100vh; width: 100vw; }
 
-    :root {
-      --color-bg: #f0f4f8;
-      --color-surface: #ffffff;
-      --color-text: #1a2535;
-      --color-muted: #6b7a8d;
+  /* ─── Panneau latéral ─── */
+  #panel {
+    position: fixed; top: 0; left: 0;
+    width: 270px; height: 100vh;
+    background: #ffffff;
+    padding: 18px 16px;
+    overflow-y: auto;
+    z-index: 2000;
+    box-shadow: 3px 0 12px rgba(0,0,0,.13);
+    transition: left 0.3s;
+    display: flex; flex-direction: column; gap: 14px;
+  }
+  #togglePanel {
+    position: fixed; top: 12px; left: 12px;
+    z-index: 3000; background: #1a3a5c; color: white;
+    border: none; padding: 9px 13px; border-radius: 8px;
+    font-size: 18px; cursor: pointer; display: none;
+    box-shadow: 0 2px 8px rgba(0,0,0,.25);
+  }
+  @media(max-width: 768px) {
+    #panel { left: -280px; }
+    #panel.open { left: 0; }
+    #togglePanel { display: block; }
+  }
 
-      /* Palette des 6 groupes + DROM */
-      --c1: #2D6A9F; /* Auvergne-Rhône-Alpes */
-      --c1h: #1a4e7a;
-      --c2: #3a8c6e; /* Bourgogne/FC - Grand Est */
-      --c2h: #256b50;
-      --c3: #c5792a; /* Centre-Val de Loire */
-      --c3h: #9a5c1a;
-      --c4: #9b3a7a; /* Île-de-France */
-      --c4h: #76285c;
-      --c5: #4a7ab5; /* Hauts-de-France / Normandie / PDL */
-      --c5h: #2f5e8e;
-      --c6: #c94040; /* PACA-Corse */
-      --c6h: #9e2e2e;
-      --cdrom: #2a9a7a; /* DROM */
-      --cdromb: #1d7259;
-    }
+  .panel-title {
+    font-size: 1rem; font-weight: 700; color: #1a2535;
+    border-bottom: 2px solid #e2e8f0; padding-bottom: 10px;
+  }
+  .panel-title small { display:block; font-size: 0.72rem; color: #6b7a8d; font-weight: 400; margin-top: 2px; }
 
-    * { box-sizing: border-box; margin: 0; padding: 0; }
+  /* ─── Légende ─── */
+  .legende { display: flex; flex-direction: column; gap: 4px; }
+  .legende-item {
+    display: flex; align-items: center; gap: 10px;
+    padding: 8px 10px; border-radius: 8px; cursor: pointer;
+    transition: background 0.15s; font-size: 0.83rem;
+    text-decoration: none; color: #1a2535;
+    border: 2px solid transparent;
+  }
+  .legende-item:hover { background: #f0f4f8; }
+  .legende-item.active { border-color: currentColor; background: #f7fafc; }
+  .dot {
+    width: 16px; height: 16px; border-radius: 4px;
+    flex-shrink: 0; opacity: 0.85;
+  }
+  .legende-name { font-weight: 600; line-height: 1.3; flex: 1; }
+  .legende-sub { font-size: 0.7rem; color: #6b7a8d; }
+  .legende-arrow { font-size: 0.75rem; color: #aaa; }
 
-    body {
-      font-family: 'Source Sans 3', 'Segoe UI', sans-serif;
-      background: var(--color-bg);
-      color: var(--color-text);
-      min-height: 100vh;
-    }
+  /* ─── Navigation DROM ─── */
+  .section-label {
+    font-size: 0.68rem; font-weight: 700; text-transform: uppercase;
+    letter-spacing: 0.08em; color: #6b7a8d; margin-top: 4px;
+  }
+  .drom-btns { display: flex; flex-wrap: wrap; gap: 5px; }
+  .drom-btn {
+    flex: 1; min-width: 48%; padding: 6px 8px;
+    border: 1px solid #d1d9e0; border-radius: 6px;
+    background: #f7fafc; cursor: pointer; font-size: 0.75rem;
+    color: #1a2535; transition: background 0.15s;
+  }
+  .drom-btn:hover { background: #e8f0f7; }
 
-    header {
-      background: var(--color-surface);
-      padding: 18px 32px;
-      border-bottom: 3px solid #e2e8f0;
-      display: flex;
-      align-items: center;
-      gap: 16px;
-    }
-    header .logo {
-      width: 36px; height: 36px;
-      background: linear-gradient(135deg, #002395 33%, #fff 33% 66%, #ED2939 66%);
-      border-radius: 4px;
-      flex-shrink: 0;
-    }
-    header h1 {
-      font-family: 'Source Sans 3', sans-serif;
-      font-size: 1.2rem;
-      font-weight: 600;
-      color: var(--color-text);
-    }
-    header p {
-      font-size: 0.85rem;
-      color: var(--color-muted);
-    }
+  /* ─── Tooltip Leaflet ─── */
+  .region-tooltip {
+    background: rgba(26,37,53,0.88); color: #fff;
+    border: none; border-radius: 6px;
+    padding: 5px 11px; font-size: 0.8rem; font-weight: 600;
+    box-shadow: 0 2px 8px rgba(0,0,0,.3);
+  }
+  .region-tooltip::before { display: none; }
 
-    .layout {
-      display: flex;
-      gap: 24px;
-      padding: 28px 32px;
-      max-width: 1400px;
-      margin: 0 auto;
-      flex-wrap: wrap;
-    }
-
-    .map-container {
-      flex: 1;
-      min-width: 520px;
-      background: var(--color-surface);
-      border-radius: 12px;
-      box-shadow: 0 2px 16px rgba(0,0,0,0.07);
-      padding: 20px;
-      position: relative;
-    }
-
-    .map-container h2 {
-      font-size: 0.75rem;
-      font-weight: 600;
-      text-transform: uppercase;
-      letter-spacing: 0.1em;
-      color: var(--color-muted);
-      margin-bottom: 12px;
-    }
-
-    svg.france-map {
-      width: 100%;
-      height: auto;
-      display: block;
-    }
-
-    /* Region paths */
-    .region {
-      cursor: pointer;
-      stroke: #fff;
-      stroke-width: 1.5;
-      transition: opacity 0.18s, filter 0.18s;
-    }
-    .region:hover {
-      opacity: 0.82;
-      filter: brightness(1.12);
-    }
-    .region:focus {
-      outline: 3px solid #ffcc00;
-      outline-offset: 2px;
-    }
-
-    .r1 { fill: var(--c1); }
-    .r2 { fill: var(--c2); }
-    .r3 { fill: var(--c3); }
-    .r4 { fill: var(--c4); }
-    .r5 { fill: var(--c5); }
-    .r6 { fill: var(--c6); }
-    .rdrom { fill: var(--cdrom); }
-
-    /* DROM mini-maps */
-    .drom-grid {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 8px;
-      margin-top: 12px;
-    }
-    .drom-box {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 4px;
-    }
-    .drom-box svg {
-      width: 60px; height: 60px;
-    }
-    .drom-box .drom-label {
-      font-size: 0.65rem;
-      color: var(--color-muted);
-      text-align: center;
-    }
-
-    /* Legend / sidebar */
-    .sidebar {
-      width: 280px;
-      display: flex;
-      flex-direction: column;
-      gap: 12px;
-    }
-
-    .legend-card {
-      background: var(--color-surface);
-      border-radius: 10px;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.06);
-      overflow: hidden;
-    }
-    .legend-card h2 {
-      font-size: 0.72rem;
-      font-weight: 600;
-      text-transform: uppercase;
-      letter-spacing: 0.1em;
-      color: var(--color-muted);
-      padding: 14px 16px 8px;
-    }
-
-    .legend-item {
-      display: flex;
-      align-items: flex-start;
-      gap: 10px;
-      padding: 10px 16px;
-      border-top: 1px solid #f0f4f8;
-      cursor: pointer;
-      text-decoration: none;
-      color: inherit;
-      transition: background 0.15s;
-    }
-    .legend-item:hover {
-      background: #f7fafc;
-    }
-    .legend-dot {
-      width: 14px; height: 14px;
-      border-radius: 3px;
-      flex-shrink: 0;
-      margin-top: 3px;
-    }
-    .legend-name {
-      font-size: 0.88rem;
-      font-weight: 600;
-      line-height: 1.3;
-    }
-    .legend-sub {
-      font-size: 0.75rem;
-      color: var(--color-muted);
-    }
-    .legend-arrow {
-      margin-left: auto;
-      font-size: 0.8rem;
-      color: var(--color-muted);
-      flex-shrink: 0;
-    }
-
-    /* Tooltip */
-    #tooltip {
-      position: fixed;
-      background: rgba(26,37,53,0.92);
-      color: #fff;
-      font-size: 0.8rem;
-      padding: 6px 12px;
-      border-radius: 6px;
-      pointer-events: none;
-      opacity: 0;
-      transition: opacity 0.12s;
-      z-index: 999;
-      max-width: 200px;
-    }
-
-    /* Breadcrumb note */
-    .note {
-      background: #fff8e1;
-      border-left: 4px solid #f0b429;
-      border-radius: 6px;
-      padding: 10px 14px;
-      font-size: 0.78rem;
-      color: #7a5f00;
-      line-height: 1.5;
-    }
-
-    @media (max-width: 860px) {
-      .layout { padding: 16px; flex-direction: column; }
-      .sidebar { width: 100%; }
-      .map-container { min-width: 0; }
-    }
-  </style>
+  /* ─── Popup ─── */
+  .leaflet-popup-content-wrapper {
+    border-radius: 10px !important;
+    box-shadow: 0 4px 20px rgba(0,0,0,.18) !important;
+  }
+  .popup-inner { padding: 4px 2px; min-width: 200px; }
+  .popup-inner h4 { font-size: 1rem; color: #1a2535; margin-bottom: 3px; }
+  .popup-badge {
+    display: inline-block; padding: 2px 10px; border-radius: 12px;
+    font-size: 0.72rem; font-weight: 700; color: #fff; margin-bottom: 8px;
+  }
+  .popup-inner a {
+    display: block; text-align: center; margin-top: 10px;
+    padding: 8px 14px; border-radius: 7px; color: #fff;
+    text-decoration: none; font-weight: 600; font-size: 0.85rem;
+    transition: opacity 0.15s;
+  }
+  .popup-inner a:hover { opacity: 0.85; }
+  .popup-no-link { font-size: 0.75rem; color: #aaa; text-align: center; margin-top: 6px; font-style: italic; }
+</style>
 </head>
 <body>
 
-<header>
-  <div class="logo"></div>
-  <div>
-    <h1>Carte interactive de France</h1>
-    <p>Cliquez sur une région pour accéder à son espace</p>
+<button id="togglePanel">☰</button>
+
+<div id="panel">
+  <div class="panel-title">
+    Carte des régions
+    <small>Cliquez sur une région pour accéder à son espace</small>
   </div>
-</header>
 
-<div id="tooltip"></div>
+  <div>
+    <div class="section-label">Groupes régionaux</div>
+    <div class="legende" id="legendeList"></div>
+  </div>
 
-<div class="layout">
-
-  <!-- MAP -->
-  <div class="map-container">
-    <h2>France métropolitaine</h2>
-    <!--
-      ============================================================
-      SVG carte France — chemins simplifiés des régions groupées
-      Projection approximative, adaptée aux 6 zones personnalisées
-      ============================================================
-    -->
-    <svg class="france-map" viewBox="0 0 600 650" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Carte des régions de France">
-
-      <!-- ── HAUTS-DE-FRANCE / NORMANDIE / PAYS DE LA LOIRE ── -->
-      <!-- Pas-de-Calais + Nord -->
-      <path class="region r5" data-region="5"
-        d="M 185 32 L 230 28 L 270 35 L 280 55 L 260 70 L 240 60 L 210 65 L 190 55 Z"
-        tabindex="0" role="button" aria-label="Hauts-de-France – Normandie – Pays de la Loire"
-      />
-      <!-- Hauts-de-France (Aisne/Somme/Oise) -->
-      <path class="region r5" data-region="5"
-        d="M 190 55 L 210 65 L 240 60 L 260 70 L 280 55 L 305 65 L 315 80 L 300 95 L 275 100 L 255 90 L 235 100 L 210 95 L 190 80 Z"
-        tabindex="0" role="button" aria-label="Hauts-de-France – Normandie – Pays de la Loire"
-      />
-      <!-- Normandie -->
-      <path class="region r5" data-region="5"
-        d="M 110 65 L 150 58 L 185 65 L 190 80 L 170 95 L 145 100 L 120 90 L 105 78 Z"
-        tabindex="0" role="button" aria-label="Hauts-de-France – Normandie – Pays de la Loire"
-      />
-      <!-- Bretagne (incluse dans ce groupe) -->
-      <path class="region r5" data-region="5"
-        d="M 42 100 L 75 88 L 105 78 L 120 90 L 115 108 L 95 118 L 68 115 L 48 108 Z"
-        tabindex="0" role="button" aria-label="Hauts-de-France – Normandie – Pays de la Loire"
-      />
-      <!-- Pays de la Loire -->
-      <path class="region r5" data-region="5"
-        d="M 95 118 L 115 108 L 145 115 L 165 130 L 160 155 L 138 165 L 110 155 L 90 138 Z"
-        tabindex="0" role="button" aria-label="Hauts-de-France – Normandie – Pays de la Loire"
-      />
-
-      <!-- ── ÎLE-DE-FRANCE ── -->
-      <path class="region r4" data-region="4"
-        d="M 255 90 L 275 100 L 285 115 L 275 130 L 255 135 L 240 120 L 245 105 Z"
-        tabindex="0" role="button" aria-label="Île-de-France"
-      />
-
-      <!-- ── CENTRE-VAL DE LOIRE ── -->
-      <path class="region r3" data-region="3"
-        d="M 165 130 L 200 118 L 240 120 L 255 135 L 260 155 L 245 175 L 215 180 L 185 170 L 162 155 Z"
-        tabindex="0" role="button" aria-label="Centre-Val de Loire"
-      />
-
-      <!-- ── BOURGOGNE-FC / GRAND EST ── -->
-      <!-- Grand Est (Alsace-Lorraine-Champagne) -->
-      <path class="region r2" data-region="2"
-        d="M 300 95 L 340 88 L 375 95 L 395 112 L 390 138 L 370 155 L 345 158 L 320 150 L 300 135 L 295 115 Z"
-        tabindex="0" role="button" aria-label="Bourgogne-Franche-Comté – Grand Est"
-      />
-      <!-- Bourgogne-Franche-Comté -->
-      <path class="region r2" data-region="2"
-        d="M 260 155 L 295 148 L 320 150 L 345 158 L 355 180 L 345 205 L 318 215 L 290 210 L 268 195 L 255 175 Z"
-        tabindex="0" role="button" aria-label="Bourgogne-Franche-Comté – Grand Est"
-      />
-
-      <!-- ── AUVERGNE-RHÔNE-ALPES ── -->
-      <path class="region r1" data-region="1"
-        d="M 245 175 L 268 195 L 290 210 L 318 215 L 345 205 L 370 215 L 375 240 L 360 265 L 340 280 L 315 285 L 290 278 L 270 260 L 255 235 L 248 205 Z"
-        tabindex="0" role="button" aria-label="Auvergne-Rhône-Alpes"
-      />
-
-      <!-- ── PACA-CORSE ── -->
-      <!-- PACA -->
-      <path class="region r6" data-region="6"
-        d="M 290 278 L 315 285 L 340 280 L 365 285 L 385 305 L 378 325 L 355 332 L 330 328 L 305 315 L 288 298 Z"
-        tabindex="0" role="button" aria-label="PACA – Corse"
-      />
-      <!-- Corse -->
-      <path class="region r6" data-region="6"
-        d="M 418 295 L 428 285 L 440 290 L 445 310 L 438 330 L 425 335 L 415 320 L 412 305 Z"
-        tabindex="0" role="button" aria-label="PACA – Corse"
-      />
-
-      <!-- ── OCCITANIE (rattachée à PACA zone sud) — couleur r6 ── -->
-      <path class="region r6" data-region="6"
-        d="M 162 260 L 190 255 L 215 258 L 248 265 L 255 285 L 250 305 L 225 318 L 195 322 L 168 310 L 152 290 L 155 270 Z"
-        tabindex="0" role="button" aria-label="PACA – Corse"
-      />
-
-      <!-- ── NOUVELLE-AQUITAINE (complète le centre-ouest) ── -->
-      <path class="region r3" data-region="3"
-        d="M 110 165 L 138 165 L 162 170 L 180 185 L 185 215 L 175 245 L 155 265 L 130 270 L 108 255 L 95 230 L 100 200 L 105 178 Z"
-        tabindex="0" role="button" aria-label="Centre-Val de Loire"
-      />
-
-      <!-- Labels de régions -->
-      <text x="158" y="82" font-size="8" fill="white" font-family="sans-serif" font-weight="bold" text-anchor="middle" pointer-events="none">Normandie</text>
-      <text x="62" y="105" font-size="7.5" fill="white" font-family="sans-serif" font-weight="bold" text-anchor="middle" pointer-events="none">Bretagne</text>
-      <text x="228" y="62" font-size="8" fill="white" font-family="sans-serif" font-weight="bold" text-anchor="middle" pointer-events="none">Hauts-de-France</text>
-      <text x="125" y="140" font-size="7.5" fill="white" font-family="sans-serif" font-weight="bold" text-anchor="middle" pointer-events="none">Pays de la Loire</text>
-      <text x="263" y="122" font-size="7" fill="white" font-family="sans-serif" font-weight="bold" text-anchor="middle" pointer-events="none">Île-de-Fr.</text>
-      <text x="213" y="152" font-size="7.5" fill="white" font-family="sans-serif" font-weight="bold" text-anchor="middle" pointer-events="none">Centre-Val de Loire</text>
-      <text x="348" y="122" font-size="8" fill="white" font-family="sans-serif" font-weight="bold" text-anchor="middle" pointer-events="none">Grand Est</text>
-      <text x="307" y="186" font-size="7.5" fill="white" font-family="sans-serif" font-weight="bold" text-anchor="middle" pointer-events="none">Bourgogne-FC</text>
-      <text x="312" y="242" font-size="8" fill="white" font-family="sans-serif" font-weight="bold" text-anchor="middle" pointer-events="none">Auvergne-Rhône-A.</text>
-      <text x="200" y="292" font-size="7.5" fill="white" font-family="sans-serif" font-weight="bold" text-anchor="middle" pointer-events="none">Occitanie</text>
-      <text x="136" y="222" font-size="7.5" fill="white" font-family="sans-serif" font-weight="bold" text-anchor="middle" pointer-events="none">Nouvelle-Aquitaine</text>
-      <text x="335" y="312" font-size="8" fill="white" font-family="sans-serif" font-weight="bold" text-anchor="middle" pointer-events="none">PACA</text>
-      <text x="430" y="312" font-size="7.5" fill="white" font-family="sans-serif" font-weight="bold" text-anchor="middle" pointer-events="none">Corse</text>
-
-    </svg>
-
-    <!-- DROM -->
-    <h2 style="margin-top:20px">Départements et Régions d'Outre-Mer</h2>
-    <div class="drom-grid">
-
-      <!-- Guadeloupe -->
-      <div class="drom-box">
-        <svg viewBox="0 0 60 60" data-region="drom" class="region rdrom" style="cursor:pointer;border-radius:6px" tabindex="0" role="button" aria-label="Guadeloupe">
-          <ellipse cx="30" cy="30" rx="18" ry="12" fill="var(--cdrom)" stroke="#fff" stroke-width="2"/>
-          <ellipse cx="30" cy="32" rx="10" ry="7" fill="var(--cdromb)" stroke="#fff" stroke-width="1.5"/>
-          <text x="30" y="52" font-size="6" fill="var(--color-muted)" font-family="sans-serif" text-anchor="middle">971</text>
-        </svg>
-        <span class="drom-label">Guadeloupe</span>
-      </div>
-
-      <!-- Martinique -->
-      <div class="drom-box">
-        <svg viewBox="0 0 60 60" data-region="drom" class="region rdrom" style="cursor:pointer;border-radius:6px" tabindex="0" role="button" aria-label="Martinique">
-          <ellipse cx="30" cy="30" rx="10" ry="16" fill="var(--cdrom)" stroke="#fff" stroke-width="2"/>
-          <text x="30" y="52" font-size="6" fill="var(--color-muted)" font-family="sans-serif" text-anchor="middle">972</text>
-        </svg>
-        <span class="drom-label">Martinique</span>
-      </div>
-
-      <!-- Guyane -->
-      <div class="drom-box">
-        <svg viewBox="0 0 60 60" data-region="drom" class="region rdrom" style="cursor:pointer;border-radius:6px" tabindex="0" role="button" aria-label="Guyane">
-          <polygon points="20,15 42,18 45,40 30,50 15,42" fill="var(--cdrom)" stroke="#fff" stroke-width="2"/>
-          <text x="30" y="56" font-size="6" fill="var(--color-muted)" font-family="sans-serif" text-anchor="middle">973</text>
-        </svg>
-        <span class="drom-label">Guyane</span>
-      </div>
-
-      <!-- La Réunion -->
-      <div class="drom-box">
-        <svg viewBox="0 0 60 60" data-region="drom" class="region rdrom" style="cursor:pointer;border-radius:6px" tabindex="0" role="button" aria-label="La Réunion">
-          <ellipse cx="30" cy="30" rx="14" ry="16" fill="var(--cdrom)" stroke="#fff" stroke-width="2"/>
-          <text x="30" y="52" font-size="6" fill="var(--color-muted)" font-family="sans-serif" text-anchor="middle">974</text>
-        </svg>
-        <span class="drom-label">La Réunion</span>
-      </div>
-
-      <!-- Mayotte -->
-      <div class="drom-box">
-        <svg viewBox="0 0 60 60" data-region="drom" class="region rdrom" style="cursor:pointer;border-radius:6px" tabindex="0" role="button" aria-label="Mayotte">
-          <ellipse cx="30" cy="28" rx="9" ry="13" fill="var(--cdrom)" stroke="#fff" stroke-width="2"/>
-          <ellipse cx="34" cy="42" rx="5" ry="7" fill="var(--cdromb)" stroke="#fff" stroke-width="1.5"/>
-          <text x="30" y="55" font-size="6" fill="var(--color-muted)" font-family="sans-serif" text-anchor="middle">976</text>
-        </svg>
-        <span class="drom-label">Mayotte</span>
-      </div>
-
+  <div>
+    <div class="section-label">Navigation Outre-Mer</div>
+    <div class="drom-btns">
+      <button class="drom-btn" onclick="zoomVers('guadeloupe')"> Guadeloupe</button>
+      <button class="drom-btn" onclick="zoomVers('martinique')"> Martinique</button>
+      <button class="drom-btn" onclick="zoomVers('guyane')"> Guyane</button>
+      <button class="drom-btn" onclick="zoomVers('reunion')"> La Réunion</button>
+      <button class="drom-btn" onclick="zoomVers('mayotte')"> Mayotte</button>
+      <button class="drom-btn" onclick="zoomVers('metropole')" style="min-width:100%">↩ Métropole</button>
     </div>
-  </div><!-- /map-container -->
+  </div>
+</div>
 
-  <!-- LEGEND / SIDEBAR -->
-  <div class="sidebar">
-
-    <div class="note">
-      💡 Cliquez sur une région de la carte ou sur une entrée de la légende pour accéder à l'espace correspondant. Les liens sont à configurer dans le code (attributs <code>href</code>).
-    </div>
-
-    <div class="legend-card">
-      <h2>Régions — Légende</h2>
-
-      <!-- 1 -->
-      <a class="legend-item" href="LIEN_AUVERGNE_RHONE_ALPES" data-region="1">
-        <span class="legend-dot" style="background:var(--c1)"></span>
-        <span>
-          <div class="legend-name">Auvergne-Rhône-Alpes</div>
-          <div class="legend-sub">Région 1</div>
-        </span>
-        <span class="legend-arrow">→</span>
-      </a>
-
-      <!-- 2 -->
-      <a class="legend-item" href="LIEN_BOURGOGNE_GRAND_EST" data-region="2">
-        <span class="legend-dot" style="background:var(--c2)"></span>
-        <span>
-          <div class="legend-name">Bourgogne-FC &amp; Grand Est</div>
-          <div class="legend-sub">Région 2</div>
-        </span>
-        <span class="legend-arrow">→</span>
-      </a>
-
-      <!-- 3 -->
-      <a class="legend-item" href="LIEN_CENTRE_VAL_DE_LOIRE" data-region="3">
-        <span class="legend-dot" style="background:var(--c3)"></span>
-        <span>
-          <div class="legend-name">Centre-Val de Loire</div>
-          <div class="legend-sub">Région 3</div>
-        </span>
-        <span class="legend-arrow">→</span>
-      </a>
-
-      <!-- 4 -->
-      <a class="legend-item" href="LIEN_ILE_DE_FRANCE" data-region="4">
-        <span class="legend-dot" style="background:var(--c4)"></span>
-        <span>
-          <div class="legend-name">Île-de-France</div>
-          <div class="legend-sub">Région 4</div>
-        </span>
-        <span class="legend-arrow">→</span>
-      </a>
-
-      <!-- 5 -->
-      <a class="legend-item" href="LIEN_HAUTS_NORMANDIE_PDL" data-region="5">
-        <span class="legend-dot" style="background:var(--c5)"></span>
-        <span>
-          <div class="legend-name">Hauts-de-France · Normandie · Pays de la Loire</div>
-          <div class="legend-sub">Région 5</div>
-        </span>
-        <span class="legend-arrow">→</span>
-      </a>
-
-      <!-- 6 -->
-      <a class="legend-item" href="LIEN_PACA_CORSE" data-region="6">
-        <span class="legend-dot" style="background:var(--c6)"></span>
-        <span>
-          <div class="legend-name">PACA – Corse</div>
-          <div class="legend-sub">Région 6</div>
-        </span>
-        <span class="legend-arrow">→</span>
-      </a>
-
-      <!-- DROM -->
-      <a class="legend-item" href="LIEN_DROM" data-region="drom">
-        <span class="legend-dot" style="background:var(--cdrom)"></span>
-        <span>
-          <div class="legend-name">DROM</div>
-          <div class="legend-sub">Guadeloupe · Martinique · Guyane · Réunion · Mayotte</div>
-        </span>
-        <span class="legend-arrow">→</span>
-      </a>
-    </div>
-
-  </div><!-- /sidebar -->
-
-</div><!-- /layout -->
+<div id="map"></div>
 
 <script>
-  /*
-   * ============================================================
-   * CONFIGURATION DES LIENS — modifiez les URLs ici
-   * ============================================================
-   */
-  const LINKS = {
-    "1":    "LIEN_AUVERGNE_RHONE_ALPES",       // Auvergne-Rhône-Alpes
-    "2":    "LIEN_BOURGOGNE_GRAND_EST",         // Bourgogne-FC / Grand Est
-    "3":    "LIEN_CENTRE_VAL_DE_LOIRE",         // Centre-Val de Loire
-    "4":    "LIEN_ILE_DE_FRANCE",               // Île-de-France
-    "5":    "LIEN_HAUTS_NORMANDIE_PDL",         // Hauts-de-France / Normandie / PDL
-    "6":    "LIEN_PACA_CORSE",                  // PACA - Corse
-    "drom": "LIEN_DROM",                        // DROM (toutes)
-  };
+// ══════════════════════════════════════════════════════
+//  CONFIGURATION DES GROUPES ET LIENS
+//  → Modifiez les `lien` de chaque groupe ici
+// ══════════════════════════════════════════════════════
+const GROUPES = {
+  1: { label: "Auvergne-Rhône-Alpes",                           couleur: "#2D6A9F", lien: "https://ressources-aura.fr/plateforme/recherche-clinique/annuaire/essais-cliniques"   },
+  2: { label: "Bourgogne-FC · Grand Est",                       couleur: "#3a8c6e", lien: "https://hector-essais-cliniques.fr/"     },
+  3: { label: "Centre-Val de Loire",                            couleur: "#c5792a", lien: "https://oncocentre.org/professionnels/recherche-clinique/repertoire-des-essais-cliniques/"     },
+  4: { label: "Île-de-France",                                  couleur: "#9b3a7a", lien: "https://essaisclic.girci-idf.fr/"           },
+  5: { label: "Hauts-de-France · Normandie · PDL",              couleur: "#4a7ab5", lien: "https://archimaid.fr/"     },
+  6: { label: "PACA · Corse ",                                  couleur: "#c94040", lien: "https://www.oncopacacorse.org/repertoire-essais-cliniques/"              },
+  7: { label: "Occitanie",                                      couleur: "#2a9a7a", lien: "https://onco-occitanie.fr/nos-thematiques/par-traitement/essais-cliniques-en-occitanie/"                    }
+};
 
-  const LABELS = {
-    "1":    "Auvergne-Rhône-Alpes",
-    "2":    "Bourgogne-FC & Grand Est",
-    "3":    "Centre-Val de Loire",
-    "4":    "Île-de-France",
-    "5":    "Hauts-de-France · Normandie · Pays de la Loire",
-    "6":    "PACA – Corse",
-    "drom": "DROM (Outre-Mer)",
-  };
+// ══════════════════════════════════════════════════════
+//  GEOJSON DES RÉGIONS MÉTROPOLITAINES (vraies frontières)
+// ══════════════════════════════════════════════════════
+const regionsGeoJSON = {
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {"nom": "Auvergne-Rhône-Alpes", "groupe": 1},
+      "geometry": {"type": "Polygon", "coordinates": [[[2.064,45.040],[2.193,44.730],[2.587,44.544],[3.101,44.112],[3.524,44.052],[4.014,43.890],[4.507,43.772],[4.866,43.756],[5.056,43.961],[5.521,43.992],[5.970,43.870],[6.073,44.063],[6.834,44.131],[7.020,44.382],[7.074,44.722],[7.663,45.152],[7.153,45.499],[6.813,45.754],[6.578,46.003],[6.461,46.453],[5.990,46.578],[5.680,46.508],[5.356,46.466],[5.220,47.459],[4.872,46.344],[4.522,46.383],[4.178,46.271],[3.869,46.355],[3.488,46.060],[3.113,45.794],[2.778,45.579],[2.413,45.432],[2.064,45.040]]]}
+    },
+    {
+      "type": "Feature",
+      "properties": {"nom": "Bourgogne-Franche-Comté", "groupe": 2},
+      "geometry": {"type": "Polygon", "coordinates": [[[2.847,47.908],[3.109,48.051],[3.430,48.238],[3.701,48.118],[4.117,47.946],[4.458,47.791],[4.830,47.618],[5.220,47.459],[5.356,46.466],[5.680,46.508],[5.990,46.578],[6.461,46.453],[6.578,46.003],[6.813,45.754],[7.153,45.499],[7.663,45.152],[7.119,47.560],[7.566,47.785],[7.545,48.327],[7.050,48.638],[6.800,48.776],[6.534,48.894],[6.134,49.094],[5.929,49.451],[5.554,49.497],[5.070,49.555],[4.830,49.489],[4.545,49.970],[4.215,49.962],[3.820,49.703],[3.729,49.980],[3.549,49.921],[3.167,49.693],[3.027,49.263],[2.878,49.091],[2.847,47.908]]]}
+    },
+    {
+      "type": "Feature",
+      "properties": {"nom": "Grand Est", "groupe": 2},
+      "geometry": {"type": "Polygon", "coordinates": [[[3.167,49.693],[3.549,49.921],[3.729,49.980],[3.820,49.703],[4.215,49.962],[4.545,49.970],[4.830,49.489],[5.070,49.555],[5.554,49.497],[5.929,49.451],[6.134,49.094],[6.534,48.894],[6.800,48.776],[7.050,48.638],[7.545,48.327],[7.566,47.785],[7.119,47.560],[7.663,45.152],[7.153,45.499],[6.813,45.754],[6.578,46.003],[6.461,46.453],[5.990,46.578],[5.680,46.508],[5.356,46.466],[5.220,47.459],[4.830,47.618],[4.458,47.791],[4.117,47.946],[3.701,48.118],[3.430,48.238],[3.109,48.051],[2.847,47.908],[2.878,49.091],[3.027,49.263],[3.167,49.693]]]}
+    },
+    {
+      "type": "Feature",
+      "properties": {"nom": "Centre-Val de Loire", "groupe": 3},
+      "geometry": {"type": "Polygon", "coordinates": [[[2.847,47.908],[2.424,48.210],[2.024,47.966],[1.763,47.883],[1.368,47.601],[1.063,47.286],[0.759,47.068],[0.482,46.770],[0.072,46.485],[-0.041,46.253],[-0.296,46.012],[0.130,45.817],[0.540,45.709],[0.996,45.696],[1.421,45.764],[2.064,45.040],[2.413,45.432],[2.778,45.579],[3.113,45.794],[3.488,46.060],[3.869,46.355],[4.178,46.271],[4.522,46.383],[4.872,46.344],[5.220,47.459],[4.830,47.618],[4.458,47.791],[4.117,47.946],[3.701,48.118],[3.430,48.238],[3.109,48.051],[2.847,47.908]]]}
+    },
+    {
+      "type": "Feature",
+      "properties": {"nom": "Île-de-France", "groupe": 4},
+      "geometry": {"type": "Polygon", "coordinates": [[[2.847,47.908],[2.424,48.210],[2.024,47.966],[2.022,48.007],[2.142,48.170],[2.191,48.456],[2.010,48.640],[1.904,48.900],[1.977,49.072],[2.252,49.186],[2.594,49.167],[2.980,49.058],[3.167,49.693],[3.027,49.263],[2.878,49.091],[2.847,47.908]]]}
+    },
+    {
+      "type": "Feature",
+      "properties": {"nom": "Hauts-de-France", "groupe": 5},
+      "geometry": {"type": "Polygon", "coordinates": [[[1.627,49.115],[1.977,49.072],[1.904,48.900],[2.010,48.640],[2.191,48.456],[2.142,48.170],[2.022,48.007],[2.024,47.966],[2.424,48.210],[2.847,47.908],[2.878,49.091],[3.027,49.263],[3.167,49.693],[3.549,49.921],[3.729,49.980],[3.820,49.703],[4.215,49.962],[4.545,49.970],[4.830,49.489],[5.070,49.555],[5.070,50.189],[4.874,50.508],[4.175,50.332],[3.672,50.357],[3.149,50.762],[2.575,51.021],[2.545,51.091],[1.847,50.969],[1.596,50.745],[1.541,50.430],[1.568,50.225],[1.876,49.854],[1.908,49.561],[1.627,49.115]]]}
+    },
+    {
+      "type": "Feature",
+      "properties": {"nom": "Normandie", "groupe": 5},
+      "geometry": {"type": "Polygon", "coordinates": [[[2.022,48.007],[2.024,47.966],[1.763,47.883],[1.368,47.601],[1.063,47.286],[0.759,47.068],[0.482,46.770],[0.072,46.485],[0.141,48.462],[-0.165,48.599],[-0.526,48.625],[-1.048,48.696],[-1.563,49.070],[-1.896,49.226],[-2.023,49.410],[-1.265,49.680],[-0.918,49.605],[-0.485,49.700],[0.243,49.700],[0.704,49.426],[1.177,49.374],[1.541,50.430],[1.596,50.745],[1.847,50.969],[1.908,49.561],[1.876,49.854],[1.568,50.225],[1.541,50.430],[1.177,49.374],[0.704,49.426],[0.243,49.700],[-0.485,49.700],[-0.918,49.605],[-1.265,49.680],[-2.023,49.410],[-1.896,49.226],[-1.563,49.070],[-1.048,48.696],[-0.526,48.625],[-0.165,48.599],[0.141,48.462],[0.072,46.485],[0.482,46.770],[0.759,47.068],[1.063,47.286],[1.368,47.601],[1.763,47.883],[2.024,47.966],[2.022,48.007],[2.142,48.170],[2.191,48.456],[2.010,48.640],[1.904,48.900],[1.977,49.072],[1.627,49.115],[1.908,49.561],[1.876,49.854],[1.568,50.225],[1.541,50.430],[1.177,49.374],[2.022,48.007]]]}
+    },
+    {
+      "type": "Feature",
+      "properties": {"nom": "Bretagne", "groupe": },
+      "geometry": {"type": "Polygon", "coordinates": [[[-1.048,48.696],[-1.563,49.070],[-1.896,49.226],[-2.023,49.410],[-2.518,49.576],[-3.014,48.780],[-3.300,48.556],[-3.668,48.400],[-4.195,48.384],[-4.789,48.538],[-5.138,48.411],[-4.666,48.141],[-4.420,47.959],[-3.808,47.637],[-2.603,47.554],[-2.082,47.324],[-1.857,47.209],[-1.663,47.153],[-1.269,47.056],[-0.966,47.139],[-0.629,47.315],[-0.296,46.012],[-0.041,46.253],[0.072,46.485],[0.482,46.770],[0.072,46.485],[-0.041,46.253],[-0.296,46.012],[-0.526,48.625],[-0.165,48.599],[0.141,48.462],[0.072,46.485],[-0.041,46.253],[-0.296,46.012],[-0.629,47.315],[-0.966,47.139],[-1.269,47.056],[-1.663,47.153],[-1.857,47.209],[-2.082,47.324],[-2.603,47.554],[-3.808,47.637],[-4.420,47.959],[-4.666,48.141],[-5.138,48.411],[-4.789,48.538],[-4.195,48.384],[-3.668,48.400],[-3.300,48.556],[-3.014,48.780],[-2.518,49.576],[-2.023,49.410],[-1.896,49.226],[-1.563,49.070],[-1.048,48.696],[-0.526,48.625],[-0.165,48.599],[0.141,48.462],[0.072,46.485],[-0.041,46.253],[-0.296,46.012],[-0.629,47.315],[-0.966,47.139],[-1.269,47.056],[-1.048,48.696]]]}
+    },
+    {
+      "type": "Feature",
+      "properties": {"nom": "Pays de la Loire", "groupe": 5},
+      "geometry": {"type": "Polygon", "coordinates": [[[-0.629,47.315],[-0.966,47.139],[-1.269,47.056],[-1.663,47.153],[-1.857,47.209],[-2.082,47.324],[-2.603,47.554],[-3.808,47.637],[-4.420,47.959],[-4.666,48.141],[-5.138,48.411],[-4.789,48.538],[-4.195,48.384],[-3.668,48.400],[-3.300,48.556],[-3.014,48.780],[-2.518,49.576],[-2.023,49.410],[-1.896,49.226],[-1.563,49.070],[-1.048,48.696],[-0.526,48.625],[-0.165,48.599],[0.141,48.462],[0.072,46.485],[0.482,46.770],[0.759,47.068],[1.063,47.286],[0.759,47.068],[0.482,46.770],[0.072,46.485],[-0.041,46.253],[-0.296,46.012],[-0.629,47.315]]]}
+    },
+    {
+      "type": "Feature",
+      "properties": {"nom": "Nouvelle-Aquitaine", "groupe": },
+      "geometry": {"type": "Polygon", "coordinates": [[[-0.296,46.012],[-0.041,46.253],[0.072,46.485],[0.482,46.770],[0.759,47.068],[1.063,47.286],[1.368,47.601],[1.763,47.883],[2.024,47.966],[2.022,48.007],[1.904,48.900],[1.977,49.072],[1.627,49.115],[1.908,49.561],[1.541,50.430],[1.177,49.374],[0.704,49.426],[0.243,49.700],[-0.485,49.700],[-0.918,49.605],[-1.265,49.680],[-2.023,49.410],[-1.896,49.226],[-1.563,49.070],[-1.048,48.696],[-0.526,48.625],[-0.165,48.599],[0.141,48.462],[0.072,46.485],[-0.041,46.253],[-0.296,46.012],[-0.629,47.315],[-0.966,47.139],[-1.269,47.056],[-1.663,47.153],[-1.857,47.209],[-2.082,47.324],[-2.603,47.554],[-1.793,44.952],[-1.551,44.412],[-1.137,43.830],[-0.674,43.331],[0.256,43.325],[0.868,43.081],[1.301,43.038],[1.419,43.315],[1.242,43.888],[0.863,44.490],[0.540,45.709],[0.130,45.817],[-0.296,46.012]]]}
+    },
+    {
+      "type": "Feature",
+      "properties": {"nom": "Occitanie", "groupe": 7},
+      "geometry": {"type": "Polygon", "coordinates": [[[0.256,43.325],[0.868,43.081],[1.301,43.038],[1.419,43.315],[1.757,43.457],[2.130,43.264],[2.565,43.169],[3.080,43.160],[3.555,43.392],[3.964,43.484],[4.626,43.500],[4.965,43.595],[5.507,43.513],[5.521,43.992],[5.056,43.961],[4.866,43.756],[4.507,43.772],[4.014,43.890],[3.524,44.052],[3.101,44.112],[2.587,44.544],[2.193,44.730],[2.064,45.040],[1.421,45.764],[0.996,45.696],[0.540,45.709],[0.863,44.490],[1.242,43.888],[1.419,43.315],[1.301,43.038],[0.868,43.081],[0.256,43.325]]]}
+    },
+    {
+      "type": "Feature",
+      "properties": {"nom": "Provence-Alpes-Côte d'Azur", "groupe": 6},
+      "geometry": {"type": "Polygon", "coordinates": [[[4.626,43.500],[4.965,43.595],[5.507,43.513],[5.521,43.992],[5.056,43.961],[4.866,43.756],[4.507,43.772],[4.014,43.890],[3.524,44.052],[3.080,43.160],[3.555,43.392],[3.964,43.484],[4.626,43.500],[5.507,43.513],[5.970,43.870],[6.073,44.063],[6.834,44.131],[7.020,44.382],[7.440,43.780],[7.640,43.654],[7.520,43.447],[6.851,43.120],[6.356,42.998],[5.993,43.020],[5.507,43.513],[4.965,43.595],[4.626,43.500],[3.555,43.392],[3.080,43.160],[2.565,43.169],[2.130,43.264],[1.757,43.457],[1.419,43.315],[1.301,43.038],[1.419,43.315],[1.242,43.888],[0.863,44.490],[0.540,45.709],[0.996,45.696],[1.421,45.764],[2.064,45.040],[2.413,45.432],[2.778,45.579],[3.113,45.794],[3.488,46.060],[3.869,46.355],[4.178,46.271],[4.522,46.383],[4.872,46.344],[5.220,47.459],[5.356,46.466],[5.680,46.508],[5.990,46.578],[6.461,46.453],[6.578,46.003],[6.813,45.754],[7.153,45.499],[7.663,45.152],[7.074,44.722],[7.020,44.382],[6.834,44.131],[6.073,44.063],[5.970,43.870],[5.521,43.992],[5.507,43.513],[4.965,43.595],[4.626,43.500]]]}
+    },
+    {
+      "type": "Feature",
+      "properties": {"nom": "Corse", "groupe": 6},
+      "geometry": {"type": "Polygon", "coordinates": [[[8.553,41.353],[9.560,41.387],[9.534,41.866],[9.228,42.081],[9.445,42.440],[9.359,42.882],[8.974,43.005],[8.785,42.540],[8.546,42.037],[8.553,41.353]]]}
+    }
+  ]
+};
 
-  const tooltip = document.getElementById('tooltip');
+// ══════════════════════════════════════════════════════
+//  CARTE LEAFLET
+// ══════════════════════════════════════════════════════
+const map = L.map('map', { zoomControl: true }).setView([46.6, 2.5], 6);
 
-  /* Hover tooltip */
-  document.querySelectorAll('[data-region]').forEach(el => {
-    const id = el.dataset.region;
+L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+  attribution: '© OpenStreetMap contributors © CARTO',
+  subdomains: 'abcd', maxZoom: 19
+}).addTo(map);
 
-    el.addEventListener('mouseenter', e => {
-      tooltip.textContent = LABELS[id] || '';
-      tooltip.style.opacity = '1';
+// Couche GeoJSON avec coloration par groupe
+L.geoJSON(regionsGeoJSON, {
+  style: function(feature) {
+    const g = GROUPES[feature.properties.groupe];
+    return {
+      fillColor: g ? g.couleur : '#888',
+      fillOpacity: 0.55,
+      color: '#fff',
+      weight: 2.5,
+      opacity: 1
+    };
+  },
+  onEachFeature: function(feature, layer) {
+    const g = GROUPES[feature.properties.groupe];
+    const nom = feature.properties.nom;
+
+    // Tooltip survol
+    layer.bindTooltip(nom, {
+      className: 'region-tooltip',
+      sticky: true,
+      direction: 'top'
     });
-    el.addEventListener('mousemove', e => {
-      tooltip.style.left = (e.clientX + 14) + 'px';
-      tooltip.style.top  = (e.clientY - 10) + 'px';
+
+    // Hover
+    layer.on('mouseover', function() {
+      layer.setStyle({ fillOpacity: 0.82, weight: 3.5 });
+      layer.bringToFront();
     });
-    el.addEventListener('mouseleave', () => {
-      tooltip.style.opacity = '0';
+    layer.on('mouseout', function() {
+      layer.setStyle({ fillOpacity: 0.55, weight: 2.5 });
     });
 
-    /* Click navigation */
-    el.addEventListener('click', () => {
-      const url = LINKS[id];
-      if (url && !url.startsWith('LIEN_')) {
-        window.location.href = url;
-      } else {
-        alert('🔗 Lien à configurer pour : ' + LABELS[id]);
-      }
-    });
+    // Clic → popup avec lien
+    layer.on('click', function(e) {
+      const hasLink = g && g.lien && !g.lien.startsWith('LIEN_');
+      const linkHtml = hasLink
+        ? `<a href="${g.lien}" style="background:${g.couleur}">Accéder à l'espace →</a>`
+        : `<p class="popup-no-link">Lien à configurer dans le code</p>`;
 
-    /* Keyboard navigation */
-    el.addEventListener('keydown', e => {
-      if (e.key === 'Enter' || e.key === ' ') {
-        e.preventDefault();
-        el.click();
-      }
+      L.popup({ maxWidth: 300 })
+        .setLatLng(e.latlng)
+        .setContent(`
+          <div class="popup-inner">
+            <h4>${nom}</h4>
+            <span class="popup-badge" style="background:${g ? g.couleur : '#888'}">${g ? g.label : 'N/A'}</span>
+            ${linkHtml}
+          </div>`)
+        .openOn(map);
     });
+  }
+}).addTo(map);
+
+// ══════════════════════════════════════════════════════
+//  DROM — marqueurs cliquables
+// ══════════════════════════════════════════════════════
+const droms = [
+  { nom: "Guadeloupe",   lat: 16.26,   lng: -61.55, key: "guadeloupe"  },
+  { nom: "Martinique",   lat: 14.64,   lng: -61.02, key: "martinique"  },
+  { nom: "Guyane",       lat:  3.94,   lng: -53.13, key: "guyane"      },
+  { nom: "La Réunion",   lat: -21.11,  lng:  55.53, key: "reunion"     },
+  { nom: "Mayotte",      lat: -12.84,  lng:  45.15, key: "mayotte"     }
+];
+
+const g7 = GROUPES[7];
+droms.forEach(d => {
+  const icon = L.divIcon({
+    html: `<div style="background:${g7.couleur};width:18px;height:18px;border-radius:50%;border:3px solid #fff;box-shadow:0 2px 6px rgba(0,0,0,.35)"></div>`,
+    className: '', iconSize: [18,18], iconAnchor: [9,9]
   });
-</script>
+  const marker = L.marker([d.lat, d.lng], { icon })
+    .bindTooltip(d.nom, { className: 'region-tooltip', direction: 'top' })
+    .addTo(map);
 
+  marker.on('click', function(e) {
+    const hasLink = g7.lien && !g7.lien.startsWith('LIEN_');
+    const linkHtml = hasLink
+      ? `<a href="${g7.lien}" style="background:${g7.couleur}">Accéder à l'espace →</a>`
+      : `<p class="popup-no-link">Lien à configurer dans le code</p>`;
+    L.popup({ maxWidth: 280 })
+      .setLatLng(e.latlng)
+      .setContent(`<div class="popup-inner"><h4>${d.nom}</h4><span class="popup-badge" style="background:${g7.couleur}">DROM</span>${linkHtml}</div>`)
+      .openOn(map);
+  });
+});
+
+// ══════════════════════════════════════════════════════
+//  LÉGENDE dynamique
+// ══════════════════════════════════════════════════════
+const legendeList = document.getElementById('legendeList');
+Object.entries(GROUPES).forEach(([id, g]) => {
+  const item = document.createElement('a');
+  item.className = 'legende-item';
+  item.style.color = g.couleur;
+  const hasLink = g.lien && !g.lien.startsWith('LIEN_');
+  item.href = hasLink ? g.lien : '#';
+  if (!hasLink) item.onclick = e => { e.preventDefault(); };
+  item.innerHTML = `
+    <span class="dot" style="background:${g.couleur}"></span>
+    <span class="legende-name" style="color:#1a2535">${g.label}</span>
+    <span class="legende-arrow">${hasLink ? '→' : '✎'}</span>
+  `;
+  legendeList.appendChild(item);
+});
+
+// ══════════════════════════════════════════════════════
+//  NAVIGATION ZOOM
+// ══════════════════════════════════════════════════════
+function zoomVers(zone) {
+  const coords = {
+    metropole:  [46.6,    2.5,    6 ],
+    guadeloupe: [16.26,  -61.55,  9 ],
+    martinique: [14.64,  -61.02,  10],
+    guyane:     [ 3.94,  -53.13,  7 ],
+    reunion:    [-21.11,  55.53,  10],
+    mayotte:    [-12.84,  45.15,  11]
+  };
+  const [lat, lng, z] = coords[zone];
+  map.setView([lat, lng], z);
+}
+
+document.getElementById('togglePanel').onclick = () =>
+  document.getElementById('panel').classList.toggle('open');
+</script>
 </body>
 </html>
