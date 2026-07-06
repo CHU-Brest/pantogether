@@ -2,98 +2,84 @@
 <html lang="fr">
 <head>
 <meta charset="UTF-8">
-<title>Carte des régions — France</title>
+<title>Carte des regions France</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"><\/script>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
-body{font-family:'Segoe UI',Arial,sans-serif;background:#f0f4f8}
+body{font-family:'Segoe UI',Arial,sans-serif}
 #map{height:100vh;width:100vw}
-#panel{
-  position:fixed;top:0;left:0;width:270px;height:100vh;
-  background:#fff;padding:18px 16px;overflow-y:auto;
-  z-index:2000;box-shadow:3px 0 12px rgba(0,0,0,.13);
-  transition:left .3s;display:flex;flex-direction:column;gap:14px
-}
-#togglePanel{
-  position:fixed;top:12px;left:12px;z-index:3000;
-  background:#1a3a5c;color:#fff;border:none;
-  padding:9px 13px;border-radius:8px;font-size:18px;
-  cursor:pointer;display:none;box-shadow:0 2px 8px rgba(0,0,0,.25)
-}
+#panel{position:fixed;top:0;left:0;width:265px;height:100vh;background:#fff;
+  padding:16px 14px;overflow-y:auto;z-index:2000;
+  box-shadow:3px 0 12px rgba(0,0,0,.13);transition:left .3s;
+  display:flex;flex-direction:column;gap:12px}
+#toggle{position:fixed;top:12px;left:12px;z-index:3000;background:#1a3a5c;
+  color:#fff;border:none;padding:9px 13px;border-radius:8px;
+  font-size:18px;cursor:pointer;display:none;
+  box-shadow:0 2px 8px rgba(0,0,0,.25)}
 @media(max-width:768px){
-  #panel{left:-280px}
+  #panel{left:-270px}
   #panel.open{left:0}
-  #togglePanel{display:block}
-}
-.panel-title{font-size:1rem;font-weight:700;color:#1a2535;border-bottom:2px solid #e2e8f0;padding-bottom:10px}
-.panel-title small{display:block;font-size:.72rem;color:#6b7a8d;font-weight:400;margin-top:2px}
-.section-label{font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:#6b7a8d;margin-top:4px}
-.legende{display:flex;flex-direction:column;gap:4px}
-.legende-item{
-  display:flex;align-items:center;gap:10px;padding:8px 10px;
-  border-radius:8px;cursor:pointer;transition:background .15s;
-  font-size:.83rem;text-decoration:none;color:#1a2535;border:2px solid transparent
-}
-.legende-item:hover{background:#f0f4f8}
-.dot{width:16px;height:16px;border-radius:4px;flex-shrink:0;opacity:.85}
-.legende-name{font-weight:600;line-height:1.3;flex:1;color:#1a2535}
-.legende-arrow{font-size:.75rem;color:#aaa}
-.drom-btns{display:flex;flex-wrap:wrap;gap:5px}
-.drom-btn{
-  flex:1;min-width:48%;padding:6px 8px;border:1px solid #d1d9e0;
-  border-radius:6px;background:#f7fafc;cursor:pointer;font-size:.75rem;
-  color:#1a2535;transition:background .15s
-}
-.drom-btn:hover{background:#e8f0f7}
-.region-tooltip{
-  background:rgba(26,37,53,.88)!important;color:#fff!important;
+  #toggle{display:block}}
+.ptitle{font-size:.95rem;font-weight:700;color:#1a2535;
+  border-bottom:2px solid #e2e8f0;padding-bottom:10px}
+.ptitle small{display:block;font-size:.7rem;color:#6b7a8d;
+  font-weight:400;margin-top:2px}
+.slabel{font-size:.67rem;font-weight:700;text-transform:uppercase;
+  letter-spacing:.08em;color:#6b7a8d}
+.llist{display:flex;flex-direction:column;gap:3px}
+.litem{display:flex;align-items:center;gap:9px;padding:7px 9px;
+  border-radius:7px;cursor:pointer;font-size:.82rem;
+  text-decoration:none;color:#1a2535;border:2px solid transparent;
+  transition:background .15s}
+.litem:hover{background:#f0f4f8}
+.ldot{width:15px;height:15px;border-radius:3px;flex-shrink:0}
+.lname{font-weight:600;line-height:1.3;flex:1;color:#1a2535}
+.larr{font-size:.74rem;color:#bbb}
+.dbtns{display:flex;flex-wrap:wrap;gap:5px}
+.dbtn{flex:1;min-width:47%;padding:6px 7px;border:1px solid #d1d9e0;
+  border-radius:6px;background:#f7fafc;cursor:pointer;
+  font-size:.73rem;color:#1a2535;transition:background .15s}
+.dbtn:hover{background:#e2ecf5}
+.rtt{background:rgba(26,37,53,.88)!important;color:#fff!important;
   border:none!important;border-radius:6px!important;
-  padding:5px 11px!important;font-size:.8rem!important;font-weight:600!important;
-  box-shadow:0 2px 8px rgba(0,0,0,.3)!important
-}
-.region-tooltip::before{display:none!important}
-.leaflet-popup-content-wrapper{border-radius:10px!important;box-shadow:0 4px 20px rgba(0,0,0,.18)!important}
-.popup-inner{padding:4px 2px;min-width:200px}
-.popup-inner h4{font-size:1rem;color:#1a2535;margin-bottom:3px}
-.popup-badge{display:inline-block;padding:2px 10px;border-radius:12px;font-size:.72rem;font-weight:700;color:#fff;margin-bottom:8px}
-.popup-link{
-  display:block;text-align:center;margin-top:10px;padding:8px 14px;
+  padding:5px 10px!important;font-size:.79rem!important;
+  font-weight:600!important}
+.rtt::before{display:none!important}
+.leaflet-popup-content-wrapper{border-radius:10px!important;
+  box-shadow:0 4px 20px rgba(0,0,0,.18)!important}
+.pi{padding:4px 2px;min-width:190px}
+.pi h4{font-size:.97rem;color:#1a2535;margin-bottom:3px}
+.pbadge{display:inline-block;padding:2px 10px;border-radius:12px;
+  font-size:.71rem;font-weight:700;color:#fff;margin-bottom:8px}
+.plink{display:block;text-align:center;margin-top:10px;padding:8px 14px;
   border-radius:7px;color:#fff!important;text-decoration:none!important;
-  font-weight:600;font-size:.85rem;transition:opacity .15s
-}
-.popup-link:hover{opacity:.85}
-.popup-no-link{font-size:.75rem;color:#aaa;text-align:center;margin-top:6px;font-style:italic}
+  font-weight:600;font-size:.83rem;transition:opacity .15s}
+.plink:hover{opacity:.82}
+.pnl{font-size:.74rem;color:#bbb;text-align:center;margin-top:6px;font-style:italic}
 </style>
 </head>
 <body>
-<button id="togglePanel">&#9776;</button>
+<button id="toggle">&#9776;</button>
 <div id="panel">
-  <div class="panel-title">
-    Carte des régions
-    <small>Cliquez sur une région pour accéder à son espace</small>
-  </div>
-  <div>
-    <div class="section-label">Groupes régionaux</div>
-    <div class="legende" id="legendeList"></div>
-  </div>
-  <div>
-    <div class="section-label">Navigation Outre-Mer</div>
-    <div class="drom-btns">
-      <button class="drom-btn" onclick="zoomVers('guadeloupe')">&#127796; Guadeloupe</button>
-      <button class="drom-btn" onclick="zoomVers('martinique')">&#127796; Martinique</button>
-      <button class="drom-btn" onclick="zoomVers('guyane')">&#127807; Guyane</button>
-      <button class="drom-btn" onclick="zoomVers('reunion')">&#9968; La Réunion</button>
-      <button class="drom-btn" onclick="zoomVers('mayotte')">&#127965; Mayotte</button>
-      <button class="drom-btn" style="min-width:100%" onclick="zoomVers('metropole')">&#8617; Métropole</button>
-    </div>
-  </div>
+  <div class="ptitle">Carte des regions<small>Cliquez pour acceder a votre espace</small></div>
+  <div><div class="slabel" style="margin-bottom:6px">Groupes regionaux</div>
+  <div class="llist" id="llist"></div></div>
+  <div><div class="slabel" style="margin-bottom:6px">Outre-Mer</div>
+  <div class="dbtns">
+    <button class="dbtn" id="b1">Guadeloupe</button>
+    <button class="dbtn" id="b2">Martinique</button>
+    <button class="dbtn" id="b3">Guyane</button>
+    <button class="dbtn" id="b4">La Reunion</button>
+    <button class="dbtn" id="b5">Mayotte</button>
+    <button class="dbtn" id="b0" style="min-width:100%">Retour Metropole</button>
+  </div></div>
 </div>
 <div id="map"></div>
 <script>
-// ── CONFIGURATION : remplacez les valeurs LIEN_... par vos URLs ──
-var GROUPES = {
+
+var G = {
   1: { label: "Auvergne-Rhône-Alpes",                           couleur: "#2D6A9F", lien: "https://ressources-aura.fr/plateforme/recherche-clinique/annuaire/essais-cliniques"   },
   2: { label: "Bourgogne-FC · Grand Est",                       couleur: "#3a8c6e", lien: "https://hector-essais-cliniques.fr/"     },
   3: { label: "Centre-Val de Loire",                            couleur: "#c5792a", lien: "https://oncocentre.org/professionnels/recherche-clinique/repertoire-des-essais-cliniques/"     },
@@ -103,112 +89,85 @@ var GROUPES = {
   7: { label: "Occitanie",                                      couleur: "#2a9a7a", lien: "https://onco-occitanie.fr/nos-thematiques/par-traitement/essais-cliniques-en-occitanie/"                    }
 };
 
-const regionsGeoJSON = {"type":"FeatureCollection","features":[{"type":"Feature","properties":{"nom":"Auvergne-Rh\u00f4ne-Alpes","groupe":1},"geometry":{"type":"Polygon","coordinates":[[[2.06,45.04],[2.19,44.73],[2.59,44.54],[3.1,44.11],[3.52,44.05],[4.01,43.89],[4.51,43.77],[4.87,43.76],[5.06,43.96],[5.52,43.99],[5.97,43.87],[6.07,44.06],[6.83,44.13],[7.02,44.38],[7.07,44.72],[7.66,45.15],[7.15,45.5],[6.81,45.75],[6.58,46.0],[6.46,46.45],[5.99,46.58],[5.68,46.51],[5.36,46.47],[5.22,47.46],[4.87,46.34],[4.52,46.38],[4.18,46.27],[3.87,46.36],[3.49,46.06],[3.11,45.79],[2.78,45.58],[2.41,45.43],[2.06,45.04]]]}},{"type":"Feature","properties":{"nom":"Bourgogne-Franche-Comt\u00e9","groupe":2},"geometry":{"type":"Polygon","coordinates":[[[2.85,47.91],[3.11,48.05],[3.43,48.24],[3.7,48.12],[4.12,47.95],[4.46,47.79],[4.83,47.62],[5.22,47.46],[5.36,46.47],[5.68,46.51],[5.99,46.58],[6.46,46.45],[6.58,46.0],[6.81,45.75],[7.15,45.5],[7.66,45.15],[7.12,47.56],[7.57,47.79],[7.55,48.33],[7.05,48.64],[6.8,48.78],[6.53,48.89],[6.13,49.09],[5.93,49.45],[5.55,49.5],[5.07,49.56],[4.83,49.49],[4.55,49.97],[4.22,49.96],[3.82,49.7],[3.73,49.98],[3.55,49.92],[3.17,49.69],[3.03,49.26],[2.88,49.09],[2.85,47.91]]]}},{"type":"Feature","properties":{"nom":"Grand Est","groupe":2},"geometry":{"type":"Polygon","coordinates":[[[2.85,47.91],[2.88,49.09],[3.03,49.26],[3.17,49.69],[3.55,49.92],[3.73,49.98],[3.82,49.7],[4.22,49.96],[4.55,49.97],[4.83,49.49],[5.07,49.56],[5.55,49.5],[5.93,49.45],[6.13,49.09],[6.53,48.89],[6.8,48.78],[7.05,48.64],[7.55,48.33],[7.57,47.79],[7.12,47.56],[7.66,45.15],[7.15,45.5],[6.81,45.75],[6.58,46.0],[6.46,46.45],[5.99,46.58],[5.68,46.51],[5.36,46.47],[5.22,47.46],[4.83,47.62],[4.46,47.79],[4.12,47.95],[3.7,48.12],[3.43,48.24],[3.11,48.05],[2.85,47.91]]]}},{"type":"Feature","properties":{"nom":"Centre-Val de Loire","groupe":3},"geometry":{"type":"Polygon","coordinates":[[[2.85,47.91],[3.11,48.05],[3.43,48.24],[3.7,48.12],[4.12,47.95],[4.46,47.79],[4.83,47.62],[5.22,47.46],[4.87,46.34],[4.52,46.38],[4.18,46.27],[3.87,46.36],[3.49,46.06],[3.11,45.79],[2.78,45.58],[2.41,45.43],[2.06,45.04],[1.42,45.76],[1.0,45.7],[0.54,45.71],[0.13,45.82],[-0.3,46.01],[-0.04,46.25],[0.07,46.49],[0.48,46.77],[0.76,47.07],[1.06,47.29],[1.37,47.6],[1.76,47.88],[2.02,47.97],[2.42,48.21],[2.85,47.91]]]}},{"type":"Feature","properties":{"nom":"\u00cele-de-France","groupe":4},"geometry":{"type":"Polygon","coordinates":[[[2.02,47.97],[2.14,48.17],[2.19,48.46],[2.01,48.64],[1.9,48.9],[1.98,49.07],[2.25,49.19],[2.59,49.17],[2.98,49.06],[3.17,49.69],[3.03,49.26],[2.88,49.09],[2.85,47.91],[2.42,48.21],[2.02,47.97]]]}},{"type":"Feature","properties":{"nom":"Hauts-de-France","groupe":5},"geometry":{"type":"Polygon","coordinates":[[[1.63,49.12],[1.98,49.07],[1.9,48.9],[2.01,48.64],[2.19,48.46],[2.14,48.17],[2.02,47.97],[2.42,48.21],[2.85,47.91],[2.88,49.09],[3.03,49.26],[3.17,49.69],[3.55,49.92],[3.73,49.98],[3.82,49.7],[4.22,49.96],[4.55,49.97],[4.83,49.49],[5.07,49.56],[5.07,50.19],[4.87,50.51],[4.18,50.33],[3.67,50.36],[3.15,50.76],[2.58,51.02],[2.55,51.09],[1.85,50.97],[1.6,50.75],[1.54,50.43],[1.57,50.23],[1.88,49.85],[1.91,49.56],[1.63,49.12]]]}},{"type":"Feature","properties":{"nom":"Normandie","groupe":5},"geometry":{"type":"Polygon","coordinates":[[[2.02,47.97],[1.76,47.88],[1.37,47.6],[1.06,47.29],[0.76,47.07],[0.48,46.77],[0.07,46.49],[0.14,48.46],[-0.17,48.6],[-0.53,48.63],[-1.05,48.7],[-1.56,49.07],[-1.9,49.23],[-2.02,49.41],[-1.27,49.68],[-0.92,49.61],[-0.49,49.7],[0.24,49.7],[0.7,49.43],[1.18,49.37],[1.54,50.43],[1.6,50.75],[1.85,50.97],[1.91,49.56],[1.88,49.85],[1.57,50.23],[1.54,50.43],[1.18,49.37],[0.7,49.43],[0.24,49.7],[-0.49,49.7],[-0.92,49.61],[-1.27,49.68],[-2.02,49.41],[-1.9,49.23],[-1.56,49.07],[-1.05,48.7],[-0.53,48.63],[-0.17,48.6],[0.14,48.46],[0.07,46.49],[0.48,46.77],[0.76,47.07],[1.06,47.29],[1.37,47.6],[1.76,47.88],[2.02,47.97],[2.14,48.17],[2.19,48.46],[2.01,48.64],[1.9,48.9],[1.98,49.07],[1.63,49.12],[1.91,49.56],[1.88,49.85],[1.57,50.23],[1.54,50.43],[1.18,49.37],[2.02,47.97]]]}},{"type":"Feature","properties":{"nom":"Bretagne","groupe":5},"geometry":{"type":"Polygon","coordinates":[[[-1.05,48.7],[-0.53,48.63],[-0.17,48.6],[0.14,48.46],[0.07,46.49],[-0.04,46.25],[-0.3,46.01],[-0.63,47.32],[-0.97,47.14],[-1.27,47.06],[-1.66,47.15],[-1.86,47.21],[-2.08,47.32],[-2.6,47.55],[-3.81,47.64],[-4.42,47.96],[-4.67,48.14],[-5.14,48.41],[-4.79,48.54],[-4.2,48.38],[-3.67,48.4],[-3.3,48.56],[-3.01,48.78],[-2.52,49.58],[-2.02,49.41],[-1.9,49.23],[-1.56,49.07],[-1.05,48.7]]]}},{"type":"Feature","properties":{"nom":"Pays de la Loire","groupe":5},"geometry":{"type":"Polygon","coordinates":[[[-0.63,47.32],[-0.3,46.01],[-0.04,46.25],[0.07,46.49],[0.48,46.77],[0.76,47.07],[1.06,47.29],[0.76,47.07],[0.48,46.77],[0.07,46.49],[-0.04,46.25],[-0.3,46.01],[-0.63,47.32],[-0.97,47.14],[-1.27,47.06],[-1.66,47.15],[-1.86,47.21],[-2.08,47.32],[-2.6,47.55],[-3.81,47.64],[-4.42,47.96],[-4.67,48.14],[-5.14,48.41],[-4.79,48.54],[-4.2,48.38],[-3.67,48.4],[-3.3,48.56],[-3.01,48.78],[-2.52,49.58],[-2.02,49.41],[-1.9,49.23],[-1.56,49.07],[-1.05,48.7],[-0.53,48.63],[-0.17,48.6],[0.14,48.46],[0.07,46.49],[0.48,46.77],[0.76,47.07],[1.06,47.29],[1.37,47.6],[1.76,47.88],[2.02,47.97],[2.42,48.21],[2.85,47.91],[2.42,48.21],[2.02,47.97],[1.76,47.88],[1.37,47.6],[1.06,47.29],[0.76,47.07],[0.48,46.77],[0.07,46.49],[-0.04,46.25],[-0.3,46.01],[-0.63,47.32]]]}},{"type":"Feature","properties":{"nom":"Nouvelle-Aquitaine","groupe":3},"geometry":{"type":"Polygon","coordinates":[[[-0.3,46.01],[0.13,45.82],[0.54,45.71],[1.0,45.7],[1.42,45.76],[2.06,45.04],[2.41,45.43],[2.78,45.58],[3.11,45.79],[3.49,46.06],[3.87,46.36],[4.18,46.27],[4.52,46.38],[4.87,46.34],[5.22,47.46],[4.83,47.62],[4.46,47.79],[4.12,47.95],[3.7,48.12],[3.43,48.24],[3.11,48.05],[2.85,47.91],[2.42,48.21],[2.02,47.97],[1.76,47.88],[1.37,47.6],[1.06,47.29],[0.76,47.07],[0.48,46.77],[0.07,46.49],[-0.04,46.25],[-0.3,46.01],[-0.63,47.32],[-0.97,47.14],[-1.27,47.06],[-1.66,47.15],[-1.86,47.21],[-2.08,47.32],[-2.6,47.55],[-1.79,44.95],[-1.55,44.41],[-1.14,43.83],[-0.67,43.33],[0.26,43.33],[0.87,43.08],[1.3,43.04],[1.42,43.32],[1.24,43.89],[0.86,44.49],[0.54,45.71],[0.13,45.82],[-0.3,46.01]]]}},{"type":"Feature","properties":{"nom":"Occitanie","groupe":6},"geometry":{"type":"Polygon","coordinates":[[[0.26,43.33],[0.87,43.08],[1.3,43.04],[1.42,43.32],[1.76,43.46],[2.13,43.26],[2.57,43.17],[3.08,43.16],[3.56,43.39],[3.96,43.48],[4.63,43.5],[4.97,43.6],[5.51,43.51],[5.52,43.99],[5.06,43.96],[4.87,43.76],[4.51,43.77],[4.01,43.89],[3.52,44.05],[3.1,44.11],[2.59,44.54],[2.19,44.73],[2.06,45.04],[1.42,45.76],[1.0,45.7],[0.54,45.71],[0.86,44.49],[1.24,43.89],[1.42,43.32],[1.3,43.04],[0.87,43.08],[0.26,43.33]]]}},{"type":"Feature","properties":{"nom":"Provence-Alpes-C\u00f4te d'Azur","groupe":6},"geometry":{"type":"Polygon","coordinates":[[[4.63,43.5],[4.97,43.6],[5.51,43.51],[5.97,43.87],[6.07,44.06],[6.83,44.13],[7.02,44.38],[7.44,43.78],[7.64,43.65],[7.52,43.45],[6.85,43.12],[6.36,43.0],[5.99,43.02],[5.51,43.51],[4.97,43.6],[4.63,43.5],[3.56,43.39],[3.08,43.16],[3.56,43.39],[3.96,43.48],[4.63,43.5],[5.06,43.96],[5.52,43.99],[5.97,43.87],[6.07,44.06],[6.83,44.13],[7.02,44.38],[7.07,44.72],[7.66,45.15],[7.15,45.5],[6.81,45.75],[6.58,46.0],[6.46,46.45],[5.99,46.58],[5.68,46.51],[5.36,46.47],[5.22,47.46],[4.83,47.62],[4.46,47.79],[4.12,47.95],[3.7,48.12],[3.43,48.24],[3.11,48.05],[2.85,47.91],[2.42,48.21],[2.02,47.97],[1.76,47.88],[1.37,47.6],[1.06,47.29],[0.76,47.07],[0.48,46.77],[0.07,46.49],[-0.04,46.25],[-0.3,46.01],[-0.63,47.32],[-1.79,44.95],[-1.55,44.41],[-1.14,43.83],[-0.67,43.33],[0.26,43.33],[0.87,43.08],[1.3,43.04],[1.42,43.32],[1.24,43.89],[0.86,44.49],[0.54,45.71],[1.0,45.7],[1.42,45.76],[2.06,45.04],[2.19,44.73],[2.59,44.54],[3.1,44.11],[3.52,44.05],[4.01,43.89],[4.51,43.77],[4.87,43.76],[5.06,43.96],[5.52,43.99],[5.51,43.51],[4.97,43.6],[4.63,43.5]]]}},{"type":"Feature","properties":{"nom":"Corse","groupe":6},"geometry":{"type":"Polygon","coordinates":[[[8.55,41.35],[9.56,41.39],[9.53,41.87],[9.23,42.08],[9.45,42.44],[9.36,42.88],[8.97,43.01],[8.79,42.54],[8.55,42.04],[8.55,41.35]]]}}]};
-var map = L.map('map',{zoomControl:true}).setView([46.6,2.5],6);
-L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png',{
-  attribution:'&copy; OpenStreetMap &copy; CARTO',
-  subdomains:'abcd',maxZoom:19
+var GJ={"type": "FeatureCollection", "features": [{"type": "Feature", "properties": {"nom": "Auvergne-Rh\u00f4ne-Alpes", "groupe": 1}, "geometry": {"type": "Polygon", "coordinates": [[[2.06, 45.04], [2.19, 44.73], [2.59, 44.54], [3.1, 44.11], [3.52, 44.05], [4.01, 43.89], [4.51, 43.77], [4.87, 43.76], [5.06, 43.96], [5.52, 43.99], [5.97, 43.87], [6.07, 44.06], [6.83, 44.13], [7.02, 44.38], [7.07, 44.72], [7.66, 45.15], [7.15, 45.5], [6.81, 45.75], [6.58, 46.0], [6.46, 46.45], [5.99, 46.58], [5.68, 46.51], [5.36, 46.47], [5.22, 47.46], [4.87, 46.34], [4.52, 46.38], [4.18, 46.27], [3.87, 46.36], [3.49, 46.06], [3.11, 45.79], [2.78, 45.58], [2.41, 45.43], [2.06, 45.04]]]}}, {"type": "Feature", "properties": {"nom": "Bourgogne-Franche-Comt\u00e9", "groupe": 2}, "geometry": {"type": "Polygon", "coordinates": [[[2.85, 47.91], [3.11, 48.05], [3.43, 48.24], [3.7, 48.12], [4.12, 47.95], [4.46, 47.79], [4.83, 47.62], [5.22, 47.46], [5.36, 46.47], [5.68, 46.51], [5.99, 46.58], [6.46, 46.45], [6.58, 46.0], [6.81, 45.75], [7.15, 45.5], [7.66, 45.15], [7.12, 47.56], [7.57, 47.79], [7.55, 48.33], [7.05, 48.64], [6.8, 48.78], [6.53, 48.89], [6.13, 49.09], [5.93, 49.45], [5.55, 49.5], [5.07, 49.56], [4.83, 49.49], [4.55, 49.97], [4.22, 49.96], [3.82, 49.7], [3.73, 49.98], [3.55, 49.92], [3.17, 49.69], [3.03, 49.26], [2.88, 49.09], [2.85, 47.91]]]}}, {"type": "Feature", "properties": {"nom": "Grand Est", "groupe": 2}, "geometry": {"type": "Polygon", "coordinates": [[[2.85, 47.91], [2.88, 49.09], [3.03, 49.26], [3.17, 49.69], [3.55, 49.92], [3.73, 49.98], [3.82, 49.7], [4.22, 49.96], [4.55, 49.97], [4.83, 49.49], [5.07, 49.56], [5.55, 49.5], [5.93, 49.45], [6.13, 49.09], [6.53, 48.89], [6.8, 48.78], [7.05, 48.64], [7.55, 48.33], [7.57, 47.79], [7.12, 47.56], [7.66, 45.15], [7.15, 45.5], [6.81, 45.75], [6.58, 46.0], [6.46, 46.45], [5.99, 46.58], [5.68, 46.51], [5.36, 46.47], [5.22, 47.46], [4.83, 47.62], [4.46, 47.79], [4.12, 47.95], [3.7, 48.12], [3.43, 48.24], [3.11, 48.05], [2.85, 47.91]]]}}, {"type": "Feature", "properties": {"nom": "Centre-Val de Loire", "groupe": 3}, "geometry": {"type": "Polygon", "coordinates": [[[2.85, 47.91], [2.42, 48.21], [2.02, 47.97], [1.76, 47.88], [1.37, 47.6], [1.06, 47.29], [0.76, 47.07], [0.48, 46.77], [0.07, 46.49], [-0.04, 46.25], [-0.3, 46.01], [0.13, 45.82], [0.54, 45.71], [1.0, 45.7], [1.42, 45.76], [2.06, 45.04], [2.41, 45.43], [2.78, 45.58], [3.11, 45.79], [3.49, 46.06], [3.87, 46.36], [4.18, 46.27], [4.52, 46.38], [4.87, 46.34], [5.22, 47.46], [4.83, 47.62], [4.46, 47.79], [4.12, 47.95], [3.7, 48.12], [3.43, 48.24], [3.11, 48.05], [2.85, 47.91]]]}}, {"type": "Feature", "properties": {"nom": "\u00cele-de-France", "groupe": 4}, "geometry": {"type": "Polygon", "coordinates": [[[2.02, 47.97], [2.42, 48.21], [2.85, 47.91], [2.88, 49.09], [3.03, 49.26], [3.17, 49.69], [2.98, 49.06], [2.59, 49.17], [2.25, 49.19], [1.98, 49.07], [1.9, 48.9], [2.01, 48.64], [2.19, 48.46], [2.14, 48.17], [2.02, 47.97]]]}}, {"type": "Feature", "properties": {"nom": "Hauts-de-France", "groupe": 5}, "geometry": {"type": "Polygon", "coordinates": [[[2.02, 47.97], [2.14, 48.17], [2.19, 48.46], [2.01, 48.64], [1.9, 48.9], [1.98, 49.07], [1.63, 49.12], [1.91, 49.56], [1.88, 49.85], [1.57, 50.23], [1.54, 50.43], [1.6, 50.75], [1.85, 50.97], [2.55, 51.09], [2.58, 51.02], [3.15, 50.76], [3.67, 50.36], [4.18, 50.33], [4.87, 50.51], [5.07, 50.19], [5.07, 49.56], [4.83, 49.49], [4.55, 49.97], [4.22, 49.96], [3.82, 49.7], [3.73, 49.98], [3.55, 49.92], [3.17, 49.69], [3.03, 49.26], [2.88, 49.09], [2.85, 47.91], [2.42, 48.21], [2.02, 47.97]]]}}, {"type": "Feature", "properties": {"nom": "Normandie", "groupe": 5}, "geometry": {"type": "Polygon", "coordinates": [[[0.07, 46.49], [0.14, 48.46], [-0.17, 48.6], [-0.53, 48.63], [-1.05, 48.7], [-1.56, 49.07], [-1.9, 49.23], [-2.02, 49.41], [-1.27, 49.68], [-0.92, 49.61], [-0.49, 49.7], [0.24, 49.7], [0.7, 49.43], [1.18, 49.37], [1.54, 50.43], [1.57, 50.23], [1.88, 49.85], [1.91, 49.56], [1.63, 49.12], [1.98, 49.07], [1.9, 48.9], [2.01, 48.64], [2.19, 48.46], [2.14, 48.17], [2.02, 47.97], [1.76, 47.88], [1.37, 47.6], [1.06, 47.29], [0.76, 47.07], [0.48, 46.77], [0.07, 46.49]]]}}, {"type": "Feature", "properties": {"nom": "Bretagne", "groupe": 5}, "geometry": {"type": "Polygon", "coordinates": [[[0.07, 46.49], [-0.04, 46.25], [-0.3, 46.01], [-0.63, 47.32], [-0.97, 47.14], [-1.27, 47.06], [-1.66, 47.15], [-1.86, 47.21], [-2.08, 47.32], [-2.6, 47.55], [-3.81, 47.64], [-4.42, 47.96], [-4.67, 48.14], [-5.14, 48.41], [-4.79, 48.54], [-4.2, 48.38], [-3.67, 48.4], [-3.3, 48.56], [-3.01, 48.78], [-2.52, 49.58], [-2.02, 49.41], [-1.9, 49.23], [-1.56, 49.07], [-1.05, 48.7], [-0.53, 48.63], [-0.17, 48.6], [0.14, 48.46], [0.07, 46.49]]]}}, {"type": "Feature", "properties": {"nom": "Pays de la Loire", "groupe": 5}, "geometry": {"type": "Polygon", "coordinates": [[[0.07, 46.49], [0.48, 46.77], [0.76, 47.07], [1.06, 47.29], [1.37, 47.6], [1.76, 47.88], [2.02, 47.97], [2.42, 48.21], [2.85, 47.91], [3.11, 48.05], [3.43, 48.24], [3.7, 48.12], [4.12, 47.95], [4.46, 47.79], [4.83, 47.62], [5.22, 47.46], [4.87, 46.34], [4.52, 46.38], [4.18, 46.27], [3.87, 46.36], [3.49, 46.06], [3.11, 45.79], [2.78, 45.58], [2.41, 45.43], [2.06, 45.04], [1.42, 45.76], [1.0, 45.7], [0.54, 45.71], [0.13, 45.82], [-0.3, 46.01], [-0.04, 46.25], [0.07, 46.49]]]}}, {"type": "Feature", "properties": {"nom": "Nouvelle-Aquitaine", "groupe": 3}, "geometry": {"type": "Polygon", "coordinates": [[[-0.3, 46.01], [-0.63, 47.32], [-0.97, 47.14], [-1.27, 47.06], [-1.66, 47.15], [-1.86, 47.21], [-2.08, 47.32], [-2.6, 47.55], [-1.79, 44.95], [-1.55, 44.41], [-1.14, 43.83], [-0.67, 43.33], [0.26, 43.33], [0.87, 43.08], [1.3, 43.04], [1.42, 43.32], [1.24, 43.89], [0.86, 44.49], [0.54, 45.71], [0.13, 45.82], [-0.3, 46.01]]]}}, {"type": "Feature", "properties": {"nom": "Occitanie", "groupe": 6}, "geometry": {"type": "Polygon", "coordinates": [[[0.26, 43.33], [0.87, 43.08], [1.3, 43.04], [1.42, 43.32], [1.76, 43.46], [2.13, 43.26], [2.57, 43.17], [3.08, 43.16], [3.56, 43.39], [3.96, 43.48], [4.63, 43.5], [4.97, 43.6], [5.51, 43.51], [5.52, 43.99], [5.06, 43.96], [4.87, 43.76], [4.51, 43.77], [4.01, 43.89], [3.52, 44.05], [3.1, 44.11], [2.59, 44.54], [2.19, 44.73], [2.06, 45.04], [1.42, 45.76], [1.0, 45.7], [0.54, 45.71], [0.86, 44.49], [1.24, 43.89], [1.42, 43.32], [1.3, 43.04], [0.87, 43.08], [0.26, 43.33]]]}}, {"type": "Feature", "properties": {"nom": "Provence-Alpes-C\u00f4te d'Azur", "groupe": 6}, "geometry": {"type": "Polygon", "coordinates": [[[4.63, 43.5], [4.97, 43.6], [5.51, 43.51], [5.97, 43.87], [6.07, 44.06], [6.83, 44.13], [7.02, 44.38], [7.44, 43.78], [7.64, 43.65], [7.52, 43.45], [6.85, 43.12], [6.36, 43.0], [5.99, 43.02], [5.51, 43.51], [4.97, 43.6], [4.63, 43.5]]]}}, {"type": "Feature", "properties": {"nom": "Corse", "groupe": 6}, "geometry": {"type": "Polygon", "coordinates": [[[8.55, 41.35], [9.56, 41.39], [9.53, 41.87], [9.23, 42.08], [9.45, 42.44], [9.36, 42.88], [8.97, 43.01], [8.79, 42.54], [8.55, 42.04], [8.55, 41.35]]]}}]};
+
+var map=L.map("map").setView([46.6,2.5],6);
+L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",{
+  attribution:"&copy; OpenStreetMap &copy; CARTO",subdomains:"abcd",maxZoom:19
 }).addTo(map);
 
-function styleFor(groupe){
-  return {
-    fillColor: groupe ? groupe.couleur : '#888',
-    fillOpacity: 0.50,
-    color: '#fff',
-    weight: 2.5,
-    opacity: 1
-  };
+function sty(f){
+  var g=G[f.properties.groupe];
+  return{fillColor:g?g.c:"#888",fillOpacity:.50,color:"#fff",weight:2.5,opacity:1};
+}
+function popup(nom,groupe,latlng){
+  var g=G[groupe];
+  var ok=g&&g.u&&g.u.indexOf("LIEN_")!==0;
+  var btn=ok
+    ? "<a class=\"plink\" href=\""+g.u+"\" style=\"background:"+g.c+"\">Acceder a l'espace &rarr;</a>"
+    : "<p class=\"pnl\">Lien a configurer dans le code</p>";
+  L.popup({maxWidth:300}).setLatLng(latlng)
+    .setContent("<div class=\"pi\"><h4>"+nom+"</h4>"
+      +"<span class=\"pbadge\" style=\"background:"+(g?g.c:"#888")+"\">"+(g?g.l:"")+"</span>"
+      +btn+"</div>").openOn(map);
 }
 
-L.geoJSON(regionsGeoJSON,{
-  style: function(feature){
-    return styleFor(GROUPES[feature.properties.groupe]);
-  },
-  onEachFeature: function(feature, layer){
-    var g = GROUPES[feature.properties.groupe];
-    var nom = feature.properties.nom;
-    layer.bindTooltip(nom,{className:'region-tooltip',sticky:true,direction:'top'});
-    layer.on('mouseover',function(){
-      layer.setStyle({fillOpacity:0.80,weight:3.5});
-      layer.bringToFront();
-    });
-    layer.on('mouseout',function(){
-      layer.setStyle({fillOpacity:0.50,weight:2.5});
-    });
-    layer.on('click',function(e){
-      var hasLink = g && g.lien && g.lien.indexOf('LIEN_') !== 0;
-      var linkHtml = hasLink
-        ? '<a class="popup-link" href="'+g.lien+'" style="background:'+g.couleur+'">Accéder à l\'espace &rarr;</a>'
-        : '<p class="popup-no-link">Lien à configurer dans le code</p>';
-      L.popup({maxWidth:300})
-        .setLatLng(e.latlng)
-        .setContent('<div class="popup-inner"><h4>'+nom+'</h4><span class="popup-badge" style="background:'+(g?g.couleur:'#888')+'">'+(g?g.label:'')+'</span>'+linkHtml+'</div>')
-        .openOn(map);
-    });
+L.geoJSON(GJ,{
+  style:sty,
+  onEachFeature:function(f,l){
+    var nom=f.properties.nom,gr=f.properties.groupe;
+    l.bindTooltip(nom,{className:"rtt",sticky:true,direction:"top"});
+    l.on("mouseover",function(){l.setStyle({fillOpacity:.78,weight:3.5});l.bringToFront();});
+    l.on("mouseout", function(){l.setStyle({fillOpacity:.50,weight:2.5});});
+    l.on("click",   function(e){popup(nom,gr,e.latlng);});
   }
 }).addTo(map);
 
-// DROM markers
-var droms = [
-  {nom:"Guadeloupe", lat:16.26, lng:-61.55},
-  {nom:"Martinique", lat:14.64, lng:-61.02},
-  {nom:"Guyane",     lat: 3.94, lng:-53.13},
-  {nom:"La Réunion", lat:-21.11,lng: 55.53},
-  {nom:"Mayotte",    lat:-12.84,lng: 45.15}
+var droms=[
+  {n:"Guadeloupe",a:16.26,o:-61.55,k:"b1"},
+  {n:"Martinique", a:14.64,o:-61.02,k:"b2"},
+  {n:"Guyane",     a: 3.94,o:-53.13,k:"b3"},
+  {n:"La Reunion", a:-21.11,o:55.53, k:"b4"},
+  {n:"Mayotte",    a:-12.84,o:45.15, k:"b5"}
 ];
-var g7 = GROUPES[7];
+var zooms={b0:[46.6,2.5,6],b1:[16.26,-61.55,9],b2:[14.64,-61.02,10],
+           b3:[3.94,-53.13,7],b4:[-21.11,55.53,10],b5:[-12.84,45.15,11]};
+
 droms.forEach(function(d){
-  var icon = L.divIcon({
-    html:'<div style="background:'+g7.couleur+';width:18px;height:18px;border-radius:50%;border:3px solid #fff;box-shadow:0 2px 6px rgba(0,0,0,.35)"></div>',
-    className:'',iconSize:[18,18],iconAnchor:[9,9]
+  var ic=L.divIcon({
+    html:"<div style=\"background:#2a9a7a;width:18px;height:18px;border-radius:50%;border:3px solid #fff;box-shadow:0 2px 6px rgba(0,0,0,.35)\"></div>",
+    className:"",iconSize:[18,18],iconAnchor:[9,9]
   });
-  var marker = L.marker([d.lat,d.lng],{icon:icon})
-    .bindTooltip(d.nom,{className:'region-tooltip',direction:'top'})
+  L.marker([d.a,d.o],{icon:ic})
+    .bindTooltip(d.n,{className:"rtt",direction:"top"})
+    .on("click",function(e){popup(d.n,7,e.latlng);})
     .addTo(map);
-  marker.on('click',function(e){
-    var hasLink = g7.lien && g7.lien.indexOf('LIEN_') !== 0;
-    var linkHtml = hasLink
-      ? '<a class="popup-link" href="'+g7.lien+'" style="background:'+g7.couleur+'">Accéder à l\'espace &rarr;</a>'
-      : '<p class="popup-no-link">Lien à configurer dans le code</p>';
-    L.popup({maxWidth:280})
-      .setLatLng(e.latlng)
-      .setContent('<div class="popup-inner"><h4>'+d.nom+'</h4><span class="popup-badge" style="background:'+g7.couleur+'">DROM</span>'+linkHtml+'</div>')
-      .openOn(map);
-  });
 });
 
-// Légende
-var legendeList = document.getElementById('legendeList');
-Object.keys(GROUPES).forEach(function(id){
-  var g = GROUPES[id];
-  var hasLink = g.lien && g.lien.indexOf('LIEN_') !== 0;
-  var item = document.createElement('a');
-  item.className = 'legende-item';
-  item.href = hasLink ? g.lien : '#';
-  if(!hasLink){ item.onclick = function(e){e.preventDefault();}; }
-  item.innerHTML = '<span class="dot" style="background:'+g.couleur+'"></span>'
-    +'<span class="legende-name">'+g.label+'</span>'
-    +'<span class="legende-arrow">'+(hasLink?'&rarr;':'&#x270e;')+'</span>';
-  legendeList.appendChild(item);
+["b0","b1","b2","b3","b4","b5"].forEach(function(id){
+  var el=document.getElementById(id);
+  if(el){ el.addEventListener("click",function(){
+    var z=zooms[id];map.setView([z[0],z[1]],z[2]);
+  });}
 });
 
-// Zoom navigation
-function zoomVers(zone){
-  var coords = {
-    metropole: [46.6,  2.5,   6],
-    guadeloupe:[16.26,-61.55, 9],
-    martinique:[14.64,-61.02,10],
-    guyane:    [ 3.94,-53.13, 7],
-    reunion:   [-21.11,55.53,10],
-    mayotte:   [-12.84,45.15,11]
-  };
-  var c = coords[zone];
-  if(c){ map.setView([c[0],c[1]],c[2]); }
-}
+var ll=document.getElementById("llist");
+[1,2,3,4,5,6,7].forEach(function(id){
+  var g=G[id];
+  var ok=g.u&&g.u.indexOf("LIEN_")!==0;
+  var a=document.createElement("a");
+  a.className="litem";
+  a.href=ok?g.u:"#";
+  if(!ok){a.addEventListener("click",function(e){e.preventDefault();});}
+  a.innerHTML="<span class=\"ldot\" style=\"background:"+g.c+"\"></span>"
+    +"<span class=\"lname\">"+g.l+"</span>"
+    +"<span class=\"larr\">"+(ok?"&rarr;":"&#x270e;")+"</span>";
+  ll.appendChild(a);
+});
 
-document.getElementById('togglePanel').onclick = function(){
-  document.getElementById('panel').classList.toggle('open');
-};
-<\/script>
+document.getElementById("toggle").addEventListener("click",function(){
+  document.getElementById("panel").classList.toggle("open");
+});
+</script>
 </body>
 </html>
