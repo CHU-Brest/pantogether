@@ -216,6 +216,14 @@ const events = [
     lien: ""
   },
   {
+    date: "2027-03-11",
+    displayDate: "11-14 Mars 2027",
+    ville: "Paris",
+    titre: "Journées Francophones d'Hépato-Gastroentérologie et d'Oncologie Digestive",
+    image: "/assets/JFHOD2027.png",
+    lien: "https://www.jfhod.com/sites/www.jfhod.com/files/2026-07/JFHOD2027_Programme%20pre%CC%81liminaire.pdf"
+  },
+  {
     date: "2026-06-17",
     displayDate: "27 Juin 2026",
     ville: "Paris",
