@@ -125,13 +125,13 @@ var G = {
 };
 
 var GROUPES = {
-  1:{label:"Auvergne-Rhone-Alpes",                         couleur:"#2D6A9F"},
+  1:{label:"Auvergne-Rhone-Alpes",                         couleur:"#628AF5"},
   2:{label:"Bourgogne-FC et Grand Est",                    couleur:"#3a8c6e"},
   3:{label:"Centre-Val de Loire",         couleur:"#c5792a"},
   4:{label:"Ile-de-France",                                couleur:"#9b3a7a"},
   5:{label:"Hauts-de-France / Normandie / PDL", couleur:"#4a7ab5"},
   6:{label:"PACA / Corse ",                     couleur:"#c94040"},
-  7:{label:"Occitanie",                                         couleur:"#2a9a7a"}
+  7:{label:"Occitanie",                                         couleur:"#A1E8B3"}
 };
 
 // ================================================================
@@ -198,7 +198,7 @@ fetch(GEOJSON_URL)
           var hasLink = lien && lien.indexOf("LIEN_") !== 0;
           var btnHtml = hasLink
             ? '<a class="plink" href="' + lien + '" style="background:' + couleur + '">Acceder a l\'espace &rarr;</a>'
-            : '<p class="pnl">Lien a configurer dans le code</p>';
+            : '<p class="pnl"></p>';
           L.popup({maxWidth:300})
             .setLatLng(e.latlng)
             .setContent(
@@ -243,7 +243,7 @@ droms.forEach(function(d) {
       var hasLink = lien.indexOf("LIEN_") !== 0;
       var btnHtml = hasLink
         ? '<a class="plink" href="' + lien + '" style="background:#2a9a7a">Acceder a l\'espace &rarr;</a>'
-        : '<p class="pnl">Lien a configurer dans le code</p>';
+        : '<p class="pnl"></p>';
       L.popup({maxWidth:280})
         .setLatLng(e.latlng)
         .setContent(
