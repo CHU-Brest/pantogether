@@ -42,6 +42,7 @@ extra:
 
 theme:
   name: material
+  custom_dir: docs/overrides
   logo: assets/pantogether.png
   favicon: assets/pantogether.png
   palette:
