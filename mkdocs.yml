@@ -17,12 +17,10 @@ nav:
     - Carte intéractive des RCP: rcp/rcpfvb.html
     - Liste RCP Oesophage, Estomac, Jonction oesogastrique: rcp/oes.html
     - Liste RCP Foie et voies biliaires: rcp/fvb2.html
-  - Recherche: 
-    - recherche/rechercheclinique.html
   - Ressources: 
     - ressources/recommandations.md
     - ressources/documentation.md
-    - ressources/repertoireec.html
+    - Répertoire des essais cliniques : ressources/repertoireec.html
   - Agenda:
     - agenda/évènements.md
     - agenda/webinaires.md
