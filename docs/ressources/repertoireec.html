@@ -198,7 +198,7 @@ fetch(GEOJSON_URL)
           var lien    = getLien(nom);
           var hasLink = lien && lien.indexOf("LIEN_") !== 0;
           var btnHtml = hasLink
-            ? '<a class="plink" href="' + lien + '" style="background:' + couleur + '">Acceder a l\'annuaire &rarr;</a>'
+            ? '<a class="plink" href="' + lien + '" style="background:' + couleur + '">Accéder à l\'annuaire &rarr;</a>'
             : '<p class="pnl"></p>';
           L.popup({maxWidth:300})
             .setLatLng(e.latlng)
@@ -217,7 +217,7 @@ fetch(GEOJSON_URL)
     document.getElementById("loading").style.display = "none";
   })
   .catch(function(err) {
-    document.getElementById("loading").innerHTML = "Erreur de chargement. Verifiez votre connexion.";
+    document.getElementById("loading").innerHTML = "Erreur de chargement. Vérifiez votre connexion.";
     console.error(err);
   });
 
@@ -243,7 +243,7 @@ droms.forEach(function(d) {
       var lien    = "LIEN_DROM";
       var hasLink = lien.indexOf("LIEN_") !== 0;
       var btnHtml = hasLink
-        ? '<a class="plink" href="' + lien + '" style="background:#2a9a7a">Acceder a l\'annuaire &rarr;</a>'
+        ? '<a class="plink" href="' + lien + '" style="background:#2a9a7a">Accéder à l\'annuaire &rarr;</a>'
         : '<p class="pnl"></p>';
       L.popup({maxWidth:280})
         .setLatLng(e.latlng)
