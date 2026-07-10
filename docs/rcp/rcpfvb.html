@@ -924,7 +924,8 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { attribution:
 
 const icons = {
   oeso: L.icon({ iconUrl: "https://maps.google.com/mapfiles/ms/icons/green-dot.png", iconSize: [32,32], iconAnchor: [16,32] }),
-  foie: L.icon({ iconUrl: "https://maps.google.com/mapfiles/ms/icons/blue-dot.png", iconSize: [32,32], iconAnchor: [16,32] })
+  foie: L.icon({ iconUrl: "https://maps.google.com/mapfiles/ms/icons/blue-dot.png", iconSize: [32,32], iconAnchor: [16,32] }),
+  pancreas: L.icon({ iconUrl: "https://maps.google.com/mapfiles/ms/icons/orange-dot.png", iconSize: [32,32], iconAnchor: [16,32] })
 };
 
 const markerGroup = L.markerClusterGroup({
@@ -940,6 +941,7 @@ const markerGroup = L.markerClusterGroup({
     if (axes.size === 1) {
       if (axes.has('oeso')) color = '#27ae60';
       else if (axes.has('foie')) color = '#2980b9';
+      else if (axes.has('pancreas')) color = '#F17F0E';
     }
     return L.divIcon({
       html: '<div style="background:' + color + ';color:white;border-radius:50%;width:36px;height:36px;display:flex;align-items:center;justify-content:center;font-weight:bold;font-size:14px;border:2px solid white;box-shadow:0 2px 5px rgba(0,0,0,.35)">' + cluster.getChildCount() + '</div>',
@@ -961,8 +963,8 @@ markerGroup.on('clusterclick', function(e) {
 
 // ===================== POPUP =====================
 function buildPopup(c) {
-  const couleur = c.axe === 'oeso' ? '#27ae60' : '#2980b9';
-  const label = c.axe === 'oeso' ? 'Oeso-gastrique' : 'Foie & voies biliaires';
+  const couleur = c.axe === 'oeso' ? '#27ae60' : '#2980b9' : '#F17F0E';
+  const label = c.axe === 'oeso' ? 'Oeso-gastrique' : 'Foie & voies biliaires' : 'Pancréas';
 
   const cards = c.rcps.map(function(r) {
     let contactHtml = '';
