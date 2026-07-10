@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
 <meta charset="UTF-8">
-<title>Carte RCP – Centres oeso-gastriques & foie et voies biliaires</title>
+<title>Carte RCP – Centres oeso-gastriques, foie et voies biliaires & pancréas</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.css" />
@@ -42,8 +42,10 @@ hr { border: none; border-top: 1px solid #eee; margin: 10px 0; }
 }
 .axe-btn.oeso  { background: #e8f8f0; border-color: #27ae60; color: #27ae60; }
 .axe-btn.foie  { background: #eaf3fb; border-color: #2980b9; color: #2980b9; }
+.axe-btn.pancreas  { background: #F28C28; border-color: #F17F0E; color: #F17F0E; }
 .axe-btn.active.oeso { background: #27ae60; color: white; }
 .axe-btn.active.foie { background: #2980b9; color: white; }
+.axe-btn.active.pancreas { background: #F17F0E; color: white; }
 select {
   width: 100%; padding: 7px; border: 1px solid #ddd;
   border-radius: 6px; font-size: 13px; margin-bottom: 10px;
@@ -114,6 +116,7 @@ select {
   <div class="axe-filter" style="margin-top:6px">
     <div class="axe-btn oeso active" data-axe="oeso">🟢 Oeso-gastrique</div>
     <div class="axe-btn foie active" data-axe="foie">🔵 Foie et voies biliaires</div>
+    <div class="axe-btn foie active" data-axe="pancreas">🔵 Pancréas</div>
   </div>
   <b style="font-size:13px">Région :</b>
   <select id="regionFilter" style="margin-top:4px">
@@ -125,6 +128,7 @@ select {
   <div class="legende">
     <div class="legende-item"><div class="legende-dot" style="background:#27ae60"></div> Centre oeso-gastrique</div>
     <div class="legende-item"><div class="legende-dot" style="background:#2980b9"></div> Centre foie & voies biliaires</div>
+    <div class="legende-item"><div class="legende-dot" style="background:#F17F0E"></div> Pancréas</div>
     <div class="legende-item"><div class="legende-dot" style="background:#7f8c8d"></div> Cluster mixte</div>
   </div>
   <hr>
