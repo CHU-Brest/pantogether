@@ -116,7 +116,7 @@ select {
   <div class="axe-filter" style="margin-top:6px">
     <div class="axe-btn oeso active" data-axe="oeso">🟢 Oeso-gastrique</div>
     <div class="axe-btn foie active" data-axe="foie">🔵 Foie et voies biliaires</div>
-    <div class="axe-btn foie active" data-axe="pancreas">🔵 Pancréas</div>
+    <div class="axe-btn pancreas active" data-axe="pancreas">🔵 Pancréas</div>
   </div>
   <b style="font-size:13px">Région :</b>
   <select id="regionFilter" style="margin-top:4px">
@@ -963,8 +963,8 @@ markerGroup.on('clusterclick', function(e) {
 
 // ===================== POPUP =====================
 function buildPopup(c) {
-  const couleur = c.axe === 'oeso' ? '#27ae60' : '#2980b9' : '#F17F0E';
-  const label = c.axe === 'oeso' ? 'Oeso-gastrique' : 'Foie & voies biliaires' : 'Pancréas';
+ const couleur = c.axe === 'oeso' ? '#27ae60' : (c.axe === 'foie' ? '#2980b9' : '#F17F0E');
+const label = c.axe === 'oeso' ? 'Oeso-gastrique' : (c.axe === 'foie' ? 'Foie & voies biliaires' : 'Pancréas');
 
   const cards = c.rcps.map(function(r) {
     let contactHtml = '';
@@ -1007,7 +1007,7 @@ function buildPopup(c) {
 }
 
 // ===================== FILTRES =====================
-let activeAxes = new Set(['oeso', 'foie']);
+let activeAxes = new Set(['oeso', 'foie', 'pancreas']);
 let activeRegion = '';
 
 const regionSelect = document.getElementById('regionFilter');
@@ -1036,7 +1036,7 @@ function afficher() {
 
     const item = document.createElement('div');
     item.className = 'centre-item';
-    const couleur = c.axe === 'oeso' ? '#27ae60' : '#2980b9';
+    const couleur = c.axe === 'oeso' ? '#27ae60' : (c.axe === 'foie' ? '#2980b9' : '#F17F0E');
     item.innerHTML = '<span class="axe-dot" style="background:' + couleur + '"></span><b>' + c.nom + '</b><br><small>' + c.ville + '</small>';
     item.onclick = () => { map.setView([c.lat, c.lng], 9); marker.openPopup(); };
     liste.appendChild(item);
