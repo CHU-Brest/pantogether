@@ -11,7 +11,8 @@ cd /d "%~dp0"
 REM --- Chemin vers python.exe ---------------------------------
 REM Par defaut : l'environnement virtuel du projet (cree par "uv sync").
 REM Pour utiliser un autre Python, decommentez / adaptez la ligne suivante :
-REM   set "PYTHON=C:\python\python.exe"
+
+set "PYTHON=C:\pantogether\Python312\python.exe"
 if not defined PYTHON set "PYTHON=.venv\Scripts\python.exe"
 
 if not exist "%PYTHON%" (
