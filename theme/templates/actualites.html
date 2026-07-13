@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block title %}{{ page.title }} — PAN·TOGETHER{% endblock %}
+
+{% block content %}
+<div class="wrap">
+  <div class="page-head list-head">
+    <span class="kicker">Actualités &amp; agenda</span>
+    <h1>{{ page.title }}</h1>
+    {% if page.content %}<div class="page-lead">{{ page.content|safe }}</div>{% else %}
+    <p class="page-lead">Retrouvez les actualités, communiqués et temps forts du réseau PAN-TOGETHER.</p>{% endif %}
+  </div>
+
+  <div class="news-grid" style="margin-top:10px">
+    {% for article in articles %}
+    <a class="news-card" href="{{ SITEURL }}/{{ article.url }}">
+      <div class="ph">[ visuel ]</div>
+      <div class="b">
+        <div class="date">{{ article.date|fr_date }}{% if article.category %} · {{ article.category }}{% endif %}</div>
+        <h4>{{ article.title }}</h4>
+      </div>
+    </a>
+    {% else %}
+    <p>Aucune actualité publiée pour le moment.</p>
+    {% endfor %}
+  </div>
+</div>
+{% endblock %}

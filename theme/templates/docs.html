@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% block title %}{{ page.title }} — PAN·TOGETHER{% endblock %}
+
+{% block content %}
+<main data-docs style="padding-top:40px">
+<div class="docs">
+
+  <!-- COLONNE GAUCHE : sous-sections -->
+  <aside class="docs-nav">
+    <div class="nav-title">{{ page.title }}</div>
+    <ul>
+      {{ (page.doc_nav_html or '')|safe }}
+    </ul>
+  </aside>
+
+  <!-- COLONNE CENTRALE : contenu -->
+  <div class="doc-main">
+    <nav class="breadcrumb">
+      <a href="{{ SITEURL }}/">Accueil</a>
+      <span class="sep">›</span>
+      <a href="{{ page.url and SITEURL ~ '/' ~ page.url or '#' }}">{{ page.title }}</a>
+      <span class="sep">›</span>
+      <span class="cur"></span>
+    </nav>
+
+    {{ (page.doc_panels_html or page.content)|safe }}
+  </div>
+
+  <!-- COLONNE DROITE : ancres -->
+  <nav class="doc-toc">
+    <div class="toc-title">Sur cette page</div>
+    <ul></ul>
+  </nav>
+
+</div>
+</main>
+{% endblock %}

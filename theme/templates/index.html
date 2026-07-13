@@ -1,0 +1,82 @@
+{% extends "base.html" %}
+{% block title %}PAN·TOGETHER — Réseau national de recherche clinique sur les cancers digestifs{% endblock %}
+
+{% block content %}
+<!-- ===================== HÉRO ===================== -->
+<div class="wrap"><section class="hero">
+  <div>
+    <span class="kicker">Réseau national de recherche clinique</span>
+    <h1>Unir l'expertise française contre les cancers digestifs de mauvais pronostic</h1>
+    <p class="lead">PAN-TOGETHER fédère les centres experts de métropole et d'Outre-mer pour améliorer la prise en charge, la recherche et l'équité d'accès aux soins.</p>
+    <div class="cta">
+      <a class="btn btn-p" href="{{ SITEURL }}/centres-experts/">Trouver un centre près de chez moi</a>
+      <a class="btn btn-s" href="{{ SITEURL }}/le-reseau/">Découvrir le réseau</a>
+    </div>
+  </div>
+  <div class="hero-panel">
+    <div class="logo"><img src="{{ SITEURL }}/theme/assets/logo-transparent.png" alt="PAN-TOGETHER" /></div>
+    <div class="badge"><b>Stratégie décennale 2021-2030</b>Soutenu par l'INCa · réseau européen JaNE</div>
+  </div>
+</section></div>
+
+<!-- ===================== CHIFFRES CLÉS ===================== -->
+<div class="statbar"><div class="wrap">
+  <div class="stat"><div class="n"><em>52</em></div><div class="l">centres experts en réseau</div></div>
+  <div class="stat"><div class="n">3</div><div class="l">axes d'expertise digestive</div></div>
+  <div class="stat"><div class="n">13</div><div class="l">régions, métropole + Outre-mer</div></div>
+  <div class="stat"><div class="n">&lt;33%</div><div class="l">survie à 5 ans (définition INCa)</div></div>
+</div></div>
+
+<!-- ===================== AXES ===================== -->
+<section class="home-section"><div class="wrap">
+  <div class="shead"><span class="kicker">Nos axes d'expertise</span><h2>Trois localisations, une exigence commune</h2><p>Le réseau structure son action autour de trois cancers digestifs de pronostic défavorable.</p></div>
+  <div class="axes-home">
+    <a class="axis-card" href="{{ SITEURL }}/le-reseau/" style="--c:var(--brand)"><svg class="organ" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11.5 4.5c0 2.8.5 4.3 2.6 5.1"/><path d="M14.1 9.6C9.7 9.9 6.8 12.7 6.8 16.7c0 4.3 3.1 7.4 7.3 7.4 3.7 0 6.2-2.3 6.2-5.3 0-2.6-1.8-4.1-4.4-4.5"/><path d="M19 19.3c1.7.3 2.8 1.6 2.8 3.5"/></svg><h3>Œsophage &amp; jonction œso-gastrique</h3><p>Cancers de l'œsophage et de la jonction œso-gastrique.</p><span class="go">En savoir plus →</span></a>
+    <a class="axis-card" href="{{ SITEURL }}/le-reseau/" style="--c:var(--brand)"><svg class="organ" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3.8 10.6 22.5 9.1c3.3-.2 5 1.8 3.9 4.4-2.1 4.9-8.2 7.8-14 7.2-4.5-.5-7.7-4-8.6-9.1-.2-.9.1-1.1 1-1.2Z"/><path d="M11 9.7c-.3 3.4-1.4 6.6-3.4 9.4"/></svg><h3>Foie &amp; voies biliaires</h3><p>Carcinome hépatocellulaire, cholangiocarcinome, voies biliaires.</p><span class="go">En savoir plus →</span></a>
+    <a class="axis-card" href="{{ SITEURL }}/le-reseau/" style="--c:var(--brand)"><svg class="organ" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22.5 10.8c3.1-.2 5.3 1.8 5.3 4.8s-2.3 5-5.5 4.8c-2.4-.1-4.3-.7-6.8-1.4-3.6-1-7.3-1.3-10.8-.3"/><path d="M4.7 15.5c3.5-1 7.2-.7 10.8.3 2.5.7 4.4 1.3 6.8 1.4"/></svg><h3>Pancréas</h3><p>Adénocarcinome pancréatique et tumeurs rares du pancréas.</p><span class="go">En savoir plus →</span></a>
+  </div>
+</div></section>
+
+<!-- ===================== CARTE ===================== -->
+<section class="home-section alt"><div class="wrap"><div class="map-row">
+  <div>
+    <span class="kicker">Maillage territorial</span>
+    <h2 style="font-size:32px;font-weight:800;color:var(--ink);margin:14px 0 0;letter-spacing:-.015em">Un centre expert près de chez vous</h2>
+    <p style="color:var(--muted);font-size:16.5px;margin:14px 0 22px">Carte interactive filtrable par axe, incluant les territoires ultramarins. Annuaire par région et coordonnées des centres.</p>
+    <a class="btn btn-p" href="{{ SITEURL }}/centres-experts/">Ouvrir la carte des centres</a>
+  </div>
+  <div class="map-frame">[ Carte de France SVG · à venir ]</div>
+</div></div></section>
+
+<!-- ===================== ESPACES ===================== -->
+<section class="home-section"><div class="wrap">
+  <div class="spaces">
+    <a class="space pat" href="{{ SITEURL }}/patients/"><span class="tag">Patients &amp; proches</span><h3>Comprendre, être accompagné, participer</h3><p>Fiches par localisation, parcours de soins, essais cliniques et soins de support.</p><span class="go">Accéder à l'espace patients →</span></a>
+    <a class="space pro" href="{{ SITEURL }}/professionnels/"><span class="tag">Professionnels</span><h3>RCP de recours, référentiels &amp; formation</h3><p>Solliciter un avis d'expertise, accéder aux recommandations et aux outils harmonisés.</p><span class="go">Accéder à l'espace pro →</span></a>
+  </div>
+</div></section>
+
+<!-- ===================== ACTUALITÉS ===================== -->
+<section class="home-section alt"><div class="wrap">
+  <div class="shead"><span class="kicker">Actualités &amp; agenda</span><h2>La vie du réseau</h2></div>
+  <div class="news-grid">
+    {% for article in articles[:3] %}
+    <a class="news-card" href="{{ SITEURL }}/{{ article.url }}"><div class="ph">[ visuel ]</div><div class="b"><div class="date">{{ article.date|fr_date }}</div><h4>{{ article.title }}</h4></div></a>
+    {% else %}
+    <a class="news-card" href="{{ SITEURL }}/actualites/"><div class="ph">[ visuel ]</div><div class="b"><div class="date">À venir</div><h4>Les actualités du réseau seront publiées ici</h4></div></a>
+    {% endfor %}
+  </div>
+  <p style="margin-top:26px"><a class="btn btn-s" href="{{ SITEURL }}/actualites/">Toutes les actualités →</a></p>
+</div></section>
+
+<!-- ===================== PARTENAIRES ===================== -->
+<div class="wrap"><div class="partners-row">
+  <span class="kicker">Partenaires &amp; financement</span>
+  <div class="plogos">
+    <div class="plogo">INCa</div>
+    <div class="plogo">JaNE — réseau européen</div>
+    <div class="plogo">FEM-NET</div>
+    <div class="plogo">Stratégie décennale 2021-2030</div>
+  </div>
+</div></div>
+{% endblock %}

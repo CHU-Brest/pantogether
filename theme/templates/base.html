@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="{{ DEFAULT_LANG }}">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>{% block title %}{{ SITENAME }}{% endblock %}</title>
+{% block meta %}
+<meta name="description" content="{{ SITE_DESCRIPTION|default('Réseau national de recherche clinique dédié aux cancers digestifs de mauvais pronostic.') }}" />
+{% endblock %}
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="{{ SITEURL }}/theme/css/site.css" />
+<link rel="icon" type="image/png" href="{{ SITEURL }}/theme/assets/logo-transparent.png" />
+{% block head %}{% endblock %}
+</head>
+<body>
+
+{# --- clé de nav active --- #}
+{% set nav_active = namespace(key='') %}
+{% if article is defined %}{% set nav_active.key = 'actualites' %}
+{% elif page is defined and page %}{% set nav_active.key = page.slug %}{% endif %}
+{% set navitems = [
+  ('Le réseau', SITEURL ~ '/le-reseau/', 'le-reseau'),
+  ('Centres experts', SITEURL ~ '/centres-experts/', 'centres-experts'),
+  ('Patients', SITEURL ~ '/patients/', 'patients'),
+  ('Professionnels', SITEURL ~ '/professionnels/', 'professionnels'),
+  ('Recherche', SITEURL ~ '/recherche/', 'recherche'),
+  ('Actualités', SITEURL ~ '/actualites/', 'actualites')
+] %}
+
+<!-- ===================== BARRE UTILITAIRE ===================== -->
+<div class="util"><div class="wrap">
+  <div class="ul">
+    <a href="{{ SITEURL }}/le-reseau/">Le réseau</a>
+    <a href="{{ SITEURL }}/patients/">Espace patients</a>
+    <a href="{{ SITEURL }}/professionnels/">Espace professionnels</a>
+  </div>
+  <div class="ur">
+    <span class="pill">Labellisé INCa</span>
+    <a href="{{ SITEURL }}/contact/">Nous contacter ↗</a>
+  </div>
+</div></div>
+
+<!-- ===================== EN-TÊTE ===================== -->
+<header class="site-header"><div class="wrap">
+  <a class="brand" href="{{ SITEURL }}/">
+    <img src="{{ SITEURL }}/theme/assets/logo-transparent.png" alt="PAN-TOGETHER" />
+    <b>PAN<span>·</span>TOGETHER</b>
+  </a>
+  <nav class="main-nav">
+    {% for label, url, key in navitems %}
+    <a href="{{ url }}"{% if nav_active.key == key %} aria-current="page"{% endif %}>{{ label }}</a>
+    {% endfor %}
+  </nav>
+  <div class="header-actions">
+    <button class="theme-toggle" type="button" aria-label="Basculer le thème clair / sombre" title="Thème clair / sombre">
+      <svg class="ico-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4.2"/><path d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M19.1 4.9l-1.8 1.8M6.7 17.3l-1.8 1.8"/></svg>
+      <svg class="ico-moon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 14.5A8 8 0 0 1 9.5 4a7 7 0 1 0 10.5 10.5z"/></svg>
+    </button>
+    <button class="burger" type="button" aria-label="Ouvrir le menu">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+  </div>
+</div></header>
+
+{% block content %}{% endblock %}
+
+<!-- ===================== PIED DE PAGE ===================== -->
+<footer class="site-footer"><div class="wrap">
+  <div class="top">
+    <div>
+      <a class="brand f-brand" href="{{ SITEURL }}/" style="gap:13px">
+        <img src="{{ SITEURL }}/theme/assets/logo-transparent.png" alt="" style="width:40px;height:40px" />
+        <b>PAN·TOGETHER</b>
+      </a>
+      <p class="f-about">Réseau national de recherche clinique dédié aux cancers digestifs de mauvais pronostic.</p>
+    </div>
+    <div><h5>Le réseau</h5>
+      <a href="{{ SITEURL }}/le-reseau/">Qui sommes-nous</a>
+      <a href="{{ SITEURL }}/le-reseau/#gouvernance">Gouvernance</a>
+      <a href="{{ SITEURL }}/le-reseau/#partenaires-financement">Partenaires</a>
+      <a href="{{ SITEURL }}/recherche/">Recherche</a>
+    </div>
+    <div><h5>Ressources</h5>
+      <a href="{{ SITEURL }}/centres-experts/">Centres experts</a>
+      <a href="{{ SITEURL }}/patients/">Espace patients</a>
+      <a href="{{ SITEURL }}/professionnels/">Espace professionnels</a>
+      <a href="{{ SITEURL }}/actualites/">Actualités</a>
+    </div>
+    <div><h5>Contact</h5>
+      <a href="{{ SITEURL }}/contact/">Nous écrire</a>
+      <a href="{{ SITEURL }}/actualites/">Presse / médias</a>
+      {% for name, link in SOCIAL %}<a href="{{ link }}">{{ name }}</a>{% endfor %}
+    </div>
+  </div>
+  <div class="copy">
+    <span>© {{ NOW_YEAR|default('2026') }} PAN-TOGETHER · Réseau labellisé INCa</span>
+    <span>Mentions légales · Accessibilité · Données personnelles</span>
+  </div>
+</div></footer>
+
+<script src="{{ SITEURL }}/theme/js/site.js"></script>
+</body>
+</html>
