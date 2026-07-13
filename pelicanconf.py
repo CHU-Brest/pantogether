@@ -44,7 +44,7 @@ MARKDOWN = {
 # ------------------------------------------------------------------
 # Sources de contenu
 # ------------------------------------------------------------------
-PAGE_PATHS = ["pages"]
+PAGE_PATHS = ["pages", "extra"]
 ARTICLE_PATHS = ["actualites"]
 STATIC_PATHS = ["images"]
 

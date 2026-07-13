@@ -1,6 +1,7 @@
-
-# Mentions légales — pantogether.fr
-
+Title: Mentions légales
+Slug: mentions-legales
+Template: page
+Summary: Mentions légales du site pantogether.fr.
 
 ## 1. Éditeur du site
 
