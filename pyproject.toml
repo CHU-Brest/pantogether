@@ -4,5 +4,7 @@ version = "0.1.0"
 description = "Site PANTOGETHER (CHU Brest) généré avec Pelican"
 requires-python = ">=3.11"
 dependencies = [
+    "invoke>=3.0.3",
+    "livereload>=2.7.1",
     "pelican[markdown]>=4.12.0",
 ]

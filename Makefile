@@ -39,6 +39,7 @@ help:
 	@echo '   make serve [PORT=8000]              serve site at http://localhost:8000'
 	@echo '   make serve-global [SERVER=0.0.0.0]  serve (as root) to $(SERVER):80    '
 	@echo '   make devserver [PORT=8000]          serve and regenerate together      '
+	@echo '   make live                           serve + rechargement auto du navigateur'
 	@echo '   make devserver-global               regenerate and serve on 0.0.0.0    '
 	@echo '                                                                          '
 	@echo 'Set the DEBUG variable to 1 to enable debugging, e.g. make DEBUG=1 html   '
@@ -69,8 +70,11 @@ devserver:
 devserver-global:
 	$(PELICAN) -lr "$(INPUTDIR)" -o "$(OUTPUTDIR)" -s "$(CONFFILE)" $(PELICANOPTS) -b 0.0.0.0
 
+live:
+	$(PY) invoke livereload
+
 publish:
 	$(PELICAN) "$(INPUTDIR)" -o "$(OUTPUTDIR)" -s "$(PUBLISHCONF)" $(PELICANOPTS)
 
 
-.PHONY: sync html help clean regenerate serve serve-global devserver devserver-global publish
+.PHONY: sync html help clean regenerate serve serve-global devserver devserver-global live publish
