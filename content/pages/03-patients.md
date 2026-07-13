@@ -6,6 +6,7 @@ Summary: Comprendre les cancers digestifs, le parcours de soin, les essais clini
 # Comprendre les cancers digestifs
 
 *Fiches par localisation.*
+![Texte alternatif](/images/guideoes.png)
 
 # Le parcours de soin
 
