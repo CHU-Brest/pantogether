@@ -26,7 +26,7 @@ Le Site est hébergé par :
 - **Adresse** : 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107,
   États-Unis
 
-- **Site web** : [<u>github.com</u>](https://github.com)
+- **Site web** : [github.com](https://github.com)
 
 ## 3. Hébergement des données statistiques (Matomo)
 
@@ -37,7 +37,7 @@ mesurer la fréquentation et l'usage du Site.
   **Amazon Web Services (AWS)**, région **Francfort, Allemagne** (Union
   européenne).
 
-- **Durée de conservation des données** : ## 24 mois**, à l'iss
+- **Durée de conservation des données** : **24 mois**, à l'issue
   desquels les données sont automatiquement supprimées.
 
 - **Localisation des données** : les données sont conservées
@@ -91,12 +91,12 @@ Conformément au RGPD et à la loi « Informatique et Libertés », vous
 disposez d'un droit d'accès, de rectification, d'effacement, de
 limitation, d'opposition et de portabilité concernant vos données.
 
-Pour exercer ces droits, vous pouvez nous contacter à : \[e-mail de
-contact dédié RGPD/DPO\]
+Pour exercer ces droits, vous pouvez nous contacter à :
+*(adresse e-mail dédiée RGPD / DPO — à compléter)*.
 
 Vous disposez également du droit d'introduire une réclamation auprès de
 la **CNIL** (Commission Nationale de l'Informatique et des Libertés) :
-[<u>www.cnil.fr</u>](https://www.cnil.fr/).
+[www.cnil.fr](https://www.cnil.fr/).
 
 ## 7. Propriété intellectuelle
 
@@ -122,5 +122,5 @@ seront seuls compétents.
 
 ## 10. Contact
 
-Pour toute question relative aux présentes mentions légales : \[e-mail
-de contact\]
+Pour toute question relative aux présentes mentions légales :
+*(adresse e-mail de contact — à compléter)*.
