@@ -1,0 +1,8 @@
+[project]
+name = "pantogether"
+version = "0.1.0"
+description = "Site PANTOGETHER (CHU Brest) généré avec Pelican"
+requires-python = ">=3.11"
+dependencies = [
+    "pelican[markdown]>=4.12.0",
+]
