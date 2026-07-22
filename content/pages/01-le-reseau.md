@@ -6,7 +6,8 @@ Summary: Présentation, contexte, axes d'expertise, gouvernance et partenaires d
 # Présentation & missions
    
    
-**PAN-TOGETHER** est un réseau national d'excellence clinique de lutte contre les cancers digestifs de mauvais pronostic, **labellisé par l'INCa** en Juin 2025.   
+**PAN-TOGETHER** est un réseau national d'excellence clinique de lutte contre les cancers digestifs de mauvais pronostic, **labellisé par l'INCa**.   
+
 Il structure la prise en charge des cancers du pancréas, de l’œsophage,de l’estomac, du foie et des voies biliaires afin d’améliorer la qualité et l’équité des soins sur l’ensemble du territoire.   
     
 ## Les missions du réseau   
@@ -38,6 +39,9 @@ Développer des actions de formation, de partage d'expertise et de diffusion des
 
 *Lutter contre les cancers de mauvais pronostic, stratégie décennale de l'INCa 2021-2030.*
 
+L'Axe 3 de la Stratégie décennale de lutte contre les cancers 2021-2030 de l'INCa cible les pathologies dont la survie à 5 ans est inférieure à 33 %. Il vise à infléchir significativement leur taux de survie d'ici 2030 grâce à des parcours de soins raccourcis et une recherche accélérée.   
+Dans ce cadre, l'Institut a labellisé des réseaux d'excellence coordonnant les meilleurs experts nationaux : PAN-TOGETHER (digestif), le réseau RECAP (poumon), GLIOREC (système nerveux), et FEM-NET (gynécologique/sein).   
+   
 Les cancers digestifs de mauvais pronostic représentent chaque année **plusieurs dizaines de milliers de nouveaux cas en France** et restent parmi les cancers les plus difficiles à traiter.   
    
 - **Le cancer du pancréas**, à lui seul, touche désormais près de 16 000 personnes par an en France. En 2023, 8 323 hommes et 7 668 femmes ont été diagnostiqués. Le nombre de décès est estimé à environ 12 700 tous sexes confondus (INCa, 2024). C'est une maladie en forte progression, entre 2010 et 2023 son taux d’incidence a augmenté de 1,6% par an chez les hommes et de 2,1% chez les femmes (INCa, 2024).    
@@ -52,7 +56,9 @@ Ces cancers sont dits de mauvais pronostic car ils sont souvent **diagnostiqués
     
 
 # Les axes d'expertise
-Le réseau **PAN-TOGETHER** structure son expertise autour de trois grands axes de prise en charge oncologique, correspondant à des cancers digestifs à forte complexité thérapeutique et nécessitant une approche multidisciplinaire spécialisée : 
+Le réseau **PAN-TOGETHER** structure son expertise autour de trois grands axes de prise en charge oncologique.   
+
+Les axes portés par le réseau correspondent à des cancers digestifs à forte complexité thérapeutique et nécessitant une approche multidisciplinaire spécialisée : 
    
 - **Les cancers du pancréas**, pathologies particulièrement complexes sur le plan diagnostique et thérapeutique, nécessitant une évaluation précise de la résécabilité et une coordination étroite entre les différentes spécialités impliquées (chirurgie, oncologie médicale, gastro-entérologie, radiologie) ;   
 - **Les cancers de l'oesophage, de l'estomac et de la jonction oesogastrique**, dont la prise en charge repose souvent sur des stratégies combinant chirurgie, chimiothérapie et parfois radiothérapie, et qui bénéficient d'une discussion collégiale approfondie compte tenu de leur hétérogénéité anatomique et pronostique ;      
@@ -118,11 +124,12 @@ Chaque bureau opérationnel est chargé de :
 Les bureaux opérationnels se réunissent de manière trimestrielle et transmettent un rapport d'activité au Comité Scientifique.   
 
 # Partenaires & financement
+*Labellisation de réseaux d'excellence clinique de lutte contre les cancers de mauvais pronostic par l'INCA*   
 
 Le réseau **PAN-TOGETHER** a été labellisé et financé par **l’INCa** à l’été 2025 pour 3 ans dans le cadre de l’appel à projet pour la labellisation de réseaux d’excellence clinique de lutte contre les cancers de mauvais pronostic.   
    
 Il est soutenu par :   
-- 3 fédérations hospitalières : FHF, Unicancer et FHP     
+-	3 fédérations hospitalières : FHF, Unicancer et FHP     
 - 15 sociétés savantes :  ACHBT, AERIO, AFEF, AFIGHE, AFSOS, ANGH, ASFAR, FFCD, SFCD, SFCO, SFED, SFjRO, SFPO, SIAD, SNFGE   
 - Les instances professionnelles : CNP IPA, Présidents de CME de CHU et CHG   
 - Les groupes et réseaux de recherche : GERCOR, FRANCIM et le réseau FRAP   
