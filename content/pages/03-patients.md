@@ -70,8 +70,8 @@ Vous trouverez des **informations claires et fiables** sur :
 
 *Du dépistage au suivi post-cancer.*
 
-Le parcours de soins en oncologie regroupe l'ensemble des étapes qui structurent l'accompagnement du patient et de ses proches, du dépistage jusqu'au suivi après les traitements.   
-Après le diagnostic, une équipe pluridisciplinaire de professionnels de santé définit, avec le patient, la stratégie thérapeutique la plus adaptée, qui peut associer chirurgie, traitements médicamenteux, radiothérapie ou soins de support. Tout au long de ce parcours, le patient et ses proches bénéficient d'un accompagnement personnalisé visant à prendre en compte leurs besoins médicaux, psychologiques, sociaux et leur qualité de vie. À la fin des traitements, un suivi régulier est mis en place afin de surveiller l'évolution de la maladie, dépister une éventuelle récidive, prendre en charge les effets à long terme des traitements et favoriser le retour à une vie quotidienne dans les meilleures conditions possibles.    
+Le parcours de soins en oncologie regroupe l'ensemble des étapes qui structurent **l'accompagnement du patient et de ses proches**, du dépistage jusqu'au suivi après les traitements.   
+Après le diagnostic, une équipe pluridisciplinaire de professionnels de santé définit, avec le patient, **la stratégie thérapeutique la plus adaptée**, qui peut associer chirurgie, traitements médicamenteux, radiothérapie ou soins de support. Tout au long de ce parcours, le patient et ses proches bénéficient d'un accompagnement personnalisé visant à prendre en compte leurs besoins médicaux, psychologiques, sociaux et leur qualité de vie. À la fin des traitements, un suivi régulier est mis en place afin de surveiller l'évolution de la maladie, dépister une éventuelle récidive, prendre en charge les effets à long terme des traitements et favoriser le retour à une vie quotidienne dans les meilleures conditions possibles.    
    
 ## Les étapes clés de votre parcours de soins
 
@@ -115,7 +115,7 @@ Participer à un essai clinique peut permettre d’accéder à de nouvelles appr
    
 La **sécurité et la protection des participants sont la priorité absolue** de tout essai clinique, avant tout objectif de recherche scientifique. Ces études sont donc strictement encadrées par la loi et chaque protocole est évalué et autorisé par un comité éthique, garantissant le respect des droits, de la sécurité et du bien-être des patients.   
    
-La participation à un essai clinique est entièrement volontaire et repose sur votre **consentement libre et éclairé**, recueilli après une information complète et compréhensible. Vous êtes libre d’accepter ou de refuser de participer, et vous pouvez mettre fin à votre participation à tout moment, sans avoir à vous justifier et sans que cela n’affecte la qualité de votre prise en charge.
+La participation à un essai clinique est entièrement **volontaire** et repose sur votre **consentement libre et éclairé**, recueilli après une information complète et compréhensible. Vous êtes libre d’accepter ou de refuser de participer, et vous pouvez mettre fin à votre participation à tout moment, sans avoir à vous justifier et sans que cela n’affecte la qualité de votre prise en charge.
    
 
 
@@ -128,24 +128,42 @@ Les soins de support sont des soins et des soutiens mis en place pour aider les 
 Ces soins, définis par l’instruction DGOS/INCa du 23 février 2017, comprennent :   
    
 - **Quatre soins « socle »** :   
-  - la prise en charge de la douleur ;   
+
+    - la prise en charge de la douleur ;   
   - la prise en charge diététique et nutritionnelle ;   
   - la prise en charge psychologique ;
   - la prise en charge sociale, familiale et professionnelle ;   
    
 - **Cinq soins de support complémentaires** :   
-  - l’activité physique ;   
-  - la préservation de la fertilité ;   
-  - la prise en soins des troubles de la sexualité ;   
-  - les conseils d’hygiène de vie ;   
-  - le soutien psychologique des proches et des aidants.   
+    - l’activité physique ;   
+    - la préservation de la fertilité ;   
+    - la prise en soins des troubles de la sexualité ;   
+    - les conseils d’hygiène de vie ;   
+    - le soutien psychologique des proches et des aidants.   
    
 D’autres soins de support ou de services de prise en charge peuvent être proposés tels que des soins esthétiques et corporels, des approches non conventionnelles (hypnose, sophrologie, etc…), un service mobile de soins palliatifs.   
    
 Chacun de ces soins peut être **proposé à tout moment**, de l’annonce du diagnostic à la phase de rémission. Les besoins du patient doivent être rediscutés **tout au long du parcours de soins** avec les professionnels. Les soins de support peuvent être dispensés à l’hôpital ou dans des établissements de santé de ville.   
 
 # Devenir patient partenaire
+*Partager son expérience pour améliorer le parcours de soin*   
 
+## Qu'est-ce qu'un patient partenaire ?      
+Les patients partenaires mettent leur expérience de la maladie et du parcours de soins au service de l'amélioration de la prise en charge en cancérologie. En partageant leur vécu avec les équipes soignantes, ils contribuent à mieux prendre en compte les besoins et les attentes des patients dans l'organisation des soins, les projets de recherche, l'information des patients ou encore les actions de formation.   
+
+## Quels sont les prérequis ?    
+Devenir patient partenaire ne nécessite pas de compétences médicales particulières, mais repose sur l'envie de s'impliquer, de partager son expérience de manière constructive et de travailler en collaboration avec les professionnels de santé. Un recul suffisant par rapport à son parcours de soins, une capacité d'écoute et le respect de la confidentialité sont également essentiels.   
+
+## Quelles formations ?      
+Selon les établissements, un parcours d'intégration et de formation est proposé afin d'accompagner les futurs patients partenaires dans leur mission. Les modalités d'engagement peuvent varier, mais l'objectif reste le même : faire entendre la voix des patients et contribuer, aux côtés des soignants, à une prise en charge toujours plus humaine, personnalisée et adaptée aux besoins de chacun.   
+
+Les parcours de formation possibles :    
+
+- Les Diplômes Universitaire (DU/DIU) tels que le DU d'Education Thérapeutique du Patient (ETP) ou DU Partenariat Patients - Professionnels en santé   
+- Les formations par des associations agréées comme la [Ligue contre le cancer](https://www.ligue-cancer.net/devenir-patient-ressource) 
+   
+Si vous souhaitez devenir patient partenaire, rapprochez-vous de votre établissement de santé, d'une association de patients ou de l'équipe coordinatrice du réseau. Ils pourront vous informer sur les dispositifs existants, les formations proposées et les modalités pour vous engager.   
+   
 # Associations   
 *Les associations de patients : des partenaires engagés à vos côtés*   
 
@@ -172,3 +190,163 @@ Lieu :** Paris**
 
    
 # Lexique
+**Anatomopathologie**
+Spécialité médicale qui consiste à analyser les tissus ou cellules prélevés afin de confirmer un diagnostic et de mieux caractériser un cancer.
+
+**Anémie**
+Baisse du taux de globules rouges dans le sang, pouvant provoquer fatigue, essoufflement et pâleur. Fréquente après une chimiothérapie.
+
+**Antalgique**
+Médicament utilisé pour soulager la douleur.
+
+**Aplasie**
+Chute importante et temporaire des globules blancs, rouges et/ou plaquettes, souvent provoquée par la chimiothérapie, qui augmente le risque d'infection.
+
+**Asthénie**
+Terme médical pour désigner la fatigue, un des effets secondaires les plus fréquents des traitements.
+
+**Biopsie**
+Prélèvement d'un petit échantillon de tissu ou de cellules pour être analysé en laboratoire.
+
+**Bilan d'extension**
+Ensemble d'examens (scanner, IRM, TEP-scan…) réalisés pour savoir si le cancer s'est propagé à d'autres organes.
+
+**Cathéter**
+Petit tube souple inséré dans une veine pour administrer des traitements ou prélever du sang, souvent relié à une chambre implantable.
+
+**Chambre implantable (PAC ou « Port-a-Cath »)**
+Petit boîtier placé sous la peau, relié à une veine, qui permet d'injecter les traitements sans piquer à chaque séance.
+
+**Cancer**
+Maladie caractérisée par le développement de cellules anormales qui se multiplient de manière incontrôlée.
+
+**Chimiothérapie**
+Traitement médicamenteux qui détruit les cellules cancéreuses ou freine leur développement.
+
+**Consentement éclairé**
+Accord donné par le patient après avoir reçu une information claire et complète sur un traitement ou un essai clinique.
+
+**Consultation d'annonce**
+Rendez-vous, souvent avec un infirmier, dédié à l'explication du diagnostic et du programme de traitement, en complément de la consultation médicale.
+
+**Curiethérapie**
+Forme de radiothérapie où la source radioactive est placée directement à l'intérieur ou à proximité de la tumeur.
+
+**Cure**
+Une séance ou un cycle de traitement (par exemple, une cure de chimiothérapie), généralement répétée à intervalles réguliers.
+
+**Dépistage**
+Ensemble des examens permettant de détecter un cancer avant l'apparition de symptômes ou à un stade précoce.
+
+**Effets secondaires**
+Manifestations indésirables provoquées par un traitement (nausées, fatigue, chute de cheveux, etc.), généralement temporaires.
+
+**Essai clinique**
+Étude menée chez des patients afin d'évaluer de nouveaux traitements, de nouvelles stratégies thérapeutiques ou de nouvelles modalités de prise en charge.
+
+**Facteur de croissance**
+Médicament qui stimule la production de globules blancs, rouges ou de plaquettes après une chimiothérapie.
+
+**Ganglion (lymphatique)**
+Petit organe du système immunitaire, souvent examiné ou retiré car il peut être un lieu de propagation du cancer.
+
+**Hormonothérapie**
+Traitement qui agit sur certaines hormones afin de ralentir ou d'empêcher le développement de certains cancers.
+
+**Hospitalisation de jour (HDJ)**
+Séjour à l'hôpital de quelques heures, sans nuit sur place, pour recevoir un traitement ou passer des examens.
+
+**Immunothérapie**
+Traitement qui stimule les défenses naturelles de l'organisme pour l'aider à combattre les cellules cancéreuses.
+
+**Irradiation**
+Exposition d'une zone du corps à des rayons dans le cadre d'une radiothérapie.
+
+**IRM (Imagerie par Résonance Magnétique)**
+Examen d'imagerie utilisant un champ magnétique pour obtenir des images détaillées des organes, sans rayons X.
+
+**Leucopénie**
+Diminution du nombre de globules blancs dans le sang, augmentant le risque d'infection.
+
+**Lymphœdème**
+Gonflement d'un membre (souvent le bras ou la jambe) dû à une accumulation de lymphe, pouvant survenir après un curage ganglionnaire.
+
+**Marqueur tumoral**
+Substance présente dans le sang dont le taux peut être surveillé pour suivre l'évolution de certains cancers.
+
+**Métastase**
+Propagation de cellules cancéreuses vers un autre organe ou une autre partie du corps.
+
+**Néoadjuvant (traitement)**
+Traitement (chimiothérapie, hormonothérapie…) administré avant la chirurgie, pour réduire la taille de la tumeur.
+
+**Adjuvant (traitement)**
+Traitement administré après la chirurgie, pour réduire le risque de récidive.
+
+**Neuropathie**
+Atteinte des nerfs pouvant provoquer fourmillements, engourdissements ou douleurs, parfois causée par certaines chimiothérapies.
+
+**Neutropénie**
+Baisse du taux de neutrophiles (un type de globules blancs), augmentant le risque d'infection.
+
+**Oncogénétique**
+Consultation spécialisée qui étudie la part héréditaire éventuelle d'un cancer, notamment via des tests génétiques.
+
+**Oncologue**
+Médecin spécialisé dans le diagnostic et le traitement des cancers.
+
+**Palliatif (soin)**
+Prise en charge visant à soulager la douleur et améliorer la qualité de vie, à tout moment de la maladie, et pas seulement en fin de vie.
+
+**Parcours de soins**
+Ensemble des étapes de la prise en charge d'un patient, du diagnostic jusqu'au suivi après les traitements.
+
+**Patient partenaire**
+Patient ou ancien patient qui met son expérience au service de l'amélioration des soins, de la recherche ou de la formation des professionnels de santé.
+
+**PET-scan / TEP-scan**
+Examen d'imagerie (Tomographie par Émission de Positons) qui permet de repérer les cellules cancéreuses actives dans tout le corps.
+
+**Placebo**
+Substance ou traitement ne contenant pas de principe actif. Dans certains essais cliniques, il peut être utilisé lorsque cela est éthique et approprié, afin de comparer l'efficacité d'un nouveau traitement.
+
+**Programme Personnalisé de l'Après-Cancer (PPAC)**
+Document qui organise le suivi médical après la fin des traitements actifs et accompagne le retour à la vie quotidienne.
+
+**Programme Personnalisé de Soins (PPS)**
+Document remis au patient présentant les traitements proposés, leur calendrier et les principales étapes de la prise en charge.
+
+**Protocole**
+Programme de traitement précis (médicaments, doses, rythme des séances) défini pour un patient.
+
+**Radiothérapie**
+Traitement utilisant des rayonnements pour détruire les cellules cancéreuses d'une zone précise du corps tout en préservant au mieux les tissus sains.
+
+**Récidive**
+Réapparition d'un cancer après une période où il n'était plus détectable.
+
+**Réunion de Concertation Pluridisciplinaire (RCP)**
+Réunion au cours de laquelle plusieurs spécialistes étudient ensemble le dossier d'un patient afin de proposer la stratégie thérapeutique la plus adaptée.
+
+**Rémission**
+Diminution ou disparition des signes de la maladie. Une rémission ne signifie pas toujours que le cancer est définitivement guéri. On ne parle de « guérison » qu'après un certain nombre d'années sans récidive selon le cancer.
+
+**Scanner (tomodensitométrie, TDM)**
+Examen d'imagerie utilisant des rayons X pour obtenir des images en coupe du corps.
+
+**Soins de support**
+Ensemble des soins et accompagnements destinés à améliorer la qualité de vie des patients pendant et après les traitements (prise en charge de la douleur, nutrition, soutien psychologique, activité physique adaptée, accompagnement social, etc.).
+
+**Stadification / classification TNM**
+Système qui décrit la taille de la tumeur (T), l'atteinte des ganglions (N) et la présence de métastases (M), pour définir le stade du cancer.
+
+**Thérapie ciblée**
+Traitement qui agit spécifiquement sur certaines anomalies des cellules cancéreuses afin de limiter leur développement.
+
+**Thrombopénie**
+Diminution du nombre de plaquettes dans le sang, pouvant favoriser les saignements ou hématomes.
+
+**Tumeur bénigne / maligne**
+Une tumeur bénigne ne se propage pas ailleurs dans le corps ; une tumeur maligne (cancéreuse) peut envahir les tissus voisins ou métastaser.
+
+*Une question sur un terme non listé ici ? Parlez-en à votre équipe soignante, à l'infirmier(ère) de coordination, ou à un patient partenaire si votre établissement en propose.*

@@ -56,6 +56,8 @@ Ces cancers sont dits de mauvais pronostic car ils sont souvent **diagnostiqués
     
 
 # Les axes d'expertise
+*Trois grands axes d'expertise*   
+
 Le réseau **PAN-TOGETHER** structure son expertise autour de trois grands axes de prise en charge oncologique.   
 
 Les axes portés par le réseau correspondent à des cancers digestifs à forte complexité thérapeutique et nécessitant une approche multidisciplinaire spécialisée : 
@@ -67,7 +69,9 @@ Les axes portés par le réseau correspondent à des cancers digestifs à forte 
     
 
 # Organisation & gouvernance
-Le réseau s’organise autour d’un centre pilote, de trois centres experts référents et d'une cinquantaine de centres experts.
+*Un maillage territorial étendu*   
+
+Le réseau s’organise autour d’un centre pilote, de trois centres experts référents et d'une cinquantaine de centres experts répartis sur le territoire national, en métropole et dans les DROM.
 
 ## Le centre pilote et la coordination nationale
 Le réseau PAN-TOGETHER est porté par le **CHU de Brest**.   
@@ -85,7 +89,7 @@ Chaque axe du réseau est porté par un centre expert référent correspondant a
 -	**Axe Foie et Voies biliaires** : assuré par le **CHU Avicenne** (AP-HP), sous la responsabilité du Pr Nathalie Ganne-Carrié et du Pr Pierre Nahon.   
       
    
-Ces centres experts référents sont reconnus pour leur expertise dans l'organisation des parcours de soins, le déploiement et l'animation de réseaux régionaux dédiés. Ils assurent un rôle de structuration, de coordination et de leadership scientifique et médical dans leur thématique respective.   
+Ces centres experts référents sont reconnus pour leur expertise dans l'organisation des parcours de soins, le déploiement et l'animation de réseaux régionaux dédiés. Ils assurent un rôle de **structuration, de coordination et de leadership** scientifique et médical dans leur thématique respective.   
 Chaque centre référent pilote le projet à l’échelle nationale en s’appuyant sur des centres experts.
 
 ## Les centres experts   
@@ -102,6 +106,7 @@ Le Comité scientifique constitue l’instance stratégique du réseau.
 Il est composé des coordonnateurs du réseau, des centres experts référents et des centres experts ainsi que des représentants de fédérations hospitalières, de sociétés savantes et d'associations de patients.     
 
 Il se réunit une fois par an et a pour missions de :   
+
 - Définir les orientations scientifiques et stratégiques nationales   
 - Élaborer le programme pluriannuel des actions   
 - Valider les projets portés par le réseau   
@@ -114,6 +119,7 @@ Il se réunit une fois par an et a pour missions de :
 Chaque axe du réseau possède un bureau opérationnel composé des coordonnateurs du réseau et du centre expert référent, des représentants des spécialités médicales (chirurgie, oncologie, radiologie, médecine nucléaire, endoscopie, anatomopathologie/biologie moléculaire) et des représentants de patients.   
    
 Chaque bureau opérationnel est chargé de :   
+
 - La coordination des actions au niveau régional et national   
 - La gestion budgétaire et financière   
 - Le suivi des projets   
@@ -129,9 +135,10 @@ Les bureaux opérationnels se réunissent de manière trimestrielle et transmett
 Le réseau **PAN-TOGETHER** a été labellisé et financé par **l’INCa** à l’été 2025 pour 3 ans dans le cadre de l’appel à projet pour la labellisation de réseaux d’excellence clinique de lutte contre les cancers de mauvais pronostic.   
    
 Il est soutenu par :   
+
 -	3 fédérations hospitalières : FHF, Unicancer et FHP     
 - 15 sociétés savantes :  ACHBT, AERIO, AFEF, AFIGHE, AFSOS, ANGH, ASFAR, FFCD, SFCD, SFCO, SFED, SFjRO, SFPO, SIAD, SNFGE   
 - Les instances professionnelles : CNP IPA, Présidents de CME de CHU et CHG   
-- Les groupes et réseaux de recherche : GERCOR, FRANCIM et le réseau FRAP   
+- Les groupes et réseaux de recherche : GERCOR, FRANCIM, réseau FRAP   
 - Les associations et partenaires institutionnels : La ligue contre le cancer, ADIRESCA, la Direction du CHU de Brest   
 - Les associations de patients : ARCAD, ALBI, SOS hépatites, France Fer Hemochromatose, L'étendard des cancers digestifs
