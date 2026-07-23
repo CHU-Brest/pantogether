@@ -1,11 +1,11 @@
-Title: Appel à projets recherche : axe pancréas 2026
-Date: 2026-04-28 10:00
+Title: L'axe pancréas est lancé
+Date: 2026-07-09 10:00
 Category: Actualités
-Tags: recherche, pancréas, appel à projets
-Slug: appel-projets-pancreas-2026
-Author: CHU Brest
-Summary: Lancement de l'appel à projets de recherche 2026 dédié à l'adénocarcinome pancréatique et aux tumeurs rares du pancréas.
+Tags: recherche, pancréas, centres experts
+Slug: axe-pancreas-2026
+Author: PAN-TOGETHER
+Summary: Lancement de l'axe dédié aux cancers du pancréas du réseau PAN-TOGETHER.
 
-Le réseau lance son **appel à projets de recherche 2026** pour l'axe pancréas.
+Le réseau lance la structuration de l'axe pancréas.
 
-*(Article de démonstration — contenu à compléter.)*
+*La cartographie des centres experts des cancers du pancréas a débuté. Elle sera bientôt accessible.*
