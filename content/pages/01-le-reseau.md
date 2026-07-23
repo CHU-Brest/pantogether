@@ -39,8 +39,8 @@ Développer des actions de formation, de partage d'expertise et de diffusion des
 
 *Lutter contre les cancers de mauvais pronostic, stratégie décennale de l'INCa 2021-2030.*
 
-L'Axe 3 de la Stratégie décennale de lutte contre les cancers 2021-2030 de l'INCa cible les pathologies dont la survie à 5 ans est inférieure à 33 %. Il vise à infléchir significativement leur taux de survie d'ici 2030 grâce à des parcours de soins raccourcis et une recherche accélérée.   
-Dans ce cadre, l'Institut a labellisé des réseaux d'excellence coordonnant les meilleurs experts nationaux : PAN-TOGETHER (digestif), le réseau RECAP (poumon), GLIOREC (système nerveux), et FEM-NET (gynécologique/sein).   
+L'Axe 3 de la **Stratégie décennale de lutte contre les cancers 2021-2030 de l'INCa** cible les pathologies dont la survie à 5 ans est inférieure à 33 %. Il vise à infléchir significativement leur taux de survie d'ici 2030 grâce à des parcours de soins raccourcis et une recherche accélérée.   
+Dans ce cadre, l'Institut a labellisé des réseaux d'excellence coordonnant les meilleurs experts nationaux : **PAN-TOGETHER** (digestif), le réseau **RECAP** (poumon), **GLIOREC** (système nerveux), et [**FEM-NET**](https://fem-net.fr/) (gynécologique/sein).   
    
 Les cancers digestifs de mauvais pronostic représentent chaque année **plusieurs dizaines de milliers de nouveaux cas en France** et restent parmi les cancers les plus difficiles à traiter.   
    
@@ -71,22 +71,22 @@ Les axes portés par le réseau correspondent à des cancers digestifs à forte 
 # Organisation & gouvernance
 *Un maillage territorial étendu*   
 
-Le réseau s’organise autour d’un centre pilote, de trois centres experts référents et d'une cinquantaine de centres experts répartis sur le territoire national, en métropole et dans les DROM.
+Le réseau s’organise autour d’un centre pilote, de trois centres experts référents et d'une cinquantaine de centres experts répartis sur le territoire national, en métropole et dans les territoires ultramarins.
 
 ## Le centre pilote et la coordination nationale
 Le réseau PAN-TOGETHER est porté par le **CHU de Brest**.   
 
-La coordination nationale de l'ensemble des 3 axes du réseau est assurée par un binôme paritaire, le Pr Jean-Philippe Metges (CHU de Bres) et le Pr Nathalie Ganne-Carrié (CHU Avicenne). Ils assurent la **coordination stratégique et opérationnelle** du réseau. Ils veillent à son organisation, favorisent les échanges entre les partenaires, mobilisent les ressources et garantissent une vision globale des actions menées. Ce rôle central contribue à renforcer la cohérence, la performance et l'atteinte des objectifs du réseau.   
+La coordination nationale de l'ensemble des 3 axes du réseau est assurée par un binôme paritaire, le **Pr Jean-Philippe Metges (CHU de Brest)** et le **Pr Nathalie Ganne-Carrié (CHU Avicenne)**. Ils assurent la **coordination stratégique et opérationnelle** du réseau. Ils veillent à son organisation, favorisent les échanges entre les partenaires, mobilisent les ressources et garantissent une vision globale des actions menées. Ce rôle central contribue à renforcer la cohérence, la performance et l'atteinte des objectifs du réseau.   
 
 ## Les centres experts référents   
 
 Chaque axe du réseau est porté par un centre expert référent correspondant aux localisations anatomiques ciblées :       
 
--	**Axe Pancréas** : confié au **CHU Pitié-Salpêtrière** (AP-HP), coordonné par le Pr Jean-Baptiste Bachet;
+-	**Axe Pancréas** : confié au **CHU Pitié-Salpêtrière** (AP-HP), coordonné par le **Pr Jean-Baptiste Bachet**;
 
--	**Axe Œsophage, Estomac et Jonction Oeso-Gastrique** : porté par le **CHU de Brest**, sous la coordination du Pr Jean-Philippe Metges et du Dr Vincent Bourbonne;     
+-	**Axe Œsophage, Estomac et Jonction Oeso-Gastrique** : porté par le **CHU de Brest**, sous la coordination du **Pr Jean-Philippe Metges** et du **Dr Vincent Bourbonne**;     
    
--	**Axe Foie et Voies biliaires** : assuré par le **CHU Avicenne** (AP-HP), sous la responsabilité du Pr Nathalie Ganne-Carrié et du Pr Pierre Nahon.   
+-	**Axe Foie et Voies biliaires** : assuré par le **CHU Avicenne** (AP-HP), sous la responsabilité du **Pr Nathalie Ganne-Carrié** et du **Pr Pierre Nahon**.   
       
    
 Ces centres experts référents sont reconnus pour leur expertise dans l'organisation des parcours de soins, le déploiement et l'animation de réseaux régionaux dédiés. Ils assurent un rôle de **structuration, de coordination et de leadership** scientifique et médical dans leur thématique respective.   
