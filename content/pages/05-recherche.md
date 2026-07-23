@@ -13,4 +13,4 @@ Summary: Projets de recherche par axe, essais cliniques, publications, appels à
 
 # Appels à projets & à candidatures
 
-# Registres & biobanques (FRAP)
+# Registres & biobanques
