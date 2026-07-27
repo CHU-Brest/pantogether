@@ -134,7 +134,7 @@ Cela peut permettre d'évaluer :
 
 Le patient reçoit sa prise en charge habituelle. Le médecin recueille des données pour mieux comprendre la maladie, sans rien changer au traitement.   
    
-Ce que cela permet :   
+Ce que cela permet par exemple de :   
 
 - Suivre l'évolution naturelle d'un cancer dans le temps
 - Étudier des facteurs de risque ou des facteurs pronostiques
@@ -240,7 +240,7 @@ Lieu :** Paris**
 # Lexique
 
 **Adjuvant (traitement)**   
-Traitement administré après la chirurgie, pour réduire le risque de récidive.   
+Traitement qui complète un traitement principal afin de prévenir un risque de récidive.   
 
 **Anatomopathologie**    
 Spécialité médicale qui consiste à analyser les tissus ou cellules prélevés afin de confirmer un diagnostic et de mieux caractériser un cancer.
@@ -336,7 +336,7 @@ Substance présente dans le sang dont le taux peut être surveillé pour suivre 
 Propagation de cellules cancéreuses vers un autre organe ou une autre partie du corps.
 
 **Néoadjuvant (traitement)**   
-Traitement (chimiothérapie, hormonothérapie…) administré avant la chirurgie, pour réduire la taille de la tumeur.
+Traitement (chimiothérapie, hormonothérapie…) administré avant la chirurgie ou la radiothérapie, pour réduire la taille de la tumeur.
 
 **Neuropathie**   
 Atteinte des nerfs pouvant provoquer fourmillements, engourdissements ou douleurs, parfois causée par certaines chimiothérapies.

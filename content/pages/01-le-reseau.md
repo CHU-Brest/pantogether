@@ -50,7 +50,7 @@ Les cancers digestifs de mauvais pronostic représentent chaque année **plusieu
    
 - **Le cancer de l'estomac** concerne environ 6 500 nouveaux cas annuels et **le cancer de l'œsophage** environ 5 500 nouveaux cas, avec un âge médian au diagnostic autour de 68-71 ans.   
    
-Ces cancers sont dits de mauvais pronostic car ils sont souvent **diagnostiqués à un stade avancé** : le taux de survie nette à 5 ans est de 11 % pour le cancer du pancréas, et de 18 % pour l'œsophage et le foie.   
+Ces cancers sont dits de mauvais pronostic car ils sont souvent **diagnostiqués à un stade avancé** : le taux de survie à 5 ans est de 11 % pour le cancer du pancréas, et de 18 % pour l'œsophage et le foie.   
 
    **Ces données soulignent l'importance d'une prise en charge rapide, coordonnée et spécialisée des patients et de la création d'un réseau clinique d'expertise tel que PAN-TOGETHER.**    
     
