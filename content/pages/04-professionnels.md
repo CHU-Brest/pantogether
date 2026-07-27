@@ -6,6 +6,17 @@ Summary: RCP, référentiels nationaux, outils harmonisés et formation à desti
 # RCP locales et régionales des centres experts
 
 # RCP de recours et d'expertise du réseau
+Les RCP de recours et d'expertise du réseau ont un périmètre national et regroupent des praticiens experts pour des situations cliniques complexes et/ou des cancers rares, ou nécessitant un accès à des innovations diagnostiques ou thérapeutiques, à une expertise clinique ou à la recherche clinique, notamment aux essais de phase I.       
+Elles sont accessibles en web-conférence sur la **plateforme OMNIDOC**.   
+
+## Modalités d'inscription
+Tout médecin prescripteur doit faire sa demande et **remplir une fiche d’inscription** de passage en RCP correspondant à la thématique dédiée, sur la page de RCP dédiée du réseau sur OMNIDOC. Les fiches doivent être complétées en ligne **24 heures avant la séance**.
+
+## Calendrier des RCP
+
+## Documentation
+[Outil de connexion OMNIDOC](/images/Tutoriel Requérant RCP Omnidoc.pdf)    
+Charte RCP
 
 # Référentiels nationaux & guides méthodologiques
 ## Thésaurus National de Cancérologie Digestive (TNCD)

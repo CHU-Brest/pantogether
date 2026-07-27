@@ -95,29 +95,77 @@ Proposés tout au long du parcours, les soins de support complètent les traitem
 # Les essais cliniques
 *Les essais cliniques : faire progresser la recherche médicale*   
 
-Un essai clinique est une étude scientifique menée chez l’être humain pour évaluer un nouveau traitement, une nouvelle stratégie thérapeutique ou une nouvelle combinaison de traitements.
+Un essai clinique est une étude scientifique menée chez l’être humain pour évaluer :   
+
+- un nouveau traitement ou une nouvelle combinaison de traitements   
+- un dispositif médical    
+- une nouvelle stratégie thérapeutique ou de diagnostique    
+
 Il permet d'évaluer son efficacité, sa tolérance et sa sécurité avant une éventuelle diffusion à plus grande échelle, en le comparant au traitement de référence ou, dans certaines situations, à un placebo.   
    
-## Les phases d'un essai clinique    
+## Les différents types d'essais cliniques
+Il existe deux grandes catégories d'essais cliniques :   
 
-Les essais cliniques sont organisés en quatre phases successives, chacune ayant des objectifs spécifiques.  
+- Les **essais interventionnels** qui évaluent les effets d'une intervention chez un patient. Il peut s'agir d'un nouveau médicament, d'une nouvelle technique chirurgicale ou d'une nouvelle méthode de dépistage ou de diagnostic (par exemple une nouvelle technique d'imagerie), ou encore d'un nouveau dispositif médical.   
+- Les **essais non-interventionnels** ou **observationnels** qui permettent d'améliorer les connaissances sur une maladie et son évolution au cours du temps, sans modifier la prise en charge habituelle du patient. Ils sont réalisés dans le cadre du suivi des patients.
 
+## Les essais interventionnels en oncologie
+Le patient reçoit un traitement ou une procédure définie par le protocole de recherche, dans un cadre très encadré.   
    
--	**Les essais de phase I** constituent la première administration chez l’homme. Leur objectif principal est d’évaluer la tolérance et la toxicité du nouveau traitement. Ils permettent également de déterminer la dose maximale tolérée et la dose recommandée pour la suite du développement clinique. Ces essais incluent généralement un petit nombre de patients et ne visent pas à démontrer l’efficacité du traitement.
--	**La phase II** s’intéresse principalement à l’activité thérapeutique du traitement à la dose définie en phase I, tout en poursuivant l’évaluation de sa tolérance. Elle permet également d’étudier la pharmacocinétique et la pharmacodynamie de la molécule, c’est-à-dire son devenir dans l’organisme (absorption, distribution, métabolisme et élimination) ainsi que ses effets biologiques. Cette phase inclut un nombre plus important de patients ciblant une pathologie précise.
--	**Les essais de phase III** ont pour objectif de comparer l’efficacité et la tolérance du nouveau traitement à celles du traitement standard ou de référence. Ces études sont réalisées sur un grand nombre de patients et sont le plus souvent randomisées : les participants sont répartis de manière aléatoire entre le groupe recevant le nouveau traitement et le groupe recevant le traitement standard. La randomisation permet d’éviter les biais de sélection, de rendre les groupes comparables (âge, sexe, stade de la maladie, comorbidités) et d’attribuer les différences observées uniquement au traitement évalué. Les essais peuvent être menés en simple aveugle, lorsque le patient ignore le traitement reçu ou en double aveugle, lorsque ni le patient ni le médecin ne connaissent l’attribution du traitement, ce qui permet de limiter les biais d’interprétation.
--	Lorsque les résultats de la phase III sont concluants — c’est-à-dire que le nouveau traitement démontre un bénéfice clinique supérieur ou équivalent au traitement de référence, avec une tolérance comparable ou meilleure — le médicament peut obtenir une **autorisation de mise sur le marché (AMM)**. La **phase IV**, dite de surveillance post-AMM, correspond à l’utilisation du médicament en conditions réelles, chez une population plus large et plus hétérogène que celle incluse dans les essais cliniques précédents. Cette phase repose sur la pharmacovigilance, qui consiste à surveiller et déclarer tout effet indésirable grave, rare, inattendu ou survenant à long terme. Elle permet également de préciser ou d’adapter les conditions d’utilisation du traitement chez certains groupes de patients.
+Cela peut permettre d'évaluer :   
+
+- L'efficacité d'un nouveau traitement anticancéreux (réduction de la taille de la tumeur, survie, qualité de vie)   
+- La toxicité et la tolérance d'un médicament (apparition d'effets secondaires)   
+- Une nouvelle combinaison de traitements (ex : chimiothérapie + immunothérapie)   
+- Une nouvelle technique chirurgicale ou de radiothérapie   
+- Un nouvel outil de dépistage (ex : test sanguin pour détecter une récidive)    
+
+**Points importants pour le patient :**   
+
+- Le traitement peut être comparé à un traitement de référence. Les essais peuvent être menés en **simple aveugle**, lorsque le patient ignore le traitement reçu ou en **double aveugle**, lorsque ni le patient ni le médecin ne connaissent l’attribution du traitement   
+- Un suivi médical renforcé est généralement prévu (bilans, examens plus fréquents)   
+- Les essais sont classés en 4 phases :   
+    - **Phase I** : première administration chez l'humain, on cherche la dose la mieux tolérée chez des volontaires sains   
+    - **Phase II** : on évalue l'efficacité du traitement à la dose définie en phase I sur un nombre limité de patients avec une pathologie précise   
+    - **Phase III** : on compare le nouveau traitement au traitement standard, sur un grand nombre de patients. Lorsque les résultats de la phase III sont concluants — c’est-à-dire que le nouveau traitement démontre un bénéfice clinique supérieur ou équivalent au traitement de référence, avec une tolérance comparable ou meilleure — le médicament peut obtenir une **autorisation de mise sur le marché (AMM)**   
+    - **Phase IV** : après la mise sur le marché, on surveille les effets à long terme du médicament en conditions réelles, chez une population plus large et plus hétérogène que celle incluse dans les essais cliniques précédents.   
+
+## Les essais observationnels en oncologie
+
+Le patient reçoit sa prise en charge habituelle. Le médecin recueille des données pour mieux comprendre la maladie, sans rien changer au traitement.   
+   
+Ce que cela permet :   
+
+- Suivre l'évolution naturelle d'un cancer dans le temps
+- Étudier des facteurs de risque ou des facteurs pronostiques
+- Analyser la qualité de vie des patients au long cours
+- Constituer des registres ou des cohortes de patients pour la recherche future
+
+**Points importants pour le patient :**
+
+- Pas de modification du traitement, pas de tirage au sort
+- Participation souvent moins contraignante (questionnaires, prélèvements de suivi, données de dossier médical)
 
    
 ## Comment accéder à un essai clinique  
 
-Participer à un essai clinique peut permettre d’accéder à de nouvelles approches thérapeutiques tout en contribuant aux progrès de la recherche médicale. L’accès à un essai est toujours proposé et encadré par l’équipe soignante, qui vérifie que l’étude correspond à votre situation médicale et à certains critères précis (**critères d'inclusion**). Votre médecin vous explique les objectifs, le déroulement, les bénéfices attendus ainsi que les éventuels risques et les contraintes liées à l'étude, afin que vous puissiez prendre votre décision en toute connaissance de cause.     
+Participer à un essai clinique peut permettre d’accéder à de nouvelles approches thérapeutiques tout en contribuant aux progrès de la recherche médicale. L’accès à un essai est toujours proposé et encadré par l’équipe soignante, qui vérifie que l’étude correspond à votre situation médicale et à certains critères précis dits **critères d'inclusion** (ex : âge, maladie, antécédents, etc...). Votre médecin vous explique les objectifs, le déroulement, les bénéfices attendus ainsi que les éventuels risques et les contraintes liées à l'étude, afin que vous puissiez prendre votre décision en toute connaissance de cause.    
+
+Deux documents importants vous sont remis :   
+
+- Une **note d’information** qui explique le déroulement de l’essai (durée, objectifs, risques, bénéfices…)
+- Un **formulaire de consentement** que vous signez si vous acceptez de participer à l'étude. Vous pouvez vous retirer de l’essai à tout moment, même après avoir signé.
    
 La **sécurité et la protection des participants sont la priorité absolue** de tout essai clinique, avant tout objectif de recherche scientifique. Ces études sont donc strictement encadrées par la loi et chaque protocole est évalué et autorisé par un comité éthique, garantissant le respect des droits, de la sécurité et du bien-être des patients.   
    
-La participation à un essai clinique est entièrement **volontaire** et repose sur votre **consentement libre et éclairé**, recueilli après une information complète et compréhensible. Vous êtes libre d’accepter ou de refuser de participer, et vous pouvez mettre fin à votre participation à tout moment, sans avoir à vous justifier et sans que cela n’affecte la qualité de votre prise en charge.
-   
+La participation à un essai clinique est entièrement **volontaire** et repose sur votre **consentement libre et éclairé**, recueilli après une information complète et compréhensible.   
 
+**Vous êtes libre d’accepter ou de refuser de participer à un essai clinique, et vous pouvez mettre fin à votre participation à tout moment, sans avoir à vous justifier et sans que cela n’affecte la qualité de votre prise en charge.**
+   
+## Bases de données publiques des essais cliniques
+[Registre des essais cliniques en oncologie en France](https://www.cancer.fr/personnes-malades/registre-des-essais-cliniques) (Base de l'INCa)     
+[Registre des essais cliniques en France](https://www.sante.fr/essais-cliniques/recherche)     
+[Registre des essais cliniques en Europe](https://www.clinicaltrialsregister.eu/ctr-search/search) (site en anglais)     
 
 
 # Soins de support & qualité de vie
@@ -190,163 +238,173 @@ Lieu :** Paris**
 
    
 # Lexique
-**Anatomopathologie**
+
+**Adjuvant (traitement)**   
+Traitement administré après la chirurgie, pour réduire le risque de récidive.   
+
+**Anatomopathologie**    
 Spécialité médicale qui consiste à analyser les tissus ou cellules prélevés afin de confirmer un diagnostic et de mieux caractériser un cancer.
 
-**Anémie**
+**Anémie**   
 Baisse du taux de globules rouges dans le sang, pouvant provoquer fatigue, essoufflement et pâleur. Fréquente après une chimiothérapie.
 
-**Antalgique**
+**Antalgique**   
 Médicament utilisé pour soulager la douleur.
 
-**Aplasie**
+**Aplasie**   
 Chute importante et temporaire des globules blancs, rouges et/ou plaquettes, souvent provoquée par la chimiothérapie, qui augmente le risque d'infection.
 
-**Asthénie**
+**Asthénie**   
 Terme médical pour désigner la fatigue, un des effets secondaires les plus fréquents des traitements.
 
-**Biopsie**
+**Biopsie**   
 Prélèvement d'un petit échantillon de tissu ou de cellules pour être analysé en laboratoire.
 
-**Bilan d'extension**
+**Bilan d'extension**   
 Ensemble d'examens (scanner, IRM, TEP-scan…) réalisés pour savoir si le cancer s'est propagé à d'autres organes.
 
-**Cathéter**
+**Bras**   
+Groupe de patients recevant le même traitement
+
+**Cathéter**   
 Petit tube souple inséré dans une veine pour administrer des traitements ou prélever du sang, souvent relié à une chambre implantable.
 
-**Chambre implantable (PAC ou « Port-a-Cath »)**
+**Chambre implantable (PAC ou « Port-a-Cath »)**   
 Petit boîtier placé sous la peau, relié à une veine, qui permet d'injecter les traitements sans piquer à chaque séance.
 
-**Cancer**
+**Cancer**   
 Maladie caractérisée par le développement de cellules anormales qui se multiplient de manière incontrôlée.
 
-**Chimiothérapie**
+**Chimiothérapie**   
 Traitement médicamenteux qui détruit les cellules cancéreuses ou freine leur développement.
 
-**Consentement éclairé**
+**Consentement éclairé**   
 Accord donné par le patient après avoir reçu une information claire et complète sur un traitement ou un essai clinique.
 
-**Consultation d'annonce**
+**Consultation d'annonce**   
 Rendez-vous, souvent avec un infirmier, dédié à l'explication du diagnostic et du programme de traitement, en complément de la consultation médicale.
 
-**Curiethérapie**
+**Curiethérapie**   
 Forme de radiothérapie où la source radioactive est placée directement à l'intérieur ou à proximité de la tumeur.
 
-**Cure**
+**Cure**   
 Une séance ou un cycle de traitement (par exemple, une cure de chimiothérapie), généralement répétée à intervalles réguliers.
 
-**Dépistage**
+**Dépistage**   
 Ensemble des examens permettant de détecter un cancer avant l'apparition de symptômes ou à un stade précoce.
 
-**Effets secondaires**
+**Effets secondaires**   
 Manifestations indésirables provoquées par un traitement (nausées, fatigue, chute de cheveux, etc.), généralement temporaires.
 
-**Essai clinique**
+**Essai clinique**   
 Étude menée chez des patients afin d'évaluer de nouveaux traitements, de nouvelles stratégies thérapeutiques ou de nouvelles modalités de prise en charge.
 
-**Facteur de croissance**
+**Essai en aveugle ou double aveugle**   
+Dans un essai en aveugle, le participant ne sait pas quel traitement il reçoit. Dans un essai en double aveugle, ni le participant ni le médecin qui le suit ne connaissent le traitement administré.
+
+**Facteur de croissance**   
 Médicament qui stimule la production de globules blancs, rouges ou de plaquettes après une chimiothérapie.
 
-**Ganglion (lymphatique)**
+**Ganglion (lymphatique)**   
 Petit organe du système immunitaire, souvent examiné ou retiré car il peut être un lieu de propagation du cancer.
 
-**Hormonothérapie**
+**Hormonothérapie**   
 Traitement qui agit sur certaines hormones afin de ralentir ou d'empêcher le développement de certains cancers.
 
-**Hospitalisation de jour (HDJ)**
+**Hospitalisation de jour (HDJ)**   
 Séjour à l'hôpital de quelques heures, sans nuit sur place, pour recevoir un traitement ou passer des examens.
 
-**Immunothérapie**
+**Immunothérapie**   
 Traitement qui stimule les défenses naturelles de l'organisme pour l'aider à combattre les cellules cancéreuses.
 
-**Irradiation**
+**Irradiation**   
 Exposition d'une zone du corps à des rayons dans le cadre d'une radiothérapie.
 
-**IRM (Imagerie par Résonance Magnétique)**
+**IRM (Imagerie par Résonance Magnétique)**   
 Examen d'imagerie utilisant un champ magnétique pour obtenir des images détaillées des organes, sans rayons X.
 
-**Leucopénie**
+**Leucopénie**   
 Diminution du nombre de globules blancs dans le sang, augmentant le risque d'infection.
 
-**Lymphœdème**
+**Lymphœdème**   
 Gonflement d'un membre (souvent le bras ou la jambe) dû à une accumulation de lymphe, pouvant survenir après un curage ganglionnaire.
 
-**Marqueur tumoral**
+**Marqueur tumoral**   
 Substance présente dans le sang dont le taux peut être surveillé pour suivre l'évolution de certains cancers.
 
-**Métastase**
+**Métastase**   
 Propagation de cellules cancéreuses vers un autre organe ou une autre partie du corps.
 
-**Néoadjuvant (traitement)**
+**Néoadjuvant (traitement)**   
 Traitement (chimiothérapie, hormonothérapie…) administré avant la chirurgie, pour réduire la taille de la tumeur.
 
-**Adjuvant (traitement)**
-Traitement administré après la chirurgie, pour réduire le risque de récidive.
-
-**Neuropathie**
+**Neuropathie**   
 Atteinte des nerfs pouvant provoquer fourmillements, engourdissements ou douleurs, parfois causée par certaines chimiothérapies.
 
-**Neutropénie**
+**Neutropénie**   
 Baisse du taux de neutrophiles (un type de globules blancs), augmentant le risque d'infection.
 
-**Oncogénétique**
+**Oncogénétique**   
 Consultation spécialisée qui étudie la part héréditaire éventuelle d'un cancer, notamment via des tests génétiques.
 
-**Oncologue**
+**Oncologue**   
 Médecin spécialisé dans le diagnostic et le traitement des cancers.
 
-**Palliatif (soin)**
+**Palliatif (soin)**   
 Prise en charge visant à soulager la douleur et améliorer la qualité de vie, à tout moment de la maladie, et pas seulement en fin de vie.
 
-**Parcours de soins**
+**Parcours de soins**   
 Ensemble des étapes de la prise en charge d'un patient, du diagnostic jusqu'au suivi après les traitements.
 
-**Patient partenaire**
+**Patient partenaire**   
 Patient ou ancien patient qui met son expérience au service de l'amélioration des soins, de la recherche ou de la formation des professionnels de santé.
 
-**PET-scan / TEP-scan**
+**PET-scan / TEP-scan**   
 Examen d'imagerie (Tomographie par Émission de Positons) qui permet de repérer les cellules cancéreuses actives dans tout le corps.
 
-**Placebo**
+**Placebo**   
 Substance ou traitement ne contenant pas de principe actif. Dans certains essais cliniques, il peut être utilisé lorsque cela est éthique et approprié, afin de comparer l'efficacité d'un nouveau traitement.
 
-**Programme Personnalisé de l'Après-Cancer (PPAC)**
+**Programme Personnalisé de l'Après-Cancer (PPAC)**   
 Document qui organise le suivi médical après la fin des traitements actifs et accompagne le retour à la vie quotidienne.
 
-**Programme Personnalisé de Soins (PPS)**
+**Programme Personnalisé de Soins (PPS)**   
 Document remis au patient présentant les traitements proposés, leur calendrier et les principales étapes de la prise en charge.
 
-**Protocole**
+**Protocole**   
 Programme de traitement précis (médicaments, doses, rythme des séances) défini pour un patient.
 
-**Radiothérapie**
+**Radiothérapie**   
 Traitement utilisant des rayonnements pour détruire les cellules cancéreuses d'une zone précise du corps tout en préservant au mieux les tissus sains.
 
-**Récidive**
+**Randomisation**   
+Répartition au hasard des participants d'un essai clinique dans différents groupes.
+
+**Récidive**   
 Réapparition d'un cancer après une période où il n'était plus détectable.
 
-**Réunion de Concertation Pluridisciplinaire (RCP)**
+**Réunion de Concertation Pluridisciplinaire (RCP)**   
 Réunion au cours de laquelle plusieurs spécialistes étudient ensemble le dossier d'un patient afin de proposer la stratégie thérapeutique la plus adaptée.
 
-**Rémission**
+**Rémission**   
 Diminution ou disparition des signes de la maladie. Une rémission ne signifie pas toujours que le cancer est définitivement guéri. On ne parle de « guérison » qu'après un certain nombre d'années sans récidive selon le cancer.
 
-**Scanner (tomodensitométrie, TDM)**
+**Scanner (tomodensitométrie, TDM)**   
 Examen d'imagerie utilisant des rayons X pour obtenir des images en coupe du corps.
 
-**Soins de support**
+**Soins de support**   
 Ensemble des soins et accompagnements destinés à améliorer la qualité de vie des patients pendant et après les traitements (prise en charge de la douleur, nutrition, soutien psychologique, activité physique adaptée, accompagnement social, etc.).
 
-**Stadification / classification TNM**
+**Stadification / classification TNM**   
 Système qui décrit la taille de la tumeur (T), l'atteinte des ganglions (N) et la présence de métastases (M), pour définir le stade du cancer.
 
-**Thérapie ciblée**
+**Thérapie ciblée**   
 Traitement qui agit spécifiquement sur certaines anomalies des cellules cancéreuses afin de limiter leur développement.
 
-**Thrombopénie**
+**Thrombopénie**   
 Diminution du nombre de plaquettes dans le sang, pouvant favoriser les saignements ou hématomes.
 
-**Tumeur bénigne / maligne**
+**Tumeur bénigne / maligne**   
 Une tumeur bénigne ne se propage pas ailleurs dans le corps ; une tumeur maligne (cancéreuse) peut envahir les tissus voisins ou métastaser.
 
 *Une question sur un terme non listé ici ? Parlez-en à votre équipe soignante, à l'infirmier(ère) de coordination, ou à un patient partenaire si votre établissement en propose.*
