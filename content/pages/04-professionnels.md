@@ -7,7 +7,7 @@ Summary: RCP, référentiels nationaux, outils harmonisés et formation à desti
 
 # RCP de recours et d'expertise du réseau
 Les RCP de recours et d'expertise du réseau ont un périmètre national et regroupent des praticiens experts pour des situations cliniques complexes et/ou des cancers rares, ou nécessitant un accès à des innovations diagnostiques ou thérapeutiques, à une expertise clinique ou à la recherche clinique, notamment aux essais de phase I.       
-Elles sont accessibles en web-conférence sur la [**plateforme OMNIDOC**](https://omnidoc.fr/)**.   
+Elles sont accessibles en web-conférence sur la [**plateforme OMNIDOC**](https://omnidoc.fr/).   
 
 ## Modalités d'inscription
 Tout médecin prescripteur doit faire sa demande et **remplir une fiche d’inscription** de passage en RCP correspondant à la thématique dédiée, sur la page de RCP dédiée du réseau sur OMNIDOC. Les fiches doivent être complétées en ligne **24 heures avant la séance**.

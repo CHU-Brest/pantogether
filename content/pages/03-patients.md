@@ -210,7 +210,7 @@ Les parcours de formation possibles :
 - Les Diplômes Universitaire (DU/DIU) tels que le DU d'Education Thérapeutique du Patient (ETP) ou DU Partenariat Patients - Professionnels en santé   
 - Les formations par des associations agréées comme la [Ligue contre le cancer](https://www.ligue-cancer.net/devenir-patient-ressource) 
    
-Si vous souhaitez devenir patient partenaire, rapprochez-vous de votre établissement de santé, d'une association de patients ou de l'équipe coordinatrice du réseau. Ils pourront vous informer sur les dispositifs existants, les formations proposées et les modalités pour vous engager.   
+*Si vous souhaitez devenir patient partenaire, rapprochez-vous de votre établissement de santé, d'une association de patients ou de l'équipe coordinatrice du réseau. Ils pourront vous informer sur les dispositifs existants, les formations proposées et les modalités pour vous engager.*   
    
 # Associations   
 *Les associations de patients : des partenaires engagés à vos côtés*   
