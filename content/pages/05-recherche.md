@@ -5,7 +5,7 @@ Summary: Projets de recherche par axe, essais cliniques, publications, appels à
 
 # Projets de recherche
 
-*Par axe.*
+*A venir.*
 
 # Essais cliniques en cours
 ## Bases de données publiques des essais cliniques
@@ -32,7 +32,7 @@ Summary: Projets de recherche par axe, essais cliniques, publications, appels à
 
 
 # Publications
-
+*A venir.*
 # Appels à projets & à candidatures
 
 ## Ouverture de l'appel à projets PHRC-K 2026-2027, Recherche clinique en cancérologie   
@@ -61,6 +61,13 @@ L'appel est ouvert à des projets portant notamment sur :
 - Lettre d'intention : jusqu'au **13 octobre 2026 à 16h**   
 - Dossier complet pour les projets présélectionnés : jusqu'au **9 mars 2027 à 16h**   
    
-🔗 Retrouvez l'ensemble des informations, des modalités de candidature et des documents de l'appel sur le site de [l'INCa](https://www.cancer.fr/professionnels-de-la-recherche/appels-a-projets-et-a-candidatures/nos-appels-a-projets/phrck2027)
+*Retrouvez l'ensemble des informations, des modalités de candidature et des documents de l'appel sur le site de [l'INCa](https://www.cancer.fr/professionnels-de-la-recherche/appels-a-projets-et-a-candidatures/nos-appels-a-projets/phrck2027)*
 
 # Registres & biobanques
+## FRANCIM
+Le réseau français des registres de cancers FRANCIM (France Cancer Incidence et Mortalité) regroupe :    
+
+- 14 registres généraux   
+- 10 registres spécialisés dont 3 digestifs : Bourguignon (Côte-d’Or et Saône et Loire), Calvados, Finistère   
+
+*Pour plus d'informations veuillez consulter le [site du réseau FRANCIM](https://www.francim-reseau.org/)*
