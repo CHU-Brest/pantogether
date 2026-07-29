@@ -81,11 +81,41 @@ Version : 2019
 [![/images/outilpancreasinca.png](/images/outilpancreasinca.png)](https://www.cancer.fr/catalogue-des-publications/cancers-du-pancreas-du-diagnostic-au-suivi)   
 
 # Agenda
+- **ILCA Annual Conference**   
+Date : **03-05 Septembre 2026**   
+Lieu : **Lyon**   
+[![/images/CNRC2026.png](/images/CNRC2026.png)](https://congres-reseaux-cancerologie.fr/)   
+
 - **99ème Journées Scientifiques de l'AFEF**   
 Date : **07-09 Octobre 2026**   
 Lieu : **Strasbourg**   
 [![/images/AFEF2026.png](/images/AFEF2026.png)](https://www.congres-afef.com/)   
-  
+
+- **Journée d'Oncologie Digestive des Hospices Civils de Lyon**   
+Date : **09 Octobre 2026**   
+Lieu : **Lyon**   
+[![/images/JOD2026.png](/images/JOD2026.png)](https://www.congres-jod.org/)   
+ 
+- **Congrès National des Réseaux de Cancérologie**   
+Date : **19-20 Novembre 2026**   
+Lieu : **Bruxelles, Belgique**   
+[![/images/ILCA2026.png](/images/ILCA2026.png)](https://ilcalive.org/annual-conference-2026/)   
+
+- **Journée scientifique Oncologie digestive**   
+Date : **27 Novembre 2026**   
+Lieu : **Lorient**   
+
+- **EASL Liver Cancer Summit 2027**   
+Date : **14-16 Janvier 2027**   
+Lieu : **Valence, Espagne**   
+[![/images/EASL2027.png](/images/EASL2027.png)](https://easl.eu/event/liver-cancer-summit-2026/)   
+   
+- **Journées Francophones d'Hépato-Gastroentérologie et d'Oncologie Digestive**   
+Date : **11-14 Mars 2027**   
+Lieu : **Paris**   
+[![/images/JFHOD2027.png](/images/JFHOD2027.png)](https://www.jfhod.com/sites/www.jfhod.com/files/2026-07/JFHOD2027_Programme%20pre%CC%81liminaire.pdf)   
+
+
 
 # Formation
 
