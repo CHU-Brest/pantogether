@@ -44,7 +44,7 @@ Dans ce cadre, l'Institut a labellisé des réseaux d'excellence coordonnant les
    
 Les cancers digestifs de mauvais pronostic représentent chaque année **plusieurs dizaines de milliers de nouveaux cas en France** et restent parmi les cancers les plus difficiles à traiter.   
    
-- **Le cancer du pancréas**, à lui seul, touche désormais près de 16 000 personnes par an en France. En 2023, 8 323 hommes et 7 668 femmes ont été diagnostiqués. Le nombre de décès est estimé à environ 12 700 tous sexes confondus (INCa, 2024). C'est une maladie en forte progression, entre 2010 et 2023 son taux d’incidence a augmenté de 1,6% par an chez les hommes et de 2,1% chez les femmes (INCa, 2024).    
+- **Le cancer du pancréas**, à lui seul, touche désormais près de 16 000 personnes par an en France. En 2023, 8 323 hommes et 7 668 femmes ont été diagnostiqués. Le nombre de décès est estimé à plus de 13 000 tous sexes confondus (INCa, 2024). C'est une maladie en forte progression, entre 2010 et 2023 son taux d’incidence a augmenté de 1,6% par an chez les hommes et de 2,1% chez les femmes (INCa, 2024).    
    
 - **Le cancer du foie** touche quant à lui environ 11 500 personnes par an en France, 8874 cas chez l’homme et 2784 chez la femme en 2023 (INCa, 2023), avec un âge médian au diagnostic de 70 ans. Le cancer du foie représente 7% des décès par cancer chez l’homme. Le cholangiocarcinome, ou **cancer des voies biliaires**, représente le second cancer du foie après le carcinome hépatocellulaire. On estime à environ 2000 le nombre de cas de cancers des voies biliaires par an en France.    
    
