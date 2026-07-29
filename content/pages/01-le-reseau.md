@@ -3,14 +3,31 @@ Slug: le-reseau
 Template: docs
 Summary: Présentation, contexte, axes d'expertise, gouvernance et partenaires du réseau PAN-TOGETHER.
 
-# Présentation & missions
+# Présentation & Missions
+*Ensemble contre les cancers de mauvais pronostic*   
    
-   
-*PAN-TOGETHER, réseau national d'excellence clinique de lutte contre les cancers digestifs de mauvais pronostic, labellisé par l'INCa.*   
-
-**PAN-TOGETHER** structure la prise en charge des cancers du **PAN**créas, des **T**umeurs **O**eso-**G**astriques **E**t des **T**umeurs primitives **HE**pato-biliai**R**es afin d’améliorer la qualité et l’équité des soins sur l’ensemble du territoire.   
+**PAN-TOGETHER**, est un réseau national d'excellence clinique de lutte contre les cancers digestifs de mauvais pronostic, labellisé par l'INCa.   
+Il structure la prise en charge des cancers du **PAN**créas, des **T**umeurs **O**eso-**G**astriques **E**t des **T**umeurs primitives **HE**pato-biliai**R**es afin d’améliorer la qualité et l’équité des soins sur l’ensemble du territoire.   
     
-## Les missions du réseau   
+## Le contexte
+### La stratégie décennale de l'INCa 2021-2030
+L'Axe 3 de la **Stratégie décennale de lutte contre les cancers 2021-2030 de l'INCa** cible les pathologies dont la survie à 5 ans est inférieure à 33 %. Il vise à infléchir significativement leur taux de survie d'ici 2030 grâce à des parcours de soins raccourcis et une recherche accélérée.   
+Dans ce cadre, l'Institut a labellisé des réseaux d'excellence coordonnant les meilleurs experts nationaux : **PAN-TOGETHER** (digestif), le réseau **RECAP** (poumon), **GLIOREC** (système nerveux), et [**FEM-NET**](https://fem-net.fr/) (gynécologique/sein).   
+
+### Les chiffres clés    
+Les cancers digestifs de mauvais pronostic représentent chaque année **plusieurs dizaines de milliers de nouveaux cas en France** et restent parmi les cancers les plus difficiles à traiter.   
+   
+- **Le cancer du pancréas**, à lui seul, touche désormais près de 16 000 personnes par an en France. En 2023, 8 323 hommes et 7 668 femmes ont été diagnostiqués. Le nombre de décès est estimé à plus de 13 000 tous sexes confondus (INCa, 2024). C'est une maladie en forte progression, entre 2010 et 2023 son taux d’incidence a augmenté de 1,6% par an chez les hommes et de 2,1% chez les femmes (INCa, 2024).    
+   
+- **Le cancer du foie** touche quant à lui environ 11 500 personnes par an en France, 8874 cas chez l’homme et 2784 chez la femme en 2023 (INCa, 2023), avec un âge médian au diagnostic de 70 ans. Le cancer du foie représente 7% des décès par cancer chez l’homme. Le cholangiocarcinome, ou **cancer des voies biliaires**, représente le second cancer du foie après le carcinome hépatocellulaire. On estime à environ 2000 le nombre de cas de cancers des voies biliaires par an en France.    
+   
+- **Le cancer de l'estomac** concerne environ 6 500 nouveaux cas annuels et **le cancer de l'œsophage** environ 5 500 nouveaux cas, avec un âge médian au diagnostic autour de 68-71 ans.   
+   
+Ces cancers sont dits de mauvais pronostic car ils sont souvent **diagnostiqués à un stade avancé** : le taux de survie à 5 ans est de 11 % pour le cancer du pancréas, et de 18 % pour l'œsophage et le foie.   
+
+   **Ces données soulignent l'importance d'une prise en charge rapide, coordonnée et spécialisée des patients et de la création d'un réseau clinique d'expertise tel que PAN-TOGETHER.**    
+    
+## Les missions du réseau    
 
 ⚖️ **Harmonisation des soins**      
 Élaborer et diffuser des recommandations afin d'harmoniser les pratiques sur l'ensemble du territoire. Cette démarche vise à garantir à chaque patient une prise en charge de qualité, fondée sur les données scientifiques les plus récentes, quel que soit son lieu de résidence.     
@@ -32,29 +49,6 @@ Mettre à disposition des patients, des proches et des professionnels une inform
 Développer des actions de formation, de partage d'expertise et de diffusion des connaissances pour accompagner les professionnels de santé dans l'évolution des pratiques, des recommandations et des innovations en oncologie.      
    
 
-
-
-
-# Le contexte
-
-*Lutter contre les cancers de mauvais pronostic, stratégie décennale de l'INCa 2021-2030.*
-
-L'Axe 3 de la **Stratégie décennale de lutte contre les cancers 2021-2030 de l'INCa** cible les pathologies dont la survie à 5 ans est inférieure à 33 %. Il vise à infléchir significativement leur taux de survie d'ici 2030 grâce à des parcours de soins raccourcis et une recherche accélérée.   
-Dans ce cadre, l'Institut a labellisé des réseaux d'excellence coordonnant les meilleurs experts nationaux : **PAN-TOGETHER** (digestif), le réseau **RECAP** (poumon), **GLIOREC** (système nerveux), et [**FEM-NET**](https://fem-net.fr/) (gynécologique/sein).   
-   
-Les cancers digestifs de mauvais pronostic représentent chaque année **plusieurs dizaines de milliers de nouveaux cas en France** et restent parmi les cancers les plus difficiles à traiter.   
-   
-- **Le cancer du pancréas**, à lui seul, touche désormais près de 16 000 personnes par an en France. En 2023, 8 323 hommes et 7 668 femmes ont été diagnostiqués. Le nombre de décès est estimé à plus de 13 000 tous sexes confondus (INCa, 2024). C'est une maladie en forte progression, entre 2010 et 2023 son taux d’incidence a augmenté de 1,6% par an chez les hommes et de 2,1% chez les femmes (INCa, 2024).    
-   
-- **Le cancer du foie** touche quant à lui environ 11 500 personnes par an en France, 8874 cas chez l’homme et 2784 chez la femme en 2023 (INCa, 2023), avec un âge médian au diagnostic de 70 ans. Le cancer du foie représente 7% des décès par cancer chez l’homme. Le cholangiocarcinome, ou **cancer des voies biliaires**, représente le second cancer du foie après le carcinome hépatocellulaire. On estime à environ 2000 le nombre de cas de cancers des voies biliaires par an en France.    
-   
-- **Le cancer de l'estomac** concerne environ 6 500 nouveaux cas annuels et **le cancer de l'œsophage** environ 5 500 nouveaux cas, avec un âge médian au diagnostic autour de 68-71 ans.   
-   
-Ces cancers sont dits de mauvais pronostic car ils sont souvent **diagnostiqués à un stade avancé** : le taux de survie à 5 ans est de 11 % pour le cancer du pancréas, et de 18 % pour l'œsophage et le foie.   
-
-   **Ces données soulignent l'importance d'une prise en charge rapide, coordonnée et spécialisée des patients et de la création d'un réseau clinique d'expertise tel que PAN-TOGETHER.**    
-    
-
 # Les axes d'expertise
 *Trois grands axes d'expertise*   
 
@@ -68,7 +62,7 @@ Les axes portés par le réseau correspondent à des cancers digestifs à forte 
       
     
 
-# Organisation & gouvernance
+# Organisation
 *Un maillage territorial étendu*   
 
 Le réseau s’organise autour d’un centre pilote, de trois centres experts référents et d'une cinquantaine de centres experts répartis sur le territoire national, en métropole et dans les territoires ultramarins.
@@ -99,8 +93,8 @@ Les centres experts sont sélectionnés selon des **critères d'excellence**, pa
 
 Ils ont pour rôle de **structurer et d’animer le réseau** en établissant des conventions de collaboration régionales et/ou inter-régionales avec les centres de proximité, les médecins généralistes et spécialistes, garantissant l’accès à des plateformes diagnostiques et interventionnelles de pointe. Ils permettent la concertation d’experts grâce à l’organisation de Réunions de Concertation Pluridisciplinaires (RCP) spécialisées et veillent à ce que les essais thérapeutiques soient accessibles au plus grand nombre de patients, indépendamment de leur lieu de prise en charge ou de résidence.   
 
-## La gouvernance
-### Le comité scientifique
+# Gouvernance
+## Le comité scientifique
 
 Le Comité scientifique constitue l’instance stratégique du réseau.    
 Il est composé des coordonnateurs du réseau, des centres experts référents et des centres experts ainsi que des représentants de fédérations hospitalières, de sociétés savantes et d'associations de patients.     
@@ -115,7 +109,7 @@ Il se réunit une fois par an et a pour missions de :
 
  
 
-### Les bureaux opérationnels   
+## Les bureaux opérationnels   
 Chaque axe du réseau possède un bureau opérationnel composé des coordonnateurs du réseau et du centre expert référent, des représentants des spécialités médicales (chirurgie, oncologie, radiologie, médecine nucléaire, endoscopie, anatomopathologie/biologie moléculaire) et des représentants de patients.   
    
 Chaque bureau opérationnel est chargé de :   
@@ -130,7 +124,7 @@ Chaque bureau opérationnel est chargé de :
 Les bureaux opérationnels se réunissent de manière trimestrielle et transmettent un rapport d'activité au Comité Scientifique.   
 
 # Partenaires & financement
-*Labellisation de réseaux d'excellence clinique de lutte contre les cancers de mauvais pronostic par l'INCA*   
+*Réseau labellisé par l'INCA*   
 
 Le réseau **PAN-TOGETHER** a été labellisé et financé par **l’INCa** à l’été 2025 pour 3 ans dans le cadre de l’appel à projet pour la labellisation de réseaux d’excellence clinique de lutte contre les cancers de mauvais pronostic.   
    
