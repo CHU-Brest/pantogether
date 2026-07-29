@@ -8,6 +8,28 @@ Summary: Projets de recherche par axe, essais cliniques, publications, appels à
 *Par axe.*
 
 # Essais cliniques en cours
+## Bases de données publiques des essais cliniques
+[Registre des essais cliniques en oncologie en France](https://www.cancer.fr/personnes-malades/registre-des-essais-cliniques) (Base de l'INCa)     
+[Registre des essais cliniques en France](https://www.sante.fr/essais-cliniques/recherche)     
+[Registre des essais cliniques en Europe](https://www.clinicaltrialsregister.eu/ctr-search/search) (site en anglais)     
+
+## Registres des essais cliniques en région   
+
+- Auvergne-Rhône-Alpes   
+[Registre Onco AURA](https://ressources-aura.fr/plateforme/recherche-clinique/annuaire/essais-cliniques)
+- Bourgogne-Franche-Comté, Grand Est   
+[H.E.C.T.O.R.](https://hector-essais-cliniques.fr/)   
+- Centre-Val de Loire   
+[Registre Onco Centre](https://oncocentre.org/professionnels/recherche-clinique/repertoire-des-essais-cliniques/)   
+- Île-de-France   
+[Essais'clic](https://essaisclic.girci-idf.fr/)   
+- Hauts-de-France, Normandie, Pays de la Loire   
+[ARCHIMAID](https://archimaid.fr)   
+- Occitanie   
+[Registre Onco Occitanie](https://onco-occitanie.fr/nos-thematiques/par-traitement/essais-cliniques-en-occitanie/)   
+- Provence-Alpes-Côte d'Azur, Corse   
+[Registre Onco PACA Corse](https://www.oncopacacorse.org/repertoire-essais-cliniques/)   
+
 
 # Publications
 

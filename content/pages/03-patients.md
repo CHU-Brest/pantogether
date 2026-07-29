@@ -162,10 +162,8 @@ La participation à un essai clinique est entièrement **volontaire** et repose 
 
 **Vous êtes libre d’accepter ou de refuser de participer à un essai clinique, et vous pouvez mettre fin à votre participation à tout moment, sans avoir à vous justifier et sans que cela n’affecte la qualité de votre prise en charge.**
    
-## Bases de données publiques des essais cliniques
-[Registre des essais cliniques en oncologie en France](https://www.cancer.fr/personnes-malades/registre-des-essais-cliniques) (Base de l'INCa)     
-[Registre des essais cliniques en France](https://www.sante.fr/essais-cliniques/recherche)     
-[Registre des essais cliniques en Europe](https://www.clinicaltrialsregister.eu/ctr-search/search) (site en anglais)     
+     
+*Retrouvez les bases de données des essais cliniques dans l'onglet [Recherche](/recherche/#essais-cliniques-en-cours)*
 
 
 # Soins de support & qualité de vie
