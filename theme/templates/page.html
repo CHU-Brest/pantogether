@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block title %}{{ page.title }} — PAN·TOGETHER{% endblock %}
+
+{% block content %}
+<div class="wrap">
+  <div class="page-head">
+    <span class="kicker">PAN·TOGETHER</span>
+    <h1>{{ page.title }}</h1>
+  </div>
+  <div class="doc-main article-body" style="max-width:800px;padding-bottom:40px">
+    {{ page.content|safe }}
+  </div>
+</div>
+{% endblock %}
