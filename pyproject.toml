@@ -6,5 +6,6 @@ requires-python = ">=3.11"
 dependencies = [
     "invoke>=3.0.3",
     "livereload>=2.7.1",
+    "pelican-sitemap>=1.2.2",
     "pelican[markdown]>=4.12.0",
 ]

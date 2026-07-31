@@ -28,7 +28,14 @@ JINJA_FILTERS = {"fr_date": fr_date}
 # ------------------------------------------------------------------
 THEME = "theme"
 PLUGIN_PATHS = ["plugins"]
-PLUGINS = ["docs_panels"]
+PLUGINS = ["docs_panels", "pelican.plugins.sitemap"]
+
+# Sitemap XML généré à la racine du site par le plugin pelican-sitemap.
+SITEMAP = {
+    "format": "xml",
+    "priorities": {"articles": 0.6, "pages": 0.7, "indexes": 0.5},
+    "changefreqs": {"articles": "monthly", "pages": "monthly", "indexes": "weekly"},
+}
 
 # Markdown : on active `toc` pour que les titres reçoivent un id (ancres + panneaux)
 MARKDOWN = {
