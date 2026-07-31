@@ -46,7 +46,11 @@ MARKDOWN = {
 # ------------------------------------------------------------------
 PAGE_PATHS = ["pages", "extra"]
 ARTICLE_PATHS = ["actualites"]
-STATIC_PATHS = ["images"]
+STATIC_PATHS = ["images", "favicon.ico"]
+
+# favicon.ico copié à la racine du site (ce que les navigateurs et Google
+# vont chercher en priorité).
+EXTRA_PATH_METADATA = {"favicon.ico": {"path": "favicon.ico"}}
 
 # ------------------------------------------------------------------
 # URLs propres (répertoires)
