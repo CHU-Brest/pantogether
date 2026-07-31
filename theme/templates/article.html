@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block title %}{{ article.title }} — PAN·TOGETHER{% endblock %}
+
+{% block content %}
+<article class="article-single">
+  <nav class="breadcrumb">
+    <a href="{{ SITEURL }}/">Accueil</a>
+    <span class="sep">›</span>
+    <a href="{{ SITEURL }}/actualites/">Actualités</a>
+    <span class="sep">›</span>
+    <span class="cur">{{ article.title }}</span>
+  </nav>
+
+  <header class="article-head">
+    <div class="article-meta">
+      <span class="date">{{ article.date|fr_date }}</span>
+      {% if article.category %}<span class="cat">{{ article.category }}</span>{% endif %}
+      {% if article.author %}<span>{{ article.author }}</span>{% endif %}
+    </div>
+    <h1>{{ article.title }}</h1>
+  </header>
+
+  <div class="article-body">
+    {{ article.content|safe }}
+  </div>
+
+  <p style="margin-top:36px"><a class="btn btn-s" href="{{ SITEURL }}/actualites/">← Toutes les actualités</a></p>
+</article>
+{% endblock %}
