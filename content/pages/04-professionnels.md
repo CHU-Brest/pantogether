@@ -15,7 +15,7 @@ Tout médecin prescripteur doit faire sa demande et **remplir une fiche d’insc
 ## Calendrier des RCP
 
 ## Documentation
-[Outil de connexion OMNIDOC](/images/Tutoriel Requérant RCP Omnidoc.pdf)    
+[Outil de connexion OMNIDOC](/assets/Tutoriel Requérant RCP Omnidoc.pdf)    
 Charte des RCP
 
 # Référentiels nationaux & guides méthodologiques
@@ -67,12 +67,12 @@ Version : 2019
 # Outils & protocoles harmonisés
 ## Fiches RCP du réseau
 ### Oesophage, Estomac, Jonction Oeso-Gastrique 
-[RCP expertise Oesophage JOG Estomac](/images/FICHE RCP expertise Oesophage  JOG Estomac v3.0 01.2026 affichage conditionnel.docm)
+[RCP expertise Oesophage JOG Estomac](/assets/FICHE RCP expertise Oesophage  JOG Estomac v3.0 01.2026 affichage conditionnel.docm)
 
 ### Foie et Voies Biliaires
-[RCP CHC](/images/FICHE RCP CHC v1.0 01.2026.docm)
+[RCP CHC](/assets/FICHE RCP CHC v1.0 01.2026.docm)
 
-[RCP CCA et tumeurs primitives rares](/images/FICHE RCP cholangiocarcinome et tumeurs primitives rares v3.0 01.2026 affichage conditionnel.docm)   
+[RCP CCA et tumeurs primitives rares](/assets/FICHE RCP cholangiocarcinome et tumeurs primitives rares v3.0 01.2026 affichage conditionnel.docm)   
 
 ## Outils pour la pratique
 ### Foie et Voies Biliaires
