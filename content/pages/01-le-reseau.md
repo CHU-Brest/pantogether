@@ -124,7 +124,7 @@ Chaque bureau opérationnel est chargé de :
 Les bureaux opérationnels se réunissent de manière trimestrielle et transmettent un rapport d'activité au Comité Scientifique.   
 
 # Partenaires & financement
-*Réseau labellisé par l'INCA*   
+*Réseau labellisé par l'INCa*   
 
 Le réseau **PAN-TOGETHER** a été labellisé et financé par **l’INCa** à l’été 2025 pour 3 ans dans le cadre de l’appel à projet pour la labellisation de réseaux d’excellence clinique de lutte contre les cancers de mauvais pronostic.   
    
