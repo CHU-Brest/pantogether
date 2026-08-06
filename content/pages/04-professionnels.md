@@ -83,8 +83,8 @@ Version : 2019
 # Agenda
 - **ILCA Annual Conference**   
 Date : **03-05 Septembre 2026**   
-Lieu : **Lyon**   
-[![/images/CNRC2026.png](/images/CNRC2026.png)](https://congres-reseaux-cancerologie.fr/)   
+Lieu : **Bruxelles, Belgique**   
+[![/images/ILCA2026.png](/images/ILCA2026.png)](https://ilcalive.org/annual-conference-2026/)   
 
 - **99ème Journées Scientifiques de l'AFEF**   
 Date : **07-09 Octobre 2026**   
@@ -98,9 +98,9 @@ Lieu : **Lyon**
  
 - **Congrès National des Réseaux de Cancérologie**   
 Date : **19-20 Novembre 2026**   
-Lieu : **Bruxelles, Belgique**   
-[![/images/ILCA2026.png](/images/ILCA2026.png)](https://ilcalive.org/annual-conference-2026/)   
-
+Lieu : **Lyon**   
+[![/images/CNRC2026.png](/images/CNRC2026.png)](https://congres-reseaux-cancerologie.fr/)    
+   
 - **Journée scientifique Oncologie digestive**   
 Date : **27 Novembre 2026**   
 Lieu : **Lorient**   
