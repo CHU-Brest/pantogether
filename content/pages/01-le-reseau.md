@@ -57,7 +57,7 @@ Le réseau **PAN-TOGETHER** structure son expertise autour de trois grands axes 
     -	Promouvoir la **recherche translationnelle** en collaboration avec le réseau [FRAP](https://www.frap-network.org/) (French Research Network against Pancreatic Adenocarcinoma)      
 
 
-## Œsophage & Estomac
+## L'axe Œsophage & Estomac
 - **Le cancer de l'estomac** concerne environ 6 500 nouveaux cas annuels et **le cancer de l'œsophage** environ 5 500 nouveaux cas, avec un âge médian au diagnostic autour de 68-71 ans. Le taux de survie à 5 ans est de 30% tous stades confondus pour les cancers de l’estomac et de 18% pour les cancers de l’œsophage. (INCa, 2024)   
 
 - La prise en charge des **cancers de l'oesophage, de l'estomac et de la jonction oesogastrique**, repose souvent sur des stratégies combinant chirurgie, chimiothérapie et parfois radiothérapie, et nécessitent d'une discussion collégiale approfondie compte tenu de leur hétérogénéité anatomique et pronostique.      
@@ -70,7 +70,7 @@ Le réseau **PAN-TOGETHER** structure son expertise autour de trois grands axes 
         - Organiser des webinaires régionaux et des ateliers nationaux pour former les professionnels sur les dernières avancées diagnostiques et thérapeutiques   
         - Organiser des évènements à destination du grand public en région en collaboration avec les représentants des usagers dans les centres experts   
 
-## Foie & Voies biliaires
+## L'axe Foie & Voies biliaires
 - **Le cancer du foie** touche environ 11 500 personnes par an en France, 8874 cas chez l’homme et 2784 chez la femme en 2023 (INCa, 2023), avec un âge médian au diagnostic de 70 ans. Le cancer du foie représente 7% des décès par cancer chez l’homme.    
 Le cholangiocarcinome, ou **cancer des voies biliaires**, représente le second cancer du foie après le carcinome hépatocellulaire. On estime à environ 2000 le nombre de cas de cancers des voies biliaires par an en France.    
 Le taux de survie des patients atteints de cancer du foie est de 18% à 5 ans. (INCa, 2024)        
