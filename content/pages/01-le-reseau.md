@@ -45,51 +45,46 @@ Développer des actions de formation, de partage d'expertise et de diffusion des
 Le réseau **PAN-TOGETHER** structure son expertise autour de trois grands axes de prise en charge oncologique correspondant à des cancers digestifs à forte complexité thérapeutique et nécessitant une approche multidisciplinaire spécialisée. 
 
 ## L’axe Pancréas
-- **Le cancer du pancréas** touche désormais près de 16 000 personnes par an en France. En 2023, 8 323 hommes et 7 668 femmes ont été diagnostiqués. Le nombre de décès est estimé à plus de 13 000 tous sexes confondus (INCa, 2024). C'est une maladie en forte progression, entre 2010 et 2023 son taux d’incidence a augmenté de 1,6% par an chez les hommes et de 2,1% chez les femmes (INCa, 2024). Le taux de survie à 5 ans est de 11%.    
+- **Le cancer du pancréas** touche désormais près de 16 000 personnes par an en France. En 2023, 8 323 hommes et 7 668 femmes ont été diagnostiqués. Le nombre de décès est estimé à plus de 13 000 tous sexes confondus. C'est une maladie en forte progression, entre 2010 et 2023 son taux d’incidence a augmenté de 1,6% par an chez les hommes et de 2,1% chez les femmes. Le taux de survie à 5 ans est de 11%. (INCa, 2024)    
    
 - **Les cancers du pancréas** sont des pathologies particulièrement complexes sur le plan diagnostique et thérapeutique, nécessitant une évaluation précise de la résécabilité et une coordination étroite entre les différentes spécialités impliquées (chirurgie, oncologie médicale, gastro-entérologie, radiologie).   
 
-- Les objectifs de l’axe Pancréas sont :   
-
-  -	Structurer la prise en charge des cancers du pancréas par l’organisation de RCP nationales pour discuter des cas complexes, notamment pour des cancers localement avancés nécessitant une expertise chirurgicale ou radiologique spécifique.   
-  -	Formalisation des « parcours-types » :   
-
-    - relecture de l’imagerie par un centre expert pour les tumeurs localisées afin de s’assurer de la bonne classification initiale   
-    - mise en place de parcours-type pour les essais cliniques ou la biologie moléculaire des centres n’y ayant pas accès   
-  -	Promouvoir la recherche translationnelle en collaboration avec le réseau FRAP   
+- **Les objectifs de l’axe Pancréas sont :**  
+    -	Structurer la prise en charge des cancers du pancréas par **l’organisation de RCP nationales** pour discuter des cas complexes, notamment pour des cancers localement avancés nécessitant une expertise chirurgicale ou radiologique spécifique.   
+    - Formalisation des « parcours-types » :   
+        - **relecture de l’imagerie** par un centre expert pour les tumeurs localisées afin de s’assurer de la bonne classification initiale   
+        - mise en place de **parcours-type pour les essais cliniques ou la biologie moléculaire** des centres n’y ayant pas accès   
+    -	Promouvoir la **recherche translationnelle** en collaboration avec le réseau [FRAP](https://www.frap-network.org/) (French Research Network against Pancreatic Adenocarcinoma)      
 
 
 ## Œsophage & Estomac
-- **Le cancer de l'estomac** concerne environ 6 500 nouveaux cas annuels et **le cancer de l'œsophage** environ 5 500 nouveaux cas, avec un âge médian au diagnostic autour de 68-71 ans. Le taux de survie à 5 ans est de 30% tous stades confondus pour les cancers de l’estomac et de 18% pour les cancers de l’œsophage.   
+- **Le cancer de l'estomac** concerne environ 6 500 nouveaux cas annuels et **le cancer de l'œsophage** environ 5 500 nouveaux cas, avec un âge médian au diagnostic autour de 68-71 ans. Le taux de survie à 5 ans est de 30% tous stades confondus pour les cancers de l’estomac et de 18% pour les cancers de l’œsophage. (INCa, 2024)   
 
-- La prise en charge des **cancers de l'oesophage, de l'estomac et de la jonction oesogastrique**, repose souvent sur des stratégies combinant chirurgie, chimiothérapie et parfois radiothérapie, et bénéficient d'une discussion collégiale approfondie compte tenu de leur hétérogénéité anatomique et pronostique.      
+- La prise en charge des **cancers de l'oesophage, de l'estomac et de la jonction oesogastrique**, repose souvent sur des stratégies combinant chirurgie, chimiothérapie et parfois radiothérapie, et nécessitent d'une discussion collégiale approfondie compte tenu de leur hétérogénéité anatomique et pronostique.      
  
-- Les objectifs de l’axe Œsophage & Estomac sont :   
-
-  -	Structurer la prise en charge des cancers de l’œsophage, estomac et jonction oeso-gastrique par l’organisation de RCP nationales d’expertise sur les cas complexes (chirurgie de rattrapage, essais innovants)   
-  -	Promouvoir la prévention des maladies précancéreuses de l’œsophage avec des formation spécifiques pour les soignants sur la détection précoce et la gestion des états précancéreux comme l’endobrachyoesophage (EBO)   
-  -	Permettre l’accès à l’innovation pour tous :
-  
-    - Faciliter l’inscription des patients dans les essais cliniques innovants   
-    - Organiser des webinaires régionaux et des ateliers nationaux pour former les professionnels sur les dernières avancées diagnostiques et thérapeutiques   
-    - Organiser des évènements à destination du grand public en région en collaboration avec les représentants des usagers dans les centres experts   
+- **Les objectifs de l’axe Œsophage & Estomac sont :**   
+    - Structurer la prise en charge des cancers de l’œsophage, estomac et jonction oeso-gastrique par l’**organisation de RCP nationales d’expertise** sur les cas complexes (chirurgie de rattrapage, essais innovants)   
+    - Promouvoir la **prévention des maladies précancéreuses** de l’œsophage avec des formation spécifiques pour les soignants sur la détection précoce et la gestion des états précancéreux comme l’endobrachyoesophage (EBO)   
+    - Permettre **l’accès à l’innovation pour tous** :   
+        - Faciliter l’inscription des patients dans les essais cliniques innovants   
+        - Organiser des webinaires régionaux et des ateliers nationaux pour former les professionnels sur les dernières avancées diagnostiques et thérapeutiques   
+        - Organiser des évènements à destination du grand public en région en collaboration avec les représentants des usagers dans les centres experts   
 
 ## Foie & Voies biliaires
-- **Le cancer du foie** touche environ 11 500 personnes par an en France, 8874 cas chez l’homme et 2784 chez la femme en 2023 (INCa, 2023), avec un âge médian au diagnostic de 70 ans. Le cancer du foie représente 7% des décès par cancer chez l’homme. Le cholangiocarcinome, ou **cancer des voies biliaires**, représente le second cancer du foie après le carcinome hépatocellulaire. On estime à environ 2000 le nombre de cas de cancers des voies biliaires par an en France. Le taux de survie des patients atteints de cancer du foie est de 18% à 5 ans.        
+- **Le cancer du foie** touche environ 11 500 personnes par an en France, 8874 cas chez l’homme et 2784 chez la femme en 2023 (INCa, 2023), avec un âge médian au diagnostic de 70 ans. Le cancer du foie représente 7% des décès par cancer chez l’homme.    
+Le cholangiocarcinome, ou **cancer des voies biliaires**, représente le second cancer du foie après le carcinome hépatocellulaire. On estime à environ 2000 le nombre de cas de cancers des voies biliaires par an en France.    
+Le taux de survie des patients atteints de cancer du foie est de 18% à 5 ans. (INCa, 2024)        
 
 - **Les cancers du foie et des voies biliaires**, regroupent notamment le carcinome hépatocellulaire et le cholangiocarcinome, pour lesquels l'expertise du réseau permet d'orienter les patients vers les options thérapeutiques les plus adaptées (chirurgie, transplantation, traitements locorégionaux, thérapies systémiques).        
 
-- Les objectifs de l’axe Foie & Voies biliaires sont :    
-
-  -	Promouvoir le dépistage des maladies chroniques du foie et des cancers primitifs du foie chez les patients à risque    
-  -	Améliorer le diagnostic :  
-
-    - Mise en place d’une relecture systématique des imageries abdominales avant ou pendant les RCP   
-    - Faciliter le recours aux plateformes d’expertise anatomopathologique pour les cas complexes   
-    - Faciliter l’accès aux avis et techniques d’endoscopie interventionnelle et de radiologie interventionnelle, en interaction avec les centres chirurgicaux expert   
-    - Permettre la caractérisation moléculaire pour tous les patients atteints de cancer des voies biliaires avancé, quel que soit le lieu de prise en charge, et au plus tôt après le diagnostic de forme avancée   
-    
-  -	Permettre une prise en charge multidisciplinaire via l’organisation d’une RCP nationale dédiée aux cancers rares des voies biliaires et autres cancers primitifs rares du foie (carcinome fibrolamellaire, angiosarcome …), permettant un accès rapide à des diagnostics complexes et des prises en soins spécialisées.   
+- **Les objectifs de l’axe Foie & Voies biliaires sont :**    
+  - **Promouvoir le dépistage** des maladies chroniques du foie et des cancers primitifs du foie chez les patients à risque    
+  - Améliorer le diagnostic :  
+      - Mise en place d’une **relecture systématique des imageries abdominales** avant ou pendant les RCP   
+      - Faciliter le **recours aux plateformes d’expertise** anatomopathologique pour les cas complexes   
+      - Faciliter l’**accès aux avis et techniques d’endoscopie interventionnelle et de radiologie interventionnelle**, en interaction avec les centres chirurgicaux expert   
+      - Permettre la **caractérisation moléculaire** pour tous les patients atteints de cancer des voies biliaires avancé, quel que soit le lieu de prise en charge, et au plus tôt après le diagnostic de forme avancée   
+  - Permettre une prise en charge multidisciplinaire via **l’organisation d’une RCP nationale** dédiée aux cancers rares des voies biliaires et autres cancers primitifs rares du foie (carcinome fibrolamellaire, angiosarcome …), permettant un accès rapide à des diagnostics complexes et des prises en soins spécialisées.   
 
   
 
