@@ -5,7 +5,7 @@ Summary: RCP, référentiels nationaux, outils harmonisés et formation à desti
 
 # RCP locales et régionales des centres experts
 
-# RCP de recours et d'expertise du réseau
+# RCP nationales de recours et d'expertise du réseau
 Les RCP de recours et d'expertise du réseau ont un périmètre national et regroupent des praticiens experts pour des situations cliniques complexes et/ou des cancers rares, ou nécessitant un accès à des innovations diagnostiques ou thérapeutiques, à une expertise clinique ou à la recherche clinique, notamment aux essais de phase I.       
 Elles sont accessibles en web-conférence sur la [**plateforme OMNIDOC**](https://omnidoc.fr/).   
 
@@ -15,8 +15,8 @@ Tout médecin prescripteur doit faire sa demande et **remplir une fiche d’insc
 ## Calendrier des RCP
 
 ## Documentation
-[Outil de connexion OMNIDOC](/images/Tutoriel Requérant RCP Omnidoc.pdf)    
-Charte des RCP
+[Outil de connexion OMNIDOC](/assets/Tutoriel Requérant RCP Omnidoc.pdf)    
+
 
 # Référentiels nationaux & guides méthodologiques
 ## Thésaurus National de Cancérologie Digestive (TNCD)
@@ -67,12 +67,12 @@ Version : 2019
 # Outils & protocoles harmonisés
 ## Fiches RCP du réseau
 ### Oesophage, Estomac, Jonction Oeso-Gastrique 
-[RCP expertise Oesophage JOG Estomac](/images/FICHE RCP expertise Oesophage  JOG Estomac v3.0 01.2026 affichage conditionnel.docm)
+[RCP expertise Oesophage JOG Estomac](/assets/FICHE RCP expertise Oesophage  JOG Estomac v3.0 01.2026 affichage conditionnel.docm)
 
 ### Foie et Voies Biliaires
-[RCP CHC](/images/FICHE RCP CHC v1.0 01.2026.docm)
+[RCP CHC](/assets/FICHE RCP CHC v1.0 01.2026.docm)
 
-[RCP CCA et tumeurs primitives rares](/images/FICHE RCP cholangiocarcinome et tumeurs primitives rares v3.0 01.2026 affichage conditionnel.docm)   
+[RCP CCA et tumeurs primitives rares](/assets/FICHE RCP cholangiocarcinome et tumeurs primitives rares v3.0 01.2026 affichage conditionnel.docm)   
 
 ## Outils pour la pratique
 ### Foie et Voies Biliaires
@@ -83,8 +83,8 @@ Version : 2019
 # Agenda
 - **ILCA Annual Conference**   
 Date : **03-05 Septembre 2026**   
-Lieu : **Lyon**   
-[![/images/CNRC2026.png](/images/CNRC2026.png)](https://congres-reseaux-cancerologie.fr/)   
+Lieu : **Bruxelles, Belgique**   
+[![/images/ILCA2026.png](/images/ILCA2026.png)](https://ilcalive.org/annual-conference-2026/)   
 
 - **99ème Journées Scientifiques de l'AFEF**   
 Date : **07-09 Octobre 2026**   
@@ -98,9 +98,9 @@ Lieu : **Lyon**
  
 - **Congrès National des Réseaux de Cancérologie**   
 Date : **19-20 Novembre 2026**   
-Lieu : **Bruxelles, Belgique**   
-[![/images/ILCA2026.png](/images/ILCA2026.png)](https://ilcalive.org/annual-conference-2026/)   
-
+Lieu : **Lyon**   
+[![/images/CNRC2026.png](/images/CNRC2026.png)](https://congres-reseaux-cancerologie.fr/)    
+   
 - **Journée scientifique Oncologie digestive**   
 Date : **27 Novembre 2026**   
 Lieu : **Lorient**   
@@ -119,4 +119,4 @@ Lieu : **Paris**
 
 # Formation
 
-*Webinaires · DPC · e-learning.*
+*A venir.*
