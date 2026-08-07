@@ -78,13 +78,13 @@ Le taux de survie des patients atteints de cancer du foie est de 18% à 5 ans. (
 - **Les cancers du foie et des voies biliaires**, regroupent notamment le carcinome hépatocellulaire et le cholangiocarcinome, pour lesquels l'expertise du réseau permet d'orienter les patients vers les options thérapeutiques les plus adaptées (chirurgie, transplantation, traitements locorégionaux, thérapies systémiques).        
 
 - **Les objectifs de l’axe Foie & Voies biliaires sont :**    
-  - **Promouvoir le dépistage** des maladies chroniques du foie et des cancers primitifs du foie chez les patients à risque    
-  - Améliorer le diagnostic :  
-      - Mise en place d’une **relecture systématique des imageries abdominales** avant ou pendant les RCP   
-      - Faciliter le **recours aux plateformes d’expertise** anatomopathologique pour les cas complexes   
-      - Faciliter l’**accès aux avis et techniques d’endoscopie interventionnelle et de radiologie interventionnelle**, en interaction avec les centres chirurgicaux expert   
-      - Permettre la **caractérisation moléculaire** pour tous les patients atteints de cancer des voies biliaires avancé, quel que soit le lieu de prise en charge, et au plus tôt après le diagnostic de forme avancée   
-  - Permettre une prise en charge multidisciplinaire via **l’organisation d’une RCP nationale** dédiée aux cancers rares des voies biliaires et autres cancers primitifs rares du foie (carcinome fibrolamellaire, angiosarcome …), permettant un accès rapide à des diagnostics complexes et des prises en soins spécialisées.   
+    - **Promouvoir le dépistage** des maladies chroniques du foie et des cancers primitifs du foie chez les patients à risque    
+    - Améliorer le diagnostic :  
+        - Mise en place d’une **relecture systématique des imageries abdominales** avant ou pendant les RCP   
+        - Faciliter le **recours aux plateformes d’expertise** anatomopathologique pour les cas complexes   
+        - Faciliter l’**accès aux avis et techniques d’endoscopie interventionnelle et de radiologie interventionnelle**, en interaction avec les centres chirurgicaux experts    
+        - Permettre la **caractérisation moléculaire** pour tous les patients atteints de cancer des voies biliaires avancé, quel que soit le lieu de prise en charge, et au plus tôt après le diagnostic de forme avancée   
+    - Permettre une prise en charge multidisciplinaire via **l’organisation d’une RCP nationale** dédiée aux cancers rares des voies biliaires et autres cancers primitifs rares du foie (carcinome fibrolamellaire, angiosarcome …), permettant un accès rapide à des diagnostics complexes et des prises en soins spécialisées.   
 
   
 
@@ -112,7 +112,7 @@ Chaque axe du réseau est porté par un centre expert référent correspondant a
 Ces centres experts référents sont reconnus pour leur expertise dans l'organisation des parcours de soins, le déploiement et l'animation de réseaux régionaux dédiés. Ils assurent un rôle de **structuration, de coordination et de leadership** scientifique et médical dans leur thématique respective.   
 Chaque centre référent pilote le projet à l’échelle nationale en s’appuyant sur des centres experts.   
 
-*Retrouvez les contacts des centres experts dans l'onglet [Centres experts](/centres-experts/#contacts-centres-referents)*
+*Retrouvez les contacts des centres experts référents dans l'onglet [Centres experts](/centres-experts/#contacts-centres-referents)*
 
 ## Les centres experts   
 Avec **une cinquantaine de centres experts** implantés en **métropole** et dans les **territoires ultramarins**, le réseau bénéficie d'un maillage territorial permettant de favoriser un accès aux soins au plus près des patients.   
@@ -144,8 +144,7 @@ Chaque bureau opérationnel est chargé de :
 
 - La coordination des actions au niveau régional et national   
 - La gestion budgétaire et financière   
-- Le suivi des projets   
-- La préparation des réunions du Comité scientifique   
+- Le suivi des projets      
 - La communication institutionnelle   
 - La gestion des partenariats   
 
