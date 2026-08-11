@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>{% block title %}{{ SITENAME }}{% endblock %}</title>
 {% block meta %}
-<meta name="description" content="{{ SITE_DESCRIPTION|default('Réseau national de recherche clinique dédié aux cancers digestifs de mauvais pronostic.') }}" />
+<meta name="description" content="{{ SITE_DESCRIPTION|default('Réseau national d\'excellence clinique dédié aux cancers digestifs de mauvais pronostic.') }}" />
 {% endblock %}
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -64,7 +64,7 @@
         <img src="{{ SITEURL }}/theme/assets/logo-transparent.png" alt="" style="width:40px;height:40px" />
         <b>PAN·TOGETHER</b>
       </a>
-      <p class="f-about">Réseau national de recherche clinique dédié aux cancers digestifs de mauvais pronostic.</p>
+      <p class="f-about">Réseau national d'excellence clinique dédié aux cancers digestifs de mauvais pronostic.</p>
     </div>
     <div><h5>Le réseau</h5>
       <a href="{{ SITEURL }}/le-reseau/">Qui sommes-nous</a>
@@ -80,8 +80,6 @@
     </div>
     <div><h5>Contact</h5>
       <a href="{{ SITEURL }}/contact/">Nous écrire</a>
-      <a href="{{ SITEURL }}/actualites/">Presse / médias</a>
-      {% for name, link in SOCIAL %}<a href="{{ link }}">{{ name }}</a>{% endfor %}
     </div>
   </div>
   <div class="copy">
