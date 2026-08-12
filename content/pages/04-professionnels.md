@@ -15,7 +15,7 @@ Tout médecin prescripteur doit faire sa demande et **remplir une fiche d’insc
 ## Calendrier des RCP
 
 ## Documentation
-[Outil de connexion OMNIDOC](/assets/Tutoriel Requérant RCP Omnidoc.pdf)    
+[Outil de connexion OMNIDOC](/assets/Tutoriel Requérant RCP Omnidoc.pdf/)    
 
 
 # Référentiels nationaux & guides méthodologiques

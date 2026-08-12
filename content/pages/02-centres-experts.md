@@ -19,7 +19,7 @@ CHU Pitié-Salpêtrière, AP-HP
 47-83 boulevard de l'Hôpital - 75013 PARIS*    
     - **Téléphone Secrétariat** : *01 42 16 10 41*   
     - **Courriel** : *jean-baptiste.bachet@aphp.fr*   
-## Axe Oesophage, Estomac
+## Axe Oesophage et Estomac
 - **Médecins coordinateurs** : **Pr METGES Jean-Philippe** & **Dr BOURBONNE Vincent**
     - **Adresse** : *Institut de Cancérologie et d’Imagerie - Pôle 7 - 1er étage   
 CHU Brest - Hôpital de La Cavale Blanche   

@@ -104,7 +104,7 @@ Chaque axe du réseau est porté par un centre expert référent correspondant a
 
 -	**Axe Pancréas** : confié au **CHU Pitié-Salpêtrière** (AP-HP), coordonné par le **Pr Jean-Baptiste Bachet**;
 
--	**Axe Œsophage, Estomac et Jonction Oeso-Gastrique** : porté par le **CHU de Brest**, sous la coordination du **Pr Jean-Philippe Metges** et du **Dr Vincent Bourbonne**;     
+-	**Axe Œsophage et Estomac** : porté par le **CHU de Brest**, sous la coordination du **Pr Jean-Philippe Metges** et du **Dr Vincent Bourbonne**;     
    
 -	**Axe Foie et Voies biliaires** : assuré par le **CHU Avicenne** (AP-HP), sous la responsabilité du **Pr Nathalie Ganne-Carrié** et du **Pr Pierre Nahon**.   
       
