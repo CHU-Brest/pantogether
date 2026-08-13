@@ -1,12 +1,13 @@
-Title: Ouverture des RCP nationales de recours en hépatologie
-Date: 2026-05-12 09:00
+Title: Premier comité scientifique
+Date: 2026-09-24 09:00
 Category: Actualités
-Tags: rcp, foie, hépatologie
-Slug: rcp-nationales-hepatologie
+Tags: réseau, comité
+Slug: comité-scientifique
 Author: CHU Brest
-Summary: Le réseau ouvre ses réunions de concertation pluridisciplinaire de recours dédiées au foie et aux voies biliaires.
+Summary: Le réseau tient son premier comité scientifique le 24 septembre.
 
-Le réseau PAN-TOGETHER ouvre ses **réunions de concertation pluridisciplinaire (RCP)
-nationales de recours** dédiées à l'axe foie & voies biliaires.
+Le réseau PAN-TOGETHER tiendra son premier comité scientifique en visioconférence le **24 Septembre de 15h à 16h30**.
 
-*(Article de démonstration — contenu à compléter.)*
+Ce comité réunira les coordonnateurs du réseau, les représentants des centres experts, des fédérations hospitalières, des sociétés savantes, des groupes et réseaux de recherche, d’associations de patients et de partenaires institutionnels.
+   
+*Vous n'avez pas reçu l'invitation ? Contactez la coordinatrice administrative du réseau : kristell.oizel@chu-brest.fr*
