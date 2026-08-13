@@ -66,11 +66,20 @@ Version : 2019
 
 # Outils & protocoles harmonisés
 ## Fiches RCP du réseau
-### Oesophage, Estomac, Jonction Oeso-Gastrique 
+Le réseau a élaboré et validé des fiches RCP, mises à disposition des professionnels de santé.   
+Ces documents sont sous format word et comportent des macros pour un affichage conditionnel :  
+
+- Cliquez sur la flèche de déroulement de menu à droite de « Choisissez une élément »   
+- Cliquez sur la réponse « Oui » ou « Non »  
+- Appuyez sur la touche Tab de votre clavier ![tab](/images/tab.png)    
+
+*Pour toute demande d'expertise du réseau, les fiches RCP sont à compléter en ligne sur la page dédiée au réseau sur la [**plateforme OMNIDOC**](https://omnidoc.fr/)*
+
+### Oesophage et Estomac
 [RCP expertise Oesophage JOG Estomac](/assets/FICHE RCP expertise Oesophage  JOG Estomac v3.0 01.2026 affichage conditionnel.docm)
 
 ### Foie et Voies Biliaires
-[RCP CHC](/assets/FICHE RCP CHC v1.0 01.2026.docm)
+[RCP CHC](/assets/FICHE RCP CHC v1.0 01.2026.docm) (validée par l'AFEF)
 
 [RCP CCA et tumeurs primitives rares](/assets/FICHE RCP cholangiocarcinome et tumeurs primitives rares v3.0 01.2026 affichage conditionnel.docm)   
 
