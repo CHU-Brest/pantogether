@@ -92,15 +92,15 @@ Le réseau FRAP vise, à travers trois programmes de recherche intégrés, à :
    
 Les actions du réseau incluent :   
 
-- Des webinaires scientifiques bimensuels sur le cancer du pancréas   
-- Une rencontre bimensuelle consacrée aux dernières avancées de la recherche sur le cancer du pancréas, avec des interventions de membres du réseau FRAP et d'experts invités. Ces webinaires visent à renforcer les échanges scientifiques et à favoriser de nouvelles collaborations au sein de la communauté de recherche sur le cancer du pancréas.   
+- Des **webinaires scientifiques bimensuels** sur le cancer du pancréas   
+- Une **rencontre bimensuelle** consacrée aux dernières avancées de la recherche sur le cancer du pancréas, avec des interventions de membres du réseau FRAP et d'experts invités. Ces webinaires visent à renforcer les échanges scientifiques et à favoriser de nouvelles collaborations au sein de la communauté de recherche sur le cancer du pancréas.   
 [Programme des webinaires](https://www.frap-network.org/Webinaires-bimensuels-FRAP-sur-le-cancer-du-pancreas?lang=fr)   
-- Un comité clinicien-chercheur-patient pour la conception des essais cliniques et de leurs études ancillaires   
+- Un **comité clinicien-chercheur-patient** pour la conception des essais cliniques et de leurs études ancillaires   
 Ce comité poursuivra quatre objectifs complémentaires :   
-    - Renforcer la valeur scientifique des essais : travailler en amont avec les chercheurs pour définir les priorités scientifiques, permettre des analyses mutualisées (par exemple des approches omiques plutôt que des tests à marqueur unique) et anticiper la collecte, la manipulation et le stockage des échantillons biologiques.
-    - Placer les patients au cœur de la conception des essais : travailler avec les représentants des patients pour évaluer l'attractivité d'une étude, son rapport bénéfice/risque, et l'acceptabilité de ses procédures pour les participants.
-    - Favoriser le dialogue sur les priorités de recherche : créer un espace d'échange entre cliniciens, chercheurs et représentants des patients et de leurs familles pour s'accorder sur les priorités.
-    - Accélérer l'innovation : faciliter les échanges entre chercheurs et cliniciens pour soutenir le transfert de nouvelles approches thérapeutiques innovantes, du laboratoire vers les essais cliniques précoces.
+    - **Renforcer la valeur scientifique des essais** : travailler en amont avec les chercheurs pour définir les priorités scientifiques, permettre des analyses mutualisées (par exemple des approches omiques plutôt que des tests à marqueur unique) et anticiper la collecte, la manipulation et le stockage des échantillons biologiques.
+    - **Placer les patients au cœur de la conception des essais** : travailler avec les représentants des patients pour évaluer l'attractivité d'une étude, son rapport bénéfice/risque, et l'acceptabilité de ses procédures pour les participants.
+    - **Favoriser le dialogue sur les priorités de recherche** : créer un espace d'échange entre cliniciens, chercheurs et représentants des patients et de leurs familles pour s'accorder sur les priorités.
+    - **Accélérer l'innovation** : faciliter les échanges entre chercheurs et cliniciens pour soutenir le transfert de nouvelles approches thérapeutiques innovantes, du laboratoire vers les essais cliniques précoces.
    
 Membres du comité :   
 
