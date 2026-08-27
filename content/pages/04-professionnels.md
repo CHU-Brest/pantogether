@@ -104,7 +104,12 @@ Lieu : **Strasbourg**
 Date : **09 Octobre 2026**   
 Lieu : **Lyon**   
 [![/images/JOD2026.png](/images/JOD2026.png)](https://www.congres-jod.org/)   
- 
+   
+- **Congrès national des Soins Oncologiques de Support**   
+Date : **14-16 Octobre 2026**   
+Lieu : **Lille et en distanciel**   
+[![Congrès AFSOS.png](/images/AFSOS2026.png)](https://www.congres-afsos.com/inscriptions/)   
+   
 - **Congrès National des Réseaux de Cancérologie**   
 Date : **19-20 Novembre 2026**   
 Lieu : **Lyon**   

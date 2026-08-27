@@ -229,11 +229,20 @@ Vous trouverez ci-dessous la liste des **associations partenaires du réseau PAN
 
 # Agenda (grand public)
 
+- **Recherche participative en santé**   
+Date : **24 Septembre 2026**   
+Lieu : **Lyon**   
+[![rencontreslyon24092026.png](/images/rencontreslyon2026.png)](https://evento.renater.fr/survey/recherche-participative-en-sante-ou-comment-co-construire-des-projets-de-recherche-avec-les-citoyens-et-les-patients-24-sept-2026-mairie-de-lyon-6-djb71n59)   
+   
 - **Journée scientifique sur la prévention et le dépistage des cancers**   
 Date : **29 Septembre 2026**   
-Lieu :** Paris**   
-[![/images/inca290926.png](/images/inca290926.png)](https://www.cancer.fr/evenements/journee-scientifique-sur-le-depistage-et-la-prevention-des-cancers)   
+Lieu : **Paris**   
+[![Journéeinca290926.png](/images/inca290926.png)](https://www.cancer.fr/evenements/journee-scientifique-sur-le-depistage-et-la-prevention-des-cancers)   
 
+- **Conférence grand public : Fake News en santé: Comment s'informer sans se mettre en danger ?**   
+Date : **14 Octobre 2026**   
+Lieu : **Lille et en distanciel**   
+[![Congrès AFSOS.png](/images/AFSOS2026.png)](https://www.congres-afsos.com/inscriptions/)   
    
 # Lexique
 
