@@ -150,6 +150,11 @@ Chaque bureau opérationnel est chargé de :
 
 Les bureaux opérationnels se réunissent de manière trimestrielle et transmettent un rapport d'activité au Comité Scientifique.   
 
+## La charte de gouvernance du réseau   
+   
+Retrouvez la [charte de de gouvernance du réseau](/assets/Charte fonctionnement réseau v1.0 05.26.pdf).    
+Chaque membre du comité scientifique et des bureaux opérationnels s'engagent à la respecter.   
+
 # Partenaires & financement
 *Réseau labellisé par l'INCa*   
 
