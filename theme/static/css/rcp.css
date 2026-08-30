@@ -162,10 +162,6 @@
 .kv dd { margin: 0; color: var(--ink); font-weight: 600; overflow-wrap: anywhere; }
 .kv dd a { color: var(--brand-ink); }
 .kv .none { color: var(--faint); font-weight: 400; }
-.reveal-btn {
-  background: none; border: none; padding: 0; font-family: inherit; font-size: inherit;
-  font-weight: 600; color: var(--brand-ink); cursor: pointer; text-decoration: underline;
-}
 .info ul.plx { margin: 0; padding-left: 18px; font-size: 14.5px; color: var(--ink); }
 .info ul.plx li { margin-bottom: 3px; }
 

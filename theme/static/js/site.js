@@ -124,7 +124,82 @@
     }
   }
 
-  function init() { bindThemeToggle(); bindBurger(); initDocs(); }
+  /* ---------- Affiches d'agenda : agrandissement ----------
+     Les affiches de congrès sont illisibles en vignette. Le clic les ouvre
+     dans un <dialog> natif : on hérite gratuitement du piège de focus, de
+     l'inertie de l'arrière-plan et de la fermeture par Échap.
+     Le href pointe sur le fichier image : si <dialog> manque, le navigateur
+     suit le lien et affiche quand même l'affiche en grand. */
+  function bindPosters() {
+    var links = document.querySelectorAll('a.poster');
+    if (!links.length) return;
+    var dlg = null, dlgImg = null;
+
+    function build() {
+      dlg = document.createElement('dialog');
+      dlg.className = 'poster-zoom';
+      var close = document.createElement('button');
+      close.type = 'button';
+      close.className = 'poster-zoom-close';
+      close.setAttribute('aria-label', 'Fermer l\u2019affiche');
+      close.innerHTML = '&times;';
+      dlgImg = document.createElement('img');
+      dlg.appendChild(close);
+      dlg.appendChild(dlgImg);
+      document.body.appendChild(dlg);
+      close.addEventListener('click', function () { dlg.close(); });
+      /* Clic sur le fond : la cible n'est le <dialog> que hors de son contenu. */
+      dlg.addEventListener('click', function (ev) { if (ev.target === dlg) dlg.close(); });
+    }
+
+    function open(ev) {
+      var img = this.querySelector('img');
+      if (!img) return;
+      if (!dlg) build();
+      if (!dlg.showModal) return;   /* pas de <dialog> : on laisse suivre le lien */
+      ev.preventDefault();
+      dlgImg.src = this.getAttribute('href');
+      dlgImg.alt = img.getAttribute('alt') || '';
+      dlg.showModal();
+    }
+
+    for (var i = 0; i < links.length; i++) links[i].addEventListener('click', open);
+  }
+
+  /* ---------- Coordonnées protégées ---------- */
+  // Adresses et numéros arrivent brouillés dans data-coord (plugin « coordonnees »)
+  // — rot13/rot5 puis base64 : rien d'exploitable dans le HTML tant que le visiteur
+  // n'a pas cliqué. Même principe que les fiches RCP, révélées au clic elles aussi.
+  function derot(s) {
+    // rot13 sur les lettres, rot5 sur les chiffres : sa propre inverse.
+    return s.replace(/[a-z0-9]/gi, function (c) {
+      var o = c.charCodeAt(0);
+      if (o >= 65 && o <= 90) return String.fromCharCode((o - 65 + 13) % 26 + 65);
+      if (o >= 97 && o <= 122) return String.fromCharCode((o - 97 + 13) % 26 + 97);
+      return String.fromCharCode((o - 48 + 5) % 10 + 48);
+    });
+  }
+
+  function bindCoordonnees() {
+    var btns = document.querySelectorAll('.reveal-btn[data-coord]');
+    if (!btns.length) return;
+
+    function reveal() {
+      var valeur;
+      try { valeur = derot(decodeURIComponent(escape(atob(this.dataset.coord)))); }
+      catch (err) { return; }
+      var mail = this.getAttribute('data-kind') === 'mail';
+      var a = document.createElement('a');
+      // tel: n'accepte ni espace ni séparateur, contrairement à l'affichage.
+      a.href = mail ? 'mailto:' + valeur : 'tel:' + valeur.replace(/[^+0-9]/g, '');
+      a.textContent = valeur;
+      this.replaceWith(a);
+    }
+
+    for (var i = 0; i < btns.length; i++) btns[i].addEventListener('click', reveal);
+  }
+
+  function init() { bindThemeToggle(); bindBurger(); initDocs(); bindPosters(); bindCoordonnees(); }
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);
   else init();
 })();
