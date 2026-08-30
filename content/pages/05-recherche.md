@@ -65,9 +65,55 @@ L'appel est ouvert à des projets portant notamment sur :
 
 # Registres & biobanques
 ## FRANCIM
+![FRANCIM](/images/francim.jpg)
 Le réseau français des registres de cancers FRANCIM (France Cancer Incidence et Mortalité) regroupe :    
 
 - 14 registres généraux   
 - 10 registres spécialisés dont 3 digestifs : Bourguignon (Côte-d’Or et Saône et Loire), Calvados, Finistère   
 
 *Pour plus d'informations veuillez consulter le [site du réseau FRANCIM](https://www.francim-reseau.org/)*
+
+## FRAP
+![FRAP](/images/frap.png)   
+Le réseau FRAP (French Research Network against Pancreatic Adenocarcinoma / **Réseau français de recherche contre l'adénocarcinome pancréatique**) est l'un des trois lauréats de l'appel à candidatures 2024 lancé par l'Institut National du Cancer, visant à promouvoir et à reconnaître des réseaux de recherche d'excellence spécialisés dans les cancers de mauvais pronostic.   
+   
+Coordonné par le Professeur Jérôme Cros, de l'Hôpital Beaujon à Clichy, le réseau rassemble **15 équipes de recherche et entités associées**, parmi lesquelles des groupes coopérateurs en oncologie, des équipes cliniques et des associations de patients.   
+   
+Le réseau FRAP vise, à travers trois programmes de recherche intégrés, à :   
+
+- Établir un **pôle de ressources national français** dédié au cancer du pancréas, composé de :
+    - un pôle préclinique d'organoïdes, de fibroblastes associés au cancer (CAF) et de xénogreffes dérivées de patients (PDX)   
+    - un pôle de données et d'analyses moléculaires (profils pangénomiques : ADN, ARN (en masse, spatial et unicellulaire), protéines et métabolisme)
+    - et un pôle tissulaire issu des collections cliniques des groupes coopérateurs en oncologie (GERCOR, FFCD et UNICANCER), ainsi que de la biobanque BACAP et de centres monocentriques   
+   
+- Piloter une **recherche fondamentale** guidée par les questions cliniques, en étudiant l'impact de l'exposome sur l'adénocarcinome pancréatique (PDAC), les mécanismes de résistance liés au microenvironnement tumoral, ainsi que les effets systémiques du PDAC sur le métabolisme et la qualité de vie des patients, afin d'orienter des essais centrés sur le patient. Ainsi que des projets de preuve de concept répondant aux appels à projets de recherche innovante lancés par le FRAP.   
+   
+- Accélérer la **translation des découvertes vers la pratique clinique**, en faisant maturer des biomarqueurs prédictifs, en développant des thérapeutiques innovantes et en optimisant les essais cliniques grâce à des critères d'évaluation multidisciplinaires centrés sur le patient.   
+   
+Les actions du réseau incluent :   
+
+- Des **webinaires scientifiques bimensuels** sur le cancer du pancréas   
+- Une **rencontre bimensuelle** consacrée aux dernières avancées de la recherche sur le cancer du pancréas, avec des interventions de membres du réseau FRAP et d'experts invités. Ces webinaires visent à renforcer les échanges scientifiques et à favoriser de nouvelles collaborations au sein de la communauté de recherche sur le cancer du pancréas.   
+[Programme des webinaires](https://www.frap-network.org/Webinaires-bimensuels-FRAP-sur-le-cancer-du-pancreas?lang=fr)   
+- Un **comité clinicien-chercheur-patient** pour la conception des essais cliniques et de leurs études ancillaires   
+Ce comité poursuivra quatre objectifs complémentaires :   
+    - **Renforcer la valeur scientifique des essais** : travailler en amont avec les chercheurs pour définir les priorités scientifiques, permettre des analyses mutualisées (par exemple des approches omiques plutôt que des tests à marqueur unique) et anticiper la collecte, la manipulation et le stockage des échantillons biologiques.
+    - **Placer les patients au cœur de la conception des essais** : travailler avec les représentants des patients pour évaluer l'attractivité d'une étude, son rapport bénéfice/risque, et l'acceptabilité de ses procédures pour les participants.
+    - **Favoriser le dialogue sur les priorités de recherche** : créer un espace d'échange entre cliniciens, chercheurs et représentants des patients et de leurs familles pour s'accorder sur les priorités.
+    - **Accélérer l'innovation** : faciliter les échanges entre chercheurs et cliniciens pour soutenir le transfert de nouvelles approches thérapeutiques innovantes, du laboratoire vers les essais cliniques précoces.
+   
+Membres du comité :   
+
+- Jérôme Cros (Clinicien)
+- Brice Chanez (Clinicien)
+- Jean-Baptiste Bachet (Clinicien)
+- Pierre Cordelier (Chercheur)
+- Rémy Nicolle (Chercheur)
+- Erinn Soucie (Chercheuse)
+- Ilaria Cascone (Chercheuse)
+- Philippe François-Steininger (Président, Espoir Pancréas (représentant des patients))
+
+
+*Contact : contact@frap-network.org*   
+   
+*Plus d'informations sur le [site web du réseau FRAP](https://www.frap-network.org/?lang=fr)*

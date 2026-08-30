@@ -4,6 +4,17 @@ Template: docs
 Summary: RCP, référentiels nationaux, outils harmonisés et formation à destination des professionnels.
 
 # RCP locales et régionales des centres experts
+Chaque centre expert du réseau organise ses propres réunions de concertation
+pluridisciplinaire, sur un ou plusieurs des trois axes (foie et voies biliaires,
+œsophage et jonction œso-gastrique, pancréas).
+
+L'annuaire recense pour chacune son jour et son horaire, son lieu, l'accès en
+visioconférence, les modalités de soumission d'un dossier et les contacts du
+centre. Il est consultable par mot-clé, par région, par plateau technique ou
+directement sur la carte.
+
+[**Rechercher une RCP**](/rcp/){: .btn .btn-p }
+
 
 # RCP nationales de recours et d'expertise du réseau
 Les RCP de recours et d'expertise du réseau ont un périmètre national et regroupent des praticiens experts pour des situations cliniques complexes et/ou des cancers rares, ou nécessitant un accès à des innovations diagnostiques ou thérapeutiques, à une expertise clinique ou à la recherche clinique, notamment aux essais de phase I.       
@@ -17,6 +28,30 @@ Tout médecin prescripteur doit faire sa demande et **remplir une fiche d’insc
 ## Documentation
 [Outil de connexion OMNIDOC](/assets/Tutoriel Requérant RCP Omnidoc.pdf)    
 
+
+# Contacts centres référents
+## Axe Pancréas
+- **Médecin coordinateur** : **Pr BACHET Jean-Baptiste**
+    - **Adresse** : *Service d'hépato-gastro-entérologie   
+CHU Pitié-Salpêtrière, AP-HP   
+47-83 boulevard de l'Hôpital - 75013 PARIS*    
+    - **Téléphone Secrétariat** : *01 42 16 10 41*   
+    - **Courriel** : *jean-baptiste.bachet@aphp.fr*   
+## Axe Oesophage et Estomac
+- **Médecins coordinateurs** : **Pr METGES Jean-Philippe** & **Dr BOURBONNE Vincent**
+    - **Adresse** : *Institut de Cancérologie et d’Imagerie - Pôle 7 - 1er étage   
+CHU Brest - Hôpital de La Cavale Blanche   
+Boulevard Tanguy Prigent - 29200 BREST*    
+    - **Téléphone Secrétariat** : *02 98 22 38 78*   
+    - **Courriels** : *jean-philippe.metges@chu-brest.fr* & *BOURBONV@tcd.ie*   
+
+## Axe Foie et Voies Biliaires   
+- **Médecins coordinateurs** : **Pr GANNE-CARRIE Nathalie** & **Pr NAHON Pierre**
+    - **Adresse** : *Service d'Hépatologie et d'oncologie Hépatique - Bâtiment Larrey A   
+CHU Avicenne, AP-HP    
+125 rue de Stalingrad - 93000 BOBIGNY*   
+    - **Téléphone Secrétariat** : *01 48 02 68 03*   
+    - **Courriels** : *nathalie.ganne@aphp.fr* & *pierre.nahon@aphp.fr*
 
 # Référentiels nationaux & guides méthodologiques
 ## Thésaurus National de Cancérologie Digestive (TNCD)
@@ -66,11 +101,20 @@ Version : 2019
 
 # Outils & protocoles harmonisés
 ## Fiches RCP du réseau
-### Oesophage, Estomac, Jonction Oeso-Gastrique 
+Le réseau a élaboré et validé des fiches RCP, mises à disposition des professionnels de santé.   
+Ces documents sont sous format word et comportent des macros pour un affichage conditionnel :  
+
+- Cliquez sur la flèche de déroulement de menu à droite de « Choisissez une élément »   
+- Cliquez sur la réponse « Oui » ou « Non »  
+- Appuyez sur la touche Tab de votre clavier ![tab](/images/tab.png)    
+
+*Pour toute demande d'expertise du réseau, les fiches RCP sont à compléter en ligne sur la page dédiée au réseau sur la [**plateforme OMNIDOC**](https://omnidoc.fr/)*
+
+### Oesophage et Estomac
 [RCP expertise Oesophage JOG Estomac](/assets/FICHE RCP expertise Oesophage  JOG Estomac v3.0 01.2026 affichage conditionnel.docm)
 
 ### Foie et Voies Biliaires
-[RCP CHC](/assets/FICHE RCP CHC v1.0 01.2026.docm)
+[RCP CHC](/assets/FICHE RCP CHC v1.0 01.2026.docm) (validée par l'AFEF)
 
 [RCP CCA et tumeurs primitives rares](/assets/FICHE RCP cholangiocarcinome et tumeurs primitives rares v3.0 01.2026 affichage conditionnel.docm)   
 
@@ -95,7 +139,12 @@ Lieu : **Strasbourg**
 Date : **09 Octobre 2026**   
 Lieu : **Lyon**   
 [![/images/JOD2026.png](/images/JOD2026.png)](https://www.congres-jod.org/)   
- 
+   
+- **Congrès national des Soins Oncologiques de Support**   
+Date : **14-16 Octobre 2026**   
+Lieu : **Lille et en distanciel**   
+[![Congrès AFSOS.png](/images/AFSOS2026.png)](https://www.congres-afsos.com/inscriptions/)   
+   
 - **Congrès National des Réseaux de Cancérologie**   
 Date : **19-20 Novembre 2026**   
 Lieu : **Lyon**   

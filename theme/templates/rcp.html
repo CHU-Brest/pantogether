@@ -1,0 +1,68 @@
+{% extends "base.html" %}
+{% block title %}{{ page.title }} — PAN·TOGETHER{% endblock %}
+
+{% block head %}
+<link rel="stylesheet" href="{{ SITEURL }}/theme/vendor/leaflet/leaflet.css" />
+<link rel="stylesheet" href="{{ SITEURL }}/theme/css/rcp.css" />
+{% endblock %}
+
+{% block content %}
+
+<!-- ===================== BANDEAU DE RECHERCHE ===================== -->
+<div class="rcp-search"><div class="wrap rcp-wrap">
+  <span class="lbl">Rechercher une RCP</span>
+  <div class="searchbox">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.5-4.5"/></svg>
+    <input id="q" type="search" placeholder="Mot-clé : RCP, centre, ville, région, soin de support, plateau technique…" autocomplete="off" aria-label="Rechercher une RCP" />
+  </div>
+  <button class="btn btn-p" id="go" type="button">Rechercher</button>
+</div></div>
+
+<!-- ===================== APPLICATION 3 PANNEAUX ===================== -->
+<main class="rcp-app">
+
+  <aside class="pane filters">
+    <div class="pane-h">Filtres <button class="reset-btn" id="reset" type="button">Réinitialiser</button></div>
+    <div class="pane-body" id="filters"></div>
+  </aside>
+
+  <section class="pane results">
+    <div class="pane-h"><span class="res-count" id="count" role="status" aria-live="polite">Chargement…</span></div>
+    <p class="omnidoc-note">
+      Cette liste couvre les <b>RCP locales et régionales</b> des centres experts.
+      Les RCP nationales de recours se tiennent sur
+      <a href="{{ SITEURL }}/professionnels/#rcp-nationales-de-recours-et-dexpertise-du-reseau">OMNIDOC</a>.
+    </p>
+    <div class="pane-body" id="results"></div>
+  </section>
+
+  <section class="pane detail">
+    <div class="pane-h">
+      <div class="tabs">
+        <button class="tab-btn on" data-tab="map" type="button">Carte</button>
+        <button class="tab-btn" data-tab="info" type="button">Informations</button>
+      </div>
+    </div>
+    <div class="pane-body">
+      <div class="tab-panel on" id="tab-map"><div id="map-wrap">
+        <div id="map"></div>
+        <div>
+          <div class="om-title" id="om-title" hidden>Outre-mer</div>
+          <div class="om-strip" id="om-strip"></div>
+        </div>
+      </div></div>
+      <div class="tab-panel" id="tab-info"><div id="info-body">
+        <div class="info-empty">Sélectionnez une RCP dans la liste pour afficher ses informations détaillées.</div>
+      </div></div>
+    </div>
+  </section>
+
+</main>
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ SITEURL }}/theme/vendor/leaflet/leaflet.js"></script>
+<script src="{{ SITEURL }}/theme/vendor/fuse/fuse.min.js"></script>
+<script>window.RCP_DATA_URL = "{{ SITEURL }}/data/rcp.json";</script>
+<script src="{{ SITEURL }}/theme/js/rcp.js"></script>
+{% endblock %}

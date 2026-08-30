@@ -1,0 +1,194 @@
+/* ============================================================
+   PAN-TOGETHER — Moteur de recherche des RCP
+   Chargé uniquement par le template `rcp.html`.
+   S'appuie sur les tokens de site.css (--brand, --axis-*, --bar…).
+   ============================================================ */
+
+/* Hauteur de l'en-tête (74px) + du bandeau de recherche (26+48+26). */
+:root { --rcp-chrome: 174px; }
+
+.rcp-wrap { max-width: 1500px; padding: 0 24px; }
+
+/* ---------- bandeau de recherche ---------- */
+.rcp-search { background: var(--bar); padding: 26px 0; }
+.rcp-search .wrap { display: flex; gap: 12px; align-items: center; }
+.rcp-search .lbl {
+  color: var(--bar-ink); font-weight: 800; font-size: 17px;
+  letter-spacing: -.01em; white-space: nowrap; margin-right: 8px;
+}
+.searchbox {
+  flex: 1; display: flex; align-items: center; gap: 10px;
+  background: var(--bg); border-radius: var(--r-sm); padding: 0 14px; height: 48px;
+}
+.searchbox svg { color: var(--faint); flex: 0 0 auto; }
+.searchbox input {
+  flex: 1; border: none; outline: none; background: none;
+  font-family: inherit; font-size: 15px; color: var(--ink);
+}
+.searchbox input::placeholder { color: var(--faint); }
+.rcp-search .btn-p { height: 48px; padding: 0 26px; }
+
+/* ---------- ossature 3 panneaux ---------- */
+.rcp-app {
+  display: grid; grid-template-columns: 250px 370px minmax(0, 1fr);
+  max-width: 1500px; margin: 0 auto;
+  border: 1px solid var(--line); border-top: none;
+  height: calc(100vh - var(--rcp-chrome)); min-height: 480px;
+}
+.pane {
+  border-right: 1px solid var(--line);
+  display: flex; flex-direction: column; min-height: 0; overflow: hidden;
+}
+.pane:last-child { border-right: none; }
+.pane-h {
+  padding: 16px 20px; border-bottom: 1px solid var(--line);
+  font-size: 12px; letter-spacing: .12em; text-transform: uppercase;
+  color: var(--faint); font-weight: 700;
+  display: flex; justify-content: space-between; align-items: center; flex: 0 0 auto;
+}
+.pane-body { overflow-y: auto; flex: 1; min-height: 0; }
+
+/* ---------- filtres ---------- */
+.filters .grp { padding: 16px 20px; border-bottom: 1px solid var(--line); }
+.filters .grp h4 { margin: 0 0 10px; font-size: 13.5px; font-weight: 700; color: var(--ink); }
+.filters label.chk {
+  display: flex; align-items: center; gap: 9px; padding: 5px 0;
+  font-size: 14px; color: var(--text); cursor: pointer;
+}
+.filters label.chk input { accent-color: var(--brand); width: 15px; height: 15px; flex: 0 0 auto; }
+.filters label.chk .cnt { margin-left: auto; font-size: 12px; color: var(--faint); }
+.reset-btn {
+  background: none; border: none; color: var(--brand-ink); font-family: inherit;
+  font-size: 12px; font-weight: 700; cursor: pointer;
+  letter-spacing: .05em; text-transform: uppercase; padding: 0;
+}
+.more-btn {
+  background: none; border: none; color: var(--brand-ink); font-family: inherit;
+  font-size: 12.5px; font-weight: 700; cursor: pointer; padding: 6px 0 0;
+}
+.more-btn:hover { text-decoration: underline; }
+
+/* ---------- résultats ---------- */
+.omnidoc-note {
+  margin: 0; padding: 11px 20px; background: var(--brand-soft);
+  color: var(--brand-ink); font-size: 12.5px; line-height: 1.5;
+  border-bottom: 1px solid var(--line); flex: 0 0 auto;
+}
+.omnidoc-note a { color: inherit; }
+.res-count { color: var(--ink); font-weight: 800; text-transform: none; letter-spacing: 0; font-size: 13.5px; }
+.res-item {
+  display: block; width: 100%; text-align: left; background: none; border: none;
+  border-bottom: 1px solid var(--line); padding: 16px 20px;
+  cursor: pointer; font-family: inherit; transition: background .12s;
+}
+.res-item:hover { background: var(--surface); }
+.res-item.sel { background: var(--brand-soft); box-shadow: inset 3px 0 0 var(--brand); }
+.res-item .ax {
+  display: inline-block; font-size: 11px; font-weight: 800; letter-spacing: .08em;
+  text-transform: uppercase; color: var(--ac); margin-bottom: 6px;
+}
+.res-item .ax::before {
+  content: ''; display: inline-block; width: 8px; height: 8px; border-radius: 50%;
+  background: var(--ac); margin-right: 6px; vertical-align: 1px;
+}
+.res-item h4 { margin: 0; font-size: 15px; font-weight: 700; color: var(--ink); line-height: 1.3; }
+.res-item .ctr { font-size: 13.5px; color: var(--muted); margin-top: 4px; }
+.res-item .meta { font-size: 12.5px; color: var(--faint); margin-top: 6px; }
+.res-empty { padding: 40px 24px; text-align: center; color: var(--muted); font-size: 14.5px; }
+
+/* ---------- onglets ---------- */
+.tabs { display: flex; gap: 4px; }
+.tab-btn {
+  background: none; border: none; font-family: inherit; font-size: 13px; font-weight: 700;
+  color: var(--faint); padding: 7px 14px; border-radius: var(--r-sm);
+  cursor: pointer; letter-spacing: .02em;
+}
+.tab-btn:hover { color: var(--muted); }
+.tab-btn.on { background: var(--bar); color: var(--bar-ink); }
+.tab-panel { display: none; height: 100%; min-height: 0; }
+.tab-panel.on { display: flex; flex-direction: column; }
+.tab-panel > div { flex: 1; min-height: 0; }
+
+/* ---------- carte ---------- */
+#map-wrap { padding: 18px; height: 100%; box-sizing: border-box; display: flex; flex-direction: column; gap: 12px; }
+#map { flex: 1; min-height: 260px; border-radius: var(--r-md); border: 1px solid var(--line); }
+.leaflet-container { background: var(--surface); font: inherit; }
+.leaflet-popup-content { margin: 12px 14px; font-size: 13.5px; }
+.leaflet-popup-content .pop-h {
+  font-size: 11px; letter-spacing: .1em; text-transform: uppercase;
+  color: var(--faint); font-weight: 700; margin-bottom: 6px;
+}
+.pop-item {
+  display: block; width: 100%; text-align: left; background: none;
+  border: none; border-top: 1px solid var(--line);
+  padding: 7px 0 6px; cursor: pointer; font-family: inherit;
+  font-size: 13.5px; color: var(--ink); font-weight: 600; line-height: 1.35;
+}
+.pop-item:first-of-type { border-top: none; }
+.pop-item:hover { color: var(--brand-ink); }
+.pop-item .ax { display: block; font-size: 11px; font-weight: 800; text-transform: uppercase; color: var(--ac); }
+
+/* Le fond sombre est une vraie couche CARTO (dark_all) : aucun filtre requis. */
+[data-theme="dark"] .leaflet-control-attribution { background: rgba(14, 23, 38, .8); color: var(--muted); }
+[data-theme="dark"] .leaflet-control-attribution a { color: var(--brand-ink); }
+
+.om-strip { flex: 0 0 auto; display: flex; gap: 10px; flex-wrap: wrap; }
+.om-tile {
+  border: 1px solid var(--line); border-radius: var(--r-sm); padding: 8px 12px;
+  font-size: 12.5px; color: var(--muted); display: flex; align-items: center; gap: 8px;
+  cursor: pointer; background: var(--bg); font-family: inherit;
+}
+.om-tile .d { width: 10px; height: 10px; border-radius: 50%; background: var(--ac); }
+.om-tile.sel { border-color: var(--brand); background: var(--brand-soft); color: var(--brand-ink); font-weight: 700; }
+.om-title { font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: var(--faint); font-weight: 700; margin-bottom: 6px; }
+
+/* ---------- fiche détaillée ---------- */
+.info-empty { padding: 48px 32px; text-align: center; color: var(--muted); font-size: 14.5px; }
+.info { padding: 26px 30px; }
+.info .ax { font-size: 11.5px; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; color: var(--ac); }
+.info h2 { margin: 8px 0 2px; font-size: 24px; font-weight: 800; color: var(--ink); letter-spacing: -.015em; }
+.info .sub { color: var(--muted); font-size: 15px; margin: 0 0 20px; }
+.info .tag {
+  display: inline-block; font-size: 11px; font-weight: 700; letter-spacing: .06em;
+  text-transform: uppercase; color: var(--brand-ink); background: var(--brand-soft);
+  border-radius: var(--r-pill); padding: 3px 10px; margin: 0 6px 8px 0;
+}
+.info h3 {
+  font-size: 12px; letter-spacing: .12em; text-transform: uppercase;
+  color: var(--faint); font-weight: 700; margin: 26px 0 10px;
+}
+.kv { display: grid; grid-template-columns: 170px 1fr; gap: 7px 18px; font-size: 14.5px; }
+.kv dt { color: var(--muted); }
+.kv dd { margin: 0; color: var(--ink); font-weight: 600; overflow-wrap: anywhere; }
+.kv dd a { color: var(--brand-ink); }
+.kv .none { color: var(--faint); font-weight: 400; }
+.reveal-btn {
+  background: none; border: none; padding: 0; font-family: inherit; font-size: inherit;
+  font-weight: 600; color: var(--brand-ink); cursor: pointer; text-decoration: underline;
+}
+.info ul.plx { margin: 0; padding-left: 18px; font-size: 14.5px; color: var(--ink); }
+.info ul.plx li { margin-bottom: 3px; }
+
+/* ---------- adaptatif ---------- */
+@media (max-width: 1100px) {
+  .rcp-app { grid-template-columns: 230px 1fr; height: auto; }
+  .pane { max-height: 60vh; }
+  .pane.detail { grid-column: 1 / -1; border-top: 1px solid var(--line); min-height: 560px; max-height: none; }
+}
+@media (max-width: 760px) {
+  .rcp-app { grid-template-columns: 1fr; }
+  .pane { border-right: none; border-bottom: 1px solid var(--line); }
+  .rcp-search .wrap { flex-wrap: wrap; }
+  .rcp-search .lbl { width: 100%; }
+  .kv { grid-template-columns: 1fr; gap: 2px 0; }
+  .kv dt { margin-top: 8px; }
+}
+
+/* Couleur des marqueurs par axe : posée en CSS (et non via les options Leaflet)
+   pour qu'elle suive le thème clair/sombre sans intervention JS. */
+.mk { stroke: var(--bg); stroke-width: 2; cursor: pointer; }
+.mk-foie      { fill: var(--axis-foie); }
+.mk-pancreas  { fill: var(--axis-pancreas); }
+.mk-gastric   { fill: var(--axis-gastric); }
+.mk-mixte     { fill: var(--brand); }
+.mk.sel { stroke: var(--ink); stroke-width: 3; }

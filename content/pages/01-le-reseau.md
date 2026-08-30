@@ -104,7 +104,7 @@ Chaque axe du réseau est porté par un centre expert référent correspondant a
 
 -	**Axe Pancréas** : confié au **CHU Pitié-Salpêtrière** (AP-HP), coordonné par le **Pr Jean-Baptiste Bachet**;
 
--	**Axe Œsophage, Estomac et Jonction Oeso-Gastrique** : porté par le **CHU de Brest**, sous la coordination du **Pr Jean-Philippe Metges** et du **Dr Vincent Bourbonne**;     
+-	**Axe Œsophage et Estomac** : porté par le **CHU de Brest**, sous la coordination du **Pr Jean-Philippe Metges** et du **Dr Vincent Bourbonne**;     
    
 -	**Axe Foie et Voies biliaires** : assuré par le **CHU Avicenne** (AP-HP), sous la responsabilité du **Pr Nathalie Ganne-Carrié** et du **Pr Pierre Nahon**.   
       
@@ -112,7 +112,7 @@ Chaque axe du réseau est porté par un centre expert référent correspondant a
 Ces centres experts référents sont reconnus pour leur expertise dans l'organisation des parcours de soins, le déploiement et l'animation de réseaux régionaux dédiés. Ils assurent un rôle de **structuration, de coordination et de leadership** scientifique et médical dans leur thématique respective.   
 Chaque centre référent pilote le projet à l’échelle nationale en s’appuyant sur des centres experts.   
 
-*Retrouvez les contacts des centres experts référents dans l'onglet [Centres experts](/centres-experts/#contacts-centres-referents)*
+*Retrouvez les contacts des centres experts référents dans l'onglet [Espace professionnels](/professionnels/#contacts-centres-referents)*
 
 ## Les centres experts   
 Avec **une cinquantaine de centres experts** implantés en **métropole** et dans les **territoires ultramarins**, le réseau bénéficie d'un maillage territorial permettant de favoriser un accès aux soins au plus près des patients.   
@@ -150,6 +150,11 @@ Chaque bureau opérationnel est chargé de :
 
 Les bureaux opérationnels se réunissent de manière trimestrielle et transmettent un rapport d'activité au Comité Scientifique.   
 
+## La charte de gouvernance du réseau   
+   
+Retrouvez la [charte de de gouvernance du réseau](/assets/Charte fonctionnement réseau v1.0 05.26.pdf).    
+Chaque membre du comité scientifique et des bureaux opérationnels s'engagent à la respecter.   
+
 # Partenaires & financement
 *Réseau labellisé par l'INCa*   
 
@@ -158,8 +163,9 @@ Le réseau **PAN-TOGETHER** a été labellisé et financé par **l’INCa** à l
 Il est soutenu par :   
 
 -	3 fédérations hospitalières : FHF, Unicancer et FHP     
-- 15 sociétés savantes :  ACHBT, AERIO, AFEF, AFIGHE, AFSOS, ANGH, ASFAR, FFCD, SFCD, SFCO, SFED, SFjRO, SFPO, SIAD, SNFGE   
+- 15 sociétés savantes :  ACHBT, AFEF, AFIGHE, AFSOS, ANGH, ASFAR, FFCD, FRENCH, GERCOR, SFCD, SFCO, SFED, SFPO, SIAD, SNFGE
+- Des associations d'internes : AERIO, SFjRO   
 - Les instances professionnelles : CNP IPA, Présidents de CME de CHU et CHG   
-- Les groupes et réseaux de recherche : GERCOR, FRANCIM, réseau FRAP   
+- Les groupes et réseaux de recherche : FRANCIM, UNICANCER GI, réseau FRAP   
 - Les associations et partenaires institutionnels : La ligue contre le cancer, ADIRESCA, la Direction du CHU de Brest   
 - Les associations de patients : ARCAD, ALBI, SOS hépatites, France Fer Hemochromatose, L'étendard des cancers digestifs

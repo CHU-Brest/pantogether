@@ -13,7 +13,7 @@
   <div class="news-grid" style="margin-top:10px">
     {% for article in articles %}
     <a class="news-card" href="{{ SITEURL }}/{{ article.url }}">
-      <div class="ph">[ visuel ]</div>
+      <div class="ph"><img src="{{ article.thumbnail_url }}" alt="" loading="lazy" /></div>
       <div class="b">
         <div class="date">{{ article.date|fr_date }}{% if article.category %} · {{ article.category }}{% endif %}</div>
         <h4>{{ article.title }}</h4>
