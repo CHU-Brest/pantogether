@@ -1,6 +1,11 @@
 AUTHOR = 'CHU Brest'
 SITENAME = 'PAN·TOGETHER'
 SITE_DESCRIPTION = "Réseau national de recherche clinique dédié aux cancers digestifs de mauvais pronostic."
+
+# Bandeau fin affiché au-dessus de l'en-tête, sur toutes les pages.
+# Mettre à None (ou "") pour le retirer ; surchargeable dans publishconf.py.
+SITE_BANNER = "Site en construction"
+
 SITEURL = ""
 
 PATH = "content"
@@ -28,7 +33,7 @@ JINJA_FILTERS = {"fr_date": fr_date}
 # ------------------------------------------------------------------
 THEME = "theme"
 PLUGIN_PATHS = ["plugins"]
-PLUGINS = ["docs_panels", "pelican.plugins.sitemap"]
+PLUGINS = ["docs_panels", "thumbnails", "pelican.plugins.sitemap"]
 
 # Sitemap XML généré à la racine du site par le plugin pelican-sitemap.
 SITEMAP = {
@@ -53,11 +58,14 @@ MARKDOWN = {
 # ------------------------------------------------------------------
 PAGE_PATHS = ["pages", "extra"]
 ARTICLE_PATHS = ["actualites"]
-STATIC_PATHS = ["images", "favicon.ico"]
+STATIC_PATHS = ["images", "favicon.ico", "data", "assets", "thumbnails"]
 
 # favicon.ico copié à la racine du site (ce que les navigateurs et Google
 # vont chercher en priorité).
 EXTRA_PATH_METADATA = {"favicon.ico": {"path": "favicon.ico"}}
+
+# Verrous et fichiers temporaires des suites bureautiques : jamais publiés.
+IGNORE_FILES = [".#*", ".~lock.*", "~$*"]
 
 # ------------------------------------------------------------------
 # URLs propres (répertoires)
@@ -84,6 +92,28 @@ SOCIAL = (
     ("LinkedIn", "#"),
     ("X / Twitter", "#"),
 )
+
+# Frise des partenaires et financeurs, en bas de la page d'accueil.
+# LOGO       : chemin de l'image dans le site (par ex. "/images/logo-inca.svg").
+#              Laisser vide tant que le logo n'est pas disponible : la carte
+#              affiche alors le seul intitulé, sans case vide.
+# DESCRIPTION: intitulé affiché sous le logo, et texte alternatif de l'image.
+# URL        : site du partenaire. Laisser vide pour une carte non cliquable.
+PARTNERS = [
+    {
+        # Logo 2025 de l'INCa, domaine public (Wikimedia Commons).
+        "LOGO": "/images/logo-inca.svg",
+        "DESCRIPTION": "INCa (Institut national du cancer)",
+        "URL": "https://www.cancer.fr/",
+    },
+    {
+        # Logo officiel du CHU (chu-brest.fr), diffusé en CC BY 4.0 sur
+        # Wikimedia Commons — auteur : CHU Brest.
+        "LOGO": "/images/logo-chu-brest.svg",
+        "DESCRIPTION": "CHU de Brest",
+        "URL": "https://www.chu-brest.fr/",
+    },
+]
 LINKS = ()
 
 # Flux désactivés en développement
