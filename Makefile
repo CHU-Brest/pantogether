@@ -32,6 +32,7 @@ help:
 	@echo '                                                                          '
 	@echo 'Usage:                                                                    '
 	@echo '   make sync                           installe l environnement (uv sync) '
+	@echo '   make data                           regenere content/data/rcp.json     '
 	@echo '   make html                           (re)generate the web site          '
 	@echo '   make clean                          remove the generated files         '
 	@echo '   make regenerate                     regenerate files upon modification '
@@ -48,6 +49,9 @@ help:
 
 sync:
 	uv sync
+
+data:
+	$(PY) --group data python build_dataset.py
 
 html:
 	$(PELICAN) "$(INPUTDIR)" -o "$(OUTPUTDIR)" -s "$(CONFFILE)" $(PELICANOPTS)
@@ -77,4 +81,4 @@ publish:
 	$(PELICAN) "$(INPUTDIR)" -o "$(OUTPUTDIR)" -s "$(PUBLISHCONF)" $(PELICANOPTS)
 
 
-.PHONY: sync html help clean regenerate serve serve-global devserver devserver-global live publish
+.PHONY: sync data html help clean regenerate serve serve-global devserver devserver-global live publish

@@ -4,6 +4,10 @@
 __pycache__/
 *.pyc
 
+# Classeur source du dataset RCP : jamais versionné (données de contact en
+# clair). Seul le JSON généré par build_dataset.py entre dans le dépôt.
+/pantogether.xlsx
+
 # Environnements virtuels
 .venv/
 venv/

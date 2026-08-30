@@ -9,3 +9,12 @@ dependencies = [
     "pelican-sitemap>=1.2.2",
     "pelican[markdown]>=4.12.0",
 ]
+
+# Dépendances de l'outil de conversion du classeur (build_dataset.py).
+# Groupe NON installé par défaut : la CI (`uv sync --frozen`) n'en a pas besoin,
+# le JSON généré étant versionné.
+[dependency-groups]
+data = [
+    "polars>=1.44.0",
+    "fastexcel>=0.21.0",
+]
