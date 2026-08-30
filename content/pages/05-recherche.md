@@ -114,6 +114,6 @@ Membres du comité :
 - Philippe François-Steininger (Président, Espoir Pancréas (représentant des patients))
 
 
-*Contact : contact@frap-network.org*   
+*Contact :* {@}contact@frap-network.org{/@}   
    
 *Plus d'informations sur le [site web du réseau FRAP](https://www.frap-network.org/?lang=fr)*

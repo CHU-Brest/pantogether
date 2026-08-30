@@ -8,20 +8,20 @@ Summary: Coordonnées du centre pilote et réseaux sociaux du réseau PAN-TOGETH
   - **Adresse** : *Institut de Cancérologie et d’Imagerie - Pôle 7 - 1er étage   
 CHU Brest - Hôpital de La Cavale Blanche   
 Boulevard Tanguy Prigent - 29200 BREST*    
-   - **Téléphone Secrétariat** : *02 98 22 38 78*   
-   - **Courriel** : *jean-philippe.metges@chu-brest.fr*   
+   - **Téléphone Secrétariat** : {tel}02 98 22 38 78{/tel}   
+   - **Courriel** : {@}jean-philippe.metges@chu-brest.fr{/@}   
     
 ### **Pr GANNE-CARRIE Nathalie**
    - **Adresse** : *Service d'Hépatologie et d'oncologie Hépatique - Bâtiment Larrey A   
 CHU Avicenne, AP-HP    
 125 rue de Stalingrad - 93000 BOBIGNY*   
-   - **Téléphone Secrétariat** : *01 48 02 68 03*   
-   - **Courriel** : *nathalie.ganne@aphp.fr*
+   - **Téléphone Secrétariat** : {tel}01 48 02 68 03{/tel}   
+   - **Courriel** : {@}nathalie.ganne@aphp.fr{/@}
 
 ## Coordination Administrative
 ### **Mme OIZEL Kristell**   
    - **Adresse** : *Institut de Cancérologie et d’Imagerie - Pôle 7 - 1er étage   
 CHU Brest - Hôpital de La Cavale Blanche   
 Boulevard Tanguy Prigent - 29200 BREST*   
-   - **Téléphone** : *02 21 74 34 51*   
-   - **Courriel** : *kristell.oizel@chu-brest.fr*
+   - **Téléphone** : {tel}02 21 74 34 51{/tel}   
+   - **Courriel** : {@}kristell.oizel@chu-brest.fr{/@}

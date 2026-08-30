@@ -104,6 +104,13 @@ img { display: block; max-width: 100%; }
 .btn-s { background: var(--bg); color: var(--ink); border: 1.5px solid var(--line-strong); }
 .btn-s:hover { border-color: var(--brand); color: var(--brand); }
 
+/* Bouton nu qui révèle au clic une coordonnée protégée (cf. site.js), stylé
+   comme le lien qu'il remplacera. Sert aussi aux fiches RCP. */
+.reveal-btn {
+  background: none; border: none; padding: 0; font-family: inherit; font-size: inherit;
+  font-weight: 600; color: var(--brand-ink); cursor: pointer; text-decoration: underline;
+}
+
 /* ============================================================
    EN-TÊTE
    ============================================================ */

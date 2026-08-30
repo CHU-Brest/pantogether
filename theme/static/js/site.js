@@ -124,7 +124,40 @@
     }
   }
 
-  function init() { bindThemeToggle(); bindBurger(); initDocs(); }
+  /* ---------- Coordonnées protégées ---------- */
+  // Adresses et numéros arrivent brouillés dans data-coord (plugin « coordonnees »)
+  // — rot13/rot5 puis base64 : rien d'exploitable dans le HTML tant que le visiteur
+  // n'a pas cliqué. Même principe que les fiches RCP, révélées au clic elles aussi.
+  function derot(s) {
+    // rot13 sur les lettres, rot5 sur les chiffres : sa propre inverse.
+    return s.replace(/[a-z0-9]/gi, function (c) {
+      var o = c.charCodeAt(0);
+      if (o >= 65 && o <= 90) return String.fromCharCode((o - 65 + 13) % 26 + 65);
+      if (o >= 97 && o <= 122) return String.fromCharCode((o - 97 + 13) % 26 + 97);
+      return String.fromCharCode((o - 48 + 5) % 10 + 48);
+    });
+  }
+
+  function bindCoordonnees() {
+    var btns = document.querySelectorAll('.reveal-btn[data-coord]');
+    if (!btns.length) return;
+
+    function reveal() {
+      var valeur;
+      try { valeur = derot(decodeURIComponent(escape(atob(this.dataset.coord)))); }
+      catch (err) { return; }
+      var mail = this.getAttribute('data-kind') === 'mail';
+      var a = document.createElement('a');
+      // tel: n'accepte ni espace ni séparateur, contrairement à l'affichage.
+      a.href = mail ? 'mailto:' + valeur : 'tel:' + valeur.replace(/[^+0-9]/g, '');
+      a.textContent = valeur;
+      this.replaceWith(a);
+    }
+
+    for (var i = 0; i < btns.length; i++) btns[i].addEventListener('click', reveal);
+  }
+
+  function init() { bindThemeToggle(); bindBurger(); initDocs(); bindCoordonnees(); }
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);
   else init();
 })();

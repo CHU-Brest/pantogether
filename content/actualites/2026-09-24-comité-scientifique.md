@@ -15,4 +15,4 @@ Cette première séance permettra notamment de :
 - préciser la gouvernance et les modalités de fonctionnement du réseau ;   
 - définir ensemble les objectifs de la deuxième année du réseau.
 
-*Vous n'avez pas reçu l'invitation ni le lien de connexion à la réunion? Contactez la coordinatrice administrative par mail : kristell.oizel@chu-brest.fr*
+*Vous n'avez pas reçu l'invitation ni le lien de connexion à la réunion? Contactez la coordinatrice administrative par mail :* {@}kristell.oizel@chu-brest.fr{/@}

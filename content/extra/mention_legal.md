@@ -15,7 +15,7 @@ Le site **pantogether.fr** (ci-après « le Site ») est édité par :
 
 - **Responsable de la publication** : Mme Kristell Oizel
 
-- **Contact** : kristell.oizel@chu-brest.fr
+- **Contact** : {@}kristell.oizel@chu-brest.fr{/@}
 
 ## 2. Hébergement du site
 

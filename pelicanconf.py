@@ -33,7 +33,9 @@ JINJA_FILTERS = {"fr_date": fr_date}
 # ------------------------------------------------------------------
 THEME = "theme"
 PLUGIN_PATHS = ["plugins"]
-PLUGINS = ["docs_panels", "thumbnails", "pelican.plugins.sitemap"]
+# « coordonnees » passe avant « docs_panels » : ce dernier fige le HTML en
+# panneaux, les marqueurs {@} / {tel} ne seraient plus substitués après lui.
+PLUGINS = ["coordonnees", "docs_panels", "thumbnails", "pelican.plugins.sitemap"]
 
 # Sitemap XML généré à la racine du site par le plugin pelican-sitemap.
 SITEMAP = {
