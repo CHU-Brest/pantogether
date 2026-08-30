@@ -9,7 +9,7 @@
     <h1>Unir l'expertise française contre les cancers digestifs de mauvais pronostic</h1>
     <p class="lead">PAN-TOGETHER fédère les centres experts de métropole et d'Outre-mer pour améliorer la prise en charge des patients et leur permettre un accès équitable aux soins et à l'innovation thérapeutique.</p>
     <div class="cta">
-      <a class="btn btn-p" href="{{ SITEURL }}/centres-experts/">Trouver un centre près de chez moi</a>
+      <a class="btn btn-p" href="{{ SITEURL }}/rcp/">Trouver un centre près de chez moi</a>
       <a class="btn btn-s" href="{{ SITEURL }}/le-reseau/">Découvrir le réseau</a>
     </div>
   </div>
@@ -36,43 +36,38 @@
   </div>
 </div></section>
 
-<!-- ===================== CARTE ===================== -->
-<section class="home-section alt"><div class="wrap"><div class="map-row">
-  <div>
-    <span class="kicker">Maillage territorial</span>
-    <h2 style="font-size:32px;font-weight:800;color:var(--ink);margin:14px 0 0;letter-spacing:-.015em">Un centre expert près de chez vous</h2>
-    <p style="color:var(--muted);font-size:16.5px;margin:14px 0 22px">Carte interactive filtrable par axe, incluant les territoires ultramarins. Annuaire par région et coordonnées des centres.</p>
-    <a class="btn btn-p" href="{{ SITEURL }}/centres-experts/">Ouvrir la carte des centres</a>
-  </div>
-  <div class="map-frame">[ Carte de France SVG · à venir ]</div>
-</div></div></section>
-
-<!-- ===================== ESPACES ===================== -->
-<section class="home-section"><div class="wrap">
-  <div class="spaces">
-    <a class="space pat" href="{{ SITEURL }}/patients/"><span class="tag">Patients &amp; proches</span><h3>Comprendre, être accompagné, participer</h3><p>Fiches par localisation, parcours de soins, essais cliniques, soins de support et annuaire d'associations de patients.</p><span class="go">Accéder à l'espace patients →</span></a>
-    <a class="space pro" href="{{ SITEURL }}/professionnels/"><span class="tag">Professionnels</span><h3>RCP de recours, référentiels &amp; formation</h3><p>Solliciter un avis d'expertise, accéder aux recommandations et aux outils harmonisés.</p><span class="go">Accéder à l'espace pro →</span></a>
-  </div>
-</div></section>
-
 <!-- ===================== ACTUALITÉS ===================== -->
 <section class="home-section alt"><div class="wrap">
   <div class="shead"><span class="kicker">Actualités &amp; agenda</span><h2>La vie du réseau</h2></div>
   <div class="news-grid">
     {% for article in articles[:3] %}
-    <a class="news-card" href="{{ SITEURL }}/{{ article.url }}"><div class="ph">[ visuel ]</div><div class="b"><div class="date">{{ article.date|fr_date }}</div><h4>{{ article.title }}</h4></div></a>
+    <a class="news-card" href="{{ SITEURL }}/{{ article.url }}"><div class="ph"><img src="{{ article.thumbnail_url }}" alt="" loading="lazy" /></div><div class="b"><div class="date">{{ article.date|fr_date }}</div><h4>{{ article.title }}</h4></div></a>
     {% else %}
-    <a class="news-card" href="{{ SITEURL }}/actualites/"><div class="ph">[ visuel ]</div><div class="b"><div class="date">À venir</div><h4>Les actualités du réseau seront publiées ici</h4></div></a>
+    <a class="news-card" href="{{ SITEURL }}/actualites/"><div class="ph"><img src="{{ SITEURL }}/thumbnails/default.png" alt="" loading="lazy" /></div><div class="b"><div class="date">À venir</div><h4>Les actualités du réseau seront publiées ici</h4></div></a>
     {% endfor %}
   </div>
   <p style="margin-top:26px"><a class="btn btn-s" href="{{ SITEURL }}/actualites/">Toutes les actualités →</a></p>
 </div></section>
 
 <!-- ===================== PARTENAIRES ===================== -->
+{% if PARTNERS %}
 <div class="wrap"><div class="partners-row">
   <span class="kicker">Partenaires &amp; financement</span>
   <div class="plogos">
-    <div class="plogo">INCa</div>
+    {% for p in PARTNERS %}
+    {% if p.URL %}<a class="plogo" href="{{ p.URL }}" target="_blank" rel="noopener">
+    {% else %}<div class="plogo">{% endif %}
+      <div class="plogo-img">
+        {% if p.LOGO %}
+        <img src="{{ SITEURL }}{{ p.LOGO }}" alt="{{ p.DESCRIPTION }}" loading="lazy" />
+        {% else %}
+        <span class="plogo-fallback">{{ p.DESCRIPTION }}</span>
+        {% endif %}
+      </div>
+      <div class="plogo-name">{{ p.DESCRIPTION }}</div>
+    {% if p.URL %}</a>{% else %}</div>{% endif %}
+    {% endfor %}
   </div>
 </div></div>
+{% endif %}
 {% endblock %}

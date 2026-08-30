@@ -25,19 +25,23 @@
 {% elif page is defined and page %}{% set nav_active.key = page.slug %}{% endif %}
 {% set navitems = [
   ('Le réseau', SITEURL ~ '/le-reseau/', 'le-reseau'),
-  ('Centres experts', SITEURL ~ '/centres-experts/', 'centres-experts'),
+  ('Centres experts', SITEURL ~ '/rcp/', 'rcp'),
   ('Patients', SITEURL ~ '/patients/', 'patients'),
   ('Professionnels', SITEURL ~ '/professionnels/', 'professionnels'),
   ('Recherche', SITEURL ~ '/recherche/', 'recherche'),
   ('Actualités', SITEURL ~ '/actualites/', 'actualites')
 ] %}
 
+{# Bandeau fin, piloté par SITE_BANNER dans la configuration. #}
+{% if SITE_BANNER %}
+<div class="site-banner"><div class="wrap">{{ SITE_BANNER }}</div></div>
+{% endif %}
+
 <!-- ===================== EN-TÊTE ===================== -->
 <header class="site-header"><div class="wrap">
   <a class="brand" href="{{ SITEURL }}/">
     <img src="{{ SITEURL }}/theme/assets/logo-transparent.png" alt="PAN-TOGETHER" />
     <b>PAN<span>·</span>TOGETHER</b>
-    <p style="color:orange;"><br>Site en construction</br></p>
   </a>
   <nav class="main-nav">
     {% for label, url, key in navitems %}
@@ -74,7 +78,7 @@
       <a href="{{ SITEURL }}/recherche/">Recherche</a>
     </div>
     <div><h5>Ressources</h5>
-      <a href="{{ SITEURL }}/centres-experts/">Centres experts</a>
+      <a href="{{ SITEURL }}/rcp/">Centres experts</a>
       <a href="{{ SITEURL }}/patients/">Espace patients</a>
       <a href="{{ SITEURL }}/professionnels/">Espace professionnels</a>
       <a href="{{ SITEURL }}/actualites/">Actualités</a>
@@ -94,5 +98,6 @@
 </div></footer>
 
 <script src="{{ SITEURL }}/theme/js/site.js"></script>
+{% block scripts %}{% endblock %}
 </body>
 </html>

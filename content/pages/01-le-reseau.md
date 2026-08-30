@@ -112,7 +112,7 @@ Chaque axe du réseau est porté par un centre expert référent correspondant a
 Ces centres experts référents sont reconnus pour leur expertise dans l'organisation des parcours de soins, le déploiement et l'animation de réseaux régionaux dédiés. Ils assurent un rôle de **structuration, de coordination et de leadership** scientifique et médical dans leur thématique respective.   
 Chaque centre référent pilote le projet à l’échelle nationale en s’appuyant sur des centres experts.   
 
-*Retrouvez les contacts des centres experts référents dans l'onglet [Centres experts](/centres-experts/#contacts-centres-referents)*
+*Retrouvez les contacts des centres experts référents dans l'onglet [Espace professionnels](/professionnels/#contacts-centres-referents)*
 
 ## Les centres experts   
 Avec **une cinquantaine de centres experts** implantés en **métropole** et dans les **territoires ultramarins**, le réseau bénéficie d'un maillage territorial permettant de favoriser un accès aux soins au plus près des patients.   
