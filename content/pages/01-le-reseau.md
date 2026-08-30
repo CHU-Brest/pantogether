@@ -26,7 +26,7 @@ Les cancers digestifs de mauvais pronostic représentent chaque année **plusieu
 Optimiser l'organisation des parcours de soins pour réduire les délais entre le dépistage, le diagnostic, les réunions de concertation pluridisciplinaire (RCP) et l'initiation du traitement. L'objectif est de permettre une prise en charge plus rapide et plus fluide.   
   
 🧪 **Innovation thérapeutique**   
-Permettre l'accès des patients aux innovations diagnostiques et thérapeutiques quelque soit leurs lieux de prise en charge ou de résidence.   
+Permettre l’accès des patients aux innovations diagnostiques et thérapeutiques quel que soit leur lieu de prise en charge ou de résidence.   
 Favoriser le développement et l'ouverture des essais cliniques sur l'ensemble du territoire, afin d'offrir au plus grand nombre la possibilité de bénéficier de traitements innovants.   
    
 🤝 **Coordination multidisciplinaire**   
@@ -60,11 +60,11 @@ Le réseau **PAN-TOGETHER** structure son expertise autour de trois grands axes 
 ## L'axe Œsophage & Estomac
 - **Le cancer de l'estomac** concerne environ 6 500 nouveaux cas annuels et **le cancer de l'œsophage** environ 5 500 nouveaux cas, avec un âge médian au diagnostic autour de 68-71 ans. Le taux de survie à 5 ans est de 30% tous stades confondus pour les cancers de l’estomac et de 18% pour les cancers de l’œsophage. (INCa, 2024)   
 
-- La prise en charge des **cancers de l'oesophage, de l'estomac et de la jonction oesogastrique**, repose souvent sur des stratégies combinant chirurgie, chimiothérapie et parfois radiothérapie, et nécessitent d'une discussion collégiale approfondie compte tenu de leur hétérogénéité anatomique et pronostique.      
+- La prise en charge des **cancers de l’œsophage, de l’estomac et de la jonction œso-gastrique** repose souvent sur des stratégies combinant chirurgie, chimiothérapie et parfois radiothérapie, et nécessite une discussion collégiale approfondie compte tenu de leur hétérogénéité anatomique et pronostique.      
  
 - **Les objectifs de l’axe Œsophage & Estomac sont :**   
     - Structurer la prise en charge des cancers de l’œsophage, estomac et jonction oeso-gastrique par l’**organisation de RCP nationales d’expertise** sur les cas complexes (chirurgie de rattrapage, essais innovants)   
-    - Promouvoir la **prévention des maladies précancéreuses** de l’œsophage avec des formation spécifiques pour les soignants sur la détection précoce et la gestion des états précancéreux comme l’endobrachyoesophage (EBO)   
+    - Promouvoir la **prévention des maladies précancéreuses** de l’œsophage avec des formations spécifiques pour les soignants sur la détection précoce et la gestion des états précancéreux comme l’endobrachyoesophage (EBO)   
     - Permettre **l’accès à l’innovation pour tous** :   
         - Faciliter l’inscription des patients dans les essais cliniques innovants   
         - Organiser des webinaires régionaux et des ateliers nationaux pour former les professionnels sur les dernières avancées diagnostiques et thérapeutiques   
@@ -152,7 +152,7 @@ Les bureaux opérationnels se réunissent de manière trimestrielle et transmett
 
 ## La charte de gouvernance du réseau   
    
-Retrouvez la [charte de de gouvernance du réseau](/assets/Charte fonctionnement réseau v1.0 05.26.pdf).    
+Retrouvez la [charte de fonctionnement du réseau](/assets/Charte fonctionnement réseau v1.0 05.26.pdf) (PDF).    
 Chaque membre du comité scientifique et des bureaux opérationnels s'engagent à la respecter.   
 
 # Partenaires & financement

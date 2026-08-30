@@ -65,7 +65,7 @@ L'appel est ouvert à des projets portant notamment sur :
 
 # Registres & biobanques
 ## FRANCIM
-![FRANCIM](/images/francim.jpg)
+![Réseau FRANCIM](/images/francim.jpg)
 Le réseau français des registres de cancers FRANCIM (France Cancer Incidence et Mortalité) regroupe :    
 
 - 14 registres généraux   
@@ -74,7 +74,7 @@ Le réseau français des registres de cancers FRANCIM (France Cancer Incidence e
 *Pour plus d'informations veuillez consulter le [site du réseau FRANCIM](https://www.francim-reseau.org/)*
 
 ## FRAP
-![FRAP](/images/frap.png)   
+![Réseau FRAP](/images/frap.png)   
 Le réseau FRAP (French Research Network against Pancreatic Adenocarcinoma / **Réseau français de recherche contre l'adénocarcinome pancréatique**) est l'un des trois lauréats de l'appel à candidatures 2024 lancé par l'Institut National du Cancer, visant à promouvoir et à reconnaître des réseaux de recherche d'excellence spécialisés dans les cancers de mauvais pronostic.   
    
 Coordonné par le Professeur Jérôme Cros, de l'Hôpital Beaujon à Clichy, le réseau rassemble **15 équipes de recherche et entités associées**, parmi lesquelles des groupes coopérateurs en oncologie, des équipes cliniques et des associations de patients.   

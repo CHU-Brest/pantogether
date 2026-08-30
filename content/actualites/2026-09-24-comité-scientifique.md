@@ -2,7 +2,7 @@ Title: Première réunion du comité scientifique
 Date: 2026-09-24 15:00
 Category: Actualités
 Tags: comité, agenda
-Slug: comité scientifique-2026
+Slug: comite-scientifique-2026
 Author: CHU Brest
 Summary: Le réseau tient son premier comité scientifique le 24 septembre.
 
@@ -15,4 +15,4 @@ Cette première séance permettra notamment de :
 - préciser la gouvernance et les modalités de fonctionnement du réseau ;   
 - définir ensemble les objectifs de la deuxième année du réseau.
 
-*Vous n'avez pas reçu l'invitation ni le lien de connexion à la réunion? Contactez la coordinatrice administrative par mail :* {@}kristell.oizel@chu-brest.fr{/@}
+*Vous n'avez pas reçu l'invitation ni le lien de connexion à la réunion ? Contactez la coordinatrice administrative par mail :* {@}kristell.oizel@chu-brest.fr{/@}

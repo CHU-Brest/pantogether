@@ -24,7 +24,7 @@ Vous trouverez des **informations claires et fiables** sur :
 
 - **[INCa](https://www.cancer.fr/)**  
   → Informations sur les [cancers en général](https://www.cancer.fr/toute-l-information-sur-les-cancers) : comprendre les cancers, prévenir les risques de cancer et se faire dépister   
-  → Informations sur les [cancers de l'oesophage](https://www.cancer.fr/personnes-malades/les-cancers/aesophage)   
+  → Informations sur les [cancers de l’œsophage](https://www.cancer.fr/personnes-malades/les-cancers/aesophage)   
   → Informations sur les [cancers de l'estomac](https://www.cancer.fr/personnes-malades/les-cancers/estomac)   
   → Informations sur les [cancers du foie](https://en-www.cancer.fr/personnes-malades/les-cancers/foie)   
   → Informations sur les [cancers du pancréas](https://www.cancer.fr/personnes-malades/les-cancers/pancreas)    
@@ -32,39 +32,48 @@ Vous trouverez des **informations claires et fiables** sur :
 
 ## Guides et vidéos pédagogiques   
 ### Les cancers du Pancréas   
-* Les guides
-[![/images/guidepancreas.png](/images/guidepancreas.png)](https://publuu.com/flip-book/1022968/2311878)   
-[![/images/tttpancreasinca.png](/images/tttpancreasinca.png)](https://en-www.cancer.fr/catalogue-des-publications/les-traitements-du-cancer-du-pancreas)   
 
-### Les cancers de l'Oesophage   
-* Les guides
-[![/images/guideoes.png](/images/guideoes.png)](https://publuu.com/flip-book/1022968/2332220)   
-[![/images/tttoesinca.png](/images/tttoesinca.png)](https://en-www.cancer.fr/catalogue-des-publications/les-traitements-des-cancers-de-l-oesophage)   
+**Les guides**
 
-### Les cancers de l'Estomac   
-* Les guides
-[![/images/guideestomac.png](/images/guideestomac.png)](https://publuu.com/flip-book/1022968/2311877)   
-[![/images/tttestinca.png](/images/tttestinca.png)](https://en-www.cancer.fr/catalogue-des-publications/les-traitements-des-cancers-de-l-estomac)
+- [![Guide ARCAD — Les cancers du pancréas](/images/guidepancreas.png)](https://publuu.com/flip-book/1022968/2311878){: .linkcard }
+- [![INCa — Les traitements du cancer du pancréas](/images/tttpancreasinca.png)](https://en-www.cancer.fr/catalogue-des-publications/les-traitements-du-cancer-du-pancreas){: .linkcard }
+
+### Les cancers de l’Œsophage   
+
+**Les guides**
+
+- [![Guide ARCAD — Les cancers de l’œsophage](/images/guideoes.png)](https://publuu.com/flip-book/1022968/2332220){: .linkcard }
+- [![INCa — Les traitements des cancers de l’œsophage](/images/tttoesinca.png)](https://en-www.cancer.fr/catalogue-des-publications/les-traitements-des-cancers-de-l-oesophage){: .linkcard }
+
+### Les cancers de l’Estomac   
+
+**Les guides**
+
+- [![Guide ARCAD — Les cancers de l’estomac](/images/guideestomac.png)](https://publuu.com/flip-book/1022968/2311877){: .linkcard }
+- [![INCa — Les traitements des cancers de l’estomac](/images/tttestinca.png)](https://en-www.cancer.fr/catalogue-des-publications/les-traitements-des-cancers-de-l-estomac){: .linkcard }
 
 ### Les cancers du Foie et des Voies Biliaires   
-* Les guides
-[![/images/guidefoie.png](/images/guidefoie.png)](https://publuu.com/flip-book/1022968/2351172)
-[![/images/guidefoieinca.png](/images/guidefoieinca.png)](https://en-www.cancer.fr/catalogue-des-publications/les-traitements-du-cancer-du-foie)   
 
-* Les vidéos pédagogiques
-[![/images/PLCGCHC.png](/images/PLCGCHC.png)](https://parislivercancergroup.com/pour-les-patients/#video-gallery-fabf4d9-5)   
-[![/images/PLCGCCA.png](/images/PLCGCCA.png)](https://parislivercancergroup.com/pour-les-patients/#video-gallery-fabf4d9-6)   
+**Les guides**
 
-* Les vidéos pédagogiques sur les traitements du cancer du foie
-[![/images/radioext.png](/images/radioext.png)](https://parislivercancergroup.com/pour-les-patients/#video-gallery-fabf4d9-1)   
-[![/images/SIRT.png](/images/SIRT.png)](parislivercancergroup.com/pour-les-patients/#video-gallery-fabf4d9-2)   
-[![/images/ITK.png](/images/ITK.png)](https://parislivercancergroup.com/pour-les-patients/#video-gallery-fabf4d9-3)   
-[![/images/Immuno.png](/images/Immuno.png)](https://parislivercancergroup.com/pour-les-patients/#video-gallery-fabf4d9-4)  
-[![/images/Resection.png](/images/Resection.png)](https://parislivercancergroup.com/pour-les-patients/#video-gallery-fabf4d9-7)  
-[![/images/Transplant.png](/images/Transplant.png)](https://parislivercancergroup.com/pour-les-patients/#video-gallery-fabf4d9-8)  
-[![/images/Ablation.png](/images/Ablation.png)](https://parislivercancergroup.com/pour-les-patients/#video-gallery-fabf4d9-9)  
-[![/images/Chimioembol.png](/images/Chimioembol.png)](https://parislivercancergroup.com/pour-les-patients/#video-gallery-fabf4d9-10)  
+- [![Guide ARCAD — Les cancers du foie et des voies biliaires](/images/guidefoie.png)](https://publuu.com/flip-book/1022968/2351172){: .linkcard }
+- [![INCa — Les traitements du cancer du foie](/images/guidefoieinca.png)](https://en-www.cancer.fr/catalogue-des-publications/les-traitements-du-cancer-du-foie){: .linkcard }
 
+**Les vidéos pédagogiques**
+
+- [![Vidéo — Le carcinome hépatocellulaire (Paris Liver Cancer Group)](/images/PLCGCHC.png)](https://parislivercancergroup.com/pour-les-patients/#video-gallery-fabf4d9-5){: .linkcard }
+- [![Vidéo — Le cholangiocarcinome (Paris Liver Cancer Group)](/images/PLCGCCA.png)](https://parislivercancergroup.com/pour-les-patients/#video-gallery-fabf4d9-6){: .linkcard }
+
+**Les vidéos pédagogiques sur les traitements du cancer du foie**
+
+- [![Vidéo — La radiothérapie externe](/images/radioext.png)](https://parislivercancergroup.com/pour-les-patients/#video-gallery-fabf4d9-1){: .linkcard }
+- [![Vidéo — La radioembolisation (SIRT)](/images/SIRT.png)](https://parislivercancergroup.com/pour-les-patients/#video-gallery-fabf4d9-2){: .linkcard }
+- [![Vidéo — Les inhibiteurs de tyrosine kinase](/images/ITK.png)](https://parislivercancergroup.com/pour-les-patients/#video-gallery-fabf4d9-3){: .linkcard }
+- [![Vidéo — L’immunothérapie](/images/Immuno.png)](https://parislivercancergroup.com/pour-les-patients/#video-gallery-fabf4d9-4){: .linkcard }
+- [![Vidéo — La résection chirurgicale](/images/Resection.png)](https://parislivercancergroup.com/pour-les-patients/#video-gallery-fabf4d9-7){: .linkcard }
+- [![Vidéo — La transplantation hépatique](/images/Transplant.png)](https://parislivercancergroup.com/pour-les-patients/#video-gallery-fabf4d9-8){: .linkcard }
+- [![Vidéo — L’ablation percutanée](/images/Ablation.png)](https://parislivercancergroup.com/pour-les-patients/#video-gallery-fabf4d9-9){: .linkcard }
+- [![Vidéo — La chimioembolisation](/images/Chimioembol.png)](https://parislivercancergroup.com/pour-les-patients/#video-gallery-fabf4d9-10){: .linkcard }
 
 # Le parcours de soin
 
@@ -134,7 +143,7 @@ Cela peut permettre d'évaluer :
 
 Le patient reçoit sa prise en charge habituelle. Le médecin recueille des données pour mieux comprendre la maladie, sans rien changer au traitement.   
    
-Ce que cela permet par exemple de :   
+Cela permet par exemple de :   
 
 - Suivre l'évolution naturelle d'un cancer dans le temps
 - Étudier des facteurs de risque ou des facteurs pronostiques
@@ -218,31 +227,36 @@ Les associations de patients occupent une place essentielle auprès des malades,
 Vous trouverez ci-dessous la liste des **associations partenaires du réseau PAN-TOGETHER**, susceptibles de vous informer, de vous accompagner et de vous soutenir tout au long de votre parcours de soins.   
 
 ## Cancers Digestifs
-[![/images/arcad.jpg](/images/arcad.jpg)](https://www.fondationarcad.org)  
-[![/images/etendard.jpg](/images/etendard.jpg)](https://www.facebook.com/Etendardducancerdigestif/?locale=fr_FR)
+
+- [![Fondation ARCAD](/images/arcad.jpg)](https://www.fondationarcad.org){: .linkcard }
+- [![L’Étendard des cancers digestifs](/images/etendard.jpg)](https://www.facebook.com/Etendardducancerdigestif/?locale=fr_FR){: .linkcard }
 
 ## Foie et Voies Biliaires
-[![/images/albi.png](/images/albi.png)](https://albi-france.org)   
-[![/images/ffh.png](/images/ffh.png)](https://www.hemochromatose.org)   
-[![/images/soshepatites.png](/images/soshepatites.png)](https://soshepatites.org)   
+
+- [![ALBI France](/images/albi.png)](https://albi-france.org){: .linkcard }
+- [![France Fer Hémochromatose](/images/ffh.png)](https://www.hemochromatose.org){: .linkcard }
+- [![SOS Hépatites](/images/soshepatites.png)](https://soshepatites.org){: .linkcard }
 
 
-# Agenda (grand public)
+# Agenda
+*Des rendez-vous ouverts à tous les publics*
 
-- **Recherche participative en santé**   
+Les événements ci-dessous s'adressent aussi bien aux patients et à leurs proches qu'aux professionnels de santé.
+
+- **[Recherche participative en santé](https://evento.renater.fr/survey/recherche-participative-en-sante-ou-comment-co-construire-des-projets-de-recherche-avec-les-citoyens-et-les-patients-24-sept-2026-mairie-de-lyon-6-djb71n59)**   
 Date : **24 Septembre 2026**   
 Lieu : **Lyon**   
-[![rencontreslyon24092026.png](/images/rencontreslyon2026.png)](https://evento.renater.fr/survey/recherche-participative-en-sante-ou-comment-co-construire-des-projets-de-recherche-avec-les-citoyens-et-les-patients-24-sept-2026-mairie-de-lyon-6-djb71n59)   
+[![Recherche participative en santé — 24 septembre 2026, Lyon](/images/rencontreslyon2026.png)](/images/rencontreslyon2026.png){: .poster }   
    
-- **Journée scientifique sur la prévention et le dépistage des cancers**   
+- **[Journée scientifique sur la prévention et le dépistage des cancers](https://www.cancer.fr/evenements/journee-scientifique-sur-le-depistage-et-la-prevention-des-cancers)**   
 Date : **29 Septembre 2026**   
 Lieu : **Paris**   
-[![Journéeinca290926.png](/images/inca290926.png)](https://www.cancer.fr/evenements/journee-scientifique-sur-le-depistage-et-la-prevention-des-cancers)   
+[![Journée scientifique sur la prévention et le dépistage des cancers — 29 septembre 2026, Paris](/images/inca290926.png)](/images/inca290926.png){: .poster }   
 
-- **Conférence grand public : Fake News en santé: Comment s'informer sans se mettre en danger ?**   
+- **[Conférence grand public : Fake News en santé: Comment s'informer sans se mettre en danger ?](https://www.congres-afsos.com/inscriptions/)**   
 Date : **14 Octobre 2026**   
 Lieu : **Lille et en distanciel**   
-[![Congrès AFSOS.png](/images/AFSOS2026.png)](https://www.congres-afsos.com/inscriptions/)   
+[![Conférence grand public « Fake news en santé » — 14 octobre 2026, Lille](/images/AFSOS2026.png)](/images/AFSOS2026.png){: .poster }   
    
 # Lexique
 

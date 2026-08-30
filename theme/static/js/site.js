@@ -124,6 +124,48 @@
     }
   }
 
+  /* ---------- Affiches d'agenda : agrandissement ----------
+     Les affiches de congrès sont illisibles en vignette. Le clic les ouvre
+     dans un <dialog> natif : on hérite gratuitement du piège de focus, de
+     l'inertie de l'arrière-plan et de la fermeture par Échap.
+     Le href pointe sur le fichier image : si <dialog> manque, le navigateur
+     suit le lien et affiche quand même l'affiche en grand. */
+  function bindPosters() {
+    var links = document.querySelectorAll('a.poster');
+    if (!links.length) return;
+    var dlg = null, dlgImg = null;
+
+    function build() {
+      dlg = document.createElement('dialog');
+      dlg.className = 'poster-zoom';
+      var close = document.createElement('button');
+      close.type = 'button';
+      close.className = 'poster-zoom-close';
+      close.setAttribute('aria-label', 'Fermer l\u2019affiche');
+      close.innerHTML = '&times;';
+      dlgImg = document.createElement('img');
+      dlg.appendChild(close);
+      dlg.appendChild(dlgImg);
+      document.body.appendChild(dlg);
+      close.addEventListener('click', function () { dlg.close(); });
+      /* Clic sur le fond : la cible n'est le <dialog> que hors de son contenu. */
+      dlg.addEventListener('click', function (ev) { if (ev.target === dlg) dlg.close(); });
+    }
+
+    function open(ev) {
+      var img = this.querySelector('img');
+      if (!img) return;
+      if (!dlg) build();
+      if (!dlg.showModal) return;   /* pas de <dialog> : on laisse suivre le lien */
+      ev.preventDefault();
+      dlgImg.src = this.getAttribute('href');
+      dlgImg.alt = img.getAttribute('alt') || '';
+      dlg.showModal();
+    }
+
+    for (var i = 0; i < links.length; i++) links[i].addEventListener('click', open);
+  }
+
   /* ---------- Coordonnées protégées ---------- */
   // Adresses et numéros arrivent brouillés dans data-coord (plugin « coordonnees »)
   // — rot13/rot5 puis base64 : rien d'exploitable dans le HTML tant que le visiteur
@@ -157,7 +199,7 @@
     for (var i = 0; i < btns.length; i++) btns[i].addEventListener('click', reveal);
   }
 
-  function init() { bindThemeToggle(); bindBurger(); initDocs(); bindCoordonnees(); }
+  function init() { bindThemeToggle(); bindBurger(); initDocs(); bindPosters(); bindCoordonnees(); }
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);
   else init();
 })();

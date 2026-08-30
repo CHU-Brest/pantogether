@@ -102,6 +102,7 @@ SOCIAL = (
 # DESCRIPTION: intitulé affiché sous le logo, et texte alternatif de l'image.
 # URL        : site du partenaire. Laisser vide pour une carte non cliquable.
 PARTNERS = [
+    # --- Financeurs et établissement porteur ---------------------------
     {
         # Logo 2025 de l'INCa, domaine public (Wikimedia Commons).
         "LOGO": "/images/logo-inca.svg",
@@ -114,6 +115,207 @@ PARTNERS = [
         "LOGO": "/images/logo-chu-brest.svg",
         "DESCRIPTION": "CHU de Brest",
         "URL": "https://www.chu-brest.fr/",
+    },
+    # --- Fédérations hospitalières -------------------------------------
+    {
+        # Logo officiel, servi par le site de la FHF (fhf.fr).
+        "LOGO": "/images/logo-fhf.svg",
+        "DESCRIPTION": "FHF (Fédération hospitalière de France)",
+        "URL": "https://www.fhf.fr/",
+    },
+    {
+        # Logo 2018, récupéré via bergonie.fr (institut membre d'Unicancer).
+        "LOGO": "/images/logo-unicancer.png",
+        "DESCRIPTION": "Unicancer",
+        "URL": "https://www.unicancer.fr/",
+    },
+    {
+        # Logo RVB 2023, servi par le site de la FHP (fhp.fr).
+        "LOGO": "/images/logo-fhp.png",
+        "DESCRIPTION": "FHP (Fédération de l'hospitalisation privée)",
+        "URL": "https://www.fhp.fr/",
+    },
+    # --- Sociétés savantes ---------------------------------------------
+    {
+        # Logo servi par achbt.org.
+        "LOGO": "/images/logo-achbt.jpg",
+        "DESCRIPTION": "ACHBT (Association de chirurgie hépato-bilio-pancréatique et transplantation)",
+        "URL": "https://www.achbt.org/",
+    },
+    {
+        # Pictogramme AFEF : le site (thème sombre) ne sert que des logotypes blancs.
+        "LOGO": "/images/logo-afef.png",
+        "DESCRIPTION": "AFEF (Association française pour l'étude du foie)",
+        "URL": "https://afef.asso.fr/",
+    },
+    {
+        # Intitulé complet à confirmer.
+        # Logo servi par afihge.org.
+        "LOGO": "/images/logo-afihge.png",
+        "DESCRIPTION": "AFIHGE (Association française des internes d'hépato-gastro-entérologie)",
+        "URL": "https://www.afihge.org/",
+    },
+    {
+        # Logo servi par afsos.org.
+        "LOGO": "/images/logo-afsos.png",
+        "DESCRIPTION": "AFSOS (Association francophone des soins oncologiques de support)",
+        "URL": "https://www.afsos.org/",
+    },
+    {
+        # Logo servi par angh.net.
+        "LOGO": "/images/logo-angh.jpg",
+        "DESCRIPTION": "ANGH (Association nationale des gastroentérologues des hôpitaux généraux)",
+        "URL": "https://angh.net/",
+    },
+    {
+        # Logo extrait du site asfarglobal.org (SVG inline encapsulant un PNG).
+        "LOGO": "/images/logo-asfar.png",
+        "DESCRIPTION": "ASFAR",
+        "URL": "https://asfarglobal.org/",
+    },
+    {
+        # Logo servi par ffcd.fr.
+        "LOGO": "/images/logo-ffcd.jpg",
+        "DESCRIPTION": "FFCD (Fédération francophone de cancérologie digestive)",
+        "URL": "https://ffcd.fr/",
+    },
+    {
+        # Logo servi par le site de la SFCD, qui héberge les pages FRENCH.
+        "LOGO": "/images/logo-french.jpg",
+        "DESCRIPTION": "FRENCH (Fédération de recherche en chirurgie)",
+        "URL": "https://www.sfchirurgiedigestive.fr/french/presentation",
+    },
+    {
+        # Logo servi par gercor.com.
+        "LOGO": "/images/logo-gercor.png",
+        "DESCRIPTION": "GERCOR (Groupe coopérateur multidisciplinaire en oncologie)",
+        "URL": "https://www.gercor.com/",
+    },
+    {
+        # Logo servi par sfchirurgiedigestive.fr (et non sfcd.fr, qui est le
+        # syndicat des femmes chirurgiens dentistes).
+        "LOGO": "/images/logo-sfcd.png",
+        "DESCRIPTION": "SFCD (Société française de chirurgie digestive)",
+        "URL": "https://www.sfchirurgiedigestive.fr/",
+    },
+    {
+        # Logo servi par sfco.fr. Le site titre « Francophone », le logo
+        # imprime encore « Française ».
+        "LOGO": "/images/logo-sfco.png",
+        "DESCRIPTION": "SFCO (Société francophone de chirurgie oncologique)",
+        "URL": "https://sfco.fr/",
+    },
+    {
+        # Logo servi par sfed.org.
+        "LOGO": "/images/logo-sfed.png",
+        "DESCRIPTION": "SFED (Société française d'endoscopie digestive)",
+        "URL": "https://www.sfed.org/",
+    },
+    {
+        # Logo servi par sfpo.com (site protégé par Cloudflare).
+        "LOGO": "/images/logo-sfpo.png",
+        "DESCRIPTION": "SFPO (Société française de pharmacie oncologique)",
+        "URL": "https://sfpo.com/",
+    },
+    {
+        # Logo servi par siad.radiologie.fr.
+        "LOGO": "/images/logo-siad.png",
+        "DESCRIPTION": "SIAD (Société d'imagerie abdominale et digestive)",
+        "URL": "https://siad.radiologie.fr/",
+    },
+    {
+        # Logo servi par snfge.org.
+        "LOGO": "/images/logo-snfge.png",
+        "DESCRIPTION": "SNFGE (Société nationale française de gastro-entérologie)",
+        "URL": "https://www.snfge.org/",
+    },
+    # --- Associations d'internes ---------------------------------------
+    {
+        # Logo servi par aerio-oncologie.org.
+        "LOGO": "/images/logo-aerio.png",
+        "DESCRIPTION": "AERIO (Association d'enseignement et de recherche des internes en oncologie)",
+        "URL": "https://aerio-oncologie.org/",
+    },
+    {
+        # Logo servi par sfjro.fr.
+        "LOGO": "/images/logo-sfjro.jpg",
+        "DESCRIPTION": "SFjRO (Société française des jeunes radiothérapeutes-oncologues)",
+        "URL": "https://www.sfjro.fr/",
+    },
+    # --- Instances professionnelles ------------------------------------
+    {
+        # Logo servi par cnpipa.fr.
+        "LOGO": "/images/logo-cnpipa.png",
+        "DESCRIPTION": "CNP IPA (Conseil national professionnel des infirmier·es en pratique avancée)",
+        "URL": "https://cnpipa.fr/",
+    },
+    {
+        "LOGO": "",
+        "DESCRIPTION": "Présidents de CME de CHU et de CHG",
+        "URL": "",
+    },
+    # --- Groupes et réseaux de recherche -------------------------------
+    {
+        # Logo et lien déjà utilisés dans les pages du site.
+        "LOGO": "/images/francim.jpg",
+        "DESCRIPTION": "FRANCIM (réseau des registres des cancers)",
+        "URL": "https://www.francim-reseau.org/",
+    },
+    {
+        # Logo servi par unicancer.fr.
+        "LOGO": "/images/logo-ucgi.png",
+        "DESCRIPTION": "UCGI (Unicancer Gastrointestinal Group)",
+        "URL": "https://www.unicancer.fr/fr/les-groupes-d-experts/unicancer-gastrointestinal-group-ucgi/",
+    },
+    {
+        # Logo et lien déjà utilisés dans les pages du site.
+        "LOGO": "/images/frap.png",
+        "DESCRIPTION": "Réseau FRAP",
+        "URL": "https://www.frap-network.org/",
+    },
+    # --- Associations et partenaires institutionnels -------------------
+    {
+        # Logo servi par ligue-cancer.net.
+        "LOGO": "/images/logo-ligue-cancer.png",
+        "DESCRIPTION": "La Ligue contre le cancer",
+        "URL": "https://www.ligue-cancer.net/",
+    },
+    {
+        # Logo servi par adiresca.fr.
+        "LOGO": "/images/logo-adiresca.jpg",
+        "DESCRIPTION": "ADIRESCA (Association des dispositifs spécifiques régionaux du cancer)",
+        "URL": "https://adiresca.fr/",
+    },
+    # --- Associations de patients --------------------------------------
+    {
+        # Logo et lien déjà utilisés dans les pages du site.
+        "LOGO": "/images/arcad.jpg",
+        "DESCRIPTION": "Fondation ARCAD",
+        "URL": "https://www.fondationarcad.org",
+    },
+    {
+        # Logo et lien déjà utilisés dans les pages du site.
+        "LOGO": "/images/albi.png",
+        "DESCRIPTION": "ALBI France",
+        "URL": "https://albi-france.org",
+    },
+    {
+        # Logo et lien déjà utilisés dans les pages du site.
+        "LOGO": "/images/soshepatites.png",
+        "DESCRIPTION": "SOS Hépatites",
+        "URL": "https://soshepatites.org",
+    },
+    {
+        # Logo et lien déjà utilisés dans les pages du site.
+        "LOGO": "/images/ffh.png",
+        "DESCRIPTION": "France Fer Hémochromatose",
+        "URL": "https://www.hemochromatose.org",
+    },
+    {
+        # Logo et lien déjà utilisés dans les pages du site.
+        "LOGO": "/images/etendard.jpg",
+        "DESCRIPTION": "L'Étendard des cancers digestifs",
+        "URL": "https://www.facebook.com/Etendardducancerdigestif/?locale=fr_FR",
     },
 ]
 LINKS = ()
