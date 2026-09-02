@@ -116,6 +116,13 @@ PARTNERS = [
         "DESCRIPTION": "CHU de Brest",
         "URL": "https://www.chu-brest.fr/",
     },
+    {
+        # Logo officiel du Centre de données cliniques du CHU de Brest,
+        # fourni par le CDC lui-même.
+        "LOGO": "/images/logo-cdc-brest.svg",
+        "DESCRIPTION": "CDC de Brest (Centre de données cliniques du CHU de Brest)",
+        "URL": "https://www.health-data-hub.fr/repertoire-national-des-bases-de-donnees-de-sante/eds-du-chu-brest",
+    },
     # --- Fédérations hospitalières -------------------------------------
     {
         # Logo officiel, servi par le site de la FHF (fhf.fr).
