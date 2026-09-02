@@ -168,4 +168,5 @@ Il est soutenu par :
 - Les instances professionnelles : CNP IPA, Présidents de CME de CHU et CHG   
 - Les groupes et réseaux de recherche : FRANCIM, UNICANCER GI, réseau FRAP   
 - Les associations et partenaires institutionnels : La ligue contre le cancer, ADIRESCA, la Direction du CHU de Brest   
+- Le Centre de données cliniques (CDC) du CHU de Brest   
 - Les associations de patients : ARCAD, ALBI, SOS hépatites, France Fer Hemochromatose, L'étendard des cancers digestifs
