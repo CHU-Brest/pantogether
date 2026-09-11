@@ -11,7 +11,7 @@ pluridisciplinaire, sur un ou plusieurs des trois axes (foie et voies biliaires,
 L'annuaire recense pour chaque RCP son jour et son horaire, son lieu, l'accès en
 visioconférence, les modalités de soumission d'un dossier et les contacts du
 centre. Il est consultable par mot-clé, par région, par jour ou
-directement sur la carte.
+directement sur la carte .
 
 [**Rechercher une RCP**](/rcp/){: .btn .btn-p }
 
