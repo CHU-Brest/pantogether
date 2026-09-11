@@ -4,7 +4,7 @@ Template: docs
 Summary: Présentation, contexte, axes d'expertise, gouvernance et partenaires du réseau PAN-TOGETHER.
 
 # Présentation & Missions
-*Ensemble contre les cancers de mauvais pronostic*   
+*Ensemble contre les cancers de mauvais pronostic*.  
    
 **PAN-TOGETHER**, est un réseau national d'excellence clinique de lutte contre les cancers digestifs de mauvais pronostic, labellisé par l'INCa.   
 Il structure la prise en charge des cancers du **PAN**créas, des **T**umeurs **O**eso-**G**astriques **E**t des **T**umeurs primitives **HE**pato-biliai**R**es afin d’améliorer la qualité et l’équité des soins sur l’ensemble du territoire.   
