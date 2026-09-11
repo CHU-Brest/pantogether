@@ -6,11 +6,11 @@ Summary: RCP, référentiels nationaux, outils harmonisés et formation à desti
 # RCP locales et régionales des centres experts
 Chaque centre expert du réseau organise ses propres réunions de concertation
 pluridisciplinaire, sur un ou plusieurs des trois axes (foie et voies biliaires,
-œsophage et jonction œso-gastrique, pancréas).
+œsophage et estomac, pancréas).
 
-L'annuaire recense pour chacune son jour et son horaire, son lieu, l'accès en
+L'annuaire recense pour chaque RCP son jour et son horaire, son lieu, l'accès en
 visioconférence, les modalités de soumission d'un dossier et les contacts du
-centre. Il est consultable par mot-clé, par région, par plateau technique ou
+centre. Il est consultable par mot-clé, par région, par jour ou
 directement sur la carte.
 
 [**Rechercher une RCP**](/rcp/){: .btn .btn-p }
@@ -151,9 +151,10 @@ Date : **19-20 Novembre 2026**
 Lieu : **Lyon**   
 [![Congrès national des réseaux de cancérologie — 19-20 novembre 2026, Lyon](/images/CNRC2026.png)](/images/CNRC2026.png){: .poster }    
    
-- **Journée scientifique Oncologie digestive**   
+- **[Journée scientifique Oncologie digestive](https://www.oncobretagne.fr/agenda/journee-scientifique-oncologie-digestive/)**   
 Date : **27 Novembre 2026**   
-Lieu : **Lorient**   
+Lieu : **Lorient**    
+[![Journée scientifique Oncologie digestive — 27 novembre 2026, Lorient](/images/Oncobretagne271126.png)](/images/Oncobretagne271126.png){: .poster }
 
 - **[EASL Liver Cancer Summit 2027](https://easl.eu/event/liver-cancer-summit-2026/)**   
 Date : **14-16 Janvier 2027**   
