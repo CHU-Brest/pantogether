@@ -17,5 +17,3 @@ Cette première séance permettra notamment de :
 - définir ensemble les objectifs de la deuxième année du réseau.
 
 *Vous n'avez pas reçu l'invitation ni le lien de connexion à la réunion ? Contactez la coordinatrice administrative par mail :* {@}kristell.oizel@chu-brest.fr{/@}
-
-merci
