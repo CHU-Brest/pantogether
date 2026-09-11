@@ -1,3 +1,4 @@
+import datetime
 import os
 import shlex
 import shutil
@@ -8,6 +9,7 @@ from invoke.main import program
 from pelican import main as pelican_main
 from pelican.server import ComplexHTTPRequestHandler, RootedHTTPServer
 from pelican.settings import DEFAULT_CONFIG, get_settings_from_file
+from pelican.utils import slugify
 
 OPEN_BROWSER_ON_SERVE = True
 SETTINGS_FILE_BASE = "pelicanconf.py"
@@ -138,6 +140,39 @@ def publish(c):
             CONFIG["deploy_path"].rstrip("/") + "/", **CONFIG
         )
     )
+
+
+@task(help={"title": "Titre de l'actualité (demandé si absent)",
+            "date": "Date de l'événement AAAA-MM-JJ (défaut : aujourd'hui)",
+            "time": "Heure HH:MM (défaut : 09:00)",
+            "tags": "Tags séparés par des virgules (défaut : agenda)"})
+def new(c, title="", date="", time="09:00", tags="agenda"):
+    """Crée content/actualites/AAAA-MM-JJ-slug.md avec l'en-tête pré-rempli"""
+    title = title.strip() or input("Titre de l'actualité : ").strip()
+    if not title:
+        sys.exit("Titre vide, abandon.")
+    day = (
+        datetime.date.fromisoformat(date) if date else datetime.date.today()
+    )
+    slug = slugify(title, regex_subs=SETTINGS["SLUG_REGEX_SUBSTITUTIONS"])
+    folder = os.path.join(SETTINGS["PATH"], SETTINGS["ARTICLE_PATHS"][0])
+    path = os.path.join(folder, f"{day.isoformat()}-{slug}.md")
+    if os.path.exists(path):
+        sys.exit(f"{path} existe déjà, abandon.")
+    header = (
+        f"Title: {title}\n"
+        f"Date: {day.isoformat()} {time}\n"
+        f"Category: Actualités\n"
+        f"Tags: {tags}\n"
+        f"Slug: {slug}\n"
+        f"Author: {SETTINGS['AUTHOR']}\n"
+        f"Summary: \n"
+        f"\n"
+    )
+    os.makedirs(folder, exist_ok=True)
+    with open(path, "w", encoding="utf-8") as fh:
+        fh.write(header)
+    print(path)
 
 
 def pelican_run(cmd):

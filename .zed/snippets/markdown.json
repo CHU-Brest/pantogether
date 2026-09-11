@@ -1,0 +1,17 @@
+{
+  "Actualité Pelican": {
+    "prefix": "actu",
+    "description": "En-tête d'une actualité (content/actualites/AAAA-MM-JJ-slug.md)",
+    "body": [
+      "Title: ${1:Titre de l'actualité}",
+      "Date: ${2:AAAA-MM-JJ} ${3:09:00}",
+      "Category: Actualités",
+      "Tags: ${4:agenda}",
+      "Slug: ${5:slug-de-l-actualite}",
+      "Author: CHU Brest",
+      "Summary: ${6:Résumé en une phrase.}",
+      "",
+      "$0"
+    ]
+  }
+}

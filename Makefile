@@ -41,6 +41,8 @@ help:
 	@echo '   make serve-global [SERVER=0.0.0.0]  serve (as root) to $(SERVER):80    '
 	@echo '   make devserver [PORT=8000]          serve and regenerate together      '
 	@echo '   make live                           serve + rechargement auto du navigateur'
+	@echo '   make new [TITLE="..."]               cree une actualite datee dans content/actualites'
+	@echo '   make zed-snippets                   installe les snippets Zed du projet (~/.config/zed/snippets)'
 	@echo '   make devserver-global               regenerate and serve on 0.0.0.0    '
 	@echo '                                                                          '
 	@echo 'Set the DEBUG variable to 1 to enable debugging, e.g. make DEBUG=1 html   '
@@ -77,8 +79,15 @@ devserver-global:
 live:
 	$(PY) invoke livereload
 
+new:
+	$(PY) invoke new $(if $(TITLE),--title "$(TITLE)")
+
+zed-snippets:
+	mkdir -p ~/.config/zed/snippets
+	cp .zed/snippets/*.json ~/.config/zed/snippets/
+
 publish:
 	$(PELICAN) "$(INPUTDIR)" -o "$(OUTPUTDIR)" -s "$(PUBLISHCONF)" $(PELICANOPTS)
 
 
-.PHONY: sync data html help clean regenerate serve serve-global devserver devserver-global live publish
+.PHONY: sync data html help clean regenerate serve serve-global devserver devserver-global live new zed-snippets publish
