@@ -5,6 +5,7 @@ Tags: comité, agenda
 Slug: comite-scientifique-2026
 Author: CHU Brest
 Summary: Le réseau tient son premier comité scientifique le 24 septembre.
+Thumbnail: ce.png
 
 La première réunion du comité scientifique du réseau se tiendra le **Jeudi 24 septembre de 15h00 à 16h30** en visioconférence.   
 Ce comité réunira les coordonnateurs du réseau, les représentants des centres experts, des fédérations hospitalières, des sociétés savantes, des groupes et réseaux de recherche, d’associations de patients et de partenaires institutionnels.   
