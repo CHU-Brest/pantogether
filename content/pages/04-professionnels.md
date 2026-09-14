@@ -125,7 +125,7 @@ Ces documents sont sous format word et comportent des macros pour un affichage c
 - [![INCa — Cancers du pancréas : du diagnostic au suivi](/images/outilpancreasinca.png)](https://www.cancer.fr/catalogue-des-publications/cancers-du-pancreas-du-diagnostic-au-suivi){: .linkcard }
 
 
-# Agenda
+# Agenda Congrès
 - **[ILCA Annual Conference](https://ilcalive.org/annual-conference-2026/)**   
 Date : **03-05 Septembre 2026**   
 Lieu : **Bruxelles, Belgique**   
@@ -168,6 +168,12 @@ Lieu : **Paris**
 
 
 
-# Formation
+# Agenda Webinaires
 
-*A venir.*
+- **[Bimonthly Scientific Webinar](https://www.frap-network.org/Webinaires-bimensuels-FRAP-sur-le-cancer-du-pancreas?lang=en)**   
+Date : **23 Septembre 2026**    
+Sujet : **Integrated Multi-Platform Profiling Reveals KrasG12D-associated spatial organization of the pancreatic tumor microenvironment**
+[![Bimonthly Scientific Webinar — 23 septembre 2026](/images/FRAP230926.png)](/images/FRAP230926.png){: .poster }
+
+# Agenda Formations
+*A venir*
