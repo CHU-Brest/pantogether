@@ -30,7 +30,7 @@ Tout médecin prescripteur doit faire sa demande et **remplir une fiche d’insc
 [Outil de connexion OMNIDOC](/assets/Tutoriel Requérant RCP Omnidoc.pdf) (PDF)    
 
 
-# Contacts centres référents
+# Contacts centres experts référents
 ## Axe Pancréas
 - **Médecin coordinateur** : **Pr BACHET Jean-Baptiste**
     - **Adresse** : *Service d'hépato-gastro-entérologie   
