@@ -152,8 +152,7 @@ Les bureaux opérationnels se réunissent de manière trimestrielle et transmett
 
 ## La charte de gouvernance du réseau   
    
-Retrouvez la [charte de fonctionnement du réseau](/assets/Charte fonctionnement réseau v1.0 05.26.pdf) (PDF).    
-Chaque membre du comité scientifique et des bureaux opérationnels s'engagent à la respecter.   
+Chaque membre du comité scientifique et des bureaux opérationnels s'engagent à respecter la [charte de fonctionnement du réseau](/assets/Charte fonctionnement réseau v1.0 05.26.pdf) (PDF).   
 
 # Partenaires & financement
 *Réseau labellisé par l'INCa*   

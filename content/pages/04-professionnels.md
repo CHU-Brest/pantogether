@@ -21,7 +21,8 @@ Les RCP de recours et d'expertise du réseau ont un périmètre national et regr
 Elles sont accessibles en web-conférence sur la [**plateforme OMNIDOC**](https://omnidoc.fr/).   
 
 ## Modalités d'inscription
-Tout médecin prescripteur doit faire sa demande et **remplir une fiche d’inscription** de passage en RCP correspondant à la thématique dédiée, sur la page de RCP dédiée du réseau sur OMNIDOC. Les fiches doivent être complétées en ligne **24 heures avant la séance**.
+Tout médecin prescripteur doit faire sa demande et **remplir une fiche d’inscription** de passage en RCP correspondant à la thématique dédiée, sur la page de RCP dédiée du réseau sur OMNIDOC. Les fiches doivent être complétées en ligne **24 heures avant la séance**.   
+*Vous pouvez retrouver la version Word des fiches RCP dans l'onglet [Outils & Protocoles harmonisés](/professionnels/#outils-protocoles-harmonises)*
 
 ## Calendrier des RCP
 
