@@ -37,7 +37,7 @@ Summary: Projets de recherche par axe, essais cliniques, publications, appels à
 
 ## Ouverture de l'appel à projets PHRC-K 2026-2027, Recherche clinique en cancérologie   
 
-L'Institut national du cancer lance l'appel à projets PHRC-K 2026-2027, dans le cadre du Programme hospitalier de recherche clinique en cancérologie.   
+L'Institut national du cancer lance l'appel à projets **PHRC-K 2026-2027**, dans le cadre du Programme hospitalier de recherche clinique en cancérologie.   
 Ce programme soutient des projets de recherche clinique visant à produire des résultats susceptibles de faire évoluer les pratiques médicales et d'améliorer la prise en charge des personnes atteintes de cancer.    
 Les projets attendus devront s'appuyer sur des méthodologies robustes et apporter un haut niveau de preuve scientifique.   
 
@@ -62,6 +62,27 @@ L'appel est ouvert à des projets portant notamment sur :
 - Dossier complet pour les projets présélectionnés : jusqu'au **9 mars 2027 à 16h**   
    
 *Retrouvez l'ensemble des informations, des modalités de candidature et des documents de l'appel sur le site de [l'INCa](https://www.cancer.fr/professionnels-de-la-recherche/appels-a-projets-et-a-candidatures/nos-appels-a-projets/phrck2027)*
+
+## Ouverture de l'appel à projets PRT-K 2026-2027, Recherche translationnelle en cancérologie   
+
+L'Institut national du cancer lance l'appel à projets **PRT-K 2026-2027**, dans le cadre du programme de recherche sur les soins et l’offre de soins pour la campagne 2026-2027.    
+   
+🎯Faire émerger les innovations de demain en cancérologie, en créant un pont entre la recherche fondamentale et la recherche clinique.    
+Le PRT-K soutient des projets associant équipes de recherche et équipes cliniques françaises afin de transformer les découvertes scientifiques en avancées concrètes pour les patients. Il couvre un large champ de recherche, notamment :   
+
+- la compréhension des mécanismes biologiques des cancers ;   
+- la prévention ;   
+- le dépistage, le diagnostic et le pronostic ;   
+- l'aide à la décision et au suivi thérapeutique ;   
+- le développement de nouvelles stratégies thérapeutiques.    
+Le programme est ouvert aux projets réunissant au minimum une équipe d'un organisme de recherche et une équipe clinique d'un établissement de santé français, dans une approche partenariale et multidisciplinaire.    
+   
+📅 Calendrier :    
+
+- Lettre d'intention > jusqu'au **13 octobre 2026 à 16h**   
+- Dossier complet pour les projets présélectionnés > jusqu'au **9 mars 2027 à 16h**    
+ 
+*Retrouvez l'ensemble des informations, des modalités de candidature et des documents de l'appel sur le site de [l'INCa](https://www.cancer.fr/professionnels-de-la-recherche/appels-a-projets-et-a-candidatures/nos-appels-a-projets/prt-k27)*   
 
 # Registres & biobanques
 ## FRANCIM
