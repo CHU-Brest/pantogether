@@ -59,10 +59,14 @@ Vous trouverez des **informations claires et fiables** sur :
 - [![Guide ARCAD — Les cancers du foie et des voies biliaires](/images/guidefoie.png)](https://publuu.com/flip-book/1022968/2351172){: .linkcard }
 - [![INCa — Les traitements du cancer du foie](/images/guidefoieinca.png)](https://en-www.cancer.fr/catalogue-des-publications/les-traitements-du-cancer-du-foie){: .linkcard }
 
-**Les vidéos pédagogiques**
+**Les vidéos pédagogiques sur les cancers**
 
 - [![Vidéo — Le carcinome hépatocellulaire (Paris Liver Cancer Group)](/images/PLCGCHC.png)](https://parislivercancergroup.com/pour-les-patients/#video-gallery-fabf4d9-5){: .linkcard }
 - [![Vidéo — Le cholangiocarcinome (Paris Liver Cancer Group)](/images/PLCGCCA.png)](https://parislivercancergroup.com/pour-les-patients/#video-gallery-fabf4d9-6){: .linkcard }
+
+**Les bandes dessinées**
+
+- [![BD ARCAD — Le cancer des voies biliaires](/images/BD cancer VB.png)](https://publuu.com/flip-book/1022968/2539446){: .linkcard }
 
 **Les vidéos pédagogiques sur les traitements du cancer du foie**
 
@@ -253,11 +257,32 @@ Date : **29 Septembre 2026**
 Lieu : **Paris**   
 [![Journée scientifique sur la prévention et le dépistage des cancers — 29 septembre 2026, Paris](/images/inca290926.png)](/images/inca290926.png){: .poster }   
 
-- **[Conférence grand public : Fake News en santé: Comment s'informer sans se mettre en danger ?](https://www.congres-afsos.com/inscriptions/)**   
+- **[WebConférence ARCAD : Diabète et cancer du foie](https://www.fondationarcad.org/webconference/13-10-2026-webconference-diabete-et-cancer-du-foie/)**   
+Date : **13 Octobre 2026**   
+Lieu : **En distanciel**   
+[![WebConférence ARCAD : Diabète et cancer du foie](/images/ARCAD131026.png)](/images/ARCAD131026.png){: .poster }   
+   
+- **[Conférence grand public : Fake News en santé : Comment s'informer sans se mettre en danger ?](https://www.congres-afsos.com/inscriptions/)**   
 Date : **14 Octobre 2026**   
 Lieu : **Lille et en distanciel**   
 [![Conférence grand public « Fake news en santé » — 14 octobre 2026, Lille](/images/AFSOS2026.png)](/images/AFSOS2026.png){: .poster }   
-   
+
+- **[WebConférence ARCAD : Sexualité et cancers digestifs](https://www.fondationarcad.org/webconference/21-10-2026-webconference-sexualite-et-cancers-digestifs/)**   
+Date : **21 Octobre 2026**   
+Lieu : **En distanciel**   
+[![WebConférence ARCAD : Sexualité et cancers digestifs](/images/ARCAD211026.png)](/images/ARCAD211026.png){: .poster }   
+
+- **[WebConférence ARCAD : Nutrition, dénutrition et cancers digestifs](https://www.fondationarcad.org/webconference/16-11-2026-webconference-nutrition-denutrition-et-cancers-digestifs/)**   
+Date : **16 Novembre 2026**   
+Lieu : **En distanciel**   
+[![WebConférence ARCAD : Nutrition, dénutrition et cancers digestifs](/images/ARCAD161126.png)](/images/ARCAD161126.png){: .poster }   
+
+- **[WebConférence ARCAD : Parentalité, grossesse et cancers digestifs](https://www.fondationarcad.org/webconference/webconference-parentalite-grossesse-et-cancers-digestifs/)**   
+Date : **07 Décembre 2026**   
+Lieu : **En distanciel**   
+[![WebConférence ARCAD : Parentalité, grossesse et cancers digestifs](/images/ARCAD071226.png)](/images/ARCAD071226.png){: .poster }   
+
+
 # Lexique
 
 **Adjuvant (traitement)**   
