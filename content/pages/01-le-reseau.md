@@ -162,7 +162,7 @@ Le réseau **PAN-TOGETHER** a été labellisé et financé par **l’INCa** à l
 Il est soutenu par :   
 
 -	3 fédérations hospitalières : FHF, Unicancer et FHP     
-- 15 sociétés savantes :  ACHBT, AFEF, AFIGHE, AFSOS, ANGH, ASFAR, FFCD, FRENCH, GERCOR, SFCD, SFCO, SFED, SFPO, SIAD, SNFGE
+- 15 sociétés savantes :  ACHBT, AFEF, AFIGHE, AFSOS, ANGH, ASFAR, FFCD, FRENCH, GERCOR, SFCD, SFCO, SFED, SFPO, SFRO, SIAD, SNFGE
 - Des associations d'internes : AERIO, SFjRO   
 - Les instances professionnelles : CNP IPA, Présidents de CME de CHU et CHG   
 - Les groupes et réseaux de recherche : FRANCIM, UNICANCER GI, réseau FRAP   
