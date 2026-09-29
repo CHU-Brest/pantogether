@@ -4,7 +4,7 @@ Template: docs
 Summary: Présentation, contexte, axes d'expertise, gouvernance et partenaires du réseau PAN-TOGETHER.
 
 # Présentation & Missions
-*Ensemble contre les cancers de mauvais pronostic*   
+*Ensemble contre les cancers de mauvais pronostic*.  
    
 **PAN-TOGETHER**, est un réseau national d'excellence clinique de lutte contre les cancers digestifs de mauvais pronostic, labellisé par l'INCa.   
 Il structure la prise en charge des cancers du **PAN**créas, des **T**umeurs **O**eso-**G**astriques **E**t des **T**umeurs primitives **HE**pato-biliai**R**es afin d’améliorer la qualité et l’équité des soins sur l’ensemble du territoire.   
@@ -152,8 +152,7 @@ Les bureaux opérationnels se réunissent de manière trimestrielle et transmett
 
 ## La charte de gouvernance du réseau   
    
-Retrouvez la [charte de fonctionnement du réseau](/assets/Charte fonctionnement réseau v1.0 05.26.pdf) (PDF).    
-Chaque membre du comité scientifique et des bureaux opérationnels s'engagent à la respecter.   
+Chaque membre du comité scientifique et des bureaux opérationnels s'engagent à respecter la [charte de fonctionnement du réseau](/assets/Charte fonctionnement réseau v1.0 05.26.pdf) (PDF).   
 
 # Partenaires & financement
 *Réseau labellisé par l'INCa*   
@@ -163,7 +162,7 @@ Le réseau **PAN-TOGETHER** a été labellisé et financé par **l’INCa** à l
 Il est soutenu par :   
 
 -	3 fédérations hospitalières : FHF, Unicancer et FHP     
-- 15 sociétés savantes :  ACHBT, AFEF, AFIGHE, AFSOS, ANGH, ASFAR, FFCD, FRENCH, GERCOR, SFCD, SFCO, SFED, SFPO, SIAD, SNFGE
+- 15 sociétés savantes :  ACHBT, AFEF, AFIGHE, AFSOS, ANGH, ASFAR, FFCD, FRENCH, GERCOR, SFCD, SFCO, SFED, SFPO, SFRO, SIAD, SNFGE
 - Des associations d'internes : AERIO, SFjRO   
 - Les instances professionnelles : CNP IPA, Présidents de CME de CHU et CHG   
 - Les groupes et réseaux de recherche : FRANCIM, UNICANCER GI, réseau FRAP   

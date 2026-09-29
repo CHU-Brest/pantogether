@@ -6,12 +6,12 @@ Summary: RCP, référentiels nationaux, outils harmonisés et formation à desti
 # RCP locales et régionales des centres experts
 Chaque centre expert du réseau organise ses propres réunions de concertation
 pluridisciplinaire, sur un ou plusieurs des trois axes (foie et voies biliaires,
-œsophage et jonction œso-gastrique, pancréas).
+œsophage et estomac, pancréas).
 
-L'annuaire recense pour chacune son jour et son horaire, son lieu, l'accès en
+L'annuaire recense pour chaque RCP son jour et son horaire, son lieu, l'accès en
 visioconférence, les modalités de soumission d'un dossier et les contacts du
-centre. Il est consultable par mot-clé, par région, par plateau technique ou
-directement sur la carte.
+centre. Il est consultable par mot-clé, par région, par jour ou
+directement sur la carte .
 
 [**Rechercher une RCP**](/rcp/){: .btn .btn-p }
 
@@ -21,7 +21,8 @@ Les RCP de recours et d'expertise du réseau ont un périmètre national et regr
 Elles sont accessibles en web-conférence sur la [**plateforme OMNIDOC**](https://omnidoc.fr/).   
 
 ## Modalités d'inscription
-Tout médecin prescripteur doit faire sa demande et **remplir une fiche d’inscription** de passage en RCP correspondant à la thématique dédiée, sur la page de RCP dédiée du réseau sur OMNIDOC. Les fiches doivent être complétées en ligne **24 heures avant la séance**.
+Tout médecin prescripteur doit faire sa demande et **remplir une fiche d’inscription** de passage en RCP correspondant à la thématique dédiée, sur la page de RCP dédiée du réseau sur OMNIDOC. Les fiches doivent être complétées en ligne **24 heures avant la séance**.   
+*Vous pouvez retrouver la version Word des fiches RCP dans l'onglet [Outils & Protocoles harmonisés](/professionnels/#outils-protocoles-harmonises)*
 
 ## Calendrier des RCP
 
@@ -29,7 +30,7 @@ Tout médecin prescripteur doit faire sa demande et **remplir une fiche d’insc
 [Outil de connexion OMNIDOC](/assets/Tutoriel Requérant RCP Omnidoc.pdf) (PDF)    
 
 
-# Contacts centres référents
+# Contacts centres experts référents
 ## Axe Pancréas
 - **Médecin coordinateur** : **Pr BACHET Jean-Baptiste**
     - **Adresse** : *Service d'hépato-gastro-entérologie   
@@ -125,7 +126,7 @@ Ces documents sont sous format word et comportent des macros pour un affichage c
 - [![INCa — Cancers du pancréas : du diagnostic au suivi](/images/outilpancreasinca.png)](https://www.cancer.fr/catalogue-des-publications/cancers-du-pancreas-du-diagnostic-au-suivi){: .linkcard }
 
 
-# Agenda
+# Agenda Congrès
 - **[ILCA Annual Conference](https://ilcalive.org/annual-conference-2026/)**   
 Date : **03-05 Septembre 2026**   
 Lieu : **Bruxelles, Belgique**   
@@ -151,9 +152,10 @@ Date : **19-20 Novembre 2026**
 Lieu : **Lyon**   
 [![Congrès national des réseaux de cancérologie — 19-20 novembre 2026, Lyon](/images/CNRC2026.png)](/images/CNRC2026.png){: .poster }    
    
-- **Journée scientifique Oncologie digestive**   
+- **[Journée scientifique Oncologie digestive](https://www.oncobretagne.fr/agenda/journee-scientifique-oncologie-digestive/)**   
 Date : **27 Novembre 2026**   
-Lieu : **Lorient**   
+Lieu : **Lorient**    
+[![Journée scientifique Oncologie digestive — 27 novembre 2026, Lorient](/images/Oncobretagne271126.png)](/images/Oncobretagne271126.png){: .poster }
 
 - **[EASL Liver Cancer Summit 2027](https://easl.eu/event/liver-cancer-summit-2026/)**   
 Date : **14-16 Janvier 2027**   
@@ -167,6 +169,12 @@ Lieu : **Paris**
 
 
 
-# Formation
+# Agenda Webinaires
 
-*A venir.*
+- **[Bimonthly Scientific Webinar](https://www.frap-network.org/Webinaires-bimensuels-FRAP-sur-le-cancer-du-pancreas?lang=en)**   
+Date : **23 Septembre 2026**    
+Sujet : **Integrated Multi-Platform Profiling Reveals KrasG12D-associated spatial organization of the pancreatic tumor microenvironment**
+[![Bimonthly Scientific Webinar — 23 septembre 2026](/images/FRAP230926.png)](/images/FRAP230926.png){: .poster }
+
+# Agenda Formations
+*A venir*
