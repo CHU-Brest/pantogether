@@ -225,6 +225,12 @@ PARTNERS = [
         "URL": "https://sfpo.com/",
     },
     {
+        # Logo SFRO
+        "LOGO": "/images/logo-sfro.png",
+        "DESCRIPTION": "SFRO",
+        "URL": "https://www.sfro.fr/",
+    },
+    {
         # Logo servi par siad.radiologie.fr.
         "LOGO": "/images/logo-siad.png",
         "DESCRIPTION": "SIAD (Société d'imagerie abdominale et digestive)",
