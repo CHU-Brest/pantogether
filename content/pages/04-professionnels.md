@@ -181,5 +181,10 @@ Date : **14 Octobre 2026 à 13h**
 Sujet : **Exploring the role of social determinants in pancreatic cancer trajectory using the BACAP cohort data**
 {: .poster }
 
+- **[Bimonthly Scientific Webinar](https://www.frap-network.or/Webinaires-bimensuels-FRAP-sur-le-cancer-du-pancreas?lang=en)**   
+Date : **23 Octobre 2026 de 14h à 16h**    
+Sujet : **Comprehensive overview of current single cell approaches: technologies, available platforms, applications, analysis challenges, and real-world feedback**
+{: .poster }
+
 # Agenda Formations
 *A venir*
