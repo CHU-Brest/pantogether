@@ -77,7 +77,7 @@ Vous n'avez pas besoin de tout consulter. Choisissez le cancer qui vous concerne
 - **Cancer des voies biliaires (PLCG**) [![Vidéo — Le cholangiocarcinome (Paris Liver Cancer Group)](/images/PLCGCCA.png)](https://parislivercancergroup.com/pour-les-patients/#video-gallery-fabf4d9-6){: .linkcard }
 
 **Les bandes dessinées**   
-*Une autre façon d'aborder le cancer des voies biliaires, à lire seul ou en famille*   
+*Une autre façon d'aborder le cancer des voies biliaires*   
 
 - **BD Cancer des voies biliaires (ARCAD)** [![BD ARCAD — Le cancer des voies biliaires](/images/BD cancer VB.png)](https://publuu.com/flip-book/1022968/2539446){: .linkcard }
 
