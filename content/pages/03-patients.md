@@ -5,7 +5,7 @@ Summary: Comprendre les cancers digestifs, le parcours de soin, les essais clini
 
 # Comprendre les cancers digestifs
 
-Cet espace rassemble une sélection de **ressources** destinées aux patients et à leurs proches.   
+*Cet espace rassemble une sélection de **ressources** destinées aux patients et à leurs proches.*   
 
 Vous trouverez des **informations claires et fiables** sur :   
 
@@ -14,13 +14,20 @@ Vous trouverez des **informations claires et fiables** sur :
 - le suivi médical  
 - les aides disponibles  
 
+## Par où commencer?
+Les ressources ci-dessous ont été conçues par des associations et des institutions de référence : la Fondation ARCAD, l'Institut national du cancer (INCa) et le Paris Liver Cancer Group. Elles sont gratuites et élaborées avec des professionnels de santé.   
+
+Vous n'avez pas besoin de tout consulter. Choisissez le cancer qui vous concerne, puis le format qui vous convient : guide à lire, vidéo ou bande dessinée. Vous pouvez y revenir à tout moment, à votre rythme.   
+   
+*Ces documents complètent les explications de votre équipe soignante, ils ne les remplacent pas. N'hésitez pas à noter vos questions pour votre prochaine consultation.*
+
 ## Liens utiles
 
 - **[Fondation ARCAD](https://www.fondationarcad.org/les-cancers-digestifs/tous-les-guides-a-r-ca-d/#Tlchargement)**  
   → Guides complets sur les cancers digestifs  
 
 - **[Paris Liver Cancer Group](https://parislivercancergroup.com)**  
-  → Vidéos explicatives sur les cancers du foie  
+  → Vidéos explicatives sur les cancers du foie et leurs traitements 
 
 - **[INCa](https://www.cancer.fr/)**  
   → Informations sur les [cancers en général](https://www.cancer.fr/toute-l-information-sur-les-cancers) : comprendre les cancers, prévenir les risques de cancer et se faire dépister   
@@ -33,51 +40,67 @@ Vous trouverez des **informations claires et fiables** sur :
 ## Guides et vidéos pédagogiques   
 ### Les cancers du Pancréas   
 
-**Les guides**
-
-- [![Guide ARCAD — Les cancers du pancréas](/images/guidepancreas.png)](https://publuu.com/flip-book/1022968/2311878){: .linkcard }
-- [![INCa — Les traitements du cancer du pancréas](/images/tttpancreasinca.png)](https://en-www.cancer.fr/catalogue-des-publications/les-traitements-du-cancer-du-pancreas){: .linkcard }
+**Les guides**   
+*Deux guides pour comprendre la maladie et ses traitements*   
+   
+- **Cancer du pancréas (ARCAD)** [![Guide ARCAD — Les cancers du pancréas](/images/guidepancreas.png)](https://publuu.com/flip-book/1022968/2311878){: .linkcard }
+- **Traitements des cancers du pancréas (INCa)** [![INCa — Les traitements du cancer du pancréas](/images/tttpancreasinca.png)](https://en-www.cancer.fr/catalogue-des-publications/les-traitements-du-cancer-du-pancreas){: .linkcard }
 
 ### Les cancers de l’Œsophage   
 
-**Les guides**
-
-- [![Guide ARCAD — Les cancers de l’œsophage](/images/guideoes.png)](https://publuu.com/flip-book/1022968/2332220){: .linkcard }
-- [![INCa — Les traitements des cancers de l’œsophage](/images/tttoesinca.png)](https://en-www.cancer.fr/catalogue-des-publications/les-traitements-des-cancers-de-l-oesophage){: .linkcard }
+**Les guides**   
+*Deux guides pour comprendre la maladie et ses traitements*   
+   
+- **Cancer de l'oesophage (ARCAD)** [![Guide ARCAD — Les cancers de l’œsophage](/images/guideoes.png)](https://publuu.com/flip-book/1022968/2332220){: .linkcard }
+- **Traitements des cancers de l'oesophage (INCa)** [![INCa — Les traitements des cancers de l’œsophage](/images/tttoesinca.png)](https://en-www.cancer.fr/catalogue-des-publications/les-traitements-des-cancers-de-l-oesophage){: .linkcard }
 
 ### Les cancers de l’Estomac   
 
-**Les guides**
+**Les guides**   
+*Deux guides pour comprendre la maladie et ses traitements*   
 
-- [![Guide ARCAD — Les cancers de l’estomac](/images/guideestomac.png)](https://publuu.com/flip-book/1022968/2311877){: .linkcard }
-- [![INCa — Les traitements des cancers de l’estomac](/images/tttestinca.png)](https://en-www.cancer.fr/catalogue-des-publications/les-traitements-des-cancers-de-l-estomac){: .linkcard }
+- **Cancers de l'estomac et du cardia (ARCAD)** [![Guide ARCAD — Les cancers de l’estomac](/images/guideestomac.png)](https://publuu.com/flip-book/1022968/2311877){: .linkcard }
+- **Traitements des cancers de l'estomac (INCa)** [![INCa — Les traitements des cancers de l’estomac](/images/tttestinca.png)](https://en-www.cancer.fr/catalogue-des-publications/les-traitements-des-cancers-de-l-estomac){: .linkcard }
 
 ### Les cancers du Foie et des Voies Biliaires   
 
-**Les guides**
+**Les guides**   
+*Deux guides pour comprendre la maladie et ses traitements*   
 
-- [![Guide ARCAD — Les cancers du foie et des voies biliaires](/images/guidefoie.png)](https://publuu.com/flip-book/1022968/2351172){: .linkcard }
-- [![INCa — Les traitements du cancer du foie](/images/guidefoieinca.png)](https://en-www.cancer.fr/catalogue-des-publications/les-traitements-du-cancer-du-foie){: .linkcard }
+- **Cancer du foie (ARCAD)** [![Guide ARCAD — Les cancers du foie et des voies biliaires](/images/guidefoie.png)](https://publuu.com/flip-book/1022968/2351172){: .linkcard }
+- **Traitements du cancer du foie (INCa)** [![INCa — Les traitements du cancer du foie](/images/guidefoieinca.png)](https://en-www.cancer.fr/catalogue-des-publications/les-traitements-du-cancer-du-foie){: .linkcard }
 
-**Les vidéos pédagogiques sur les cancers**
+**Les vidéos pédagogiques pour comprendre la maladie**   
+*Des explications en images sur le carcinome hépatocellulaire et le cholangiocarcinome*   
 
-- [![Vidéo — Le carcinome hépatocellulaire (Paris Liver Cancer Group)](/images/PLCGCHC.png)](https://parislivercancergroup.com/pour-les-patients/#video-gallery-fabf4d9-5){: .linkcard }
-- [![Vidéo — Le cholangiocarcinome (Paris Liver Cancer Group)](/images/PLCGCCA.png)](https://parislivercancergroup.com/pour-les-patients/#video-gallery-fabf4d9-6){: .linkcard }
+- **Le carcinome hépatocellulaire (PLCG)** [![Vidéo — Le carcinome hépatocellulaire (Paris Liver Cancer Group)](/images/PLCGCHC.png)](https://parislivercancergroup.com/pour-les-patients/#video-gallery-fabf4d9-5){: .linkcard }
+- **Cancer des voies biliaires (PLCG**) [![Vidéo — Le cholangiocarcinome (Paris Liver Cancer Group)](/images/PLCGCCA.png)](https://parislivercancergroup.com/pour-les-patients/#video-gallery-fabf4d9-6){: .linkcard }
 
-**Les bandes dessinées**
+**Les bandes dessinées**   
+*Une autre façon d'aborder le cancer des voies biliaires, à lire seul ou en famille*   
 
-- [![BD ARCAD — Le cancer des voies biliaires](/images/BD cancer VB.png)](https://publuu.com/flip-book/1022968/2539446){: .linkcard }
+- **BD Cancer des voies biliaires (ARCAD)** [![BD ARCAD — Le cancer des voies biliaires](/images/BD cancer VB.png)](https://publuu.com/flip-book/1022968/2539446){: .linkcard }
 
-**Les vidéos pédagogiques sur les traitements du cancer du foie**
+**Les vidéos pédagogiques sur les traitements du cancer du foie**  
+*Chaque vidéo présente un traitement : comment il se déroule et ce qu'il apporte. Votre médecin vous indiquera lesquels vous concernent.*   
+   
+*Traitements locaux et techniques ciblées*   
 
-- [![Vidéo — La radiothérapie externe](/images/radioext.png)](https://parislivercancergroup.com/pour-les-patients/#video-gallery-fabf4d9-1){: .linkcard }
-- [![Vidéo — La radioembolisation (SIRT)](/images/SIRT.png)](https://parislivercancergroup.com/pour-les-patients/#video-gallery-fabf4d9-2){: .linkcard }
-- [![Vidéo — Les inhibiteurs de tyrosine kinase](/images/ITK.png)](https://parislivercancergroup.com/pour-les-patients/#video-gallery-fabf4d9-3){: .linkcard }
-- [![Vidéo — L’immunothérapie](/images/Immuno.png)](https://parislivercancergroup.com/pour-les-patients/#video-gallery-fabf4d9-4){: .linkcard }
-- [![Vidéo — La résection chirurgicale](/images/Resection.png)](https://parislivercancergroup.com/pour-les-patients/#video-gallery-fabf4d9-7){: .linkcard }
-- [![Vidéo — La transplantation hépatique](/images/Transplant.png)](https://parislivercancergroup.com/pour-les-patients/#video-gallery-fabf4d9-8){: .linkcard }
-- [![Vidéo — L’ablation percutanée](/images/Ablation.png)](https://parislivercancergroup.com/pour-les-patients/#video-gallery-fabf4d9-9){: .linkcard }
-- [![Vidéo — La chimioembolisation](/images/Chimioembol.png)](https://parislivercancergroup.com/pour-les-patients/#video-gallery-fabf4d9-10){: .linkcard }
+- **Radiothérapie externe (PLCG)** [![Vidéo — La radiothérapie externe](/images/radioext.png)](https://parislivercancergroup.com/pour-les-patients/#video-gallery-fabf4d9-1){: .linkcard }
+- **Radioembolisation (PLCG)** [![Vidéo — La radioembolisation (SIRT)](/images/SIRT.png)](https://parislivercancergroup.com/pour-les-patients/#video-gallery-fabf4d9-2){: .linkcard }
+- **Ablation percutanée (PLCG)** [![Vidéo — L’ablation percutanée](/images/Ablation.png)](https://parislivercancergroup.com/pour-les-patients/#video-gallery-fabf4d9-9){: .linkcard }
+- **Chimioembolisation (PLCG**) [![Vidéo — La chimioembolisation](/images/Chimioembol.png)](https://parislivercancergroup.com/pour-les-patients/#video-gallery-fabf4d9-10){: .linkcard }
+   
+*Traitements médicamenteux*   
+
+- **Inhibiteurs de tyrosine kinase (PLCG)** [![Vidéo — Les inhibiteurs de tyrosine kinase](/images/ITK.png)](https://parislivercancergroup.com/pour-les-patients/#video-gallery-fabf4d9-3){: .linkcard }
+- **Immunothérapie (PLCG)** [![Vidéo — L’immunothérapie](/images/Immuno.png)](https://parislivercancergroup.com/pour-les-patients/#video-gallery-fabf4d9-4){: .linkcard }
+
+*Chirurgie*   
+
+- **Résection chirurgicale (PLCG)** [![Vidéo — La résection chirurgicale](/images/Resection.png)](https://parislivercancergroup.com/pour-les-patients/#video-gallery-fabf4d9-7){: .linkcard }
+- **Transplantation hépatique (PLCG)** [![Vidéo — La transplantation hépatique](/images/Transplant.png)](https://parislivercancergroup.com/pour-les-patients/#video-gallery-fabf4d9-8){: .linkcard }
+
 
 # Le parcours de soin
 
@@ -232,14 +255,14 @@ Vous trouverez ci-dessous la liste des **associations partenaires du réseau PAN
 
 ## Cancers Digestifs
 
-- [![Fondation ARCAD](/images/arcad.jpg)](https://www.fondationarcad.org){: .linkcard }
-- [![L’Étendard des cancers digestifs](/images/etendard.jpg)](https://www.facebook.com/Etendardducancerdigestif/?locale=fr_FR){: .linkcard }
+- [![Fondation ARCAD](/images/arcad.jpg)](https://www.fondationarcad.org){: .linkcard } La Fondation  ARCAD, Aide et Recherche en CAncérologie Digestive, a pour missions de soutenir et promouvoir la recherche clinique ainsi que des soins de qualité, informer et aider les patients et les aidants, sensibiliser la population ainsi que les acteurs de santé pour une prévention et un dépistage accru.
+- [![L’Étendard des cancers digestifs](/images/etendard.jpg)](https://www.facebook.com/Etendardducancerdigestif/?locale=fr_FR){: .linkcard } L’Étendard des cancers digestifs est une association dédiée à l’information et à la sensibilisation autour des cancers digestifs, ainsi qu’à la promotion du dépistage et de l’activité physique adaptée. Elle organise chaque année un défi sportif : l’ascension du Pic de l’Étendard (3464m), proposée aux patients en cours de suivi ou de traitement.
 
 ## Foie et Voies Biliaires
 
-- [![ALBI France](/images/albi.png)](https://albi-france.org){: .linkcard }
-- [![France Fer Hémochromatose](/images/ffh.png)](https://www.hemochromatose.org){: .linkcard }
-- [![SOS Hépatites](/images/soshepatites.png)](https://soshepatites.org){: .linkcard }
+- [![ALBI France](/images/albi.png)](https://albi-france.org){: .linkcard } ALBI est l’Association pour la Lutte contre les maladies inflammatoires du foie et des voies BIliaires. Elle accompagne les patients atteints de ces maladies hépato-biliaires rares ainsi que leurs proches. Elle œuvre également en faveur d’un diagnostic plus précoce et d’une meilleure prise en charge des patients.
+- [![France Fer Hémochromatose](/images/ffh.png)](https://www.hemochromatose.org){: .linkcard } France Fer Hémochromatose informe, accompagne et soutient les personnes atteintes d’hémochromatose ainsi que leurs proches. L’association sensibilise à cette maladie génétique responsable d’une accumulation de fer dans l’organisme et œuvre en faveur d’un diagnostic et d’une prise en charge précoces. Non traitée, cette surcharge peut endommager le foie, entraîner une cirrhose et augmenter le risque de carcinome hépatocellulaire.
+- [![SOS Hépatites](/images/soshepatites.png)](https://soshepatites.org){: .linkcard } SOS Hépatites informe, accompagne et soutient les personnes concernées par les hépatites virales. L’association mène des actions de prévention, de dépistage et d’information, défend les droits des patients et contribue à améliorer leur prise en charge. Elle sensibilise également aux maladies du foie et à leurs complications, notamment la cirrhose et le cancer du foie.
 
 
 # Agenda
