@@ -15,26 +15,11 @@ Vous trouverez des **informations claires et fiables** sur :
 - les aides disponibles  
 
 ## Par où commencer?
-Les ressources ci-dessous ont été conçues par des associations et des institutions de référence : la Fondation ARCAD, l'Institut national du cancer (INCa) et le Paris Liver Cancer Group. Elles sont gratuites et élaborées avec des professionnels de santé.   
+Les ressources ci-dessous ont été conçues par des associations et des institutions de référence : la [Fondation ARCAD](https://www.fondationarcad.org/), l'[Institut national du cancer (INCa)](https://www.cancer.fr/) et le [Paris Liver Cancer Group](https://parislivercancergroup.com/). Elles sont gratuites et élaborées avec des professionnels de santé.   
 
 Vous n'avez pas besoin de tout consulter. Choisissez le cancer qui vous concerne, puis le format qui vous convient : guide à lire, vidéo ou bande dessinée. Vous pouvez y revenir à tout moment, à votre rythme.   
    
 *Ces documents complètent les explications de votre équipe soignante, ils ne les remplacent pas. N'hésitez pas à noter vos questions pour votre prochaine consultation.*
-
-## Liens utiles
-
-- **[Fondation ARCAD](https://www.fondationarcad.org/les-cancers-digestifs/tous-les-guides-a-r-ca-d/#Tlchargement)**  
-  → Guides complets sur les cancers digestifs  
-
-- **[Paris Liver Cancer Group](https://parislivercancergroup.com)**  
-  → Vidéos explicatives sur les cancers du foie et leurs traitements 
-
-- **[INCa](https://www.cancer.fr/)**  
-  → Informations sur les [cancers en général](https://www.cancer.fr/toute-l-information-sur-les-cancers) : comprendre les cancers, prévenir les risques de cancer et se faire dépister   
-  → Informations sur les [cancers de l’œsophage](https://www.cancer.fr/personnes-malades/les-cancers/aesophage)   
-  → Informations sur les [cancers de l'estomac](https://www.cancer.fr/personnes-malades/les-cancers/estomac)   
-  → Informations sur les [cancers du foie](https://en-www.cancer.fr/personnes-malades/les-cancers/foie)   
-  → Informations sur les [cancers du pancréas](https://www.cancer.fr/personnes-malades/les-cancers/pancreas)    
 
 
 ## Guides et vidéos pédagogiques   
@@ -101,6 +86,21 @@ Vous n'avez pas besoin de tout consulter. Choisissez le cancer qui vous concerne
 - **Résection chirurgicale (PLCG)** [![Vidéo — La résection chirurgicale](/images/Resection.png)](https://parislivercancergroup.com/pour-les-patients/#video-gallery-fabf4d9-7){: .linkcard }
 - **Transplantation hépatique (PLCG)** [![Vidéo — La transplantation hépatique](/images/Transplant.png)](https://parislivercancergroup.com/pour-les-patients/#video-gallery-fabf4d9-8){: .linkcard }
 
+## Liens utiles
+
+- **[Fondation ARCAD](https://www.fondationarcad.org/les-cancers-digestifs/tous-les-guides-a-r-ca-d/#Tlchargement)**  
+  → Guides complets sur les cancers digestifs  
+
+- **[Paris Liver Cancer Group](https://parislivercancergroup.com)**  
+  → Vidéos explicatives sur les cancers du foie et leurs traitements 
+
+- **[INCa](https://www.cancer.fr/)**  
+  → Informations sur les [cancers en général](https://www.cancer.fr/toute-l-information-sur-les-cancers) : comprendre les cancers, prévenir les risques de cancer et se faire dépister   
+  → Informations sur les [cancers de l’œsophage](https://www.cancer.fr/personnes-malades/les-cancers/aesophage)   
+  → Informations sur les [cancers de l'estomac](https://www.cancer.fr/personnes-malades/les-cancers/estomac)   
+  → Informations sur les [cancers du foie](https://en-www.cancer.fr/personnes-malades/les-cancers/foie)   
+  → Informations sur les [cancers du pancréas](https://www.cancer.fr/personnes-malades/les-cancers/pancreas)    
+
 
 # Le parcours de soin
 
@@ -110,6 +110,7 @@ Le parcours de soins en oncologie regroupe l'ensemble des étapes qui structuren
 Après le diagnostic, une équipe pluridisciplinaire de professionnels de santé définit, avec le patient, **la stratégie thérapeutique la plus adaptée**, qui peut associer chirurgie, traitements médicamenteux, radiothérapie ou soins de support. Tout au long de ce parcours, le patient et ses proches bénéficient d'un accompagnement personnalisé visant à prendre en compte leurs besoins médicaux, psychologiques, sociaux et leur qualité de vie. À la fin des traitements, un suivi régulier est mis en place afin de surveiller l'évolution de la maladie, dépister une éventuelle récidive, prendre en charge les effets à long terme des traitements et favoriser le retour à une vie quotidienne dans les meilleures conditions possibles.    
    
 ## Les étapes clés de votre parcours de soins
+![parcours soins](/images/parcours de soins.jpg)   
 
 - **Le diagnostic et son annonce**   
 Après les examens nécessaires, votre médecin vous communique le diagnostic lors d'une consultation d'annonce. Ce temps d'échange permet de vous expliquer la maladie, les examens réalisés et les premières étapes de votre prise en charge. Un accompagnement par une infirmière d'annonce, un psychologue ou d'autres professionnels peut vous être proposé pour répondre à vos questions et vous soutenir.
@@ -126,6 +127,24 @@ Proposés tout au long du parcours, les soins de support complètent les traitem
 - **L'après-cancer**   
 À la fin des traitements actifs, un suivi personnalisé est organisé afin de surveiller votre état de santé, prévenir ou prendre en charge les effets à long terme des traitements, dépister une éventuelle récidive et favoriser votre retour à la vie quotidienne. Lorsque cela est indiqué, un Programme Personnalisé de l'Après-Cancer (PPAC) peut être mis en place pour coordonner ce suivi et vous accompagner dans cette nouvelle étape.
 
+## Les vidéos pédagogiques
+*Des vidéos pédagogiques pour mieux comprendre le parcours de soin*   
+
+L'annonce de la maladie   
+
+- **Le diagnostic et la proposition thérapeutique (INCa)** [![Vidéo — Le diagnostic et la proposition thérapeutique](/images/parcours1.png)](https://www.youtube.com/watch?v=vyRWhDVM4iQ){: .linkcard }
+- **Le temps d'accompagnement et d'écoute (INCa)** [![Vidéo — Le temps d'accompagnement et d'écoute](/images/parcours2.png)](https://www.youtube.com/watch?v=Cnl7MVRAmhI){: .linkcard }
+
+Les traitements   
+
+- **La chirurgie (INCa)** [![Vidéo — La chirurgie](/images/parcours3.png)](https://www.youtube.com/watch?v=D11D_Q3cg54){: .linkcard }
+- **Les traitements médicamenteux systémiques (INCa)** [![Vidéo — Les traitements médicamenteux systémiques](/images/parcours4.png)](https://www.youtube.com/watch?v=8ywlfQxeXBc){: .linkcard }
+- **La radiothérapie (INCa)** [![Vidéo — La radiothérapie](/images/parcours5.png)](https://www.youtube.com/watch?v=A0JHrFbsZkg){: .linkcard }
+
+La qualité de vie   
+
+- **Les soins de support (INCa)** [![Vidéo — Les soins de support](/images/parcours7.png)](https://www.youtube.com/watch?v=wxpOnnXXC1I){: .linkcard }
+- **Le suivi après-cancer (INCa)** [![Vidéo — Le suivi après-cancer](/images/parcours8.png)](https://www.youtube.com/watch?v=0hudQCrm1gM){: .linkcard }
 
    
 # Les essais cliniques
@@ -200,6 +219,12 @@ La participation à un essai clinique est entièrement **volontaire** et repose 
    
      
 *Retrouvez les bases de données des essais cliniques dans l'onglet [Recherche](/recherche/#essais-cliniques-en-cours)*
+
+## Les vidéos pédagogiques
+*Des vidéos pédagogiques pour mieux comprendre la participation à un essai clinique*   
+
+
+- **La participation à un essai clinique (INCa)** [![Vidéo — La participation à un essai clinique](/images/parcours6.png)](https://www.youtube.com/watch?v=XTkoXIItq4E){: .linkcard }
 
 
 # Soins de support & qualité de vie
