@@ -8,6 +8,16 @@ Summary: Projets de recherche par axe, essais cliniques, publications, appels à
 *A venir.*
 
 # Essais cliniques en cours
+*Bases de données des essais cliniques ouverts en France*   
+   
+*Bon à savoir :* Même si tous les acteurs impliqués s'efforcent de les tenir à jour, les bases de données ne peuvent refléter en temps réel la situation exacte de chaque étude dans chaque centre :
+
+- certains essais peuvent ne pas apparaître dans les bases de données ;
+- certains essais peuvent être indiqués comme ouverts alors que les inclusions sont terminées ;
+- certains essais ne sont ouverts que par moments, lorsqu'une place (« slot ») se libère.
+
+*Avant d'envisager un essai clinique, nous vous conseillons de vérifier sa disponibilité auprès de votre médecin ou du centre qui mène l'étude.*
+
 ## Bases de données publiques des essais cliniques
 [Registre des essais cliniques en oncologie en France](https://www.cancer.fr/personnes-malades/registre-des-essais-cliniques) (Base de l'INCa)     
 [Registre des essais cliniques en France](https://www.sante.fr/essais-cliniques/recherche)     
