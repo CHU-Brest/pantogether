@@ -69,19 +69,19 @@ Vous n'avez pas besoin de tout consulter. Choisissez le cancer qui vous concerne
 **Les vidéos pédagogiques sur les traitements du cancer du foie**  
 *Chaque vidéo présente un traitement : comment il se déroule et ce qu'il apporte. Votre médecin vous indiquera lesquels vous concernent.*   
    
-*Traitements locaux et techniques ciblées*   
+**Traitements locaux et techniques ciblées**   
 
 - **Radiothérapie externe (PLCG)** [![Vidéo — La radiothérapie externe](/images/radioext.png)](https://parislivercancergroup.com/pour-les-patients/#video-gallery-fabf4d9-1){: .linkcard }
 - **Radioembolisation (PLCG)** [![Vidéo — La radioembolisation (SIRT)](/images/SIRT.png)](https://parislivercancergroup.com/pour-les-patients/#video-gallery-fabf4d9-2){: .linkcard }
 - **Ablation percutanée (PLCG)** [![Vidéo — L’ablation percutanée](/images/Ablation.png)](https://parislivercancergroup.com/pour-les-patients/#video-gallery-fabf4d9-9){: .linkcard }
 - **Chimioembolisation (PLCG**) [![Vidéo — La chimioembolisation](/images/Chimioembol.png)](https://parislivercancergroup.com/pour-les-patients/#video-gallery-fabf4d9-10){: .linkcard }
    
-*Traitements médicamenteux*   
+**Traitements médicamenteux**   
 
 - **Inhibiteurs de tyrosine kinase (PLCG)** [![Vidéo — Les inhibiteurs de tyrosine kinase](/images/ITK.png)](https://parislivercancergroup.com/pour-les-patients/#video-gallery-fabf4d9-3){: .linkcard }
 - **Immunothérapie (PLCG)** [![Vidéo — L’immunothérapie](/images/Immuno.png)](https://parislivercancergroup.com/pour-les-patients/#video-gallery-fabf4d9-4){: .linkcard }
 
-*Chirurgie*   
+**Chirurgie**   
 
 - **Résection chirurgicale (PLCG)** [![Vidéo — La résection chirurgicale](/images/Resection.png)](https://parislivercancergroup.com/pour-les-patients/#video-gallery-fabf4d9-7){: .linkcard }
 - **Transplantation hépatique (PLCG)** [![Vidéo — La transplantation hépatique](/images/Transplant.png)](https://parislivercancergroup.com/pour-les-patients/#video-gallery-fabf4d9-8){: .linkcard }
@@ -130,18 +130,18 @@ Proposés tout au long du parcours, les soins de support complètent les traitem
 ## Les vidéos pédagogiques
 *Des vidéos pédagogiques pour mieux comprendre le parcours de soin*   
 
-L'annonce de la maladie   
+**L'annonce de la maladie**   
 
 - **Le diagnostic et la proposition thérapeutique (INCa)** [![Vidéo — Le diagnostic et la proposition thérapeutique](/images/parcours1.png)](https://www.youtube.com/watch?v=vyRWhDVM4iQ){: .linkcard }
 - **Le temps d'accompagnement et d'écoute (INCa)** [![Vidéo — Le temps d'accompagnement et d'écoute](/images/parcours2.png)](https://www.youtube.com/watch?v=Cnl7MVRAmhI){: .linkcard }
 
-Les traitements   
+**Les traitements**   
 
 - **La chirurgie (INCa)** [![Vidéo — La chirurgie](/images/parcours3.png)](https://www.youtube.com/watch?v=D11D_Q3cg54){: .linkcard }
 - **Les traitements médicamenteux systémiques (INCa)** [![Vidéo — Les traitements médicamenteux systémiques](/images/parcours4.png)](https://www.youtube.com/watch?v=8ywlfQxeXBc){: .linkcard }
 - **La radiothérapie (INCa)** [![Vidéo — La radiothérapie](/images/parcours5.png)](https://www.youtube.com/watch?v=A0JHrFbsZkg){: .linkcard }
 
-La qualité de vie   
+**La qualité de vie**   
 
 - **Les soins de support (INCa)** [![Vidéo — Les soins de support](/images/parcours7.png)](https://www.youtube.com/watch?v=wxpOnnXXC1I){: .linkcard }
 - **Le suivi après-cancer (INCa)** [![Vidéo — Le suivi après-cancer](/images/parcours8.png)](https://www.youtube.com/watch?v=0hudQCrm1gM){: .linkcard }
@@ -223,9 +223,10 @@ La participation à un essai clinique est entièrement **volontaire** et repose 
 ## Les vidéos pédagogiques
 *Des vidéos pédagogiques pour mieux comprendre la participation à un essai clinique*   
 
-
 - **La participation à un essai clinique (INCa)** [![Vidéo — La participation à un essai clinique](/images/parcours6.png)](https://www.youtube.com/watch?v=XTkoXIItq4E){: .linkcard }
-
+- **Essais cliniques, exemple du centre Léon Bérard (Centre Léon Bérard)** [![Vidéo — La participation à un essai clinique Léon Bérard](/images/EC Leon berard.png)](https://www.youtube.com/watch?v=dbnNtpKJiKU){: .linkcard }
+- **Le parcours du patient en essai clinique (CHU Bordeaux)** [![Vidéo — Le parcours en essai clinique](/images/rechercheclinique bdx.png)](https://www.youtube.com/watch?v=-0T7DRlUrpE){: .linkcard }
+- **Témoignagne d'une patiente (ICM Montpellier)** [![Vidéo — Témoignage](/images/EC temoignage.png)](https://www.youtube.com/watch?v=MFKpLT587cA&t=40s){: .linkcard }
 
 # Soins de support & qualité de vie
 *Les soins de support : préserver votre qualité de vie*   
@@ -252,6 +253,13 @@ D’autres soins de support ou de services de prise en charge peuvent être prop
    
 Chacun de ces soins peut être **proposé à tout moment**, de l’annonce du diagnostic à la phase de rémission. Les besoins du patient doivent être rediscutés **tout au long du parcours de soins** avec les professionnels. Les soins de support peuvent être dispensés à l’hôpital ou dans des établissements de santé de ville.   
 
+## Les vidéos pédagogiques
+*Des vidéos pédagogiques sur les soins de support*
+
+- **Les soins de support (INCa)** [![Vidéo — Les soins de support](/images/parcours7.png)](https://www.youtube.com/watch?v=wxpOnnXXC1I){: .linkcard }
+- **Les soins oncologiques de support (CHU Bordeaux)** [![Vidéo — TAS et soins de support](/images/SOS Bdx.png)](https://www.youtube.com/watch?v=zbjOpCaKn7A){: .linkcard }
+- **Les soins de support en oncologie (Centre Léon Bérard)** [![Vidéo — Soins de support](/images/SOS Leon berard.png)](https://www.youtube.com/watch?v=eFceE2iGILY){: .linkcard }
+
 # Devenir patient partenaire
 *Partager son expérience pour améliorer le parcours de soin*   
 
@@ -270,6 +278,12 @@ Les parcours de formation possibles :
 - Les formations par des associations agréées comme la [Ligue contre le cancer](https://www.ligue-cancer.net/devenir-patient-ressource) 
    
 *Si vous souhaitez devenir patient partenaire, rapprochez-vous de votre établissement de santé, d'une association de patients ou de l'équipe coordinatrice du réseau. Ils pourront vous informer sur les dispositifs existants, les formations proposées et les modalités pour vous engager.*   
+
+## Les vidéos pédagogiques
+*Des vidéos pédagogiques pour mieux comprendre le rôle d'un patient partenaire*   
+
+- **Patient partenaire, exemple aux HCL (Hospices Civils de Lyon)** [![Vidéo — Patient partenaire](/images/HCL patientpartenaire.png)](https://www.youtube.com/watch?v=Azp4Dq8KIHE){: .linkcard }
+- **Du patient au partenaire (B Smart)** [![Vidéo — La participation à un essai clinique](/images/Bsmart.png)](https://www.youtube.com/watch?v=-eZkq3NTmcA){: .linkcard }
    
 # Associations   
 *Les associations de patients : des partenaires engagés à vos côtés*   
