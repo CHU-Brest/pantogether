@@ -209,8 +209,10 @@ Participer à un essai clinique peut permettre d’accéder à de nouvelles appr
 Deux documents importants vous sont remis :   
 
 - Une **note d’information** qui explique le déroulement de l’essai (durée, objectifs, risques, bénéfices…)
-- Un **formulaire de consentement** que vous signez si vous acceptez de participer à l'étude. Vous pouvez vous retirer de l’essai à tout moment, même après avoir signé.
-   
+- Un **formulaire de consentement** que vous signez si vous acceptez de participer à l'étude. Vous pouvez vous retirer de l’essai à tout moment, même après avoir signé. 
+
+![parcours EC](/images/parcours EC.jpg)
+
 La **sécurité et la protection des participants sont la priorité absolue** de tout essai clinique, avant tout objectif de recherche scientifique. Ces études sont donc strictement encadrées par la loi et chaque protocole est évalué et autorisé par un comité éthique, garantissant le respect des droits, de la sécurité et du bien-être des patients.   
    
 La participation à un essai clinique est entièrement **volontaire** et repose sur votre **consentement libre et éclairé**, recueilli après une information complète et compréhensible.   
