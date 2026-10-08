@@ -130,18 +130,18 @@ Proposés tout au long du parcours, les soins de support complètent les traitem
 ## Les vidéos pédagogiques
 *Des vidéos pédagogiques pour mieux comprendre le parcours de soin*   
 
-**L'annonce de la maladie**   
+### L'annonce de la maladie   
 
 - **Le diagnostic et la proposition thérapeutique (INCa)** [![Vidéo — Le diagnostic et la proposition thérapeutique](/images/parcours1.png)](https://www.youtube.com/watch?v=vyRWhDVM4iQ){: .linkcard }
 - **Le temps d'accompagnement et d'écoute (INCa)** [![Vidéo — Le temps d'accompagnement et d'écoute](/images/parcours2.png)](https://www.youtube.com/watch?v=Cnl7MVRAmhI){: .linkcard }
 
-**Les traitements**   
+### Les traitements   
 
 - **La chirurgie (INCa)** [![Vidéo — La chirurgie](/images/parcours3.png)](https://www.youtube.com/watch?v=D11D_Q3cg54){: .linkcard }
 - **Les traitements médicamenteux systémiques (INCa)** [![Vidéo — Les traitements médicamenteux systémiques](/images/parcours4.png)](https://www.youtube.com/watch?v=8ywlfQxeXBc){: .linkcard }
 - **La radiothérapie (INCa)** [![Vidéo — La radiothérapie](/images/parcours5.png)](https://www.youtube.com/watch?v=A0JHrFbsZkg){: .linkcard }
 
-**La qualité de vie**   
+### La qualité de vie   
 
 - **Les soins de support (INCa)** [![Vidéo — Les soins de support](/images/parcours7.png)](https://www.youtube.com/watch?v=wxpOnnXXC1I){: .linkcard }
 - **Le suivi après-cancer (INCa)** [![Vidéo — Le suivi après-cancer](/images/parcours8.png)](https://www.youtube.com/watch?v=0hudQCrm1gM){: .linkcard }
