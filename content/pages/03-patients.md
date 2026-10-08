@@ -164,7 +164,7 @@ Il existe deux grandes catégories d'essais cliniques :
 - Les **essais interventionnels** qui évaluent les effets d'une intervention chez un patient. Il peut s'agir d'un nouveau médicament, d'une nouvelle technique chirurgicale ou d'une nouvelle méthode de dépistage ou de diagnostic (par exemple une nouvelle technique d'imagerie), ou encore d'un nouveau dispositif médical.   
 - Les **essais non-interventionnels** ou **observationnels** qui permettent d'améliorer les connaissances sur une maladie et son évolution au cours du temps, sans modifier la prise en charge habituelle du patient. Ils sont réalisés dans le cadre du suivi des patients.
 
-## Les essais interventionnels en oncologie
+### Les essais interventionnels en oncologie
 Le patient reçoit un traitement ou une procédure définie par le protocole de recherche, dans un cadre très encadré.   
    
 Cela peut permettre d'évaluer :   
@@ -185,7 +185,7 @@ Cela peut permettre d'évaluer :
     - **Phase III** : on compare le nouveau traitement au traitement standard, sur un grand nombre de patients. Lorsque les résultats de la phase III sont concluants — c’est-à-dire que le nouveau traitement démontre un bénéfice clinique supérieur ou équivalent au traitement de référence, avec une tolérance comparable ou meilleure — le médicament peut obtenir une **autorisation de mise sur le marché (AMM)**   
     - **Phase IV** : après la mise sur le marché, on surveille les effets à long terme du médicament en conditions réelles, chez une population plus large et plus hétérogène que celle incluse dans les essais cliniques précédents.   
 
-## Les essais observationnels en oncologie
+### Les essais observationnels en oncologie
 
 Le patient reçoit sa prise en charge habituelle. Le médecin recueille des données pour mieux comprendre la maladie, sans rien changer au traitement.   
    
@@ -204,18 +204,69 @@ Cela permet par exemple de :
    
 ## Comment accéder à un essai clinique  
 
-Participer à un essai clinique peut permettre d’accéder à de nouvelles approches thérapeutiques tout en contribuant aux progrès de la recherche médicale. L’accès à un essai est toujours proposé et encadré par l’équipe soignante, qui vérifie que l’étude correspond à votre situation médicale et à certains critères précis dits **critères d'inclusion** (ex : âge, maladie, antécédents, etc...). Votre médecin vous explique les objectifs, le déroulement, les bénéfices attendus ainsi que les éventuels risques et les contraintes liées à l'étude, afin que vous puissiez prendre votre décision en toute connaissance de cause.    
+Participer à un essai clinique peut permettre d’accéder à de nouvelles approches thérapeutiques tout en contribuant aux progrès de la recherche médicale. L’accès à un essai est toujours proposé et encadré par l’équipe soignante, qui vérifie que l’étude correspond à votre situation médicale et à certains critères précis dits **critères d'inclusion** (ex : âge, maladie, antécédents, etc...).   
+
+![parcours EC](/images/parcours EC.jpg)
+
+### Information et consentement
+Votre médecin vous explique les objectifs, le déroulement, les bénéfices attendus ainsi que les éventuels risques et les contraintes liées à l'étude, afin que vous puissiez prendre votre décision en toute connaissance de cause.    
 
 Deux documents importants vous sont remis :   
 
 - Une **note d’information** qui explique le déroulement de l’essai (durée, objectifs, risques, bénéfices…)
 - Un **formulaire de consentement** que vous signez si vous acceptez de participer à l'étude. Vous pouvez vous retirer de l’essai à tout moment, même après avoir signé. 
 
-![parcours EC](/images/parcours EC.jpg)
+Vous pouvez prendre le temps nécessaire pour lire les documents, poser des questions, en parler à vos proches ou à votre médecin traitant. Vous pouvez refuser de participer, ou mettre fin à votre participation à tout moment et sans justification. Votre choix n'a aucune conséquence sur la qualité de votre prise en charge.
 
-La **sécurité et la protection des participants sont la priorité absolue** de tout essai clinique, avant tout objectif de recherche scientifique. Ces études sont donc strictement encadrées par la loi et chaque protocole est évalué et autorisé par un comité éthique, garantissant le respect des droits, de la sécurité et du bien-être des patients.   
+### Bilan d'éligibilité
+Cette étape appelée de **« sélection » ou « screening »**, vérifie que votre situation correspond bien au profil recherché par l'essai. Elle a lieu après la signature du consentement, et avant l'inclusion.   
+Vos données sont comparées aux **critères d'inclusion** (ce que le patient doit présenter pour participer) et aux **critères de non-inclusion** (ce qui l'exclut) définis par l'essai. Ces critères servent à protéger le patient, en évitant de lui proposer un traitement qui ne lui conviendrait pas, et à garantir que les résultats de l'étude seront fiables, en étudiant des patients comparables entre eux.   
+Certains examens complémentaires peuvent être demandés pour vérifier ces critères (par exemple une prise de sang, une biopsie ou une imagerie).
+
+### Inclusion
+**Si tous les critères sont validés**, vous êtes officiellement inclus dans l'essai.   
+Vous serez associé à un numéro d'identification propre à l'étude, afin d'anonymiser vos données. La date d'inclusion dans l'essai marque le début du suivi (on parle de « J0 » dans de nombreux protocoles). Selon l'essai, le premier traitement peut être administré le jour même ou dans les jours qui suivent.   
+
+Certaines études prévoient une **randomisation**, c'est à dire un tirage au sort effectué par informatique pour déterminer quel traitement le patient va recevoir. Cela permet de répartir les participants par hasard, pour éviter que des différences entre les groupes (âge, sexe, stade de la maladie) ne faussent les résultats. Selon le protocole de l'étude, les résultats de cette randomisation peuvent être connus ou non : 
+
+- **Essai en ouvert** : le patient et le médecin savent quel traitement est administré.   
+- **Simple aveugle** : le patient l'ignore, le médecin le sait.   
+- **Double aveugle** : ni le patient ni le médecin ne le savent. Cela évite que les attentes de chacun influencent l'évaluation. En cas d'urgence médicale, l'information peut être levée.   
+
+### Traitement et suivi
+Vous recevez le traitement prévu par le protocole et êtes surveillé de près, pour évaluer à la fois son efficacité et sa tolérance.    
+Le traitement est administré selon le schéma précis, défini à l'avance par le protocole de l'étude : dose, fréquence, mode d'administration et durée. Selon l'essai, le traitement peut être donné à l'hôpital ou, pour certains médicaments oraux, pris à domicile. Dans ce cas, on demande au patient de tenir un carnet de prises et de rapporter les boîtes de médicaments à chaque visite.   
    
-La participation à un essai clinique est entièrement **volontaire** et repose sur votre **consentement libre et éclairé**, recueilli après une information complète et compréhensible.   
+Les visites de suivi sont planifiées selon le **calendrier fixé par le protocole**. Lors de ces visites, peuvent être réalisés :
+
+- un examen clinique et un point sur l'état général ;
+- des prises de sang et recueil d'urine ;
+- le recueil des effets indésirables, et des traitements associés pris entre deux visites ;
+- des questionnaires de qualité de vie ou de symptômes ;
+- des examens d'évaluation de la maladie (scanner, IRM, etc.).
+
+### Fin de traitement de l'étude
+Cette étape correspond à la **sortie de la phase de traitement actif de l'essai**, elle intervient si :   
+
+- la durée prévue par le protocole est atteinte ;   
+- la maladie progresse et le traitement n'est plus efficace ;   
+- des effets indésirables rendent la poursuite impossible ou risquée ;   
+- le patient décide de se retirer de l'étude ;   
+- le médecin juge qu'il est préférable d'arrêter, dans l'intérêt du patient ;   
+- l'essai est arrêté ou modifié par le promoteur, les autorités ou le comité de surveillance indépendant.  
+   
+Une visite de fin de traitement est prévue avec le médecin pour faire le point sur les données cliniques, les visites de suivi post-traitement et la suite de la prise en charge.   
+
+### Suivi à long terme
+Après l'arrêt du traitement, vous restez suivi pendant une période définie par le protocole, de quelques mois à parfois plusieurs années, avec des contrôles beaucoup plus espacés que lors de la phase de traitement.   
+Il peut s'agir de visites à l'hôpital (avec examen clinique, prises de sang, parfois imageries), ou simplement d'appels téléphoniques ou de questionnaires envoyés.   
+
+
+### Points importants pour le patient
+
+- La **sécurité et la protection des participants sont la priorité absolue** de tout essai clinique, avant tout objectif de recherche scientifique. Ces études sont donc strictement encadrées par la loi et chaque protocole est évalué et autorisé par un comité éthique, garantissant le respect des droits, de la sécurité et du bien-être des patients.   
+   
+- La participation à un essai clinique est entièrement **volontaire** et repose sur votre **consentement libre et éclairé**, recueilli après une information complète et compréhensible.   
 
 **Vous êtes libre d’accepter ou de refuser de participer à un essai clinique, et vous pouvez mettre fin à votre participation à tout moment, sans avoir à vous justifier et sans que cela n’affecte la qualité de votre prise en charge.**
    
@@ -223,7 +274,7 @@ La participation à un essai clinique est entièrement **volontaire** et repose 
 *Retrouvez les bases de données des essais cliniques dans l'onglet [Recherche](/recherche/#essais-cliniques-en-cours)*
 
 ## Les vidéos pédagogiques
-*Des vidéos pédagogiques pour mieux comprendre la participation à un essai clinique*   
+*Des vidéos pédagogiques pour mieux comprendre la participation à un essai clinique et ses étapes*   
 
 - **La participation à un essai clinique (INCa)** [![Vidéo — La participation à un essai clinique](/images/parcours6.png)](https://www.youtube.com/watch?v=XTkoXIItq4E){: .linkcard }
 - **Essais cliniques, exemple du centre Léon Bérard (Centre Léon Bérard)** [![Vidéo — La participation à un essai clinique Léon Bérard](/images/EC Leon berard.png)](https://www.youtube.com/watch?v=dbnNtpKJiKU){: .linkcard }
