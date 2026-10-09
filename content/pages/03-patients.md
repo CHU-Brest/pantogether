@@ -113,7 +113,8 @@ Après le diagnostic, une équipe pluridisciplinaire de professionnels de santé
 ![parcours soins](/images/parcours de soins.jpg)   
 
 - **Le diagnostic et son annonce**   
-Après les examens nécessaires, votre médecin vous communique le diagnostic lors d'une consultation d'annonce. Ce temps d'échange permet de vous expliquer la maladie, les examens réalisés et les premières étapes de votre prise en charge. Un accompagnement par une infirmière d'annonce, un psychologue ou d'autres professionnels peut vous être proposé pour répondre à vos questions et vous soutenir.
+Le diagnostic de la maladie est établit à partir d'une analyse anatomopathologique, c'est à dire un examen microscopique du tissu tumoral. Son prélèvement est réalisé par biopsie à l’aide d’une aiguille ou lors d’une exérèse de la tumeur par chirurgie. Les résultats de cette analyse vont permettre d'orienter la prise en charge thérapeutique.     
+Le diagnostic vous est communiqué par votre médecin lors d'une consultation d'annonce. Ce temps d'échange permet de vous expliquer la maladie, les examens réalisés et les premières étapes de votre prise en charge. Un accompagnement par une infirmière d'annonce, un psychologue ou d'autres professionnels peut vous être proposé pour répondre à vos questions et vous soutenir.
 
 - **La réunion de concertation pluridisciplinaire (RCP)**   
 Votre dossier est étudié par une équipe de spécialistes (oncologues, chirurgiens, radiothérapeutes, anatomopathologistes, radiologues, etc.). Ensemble, ils définissent la stratégie thérapeutique la plus adaptée à votre situation, en s'appuyant sur les recommandations médicales les plus récentes.
