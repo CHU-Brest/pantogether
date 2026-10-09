@@ -113,8 +113,7 @@ Après le diagnostic, une équipe pluridisciplinaire de professionnels de santé
 ![parcours soins](/images/parcours de soins.jpg)   
 
 - **Le diagnostic et son annonce**   
-Le diagnostic est évoqué à partir d’un bilan clinique, biologique et d’imagerie, puis confirmé par une analyse anatomopathologique, c’est-à-dire un examen microscopique du tissu tumoral. Ce prélèvement est réalisé par biopsie, notamment à l’aide d’une aiguille, ou lors de l’exérèse chirurgicale de la tumeur. Les résultats de cette analyse permettent d’orienter la prise en charge thérapeutique, qui est définie en réunion de concertation pluridisciplinaire (RCP).
-
+Le diagnostic est évoqué à partir d’un bilan clinique, biologique et d’imagerie, puis confirmé par une analyse anatomopathologique, c’est-à-dire un examen microscopique du tissu tumoral. Ce prélèvement est réalisé par biopsie, notamment à l’aide d’une aiguille, ou lors de l’exérèse chirurgicale de la tumeur. Les résultats de cette analyse permettent d’orienter la prise en charge thérapeutique, qui est définie en réunion de concertation pluridisciplinaire (RCP).   
 Le diagnostic vous est communiqué par votre médecin lors d’une consultation d’annonce. Ce temps d’échange permet de vous expliquer la maladie, les examens réalisés et les premières étapes de votre prise en charge. Un accompagnement par une infirmière d’annonce, un psychologue ou d’autres professionnels peut vous être proposé pour répondre à vos questions et vous soutenir.
 
 - **La réunion de concertation pluridisciplinaire (RCP)**   
