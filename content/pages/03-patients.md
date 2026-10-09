@@ -279,7 +279,7 @@ Il peut s'agir de visites à l'hôpital (avec examen clinique, prises de sang, p
 - **La participation à un essai clinique (INCa)** [![Vidéo — La participation à un essai clinique](/images/parcours6.png)](https://www.youtube.com/watch?v=XTkoXIItq4E){: .linkcard }
 - **Essais cliniques, exemple du centre Léon Bérard (Centre Léon Bérard)** [![Vidéo — La participation à un essai clinique Léon Bérard](/images/EC Leon berard.png)](https://www.youtube.com/watch?v=dbnNtpKJiKU){: .linkcard }
 - **Le parcours du patient en essai clinique (CHU Bordeaux)** [![Vidéo — Le parcours en essai clinique](/images/rechercheclinique bdx.png)](https://www.youtube.com/watch?v=-0T7DRlUrpE){: .linkcard }
-- **Témoignagne d'une patiente (ICM Montpellier)** [![Vidéo — Témoignage](/images/EC temoignage.png)](https://www.youtube.com/watch?v=MFKpLT587cA&t=40s){: .linkcard }
+- **Témoignagne d'une patiente (ICM Montpellier)** [![Vidéo — Témoignage](/images/EC temoignage.png)](https://www.youtube.com/watch?v=MFKpLT587cA&t=0s){: .linkcard }
 
 # Soins de support & qualité de vie
 *Les soins de support : préserver votre qualité de vie*   
