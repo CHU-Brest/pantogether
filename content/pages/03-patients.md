@@ -102,7 +102,7 @@ Vous n'avez pas besoin de tout consulter. Choisissez le cancer qui vous concerne
   → Informations sur les [cancers du pancréas](https://www.cancer.fr/personnes-malades/les-cancers/pancreas)    
 
 
-# Le parcours de soin
+# Le parcours de soins
 
 *Du dépistage au suivi post-cancer.*
 
@@ -113,14 +113,16 @@ Après le diagnostic, une équipe pluridisciplinaire de professionnels de santé
 ![parcours soins](/images/parcours de soins.jpg)   
 
 - **Le diagnostic et son annonce**   
-La confirmation du diagnostic de la maladie est établit à partir d'une analyse anatomopathologique, c'est à dire un examen microscopique du tissu tumoral. Le prélèvement de celui-ci est réalisé par biopsie à l’aide d’une aiguille ou lors d’une exérèse de la tumeur par chirurgie. Les résultats de cette analyse, associés à un bilan clinique, biologique et d'imageries, vont permettre d'orienter la prise en charge thérapeutique.     
-Le diagnostic vous est communiqué par votre médecin lors d'une consultation d'annonce. Ce temps d'échange permet de vous expliquer la maladie, les examens réalisés et les premières étapes de votre prise en charge. Un accompagnement par une infirmière d'annonce, un psychologue ou d'autres professionnels peut vous être proposé pour répondre à vos questions et vous soutenir.
+Le diagnostic est évoqué à partir d’un bilan clinique, biologique et d’imagerie, puis confirmé par une analyse anatomopathologique, c’est-à-dire un examen microscopique du tissu tumoral. Ce prélèvement est réalisé par biopsie, notamment à l’aide d’une aiguille, ou lors de l’exérèse chirurgicale de la tumeur. Les résultats de cette analyse permettent d’orienter la prise en charge thérapeutique, qui est définie en réunion de concertation pluridisciplinaire (RCP).
+
+Le diagnostic vous est communiqué par votre médecin lors d’une consultation d’annonce. Ce temps d’échange permet de vous expliquer la maladie, les examens réalisés et les premières étapes de votre prise en charge. Un accompagnement par une infirmière d’annonce, un psychologue ou d’autres professionnels peut vous être proposé pour répondre à vos questions et vous soutenir.
 
 - **La réunion de concertation pluridisciplinaire (RCP)**   
 Votre dossier est étudié par une équipe de spécialistes (oncologues, chirurgiens, radiothérapeutes, anatomopathologistes, radiologues, etc.). Ensemble, ils définissent la stratégie thérapeutique la plus adaptée à votre situation, en s'appuyant sur les recommandations médicales les plus récentes.
 
 - **Le Programme Personnalisé de Soins (PPS)**   
-Lors d'une consultation dédiée, votre médecin vous présente la proposition de stratégie thérapeutique définie lors de la RCP. Cette proposition vous est remise sous la forme d'un document, le Programme Personnalisé de Soins (PPS), qui récapitule les traitements proposés (chirurgie, chimiothérapie, radiothérapie, immunothérapie, hormonothérapie…), leur calendrier prévisionnel ainsi que les modalités de votre prise en charge.
+Lors d'une consultation dédiée, votre médecin vous présente la proposition de stratégie thérapeutique définie lors de la RCP. Cette proposition vous est remise sous la forme d'un document, le Programme Personnalisé de Soins (PPS), qui récapitule les traitements proposés (chirurgie, chimiothérapie, radiothérapie, immunothérapie, hormonothérapie…), leur calendrier prévisionnel ainsi que les modalités de votre prise en charge.   
+Votre PPS peut évoluer au cours de votre parcours de soin selon votre réponse aux traitements et votre état de santé.
    
 *Selon les cas et la complexité de la pathologie, les temps d’annonce de la confirmation du diagnostic et de proposition thérapeutique peuvent être réunis ou séparés.*
 
