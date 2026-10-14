@@ -5,7 +5,7 @@ Summary: RCP, référentiels nationaux, outils harmonisés et formation à desti
 
 # RCP locales et régionales des centres experts
 Chaque centre expert du réseau organise ses propres réunions de concertation
-pluridisciplinaire, sur un ou plusieurs des trois axes (foie et voies biliaires,
+pluridisciplinaire (RCP), sur un ou plusieurs des trois axes (foie et voies biliaires,
 œsophage et estomac, pancréas).
 
 L'annuaire recense pour chaque RCP son jour et son horaire, son lieu, l'accès en
@@ -17,17 +17,54 @@ directement sur la carte .
 
 
 # RCP nationales de recours et d'expertise du réseau
-Les RCP de recours et d'expertise du réseau ont un périmètre national et regroupent des praticiens experts pour des situations cliniques complexes et/ou des cancers rares, ou nécessitant un accès à des innovations diagnostiques ou thérapeutiques, à une expertise clinique ou à la recherche clinique, notamment aux essais de phase I.       
+Les réunions de concertation pluridisciplinaires (RCP) de recours et d'expertise du réseau ont un périmètre national et regroupent des praticiens experts pour des situations cliniques complexes et/ou des cancers rares, ou nécessitant un accès à des innovations diagnostiques ou thérapeutiques, à une expertise clinique ou à la recherche clinique, notamment aux essais de phase I.       
 Elles sont accessibles en web-conférence sur la [**plateforme OMNIDOC**](https://omnidoc.fr/).   
 
 ## Modalités d'inscription
 Tout médecin prescripteur doit faire sa demande et **remplir une fiche d’inscription** de passage en RCP correspondant à la thématique dédiée, sur la page de RCP dédiée du réseau sur OMNIDOC. Les fiches doivent être complétées **en ligne 24 heures avant la séance**.   
 *Vous pouvez retrouver la version Word des fiches RCP dans l'onglet [Outils & Protocoles harmonisés](/professionnels/#outils-protocoles-harmonises)*
 
-## Calendrier des RCP
-
 ## Documentation
 [Outil de connexion OMNIDOC](/assets/Tutoriel Requérant RCP Omnidoc.pdf) (PDF)    
+
+## RCP CANCERS PRIMITIFS DU FOIE RARES
+**Centre porteur de la RCP :** Service d'hépatologie et d'oncologie hépatique de l'hôpital Avicenne (AP-HP)   
+**Coordonateurs de la RCP :** Pr Jean-Charles Nault & Dr Claudia Campani
+   
+**Les cancers primitifs rares du foie qui seront discutés sont principalement les suivants : hépatocholangiocarcinomes, carcinomes fibrolamellaires, hémangioendothéliomes épithélioïdes, hépatoblastomes de l'adulte, angiomyolipome transformé, carcinomes épidermoïdes primitifs du foie ou cystadénocarcinomes hépatiques. Cette liste n'est pas exhaustive.**    
+Les tumeurs hépatiques bénignes à diagnostic ou prise en charge complexe (adénome borderline/CHC, adénome difficile à traiter, etc…) pourront exceptionnellement être discutées, à la demande d'une RCP spécialisée en tumeurs du foie d'un CHU ayant déjà examiné le dossier.   
+
+[Plus d'informations sur la RCP](/professionnels/#rcp-cancers-primitifs-rares-du-foie_1) 
+
+### Calendrier    
+Jours : **1er lundi et 3ème jeudi du mois**   
+Horaire : **16h00-17h00**   
+Lieu : **Visioconférence (Omnidoc)**  
+
+### Modalités de soumission d'un dossier     
+**Pour soumettre un dossier à cette RCP, merci de contacter :**   
+Pr Jean-Charles Nault – {@}jean-charles.nault@aphp.fr{/@}   
+Service d'hépatologie et d'oncologie hépatique, hôpital Avicenne, Assistance Publique – Hôpitaux de Paris, 125 avenue de Stalingrad, 93000 Bobigny 
+
+# RCP Cancers primitifs du foie rares     
+
+À compter du 7 décembre 2026, une réunion de concertation pluridisciplinaire (RCP) nationale dédiée aux cancers primitifs rares du foie est mise en place dans le cadre du réseau PAN-TOGETHER, labellisé par l'INCa en septembre 2025. Elle est coordonnée par le service d'hépatologie et d'oncologie hépatique de l'hôpital Avicenne et sera pilotée par le Pr Jean-Charles Nault et le Dr Claudia Campani.   
+
+## Descriptif de la RCP   
+**Les cancers primitifs rares du foie qui seront discutés sont principalement les suivants : hépatocholangiocarcinomes, carcinomes fibrolamellaires, hémangioendothéliomes épithélioïdes, hépatoblastomes de l'adulte, angiomyolipome transformé, carcinomes épidermoïdes primitifs du foie ou cystadénocarcinomes hépatiques. Cette liste n'est pas exhaustive.** Les tumeurs hépatiques bénignes à diagnostic ou prise en charge complexe (adénome borderline/CHC, adénome difficile à traiter, etc…) pourront exceptionnellement être discutées, à la demande d'une RCP spécialisée en tumeurs du foie d'un CHU ayant déjà examiné le dossier.   
+   
+La RCP nationale permet aux médecins de toute la France confrontés à ces situations complexes d'obtenir un avis collégial d'experts reconnus. Cet avis est formalisé, tracé et fondé sur l’expertise des centres participants et les données de la littérature.    
+
+**La RCP se réunira deux fois par mois en visioconférence (omnidoc), le premier lundi et le troisième jeudi du mois, de 16h00 à 17h00.**    
+Elle rassemble des experts de plusieurs centres français (Pr Nault, Dr Sutter, Dr Campani et Pr Ziol_Hôpital Avicenne, Pr Lesurtel, Pr Ronot, Dr Hobeika, Pr Paradis et Dr Beaufrère_Hôpital Beaujon, Pr Caldéraro_Hôpital Henri Mondor, Créteil, Pr Vibert, Pr Golse et  Dr Baron_Hôpital Paul-Brousse, Dr Decraecker_CHU Bordeaux, Pr Boleslawski _CHU Lille,  Pr Aubé et Pr Paisant_CHU Angers, Pr Sturm_CHU Grenoble) et de quatre spécialités : anatomopathologie, radiologie, hépato-gastroentérologie et oncologie digestive, et chirurgie hépatobiliaire.   
+   
+Trois étapes complémentaires se combinent :   
+
+- en amont de la séance, une **relecture anatomopathologique centralisée** par un pathologiste expert si le diagnostic est difficile ;
+- pendant la séance, une **relecture radiologique en direct** des images par un radiologue expert ;
+- une **discussion collégiale** qui aboutit à une proposition personnalisée (diagnostic, examens complémentaires, traitement, suivi).  
+ 
+Cette proposition est ensuite transmise à l'équipe qui a présenté le dossier, et c'est elle qui met en œuvre la prise en charge au plus près du patient.
 
 
 # Contacts centres experts référents
@@ -171,10 +208,20 @@ Lieu : **Paris**
 
 # Agenda Webinaires
 
-- **[Bimonthly Scientific Webinar](https://www.frap-network.org/Webinaires-bimensuels-FRAP-sur-le-cancer-du-pancreas?lang=en)**   
+- **[Bimonthly Scientific Webinar](https://www.frap-network.or/Webinaires-bimensuels-FRAP-sur-le-cancer-du-pancreas?lang=en)**   
 Date : **23 Septembre 2026**    
 Sujet : **Integrated Multi-Platform Profiling Reveals KrasG12D-associated spatial organization of the pancreatic tumor microenvironment**
 [![Bimonthly Scientific Webinar — 23 septembre 2026](/images/FRAP230926.png)](/images/FRAP230926.png){: .poster }
+
+- **[Bimonthly Scientific Webinar](https://www.frap-network.or/Webinaires-bimensuels-FRAP-sur-le-cancer-du-pancreas?lang=en)**   
+Date : **14 Octobre 2026 à 13h**    
+Sujet : **Exploring the role of social determinants in pancreatic cancer trajectory using the BACAP cohort data**
+{: .poster }
+
+- **[Bimonthly Scientific Webinar](https://www.frap-network.or/Webinaires-bimensuels-FRAP-sur-le-cancer-du-pancreas?lang=en)**   
+Date : **23 Octobre 2026 de 14h à 16h**    
+Sujet : **Comprehensive overview of current single cell approaches: technologies, available platforms, applications, analysis challenges, and real-world feedback**
+{: .poster }
 
 # Agenda Formations
 *A venir*
