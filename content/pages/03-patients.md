@@ -107,7 +107,7 @@ Vous n'avez pas besoin de tout consulter. Choisissez le cancer qui vous concerne
 *Du dépistage au suivi post-cancer.*
 
 Le parcours de soins en oncologie regroupe l'ensemble des étapes qui structurent **l'accompagnement du patient et de ses proches**, du dépistage jusqu'au suivi après les traitements.   
-Après le diagnostic, une équipe pluridisciplinaire de professionnels de santé définit, avec le patient, **la stratégie thérapeutique la plus adaptée**, qui peut associer chirurgie, traitements médicamenteux, radiothérapie ou soins de support. Tout au long de ce parcours, le patient et ses proches bénéficient d'un accompagnement personnalisé visant à prendre en compte leurs besoins médicaux, psychologiques, sociaux et leur qualité de vie. À la fin des traitements, un suivi régulier est mis en place afin de surveiller l'évolution de la maladie, dépister une éventuelle récidive, prendre en charge les effets à long terme des traitements et favoriser le retour à une vie quotidienne dans les meilleures conditions possibles.    
+Après le diagnostic, une équipe pluridisciplinaire de professionnels de santé définit, avec le patient, **la stratégie thérapeutique la plus adaptée**, qui peut associer chirurgie, traitements médicamenteux ou radiothérapie. Tout au long de ce parcours, le patient et ses proches bénéficient d'un accompagnement personnalisé visant à prendre en compte leurs besoins médicaux, psychologiques, sociaux et leur qualité de vie. À la fin des traitements, un suivi régulier est mis en place afin de surveiller l'évolution de la maladie, dépister une éventuelle récidive, prendre en charge les effets à long terme des traitements et favoriser le retour à une vie quotidienne dans les meilleures conditions possibles.    
    
 ## Les étapes clés de votre parcours de soins
 ![parcours soins](/images/parcours de soins.jpg)   
@@ -120,7 +120,7 @@ Le diagnostic vous est communiqué par votre médecin lors d’une consultation 
 Votre dossier est étudié par une équipe de spécialistes (oncologues, chirurgiens, radiothérapeutes, anatomopathologistes, radiologues, etc.). Ensemble, ils définissent la stratégie thérapeutique la plus adaptée à votre situation, en s'appuyant sur les recommandations médicales les plus récentes.
 
 - **Le Programme Personnalisé de Soins (PPS)**   
-Lors d'une consultation dédiée, votre médecin vous présente la proposition de stratégie thérapeutique définie lors de la RCP. Cette proposition vous est remise sous la forme d'un document, le Programme Personnalisé de Soins (PPS), qui récapitule les traitements proposés (chirurgie, chimiothérapie, radiothérapie, immunothérapie, hormonothérapie…), leur calendrier prévisionnel ainsi que les modalités de votre prise en charge.   
+Lors d'une consultation dédiée, votre médecin vous présente la proposition de stratégie thérapeutique définie lors de la RCP. Cette proposition vous est remise sous la forme d'un document, le Programme Personnalisé de Soins (PPS), qui récapitule les traitements proposés (chirurgie, chimiothérapie, radiothérapie, immunothérapie, ...), leur calendrier prévisionnel ainsi que les modalités de votre prise en charge.   
 Votre PPS peut évoluer au cours de votre parcours de soin selon votre réponse aux traitements et votre état de santé.
    
 *Selon les cas et la complexité de la pathologie, les temps d’annonce de la confirmation du diagnostic et de proposition thérapeutique peuvent être réunis ou séparés.*
