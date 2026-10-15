@@ -34,7 +34,7 @@ Tout médecin prescripteur doit faire sa demande et **remplir une fiche d’insc
 **Les cancers primitifs rares du foie qui seront discutés sont principalement les suivants : hépatocholangiocarcinomes, carcinomes fibrolamellaires, hémangioendothéliomes épithélioïdes, hépatoblastomes de l'adulte, angiomyolipome transformé, carcinomes épidermoïdes primitifs du foie ou cystadénocarcinomes hépatiques. Cette liste n'est pas exhaustive.**    
 Les tumeurs hépatiques bénignes à diagnostic ou prise en charge complexe (adénome borderline/CHC, adénome difficile à traiter, etc…) pourront exceptionnellement être discutées, à la demande d'une RCP spécialisée en tumeurs du foie d'un CHU ayant déjà examiné le dossier.   
 
-[Plus d'informations sur la RCP](/professionnels/#rcp-cancers-primitifs-rares-du-foie_1) 
+[Plus d'informations sur la RCP](/professionnels/#rcp-cancers-primitifs-du-foie-rares_1) 
 
 ### Calendrier    
 Jours : **1er lundi et 3ème jeudi du mois**   
