@@ -208,22 +208,17 @@ Lieu : **Paris**
 
 # Agenda Webinaires
 
-- **[Bimonthly Scientific Webinar](https://www.frap-network.or/Webinaires-bimensuels-FRAP-sur-le-cancer-du-pancreas?lang=en)** (Réseau FRAP)   
-Date : **23 Septembre 2026**    
-Sujet : **Integrated Multi-Platform Profiling Reveals KrasG12D-associated spatial organization of the pancreatic tumor microenvironment**
-[![Bimonthly Scientific Webinar — 23 septembre 2026](/images/FRAP230926.png)](/images/FRAP230926.png){: .poster }
-
-- **[Bimonthly Scientific Webinar](https://www.frap-network.or/Webinaires-bimensuels-FRAP-sur-le-cancer-du-pancreas?lang=en)** (Réseau FRAP)   
-Date : **14 Octobre 2026**       
-Horaire : **13h**   
-Sujet : **Exploring the role of social determinants in pancreatic cancer trajectory using the BACAP cohort data**
-{: .poster }
-
 - **[Bimonthly Scientific Webinar](https://www.frap-network.or/Webinaires-bimensuels-FRAP-sur-le-cancer-du-pancreas?lang=en)** (Réseau FRAP)    
 Date : **23 Octobre 2026**   
 Horaire : **de 14h à 16h**   
 Sujet : **Comprehensive overview of current single cell approaches: technologies, available platforms, applications, analysis challenges, and real-world feedback**
 {: .poster }
+   
+- **[Bimonthly Scientific Webinar](https://frap.anamorphik.com/)** (Réseau FRAP)    
+Date : **09 Novembre 2026**   
+Horaire : **de 17h à 18h30**   
+Sujet : **Inhibiteurs de KRAS dans le cancer du pancréas**
+[![FRAP 091126](/images/FRAP091126.png)](/images/FRAP091126.png){: .poster }
 
 # Agenda Formations
 *A venir*

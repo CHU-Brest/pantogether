@@ -366,30 +366,16 @@ Vous trouverez ci-dessous la liste des **associations partenaires du réseau PAN
 
 Les événements ci-dessous s'adressent aussi bien aux patients et à leurs proches qu'aux professionnels de santé.
 
-- **[Recherche participative en santé](https://evento.renater.fr/survey/recherche-participative-en-sante-ou-comment-co-construire-des-projets-de-recherche-avec-les-citoyens-et-les-patients-24-sept-2026-mairie-de-lyon-6-djb71n59)**   
-Date : **24 Septembre 2026**   
-Lieu : **Lyon**   
-[![Recherche participative en santé — 24 septembre 2026, Lyon](/images/rencontreslyon2026.png)](/images/rencontreslyon2026.png){: .poster }   
-   
-- **[Journée scientifique sur la prévention et le dépistage des cancers](https://www.cancer.fr/evenements/journee-scientifique-sur-le-depistage-et-la-prevention-des-cancers)**   
-Date : **29 Septembre 2026**   
-Lieu : **Paris**   
-[![Journée scientifique sur la prévention et le dépistage des cancers — 29 septembre 2026, Paris](/images/inca290926.png)](/images/inca290926.png){: .poster }   
-
-- **[WebConférence ARCAD : Diabète et cancer du foie](https://www.fondationarcad.org/webconference/13-10-2026-webconference-diabete-et-cancer-du-foie/)**   
-Date : **13 Octobre 2026**   
-Lieu : **En distanciel**   
-[![WebConférence ARCAD : Diabète et cancer du foie](/images/ARCAD131026.png)](/images/ARCAD131026.png){: .poster }   
-   
-- **[Conférence grand public : Fake News en santé : Comment s'informer sans se mettre en danger ?](https://www.congres-afsos.com/inscriptions/)**   
-Date : **14 Octobre 2026**   
-Lieu : **Lille et en distanciel**   
-[![Conférence grand public « Fake news en santé » — 14 octobre 2026, Lille](/images/AFSOS2026.png)](/images/AFSOS2026.png){: .poster }   
-
 - **[WebConférence ARCAD : Sexualité et cancers digestifs](https://www.fondationarcad.org/webconference/21-10-2026-webconference-sexualite-et-cancers-digestifs/)**   
 Date : **21 Octobre 2026**   
 Lieu : **En distanciel**   
 [![WebConférence ARCAD : Sexualité et cancers digestifs](/images/ARCAD211026.png)](/images/ARCAD211026.png){: .poster }   
+
+- **[Bimonthly Scientific Webinar](https://frap.anamorphik.com/)** (Réseau FRAP)    
+Date : **09 Novembre 2026**   
+Horaire : **de 17h à 18h30**   
+Sujet : **Inhibiteurs de KRAS dans le cancer du pancréas**
+[![FRAP 091126](/images/FRAP091126.png)](/images/FRAP091126.png){: .poster }
 
 - **[WebConférence ARCAD : Nutrition, dénutrition et cancers digestifs](https://www.fondationarcad.org/webconference/16-11-2026-webconference-nutrition-denutrition-et-cancers-digestifs/)**   
 Date : **16 Novembre 2026**   
