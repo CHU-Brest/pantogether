@@ -34,7 +34,7 @@ Tout médecin prescripteur doit faire sa demande et **remplir une fiche d’insc
 **Les cancers primitifs rares du foie qui seront discutés sont principalement les suivants : hépatocholangiocarcinomes, carcinomes fibrolamellaires, hémangioendothéliomes épithélioïdes, hépatoblastomes de l'adulte, angiomyolipome transformé, carcinomes épidermoïdes primitifs du foie ou cystadénocarcinomes hépatiques. Cette liste n'est pas exhaustive.**    
 Les tumeurs hépatiques bénignes à diagnostic ou prise en charge complexe (adénome borderline/CHC, adénome difficile à traiter, etc…) pourront exceptionnellement être discutées, à la demande d'une RCP spécialisée en tumeurs du foie d'un CHU ayant déjà examiné le dossier.   
 
-[Plus d'informations sur la RCP](/professionnels/#rcp-cancers-primitifs-du-foie-rares_1) 
+[Plus d'informations sur la RCP](/assets/fichediffusionRCP.pdf) (PDF) 
 
 ### Calendrier    
 Jours : **1er lundi et 3ème jeudi du mois**   
@@ -45,26 +45,6 @@ Lieu : **Visioconférence (Omnidoc)**
 **Pour soumettre un dossier à cette RCP, merci de contacter :**   
 Pr Jean-Charles Nault – {@}jean-charles.nault@aphp.fr{/@}   
 Service d'hépatologie et d'oncologie hépatique, hôpital Avicenne, Assistance Publique – Hôpitaux de Paris, 125 avenue de Stalingrad, 93000 Bobigny 
-
-# RCP Cancers primitifs du foie rares     
-
-À compter du 7 décembre 2026, une réunion de concertation pluridisciplinaire (RCP) nationale dédiée aux cancers primitifs rares du foie est mise en place dans le cadre du réseau PAN-TOGETHER, labellisé par l'INCa en septembre 2025. Elle est coordonnée par le service d'hépatologie et d'oncologie hépatique de l'hôpital Avicenne et sera pilotée par le Pr Jean-Charles Nault et le Dr Claudia Campani.   
-
-## Descriptif de la RCP   
-**Les cancers primitifs rares du foie qui seront discutés sont principalement les suivants : hépatocholangiocarcinomes, carcinomes fibrolamellaires, hémangioendothéliomes épithélioïdes, hépatoblastomes de l'adulte, angiomyolipome transformé, carcinomes épidermoïdes primitifs du foie ou cystadénocarcinomes hépatiques. Cette liste n'est pas exhaustive.** Les tumeurs hépatiques bénignes à diagnostic ou prise en charge complexe (adénome borderline/CHC, adénome difficile à traiter, etc…) pourront exceptionnellement être discutées, à la demande d'une RCP spécialisée en tumeurs du foie d'un CHU ayant déjà examiné le dossier.   
-   
-La RCP nationale permet aux médecins de toute la France confrontés à ces situations complexes d'obtenir un avis collégial d'experts reconnus. Cet avis est formalisé, tracé et fondé sur l’expertise des centres participants et les données de la littérature.    
-
-**La RCP se réunira deux fois par mois en visioconférence (omnidoc), le premier lundi et le troisième jeudi du mois, de 16h00 à 17h00.**    
-Elle rassemble des experts de plusieurs centres français (Pr Nault, Dr Sutter, Dr Campani et Pr Ziol_Hôpital Avicenne, Pr Lesurtel, Pr Ronot, Dr Hobeika, Pr Paradis et Dr Beaufrère_Hôpital Beaujon, Pr Caldéraro_Hôpital Henri Mondor, Créteil, Pr Vibert, Pr Golse et  Dr Baron_Hôpital Paul-Brousse, Dr Decraecker_CHU Bordeaux, Pr Boleslawski _CHU Lille,  Pr Aubé et Pr Paisant_CHU Angers, Pr Sturm_CHU Grenoble) et de quatre spécialités : anatomopathologie, radiologie, hépato-gastroentérologie et oncologie digestive, et chirurgie hépatobiliaire.   
-   
-Trois étapes complémentaires se combinent :   
-
-- en amont de la séance, une **relecture anatomopathologique centralisée** par un pathologiste expert si le diagnostic est difficile ;
-- pendant la séance, une **relecture radiologique en direct** des images par un radiologue expert ;
-- une **discussion collégiale** qui aboutit à une proposition personnalisée (diagnostic, examens complémentaires, traitement, suivi).  
- 
-Cette proposition est ensuite transmise à l'équipe qui a présenté le dossier, et c'est elle qui met en œuvre la prise en charge au plus près du patient.
 
 
 # Contacts centres experts référents

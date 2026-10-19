@@ -277,6 +277,11 @@ Il peut s'agir de visites à l'hôpital (avec examen clinique, prises de sang, p
      
 *Retrouvez les bases de données des essais cliniques dans l'onglet [Recherche](/recherche/#essais-cliniques-en-cours)*
 
+## Guides
+
+- **J'ai un cancer : Participer à un essai clinique (INCa)** [![Guide INCa — Cancers et essai clinique](/images/guideincaEC.png)](https://www.calameo.com/institut-national-du-cancer/read/007759608129c0740af60){: .linkcard }
+
+
 ## Les vidéos pédagogiques
 *Des vidéos pédagogiques pour mieux comprendre la participation à un essai clinique et ses étapes*   
 
@@ -309,6 +314,11 @@ Ces soins, définis par l’instruction DGOS/INCa du 23 février 2017, comprenne
 D’autres soins de support ou de services de prise en charge peuvent être proposés tels que des soins esthétiques et corporels, des approches non conventionnelles (hypnose, sophrologie, etc…), un service mobile de soins palliatifs.   
    
 Chacun de ces soins peut être **proposé à tout moment**, de l’annonce du diagnostic à la phase de rémission. Les besoins du patient doivent être rediscutés **tout au long du parcours de soins** avec les professionnels. Les soins de support peuvent être dispensés à l’hôpital ou dans des établissements de santé de ville.   
+
+## Guides
+
+- **Cancers et soins de support (INCa)** [![Guide INCa — Cancers et soins de support](/images/guidesosinca.png)](https://www.calameo.com/institut-national-du-cancer/read/0077596082dfbb1b2f13e){: .linkcard }
+- **Fatigue et cancer (INCa)** [![Guide INCa — Fatigue et cancer](/images/fatigue.png)](https://www.calameo.com/institut-national-du-cancer/read/007759608609d86f88f0a){: .linkcard }
 
 ## Les vidéos pédagogiques
 *Des vidéos pédagogiques sur les soins de support*
