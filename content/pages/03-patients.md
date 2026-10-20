@@ -131,6 +131,11 @@ Proposés tout au long du parcours, les soins de support complètent les traitem
 - **L'après-cancer**   
 À la fin des traitements actifs, un suivi personnalisé est organisé afin de surveiller votre état de santé, prévenir ou prendre en charge les effets à long terme des traitements, dépister une éventuelle récidive et favoriser votre retour à la vie quotidienne. Lorsque cela est indiqué, un Programme Personnalisé de l'Après-Cancer (PPAC) peut être mis en place pour coordonner ce suivi et vous accompagner dans cette nouvelle étape.
 
+## Guides
+
+- **Préparer ses consultations pendant et après un cancer (Ligue Contre le Cancer)** [![Guide Ligue — Préparer ses consulations pendant et après un cancer](/images/PPSligue.png)](https://www.ligue-cancer.net/sites/default/files/media/downloadable-files/2023-09/brd_066_preparer_ses_consultations.pdf){: .linkcard }
+
+
 ## Les vidéos pédagogiques
 *Des vidéos pédagogiques pour mieux comprendre le parcours de soin*   
 

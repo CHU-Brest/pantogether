@@ -193,7 +193,13 @@ Date : **23 Octobre 2026**
 Horaire : **de 14h à 16h**   
 Sujet : **Comprehensive overview of current single cell approaches: technologies, available platforms, applications, analysis challenges, and real-world feedback**
 {: .poster }
-   
+
+- **[Bimonthly Scientific Webinar](https://www.frap-network.org/Webinaires-bimensuels-FRAP-sur-le-cancer-du-pancreas?lang=en)** (Réseau FRAP)    
+Date : **28 Octobre 2026**   
+Horaire : **13h**   
+Sujet : **Modelling and targeting Double strand breaks repair deficient PDAC**
+{: .poster }
+
 - **[Bimonthly Scientific Webinar](https://frap.anamorphik.com/)** (Réseau FRAP)    
 Date : **09 Novembre 2026**   
 Horaire : **de 17h à 18h30**   
