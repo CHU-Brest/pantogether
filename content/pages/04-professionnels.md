@@ -91,8 +91,8 @@ Version : 22/04/2026
 Version : 18/10/2025   
 [Accéder au document](https://www.snfge.org/sites/www.snfge.org/files/tncd/2025-10/tncd_chap-07-CHC_2025-10-18.pdf)  
 - **Cancer des voies biliaires**   
-Version : 28/09/2023   
-[Accéder au document](https://www.snfge.org/sites/www.snfge.org/files/tncd/2025-05/tncd_chap-08-cancer-voies-biliaires_2023-09-28.pdf)   
+Version : 28/09/2026   
+[Accéder au document](https://www.snfge.org/sites/www.snfge.org/files/tncd/2026-10/tncd_chap-08-cancer-voies-biliaires_2026_09_28.pdf)   
 
 ### Soins de support et autres thématiques
 - **Nutrition et activité physique**   
