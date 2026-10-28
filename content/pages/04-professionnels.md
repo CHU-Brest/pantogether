@@ -96,8 +96,8 @@ Version : 28/09/2026
 
 ### Soins de support et autres thématiques
 - **Nutrition et activité physique**   
-Version : 07/11/2022   
-[Accéder au document](https://www.snfge.org/sites/www.snfge.org/files/2023-12/tncd_chap-17_nutrition-apa_2022-11-07.pdf)  
+Version : 13/10/2026   
+[Accéder au document](https://www.snfge.org/sites/www.snfge.org/files/tncd/2026-10/tncd_chap-17_nutrition-APA_2026-10-13.pdf)  
 - **Autres thématiques**   
 Version : 27/06/2025   
 [Accéder au document](https://www.snfge.org/sites/www.snfge.org/files/tncd/2025-06/tncd_chap-20-autres-the%CC%81matiques_2025-06-27_0.pdf)   
