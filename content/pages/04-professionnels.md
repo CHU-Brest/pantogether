@@ -25,7 +25,7 @@ Tout médecin prescripteur doit faire sa demande et **remplir une fiche d’insc
 *Vous pouvez retrouver la version Word des fiches RCP dans l'onglet [Outils & Protocoles harmonisés](/professionnels/#outils-protocoles-harmonises)*
 
 ## Documentation
-[Outil de connexion OMNIDOC](/assets/Tutoriel Requérant RCP Omnidoc.pdf) (PDF)    
+[Outil de connexion OMNIDOC](/assets/Tutoriel Requérant RCP PAN TOGETHER x Omnidoc.pdf) (PDF)    
 
 ## RCP CANCERS PRIMITIFS DU FOIE RARES
 **Centre porteur de la RCP :** Service d'hépatologie et d'oncologie hépatique de l'hôpital Avicenne (AP-HP)   
