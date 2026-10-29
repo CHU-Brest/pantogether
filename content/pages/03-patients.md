@@ -107,7 +107,7 @@ Vous n'avez pas besoin de tout consulter. Choisissez le cancer qui vous concerne
 *Du dépistage au suivi post-cancer.*
 
 Le parcours de soins en oncologie regroupe l'ensemble des étapes qui structurent **l'accompagnement du patient et de ses proches**, du dépistage jusqu'au suivi après les traitements.   
-Après le diagnostic, une équipe pluridisciplinaire de professionnels de santé définit, avec le patient, **la stratégie thérapeutique la plus adaptée**, qui peut associer chirurgie, traitements médicamenteux, radiothérapie ou soins de support. Tout au long de ce parcours, le patient et ses proches bénéficient d'un accompagnement personnalisé visant à prendre en compte leurs besoins médicaux, psychologiques, sociaux et leur qualité de vie. À la fin des traitements, un suivi régulier est mis en place afin de surveiller l'évolution de la maladie, dépister une éventuelle récidive, prendre en charge les effets à long terme des traitements et favoriser le retour à une vie quotidienne dans les meilleures conditions possibles.    
+Après le diagnostic, une équipe pluridisciplinaire de professionnels de santé définit, avec le patient, **la stratégie thérapeutique la plus adaptée**, qui peut associer chirurgie, traitements médicamenteux ou radiothérapie. Tout au long de ce parcours, le patient et ses proches bénéficient d'un accompagnement personnalisé visant à prendre en compte leurs besoins médicaux, psychologiques, sociaux et leur qualité de vie. À la fin des traitements, un suivi régulier est mis en place afin de surveiller l'évolution de la maladie, dépister une éventuelle récidive, prendre en charge les effets à long terme des traitements et favoriser le retour à une vie quotidienne dans les meilleures conditions possibles.    
    
 ## Les étapes clés de votre parcours de soins
 ![parcours soins](/images/parcours de soins.jpg)   
@@ -120,7 +120,7 @@ Le diagnostic vous est communiqué par votre médecin lors d’une consultation 
 Votre dossier est étudié par une équipe de spécialistes (oncologues, chirurgiens, radiothérapeutes, anatomopathologistes, radiologues, etc.). Ensemble, ils définissent la stratégie thérapeutique la plus adaptée à votre situation, en s'appuyant sur les recommandations médicales les plus récentes.
 
 - **Le Programme Personnalisé de Soins (PPS)**   
-Lors d'une consultation dédiée, votre médecin vous présente la proposition de stratégie thérapeutique définie lors de la RCP. Cette proposition vous est remise sous la forme d'un document, le Programme Personnalisé de Soins (PPS), qui récapitule les traitements proposés (chirurgie, chimiothérapie, radiothérapie, immunothérapie, hormonothérapie…), leur calendrier prévisionnel ainsi que les modalités de votre prise en charge.   
+Lors d'une consultation dédiée, votre médecin vous présente la proposition de stratégie thérapeutique définie lors de la RCP. Cette proposition vous est remise sous la forme d'un document, le Programme Personnalisé de Soins (PPS), qui récapitule les traitements proposés (chirurgie, chimiothérapie, radiothérapie, immunothérapie, ...), leur calendrier prévisionnel ainsi que les modalités de votre prise en charge.   
 Votre PPS peut évoluer au cours de votre parcours de soin selon votre réponse aux traitements et votre état de santé.
    
 *Selon les cas et la complexité de la pathologie, les temps d’annonce de la confirmation du diagnostic et de proposition thérapeutique peuvent être réunis ou séparés.*
@@ -130,6 +130,11 @@ Proposés tout au long du parcours, les soins de support complètent les traitem
 
 - **L'après-cancer**   
 À la fin des traitements actifs, un suivi personnalisé est organisé afin de surveiller votre état de santé, prévenir ou prendre en charge les effets à long terme des traitements, dépister une éventuelle récidive et favoriser votre retour à la vie quotidienne. Lorsque cela est indiqué, un Programme Personnalisé de l'Après-Cancer (PPAC) peut être mis en place pour coordonner ce suivi et vous accompagner dans cette nouvelle étape.
+
+## Guides
+
+- **Préparer ses consultations pendant et après un cancer (Ligue Contre le Cancer)** [![Guide Ligue — Préparer ses consulations pendant et après un cancer](/images/PPSligue.png)](https://www.ligue-cancer.net/sites/default/files/media/downloadable-files/2023-09/brd_066_preparer_ses_consultations.pdf){: .linkcard }
+
 
 ## Les vidéos pédagogiques
 *Des vidéos pédagogiques pour mieux comprendre le parcours de soin*   
@@ -277,6 +282,11 @@ Il peut s'agir de visites à l'hôpital (avec examen clinique, prises de sang, p
      
 *Retrouvez les bases de données des essais cliniques dans l'onglet [Recherche](/recherche/#essais-cliniques-en-cours)*
 
+## Guides
+
+- **J'ai un cancer : Participer à un essai clinique (INCa)** [![Guide INCa — Cancers et essai clinique](/images/guideincaEC.png)](https://www.calameo.com/institut-national-du-cancer/read/007759608129c0740af60){: .linkcard }
+
+
 ## Les vidéos pédagogiques
 *Des vidéos pédagogiques pour mieux comprendre la participation à un essai clinique et ses étapes*   
 
@@ -309,6 +319,11 @@ Ces soins, définis par l’instruction DGOS/INCa du 23 février 2017, comprenne
 D’autres soins de support ou de services de prise en charge peuvent être proposés tels que des soins esthétiques et corporels, des approches non conventionnelles (hypnose, sophrologie, etc…), un service mobile de soins palliatifs.   
    
 Chacun de ces soins peut être **proposé à tout moment**, de l’annonce du diagnostic à la phase de rémission. Les besoins du patient doivent être rediscutés **tout au long du parcours de soins** avec les professionnels. Les soins de support peuvent être dispensés à l’hôpital ou dans des établissements de santé de ville.   
+
+## Guides
+
+- **Cancers et soins de support (INCa)** [![Guide INCa — Cancers et soins de support](/images/guidesosinca.png)](https://www.calameo.com/institut-national-du-cancer/read/0077596082dfbb1b2f13e){: .linkcard }
+- **Fatigue et cancer (INCa)** [![Guide INCa — Fatigue et cancer](/images/fatigue.png)](https://www.calameo.com/institut-national-du-cancer/read/007759608609d86f88f0a){: .linkcard }
 
 ## Les vidéos pédagogiques
 *Des vidéos pédagogiques sur les soins de support*
@@ -366,30 +381,16 @@ Vous trouverez ci-dessous la liste des **associations partenaires du réseau PAN
 
 Les événements ci-dessous s'adressent aussi bien aux patients et à leurs proches qu'aux professionnels de santé.
 
-- **[Recherche participative en santé](https://evento.renater.fr/survey/recherche-participative-en-sante-ou-comment-co-construire-des-projets-de-recherche-avec-les-citoyens-et-les-patients-24-sept-2026-mairie-de-lyon-6-djb71n59)**   
-Date : **24 Septembre 2026**   
-Lieu : **Lyon**   
-[![Recherche participative en santé — 24 septembre 2026, Lyon](/images/rencontreslyon2026.png)](/images/rencontreslyon2026.png){: .poster }   
-   
-- **[Journée scientifique sur la prévention et le dépistage des cancers](https://www.cancer.fr/evenements/journee-scientifique-sur-le-depistage-et-la-prevention-des-cancers)**   
-Date : **29 Septembre 2026**   
-Lieu : **Paris**   
-[![Journée scientifique sur la prévention et le dépistage des cancers — 29 septembre 2026, Paris](/images/inca290926.png)](/images/inca290926.png){: .poster }   
-
-- **[WebConférence ARCAD : Diabète et cancer du foie](https://www.fondationarcad.org/webconference/13-10-2026-webconference-diabete-et-cancer-du-foie/)**   
-Date : **13 Octobre 2026**   
-Lieu : **En distanciel**   
-[![WebConférence ARCAD : Diabète et cancer du foie](/images/ARCAD131026.png)](/images/ARCAD131026.png){: .poster }   
-   
-- **[Conférence grand public : Fake News en santé : Comment s'informer sans se mettre en danger ?](https://www.congres-afsos.com/inscriptions/)**   
-Date : **14 Octobre 2026**   
-Lieu : **Lille et en distanciel**   
-[![Conférence grand public « Fake news en santé » — 14 octobre 2026, Lille](/images/AFSOS2026.png)](/images/AFSOS2026.png){: .poster }   
-
 - **[WebConférence ARCAD : Sexualité et cancers digestifs](https://www.fondationarcad.org/webconference/21-10-2026-webconference-sexualite-et-cancers-digestifs/)**   
 Date : **21 Octobre 2026**   
 Lieu : **En distanciel**   
 [![WebConférence ARCAD : Sexualité et cancers digestifs](/images/ARCAD211026.png)](/images/ARCAD211026.png){: .poster }   
+
+- **[Bimonthly Scientific Webinar](https://frap.anamorphik.com/)** (Réseau FRAP)    
+Date : **09 Novembre 2026**   
+Horaire : **de 17h à 18h30**   
+Sujet : **Inhibiteurs de KRAS dans le cancer du pancréas**
+[![FRAP 091126](/images/FRAP091126.png)](/images/FRAP091126.png){: .poster }
 
 - **[WebConférence ARCAD : Nutrition, dénutrition et cancers digestifs](https://www.fondationarcad.org/webconference/16-11-2026-webconference-nutrition-denutrition-et-cancers-digestifs/)**   
 Date : **16 Novembre 2026**   
