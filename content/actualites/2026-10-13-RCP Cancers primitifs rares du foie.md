@@ -15,7 +15,7 @@ Le carcinome hépatocellulaire est le cancer primitif du foie le plus fréquent.
 La RCP nationale « Cancers Primitifs du Foie Rares » permet aux médecins de toute la France confrontés à ces situations complexes d'obtenir un avis collégial d'experts reconnus. Cet avis est formalisé, tracé et fondé sur l’expertise des centres participants.   
 
 **Une organisation multidisciplinaire**   
-La RCP nationale « Cancers Primitifs du Foie Rares » se réunit toutes les deux semaines en visioconférence, sur requête de collègues soumettant des cas via une fiche standardisée validée par le réseau PAN-TOGETHER. Elle rassemble des experts de plusieurs centres français (Avicenne, Beaujon, Créteil, Paul-Brousse, Bordeaux, Lille, Grenoble, Angers…) et de quatre spécialités : anatomopathologie, radiologie, hépato-gastroentérologie et oncologie digestive, et chirurgie hépatique. Un coordinateur d'Avicenne est présent à chaque séance. 
+La RCP nationale « Cancers Primitifs du Foie Rares » se réunit toutes les deux semaines en visioconférence, sur requête de collègues soumettant des cas via une fiche standardisée validée par le réseau PAN-TOGETHER. Elle rassemble des experts de plusieurs centres français (Avicenne, Beaujon, Créteil, Paul-Brousse, Bordeaux, Lille, Grenoble, Angers, Tours…) et de quatre spécialités : anatomopathologie, radiologie, hépato-gastroentérologie et oncologie digestive, et chirurgie hépatique. Un coordinateur d'Avicenne est présent à chaque séance. 
 Trois étapes complémentaires se combinent :   
 
 - en amont, une **relecture anatomopathologique centralisée** par un pathologiste expert, si le diagnostic est difficile ;
