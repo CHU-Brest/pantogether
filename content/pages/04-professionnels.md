@@ -35,7 +35,7 @@ Tout médecin prescripteur doit faire sa demande et **remplir une fiche d’insc
 Les tumeurs hépatiques bénignes à diagnostic ou prise en charge complexe (adénome borderline/CHC, adénome difficile à traiter, etc…) pourront exceptionnellement être discutées, à la demande d'une RCP spécialisée en tumeurs du foie d'un CHU ayant déjà examiné le dossier.   
 
 [Plus d'informations sur la RCP](/assets/PantogetherfichediffusionRCP.pdf) (PDF)   
-[Charte de la RCP](/assets/charte_RCP_nationale_FVB.pdf) (PDF)   
+[Charte de la RCP](/assets/Charte_RCP_nationale_FVB.pdf) (PDF)   
 [Liste de référence des tumeurs discutées en RCP](/assets/Liste_tumeurs_primitives_rares_du_foie.pdf) (PDF)   
 
 ### Calendrier    

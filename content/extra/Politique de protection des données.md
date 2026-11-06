@@ -7,10 +7,10 @@ Le respect des libertés et droits fondamentaux et notamment la protection des d
 
 ## 1. Resonsabilité de traitement
 
-Les données traitées dans le cadre du présent site pantogether.fr (ci-après "le Site") sont sous la responsabilité conjointe des membres du réseau avec la répartition suivante : 
--	Sur la mise en place du site : CHU de Brest 
--	Sur les données de connexions au site : CHU de Brest
--	Sur les données constituant l’annuaire :  chacun des membres du réseau est responsable des données à caractère personnelles répertoriées sur le Site.
+Les données traitées dans le cadre du présent site pantogether.fr (ci-après "le Site") sont sous la responsabilité conjointe des membres du réseau avec la répartition suivante :    
+-	Sur la mise en place du site : CHU de Brest    
+-	Sur les données de connexions au site : CHU de Brest   
+-	Sur les données constituant l’annuaire :  chacun des membres du réseau est responsable des données à caractère personnelles répertoriées sur le Site.   
 
 ## 2.  Finalités de traitement
 
