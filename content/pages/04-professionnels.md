@@ -27,14 +27,16 @@ Tout médecin prescripteur doit faire sa demande et **remplir une fiche d’insc
 ## Documentation
 [Outil de connexion OMNIDOC](/assets/Tutoriel Requérant RCP PAN TOGETHER x Omnidoc.pdf) (PDF)    
 
-## RCP CANCERS PRIMITIFS DU FOIE RARES
+## RCP CANCERS PRIMITIFS RARES DU FOIE
 **Centre porteur de la RCP :** Service d'hépatologie et d'oncologie hépatique de l'hôpital Avicenne (AP-HP)   
 **Coordonateurs de la RCP :** Pr Jean-Charles Nault & Dr Claudia Campani
    
-**Les cancers primitifs rares du foie qui seront discutés sont principalement les suivants : hépatocholangiocarcinomes, carcinomes fibrolamellaires, hémangioendothéliomes épithélioïdes, hépatoblastomes de l'adulte, angiomyolipome transformé, carcinomes épidermoïdes primitifs du foie ou cystadénocarcinomes hépatiques. Cette liste n'est pas exhaustive.**    
+**Les cancers primitifs rares du foie qui seront discutés sont principalement les suivants : hépatocholangiocarcinomes, carcinomes fibrolamellaires, hémangioendothéliomes épithélioïdes, hépatoblastomes de l'adulte, angiomyolipome transformé, carcinomes épidermoïdes primitifs du foie ou cystadénocarcinomes hépatiques, etc... Cette liste n'est pas exhaustive.**    
 Les tumeurs hépatiques bénignes à diagnostic ou prise en charge complexe (adénome borderline/CHC, adénome difficile à traiter, etc…) pourront exceptionnellement être discutées, à la demande d'une RCP spécialisée en tumeurs du foie d'un CHU ayant déjà examiné le dossier.   
 
-[Plus d'informations sur la RCP](/assets/PantogetherfichediffusionRCP.pdf) (PDF) 
+[Plus d'informations sur la RCP](/assets/PantogetherfichediffusionRCP.pdf) (PDF)   
+[Charte de la RCP](/assets/charte_RCP_nationale_FVB.pdf) (PDF)   
+[Liste de référence des tumeurs discutées en RCP](/assets/Liste_tumeurs_primitives_rares_du_foie.pdf) (PDF)   
 
 ### Calendrier    
 Jours : **1er lundi et 3ème jeudi du mois**   
@@ -44,6 +46,7 @@ Lieu : **Visioconférence (Omnidoc)**
 ### Modalités de soumission d'un dossier     
 **Pour soumettre un dossier à cette RCP, merci de contacter :**   
 Pr Jean-Charles Nault – {@}jean-charles.nault@aphp.fr{/@}   
+Dr Claudia Campani – {@}claudia.campani@aphp.fr{/@}     
 Service d'hépatologie et d'oncologie hépatique, hôpital Avicenne, Assistance Publique – Hôpitaux de Paris, 125 avenue de Stalingrad, 93000 Bobigny 
 
 
