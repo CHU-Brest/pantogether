@@ -207,7 +207,14 @@ Sujet : **Modelling and targeting Double strand breaks repair deficient PDAC**
 Date : **09 Novembre 2026**   
 Horaire : **de 17h à 18h30**   
 Sujet : **Inhibiteurs de KRAS dans le cancer du pancréas**
-[![FRAP 091126](/images/FRAP091126.png)](/images/FRAP091126.png){: .poster }
+{: .poster }
+
+- **[Bimonthly Scientific Webinar](https://www.frap-network.org/Webinaires-Scientifiques-Bimensuels-FRAP-TBD-99)** (Réseau FRAP)    
+Date : **25 Novembre 2026**   
+Horaire : **13h**   
+Sujet : **PEPR Light-Matter Interaction, a photodynamic therapy to address the challenge of treating pancreatic cancer**
+{: .poster }
+
 
 # Agenda Formations
 *A venir*
