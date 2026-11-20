@@ -333,6 +333,8 @@ PARTNERS = [
 ]
 LINKS = ()
 
+FEEDBACK_ENDPOINT = 'https://formspree.io/f/mwlonknq'
+
 # Flux désactivés en développement
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None

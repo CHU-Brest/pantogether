@@ -1,5 +1,6 @@
 Title: Le réseau
 Slug: le-reseau
+Feedback: off
 Template: docs
 Summary: Présentation, contexte, axes d'expertise, gouvernance et partenaires du réseau PAN-TOGETHER.
 
@@ -38,6 +39,7 @@ Mettre à disposition des patients, des proches et des professionnels une inform
 🎓 **Formation continue**   
 Développer des actions de formation, de partage d'expertise et de diffusion des connaissances pour accompagner les professionnels de santé dans l'évolution des pratiques, des recommandations et des innovations en oncologie.      
    
+<div data-feedback="Reseau - présentation"></div>
 
 # Les axes d'expertise
 *Trois grands axes d'expertise*   
@@ -86,7 +88,7 @@ Le taux de survie des patients atteints de cancer du foie est de 18% à 5 ans. (
         - Permettre la **caractérisation moléculaire** pour tous les patients atteints de cancer des voies biliaires avancé, quel que soit le lieu de prise en charge, et au plus tôt après le diagnostic de forme avancée   
     - Permettre une prise en charge multidisciplinaire via **l’organisation d’une RCP nationale** dédiée aux cancers rares des voies biliaires et autres cancers primitifs rares du foie (carcinome fibrolamellaire, angiosarcome …), permettant un accès rapide à des diagnostics complexes et des prises en soins spécialisées.   
 
-  
+<div data-feedback="Reseau - axes d'expertise"></div>  
 
 # Organisation
 *Un maillage territorial étendu*   
@@ -121,6 +123,8 @@ Les centres experts sont sélectionnés selon des **critères d'excellence**, pa
 
 Ils ont pour rôle de **structurer et d’animer le réseau** en établissant des conventions de collaboration régionales et/ou inter-régionales avec les centres de proximité, les médecins généralistes et spécialistes, garantissant l’accès à des plateformes diagnostiques et interventionnelles de pointe. Ils permettent la concertation d’experts grâce à l’organisation de Réunions de Concertation Pluridisciplinaires (RCP) spécialisées et veillent à ce que les essais thérapeutiques soient accessibles au plus grand nombre de patients, indépendamment de leur lieu de prise en charge ou de résidence.   
 
+<div data-feedback="Reseau - organisation"></div>
+
 # Gouvernance
 ## Le comité scientifique
 
@@ -136,7 +140,6 @@ Il se réunit une fois par an et a pour missions de :
 - Proposer des indicateurs d’évaluation   
 
  
-
 ## Les bureaux opérationnels   
 Chaque axe du réseau possède un bureau opérationnel composé des coordonnateurs du réseau et du centre expert référent, des représentants des spécialités médicales (chirurgie, oncologie, radiologie, médecine nucléaire, endoscopie, anatomopathologie/biologie moléculaire) et des représentants de patients.   
    
@@ -154,6 +157,8 @@ Les bureaux opérationnels se réunissent de manière trimestrielle et transmett
    
 Chaque membre du comité scientifique et des bureaux opérationnels s'engagent à respecter la [charte de fonctionnement du réseau](/assets/Charte fonctionnement réseau v1.0 05.26.pdf) (PDF).   
 
+<div data-feedback="Reseau - gouvernance"></div>
+
 # Partenaires & financement
 *Réseau labellisé par l'INCa*   
 
@@ -162,10 +167,12 @@ Le réseau **PAN-TOGETHER** a été labellisé et financé par **l’INCa** à l
 Il est soutenu par :   
 
 -	3 fédérations hospitalières : FHF, Unicancer et FHP     
-- 15 sociétés savantes :  ACHBT, AFEF, AFIGHE, AFSOS, ANGH, ASFAR, FFCD, FRENCH, GERCOR, SFCD, SFCO, SFED, SFPO, SFRO, SIAD, SNFGE
+- 16 sociétés savantes :  ACHBT, AFEF, AFIGHE, AFSOS, ANGH, ASFAR, FFCD, FRENCH, GERCOR, SFCD, SFCO, SFED, SFPO, SFRO, SIAD, SNFGE
 - Des associations d'internes : AERIO, SFjRO   
 - Les instances professionnelles : CNP IPA, Présidents de CME de CHU et CHG   
 - Les groupes et réseaux de recherche : FRANCIM, UNICANCER GI, réseau FRAP   
 - Les associations et partenaires institutionnels : La ligue contre le cancer, ADIRESCA, la Direction du CHU de Brest   
 - Le Centre de données cliniques (CDC) du CHU de Brest   
 - Les associations de patients : ARCAD, ALBI, SOS hépatites, France Fer Hemochromatose, L'étendard des cancers digestifs
+
+<div data-feedback="Reseau - partenaires"></div>

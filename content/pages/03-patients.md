@@ -1,7 +1,9 @@
 Title: Espace patients & proches
 Slug: patients
+Feedback: off
 Template: docs
 Summary: Comprendre les cancers digestifs, le parcours de soin, les essais cliniques et les soins de support.
+
 
 # Comprendre les cancers digestifs
 
@@ -74,7 +76,7 @@ Vous n'avez pas besoin de tout consulter. Choisissez le cancer qui vous concerne
 - **Radiothérapie externe (PLCG)** [![Vidéo — La radiothérapie externe](/images/radioext.png)](https://parislivercancergroup.com/pour-les-patients/#video-gallery-fabf4d9-1){: .linkcard }
 - **Radioembolisation (PLCG)** [![Vidéo — La radioembolisation (SIRT)](/images/SIRT.png)](https://parislivercancergroup.com/pour-les-patients/#video-gallery-fabf4d9-2){: .linkcard }
 - **Ablation percutanée (PLCG)** [![Vidéo — L’ablation percutanée](/images/Ablation.png)](https://parislivercancergroup.com/pour-les-patients/#video-gallery-fabf4d9-9){: .linkcard }
-- **Chimioembolisation (PLCG**) [![Vidéo — La chimioembolisation](/images/Chimioembol.png)](https://parislivercancergroup.com/pour-les-patients/#video-gallery-fabf4d9-10){: .linkcard }
+- **Chimioembolisation (PLCG)** [![Vidéo — La chimioembolisation](/images/Chimioembol.png)](https://parislivercancergroup.com/pour-les-patients/#video-gallery-fabf4d9-10){: .linkcard }
    
 **Traitements médicamenteux**   
 
@@ -100,6 +102,8 @@ Vous n'avez pas besoin de tout consulter. Choisissez le cancer qui vous concerne
   → Informations sur les [cancers de l'estomac](https://www.cancer.fr/personnes-malades/les-cancers/estomac)   
   → Informations sur les [cancers du foie](https://en-www.cancer.fr/personnes-malades/les-cancers/foie)   
   → Informations sur les [cancers du pancréas](https://www.cancer.fr/personnes-malades/les-cancers/pancreas)    
+
+<div data-feedback="Patients - cancers-digestifs"></div>
 
 
 # Le parcours de soins
@@ -155,7 +159,9 @@ Proposés tout au long du parcours, les soins de support complètent les traitem
 - **Les soins de support (INCa)** [![Vidéo — Les soins de support](/images/parcours7.png)](https://www.youtube.com/watch?v=wxpOnnXXC1I){: .linkcard }
 - **Le suivi après-cancer (INCa)** [![Vidéo — Le suivi après-cancer](/images/parcours8.png)](https://www.youtube.com/watch?v=0hudQCrm1gM){: .linkcard }
 
-   
+<div data-feedback="Patients - parcours-de-soin"></div>
+
+
 # Les essais cliniques
 *Les essais cliniques : faire progresser la recherche médicale*   
 
@@ -295,6 +301,9 @@ Il peut s'agir de visites à l'hôpital (avec examen clinique, prises de sang, p
 - **Le parcours du patient en essai clinique (CHU Bordeaux)** [![Vidéo — Le parcours en essai clinique](/images/rechercheclinique bdx.png)](https://www.youtube.com/watch?v=-0T7DRlUrpE){: .linkcard }
 - **Témoignagne d'une patiente (ICM Montpellier)** [![Vidéo — Témoignage](/images/EC temoignage.png)](https://www.youtube.com/watch?v=MFKpLT587cA&t=0s){: .linkcard }
 
+<div data-feedback="Patients - essais-cliniques"></div>
+
+
 # Soins de support & qualité de vie
 *Les soins de support : préserver votre qualité de vie*   
 
@@ -332,6 +341,9 @@ Chacun de ces soins peut être **proposé à tout moment**, de l’annonce du di
 - **Les soins oncologiques de support (CHU Bordeaux)** [![Vidéo — TAS et soins de support](/images/SOS Bdx.png)](https://www.youtube.com/watch?v=zbjOpCaKn7A){: .linkcard }
 - **Les soins de support en oncologie (Centre Léon Bérard)** [![Vidéo — Soins de support](/images/SOS Leon berard.png)](https://www.youtube.com/watch?v=eFceE2iGILY){: .linkcard }
 
+<div data-feedback="Patients - soins de support"></div>
+
+
 # Devenir patient partenaire
 *Partager son expérience pour améliorer le parcours de soin*   
 
@@ -356,7 +368,10 @@ Les parcours de formation possibles :
 
 - **Patient partenaire, exemple aux HCL (Hospices Civils de Lyon)** [![Vidéo — Patient partenaire](/images/HCL patientpartenaire.png)](https://www.youtube.com/watch?v=Azp4Dq8KIHE){: .linkcard }
 - **Du patient au partenaire (B Smart)** [![Vidéo — La participation à un essai clinique](/images/Bsmart.png)](https://www.youtube.com/watch?v=-eZkq3NTmcA){: .linkcard }
-   
+
+<div data-feedback="Patients - patients partenaires"></div>
+
+
 # Associations   
 *Les associations de patients : des partenaires engagés à vos côtés*   
 
@@ -374,6 +389,8 @@ Vous trouverez ci-dessous la liste des **associations partenaires du réseau PAN
 - [![ALBI France](/images/albi.png)](https://albi-france.org){: .linkcard } **ALBI** est l’Association pour la Lutte contre les maladies inflammatoires du foie et des voies BIliaires. Elle accompagne les patients atteints de ces maladies hépato-biliaires rares ainsi que leurs proches. Elle œuvre également en faveur d’un diagnostic plus précoce et d’une meilleure prise en charge des patients.
 - [![France Fer Hémochromatose](/images/ffh.png)](https://www.hemochromatose.org){: .linkcard } **France Fer Hémochromatose** informe, accompagne et soutient les personnes atteintes d’hémochromatose ainsi que leurs proches. L’association sensibilise à cette maladie génétique responsable d’une accumulation de fer dans l’organisme et œuvre en faveur d’un diagnostic et d’une prise en charge précoces. Non traitée, cette surcharge peut endommager le foie, entraîner une cirrhose et augmenter le risque de carcinome hépatocellulaire.
 - [![SOS Hépatites](/images/soshepatites.png)](https://soshepatites.org){: .linkcard } **SOS Hépatites** informe, accompagne et soutient les personnes concernées par les hépatites virales. L’association mène des actions de prévention, de dépistage et d’information, défend les droits des patients et contribue à améliorer leur prise en charge. Elle sensibilise également aux maladies du foie et à leurs complications, notamment la cirrhose et le cancer du foie.
+
+<div data-feedback="Patients - associations"></div>
 
 
 # Agenda
@@ -401,6 +418,8 @@ Lieu : **En distanciel**
 Date : **07 Décembre 2026**   
 Lieu : **En distanciel**   
 [![WebConférence ARCAD : Parentalité, grossesse et cancers digestifs](/images/ARCAD071226.png)](/images/ARCAD071226.png){: .poster }   
+
+<div data-feedback="Patients - agenda"></div>
 
 
 # Lexique
@@ -574,3 +593,5 @@ Diminution du nombre de plaquettes dans le sang, pouvant favoriser les saignemen
 Une tumeur bénigne ne se propage pas ailleurs dans le corps ; une tumeur maligne (cancéreuse) peut envahir les tissus voisins ou métastaser.
 
 *Une question sur un terme non listé ici ? Parlez-en à votre équipe soignante, à l'infirmier(ère) de coordination, ou à un patient partenaire si votre établissement en propose.*
+
+<div data-feedback="Patients - lexique"></div>

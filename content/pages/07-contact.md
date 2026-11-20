@@ -1,5 +1,6 @@
 Title: Contact
 Slug: contact
+Feedback: off
 Template: page
 Summary: Coordonnées du centre pilote et réseaux sociaux du réseau PAN-TOGETHER.
 
