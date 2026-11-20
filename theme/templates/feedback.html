@@ -1,0 +1,126 @@
+{# Bloc par défaut en bas de page, sauf si la page contient "Feedback: off" #}
+{% if (page or article)
+      and not (page and page.feedback == 'off')
+      and not (article and article.feedback == 'off') %}
+  <div data-feedback></div>
+{% endif %}
+
+<style>
+  .feedback {
+    max-width: 40rem;
+    margin: 2rem auto;
+    padding: 1.2rem 1.5rem;
+    text-align: center;
+    background: #f5f7fa;
+    border: 1px solid #e0e4ea;
+    border-radius: 8px;
+  }
+  .feedback [hidden] { display: none; }
+  .feedback-question { margin: 0 0 .8rem; font-weight: 600; }
+  .feedback-buttons { display: flex; justify-content: center; gap: .8rem; flex-wrap: wrap; }
+  .feedback button {
+    padding: .5rem 1.2rem;
+    font-size: 1rem;
+    border: 1px solid #b8c0cc;
+    border-radius: 6px;
+    background: #fff;
+    cursor: pointer;
+  }
+  .feedback button:hover { background: #eaf0f8; }
+  .feedback button.secondary { border-color: transparent; background: transparent; text-decoration: underline; }
+  .feedback label { display: block; margin: 1rem 0 .4rem; font-weight: 600; }
+  .feedback textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: .6rem;
+    font: inherit;
+    border: 1px solid #b8c0cc;
+    border-radius: 6px;
+    resize: vertical;
+  }
+  .feedback-hint { margin: .4rem 0 .8rem; font-size: .8rem; color: #666; }
+</style>
+
+<script>
+(function () {
+  var ENDPOINT = '{{ FEEDBACK_ENDPOINT }}';
+  var count = 0;
+
+  function init(slot) {
+    var context = slot.getAttribute('data-feedback') || '';
+    var id = 'fb' + (++count);
+    var key = 'feedback_' + location.pathname + (context ? '#' + context : '');
+
+    slot.className = 'feedback';
+    slot.innerHTML =
+      '<p class="feedback-question">Cette page vous a-t-elle été utile ?</p>' +
+      '<div class="feedback-choice feedback-buttons">' +
+        '<button type="button" data-answer="oui">👍 Oui</button>' +
+        '<button type="button" data-answer="non">👎 Non</button>' +
+      '</div>' +
+      '<div class="feedback-details" hidden>' +
+        '<label for="' + id + '">Que cherchiez-vous ?</label>' +
+        '<textarea id="' + id + '" rows="3" maxlength="500" ' +
+          'placeholder="Décrivez ce que vous n\'avez pas trouvé…"></textarea>' +
+        '<p class="feedback-hint">Merci de ne pas indiquer d\'informations personnelles ni de données de santé vous concernant.</p>' +
+        '<div class="feedback-buttons">' +
+          '<button type="button" class="send">Envoyer</button>' +
+          '<button type="button" class="skip secondary">Passer</button>' +
+        '</div>' +
+      '</div>' +
+      '<p class="feedback-thanks" role="status" aria-live="polite" hidden>Merci pour votre retour !</p>';
+
+    var question = slot.querySelector('.feedback-question');
+    var choice = slot.querySelector('.feedback-choice');
+    var details = slot.querySelector('.feedback-details');
+    var thanks = slot.querySelector('.feedback-thanks');
+    var comment = slot.querySelector('textarea');
+
+    function showThanks() {
+      question.hidden = true;
+      choice.hidden = true;
+      details.hidden = true;
+      thanks.hidden = false;
+    }
+
+    try { if (localStorage.getItem(key)) { showThanks(); return; } } catch (e) {}
+
+    function send(answer, text) {
+      try { localStorage.setItem(key, '1'); } catch (e) {}
+      showThanks();
+      fetch(ENDPOINT, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+        body: JSON.stringify({
+          utile: answer,
+          commentaire: text || '',
+          page: location.pathname,
+          onglet: context
+        })
+      }).catch(function () {});
+    }
+
+    choice.querySelectorAll('button').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        if (btn.getAttribute('data-answer') === 'oui') {
+          send('oui');
+        } else {
+          choice.hidden = true;
+          question.textContent = 'Désolé que cette page ne vous ait pas aidé.';
+          details.hidden = false;
+          comment.focus();
+        }
+      });
+    });
+
+    slot.querySelector('.send').addEventListener('click', function () {
+      send('non', comment.value.trim());
+    });
+    slot.querySelector('.skip').addEventListener('click', function () {
+      send('non');
+    });
+  }
+
+  document.querySelectorAll('[data-feedback]').forEach(init);
+})();
+</script>

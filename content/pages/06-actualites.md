@@ -1,5 +1,6 @@
 Title: Actualités
 Slug: actualites
+Feedback: off
 Template: actualites
 Summary: Actualités, communiqués et temps forts du réseau PAN-TOGETHER.
 

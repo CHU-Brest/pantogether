@@ -1,5 +1,6 @@
 Title: Recherche & innovation
 Slug: recherche
+Feedback: off
 Template: docs
 Summary: Projets de recherche par axe, essais cliniques, publications, appels à projets, registres et biobanques.
 
@@ -40,6 +41,7 @@ Summary: Projets de recherche par axe, essais cliniques, publications, appels à
 - Provence-Alpes-Côte d'Azur, Corse   
 [Registre Onco PACA Corse](https://www.oncopacacorse.org/repertoire-essais-cliniques/)   
 
+<div data-feedback="Recherche - essais-cliniques"></div>
 
 # Publications
 *A venir.*

@@ -1,5 +1,6 @@
 Title: Espace professionnels
 Slug: professionnels
+Feedback: off
 Template: docs
 Summary: RCP, référentiels nationaux, outils harmonisés et formation à destination des professionnels.
 
